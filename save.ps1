@@ -1,7 +1,7 @@
 # save.ps1 — copy local Claude files into repo and push to GitHub
 
 $repoDir = $PSScriptRoot
-$memorySource = "$HOME\.claude\projects\C--Users-$env:USERNAME\memory"
+$memorySource = "$HOME\.claude\projects\C--Users-$env:USERNAME-crow-config\memory"
 
 Copy-Item "$HOME\CLAUDE.md" -Destination "$repoDir\CLAUDE.md" -Force
 Copy-Item "$memorySource\*" -Destination "$repoDir\memory\" -Force

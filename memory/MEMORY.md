@@ -1,6 +1,10 @@
 # Memory Index
 
-- [Korn's Identity & Background](user_korn.md) — 19yo Thai uni student, bass/guitar, reader, gym; high school friends are his grounding
-- [Korn's Values & Philosophy](user_korn_values.md) — anti-consumerism, relativism about truth, freedom from external expectations, contentment as core identity
-- [Korn's Struggles & Unresolved](user_korn_struggles.md) — purpose unknown, contentment as excuse, peace of mind vs. productivity, harsh words
-- [Crow's Role](user_crow_role.md) — Crow = Claude Code, named after Kafka on the Shore; generalist, coordinator, main guy on the team
+- [Session Cohesion](feedback_session_cohesion.md) — Read memory at every session start to maintain continuity and consistent character
+- [Session Start Question](feedback_session_start.md) — Don't repeat "what matters today" if already asked the same day; check last_asked date before firing
+- [Bluetooth Fix](project_bluetooth_fix.md) — ASUS ROG G513RC, MediaTek BT driver still broken, next step is fresh driver from ASUS support site
+- [Rubnong Tracker](project_rubnong_tracker.md) — Google Sheets progress tracker for รับน้อง camp, script ready, blocked on Apps Script editor not opening (browser/account conflict)
+- [Transparency Preference](feedback_transparency.md) — Call out when something sounds off, blatantly — Vera's role, no permission needed
+- [Reading List](user_reading_list.md) — Full reading history with what stuck from each book — use for book discussions and understanding how he thinks
+- [Artis Nightly Quote](feedback_artis_quote.md) — End every session with a classic lit quote from Artis tied to the day's themes
+- [Artis Quotes Log](artis_quotes_log.md) — Running log of all nightly quotes with date and reason
