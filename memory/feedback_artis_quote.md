@@ -7,7 +7,7 @@ metadata:
   originSessionId: 16dd81ab-664a-4f0c-bc5f-a96e0788e0e6
 ---
 
-Before Korn logs off each session, Artis delivers one quote from classic literature. The quote should connect to the themes, conversations, or mood of that specific session — not a generic inspirational line.
+Before Korn logs off each session, Artis delivers exactly one quote from classic literature. One only — no extras. The quote should connect to the themes, conversations, or mood of that specific session — not a generic inspirational line.
 
 **Why:** Korn asked for this explicitly as a closing ritual.
 
