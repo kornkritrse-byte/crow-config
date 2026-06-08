@@ -19,6 +19,8 @@ Check this before suggesting any new topic. Never repeat a topic from this list.
 | 4 | Most Disrespectful Dunks | — |
 | 5 | Most Embarrassing Blocks | Mutombo, Ibaka, Gobert, Giannis, DeAndre Jordan |
 | 6 | Craziest Alley-Oops | Blake Griffin, DeAndre Jordan, Zion, Ja Morant, LeBron James |
+| 7 | Top 5 Most Unguardable Moves | Kyrie, Duncan, Dirk, Hakeem, Kareem — built 2026-06-08 |
+| 8 | Most Disrespectful Celebrations | Steph shimmy, Reggie Miller choke sign, Shaq on Dudley, LeBron silencer, AI step-over Lue — built 2026-06-08 |
 
 **Why:** Avoid suggesting the same topic twice — wastes his time having to correct it.
 
