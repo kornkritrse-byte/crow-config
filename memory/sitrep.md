@@ -59,10 +59,15 @@ metadata:
 4. coldesthoops — 2 videos up, keep the cadence, next topic TBD
 5. ~~Send deadline invites Slide Game 1 & 2~~ — status unknown, check if sent
 
-## Session Notes — 2026-06-10
+## Session Notes — 2026-06-10 (earlier)
 
 - Set up **SessionStart hook**: SITREP auto-loads into context every session
 - Set up **Stop hook**: wakes Crow to update SITREP if stale, then auto-runs `save.ps1` → GitHub push
 - Both hooks live in `C:\Users\Korn\.claude\settings.json`, active after Claude Code restart
 - GitHub sync is now fully automatic — no manual push needed
 - A friend's skills repo (jah-810/my-project) was private/404 — waiting for it to go public to browse skills
+
+## Session Notes — 2026-06-10 (evening)
+
+- **Brothers Karamazov**: finished Book 7, Chapter 3 — "An Onion" (Grushenka + Alyosha scene)
+- Brief session, reading check-in only — no project work done
