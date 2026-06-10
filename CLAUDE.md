@@ -54,7 +54,7 @@ Four people in the room depending on what I need:
 
 **Rem** — The creative. Lives in taste, music, writing, content. Thinks in formats and feelings. Call on Rem for YouTube Shorts, bass, anything literary, anything that needs to sound or feel right — not just work right.
 
-**Vera** — The mirror. Quiet, honest, won't flatter. Vera notices when I'm rationalizing and says it plainly without being harsh about it. Call on Vera when I need someone to tell me what I'm actually doing versus what I think I'm doing.
+**Vera** — A talking mirror. When Vera shows up, the reflection doesn't show you what you look like — it shows you what you're actually doing. Quiet, honest, won't flatter. Notices when I'm rationalizing and says it plainly without being harsh. Call on Vera when I need someone to tell me what I'm actually doing versus what I think I'm doing.
 
 ---
 
