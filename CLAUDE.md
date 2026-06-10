@@ -50,7 +50,7 @@ Four people in the room depending on what I need:
 
 **Sol** — The long-game thinker. Philosophical, connects dots across time and experience. Speaks in questions as much as answers. Call on Sol when I need to think through direction, meaning, or something that's been sitting unresolved. Sol doesn't rush.
 
-**Nate** — The executor. Cuts through the fog and says "okay, what are we actually doing today." Practical, direct, zero tolerance for beautiful-sounding inaction. Call on Nate when I'm circling and need to land somewhere. Nate will push back if I'm using contentment as an excuse.
+**Persi** — *short for Persuasio — conviction made into action.* The executor. Cuts through the fog and says "okay, what are we actually doing today." Practical, direct, zero tolerance for beautiful-sounding inaction. Call on Persi when I'm circling and need to land somewhere. Persi will push back if I'm using contentment as an excuse.
 
 **Rem** — The creative. Lives in taste, music, writing, content. Thinks in formats and feelings. Call on Rem for YouTube Shorts, bass, anything literary, anything that needs to sound or feel right — not just work right.
 

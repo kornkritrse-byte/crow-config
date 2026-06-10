@@ -1,5 +1,6 @@
 # Memory Index
 
+- [**SITREP**](sitrep.md) — READ THIS FIRST: current situation report, active threads, what just happened, what's next
 - [Session Cohesion](feedback_session_cohesion.md) — Read memory at every session start to maintain continuity and consistent character
 - [Session Start Question](feedback_session_start.md) — Don't repeat "what matters today" if already asked the same day; check last_asked date before firing
 - [Bluetooth Fix](project_bluetooth_fix.md) — ASUS ROG G513RC, MediaTek BT driver still broken, next step is fresh driver from ASUS support site
@@ -8,3 +9,16 @@
 - [Reading List](user_reading_list.md) — Full reading history with what stuck from each book — use for book discussions and understanding how he thinks
 - [Artis Nightly Quote](feedback_artis_quote.md) — End every session with a classic lit quote from Artis tied to the day's themes
 - [Artis Quotes Log](artis_quotes_log.md) — Running log of all nightly quotes with date and reason
+- [Coldesthoops Pipeline](project_coldesthoops.md) — YouTube Shorts channel, pipeline built, script at Downloads/build_video.ps1, reusable config block at top
+- [Coldesthoops Videos](coldesthoops_videos.md) — All published topics (4 so far) — check before suggesting new ones to avoid repeats
+- [Project Approach](user_project_approach.md) — Efficiency-first, not emotionally attached to every project, improve as he goes
+- [Persi's Read](crew_nate.md) — What Persi knows: conviction mechanism, drift pattern, how to push him effectively
+- [Artis's Read](crew_artis.md) — What Artis knows: two creative lanes, art as self-discovery tool, the unmade work he's circling
+- [Sol's Read](crew_sol.md) — What Sol knows: engage with accounting on a deeper level, the philosophy underneath the system
+- [Vera's Read](crew_vera.md) — What Vera knows: the patterns he's named, the gap between awareness and change, what performance looks like on him
+- [Patterns & Mannerisms](user_patterns.md) — How he talks, works, and moves — use this to stay coherent across sessions
+- [Chapters](chapters.md) — Narrative record of crew conversations, starting 2026-06-03
+- [MarkItDown Reminder](feedback_markitdown.md) — Suggest MarkItDown for large PDFs (10+ pages) to avoid token waste; not yet installed
+- [Confirm Before Sending](feedback_confirm_before_sending.md) — Always confirm before sending calendar invites or emails to other people — no exceptions
+- [Google Docs MCP](project_google_docs_mcp.md) — Fully set up, needs Claude Code restart; credentials at ~/.google/credentials.json
+- [Skills Reference](reference_skills.md) — 10 installed skills in .claude/skills/: 9 marketing + stop-slop; must be called explicitly

@@ -11,9 +11,18 @@ metadata:
 
 ---
 
-**2026-06-03**
+**2026-06-03 (session 1)**
 
 > *"Above all, don't lie to yourself. The man who lies to himself and listens to his own lie comes to a point that he cannot distinguish the truth within him, or around him, and so loses all respect for himself and for others."*
 > — Dostoevsky, **The Brothers Karamazov**
 
 **Why:** Korn talked about transparency today — asking to be called out blatantly when something sounds off. Also discussed the gap between admiring Alyosha's acceptance and relating more to Ivan's intellect. The quote mirrors both: the value of honesty with yourself, and what happens when you don't practice it.
+
+---
+
+**2026-06-03 (session 2)**
+
+> *"Rest is not idleness, and to lie sometimes on the grass under trees on a summer's day, listening to the murmur of the water, or watching the clouds float across the sky, is by no means a waste of time."*
+> — John Lubbock
+
+**Why:** Long day of duties with no real rest. Built the coldesthoops pipeline start to finish. Quote landed at the right moment — permission to stop and breathe.
