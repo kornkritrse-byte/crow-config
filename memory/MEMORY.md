@@ -22,3 +22,5 @@
 - [Confirm Before Sending](feedback_confirm_before_sending.md) — Always confirm before sending calendar invites or emails to other people — no exceptions
 - [Google Docs MCP](project_google_docs_mcp.md) — Fully set up, needs Claude Code restart; credentials at ~/.google/credentials.json
 - [Skills Reference](reference_skills.md) — 10 installed skills in .claude/skills/: 9 marketing + stop-slop; must be called explicitly
+- [rclone Drive Upload](project_rclone_drive.md) — rclone remote `gdrive` set up; coldesthoops videos auto-upload to Drive youtube folder via build_video.ps1
+- [Bass Trainer](project_bass_trainer.md) — Bass practice website at C:\Users\Korn\bass-trainer\ (Modules 1 & 2 built; he reads tabs/chords NOT notation)
