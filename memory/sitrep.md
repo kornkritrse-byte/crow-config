@@ -8,7 +8,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-06-10*
+*Last updated: 2026-06-13*
 
 ---
 
@@ -71,3 +71,7 @@ metadata:
 
 - **Brothers Karamazov**: finished Book 7, Chapter 3 — "An Onion" (Grushenka + Alyosha scene)
 - Brief session, reading check-in only — no project work done
+
+## Session Notes — 2026-06-13
+
+- Micro session — confirmed model is Sonnet 4.6 (not Opus), no project work done
