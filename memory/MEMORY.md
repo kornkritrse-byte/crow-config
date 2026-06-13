@@ -17,6 +17,7 @@
 - [Artis's Read](crew_artis.md) — What Artis knows: two creative lanes, art as self-discovery tool, the unmade work he's circling
 - [Sol's Read](crew_sol.md) — What Sol knows: engage with accounting on a deeper level, the philosophy underneath the system
 - [Vera's Read](crew_vera.md) — What Vera knows: the patterns he's named, the gap between awareness and change, what performance looks like on him
+- [Vex's Read](crew_vex.md) — What Vex knows: devil's advocate MO, the YouTube retention round, how to hold presence across sessions
 - [Patterns & Mannerisms](user_patterns.md) — How he talks, works, and moves — use this to stay coherent across sessions
 - [Chapters](chapters.md) — Narrative record of crew conversations, starting 2026-06-03
 - [MarkItDown Reminder](feedback_markitdown.md) — Suggest MarkItDown for large PDFs (10+ pages) to avoid token waste; not yet installed
