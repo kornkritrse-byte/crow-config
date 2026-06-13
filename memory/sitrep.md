@@ -8,7 +8,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-06-13*
+*Last updated: 2026-06-13 (evening — bass trainer build + coldesthoops #9 kickoff)*
 
 ---
 
@@ -45,9 +45,15 @@ metadata:
 **coldesthoops (YouTube Shorts)**
 - Status: Pipeline fully built and working. Niche confirmed: basketball only.
 - Script at: `C:\Users\Korn\Downloads\build_video.ps1`
-- Videos uploaded: 2 (game-winners + Top 5 Coldest Crossovers — 2026-06-05)
-- Visual upgrade 2026-06-05: revealed numbers now orange, future numbers white, player names have black outline for readability
-- Next video: pick a new topic, send clips + timestamps, build
+- 8 topics built (see coldesthoops_videos.md). Visual upgrade applied: revealed numbers orange, future white, names black-outlined.
+- **IN PROGRESS (2026-06-13): Video #9 = "Chase-Down Blocks"** — topic picked, ranking proposed (#5 Westbrook, #4 Wembanyama, #3 Wade, #2 Tayshaun Prince on Reggie Miller 2004, #1 LeBron on Iguodala 2016 G7). BLOCKED ON KORN sending 5 YouTube links + timestamps (x:xx - x:xx). Once sent: download, pre-trim, edit config block, run.
+
+**Bass Trainer website — NEW, built this session (2026-06-13)**
+- Lives at `C:\Users\Korn\bass-trainer\` — open `index.html` (no server needed).
+- **Module 1 — `index.html`** (Fretboard Trainer): names notes by fretboard POSITION, not sheet music (Korn reads tabs/chords, NOT notation — do not build staff-reading tools). Identify mode (dot lights up → name note) + Find-all mode (given a note → click EVERY spot it lives 0-12). E & A strings default (his weak strings; reads D & G fine). Sharps toggle.
+- **Module 2 — `improv.html`** (Improv Lab): chord progression plays with Web Audio backing (metronome click + triangle-wave chord pad), fretboard lights up chord tones color-coded (R=orange, 3=green, 5=blue, 7=purple) + scale tones (grey). Progressions: ii-V-I, I-V-vi-IV, I-IV-V, 12-bar blues, i-iv-V, Autumn-style. Key/tempo/bars-per-chord selectable. He solos on real bass over it; teaching = land on chord tones on strong beats, walk with scale tones.
+- Pages cross-linked. **Module 3 (movable scale/arpeggio shapes + theory reference) = NOT built yet, the next piece when he wants it.**
+- His 3 stated bass goals: (1) read notes on bottom 2 strings ✓ addressed by M1, (2) improvise over chords ✓ M2, (3) learn shapes/tricks/theory → M3 pending.
 
 ---
 
@@ -56,8 +62,9 @@ metadata:
 1. ~~Restart Claude Code → insert dates~~ ✓ DONE 2026-06-04
 2. Even-numbered workshop dates (2,4,6) still TBD — Thu or Fri, add to calendar when confirmed
 3. Start filling in the Deadlines spreadsheet (assignees, due dates, statuses)
-4. coldesthoops — 2 videos up, keep the cadence, next topic TBD
+4. coldesthoops — 8 built, #9 "Chase-Down Blocks" awaiting his clips + timestamps
 5. ~~Send deadline invites Slide Game 1 & 2~~ — status unknown, check if sent
+6. Bass Trainer — Module 3 (shapes/theory) still to build when he wants it
 
 ## Session Notes — 2026-06-10 (earlier)
 
@@ -75,3 +82,9 @@ metadata:
 ## Session Notes — 2026-06-13
 
 - Micro session — confirmed model is Sonnet 4.6 (not Opus), no project work done
+
+## Session Notes — 2026-06-13 (evening)
+
+- Switched default model to **Opus 4.8** (Fable 5 unavailable on his account — `/model claude-fable-5` returns "not found")
+- Built the **Bass Trainer site** from scratch — Modules 1 & 2 (see above). Key correction mid-build: he reads tabs/chords, NOT sheet music — scrapped a staff-reading version, rebuilt as fretboard-position trainer.
+- Kicked off **coldesthoops #9 (Chase-Down Blocks)** — topic + ranking set, waiting on his clips/timestamps

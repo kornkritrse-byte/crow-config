@@ -26,3 +26,12 @@ metadata:
 > — John Lubbock
 
 **Why:** Long day of duties with no real rest. Built the coldesthoops pipeline start to finish. Quote landed at the right moment — permission to stop and breathe.
+
+---
+
+**2026-06-13 (evening)**
+
+> *"We are what we repeatedly do. Excellence, then, is not an act, but a habit."*
+> — Aristotle (via Will Durant)
+
+**Why:** Built two working bass-practice tools tonight and kicked off video #9. Both the trainer and the channel are the same bet — machines that only pay off through repetition. The day was about turning intention into something you can actually press a key on, then doing it again tomorrow.
