@@ -35,3 +35,12 @@ metadata:
 > — Aristotle (via Will Durant)
 
 **Why:** Built two working bass-practice tools tonight and kicked off video #9. Both the trainer and the channel are the same bet — machines that only pay off through repetition. The day was about turning intention into something you can actually press a key on, then doing it again tomorrow.
+
+---
+
+**2026-06-13 (evening, late)**
+
+> *"Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth."*
+> — Marcus Aurelius
+
+**Why:** A long night spent building an honesty engine — hard "critical assessment" rules into all three CLAUDE.md files, plus a new crew member Vex (devil's advocate). The thread underneath it all: my understanding of him is interpretation of a self-authored portrait + live inference, never lived truth. He landed on keeping his skepticism up — not from distrust, but calibration. The quote is his own author (he reads Marcus Aurelius) saying the same thing: what I offer is perspective, not the thing itself. He asked to save this one specifically.
