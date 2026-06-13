@@ -42,3 +42,9 @@ To make a new video, only edit the CONFIG block at the top of the script:
 **Why:** Efficiency project, not a passion project. He's following a trend to see where it goes. Goal is passive — max 15 minutes per video, quantity over perfection, improve as he goes.
 
 **How to apply:** Go straight to topic suggestions when he's ready to build. Don't re-explain the pipeline. Don't treat this like a passion project — treat it like a machine to keep running lean.
+
+---
+
+**Analytics + strategy (2026-06-13):** Videos plateau at ~1k views. Retention read: most sit ~60% avg-percentage-viewed (~30s) with a **downward-sloping** curve — viewers bleed out mid-video. Lethal for a Top-5 countdown because the best clip (#1) is revealed last, so the fewest people see the payoff. The standout was a longer (~80s) video that held 43s absolute with a **flatter curve** and 1.2k views — he initially misjudged it as worst because its % was lower (% is confounded by length; absolute hold + curve flatness are the real signals, NOT % viewed).
+
+**NEXT VIDEO TEST (committed):** Open with a ~half-second flash of the #1 clip + a "wait for #1" hook, THEN start the countdown — to kill the slope by giving viewers a reason to stay for the payoff. This needs a small `build_video.ps1` change (add an intro teaser segment); wire it in at next build. Success metric = did the retention curve flatten / % viewed climb, not raw views.
