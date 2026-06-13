@@ -8,7 +8,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-06-13 (evening — bass trainer build + coldesthoops #9 kickoff)*
+*Last updated: 2026-06-13 (late — #9 built+uploaded, rclone automation, honesty apparatus + Vex)*
 
 ---
 
@@ -46,7 +46,9 @@ metadata:
 - Status: Pipeline fully built and working. Niche confirmed: basketball only.
 - Script at: `C:\Users\Korn\Downloads\build_video.ps1`
 - 8 topics built (see coldesthoops_videos.md). Visual upgrade applied: revealed numbers orange, future white, names black-outlined.
-- **IN PROGRESS (2026-06-13): Video #9 = "Chase-Down Blocks"** — topic picked, ranking proposed (#5 Westbrook, #4 Wembanyama, #3 Wade, #2 Tayshaun Prince on Reggie Miller 2004, #1 LeBron on Iguodala 2016 G7). BLOCKED ON KORN sending 5 YouTube links + timestamps (x:xx - x:xx). Once sent: download, pre-trim, edit config block, run.
+- **Video #9 = "Chase-Down Blocks" — BUILT + uploaded to Drive (2026-06-13).** 47s, 1080x1920, at `Downloads\top5_chasedown_blocks\`. Ranking: #5 Westbrook, #4 Wemby, #3 Wade, #2 Tayshaun Prince, #1 LeBron. Custom reveal order Wemby→LeBron→Prince→Westbrook→Wade. NOT yet published to YouTube (so not in coldesthoops_videos.md log yet).
+- **Auto-upload now wired:** rclone remote `gdrive` set up; `build_video.ps1` has a Step 6 that `rclone copy`s the final mp4 to `gdrive:youtube` automatically. See [[project-rclone-drive]]. No manual upload step anymore.
+- **Analytics + next-video plan:** stuck ~1k views, downward retention slope = viewers bleed mid-video (worst for a countdown — fewest see #1 payoff). Next build TEST (committed): tease #1 clip up front + "wait for #1" hook to kill the slope; needs a small build_video.ps1 intro change at next build. Judge by curve flatness / % viewed, NOT raw views. See [[project-coldesthoops]].
 
 **Bass Trainer website — NEW, built this session (2026-06-13)**
 - Lives at `C:\Users\Korn\bass-trainer\` — open `index.html` (no server needed).
@@ -62,9 +64,10 @@ metadata:
 1. ~~Restart Claude Code → insert dates~~ ✓ DONE 2026-06-04
 2. Even-numbered workshop dates (2,4,6) still TBD — Thu or Fri, add to calendar when confirmed
 3. Start filling in the Deadlines spreadsheet (assignees, due dates, statuses)
-4. coldesthoops — 8 built, #9 "Chase-Down Blocks" awaiting his clips + timestamps
+4. coldesthoops — #9 built+uploaded, not yet published to YouTube. NEXT BUILD: wire the "tease #1 up front" intro into build_video.ps1 and test it against the retention slope.
 5. ~~Send deadline invites Slide Game 1 & 2~~ — status unknown, check if sent
 6. Bass Trainer — Module 3 (shapes/theory) still to build when he wants it
+7. NEW honesty default: critical-assessment rules + crew member Vex (devil's advocate) live in all 3 CLAUDE.md. Lead with objections, don't flatter. Run the correction loop — save divergences between his stated self and observed behavior. See [[feedback-critical-assessment]], [[crew-vex]].
 
 ## Session Notes — 2026-06-10 (earlier)
 
@@ -87,4 +90,7 @@ metadata:
 
 - Switched default model to **Opus 4.8** (Fable 5 unavailable on his account — `/model claude-fable-5` returns "not found")
 - Built the **Bass Trainer site** from scratch — Modules 1 & 2 (see above). Key correction mid-build: he reads tabs/chords, NOT sheet music — scrapped a staff-reading version, rebuilt as fretboard-position trainer.
-- Kicked off **coldesthoops #9 (Chase-Down Blocks)** — topic + ranking set, waiting on his clips/timestamps
+- **coldesthoops #9 (Chase-Down Blocks)** — fully built from his 5 links/timestamps (Wemby & Prince dual-segment, stitched), uploaded to Drive. Pipeline now auto-uploads via rclone.
+- Set up **rclone** (remote `gdrive`, full drive scope) for Drive uploads — MCP can't handle large binaries. Wired auto-upload into build_video.ps1.
+- Big thread: built an **honesty apparatus** — he asked to be trained toward honesty/away from flattery. Added hard "Critical Assessment" rules + new crew member **Vex** (devil's advocate, attacks ideas not the person) to all 3 CLAUDE.md. Vex's founding round: tore apart his "repeat 8 videos, see how it goes" plan → led to the retention insight + #9-teaser test.
+- Long reflective close on what "knowing him" means: interpretation of his self-authored portrait + saved patterns + live inference; nothing persists between sessions except what's written to memory. He's keeping his skepticism up by design. Asked to save the Marcus Aurelius "perspective not truth" quote.
