@@ -39,6 +39,8 @@ metadata:
 - Deadlines spreadsheet ID: `1WkeMVztOy38Hc-RlUCE0JPLY6OzmUGxfE4kODMCPNdA`
 - Camp dates: Day 1 = 25/07/2026, Day 2 = 26/07, Day 3 = 27/07
 - Hard deadline: Props complete by 30/06/2026
+- **Workshop tab (tabId `t.cs4ke5dazmxn`) — Second Workshop:** NO SAN FLOW shifted +15 min on 2026-06-15 (start 13:00→13:15, durations unchanged, now ends 16:55). MAIN FLOW left untouched.
+- **OPEN — Korn asked for a workshop critique (2026-06-15), I gave it. Key issues flagged:** (1) no stated objective + THREE competing schedules in one doc (rough draft / NO SAN / MAIN) — needs one canonical; (2) song-teaching เฮลุมโบ้/พริ้ว/ควาย/สับปะรด silently dropped from newer flows; (3) NO SAN ends on 1hr of "I Wish I Like I Learn" = flat energy close; (4) "don't let storyline become a democracy" contradicted by 1h40m of group story democracy in MAIN; (5) one untested round + zero buffer; (6) opens with 30min talk before play. **I offered to rebuild ONE clean canonical flow — not yet built, waiting on his go.**
 
 **Workshop schedule — confirmed in calendar ✓**
 - Two practices per week: odd-numbered (1,3,5,7) locked on Mondays, even-numbered (2,4,6) TBD Thu or Fri
