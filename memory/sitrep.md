@@ -8,19 +8,19 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-06-15 — google-docs MCP auth DEAD (invalid_grant); รับน้อง availability sheet blocked*
+*Last updated: 2026-06-15 (later) — google-docs MCP auth BACK; รับน้อง availability sheet BUILT*
 
 ---
 
-## ⚠️ NEW BLOCKER (2026-06-15)
+## ✅ RESOLVED (2026-06-15 later)
 
-**google-docs MCP token is expired/revoked — `invalid_grant` on every call** (read, write, metadata all fail). Needs browser re-auth of the `google-docs` MCP. Can't refresh from inside Claude Code. This blocks ALL Google Sheets/Docs editing until re-authed. (Note: `claude_ai_Google_Drive` MCP still works for reading file content — used it to confirm the sheet below is empty.)
+**google-docs MCP auth working again** — `getSpreadsheetInfo`/`writeSpreadsheet` all succeed. Previous `invalid_grant` blocker is gone (re-authed).
 
-**Pending task — รับน้อง availability check sheet:**
-- Sheet: https://docs.google.com/spreadsheets/d/1DdI2ag7pTAvxw2gHq2ePhpyZu4Nb1wh69vCA5ezInw4 (currently EMPTY)
-- Goal: availability grid — team members on one axis, dates **19 Jun → 24 Jul** (36 days) on the other.
-- Recommended layout: dates down rows (36), names across columns (mobile-friendly).
-- **Waiting on Korn for: (1) re-auth google-docs MCP, (2) the team member roster** (no สันทนาการ roster saved anywhere). Ready to build the moment both land.
+**รับน้อง availability sheet — DONE:**
+- Built new tab **"Availability"** (Sheet ID 411499844) in the "Deadline P'san" file: https://docs.google.com/spreadsheets/d/1DdI2ag7pTAvxw2gHq2ePhpyZu4Nb1wh69vCA5ezInw4
+- Layout: Col A = dates 19 Jun→24 Jul (36 rows), Col B = day-of-week, Row 1 = 21 member names across (puifai…pros), pulled from "P'San Member list" sheet (1pmAnTKVhaj4rFj1Rnmv87GxUHsST3lXk0JXrRTcUX6o, tab "member mails").
+- Day-of-week anchored on 15 Jun = Monday → 19 Jun = Friday. (Asked Korn to spot-check one date.)
+- **Open option:** offered to add a ✓/✗/maybe dropdown + color-coding to every cell — not yet done, waiting on his call.
 
 ---
 
