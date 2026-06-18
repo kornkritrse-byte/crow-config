@@ -109,6 +109,10 @@ metadata:
 - Big thread: built an **honesty apparatus** — he asked to be trained toward honesty/away from flattery. Added hard "Critical Assessment" rules + new crew member **Vex** (devil's advocate, attacks ideas not the person) to all 3 CLAUDE.md. Vex's founding round: tore apart his "repeat 8 videos, see how it goes" plan → led to the retention insight + #9-teaser test.
 - Long reflective close on what "knowing him" means: interpretation of his self-authored portrait + saved patterns + live inference; nothing persists between sessions except what's written to memory. He's keeping his skepticism up by design. Asked to save the Marcus Aurelius "perspective not truth" quote.
 
+## Session Notes — 2026-06-18
+
+- Opened with "hey whats up," no direction. Surfaced the live threads (รับน้อง props deadline 30 Jun = 12 days out; unbuilt canonical workshop flow; coldesthoops #9 built-not-published + unwired teaser test; Bass Trainer Module 3 pending) and asked the session-start question. New day → `last_asked` updated to 2026-06-18. Awaiting his answer; no work done yet.
+
 ## Session Notes — 2026-06-16
 
 - Opened with "hey," no direction. Surfaced the two live threads (รับน้อง props deadline 30 Jun + the unbuilt canonical workshop flow I offered to rebuild; coldesthoops #9 built-not-published + unwired teaser test) and asked the session-start question. Updated `last_asked` → 2026-06-16.
