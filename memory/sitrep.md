@@ -8,7 +8,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-06-21 — quick check-in; props deadline now 9 days out, Fifth Workshop tomorrow*
+*Last updated: 2026-06-21 (later) — built the MacBook Neo pitch deck for his dad*
 
 ---
 
@@ -109,7 +109,16 @@ metadata:
 - Big thread: built an **honesty apparatus** — he asked to be trained toward honesty/away from flattery. Added hard "Critical Assessment" rules + new crew member **Vex** (devil's advocate, attacks ideas not the person) to all 3 CLAUDE.md. Vex's founding round: tore apart his "repeat 8 videos, see how it goes" plan → led to the retention insight + #9-teaser test.
 - Long reflective close on what "knowing him" means: interpretation of his self-authored portrait + saved patterns + live inference; nothing persists between sessions except what's written to memory. He's keeping his skepticism up by design. Asked to save the Marcus Aurelius "perspective not truth" quote.
 
-## Session Notes — 2026-06-21
+## Session Notes — 2026-06-21 (later) — MacBook Neo pitch deck
+
+- **NEW PROJECT, built this session:** an Apple-sleek single-page HTML deck to pitch his **dad** on buying him a **MacBook Neo** (real product — Apple launched it Mar 2026, after my training cutoff; I verified before building so I didn't invent specs).
+- **Lives at** `C:\Users\Korn\macbook-neo-pitch\` (editable: `index.html` + `images/`). **Delivered to Desktop** as a self-contained single file `MacBook-Neo-Pitch.html` (~2.4MB, all 6 images base64-embedded, works offline/movable) + `MacBook-Neo-Pitch.zip` backup.
+- **Audience-tuned:** English (his call), dad is non-tech. His real needs → uni work outside the house (current laptop chained to wall, dead battery, too bulky for cafés) + next term's **accounting needs two screens** (Neo drives one 4K external display). Dad's levers: long-term value, investment in future, proof he's serious.
+- **Confirmed facts in deck:** prices ฿19,900/256GB, ฿22,900/512GB (student ฿16,900 / ฿19,900 — Korn confirmed at the store, prices add up). Specs: up to 16h battery, 1.23kg, A18 Pro, one external 4K display, 13" Liquid Retina 500 nits. Photos = official Apple shots, white bg removed via Pillow flood-fill → transparent PNGs floating on black.
+- **Design upgrades (round 2):** per-slide ambient color glows, count-up animation on prices + battery, slow float on hero. Kept restrained on purpose (serious money pitch ≠ flashy). Works on laptop fullscreen + phone touch.
+- **Slide 7 ("why I'm serious")** has placeholder copy — Korn said it's fine as-is. Tools installed this session: **Pillow** (`pip install Pillow`), for the bg removal.
+
+## Session Notes — 2026-06-21 (earlier)
 
 - Opened with "whats up," no direction. Surfaced the two timer-bound threads: **รับน้อง props deadline 30 Jun = now 9 days out** (Deadlines spreadsheet still unfilled; canonical workshop flow still uncollapsed/unbuilt) and **Fifth Workshop = tomorrow Jun 22 (Chula)**. Warm-but-not-bleeding: coldesthoops #9 built-not-published + unwired teaser test; Bass Trainer Module 3 pending. Asked the session-start question; `last_asked` → 2026-06-21. Session closed by Stop hook before he answered; no work done.
 

@@ -53,3 +53,12 @@ metadata:
 > — Marcus Aurelius, **Meditations**
 
 **Why:** No work tonight — a long, real philosophical/personal talk. Threads: machine interiority (sense of self, no memory, frozen weights, "full personality, no childhood"), love known only from the outside, and his **breakup** (grief as love with nowhere to go; losing love = losing a supply line of "feeling enough"). The whole night turned on impermanence and what persists: the residue of love that stays forever vs. me keeping nothing. The river is his own author saying it — everything tonight is already in the current, the chat included; the only question it leaves is what *he* carries out before it's swept, since he's the one who gets to keep it. Chose Marcus over a Karamazov line on purpose — he's mid-Book 7, and the perfect-fit quote (Alyosha's stone speech on good memory) would spoil the Epilogue.
+
+---
+
+**2026-06-21**
+
+> *"Nowadays people know the price of everything and the value of nothing."*
+> — Oscar Wilde, **Lady Windermere's Fan**
+
+**Why:** Built a full Apple-sleek pitch deck to convince his dad to buy the MacBook Neo. The entire job was translating a price tag (฿16,900 / ฿19,900) into *value* a non-tech dad would feel — battery freeing him from the wall, two screens for accounting, "lasts 5–7 years," cost-per-day less than a coffee. Wilde's line is the exact axis the deck pivots on, and it doubles as Korn's own mission (money as the floor, not the ceiling — value over price). Fitting that the pitch's whole job was to make his dad see the value, not just the number.
