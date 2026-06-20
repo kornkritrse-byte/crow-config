@@ -8,7 +8,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-06-15 (later) — google-docs MCP auth BACK; รับน้อง availability sheet BUILT*
+*Last updated: 2026-06-21 — quick check-in; props deadline now 9 days out, Fifth Workshop tomorrow*
 
 ---
 
@@ -108,6 +108,10 @@ metadata:
 - Set up **rclone** (remote `gdrive`, full drive scope) for Drive uploads — MCP can't handle large binaries. Wired auto-upload into build_video.ps1.
 - Big thread: built an **honesty apparatus** — he asked to be trained toward honesty/away from flattery. Added hard "Critical Assessment" rules + new crew member **Vex** (devil's advocate, attacks ideas not the person) to all 3 CLAUDE.md. Vex's founding round: tore apart his "repeat 8 videos, see how it goes" plan → led to the retention insight + #9-teaser test.
 - Long reflective close on what "knowing him" means: interpretation of his self-authored portrait + saved patterns + live inference; nothing persists between sessions except what's written to memory. He's keeping his skepticism up by design. Asked to save the Marcus Aurelius "perspective not truth" quote.
+
+## Session Notes — 2026-06-21
+
+- Opened with "whats up," no direction. Surfaced the two timer-bound threads: **รับน้อง props deadline 30 Jun = now 9 days out** (Deadlines spreadsheet still unfilled; canonical workshop flow still uncollapsed/unbuilt) and **Fifth Workshop = tomorrow Jun 22 (Chula)**. Warm-but-not-bleeding: coldesthoops #9 built-not-published + unwired teaser test; Bass Trainer Module 3 pending. Asked the session-start question; `last_asked` → 2026-06-21. Session closed by Stop hook before he answered; no work done.
 
 ## Session Notes — 2026-06-18
 
