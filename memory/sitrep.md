@@ -8,7 +8,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-06-21 (night) — "hey" open, surfaced live threads, no answer before close*
+*Last updated: 2026-06-21 (night) — edited P'san Casting interview sheet (first slot 10:30→11:00)*
 
 ---
 
@@ -108,6 +108,12 @@ metadata:
 - Set up **rclone** (remote `gdrive`, full drive scope) for Drive uploads — MCP can't handle large binaries. Wired auto-upload into build_video.ps1.
 - Big thread: built an **honesty apparatus** — he asked to be trained toward honesty/away from flattery. Added hard "Critical Assessment" rules + new crew member **Vex** (devil's advocate, attacks ideas not the person) to all 3 CLAUDE.md. Vex's founding round: tore apart his "repeat 8 videos, see how it goes" plan → led to the retention insight + #9-teaser test.
 - Long reflective close on what "knowing him" means: interpretation of his self-authored portrait + saved patterns + live inference; nothing persists between sessions except what's written to memory. He's keeping his skepticism up by design. Asked to save the Marcus Aurelius "perspective not truth" quote.
+
+## Session Notes — 2026-06-21 (night) — P'san Casting sheet
+
+- **New file surfaced:** "P'san Casting" spreadsheet (ID `1OjDL9-PmSmOT9-TDppi_2lpo_UlGyiL0cryyO3nUVKw`, single tab "Interview Slots", gid 410999954). Casting interview sign-up — Tue 23 June 2026, Pridi Library, 30 min/person, Col A = time slots, B = Name, C = Phone.
+- **Edit made:** he asked to "have the first interview be at 11." Dropped the 10:30 AM slot (11:00 already existed below it), updated header line A2 to "Interviews 11:00 AM – 6:00 PM." Lunch break stayed aligned; no signups existed so nothing was lost. Now 15 slots (was 16), still ends 6:00 PM.
+- Flagged (Persi): capacity now 15 people / 7.5 hrs — if >15 apply he needs an evening slot or a second day before it fills.
 
 ## Session Notes — 2026-06-21 (later) — MacBook Neo pitch deck
 
