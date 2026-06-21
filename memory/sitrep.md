@@ -8,7 +8,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-06-21 (later) — built the MacBook Neo pitch deck for his dad*
+*Last updated: 2026-06-21 (night) — "hey" open, surfaced live threads, no answer before close*
 
 ---
 
