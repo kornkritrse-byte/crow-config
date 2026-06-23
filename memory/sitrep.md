@@ -8,7 +8,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-06-23 — the MacBook Neo pitch worked: he got the Mac. Set up Crow sync for it (load.sh/save.sh).*
+*Last updated: 2026-06-24 — Full Crow system rebuilt on the MacBook Neo: global CLAUDE.md, memory, hooks, google-docs MCP all ported. See 2026-06-24 session note.*
 
 ---
 
@@ -53,7 +53,7 @@ metadata:
 
 **Other calendar events:**
 - Jun 5: p san int
-- Jun 24–29: boys trip?
+- Jun 25–28: boys trip (moved -1 day from 24–29)
 - Final Rehearsal: 06/07/2026
 
 **coldesthoops (YouTube Shorts)**
@@ -108,6 +108,20 @@ metadata:
 - Set up **rclone** (remote `gdrive`, full drive scope) for Drive uploads — MCP can't handle large binaries. Wired auto-upload into build_video.ps1.
 - Big thread: built an **honesty apparatus** — he asked to be trained toward honesty/away from flattery. Added hard "Critical Assessment" rules + new crew member **Vex** (devil's advocate, attacks ideas not the person) to all 3 CLAUDE.md. Vex's founding round: tore apart his "repeat 8 videos, see how it goes" plan → led to the retention insight + #9-teaser test.
 - Long reflective close on what "knowing him" means: interpretation of his self-authored portrait + saved patterns + live inference; nothing persists between sessions except what's written to memory. He's keeping his skepticism up by design. Asked to save the Marcus Aurelius "perspective not truth" quote.
+
+## Session Notes — 2026-06-24 — Full system rebuild on the Mac
+
+- He moved fully onto the MacBook Neo and asked to **recreate the whole Windows system, improving internals where possible.** Did it this session.
+- **Verified Mac baseline:** Node v26.3.1 + npm 11.16.0 ✓. claude.ai MCPs (Calendar/Gmail/Drive/Spotify/Canva) already connected — account-based, travel with login. Git push authed via osxkeychain ✓.
+- **Ported + done this session:**
+  1. Ran `load.sh` → `~/CLAUDE.md` (global Crow) + memory copied to dest `~/.claude/projects/-Users-kornkrit-crow-config/memory/`.
+  2. Installed `@suncreation/mcp-google-docs` v1.3.5 globally + registered as user-scope MCP `google-docs` pointing at `~/.google/credentials.json` + `~/.google/token.json`. **Shows "Failed to connect" until credentials.json is dropped in (expected).**
+  3. **IMPROVEMENT — hooks now travel:** wrote `hooks/session-start.sh` (auto-loads SITREP into context) + `hooks/stop.sh` (runs save.sh → auto-push). On Windows the hook logic lived only in local settings.json and never synced — *that's why this rebuild was needed.* Now logic is in-repo; only the per-machine wiring (3 lines) sits in `~/.claude/settings.json`, which I wired this session.
+  4. **IMPROVEMENT — `setup-mac.sh`:** idempotent one-shot for the next machine (pull+load, install+register MCP, merge hooks into settings.json via node without clobbering). README rewritten to document sync/hooks/what-doesn't-travel.
+- **STILL NEEDS HIS HANDS (2 things):**
+  1. **Google OAuth:** copy `credentials.json` from the old laptop (was `~/.google/` / `C:\Users\Korn\.google\`) into `~/.google/credentials.json`, then call any google-docs tool once → browser OAuth → `token.json` saves. Until then, direct Sheets/Docs editing (deadlines sheet, availability grid, workshop doc insertText) is offline.
+  2. **coldesthoops pipeline:** NOT ported. `build_video.ps1` isn't in the repo (was in Downloads on Windows) + needs ffmpeg + rclone (both absent on Mac). Real port job — needs the .ps1 file from the old laptop first.
+- **Restart Claude Code** to load the new hooks + MCP.
 
 ## Session Notes — 2026-06-23 — Crow on the new MacBook Neo
 
