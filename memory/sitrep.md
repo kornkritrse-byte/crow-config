@@ -8,7 +8,13 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-06-24 — Full Crow system rebuilt on the MacBook Neo: global CLAUDE.md, memory, hooks, google-docs MCP all ported. See 2026-06-24 session note.*
+*Last updated: 2026-06-24 (later) — Full Crow system rebuilt on the MacBook Neo. google-docs MCP now WORKING (Docs/Sheets editing proven live). See 2026-06-24 (later) session note.*
+
+## ⏯️ WHERE WE LEFT OFF (read this first)
+- **Mac rebuild is essentially DONE.** Docs/Sheets/Calendar/Gmail/Drive all editable by prompt. The hard-won piece was google-docs MCP — solved via `bin/gdocs-launcher.cjs` (node-fetch fix).
+- **PENDING ACTION:** Korn was told to **restart Claude Code** so the google-docs tools load into the session. If this is the post-restart session → **first thing: confirm google-docs works in-session** by reading/editing a real sheet (e.g. the Deadlines sheet `1WkeMVztOy38Hc-RlUCE0JPLY6OzmUGxfE4kODMCPNdA`). If it fails to connect, check `claude mcp list` and the launcher.
+- **NOT ported (needs old Windows laptop):** coldesthoops pipeline — `build_video.ps1` + ffmpeg + rclone.
+- **Untouched real-work threads still live:** รับน้อง props deadline **30 Jun (now ~6 days out)** + Deadlines sheet still unfilled + canonical workshop flow still unbuilt; coldesthoops #9 built-not-published; Bass Trainer Module 3 pending. Also: boys trip 25–28 Jun, and the calendar event still shows OLD dates (24–29) — offered to fix, 22 attendees would be notified, awaiting his ok.
 
 ---
 
