@@ -109,6 +109,14 @@ metadata:
 - Big thread: built an **honesty apparatus** — he asked to be trained toward honesty/away from flattery. Added hard "Critical Assessment" rules + new crew member **Vex** (devil's advocate, attacks ideas not the person) to all 3 CLAUDE.md. Vex's founding round: tore apart his "repeat 8 videos, see how it goes" plan → led to the retention insight + #9-teaser test.
 - Long reflective close on what "knowing him" means: interpretation of his self-authored portrait + saved patterns + live inference; nothing persists between sessions except what's written to memory. He's keeping his skepticism up by design. Asked to save the Marcus Aurelius "perspective not truth" quote.
 
+## Session Notes — 2026-06-24 (later) — google-docs MCP WORKING on Mac ✓
+
+- **Direct Docs/Sheets editing is now LIVE on the Mac** — proven end-to-end (read the real "Deadlines" sheet: tabs Game|Play|San|Costume|Schedule|member mails). Calendar/Gmail/Drive already worked (account-based); this was the missing piece he actually cared about.
+- **Set up the OAuth from scratch (made a NEW client, he stayed in bed):** new Google Cloud project `crow-docs`, enabled Docs+Sheets+Drive APIs, External consent screen **PUBLISHED to Production** (so the refresh token doesn't expire every 7 days like Testing mode does). Desktop-app OAuth client → `credentials.json` at `~/.google/credentials.json` (chmod 600, NOT in git — secret). Token at `~/.google/token.json` (refresh_token only; access tokens minted at runtime).
+- **THE BIG BUG + FIX (important for any future machine):** the package bundles `node-fetch@2.7.0`, which is **broken against *.googleapis.com on modern Node** — every call (token refresh, sheet read, doc write) dies with `ERR_STREAM_PREMATURE_CLOSE`. Not network, not Node version (failed on both Node 26 AND Node 22 LTS), not gzip (failed with identity too). Node's **built-in fetch works fine.** Fix = a launcher that intercepts `require('node-fetch')` and returns a built-in-fetch shim: **`bin/gdocs-launcher.cjs`** (in the repo, travels, survives reinstalls). MCP is registered to run `node ~/crow-config/bin/gdocs-launcher.cjs`, NOT the raw dist/server.js. `setup-mac.sh` updated to register the launcher.
+- **Installed this session:** `@suncreation/mcp-google-docs` v1.3.5 (global npm), Node 22 LTS via brew (keg-only — turned out unnecessary for the bug, but harmless; left installed).
+- **ACTION FOR KORN: restart Claude Code** so the google-docs tools load into the session. Then ask me to edit any sheet/doc to confirm in-session.
+
 ## Session Notes — 2026-06-24 — Full system rebuild on the Mac
 
 - He moved fully onto the MacBook Neo and asked to **recreate the whole Windows system, improving internals where possible.** Did it this session.

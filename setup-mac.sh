@@ -13,14 +13,16 @@ bash load.sh
 echo "==> 2/5  Installing google-docs MCP package"
 npm install -g @suncreation/mcp-google-docs
 
-echo "==> 3/5  Registering google-docs MCP server (user scope)"
-server="$(npm root -g)/@suncreation/mcp-google-docs/dist/server.js"
+echo "==> 3/5  Registering google-docs MCP server via the fetch-fix launcher (user scope)"
+# The package's bundled node-fetch@2.7.0 is broken against googleapis on modern Node
+# (ERR_STREAM_PREMATURE_CLOSE on every call). bin/gdocs-launcher.cjs routes it through
+# Node's built-in fetch. Always register the launcher, never the raw dist/server.js.
 mkdir -p "$HOME/.google"
 claude mcp remove -s user google-docs >/dev/null 2>&1 || true
 claude mcp add -s user google-docs \
   -e CREDENTIALS_PATH="$HOME/.google/credentials.json" \
   -e TOKEN_PATH="$HOME/.google/token.json" \
-  -- node "$server"
+  -- node "$repoDir/bin/gdocs-launcher.cjs"
 
 echo "==> 4/5  Making hooks executable"
 chmod +x "$repoDir"/hooks/*.sh "$repoDir"/*.sh
