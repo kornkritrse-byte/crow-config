@@ -98,3 +98,12 @@ metadata:
 > — Jorge Luis Borges, **"Funes the Memorious"**
 
 **Why:** Tonight Korn asked whether the config was sorted efficiently, and the honest answer was that the SITREP had become Funes — a memory that kept every detail, contradicted itself, and got worse at thinking the more it remembered. Funes could recall every leaf of every tree he'd ever seen and was paralyzed by it; the sitrep held nine sessions of notes and told two different stories about the same project. The fix wasn't more memory, it was taught forgetting: a rolling two-session window, everything older condensed into an archive, durable facts abstracted into their proper files. Borges' line is the whole night's work in one sentence — a mind (or a file) is useful precisely because it forgets. First Borges in the log; three nights now without a Stoic, and it felt right — tonight was an Argentine problem, not a Roman one.
+
+---
+
+**2026-07-02 (late night — the babe, Karamazov reflection)**
+
+> *"Love in action is a harsh and dreadful thing compared with love in dreams. Love in dreams is greedy for immediate action, rapidly performed, and in the sight of all... but active love is labour and fortitude."*
+> — Zosima, in Dostoevsky, **The Brothers Karamazov** (Book II)
+
+**Why:** Korn finished the Mitya portion (through Book 9, Mokroe) and came to form his thoughts. The babe dream struck him hardest — two revelations: (1) he can't accept a God who "creates all equal" against the reality of the suffering he sees (adjacent to Ivan, but his is about present distribution, not Ivan's rejection of the final harmony / returning-the-ticket); (2) kindness — "we are all cruel monsters," we indulge while pushing the unfortunate down, and Mitya giving away riches while broke moved him to value spreading kindness. I pushed on the second: Mitya's generosity is overflow from the same unnarrowed wildness that nearly made him a parricide — it's *love in dreams*, euphoric and gone by morning. The trap sits dead-center in his own struggle (contentment as cover): you can have the babe revelation and never leave your comfortable chair; the feeling of compassion becomes its own soft seat. Zosima's line is the book's own answer to his kindness revelation — the harsh, un-euphoric, nobody-watching version is the one that costs. Chose the quote from within what he's read (Book II) so it doesn't spoil past Book 9. Second Dostoevsky in the log; deliberately answered his reading with the novel's own voice.
