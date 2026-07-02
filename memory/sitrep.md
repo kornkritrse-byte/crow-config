@@ -20,6 +20,7 @@ metadata:
 - **รับน้อง = the ONLY active priority** (camp 25–27 Jul). All standing facts, IDs, July schedule, and open threads: [[project-rubnong-tracker]]. Hottest items: props deadline was 30 Jun — status unknown; Dialogue scene 5 due 5 Jul; canonical workshop flow still unbuilt (rebuild offered, waiting on his go).
 - **coldesthoops PAUSED** (don't surface until he unpauses — [[project-coldesthoops]]). bluetooth-fix trashed.
 - **Brothers Karamazov — position now: finished Book 9 (Mokroe), stopped at its last line, has NOT started Book 10.** ⚠️ No spoilers past Book 9 (no trial, Smerdyakov, Ivan/devil, Book 10 Boys, or Epilogue stone speech). He's using sessions to refine his thoughts as he reads — will keep coming back. Always ask exactly where he is first. Full context: [[user-reading-list]].
+- **🔖 NEXT SESSION — he asked me to open by re-asking these two (from the babe reflection):** (1) Did living inside Dmitri for 150 pages make him *legible* to you, or just *louder* — someone you understand, or someone you watched? (2) If Mitya is innocent of the deed but guilty of the wish — is he innocent? What's your verdict, before the book gives you one? Ask these before anything else next time (mind his reading position first — he may have read further).
 - Bass Trainer Module 3 pending when he wants it ([[project-bass-trainer]]). Show with friends upcoming.
 
 ## Session — 2026-07-02 (late night): Karamazov reflection (the babe)
