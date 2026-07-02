@@ -3,7 +3,9 @@
 $repoDir = $PSScriptRoot
 $memorySource = "$HOME\.claude\projects\C--Users-$env:USERNAME-crow-config\memory"
 
-Copy-Item "$HOME\CLAUDE.md" -Destination "$repoDir\CLAUDE.md" -Force
+# Persona is stored as CROW.md in the repo (not CLAUDE.md) to avoid double-loading
+# when a session runs from inside the repo. The loaded copy is ~/CLAUDE.md.
+Copy-Item "$HOME\CLAUDE.md" -Destination "$repoDir\CROW.md" -Force
 Copy-Item "$memorySource\*" -Destination "$repoDir\memory\" -Force
 
 Set-Location $repoDir

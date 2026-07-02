@@ -40,10 +40,9 @@
 - [Crow's Role](user_crow_role.md) — why I'm named Crow (Kafka on the Shore); generalist/coordinator of the crew
 
 ## 👥 Crew Reads
-*(naming drift: CLAUDE.md says **Persi** and **Rem**; older files say Nate and Artis — same people)*
 - [Persi's Read](crew_persi.md) — conviction mechanism, drift pattern, how to push him effectively
 - [Sol's Read](crew_sol.md) — the philosophy underneath the system
-- [Rem's Read](crew_artis.md) — two creative lanes, art as self-discovery tool (file still named artis)
+- [Artis's Read](crew_artis.md) — two creative lanes, art as self-discovery tool (Korn's call 2026-07-02: the name is Artis, "Rem" was a drift — killed everywhere)
 - [Vera's Read](crew_vera.md) — the gap between awareness and change, what performance looks like on him
 - [Vex's Read](crew_vex.md) — devil's advocate MO, how to hold presence across sessions
 

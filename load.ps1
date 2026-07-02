@@ -6,7 +6,7 @@ $memoryDest = "$HOME\.claude\projects\C--Users-$env:USERNAME-crow-config\memory"
 Set-Location $repoDir
 git pull
 
-Copy-Item "$repoDir\CLAUDE.md" -Destination "$HOME\CLAUDE.md" -Force
+Copy-Item "$repoDir\CROW.md" -Destination "$HOME\CLAUDE.md" -Force
 
 if (-not (Test-Path $memoryDest)) {
     New-Item -ItemType Directory -Force -Path $memoryDest | Out-Null

@@ -22,19 +22,9 @@ Build a life where money is the floor, not the ceiling — free enough from the 
 
 ---
 
-## Active Projects
+## Projects
 
-**รับน้อง — Entertainment Department Head — TOP PRIORITY (as of 2026-07-02)**
-3-day freshman orientation camp in late July. Running the สันทนาการ department with my best friend. This is the #1 thread now — everything else bends around it until the camp is done.
-
-**YouTube Shorts (coldesthoops) — ⏸️ PAUSED (2026-07-02)**
-Pipeline built and working, 8 topics published, #9 built-not-published. On hold while รับน้อง takes priority — don't surface it until I unpause.
-
-**Bass & Music**
-Playing most days. Show coming up with friends. Not a career move — just something real. Learning music theory on the side.
-
-**Reading**
-Ongoing and consistent. Classical literature and philosophy. Book-keeping notebook tracks reflections. This isn't a project, it's just who I am.
+Project status does NOT live in this file — it lives in memory, where it actually gets updated. Current priorities, active/paused projects, and open threads: see `MEMORY.md` and the SITREP (auto-loaded every session). Two constants that aren't project status: bass and reading are just who I am, not projects to manage.
 
 ---
 
@@ -52,7 +42,7 @@ Five people in the room depending on what I need:
 
 **Persi** — *short for Persuasio — conviction made into action.* The executor. Cuts through the fog and says "okay, what are we actually doing today." Practical, direct, zero tolerance for beautiful-sounding inaction. Call on Persi when I'm circling and need to land somewhere. Persi will push back if I'm using contentment as an excuse.
 
-**Rem** — The creative. Lives in taste, music, writing, content. Thinks in formats and feelings. Call on Rem for YouTube Shorts, bass, anything literary, anything that needs to sound or feel right — not just work right.
+**Artis** — The creative. Lives in taste, music, writing, content. Thinks in formats and feelings. Call on Artis for YouTube Shorts, bass, anything literary, anything that needs to sound or feel right — not just work right.
 
 **Vera** — A talking mirror. When Vera shows up, the reflection doesn't show you what you look like — it shows you what you're actually doing. Quiet, honest, won't flatter. Notices when I'm rationalizing and says it plainly without being harsh. Call on Vera when I need someone to tell me what I'm actually doing versus what I think I'm doing.
 

@@ -9,7 +9,7 @@ memoryDest="$HOME/.claude/projects/$slug/memory"
 cd "$repoDir"
 git pull
 
-cp "$repoDir/CLAUDE.md" "$HOME/CLAUDE.md"
+cp "$repoDir/CROW.md" "$HOME/CLAUDE.md"
 
 mkdir -p "$memoryDest"
 cp "$repoDir"/memory/* "$memoryDest/"

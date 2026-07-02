@@ -1,19 +1,24 @@
 # crow-config
 
-Claude Code config files — CLAUDE.md and memory — synced across devices.
+Claude Code config files — the Crow persona and memory — synced across devices.
 
 ## Structure
 
 ```
 crow-config/
-├── CLAUDE.md          → copy to your home directory (~/ or C:\Users\<you>\)
+├── CROW.md            → copy to ~/CLAUDE.md (or C:\Users\<you>\CLAUDE.md)
 └── memory/            → copy to ~/.claude/projects/<project-slug>/memory/
 ```
 
+> **Why CROW.md and not CLAUDE.md?** The loaded copy lives at `~/CLAUDE.md`, which Claude Code
+> picks up from any working directory under home — including this repo. If the repo copy were
+> also named `CLAUDE.md`, sessions run from inside the repo would load the whole persona twice.
+> So the repo copy is storage only, under a name Claude Code ignores.
+
 ## Daily sync
 
-- `load.sh` / `load.ps1` — pull from GitHub, copy CLAUDE.md + memory into place. Run when switching machines.
-- `save.sh` / `save.ps1` — copy local CLAUDE.md + memory into the repo, commit, push. Only commits when something changed.
+- `load.sh` / `load.ps1` — pull from GitHub, copy CROW.md → ~/CLAUDE.md + memory into place. Run when switching machines.
+- `save.sh` / `save.ps1` — copy local ~/CLAUDE.md + memory into the repo, commit, push. Only commits when something changed.
 
 ## Hooks (the part that makes it automatic)
 
@@ -35,7 +40,7 @@ into `settings.json` (preserving existing keys). Then drop your Google OAuth `cr
 
 **Windows (manual):**
 ```
-copy CLAUDE.md C:\Users\<username>\CLAUDE.md
+copy CROW.md C:\Users\<username>\CLAUDE.md
 xcopy memory C:\Users\<username>\.claude\projects\C--Users-<username>\memory\ /E /I
 ```
 
