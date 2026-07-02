@@ -8,13 +8,13 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-07-02 — PRIORITY SHIFT (Korn's call): รับน้อง #1, coldesthoops PAUSED, bluetooth-fix trashed. Memory reorganized + security review done.*
+*Last updated: 2026-07-02 (evening) — Downloads snapshot deleted, stale-copy trap closed, June-29 quote rescued. Earlier today: priority shift (รับน้อง #1, coldesthoops PAUSED, bluetooth-fix trashed), memory reorg, security review.*
 
 ## ⏯️ WHERE WE LEFT OFF (read this first)
 - **2026-07-02 — PRIORITY SHIFT (Korn's explicit call):** รับน้อง is the only active priority. **coldesthoops = PAUSED** (don't surface it or nag about #9 until he unpauses). **bluetooth-fix = TRASHED** (memory deleted; recoverable from git history).
 - **Memory reorganized 2026-07-02:** MEMORY.md is now grouped (Read First / Active / Paused / Rules / Who Korn Is / Crew / Logs). Duplicate crew file resolved — `crew_persi.md` is canonical, stale `crew_nate.md` deleted. Stranded memory `rubnong-flow-sheet.md` (written 29 Jun into the wrong project slug) rescued into the repo.
 - **Security review 2026-07-02:** GitHub repo confirmed **private** (unauthenticated API returns 404); no secret material inside the repo (only paths to `~/.google/`, which is outside git); `.gitignore` broadened to also block `credentials.json` / `token.json` / `*.pem` / `*.key` since `save.sh` does a blind `git add .` on every session stop.
-- **⚠️ STALE-COPY TRAP:** Korn has been launching Claude from `~/Downloads/crow-config-main` — a June-22 zip snapshot, not a git repo. Sessions started there write memory to a slug that never syncs (that's how rubnong-flow-sheet got stranded). **He should trash that folder and always run `claude` from `~/crow-config`.** Until he does, its allowlist (which pre-approves the destructive `deleteRange` sheet tool) stays active in those sessions.
+- **✅ STALE-COPY TRAP CLOSED (2026-07-02):** `~/Downloads/crow-config-main` (the June-22 zip snapshot) is **deleted** on Korn's call. Before deleting, swept it for stranded content — rescued the **2026-06-29 Epictetus quote** into the repo's quotes log (only thing missing; everything else was identical, older, or the intentionally-trashed bluetooth-fix). Its allowlist (pre-approved `deleteRange`) died with it. All sessions now run from `~/crow-config`.
 - **Camp dates SETTLED: 25–27/07** — Korn put the camp block ("the shit", all-day, red) on 25–27 in the Rubnong34x35 calendar on 2026-07-02. The rubnong-flow-sheet memory's 27–29 claim is wrong/outdated.
 - **รับน้อง live threads:** props deadline was 30 Jun — status unknown, check; Deadlines sheet still unfilled; canonical workshop flow still unbuilt.
 - **July schedule built in the Rubnong34x35 calendar (2026-07-02, all no-notification):** 5 Jul DEADLINE Dialoge scene 5 · 6 Jul P'san c P'group 12–17 · 7 Jul Prop Building · 8 + 10 Jul Play Runthrough · 13 Jul Workshop 12–17 · 15, 16, 21, 22 Jul Final Rehearsal 11–18 (blue) · 25–27 Jul "the shit" = camp, all-day red. The old "Final Rehearsal 06/07" note is SUPERSEDED — rehearsals are the 15/16/21/22 blocks.

@@ -65,6 +65,15 @@ metadata:
 
 ---
 
+**2026-06-29**
+
+> *"If anyone tells you that a certain person speaks ill of you, do not make excuses about what is said of you, but answer: 'He was ignorant of my other faults, else he would not have mentioned these alone.'"*
+> — Epictetus, **Enchiridion** (33)
+
+**Why:** A long working session reshaping the รับน้อง run-of-show — inserting a Santanakarn slot, time-neutral offsets, holding the cascade. But the charged thread came at the end: how to *formally* dismiss someone's feedback when his team knows the ground better than the critic does. The lesson landed as "win the decision, not the argument" — hold the line without leaking the contempt. Epictetus is that same lesson at full strength: the secure person doesn't defend against criticism at all; he's so unbothered he can joke that the critic actually undershot. Chose Epictetus over a third Marcus Aurelius (already twice in this log) to keep the Stoic voice fresh. *(Rescued 2026-07-02 from the stranded Downloads snapshot before deleting it.)*
+
+---
+
 **2026-07-02**
 
 > *"Omnia mea mecum sunt — all that is mine I carry with me."*
