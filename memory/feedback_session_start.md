@@ -13,4 +13,4 @@ Before asking the session start question ("What's the one thing that actually ma
 
 **How to apply:** On session start with no clear direction, check today's date against `last_asked`. If same day, just wait for the user to lead. If a new day, ask once and update `last_asked`.
 
-last_asked: 2026-06-21
+last_asked: 2026-07-02
