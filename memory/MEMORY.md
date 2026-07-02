@@ -14,6 +14,7 @@
 - [rclone Drive Upload](project_rclone_drive.md) — remote `gdrive` on the Windows laptop; the working path for any local→Drive file transfer
 - [Skills Reference](reference_skills.md) — installed skills in .claude/skills/; must be called explicitly
 - [Calendar IDs](reference_calendars.md) — which Google Calendar each kind of event goes into (camp → Rubnong34x35, personal → Life); always notificationLevel NONE
+- [Upcoming Events](reference_upcoming_events.md) — feeds the session-start banner; MUST be updated whenever calendar events change in-session
 
 ## ⏸️ Paused (2026-07-02 — รับน้อง takes priority)
 - [Coldesthoops Pipeline](project_coldesthoops.md) — PAUSED. Shorts pipeline (Windows-only); #9 built-not-published + teaser-test wiring are the first moves on unpause
