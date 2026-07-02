@@ -17,7 +17,16 @@ metadata:
 - **⚠️ STALE-COPY TRAP:** Korn has been launching Claude from `~/Downloads/crow-config-main` — a June-22 zip snapshot, not a git repo. Sessions started there write memory to a slug that never syncs (that's how rubnong-flow-sheet got stranded). **He should trash that folder and always run `claude` from `~/crow-config`.** Until he does, its allowlist (which pre-approves the destructive `deleteRange` sheet tool) stays active in those sessions.
 - **Camp dates SETTLED: 25–27/07** — Korn put the camp block ("the shit", all-day, red) on 25–27 in the Rubnong34x35 calendar on 2026-07-02. The rubnong-flow-sheet memory's 27–29 claim is wrong/outdated.
 - **รับน้อง live threads:** props deadline was 30 Jun — status unknown, check; Deadlines sheet still unfilled; canonical workshop flow still unbuilt.
-- **July schedule built in the Rubnong34x35 calendar (2026-07-02, all no-notification):** 5 Jul DEADLINE Dialoge scene 5 · 6 Jul P'san c P'group 12–17 · 7 Jul Prop Building · 8 + 10 Jul Play Runthrough · 13 Jul Workshop 12–17 · 15, 16, 21, 22 Jul Final Rehearsal 11–18 (blue). The old "Final Rehearsal 06/07" note is SUPERSEDED — rehearsals are the 15/16/21/22 blocks.
+- **July schedule built in the Rubnong34x35 calendar (2026-07-02, all no-notification):** 5 Jul DEADLINE Dialoge scene 5 · 6 Jul P'san c P'group 12–17 · 7 Jul Prop Building · 8 + 10 Jul Play Runthrough · 13 Jul Workshop 12–17 · 15, 16, 21, 22 Jul Final Rehearsal 11–18 (blue) · 25–27 Jul "the shit" = camp, all-day red. The old "Final Rehearsal 06/07" note is SUPERSEDED — rehearsals are the 15/16/21/22 blocks.
+- **NEW "Life" calendar created 2026-07-02** (personal non-camp events; ID in [[reference-calendars]]). On it: 7 Jul "possible hoops interview" 13–16 (red) and 8 Jul "ANS Dinner" 19–22 (green). ⚠️ Flagged collisions: interview sits inside Prop Building day (7th), dinner follows the all-day runthrough (8th) — two zero-slack days back to back.
+
+## Session Notes — 2026-07-02 (from the stale Downloads copy — last session there)
+- Confirmed google-docs MCP works in-session (read the Deadlines sheet — closes the post-restart pending action).
+- **Security review + full memory reorg** (see bullets above): bluetooth-fix trashed, coldesthoops PAUSED, รับน้อง = only active priority — all three were Korn's explicit calls. MEMORY.md regrouped; crew_persi/crew_nate duplicate resolved; rubnong-flow-sheet rescued; .gitignore broadened; repo confirmed private.
+- **Built the entire July rubnong calendar** (list above) + Life calendar events. Rubnong34x35 write access confirmed. Standing rule honored: notificationLevel NONE on every create/update — zero emails sent to anyone.
+- Answered his Google Calendar questions: deleting shared events → cancellation emails are optional but the vanishing isn't; no create-calendar tool exists (he made "Life" manually in the UI).
+- **He was told to trash `~/Downloads/crow-config-main` and run future sessions from `~/crow-config`.** If this session note is being read, that move happened — everything from the Downloads era is already synced here; nothing is lost.
+- Open small threads: rename "Dialoge scene 5" if the team spells it Dialogue; "the shit" title is visible to everyone on the shared camp calendar (his call); July 7 needs a props-coverage decision if the interview firms up.
 - Mac rebuild DONE — Docs/Sheets/Calendar/Gmail/Drive all editable by prompt (google-docs MCP via `bin/gdocs-launcher.cjs`). coldesthoops pipeline still not ported off the Windows laptop — moot while paused.
 
 ---

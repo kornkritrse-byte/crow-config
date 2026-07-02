@@ -7,7 +7,7 @@ metadata:
   originSessionId: 016bee68-bfd3-4b59-bac2-60240df18e84
 ---
 
-Live run-of-show for รับน้อง camp (27–29 July 2026): **"Copy of Drafted flow RubNong 34x35"**, sheet ID `1Dc-7JKw11IdSJXSdLJj24eYmo479Gbje8XgdwgTzmgs`. Three tabs: Day 1 (gid 0), Day 2 (451205519), Day 3 (675384482). Must be shared as **Editor** with kornkritrse@gmail.com or the MCP can't write (Viewer = read-only).
+Live run-of-show for รับน้อง camp (25–27 July 2026 — corrected 2026-07-02, was wrongly 27–29): **"Copy of Drafted flow RubNong 34x35"**, sheet ID `1Dc-7JKw11IdSJXSdLJj24eYmo479Gbje8XgdwgTzmgs`. Three tabs: Day 1 (gid 0), Day 2 (451205519), Day 3 (675384482). Must be shared as **Editor** with kornkritrse@gmail.com or the MCP can't write (Viewer = read-only).
 
 Layout per row: A start / B "-" / C end (block range, sometimes merged across sub-rows) · D slot-start / E slot-end / F duration(min) · G early / H late · I activity · J detail · K note. A running "changes made:" changelog lives at the bottom of Day 1 (~row 37+).
 
