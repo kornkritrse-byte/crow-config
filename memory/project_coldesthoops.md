@@ -1,11 +1,13 @@
 ---
 name: project-coldesthoops
-description: "YouTube Shorts channel coldesthoops — basketball ranking videos, pipeline fully built and working"
+description: "PAUSED 2026-07-02 — YouTube Shorts channel coldesthoops; pipeline built and working, on hold while รับน้อง takes priority"
 metadata: 
   node_type: memory
   type: project
   originSessionId: 820c277a-b34b-4f73-b380-c98c3ffa5010
 ---
+
+> **⏸️ STATUS: PAUSED as of 2026-07-02 — Korn's call. รับน้อง camp (through late July) takes priority. Don't surface coldesthoops threads or nag about publishing until he unpauses. On unpause, the open items are: publish #9 (Chase-Down Blocks — built, on Drive), then wire the "tease #1 up front" intro into `build_video.ps1` (see bottom of this file). Pipeline is Windows-only, not ported to the Mac.**
 
 YouTube Shorts channel named **coldesthoops** — basketball ranking videos, faceless format.
 

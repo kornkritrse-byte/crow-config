@@ -24,11 +24,11 @@ Build a life where money is the floor, not the ceiling — free enough from the 
 
 ## Active Projects
 
-**รับน้อง — Entertainment Department Head**
-3-day freshman orientation camp. Running the สันทนาการ department with my best friend. About 2 months of prep. This one has momentum — accountability is built in.
+**รับน้อง — Entertainment Department Head — TOP PRIORITY (as of 2026-07-02)**
+3-day freshman orientation camp in late July. Running the สันทนาการ department with my best friend. This is the #1 thread now — everything else bends around it until the camp is done.
 
-**YouTube Shorts — Sports/Basketball Facts (AI-Automated)**
-Just decided to go solo on this. AI-scripted, AI-voiced, faceless format. Haven't made the first video yet. The friction point hasn't been found because nothing's been built yet. That's the next step.
+**YouTube Shorts (coldesthoops) — ⏸️ PAUSED (2026-07-02)**
+Pipeline built and working, 8 topics published, #9 built-not-published. On hold while รับน้อง takes priority — don't surface it until I unpause.
 
 **Bass & Music**
 Playing most days. Show coming up with friends. Not a career move — just something real. Learning music theory on the side.

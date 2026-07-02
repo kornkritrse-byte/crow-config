@@ -8,13 +8,16 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-06-24 (later) — Full Crow system rebuilt on the MacBook Neo. google-docs MCP now WORKING (Docs/Sheets editing proven live). See 2026-06-24 (later) session note.*
+*Last updated: 2026-07-02 — PRIORITY SHIFT (Korn's call): รับน้อง #1, coldesthoops PAUSED, bluetooth-fix trashed. Memory reorganized + security review done.*
 
 ## ⏯️ WHERE WE LEFT OFF (read this first)
-- **Mac rebuild is essentially DONE.** Docs/Sheets/Calendar/Gmail/Drive all editable by prompt. The hard-won piece was google-docs MCP — solved via `bin/gdocs-launcher.cjs` (node-fetch fix).
-- **PENDING ACTION:** Korn was told to **restart Claude Code** so the google-docs tools load into the session. If this is the post-restart session → **first thing: confirm google-docs works in-session** by reading/editing a real sheet (e.g. the Deadlines sheet `1WkeMVztOy38Hc-RlUCE0JPLY6OzmUGxfE4kODMCPNdA`). If it fails to connect, check `claude mcp list` and the launcher.
-- **NOT ported (needs old Windows laptop):** coldesthoops pipeline — `build_video.ps1` + ffmpeg + rclone.
-- **Untouched real-work threads still live:** รับน้อง props deadline **30 Jun (now ~6 days out)** + Deadlines sheet still unfilled + canonical workshop flow still unbuilt; coldesthoops #9 built-not-published; Bass Trainer Module 3 pending. Also: boys trip 25–28 Jun, and the calendar event still shows OLD dates (24–29) — offered to fix, 22 attendees would be notified, awaiting his ok.
+- **2026-07-02 — PRIORITY SHIFT (Korn's explicit call):** รับน้อง is the only active priority. **coldesthoops = PAUSED** (don't surface it or nag about #9 until he unpauses). **bluetooth-fix = TRASHED** (memory deleted; recoverable from git history).
+- **Memory reorganized 2026-07-02:** MEMORY.md is now grouped (Read First / Active / Paused / Rules / Who Korn Is / Crew / Logs). Duplicate crew file resolved — `crew_persi.md` is canonical, stale `crew_nate.md` deleted. Stranded memory `rubnong-flow-sheet.md` (written 29 Jun into the wrong project slug) rescued into the repo.
+- **Security review 2026-07-02:** GitHub repo confirmed **private** (unauthenticated API returns 404); no secret material inside the repo (only paths to `~/.google/`, which is outside git); `.gitignore` broadened to also block `credentials.json` / `token.json` / `*.pem` / `*.key` since `save.sh` does a blind `git add .` on every session stop.
+- **⚠️ STALE-COPY TRAP:** Korn has been launching Claude from `~/Downloads/crow-config-main` — a June-22 zip snapshot, not a git repo. Sessions started there write memory to a slug that never syncs (that's how rubnong-flow-sheet got stranded). **He should trash that folder and always run `claude` from `~/crow-config`.** Until he does, its allowlist (which pre-approves the destructive `deleteRange` sheet tool) stays active in those sessions.
+- **Date conflict to resolve:** this sitrep says camp = 25–27/07; the rubnong-flow-sheet memory says 27–29/07. Confirm which with Korn before scheduling anything against it.
+- **รับน้อง live threads:** props deadline was 30 Jun — status unknown, check; Deadlines sheet still unfilled; canonical workshop flow still unbuilt; Final Rehearsal 06/07/2026 (~4 days out).
+- Mac rebuild DONE — Docs/Sheets/Calendar/Gmail/Drive all editable by prompt (google-docs MCP via `bin/gdocs-launcher.cjs`). coldesthoops pipeline still not ported off the Windows laptop — moot while paused.
 
 ---
 
