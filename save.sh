@@ -10,7 +10,19 @@ memorySource="$HOME/.claude/projects/$slug/memory"
 # get loaded twice when a session runs from inside the repo — the single loaded
 # copy is ~/CLAUDE.md, which Claude Code picks up from any dir under home.
 cp "$HOME/CLAUDE.md" "$repoDir/CROW.md"
-cp "$memorySource"/* "$repoDir/memory/"
+
+# Mirror memory (deletes propagate — no more zombie files in the repo).
+# Guarded on sitrep.md existing in the source: a wrong-slug or empty live dir
+# must never --delete the repo's memory. Falls back to plain copy if rsync is missing.
+if [[ -f "$memorySource/sitrep.md" ]]; then
+  if command -v rsync >/dev/null 2>&1; then
+    rsync -a --delete "$memorySource"/ "$repoDir/memory/"
+  else
+    cp "$memorySource"/* "$repoDir/memory/"
+  fi
+else
+  echo "WARNING: $memorySource has no sitrep.md — skipping memory sync (wrong slug or empty dir?)" >&2
+fi
 
 cd "$repoDir"
 if [[ -n "$(git status --porcelain)" ]]; then

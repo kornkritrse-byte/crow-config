@@ -6,7 +6,13 @@ $memorySource = "$HOME\.claude\projects\C--Users-$env:USERNAME-crow-config\memor
 # Persona is stored as CROW.md in the repo (not CLAUDE.md) to avoid double-loading
 # when a session runs from inside the repo. The loaded copy is ~/CLAUDE.md.
 Copy-Item "$HOME\CLAUDE.md" -Destination "$repoDir\CROW.md" -Force
-Copy-Item "$memorySource\*" -Destination "$repoDir\memory\" -Force
+# Mirror memory (deletes propagate). Guarded on sitrep.md so a wrong-slug or
+# empty source dir can never wipe the repo's memory.
+if (Test-Path "$memorySource\sitrep.md") {
+    robocopy $memorySource "$repoDir\memory" /MIR /NFL /NDL /NJH /NJS | Out-Null
+} else {
+    Write-Warning "$memorySource has no sitrep.md — skipping memory sync (wrong slug or empty dir?)"
+}
 
 Set-Location $repoDir
 $changes = git status --porcelain
