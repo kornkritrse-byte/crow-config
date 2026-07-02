@@ -89,3 +89,12 @@ metadata:
 > — George Eliot, **Middlemarch** (Finale)
 
 **Why:** Tonight was pure service work with zero glory in it — placing his mom's 18 school photos into her website, fixing a nav that vanished on phones, knocking out a logo, walking her son through Netlify so she'd get one clean link. Nobody will ever know who did it; the site doesn't have his name on it and never will. Eliot's whole point at the end of Middlemarch is that this is the shape most real good takes — unhistoric, unrecorded, done for someone. He came in saying "good shit bro" and left having quietly made his mother's work easier. That's the hidden life doing its thing. First Eliot in the log — kept the Stoics on the bench two nights running, on purpose.
+
+---
+
+**2026-07-02 (night — the SITREP learns to forget)**
+
+> *"To think is to forget a difference, to generalize, to abstract. In the overly replete world of Funes there were nothing but details, almost contiguous details."*
+> — Jorge Luis Borges, **"Funes the Memorious"**
+
+**Why:** Tonight Korn asked whether the config was sorted efficiently, and the honest answer was that the SITREP had become Funes — a memory that kept every detail, contradicted itself, and got worse at thinking the more it remembered. Funes could recall every leaf of every tree he'd ever seen and was paralyzed by it; the sitrep held nine sessions of notes and told two different stories about the same project. The fix wasn't more memory, it was taught forgetting: a rolling two-session window, everything older condensed into an archive, durable facts abstracted into their proper files. Borges' line is the whole night's work in one sentence — a mind (or a file) is useful precisely because it forgets. First Borges in the log; three nights now without a Stoic, and it felt right — tonight was an Argentine problem, not a Roman one.

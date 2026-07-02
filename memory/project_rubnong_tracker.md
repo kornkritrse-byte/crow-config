@@ -1,39 +1,37 @@
 ---
 name: project-rubnong-tracker
-description: Building a Google Sheets progress tracker for the รับน้อง (rubnong) camp project
+description: "Canonical รับน้อง camp file — standing facts, doc/sheet/calendar IDs, July schedule, open threads. TOP PRIORITY through 27 Jul 2026."
 metadata:
   node_type: memory
   type: project
   originSessionId: current
 ---
 
-Korn is building a Google Sheets master tracker for the rubnong (รับน้อง) camp. He's Entertainment Department Head (สันทนาการ), co-leading with one other head.
+# รับน้อง — Entertainment Department (สันทนาการ)
 
-**Team:** 20 people (not counting Korn and the co-head)  
-**View type:** Master view — everyone can see everything
+Korn is Entertainment Department Head, co-leading with his best friend. Team: 20 people (not counting the two heads). **Theme: RAGNAROK GODS.** **Camp dates: 25–27 Jul 2026** (settled 2026-07-02 — ignore any older 27–29 claim).
 
-**Dedicated Google Calendar (found 2026-07-02):** "Rubnong34x35", calendar ID
-`bb274dc90e369ed88cc6e74fbc47d5421a4626e8a4b33915cac5ba9b1bfb12d0@group.calendar.google.com`
-— create all camp events HERE, not in his personal calendar. Write access CONFIRMED 2026-07-02 (5 events created). Always use notificationLevel NONE unless he says otherwise.
+## IDs (the ones that matter)
+- **Master flow doc:** "The amazing klao korn master flow" (7 tabs) — `15Dot1ZCeCx93OerDu3f_ggA502O4S2gHu_xOv15ud6g`. Workshop tab tabId `t.cs4ke5dazmxn`.
+- **Deadlines spreadsheet:** `1WkeMVztOy38Hc-RlUCE0JPLY6OzmUGxfE4kODMCPNdA` (tabs: Game|Play|San|Costume|Schedule|member mails) — still largely unfilled.
+- **"Deadline P'san" file:** `1DdI2ag7pTAvxw2gHq2ePhpyZu4Nb1wh69vCA5ezInw4` — contains the **Availability tab** (Sheet ID 411499844; dates 19 Jun→24 Jul × 21 members; offered ✓/✗/maybe dropdowns, never confirmed).
+- **Member list:** `1pmAnTKVhaj4rFj1Rnmv87GxUHsST3lXk0JXrRTcUX6o`, tab "member mails".
+- **Calendar:** "Rubnong34x35" — `bb274dc90e369ed88cc6e74fbc47d5421a4626e8a4b33915cac5ba9b1bfb12d0@group.calendar.google.com`. Write access confirmed. **Always notificationLevel NONE.** See [[reference-calendars]].
+- Live run-of-show sheet + its formatting gotchas: [[rubnong-flow-sheet]].
 
-**Known deadlines:**
-- Props complete → 30 Jun 2026
-- Final rehearsal ready → 6 Jul 2026
-- D-Day → 25–27 Jul 2026
-- Practice every Monday (recurring)
+## July schedule (built in Rubnong34x35, 2026-07-02, all no-notification)
+5 Jul DEADLINE Dialoge scene 5 · 6 Jul P'san c P'group 12–17 · 7 Jul Prop Building · 8 + 10 Jul Play Runthrough · 13 Jul Workshop 12–17 · 15/16/21/22 Jul Final Rehearsal 11–18 (blue) · 25–27 Jul "the shit" = camp (all-day, red). Any older "Final Rehearsal 06/07" note is SUPERSEDED.
+⚠️ Collisions (on the "Life" calendar): 7 Jul possible hoops interview 13–16 sits inside Prop Building day; 8 Jul ANS Dinner 19–22 follows the all-day runthrough.
 
-**Task categories (to be filled once recruitment done):**
-- 5 Games (names TBD, deadlines TBD)
-- Music (deadline TBD)
-- Scripts (deadline TBD)
-- Graphics (deadline TBD)
-- Uniform (deadline TBD)
-- Props (deadline: 30 Jun)
+## Open threads
+1. **Props deadline was 30 Jun — status unknown.** First thing to check.
+2. Deadlines spreadsheet still unfilled (assignees, due dates, statuses).
+3. **Canonical workshop flow still unbuilt.** My 2026-06-15 critique of the existing doc flagged: (1) no stated objective + three competing schedules (rough/NO SAN/MAIN) — needs ONE canonical; (2) song-teaching เฮลุมโบ้/พริ้ว/ควาย/สับปะรด silently dropped; (3) NO SAN closes on 1hr flat-energy "I Wish I Like I Learn"; (4) "don't let storyline become a democracy" contradicted by 1h40m group-story democracy in MAIN; (5) one untested round, zero buffer; (6) opens with 30min talk before play. **Offered to rebuild one clean flow — still waiting on his go.**
+4. Slide Game 1 & 2 deadline invites — sent or not, status unknown.
+5. Rename "Dialoge scene 5" if the team spells it Dialogue; "the shit" title is visible to everyone on the shared calendar (his call).
+6. 7 Jul props-coverage decision if the hoops interview firms up.
 
-**What's built:**
-A Google Apps Script (`buildRubnongTracker`) is ready — creates two tabs: "Master Tracker" (task, category, assigned to, due date, status with color-coded dropdown, notes) and "Schedule" (key dates + Monday practices). Script is written and working.
-
-**Blocker as of 2026-06-02:**
-Apps Script editor won't open — "Sorry, unable to open file at this time" error when clicking Extensions → Apps Script. Likely a multiple Google accounts conflict in the browser. Next steps to try: incognito window, or different browser. Need to confirm which Google account the sheet was made on.
-
-**Why:** Pick this up next session — don't re-explain the structure, just resolve the Apps Script blocker first.
+## History
+- Late-reg fines at workshops: 50฿ first 20 min, 5฿/min after. June workshops (8/15/22/29) are done.
+- NO SAN FLOW shifted +15 min on 2026-06-15 (13:15–16:55); MAIN untouched.
+- An Apps Script (`buildRubnongTracker`) for a Master Tracker + Schedule tab was written back on 2026-06-02 but blocked on the Apps Script editor not opening (browser/account conflict) — superseded in practice by the calendar + sheets above; revive only if he asks for the tracker again.

@@ -2,11 +2,11 @@
 *Reorganized 2026-07-02 — grouped by status. Priority call by Korn: รับน้อง is #1, coldesthoops paused, bluetooth-fix trashed.*
 
 ## 🔴 Read First
-- [**SITREP**](sitrep.md) — current situation report: what just happened, active threads, what's next
+- [**SITREP**](sitrep.md) — rolling situation report: current state + last TWO sessions only; rewritten at every session end (Stop hook enforces), older notes flush to sessions_log.md
 
 ## 🎯 Active — รับน้อง (TOP PRIORITY through late July)
 - [Rubnong Flow Sheet](rubnong-flow-sheet.md) — the live run-of-show Google Sheet + merged-cell & time-formatting gotchas that bite every session
-- [Rubnong Tracker](project_rubnong_tracker.md) — Google Sheets progress tracker; Apps Script written, was blocked on the Apps Script editor not opening (browser/account conflict)
+- [Rubnong Tracker](project_rubnong_tracker.md) — CANONICAL camp file: theme, doc/sheet/calendar IDs, July schedule, open threads (props status, workshop flow rebuild)
 
 ## 🟢 Active — other
 - [Bass Trainer](project_bass_trainer.md) — practice site at C:\Users\Korn\bass-trainer\ (Modules 1 & 2 built; he reads tabs/chords NOT notation; Module 3 pending)
@@ -49,6 +49,7 @@
 
 ## 📜 Logs & Archive
 - [Chapters](chapters.md) — narrative record of crew conversations, starting 2026-06-03
+- [Sessions Log](sessions_log.md) — archive of past session notes flushed from the SITREP; never auto-loaded
 - [Artis Quotes Log](artis_quotes_log.md) — running log of all nightly quotes with date and reason
 
 ## 🗑️ Trashed
