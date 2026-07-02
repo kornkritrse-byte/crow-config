@@ -24,8 +24,8 @@ crow-config/
 
 The hook *logic* lives in `hooks/` so it travels with the repo. Only the per-machine wiring sits in `~/.claude/settings.json`.
 
-- `hooks/session-start.sh` — auto-loads the SITREP into context at session start (Crow wakes up caught-up).
-- `hooks/stop.sh` — runs `save.sh` on session stop, pushing memory changes to GitHub automatically.
+- `hooks/session-start.sh` — auto-loads the SITREP (live copy, repo fallback) + an upcoming-events banner into context at session start, so Crow wakes up caught-up.
+- `hooks/stop.sh` — two-phase close: if the SITREP wasn't updated in the last 45 min, it blocks the first stop and has Crow rewrite it (rolling 2-session window); then runs `save.sh` to push memory changes to GitHub automatically.
 
 ## Setup on a new device
 

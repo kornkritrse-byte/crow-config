@@ -7,7 +7,7 @@ set -euo pipefail
 repoDir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$repoDir"
 
-echo "==> 1/5  Pulling latest + loading CLAUDE.md and memory into place"
+echo "==> 1/5  Pulling latest + loading CROW.md -> ~/CLAUDE.md and memory into place"
 bash load.sh
 
 echo "==> 2/5  Installing google-docs MCP package"

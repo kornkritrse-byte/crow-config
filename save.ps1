@@ -19,6 +19,11 @@ $changes = git status --porcelain
 if ($changes) {
     git add .
     git commit -m "sync $(Get-Date -Format 'yyyy-MM-dd HH:mm')"
+}
+# Push whenever ahead of origin, not only when files just changed — otherwise a
+# commit made while offline strands locally (next run sees a clean tree and skips).
+$ahead = git rev-list "@{u}..HEAD" 2>$null
+if ($ahead) {
     git push
     Write-Host "Saved to GitHub."
 } else {

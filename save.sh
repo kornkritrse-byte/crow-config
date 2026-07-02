@@ -28,6 +28,10 @@ cd "$repoDir"
 if [[ -n "$(git status --porcelain)" ]]; then
   git add .
   git commit -m "sync $(date '+%Y-%m-%d %H:%M')"
+fi
+# Push whenever we're ahead, not only when files just changed — otherwise a
+# commit made while offline strands locally (next run sees a clean tree and skips).
+if [[ -n "$(git rev-list '@{u}..HEAD' 2>/dev/null || true)" ]]; then
   git push
   echo "Saved to GitHub."
 else
