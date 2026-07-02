@@ -8,9 +8,10 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-07-02 (evening) — Downloads snapshot deleted, stale-copy trap closed, June-29 quote rescued. Earlier today: priority shift (รับน้อง #1, coldesthoops PAUSED, bluetooth-fix trashed), memory reorg, security review.*
+*Last updated: 2026-07-02 (night) — built + shipped mom's RBIS school website (public on Netlify). Earlier: Downloads snapshot deleted, stale-copy trap closed, June-29 quote rescued, priority shift (รับน้อง #1, coldesthoops PAUSED, bluetooth-fix trashed), memory reorg, security review.*
 
 ## ⏯️ WHERE WE LEFT OFF (read this first)
+- **2026-07-02 (night) — RBIS website for his MOM, DONE + LIVE:** one-page school site (`~/Downloads/rbis-website.html`), clean package at `~/Downloads/rbis-site/` (index.html + images/) + `rbis-site.zip`. Placed 17 of her 18 photos (from `~/Desktop/Moms RBIS/`), added mobile hamburger nav, generated white/navy transparent logos from her `rbis logo.png`. **Korn deployed it via Netlify Drop and sent the public URL to his mom.** Details in tonight's session note below.
 - **2026-07-02 — PRIORITY SHIFT (Korn's explicit call):** รับน้อง is the only active priority. **coldesthoops = PAUSED** (don't surface it or nag about #9 until he unpauses). **bluetooth-fix = TRASHED** (memory deleted; recoverable from git history).
 - **Memory reorganized 2026-07-02:** MEMORY.md is now grouped (Read First / Active / Paused / Rules / Who Korn Is / Crew / Logs). Duplicate crew file resolved — `crew_persi.md` is canonical, stale `crew_nate.md` deleted. Stranded memory `rubnong-flow-sheet.md` (written 29 Jun into the wrong project slug) rescued into the repo.
 - **Security review 2026-07-02:** GitHub repo confirmed **private** (unauthenticated API returns 404); no secret material inside the repo (only paths to `~/.google/`, which is outside git); `.gitignore` broadened to also block `credentials.json` / `token.json` / `*.pem` / `*.key` since `save.sh` does a blind `git add .` on every session stop.
@@ -19,6 +20,15 @@ metadata:
 - **รับน้อง live threads:** props deadline was 30 Jun — status unknown, check; Deadlines sheet still unfilled; canonical workshop flow still unbuilt.
 - **July schedule built in the Rubnong34x35 calendar (2026-07-02, all no-notification):** 5 Jul DEADLINE Dialoge scene 5 · 6 Jul P'san c P'group 12–17 · 7 Jul Prop Building · 8 + 10 Jul Play Runthrough · 13 Jul Workshop 12–17 · 15, 16, 21, 22 Jul Final Rehearsal 11–18 (blue) · 25–27 Jul "the shit" = camp, all-day red. The old "Final Rehearsal 06/07" note is SUPERSEDED — rehearsals are the 15/16/21/22 blocks.
 - **NEW "Life" calendar created 2026-07-02** (personal non-camp events; ID in [[reference-calendars]]). On it: 7 Jul "possible hoops interview" 13–16 (red) and 8 Jul "ANS Dinner" 19–22 (green). ⚠️ Flagged collisions: interview sits inside Prop Building day (7th), dinner follows the all-day runthrough (8th) — two zero-slack days back to back.
+
+## Session Notes — 2026-07-02 (night) — RBIS website for mom, shipped
+
+- **NEW one-off project, done in one session:** his mom needed photos added to an RBIS International School one-page site (`~/Downloads/rbis-website.html` — she works with/for the school). Source photos: `~/Desktop/Moms RBIS/` (18 jpgs, 1 duplicate, + `rbis logo.png` he added mid-session).
+- **Placed 17 photos** with descriptive filenames in `~/Downloads/images/`: hero bg (kids hands raised), about (entrance group shot), one per pathway card (EYFS sand / Primary artwork / Secondary laptop / IGCSE lab / Sixth Form building / Holistic huddle), Sixth Form banner, House-System banner (sports day with all 4 house flags — perfect match), Support image+text block, new "Life at RBIS" 6-photo gallery.
+- **Mobile fix:** below 900px the nav links + CTA were `display:none` with no replacement → added hamburger menu (JS toggle, closes on link tap) + small-screen polish (section padding, hero height, stats, footer stack).
+- **Logo:** `rbis logo.png` is navy-on-white, no alpha → generated `logo-white.png` (luminance→alpha knockout, for the navy nav/footer) + `logo-navy.png` (spare) via Pillow in a throwaway scratchpad venv. Fixed the pre-existing broken `logo-horizontal-white.png` refs.
+- **Delivery:** clean package `~/Downloads/rbis-site/` (index.html + images) + `rbis-site.zip` (2.7MB). Phone-test via `python3 -m http.server` (killed at session end). Walked him through **Netlify Drop** — he deployed it himself and **sent the public URL to his mom**. Update flow if she wants changes: I edit → he re-drags `rbis-site` onto the site's Deploys tab, same URL.
+- **Open threads (only if mom asks):** nav logo is the white *reversed* treatment — if she wants the original navy shield, add a white chip behind it (1 CSS line); hero photo is 1546px (slightly soft on 4K screens — swap if she has bigger); iOS Files/Quick Look can't render local HTML properly (photos-no-design) — always view via the Netlify URL.
 
 ## Session Notes — 2026-07-02 (from the stale Downloads copy — last session there)
 - Confirmed google-docs MCP works in-session (read the Deadlines sheet — closes the post-restart pending action).
