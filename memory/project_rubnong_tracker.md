@@ -14,7 +14,7 @@ Korn is building a Google Sheets master tracker for the rubnong (รับน้
 
 **Dedicated Google Calendar (found 2026-07-02):** "Rubnong34x35", calendar ID
 `bb274dc90e369ed88cc6e74fbc47d5421a4626e8a4b33915cac5ba9b1bfb12d0@group.calendar.google.com`
-— create all camp events HERE, not in his personal calendar. Write access untested as of 2026-07-02; if create_event bounces, he needs the co-head to grant "Make changes to events".
+— create all camp events HERE, not in his personal calendar. Write access CONFIRMED 2026-07-02 (5 events created). Always use notificationLevel NONE unless he says otherwise.
 
 **Known deadlines:**
 - Props complete → 30 Jun 2026
