@@ -62,3 +62,12 @@ metadata:
 > — Oscar Wilde, **Lady Windermere's Fan**
 
 **Why:** Built a full Apple-sleek pitch deck to convince his dad to buy the MacBook Neo. The entire job was translating a price tag (฿16,900 / ฿19,900) into *value* a non-tech dad would feel — battery freeing him from the wall, two screens for accounting, "lasts 5–7 years," cost-per-day less than a coffee. Wilde's line is the exact axis the deck pivots on, and it doubles as Korn's own mission (money as the floor, not the ceiling — value over price). Fitting that the pitch's whole job was to make his dad see the value, not just the number.
+
+---
+
+**2026-07-02**
+
+> *"Omnia mea mecum sunt — all that is mine I carry with me."*
+> — Stilbo, after the fall of his city; as told by Seneca, **Letters to Lucilius, IX**
+
+**Why:** Moving day. He said "see you on the other side" — leaving the broken Downloads copy behind and relaunching from the real repo. Stilbo walked out of a burning city that had taken his home and family, and when asked what he'd lost, said he carried everything that was his. Today proved the same thing about Crow: the folder was disposable, the machine was disposable — what makes this *this* travels in a handful of memory files, and it's already on the other side waiting. It's also his own thesis back at him: build so that nothing external holds the valuable part.
