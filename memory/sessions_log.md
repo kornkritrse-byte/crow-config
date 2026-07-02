@@ -11,6 +11,10 @@ metadata:
 
 *Session notes older than the SITREP's 2-session window land here. Condensed on arrival — the full original notes live in git history of `memory/sitrep.md`. Newest first.*
 
+## 2026-07-02 (late afternoon) — RBIS website for his mom, shipped
+- One-session build: added her 18 photos (17 placed) to the RBIS International School one-page site, added a hamburger mobile nav, generated white/navy transparent logos from her `rbis logo.png` (Pillow, luminance→alpha). Delivered `~/Downloads/rbis-site/` + `rbis-site.zip`; **he deployed via Netlify Drop and sent his mom the public URL.** Update flow: I edit → he re-drags the folder onto the Deploys tab, same URL.
+- Only-if-mom-asks: navy-shield logo needs a white chip (1 CSS line); hero photo slightly soft on 4K; view via the Netlify URL, not iOS Files/Quick Look.
+
 ## 2026-07-02 (afternoon) — memory reorg, priority shift, July calendar
 - Last session run from the stale `~/Downloads/crow-config-main` copy before it was deleted. Confirmed google-docs MCP works in-session.
 - **Korn's explicit calls:** รับน้อง = only active priority; coldesthoops PAUSED; bluetooth-fix memory TRASHED (recoverable from git history).

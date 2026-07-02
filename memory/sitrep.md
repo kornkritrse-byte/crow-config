@@ -19,10 +19,13 @@ metadata:
 ## 🎯 Current state
 - **รับน้อง = the ONLY active priority** (camp 25–27 Jul). All standing facts, IDs, July schedule, and open threads: [[project-rubnong-tracker]]. Hottest items: props deadline was 30 Jun — status unknown; Dialogue scene 5 due 5 Jul; canonical workshop flow still unbuilt (rebuild offered, waiting on his go).
 - **coldesthoops PAUSED** (don't surface until he unpauses — [[project-coldesthoops]]). bluetooth-fix trashed.
-- **Possible next session (his words):** reflecting on *Brothers Karamazov* — last known position Book 7. **Ask where he is before saying anything — no spoilers** (especially the Epilogue stone speech).
+- **Brothers Karamazov — position now: finished Book 9 (Mokroe), stopped at its last line, has NOT started Book 10.** ⚠️ No spoilers past Book 9 (no trial, Smerdyakov, Ivan/devil, Book 10 Boys, or Epilogue stone speech). He's using sessions to refine his thoughts as he reads — will keep coming back. Always ask exactly where he is first. Full context: [[user-reading-list]].
 - Bass Trainer Module 3 pending when he wants it ([[project-bass-trainer]]). Show with friends upcoming.
 
-## Session — 2026-07-02 (night): SITREP goes rolling-window
+## Session — 2026-07-02 (late night): Karamazov reflection (the babe)
+- Reading reflection, his deep-night mode — closed the day with it. Finished Book 9; the babe dream hit hardest. Two revelations he brought: (1) can't accept a God who "creates all equal" against visible suffering — I sharpened it (the claim is equal worth, not equal conditions) and distinguished it from Ivan's rebellion (Ivan rejects the *final harmony* / returns the ticket; Korn's is about present distribution). (2) kindness — moved by Mitya giving riches while broke; I pushed that it's "love in dreams" (overflow from the same wildness as the near-parricide), and named the trap dead-center in his own struggle: the compassion-feeling can become its own comfortable chair. Gave a second pass of intended meanings (interrogation-as-toll-house, Mokroe-as-intended-suicide, wanting undeserved punishment for true sins, Grigory as surrogate father struck, Grushenka's shattered idol, the 3,000 as moral debt). Quote logged: Zosima's "active love is a harsh and dreadful thing." No task work — pure reflection.
+
+## Session — 2026-07-02 (night): SITREP goes rolling-window + config overhaul
 - Korn asked whether the config + crew structure is efficient. Verdict delivered: crew is fine (lenses, not workers — no sixth member); the files weren't. Biggest offender: this file — 203 lines, bottom half contradicting the top (stale "coldesthoops active" section, dead Windows paths, superseded dates).
 - **Rebuilt the SITREP system on his go:** rolling 2-session window + rewrite rule above; old session notes flushed to new [[sessions-log]]; standing rubnong facts consolidated into [[project-rubnong-tracker]] (now the canonical camp file); [[project-google-docs-mcp]] rewritten Mac-era (launcher, node-fetch bug, ~/.google paths).
 - **`hooks/stop.sh` rewritten:** now blocks the first stop and instructs Crow to rewrite the SITREP (+ nightly quote if missed), then syncs to GitHub on the real stop. Fired for the first time at this session's own close — mechanism confirmed live end-to-end.
@@ -32,7 +35,4 @@ metadata:
 - **Needs Korn's hand:** pruning dead entries from `.claude/settings.local.json` (blocked as self-modification — the 3 lines to delete: `Read(//Users/kornkrit/Downloads/crow-config-main/**)`, `Bash(rm -rf ~/Downloads/crow-config-main)`, and the mangled `__CMDSUB_OUTPUT__` grep entry; also the one-off `Bash(grep -iA3 -E ...)` line).
 - **Parked by Korn:** Bass Trainer Mac port ("can wait" — needs the Windows laptop awake). Explicitly not worth doing: flow-sheet rename (unblocked now but cosmetic), log pruning, sixth crew member.
 
-## Session — 2026-07-02 (late afternoon): RBIS website for his mom — shipped
-- One-session build: added her 18 photos (17 placed, descriptive filenames) to the RBIS one-page site, hamburger mobile nav, white/navy transparent logos generated from her `rbis logo.png` (Pillow, luminance→alpha).
-- Delivered `~/Downloads/rbis-site/` (index.html + images/) + `rbis-site.zip`. **He deployed via Netlify Drop and sent his mom the public URL.** Update flow: I edit → he re-drags the folder onto the site's Deploys tab, same URL.
-- Only-if-mom-asks threads: navy-shield logo needs a white chip (1 CSS line); hero photo slightly soft on 4K; view via the Netlify URL, not iOS Files/Quick Look.
+*(RBIS-website-for-mom session note flushed to [[sessions-log]] — rolling 2-session window.)*
