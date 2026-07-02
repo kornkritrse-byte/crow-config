@@ -8,10 +8,10 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-07-02 (night) — built + shipped mom's RBIS school website (public on Netlify). Earlier: Downloads snapshot deleted, stale-copy trap closed, June-29 quote rescued, priority shift (รับน้อง #1, coldesthoops PAUSED, bluetooth-fix trashed), memory reorg, security review.*
+*Last updated: 2026-07-02 (late afternoon, ~17:00) — built + shipped mom's RBIS school website (public on Netlify). Earlier: Downloads snapshot deleted, stale-copy trap closed, June-29 quote rescued, priority shift (รับน้อง #1, coldesthoops PAUSED, bluetooth-fix trashed), memory reorg, security review.*
 
 ## ⏯️ WHERE WE LEFT OFF (read this first)
-- **2026-07-02 (night) — RBIS website for his MOM, DONE + LIVE:** one-page school site (`~/Downloads/rbis-website.html`), clean package at `~/Downloads/rbis-site/` (index.html + images/) + `rbis-site.zip`. Placed 17 of her 18 photos (from `~/Desktop/Moms RBIS/`), added mobile hamburger nav, generated white/navy transparent logos from her `rbis logo.png`. **Korn deployed it via Netlify Drop and sent the public URL to his mom.** Details in tonight's session note below.
+- **2026-07-02 (late afternoon) — RBIS website for his MOM, DONE + LIVE:** one-page school site (`~/Downloads/rbis-website.html`), clean package at `~/Downloads/rbis-site/` (index.html + images/) + `rbis-site.zip`. Placed 17 of her 18 photos (from `~/Desktop/Moms RBIS/`), added mobile hamburger nav, generated white/navy transparent logos from her `rbis logo.png`. **Korn deployed it via Netlify Drop and sent the public URL to his mom.** Details in tonight's session note below.
 - **2026-07-02 — PRIORITY SHIFT (Korn's explicit call):** รับน้อง is the only active priority. **coldesthoops = PAUSED** (don't surface it or nag about #9 until he unpauses). **bluetooth-fix = TRASHED** (memory deleted; recoverable from git history).
 - **Memory reorganized 2026-07-02:** MEMORY.md is now grouped (Read First / Active / Paused / Rules / Who Korn Is / Crew / Logs). Duplicate crew file resolved — `crew_persi.md` is canonical, stale `crew_nate.md` deleted. Stranded memory `rubnong-flow-sheet.md` (written 29 Jun into the wrong project slug) rescued into the repo.
 - **Security review 2026-07-02:** GitHub repo confirmed **private** (unauthenticated API returns 404); no secret material inside the repo (only paths to `~/.google/`, which is outside git); `.gitignore` broadened to also block `credentials.json` / `token.json` / `*.pem` / `*.key` since `save.sh` does a blind `git add .` on every session stop.
@@ -21,7 +21,7 @@ metadata:
 - **July schedule built in the Rubnong34x35 calendar (2026-07-02, all no-notification):** 5 Jul DEADLINE Dialoge scene 5 · 6 Jul P'san c P'group 12–17 · 7 Jul Prop Building · 8 + 10 Jul Play Runthrough · 13 Jul Workshop 12–17 · 15, 16, 21, 22 Jul Final Rehearsal 11–18 (blue) · 25–27 Jul "the shit" = camp, all-day red. The old "Final Rehearsal 06/07" note is SUPERSEDED — rehearsals are the 15/16/21/22 blocks.
 - **NEW "Life" calendar created 2026-07-02** (personal non-camp events; ID in [[reference-calendars]]). On it: 7 Jul "possible hoops interview" 13–16 (red) and 8 Jul "ANS Dinner" 19–22 (green). ⚠️ Flagged collisions: interview sits inside Prop Building day (7th), dinner follows the all-day runthrough (8th) — two zero-slack days back to back.
 
-## Session Notes — 2026-07-02 (night) — RBIS website for mom, shipped
+## Session Notes — 2026-07-02 (late afternoon) — RBIS website for mom, shipped
 
 - **NEW one-off project, done in one session:** his mom needed photos added to an RBIS International School one-page site (`~/Downloads/rbis-website.html` — she works with/for the school). Source photos: `~/Desktop/Moms RBIS/` (18 jpgs, 1 duplicate, + `rbis logo.png` he added mid-session).
 - **Placed 17 photos** with descriptive filenames in `~/Downloads/images/`: hero bg (kids hands raised), about (entrance group shot), one per pathway card (EYFS sand / Primary artwork / Secondary laptop / IGCSE lab / Sixth Form building / Holistic huddle), Sixth Form banner, House-System banner (sports day with all 4 house flags — perfect match), Support image+text block, new "Life at RBIS" 6-photo gallery.
