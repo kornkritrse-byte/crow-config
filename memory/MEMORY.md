@@ -27,7 +27,7 @@
 - [Session Cohesion](feedback_session_cohesion.md) — read memory at every session start to maintain continuity and consistent character
 - [Session Start Question](feedback_session_start.md) — don't repeat "what matters today" if already asked the same day; check last_asked date
 - [Artis Nightly Quote](feedback_artis_quote.md) — end every session with a classic lit quote tied to the day's themes
-- [MarkItDown Reminder](feedback_markitdown.md) — suggest MarkItDown for large PDFs (10+ pages) to avoid token waste
+- [MarkItDown Reminder](feedback_markitdown.md) — MarkItDown INSTALLED on Mac (use on any 10+ page PDF, don't ask); Playwright too (screenshot/verify web pages incl. phone viewports)
 
 ## 🧭 Who Korn Is
 - [Korn](user_korn.md) — the core portrait
