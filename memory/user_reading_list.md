@@ -21,6 +21,8 @@ All read by age 19, most within 2025-2026.
 
 **A Wild Sheep Chase** (Murakami) — Fun read, vibes only, nothing specific stuck.
 
+**White Nights** (Dostoevsky) — Read a long time back; still owns the copy. Good read, and **the first literature he read while actively thinking about what he was reading** — the start of him as a deliberate reader. (Predates most of this list.)
+
 **The Death of Ivan Ilyich** (Tolstoy) — First book that cracked something open. Hit emotionally before intellectually — the regret of a wasted life. Turning point in his reading.
 
 **The Courage to Be Disliked** (Kishimi/Koga, Adlerian) — Life-changing. Task separation, detaching from others' expectations. Wishes he could have it floating in his mind more actively.
