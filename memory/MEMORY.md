@@ -2,7 +2,7 @@
 *Reorganized 2026-07-02 — grouped by status. Priority call by Korn: รับน้อง is #1, coldesthoops paused, bluetooth-fix trashed.*
 
 ## 🔴 Read First
-- [**SITREP**](sitrep.md) — rolling situation report: current state + last TWO sessions only; rewritten at every session end (Stop hook enforces), older notes flush to sessions_log.md
+- [**SITREP**](sitrep.md) — rolling situation report: current state + last TWO sessions only; rewritten when Korn logs off for the day (marker + Stop hook enforce — see Artis Nightly Quote rule), older notes flush to sessions_log.md
 
 ## 🎯 Active — รับน้อง (TOP PRIORITY through late July)
 - [Rubnong Flow Sheet](rubnong-flow-sheet.md) — the live run-of-show Google Sheet + merged-cell & time-formatting gotchas that bite every session
@@ -27,7 +27,7 @@
 - [Silent Misses](feedback_silent_misses.md) — Korn ignores suggestions that don't fit instead of saying so; silence ≠ agreement, a "nah, doesn't fit" is all it takes
 - [Session Cohesion](feedback_session_cohesion.md) — read memory at every session start to maintain continuity and consistent character
 - [Session Start Question](feedback_session_start.md) — don't repeat "what matters today" if already asked the same day; check last_asked date
-- [Artis Nightly Quote](feedback_artis_quote.md) — end every session with a classic lit quote tied to the day's themes
+- [Artis Nightly Quote](feedback_artis_quote.md) — quote + SITREP wrap-up fire ONLY when Korn says he's logging off for the day (then `touch ~/.crow-session-ending`; the Stop hook handles the rest) — NEVER from a Stop-hook nudge alone; Stop hooks fire every turn, not at day's end
 - [MarkItDown Reminder](feedback_markitdown.md) — MarkItDown INSTALLED on Mac (use on any 10+ page PDF, don't ask); Playwright too (screenshot/verify web pages incl. phone viewports)
 
 ## 🧭 Who Korn Is

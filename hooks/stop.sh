@@ -15,11 +15,20 @@
 #   Phase 2 (stop_hook_active=true): wrap-up done -> clear marker, sync, exit.
 #   No marker: quiet autosave sync, never block.
 #
+# Stale-marker guard: a marker older than 2h is a leftover from a session that
+# died mid-wrap-up (lid closed, terminal killed) — NOT tonight's intent. Without
+# this, the corpse file would fire a premature wrap-up on tomorrow's first "hey",
+# which is the same bug this design exists to kill. Delete it and move on.
+#
 # Wrapped to never hard-fail or block session shutdown (e.g. when offline).
 
 repoDir="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 marker="$HOME/.crow-session-ending"
 input="$(cat 2>/dev/null || true)"
+
+if [ -f "$marker" ] && [ -z "$(find "$marker" -mmin -120 2>/dev/null)" ]; then
+  rm -f "$marker" 2>/dev/null || true
+fi
 
 if echo "$input" | grep -q '"stop_hook_active"[[:space:]]*:[[:space:]]*true'; then
   # Phase 2: wrap-up already handed over and completed. Clean up + sync.
