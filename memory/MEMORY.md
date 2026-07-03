@@ -21,6 +21,7 @@
 - [Coldesthoops Videos](coldesthoops_videos.md) — published-topics log — check before suggesting new ones to avoid repeats
 
 ## 📏 Operating Rules (feedback)
+- [Recall First](feedback_recall_first.md) — Korn mentions a name/event/decision not in loaded context → `bash ~/crow-config/bin/recall.sh "<term>"` (live memory + git history) BEFORE saying "I don't remember" or asking him to re-explain
 - [Critical Assessment](feedback_critical_assessment.md) — default: steelman objections before agreeing, never flatter, follow logic over comfort
 - [Transparency Preference](feedback_transparency.md) — call out when something sounds off, blatantly — Vera's role, no permission needed
 - [Confirm Before Sending](feedback_confirm_before_sending.md) — always confirm before sending calendar invites or emails to other people — no exceptions
