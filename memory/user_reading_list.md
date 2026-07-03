@@ -41,4 +41,12 @@ All read by age 19, most within 2025-2026.
 
 **After Dark** (Murakami) — Currently reading, in parallel with Karamazov: his **before-sleep book** ("I normally switch to After Dark before sleeping" — 2026-07-03). **Position as of 2026-07-03: chapter 15, nearly done.** ⚠️ No spoilers past ch. 15. He's deliberately pacing it — going slow, chapter by chapter, **saving the ending for a rainy night**. He waited since **November 2025** for rainy season to arrive just to *buy* this book — the whole read is season-matched by design. Don't push him to finish; the pacing is the point. Fifth Murakami on the list.
 
+## On the shelf — owned, unread or dropped (as of 2026-07-03)
+Physical books he already has. Recommend from HERE before suggesting new purchases.
+- **One Hundred Years of Solitude** (García Márquez) — ~100pp in, DROPPED. "Couldn't find much meaning, just a whole lot of cool bizarre shit." Magical realism didn't give him a thread to pull.
+- **Pride and Prejudice** (Austen) — few chapters in, stopped for a more fun read. Not abandoned on principle, just deprioritized.
+- **The Three Theban Plays** (Sophocles) — dropped (wasn't into plays then). **Wants to revisit BECAUSE of รับน้อง** — the camp warmed him to drama/performance. Live re-entry candidate.
+- **Man's Search for Meaning** (Frankl) — DROPPED early: "not into war stuff, war is just very miserable." But he senses "the back end has something good." (Note: the concentration-camp memoir is only the front half; the back half is logotherapy — meaning as the answer to suffering, dead-center of his purpose/directionlessness struggle. Not really a war book.)
+- **Letters to Milena** (Kafka) — unread. Bought it to get into Kafka "but no crazy ideas" — wanted his *letters*, "to see how he showed love." ← Directly on the love thread he's circling (2026-07-03).
+
 **How to apply:** When discussing ideas or recommending books, reference this list. He learns through examples, not principles — his reading history shows he pulls specific threads rather than broad themes. Books that "didn't land" often did more than he realizes.
