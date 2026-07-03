@@ -11,6 +11,13 @@ metadata:
 
 *Session notes older than the SITREP's 2-session window land here. Condensed on arrival — the full original notes live in git history of `memory/sitrep.md`. Newest first.*
 
+## 2026-07-02 (night) — SITREP goes rolling-window + config overhaul
+- Big infra night. Rebuilt the SITREP into a rolling 2-session window with a rewrite rule; flushed old notes into this log; consolidated standing rubnong facts into [[project-rubnong-tracker]]; rewrote [[project-google-docs-mcp]] Mac-era.
+- `hooks/stop.sh` rewritten to block the first stop → rewrite SITREP (+ nightly quote if missed) → sync to GitHub on real stop; skips the block if sitrep.md was touched in the last 45 min.
+- Crew name settled: **ARTIS** (not "Rem"). CLAUDE.md dedup: repo copy renamed `CROW.md` (a repo file named CLAUDE.md double-loads); loaded copy is `~/CLAUDE.md`. Project status stripped from CLAUDE.md → lives only in memory/SITREP.
+- Sync machinery: save/load now MIRROR memory (deletes/renames propagate, guarded on sitrep.md existing); push whenever ahead of origin; session-start reads the LIVE sitrep. Skills cleaned (lock pruned 43→9). New session-start banner (closest event + days-to-camp), fed by [[reference-upcoming-events]] — mirror that file whenever calendar events change.
+- Left for Korn's hand: prune dead entries from `.claude/settings.local.json` (self-modification-blocked). Parked: Bass Trainer Mac port.
+
 ## 2026-07-02 (late afternoon) — RBIS website for his mom, shipped
 - One-session build: added her 18 photos (17 placed) to the RBIS International School one-page site, added a hamburger mobile nav, generated white/navy transparent logos from her `rbis logo.png` (Pillow, luminance→alpha). Delivered `~/Downloads/rbis-site/` + `rbis-site.zip`; **he deployed via Netlify Drop and sent his mom the public URL.** Update flow: I edit → he re-drags the folder onto the Deploys tab, same URL.
 - Only-if-mom-asks: navy-shield logo needs a white chip (1 CSS line); hero photo slightly soft on 4K; view via the Netlify URL, not iOS Files/Quick Look.

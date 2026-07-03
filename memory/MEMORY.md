@@ -28,6 +28,7 @@
 - [Confirm Before Sending](feedback_confirm_before_sending.md) — always confirm before sending calendar invites or emails to other people — no exceptions
 - [Silent Misses](feedback_silent_misses.md) — Korn ignores suggestions that don't fit instead of saying so; silence ≠ agreement, a "nah, doesn't fit" is all it takes
 - [Session Cohesion](feedback_session_cohesion.md) — read memory at every session start to maintain continuity and consistent character
+- [Open Loop](feedback_open_loop.md) — when Korn says what he's stepping away for, log it on the SITREP status line; ask him to fill the gap on return to keep the day cohesive
 - [Session Start Question](feedback_session_start.md) — don't repeat "what matters today" if already asked the same day; check last_asked date
 - [Artis Nightly Quote](feedback_artis_quote.md) — quote + SITREP wrap-up fire ONLY when Korn says he's logging off for the day (then `touch ~/.crow-session-ending`; the Stop hook handles the rest) — NEVER from a Stop-hook nudge alone; Stop hooks fire every turn, not at day's end
 - [MarkItDown Reminder](feedback_markitdown.md) — MarkItDown INSTALLED on Mac (use on any 10+ page PDF, don't ask); Playwright too (screenshot/verify web pages incl. phone viewports)
