@@ -2,7 +2,7 @@
 *Reorganized 2026-07-02 — grouped by status. Priority call by Korn: รับน้อง is #1, coldesthoops paused, bluetooth-fix trashed.*
 
 ## 🔴 Read First
-- [**SITREP**](sitrep.md) — rolling situation report: current state + last TWO sessions only; rewritten when Korn logs off for the day (marker + Stop hook enforce — see Artis Nightly Quote rule), older notes flush to sessions_log.md
+- [**SITREP**](sitrep.md) — rolling situation report: current state + last TWO sessions only; maintained LIVE in-session, verified+flushed at day-end (marker + Stop hook — see Artis Nightly Quote rule); deep-night reflections live in chapters.md (sitrep keeps one pointer bullet), older notes flush to sessions_log.md
 
 ## 🎯 Active — รับน้อง (TOP PRIORITY through late July)
 - [Rubnong Flow Sheet](rubnong-flow-sheet.md) — the live run-of-show Google Sheet + merged-cell & time-formatting gotchas that bite every session

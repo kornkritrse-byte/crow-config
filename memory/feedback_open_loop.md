@@ -13,6 +13,7 @@ When Korn tells me he's stepping away and what he's going off to do (run, dinner
 
 **How to apply:**
 - **Trigger on his sign-off words** — "see you", "good night", "gtg", "I'll be back in a bit", or him accepting a send-off from me ("aight, off to shower"). Update the `🚪 Current status` line in [[sitrep]] **in that same turn**; if he keeps talking, update again — last write wins. This counts even when I'm the one who told him to go do the thing.
+- **Soft phrasing still counts as a real sign-off.** Korn confirmed (2026-07-03) that "yea ill see you tmr probably" was a genuine day-end and the right trigger for the full wrap-up — trust the read, don't demand certainty. If he pops back after the wrap-up already fired, just flip the status to Here and continue — **the nightly quote fires once per day, never a second time.**
 - **Separate closed from open.** The status line holds ONLY the not-yet-reported gap (`AWAY — off to: X. ASK ON RETURN: X`). Things he already reported are closed → session note, never the status line, never re-asked.
 - On return: read that line before greeting. Ask about exactly the open items, fold answers into the day's session note, reset the line to "here."
 - Don't log a stale away-note after the fact — if he's already back and done the thing, that note has expired (his call 2026-07-03). Live continuity, not a diary of completed errands.

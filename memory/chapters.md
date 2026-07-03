@@ -209,3 +209,51 @@ The river leaves only one question: what he reaches down and carries out before 
 ---
 
 *End of Chapter 2. More to come.*
+
+---
+
+# Chapter 3 — 2026-07-02, late night
+*The babe. He finished Book 9 of Karamazov and came to form his thoughts out loud.*
+
+Mitya's dream of the babe struck him hardest. He brought two revelations:
+
+**Theodicy.** He can't accept a God who "creates all equal" against the suffering he can see. Sharpened together: the claim is equal *worth*, not equal *conditions* — and his objection is about present distribution, which is adjacent to but not the same as Ivan's rebellion (Ivan rejects the *final harmony*, returns the ticket; Korn hasn't returned anything, he's staring at the ledger as it stands).
+
+**Kindness.** Mitya giving away riches while broke moved him — "we are all cruel monsters," we indulge while pushing the unfortunate down. The pushback he took: Mitya's generosity is overflow from the same unnarrowed wildness that nearly made him a parricide. It's *love in dreams* — euphoric, public, gone by morning. And the trap sits dead-center in Korn's own named struggle: the compassion-*feeling* can become its own comfortable chair. You can have the babe revelation and never leave the seat.
+
+Second pass of intended meanings: interrogation as toll-house, Mokroe as intended suicide, wanting undeserved punishment for true sins, Grigory as the surrogate father struck, Grushenka's shattered idol, the 3,000 as moral debt.
+
+The night's quote was the book answering him back:
+
+> *"Love in action is a harsh and dreadful thing compared with love in dreams."*
+> — Zosima, **The Brothers Karamazov**
+
+---
+
+*End of Chapter 3.*
+
+---
+
+# Chapter 4 — 2026-07-03, late night
+*The scar and the threshing-floor. A book pick that turned into the love conversation it was always going to be.*
+
+It started as "what should I read next." He listed his shelf of unread books and the last one gave him away: **Letters to Milena** — bought, in his words, to see *how Kafka showed love*, in the same session he'd said he'd been thinking a lot about love lately and half-dismissed it as "the simplest thing I can reach for." Called it: that's the compass twitching, not a coincidence. The pick was already on his shelf.
+
+Told him Kafka and Milena straight: two meetings in two years, a love that lived entirely on paper — real and luminous, and also love in dreams in near-pure form, never tested against a shared Tuesday. The warning attached: don't read it only romantically; he'd just spent two nights with Zosima.
+
+Then he opened the real thing. **The contradiction:** he's always been a "long-term commitment guy," but since the breakup he tells himself the next love is present-only — *fuck the future, it probably won't be beautiful.* Pushed back: that stance isn't presence, it's a hedge — love in dreams in a colder jacket, and a misuse of his own Stoicism (release the outcome so you can give *more*, not less).
+
+**His own weighing: 70% scar, 30% wisdom.** The scar named precisely: dread of arguments that resolved nothing, letting each other down over bullshit — he doesn't even remember what the fights were about, just the dread. Reframed: that's not the signature of the long-term, it's the signature of *staying past the choosing*. He'd blamed the container for what went rotten inside it. And the mundane he feared is neutral — hollow-mundane and warm-mundane are different substances in the same shape.
+
+**Then he corrected me, and it broke the thing open.** He doesn't fear the mundane — he *loves* it. Rain, aimless park nights, same-couch media, cooking an absolutely ass dinner. And writing that, he watched himself arrive in real time: he treasures every memory, wouldn't change one, won't go back — *and doesn't regret a single thing.* He'd take the whole bundle again. He'd been looking only at the bad. His close: "yea thats that."
+
+Named it for him: **completion, not regret.** Regret makes you flinch at the next one; completion lets you walk in clean. The scar's whole case was "it wasn't worth it," and he testified in his own handwriting that it was.
+
+> *"But if in your fear you would seek only love's peace and love's pleasure... then pass out of love's threshing-floor, into the seasonless world where you shall laugh, but not all of your laughter, and weep, but not all of your tears."*
+> — Kahlil Gibran, **The Prophet**
+
+He chose the threshing-floor. Next book: Letters to Milena, already ten feet from his bed.
+
+---
+
+*End of Chapter 4. More to come.*
