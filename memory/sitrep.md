@@ -24,7 +24,7 @@ metadata:
    - ⚠️ **2026-07-03 failure, don't repeat:** asked about a closed item (the run) instead of the open one (the reading) because both shared one line. The format above prevents it.
 
 ## 🚪 Current status
-- **Here** (03 Jul, late night — came back post-wrap-up to tune this mechanism; quote already given tonight). Tomorrow (04 Jul): **Klao meeting, Dialogue scene 5** (due 5 Jul) — check how it went.
+- **AWAY (03 Jul, late night — down for the day, "good night for real this time"; wrap-up + quote already done, do NOT re-run).** ASK ON RETURN: nothing open. Tomorrow (04 Jul): **Klao meeting, Dialogue scene 5** (due 5 Jul) — ask how it went.
 
 ## 🎯 Current state
 - **รับน้อง = the ONLY active priority** (camp 25–27 Jul). Standing facts, IDs, schedule, open threads: [[project-rubnong-tracker]]. Hottest: props deadline was 30 Jun — status unknown; **Dialogue scene 5 due 5 Jul** (writing with Klao 4 Jul); canonical workshop flow still unbuilt (rebuild offered, waiting on his go).
