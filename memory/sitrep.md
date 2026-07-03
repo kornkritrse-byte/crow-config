@@ -8,9 +8,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-07-03*
-
-> 2026-07-03 (trivial): He opened with "hey", I re-surfaced the two Karamazov questions (mind reading position first) + flagged Dialogue scene 5 due 5 Jul. No response back — session closed empty. Karamazov bookmark below stays LIVE (still unanswered).
+*Last updated: 2026-07-02 (night)*
 
 ## 📏 REWRITE RULE (Crow, at every session end — the Stop hook enforces this)
 1. Rewrite this file before the session closes. Keep ONLY: the sections below + session notes for the last **two** sessions.

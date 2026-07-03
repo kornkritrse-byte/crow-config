@@ -1,33 +1,42 @@
 #!/usr/bin/env bash
-# stop.sh — two-phase session close. Wired via ~/.claude/settings.json (Stop hook).
+# stop.sh — session sync + intent-based end-of-day wrap-up.
+# Wired via ~/.claude/settings.json (Stop hook).
 #
-# Phase 1 (first stop attempt, sitrep stale): block the stop and hand Crow the
-#   SITREP rewrite instruction (rule lives in memory/sitrep.md itself).
-# Phase 2 (stop_hook_active=true, OR the sitrep was already rewritten in the
-#   last 45 min): let the session end and run save.sh to sync to GitHub.
-#   The freshness guard stops the hook from nagging on every stop of a session
-#   whose sitrep is already current. Trade-off: a fresh sitrep also skips the
-#   nightly-quote reminder — the quote habit rides on the same block.
+# IMPORTANT: a Stop hook fires on EVERY turn end (control returning to Korn),
+# NOT when the day/session is over. So this must NOT force a wrap-up by default.
+# Doing so is what caused the "hey" -> instant wrap-up bug (a stale sitrep timer
+# was standing in for Korn's intent).
 #
-# Wrapped to never hard-fail or block the session shutdown (e.g. when offline).
+# The end-of-day wrap-up (SITREP rewrite + nightly quote) is INTENT-based:
+# it runs ONLY when Korn has said he's logging off / going to sleep, which makes
+# Crow create the marker file below. No marker => every stop just quietly syncs.
+#
+#   Phase 1 (marker present, first stop): block once, hand Crow the wrap-up job.
+#   Phase 2 (stop_hook_active=true): wrap-up done -> clear marker, sync, exit.
+#   No marker: quiet autosave sync, never block.
+#
+# Wrapped to never hard-fail or block session shutdown (e.g. when offline).
 
 repoDir="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-slug="$(echo "$repoDir" | sed 's#/#-#g')"
-liveSitrep="$HOME/.claude/projects/$slug/memory/sitrep.md"
+marker="$HOME/.crow-session-ending"
 input="$(cat 2>/dev/null || true)"
 
-sitrepFresh=false
-if [ -f "$liveSitrep" ] && [ -n "$(find "$liveSitrep" -mmin -45 2>/dev/null)" ]; then
-  sitrepFresh=true
+if echo "$input" | grep -q '"stop_hook_active"[[:space:]]*:[[:space:]]*true'; then
+  # Phase 2: wrap-up already handed over and completed. Clean up + sync.
+  rm -f "$marker" 2>/dev/null || true
+  cd "$repoDir" 2>/dev/null || exit 0
+  bash "$repoDir/save.sh" >/dev/null 2>&1 || true
+  exit 0
 fi
 
-if ! echo "$input" | grep -q '"stop_hook_active"[[:space:]]*:[[:space:]]*true' \
-   && [ "$sitrepFresh" != true ]; then
+if [ -f "$marker" ]; then
+  # Phase 1: Korn signalled end of day. Block once for the wrap-up.
   cat <<'EOF'
-{"decision": "block", "reason": "Session is ending. Before it closes: (1) rewrite memory/sitrep.md following the REWRITE RULE at the top of that file — rolling 2-session window, flush the note that falls out to sessions_log.md, push durable facts to project files; if the session was trivial, a one-line note and date bump is enough. (2) If you haven't given Korn the nightly quote yet (feedback_artis_quote), do it now. Then stop."}
+{"decision": "block", "reason": "Korn is logging off for the day. Before the session closes: (1) rewrite memory/sitrep.md per the REWRITE RULE at its top — rolling 2-session window, flush the falling-out note to sessions_log.md, push durable facts to project files; a trivial day is a one-line note + date bump. (2) Give the nightly quote (feedback_artis_quote) if not already given tonight. Then stop."}
 EOF
   exit 0
 fi
 
+# No end-of-day signal from Korn: quiet autosave, never block.
 cd "$repoDir" 2>/dev/null || exit 0
 bash "$repoDir/save.sh" >/dev/null 2>&1 || true
