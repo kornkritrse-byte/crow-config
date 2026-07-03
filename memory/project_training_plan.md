@@ -11,9 +11,9 @@ Started 2026-07-03. **Goal:** lean out + shrink chest/arms toward a **climber ph
 
 **The mechanism:** his chest/arms are too big because he trained like a lifter (pressing + curls). Fix = reverse the emphasis (pull, not press) + a small calorie deficit. Waist fat is a patience problem — can't spot-reduce, it's the last to go.
 
-**Plan = 4 days/week (his pick): 2 gym + 2 runs.** NOT bouldering — he said it's expensive + a social thing, once every month or two; don't program it. Runs are in his neighborhood.
-- **Gym A** (vertical pull): pull-ups, lat pulldown, seated row, leg press/RDL, hanging leg raise, dead hang. NO chest/bench/curls.
-- **Gym B** (horizontal pull + squat): rows, chin-ups, face pulls, squat/leg press, walking lunge, farmer carry, plank.
+**Plan = 4 days/week (his pick): 2 gym + 2 runs.** NOT bouldering — he said it's expensive + a social thing, once every month or two; don't program it. Runs are in his neighborhood. **NO leg training in the gym** — his call 2026-07-03 ("take away legs i aint doing that shit"); runs are his only lower-body/leg stimulus, which makes the 2 runs/week non-negotiable for leg work + calorie burn.
+- **Gym — Pull A** (vertical pull): pull-ups, lat pulldown, seated row, face pulls, hanging leg raise (core), dead hang (grip). NO chest/bench/curls/legs.
+- **Gym — Pull B** (horizontal pull): BB/DB row, chin-ups, single-arm row, face pulls, farmer carry (grip), plank (core). NO chest/bench/curls/legs.
 - **Runs:** one easy zone-2 (the fat-burn engine), one intervals (conditioning).
 - **Diet:** ~300 deficit, moderate protein ~90-100g (1.4-1.5g/kg) to keep the pulling muscle.
 
