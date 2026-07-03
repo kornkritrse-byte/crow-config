@@ -24,3 +24,5 @@ metadata:
 2026-07-25 | CAMP Day 1 — รับน้อง 25–27 Jul
 
 *(Bass show with friends: date unknown — add when he names it.)*
+
+*(Training sessions — 4/wk gym+runs on the Life calendar, [[project-training-plan]] — are intentionally NOT mirrored here; they're routine and would flood the "what's next" banner. Only mirror real commitments/deadlines.)*
