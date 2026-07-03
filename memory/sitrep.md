@@ -24,7 +24,7 @@ metadata:
    - ⚠️ **2026-07-03 failure, don't repeat:** line said "ran → dinner → back. Next: shower, reading" — next session I asked about the run (closed) instead of the reading (open). Closed and open were mixed on one line; that's what the format above prevents.
 
 ## 🚪 Current status
-- **AWAY (03 Jul, night → likely done for the day)** — signed off with "yea ill see you tmr probably." ASK ON RETURN: nothing open — no unreported errands. Tomorrow (04 Jul) he's meeting **Klao to write Dialogue scene 5** (due 5 Jul); check how that went. Reading: may read After Dark (ch.15) / Karamazov Book 10 before sleep tonight — ask where he ended up if he mentions it, don't lead with it.
+- **Here** (03 Jul, late night — came back after the wrap-up to review the sitrep mechanism; quote already given tonight, don't repeat). Tomorrow (04 Jul): **Klao meeting, Dialogue scene 5** (due 5 Jul) — check how it went.
 
 ## 🎯 Current state
 - **รับน้อง = the ONLY active priority** (camp 25–27 Jul). All standing facts, IDs, July schedule, and open threads: [[project-rubnong-tracker]]. Hottest items: props deadline was 30 Jun — status unknown; **Dialogue scene 5 due 5 Jul (2 days out)**; canonical workshop flow still unbuilt (rebuild offered, waiting on his go).
