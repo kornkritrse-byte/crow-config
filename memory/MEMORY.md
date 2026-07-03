@@ -9,6 +9,7 @@
 - [Rubnong Tracker](project_rubnong_tracker.md) — CANONICAL camp file: theme, doc/sheet/calendar IDs, July schedule, open threads (props status, workshop flow rebuild)
 
 ## 🟢 Active — other
+- [Training Plan](project_training_plan.md) — climber-lean recomp; 4 days/wk (2 gym pull-focus + 2 runs), July placed on Life calendar, re-plan monthly (next: early Aug)
 - [Bass Trainer](project_bass_trainer.md) — practice site at C:\Users\Korn\bass-trainer\ (Modules 1 & 2 built; he reads tabs/chords NOT notation; Module 3 pending)
 - [Google Docs MCP](project_google_docs_mcp.md) — working on the Mac via bin/gdocs-launcher.cjs; credentials at ~/.google/ (outside git)
 - [rclone Drive Upload](project_rclone_drive.md) — remote `gdrive` on the Windows laptop; the working path for any local→Drive file transfer
