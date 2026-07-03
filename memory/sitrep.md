@@ -24,13 +24,13 @@ metadata:
    - ⚠️ **2026-07-03 failure, don't repeat:** line said "ran → dinner → back. Next: shower, reading" — next session I asked about the run (closed) instead of the reading (open). Closed and open were mixed on one line; that's what the format above prevents.
 
 ## 🚪 Current status
-- **Here** (back from shower, 03 Jul night). Karamazov Book 10 on deck tonight.
+- **AWAY (03 Jul, night → likely done for the day)** — signed off with "yea ill see you tmr probably." ASK ON RETURN: nothing open — no unreported errands. Tomorrow (04 Jul) he's meeting **Klao to write Dialogue scene 5** (due 5 Jul); check how that went. Reading: may read After Dark (ch.15) / Karamazov Book 10 before sleep tonight — ask where he ended up if he mentions it, don't lead with it.
 
 ## 🎯 Current state
 - **รับน้อง = the ONLY active priority** (camp 25–27 Jul). All standing facts, IDs, July schedule, and open threads: [[project-rubnong-tracker]]. Hottest items: props deadline was 30 Jun — status unknown; **Dialogue scene 5 due 5 Jul (2 days out)**; canonical workshop flow still unbuilt (rebuild offered, waiting on his go).
 - **Training plan is live** ([[project-training-plan]]) — climber-lean recomp, 4 days/wk (2 pull-gym + 2 runs, no legs in gym), July placed on the **Life** calendar at 6pm. Re-plan early Aug.
 - **coldesthoops PAUSED** (don't surface until he unpauses — [[project-coldesthoops]]). bluetooth-fix trashed.
-- **Brothers Karamazov — position: Book 10, read ch. 1–2 (Kolya Krasotkin intro + the little kids) on 03 Jul night.** ⚠️ No spoilers past Book 10 ch. 2 — nothing about the Zhuchka/Perezvon thread, the visit to Ilyusha's bedside, the trial, Smerdyakov, Ivan/devil, or the Epilogue. Always ask exactly where he is first — he reads between sessions. Full context: [[user-reading-list]].
+- **Reading (two books in parallel):** (1) **Brothers Karamazov** — Book 10, read ch. 1–2 (Kolya intro + the little kids) on 03 Jul. ⚠️ No spoilers past Book 10 ch. 2 (no Zhuchka/Perezvon, Ilyusha bedside, trial, Smerdyakov, Ivan/devil, Epilogue). (2) **After Dark** (Murakami) — his before-sleep book, **ch. 15, nearly done; saving the ending for a rainy night** (waited since Nov 2025 for the season to buy it — don't push him to finish). **Next book = Letters to Milena** (Kafka, already on his shelf). Always ask exactly where he is first — he reads between sessions. Full context + owned-unread shelf: [[user-reading-list]].
 - Bass Trainer Module 3 pending when he wants it ([[project-bass-trainer]]). Show with friends upcoming.
 
 ## Session — 2026-07-03 (day → night)
