@@ -24,7 +24,7 @@ metadata:
    - ⚠️ **2026-07-03 failure, don't repeat:** asked about a closed item (the run) instead of the open one (the reading) because both shared one line. The format above prevents it.
 
 ## 🚪 Current status
-- **Here (07 Jul).** Back after a 3-day gap (04–06 Jul unlogged). Asked on return: scene 5 / Klao meeting outcome (was due 5 Jul) + today's prop-building vs possible hoops interview 13–16 collision.
+- **Here (07 Jul).** Back after a 3-day gap (04–06 Jul unlogged). Today: props building RESCHEDULED (new date unknown — pin it); online basketball interviews in the afternoon; script writing with the team after. Scene 5 (due 5 Jul) outcome still unconfirmed — asked.
 
 ## 🎯 Current state
 - **รับน้อง = the ONLY active priority** (camp 25–27 Jul). Standing facts, IDs, schedule, open threads: [[project-rubnong-tracker]]. Hottest: props deadline was 30 Jun — status unknown; **Dialogue scene 5 due 5 Jul** (writing with Klao 4 Jul); canonical workshop flow still unbuilt (rebuild offered, waiting on his go).
