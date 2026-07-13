@@ -18,6 +18,8 @@ Korn is Entertainment Department Head, co-leading with his best friend. Team: 20
 - **Member list:** `1pmAnTKVhaj4rFj1Rnmv87GxUHsST3lXk0JXrRTcUX6o`, tab "member mails".
 - **Calendar:** "Rubnong34x35" — `bb274dc90e369ed88cc6e74fbc47d5421a4626e8a4b33915cac5ba9b1bfb12d0@group.calendar.google.com`. Write access confirmed. **Always notificationLevel NONE.** See [[reference-calendars]].
 - Live run-of-show sheet + its formatting gotchas: [[rubnong-flow-sheet]].
+- **Games Score Tracker sheet** (created 2026-07-13 from Klao's xlsx): `1OyGQn4n241XHoFuSAkBEZyvSb_MQtJrDh8UvRIIw-hA` — 3 tabs: หน้าที่พี่สัน (24-person roster filled from the game doc), เกม 1 MC Foto (4-round scoring), เกม 3 Kings Queen Betting. Fixes applied + live-tested: SORTN tie-safe podiums, pending-bet bug (bets no longer count as ผิด before match resolves), เหรียญคงเหลือ balance col (Table D col H), เช็คสิทธิ์เดิมพัน flag (Table C col J, flags groups betting on their own match), red warning when balance <1.
+- **Game doc ("เกมสันทนาการ", by Klao):** `1vstgsATVp9R7LsUDjibzgvU4WqOi0uM8VAsZuSDECzc` — 13 tabs. Game 2 = "ส่งสายฟ้าไปหานะเธอ" (hula hoop, no winners). Name aliases across tabs: Ger=Tiger, Best=Bestkao, Sun=Sunny.
 
 ## July schedule (built in Rubnong34x35, 2026-07-02, all no-notification)
 5 Jul DEADLINE Dialoge scene 5 · 6 Jul P'san c P'group 12–17 · 7 Jul Prop Building · 8 + 10 Jul Play Runthrough · 13 Jul Workshop 12–17 · 15/16/21/22 Jul Final Rehearsal 11–18 (blue) · 25–27 Jul "the shit" = camp (all-day, red). Any older "Final Rehearsal 06/07" note is SUPERSEDED.
@@ -30,6 +32,7 @@ Korn is Entertainment Department Head, co-leading with his best friend. Team: 20
 4. Slide Game 1 & 2 deadline invites — sent or not, status unknown.
 5. Rename "Dialoge scene 5" if the team spells it Dialogue; "the shit" title is visible to everyone on the shared calendar (his call).
 6. 7 Jul props-coverage decision if the hoops interview firms up.
+7. **Game 1 round count unconfirmed (13 Jul):** game-1 tab says 4 rounds, "timeflow laser" tab says 6. Sheet built for 4. Token order depends on it: 4 rounds = 216 base (~270 order), 6 rounds = 324 base. Ask Klao. Korn's rulings same day: bets close at match start (doc's "เดิมพันระหว่างเกมได้" was Klao trippin — ignore); no draw handling in sheet (A/B only), fine by him.
 
 ## History
 - Late-reg fines at workshops: 50฿ first 20 min, 5฿/min after. June workshops (8/15/22/29) are done.

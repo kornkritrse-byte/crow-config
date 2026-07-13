@@ -11,6 +11,16 @@ metadata:
 
 *Session notes older than the SITREP's 2-session window land here. Condensed on arrival — the full original notes live in git history of `memory/sitrep.md`. Newest first.*
 
+## 2026-07-03 (day → late night) — training plan, open-loop mechanism, deep night
+- Built the training plan ([[project-training-plan]]); Karamazov "babe" follow-ups answered.
+- Open-loop mechanism built v1→v2 + SITREP rules 1/4/5 tightened ([[feedback-open-loop]]).
+- Scene 5 plan: write WITH Klao 04 Jul (✅ later confirmed done on time).
+- Reading: Karamazov Book 10 ch. 1–2; After Dark ch. 15 rainy-night ritual; unread shelf → [[user-reading-list]].
+- Deep-night love/scar reflection → [[chapters]] Ch. 4; Letters to Milena chosen next. Quote: Gibran threshing-floor.
+
+## 2026-07-02 (late night) — Karamazov Book 9 reflection
+- Pure reflection, no task work: theodicy + kindness, love-in-dreams trap → [[chapters]] Ch. 3. Quote: Zosima's active love.
+
 ## 2026-07-02 (night) — SITREP goes rolling-window + config overhaul
 - Big infra night. Rebuilt the SITREP into a rolling 2-session window with a rewrite rule; flushed old notes into this log; consolidated standing rubnong facts into [[project-rubnong-tracker]]; rewrote [[project-google-docs-mcp]] Mac-era.
 - `hooks/stop.sh` rewritten to block the first stop → rewrite SITREP (+ nightly quote if missed) → sync to GitHub on real stop; skips the block if sitrep.md was touched in the last 45 min.
