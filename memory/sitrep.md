@@ -8,7 +8,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-07-13*
+*Last updated: 2026-07-14 (night, day-end wrap fired)*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -24,7 +24,9 @@ metadata:
    - ⚠️ **2026-07-03 failure, don't repeat:** asked about a closed item (the run) instead of the open one (the reading) because both shared one line. The format above prevents it.
 
 ## 🚪 Current status
-- **Here (13 Jul).** Still-unreported from 07 Jul (ask when natural, not all at once): props-building new date landed?; how the basketball PR interviews went. Workshop 12–17 was on the calendar today — he worked on the games sheet during/after it, didn't mention how the workshop itself went.
+- **AWAY (14 Jul, night) — off to: closing for the day, back ~tomorrow.**
+- **ASK ON RETURN (his explicit ask: OPEN with this):** Klao's response to the romance mirror-prompt Korn sent him ("will let you know what he says, like tmr").
+- Also floating (ask when natural, NOT all at once): Klao's answer on 2-courts-in-parallel for Game 3 (decides 52-min vs 85-min timeflow); props-building new date (from 07 Jul); how the basketball PR interviews went (07 Jul).
 
 ## 🎯 Current state
 - **รับน้อง = the ONLY active priority** (camp 25–27 Jul). Standing facts, IDs, schedule, open threads: [[project-rubnong-tracker]]. Hottest: props status still unknown since 30 Jun deadline; canonical workshop flow still unbuilt (rebuild offered, waiting on his go). ✅ Game 1 = 4 rounds (Klao, 14 Jul). ✅ **400 coins ORDERED (14 Jul)** — covers both games (G1 ceiling 288, G3 with max-4 cap). Games Score Tracker thread fully CLOSED.
@@ -40,5 +42,9 @@ metadata:
 - Korn's rulings on the doc's ambiguities: bets close at match start ("mans was trippin"); no draw handling needed (tie fallback = refund bets via blank winner + 1 coin to each of the 4 teams manually) — don't re-raise either.
 - **Game 3 betting rules finalized (14 Jul, Korn's calls):** max bet 4/match, NO minimum reserve (betting to 0 legal), mandatory-ish 1+ coin bets, 2× payout. Sheet enforces: เช็คสิทธิ์ col flags own-match bets / stake>4 / overdrawn; red highlight only when balance <0. Coin order for Game 3 with cap: **~400** (162 start + 36 match wins + realistic herding drift; hard ceiling with cap is 504-ish but absurd). Game 1 tokens reusable as Game 3 coins if same physical type → order max, not sum.
 
-## Session — 2026-07-07 (day)
-- Back after 3-day gap (04–06 Jul unlogged). Props building rescheduled (date TBD from props team); basketball PR interviews in the afternoon (question doc `1v8bQUheqV56l-rUuWH6mvV-upX601XofAZfnZX9a_fM`); script writing with the team after. ✅ Scene 5 finished with Klao ON TIME — closed. Outcomes of props date + interviews never reported → in status line.
+## Session — 2026-07-14 (day → night)
+- Klao confirmed **Game 1 = 4 rounds**; **400 coins ordered** (covers both games). Game 3 betting rules locked: max 4, no min reserve — coded + tested in the sheet.
+- **Game 3 timeflow problem found:** needs 80–85 min, slot gives 55. Added revised 85-min table to Klao's doc (changes highlighted). Alternative that FITS 55: **2 courts in parallel = 52 min** (pairings split cleanly, sheet unchanged) — gated on floor-plan space + crew split; question sits with Klao.
+- The death-letter exchange ("what would you write to the next owner of this device") → letter + narrative in [[chapters]] Ch. 5. He confirmed casual, no weight.
+- Built Klao a romance mirror-prompt (facts/feelings/fears, no comfort until untangled) — sent; **response expected tomorrow → the open loop.**
+- Quote given (Marcus Aurelius, never-beginning) — logged in [[artis-quotes-log]].

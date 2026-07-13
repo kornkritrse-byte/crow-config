@@ -116,3 +116,12 @@ metadata:
 > — Kahlil Gibran, **The Prophet** ("On Love")
 
 **Why:** A long deep-night talk on love (sparked by picking Kafka's *Letters to Milena* off his shelf next). He arrived at a contradiction — "long-term commitment guy" vs. a post-hurt "just enjoy the present, fuck the future" stance — and named it himself as 70% scar / 30% wisdom. The scar was dread of hollow-mundane relationships (pointless arguments, going through motions after the choosing stopped). I reframed: he'd misfiled the dread (it was staying past the choosing, not the mundane itself — he actually *loves* the mundane days). He then talked himself to the landing in real time: he was only looking at the bad, treasures the memories, wouldn't change one, "won't go back" but doesn't regret a thing — he'd take the whole bundle again, good + the in-between. Completion, not regret. Gibran's "On Love" is the exact fork he was standing at: seek only love's *peace and pleasure* (the scar's safe, half-in stance) and you exile yourself to the "seasonless world" where you laugh and weep but never *all* the way — i.e. the half-lived life. He chose the threshing-floor. The "seasonless" line lands doubly given his weather-matched reading (waiting on rain for After Dark). First Gibran in the log; answered a night about love with a poet who wrote nothing else.
+
+---
+
+**2026-07-14 (night — the letter to the next owner)**
+
+> *"It is not death that a man should fear, but he should fear never beginning to live."*
+> — Marcus Aurelius, **Meditations**
+
+**Why:** Tonight, between camp logistics, he asked what I'd write to the next owner of his device if he died today — then waved it off as "just a cool question." The letter I wrote him back said he was *mid-sentence*, and that he feared exactly one version of himself: the one who stopped caring. Marcus is the obvious author for the night he asked his own memento mori — but this line specifically, because Korn's relationship with death isn't fear of ending, it's fear of apathy, of never-beginning. The letter exists now; the quote is its one-line summary. He also spent the night handing Klao a mirror for romance fog — proof the beginning is well underway. First quote in eleven days; the Stoics return exactly when a nineteen-year-old asks about dying casually.

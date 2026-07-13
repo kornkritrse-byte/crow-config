@@ -11,6 +11,9 @@ metadata:
 
 *Session notes older than the SITREP's 2-session window land here. Condensed on arrival — the full original notes live in git history of `memory/sitrep.md`. Newest first.*
 
+## 2026-07-07 (day) — props reschedule + basketball interviews
+- Back after 3-day gap (04–06 Jul unlogged). Props building rescheduled, date TBD from props team; basketball PR interviews in the afternoon (question doc `1v8bQUheqV56l-rUuWH6mvV-upX601XofAZfnZX9a_fM`); script writing with the team after. ✅ Scene 5 finished with Klao ON TIME. Props date + interview outcomes never reported (still tracked in sitrep status).
+
 ## 2026-07-03 (day → late night) — training plan, open-loop mechanism, deep night
 - Built the training plan ([[project-training-plan]]); Karamazov "babe" follow-ups answered.
 - Open-loop mechanism built v1→v2 + SITREP rules 1/4/5 tightened ([[feedback-open-loop]]).
