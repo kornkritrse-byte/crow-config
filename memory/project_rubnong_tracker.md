@@ -32,7 +32,7 @@ Korn is Entertainment Department Head, co-leading with his best friend. Team: 20
 4. Slide Game 1 & 2 deadline invites — sent or not, status unknown.
 5. Rename "Dialoge scene 5" if the team spells it Dialogue; "the shit" title is visible to everyone on the shared calendar (his call).
 6. 7 Jul props-coverage decision if the hoops interview firms up.
-7. **Game 1 round count unconfirmed (13 Jul):** game-1 tab says 4 rounds, "timeflow laser" tab says 6. Sheet built for 4. Token order depends on it: 4 rounds = 216 base (~270 order), 6 rounds = 324 base. Ask Klao. Korn's rulings same day: bets close at match start (doc's "เดิมพันระหว่างเกมได้" was Klao trippin — ignore); no draw handling in sheet (A/B only), fine by him.
+7. ✅ **Game 1 = 4 ROUNDS (Klao confirmed 14 Jul)** — sheet already built for 4, nothing to change; the 6-round "timeflow laser" tab in the doc is stale. Token math: 216 base, ~270 order (or ~230 if doubles tracked on sheet, 1 token/survivor). Korn's rulings 13 Jul: bets close at match start (doc's "เดิมพันระหว่างเกมได้" was Klao trippin — ignore); no draw handling in sheet (A/B only). 14 Jul betting rules: max bet 4, no min reserve — sheet enforces (see sitrep).
 
 ## History
 - Late-reg fines at workshops: 50฿ first 20 min, 5฿/min after. June workshops (8/15/22/29) are done.
