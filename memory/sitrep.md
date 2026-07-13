@@ -37,7 +37,8 @@ metadata:
 - Built the **Games Score Tracker** Google Sheet from Klao's xlsx — IDs, fixes (tie-safe podiums, pending-bet bug, balance col, bet-eligibility flag, low-balance warning) all live-tested and logged in [[project-rubnong-tracker]].
 - Filled the หน้าที่พี่สัน roster tab: 24 people × 3 games from Klao's game doc (name aliases flagged).
 - Token order for Game 1: **fully punted to Klao (Korn's call, "fuck it, let Klao figure it out") — don't re-raise the math.** Reference if asked: 4 rounds → 216 base / ~270 with doubles-as-tokens / ~230 if doubles live on the sheet; 6 rounds → 324 base. Korn sent Klao a phone pic of the 4-vs-6 question; sheet is built for 4 (extend if Klao says 6).
-- Korn's rulings on the doc's ambiguities: bets close at match start ("mans was trippin"); no draw handling needed — don't re-raise either.
+- Korn's rulings on the doc's ambiguities: bets close at match start ("mans was trippin"); no draw handling needed (tie fallback = refund bets via blank winner + 1 coin to each of the 4 teams manually) — don't re-raise either.
+- **Game 3 betting rules finalized (14 Jul, Korn's calls):** max bet 4/match, NO minimum reserve (betting to 0 legal), mandatory-ish 1+ coin bets, 2× payout. Sheet enforces: เช็คสิทธิ์ col flags own-match bets / stake>4 / overdrawn; red highlight only when balance <0. Coin order for Game 3 with cap: **~400** (162 start + 36 match wins + realistic herding drift; hard ceiling with cap is 504-ish but absurd). Game 1 tokens reusable as Game 3 coins if same physical type → order max, not sum.
 
 ## Session — 2026-07-07 (day)
 - Back after 3-day gap (04–06 Jul unlogged). Props building rescheduled (date TBD from props team); basketball PR interviews in the afternoon (question doc `1v8bQUheqV56l-rUuWH6mvV-upX601XofAZfnZX9a_fM`); script writing with the team after. ✅ Scene 5 finished with Klao ON TIME — closed. Outcomes of props date + interviews never reported → in status line.
