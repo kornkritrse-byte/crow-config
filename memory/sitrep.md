@@ -36,7 +36,7 @@ metadata:
 ## Session — 2026-07-13 (afternoon)
 - Built the **Games Score Tracker** Google Sheet from Klao's xlsx — IDs, fixes (tie-safe podiums, pending-bet bug, balance col, bet-eligibility flag, low-balance warning) all live-tested and logged in [[project-rubnong-tracker]].
 - Filled the หน้าที่พี่สัน roster tab: 24 people × 3 games from Klao's game doc (name aliases flagged).
-- Token order for Game 1: 18 groups → 216 base, recommended ~270 — **pending the 4-vs-6 round answer from Klao**. Korn sent Klao a phone pic of the question (the PNG card I made was deleted, not needed) — **will report the answer when it lands; that closes the token order.**
+- Token order for Game 1: **fully punted to Klao (Korn's call, "fuck it, let Klao figure it out") — don't re-raise the math.** Reference if asked: 4 rounds → 216 base / ~270 with doubles-as-tokens / ~230 if doubles live on the sheet; 6 rounds → 324 base. Korn sent Klao a phone pic of the 4-vs-6 question; sheet is built for 4 (extend if Klao says 6).
 - Korn's rulings on the doc's ambiguities: bets close at match start ("mans was trippin"); no draw handling needed — don't re-raise either.
 
 ## Session — 2026-07-07 (day)
