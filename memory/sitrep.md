@@ -36,7 +36,7 @@ metadata:
 ## Session — 2026-07-13 (afternoon)
 - Built the **Games Score Tracker** Google Sheet from Klao's xlsx — IDs, fixes (tie-safe podiums, pending-bet bug, balance col, bet-eligibility flag, low-balance warning) all live-tested and logged in [[project-rubnong-tracker]].
 - Filled the หน้าที่พี่สัน roster tab: 24 people × 3 games from Klao's game doc (name aliases flagged).
-- Token order for Game 1: 18 groups → 216 base, recommended ~270 — **pending the 4-vs-6 round answer from Klao**. Made him a question card (`~/Downloads/klao_game1_rounds.png`), Korn sending it to Klao himself — **will report the answer when it lands; that closes the token order.**
+- Token order for Game 1: 18 groups → 216 base, recommended ~270 — **pending the 4-vs-6 round answer from Klao**. Korn sent Klao a phone pic of the question (the PNG card I made was deleted, not needed) — **will report the answer when it lands; that closes the token order.**
 - Korn's rulings on the doc's ambiguities: bets close at match start ("mans was trippin"); no draw handling needed — don't re-raise either.
 
 ## Session — 2026-07-07 (day)
