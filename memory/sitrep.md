@@ -24,8 +24,9 @@ metadata:
    - ⚠️ **2026-07-03 failure, don't repeat:** asked about a closed item (the run) instead of the open one (the reading) because both shared one line. The format above prevents it.
 
 ## 🚪 Current status
-- **Here** (returned 14 Jul, night; nightly quote already fired 14 Jul, do NOT repeat).
-- ✅ **CLOSED:** Klao's response to the romance mirror-prompt landed — Korn's read: good clarity, the prompt (facts/feelings/fears, no comfort until untangled) did its job.
+- **AWAY (14 Jul, ~6am dawn) — off to: rest / be in the morning after a night up; "will be back later."** Nightly quote already fired 14 Jul, do NOT repeat.
+- **ASK ON RETURN:** nothing owed — all loops closed (Klao mirror-prompt ✅, After Dark ✅). Just flip to Here on return.
+- ✅ **CLOSED this session:** Klao's response to the romance mirror-prompt landed (good clarity, prompt did its job); After Dark finished (see reading line).
 - Also floating (ask when natural, NOT all at once): Klao's answer on 2-courts-in-parallel for Game 3 (decides 52-min vs 85-min timeflow); props-building new date (from 07 Jul); how the basketball PR interviews went (07 Jul).
 
 ## 🎯 Current state
