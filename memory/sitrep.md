@@ -37,7 +37,9 @@ metadata:
 ## Session — 2026-07-15 (morning)
 - **2-courts-in-parallel question CLOSED** — Korn: number's fuzzy but "it's fine now." Timeflow thread done, don't re-raise.
 - Morality conversation (where mine comes from — the three layers, no-floor, staking/bleeding as the difference) — light, he was just curious. Pointer if it resurfaces: [[chapters]].
-- **Rebuilt the เกม 3 dodgeball tab per his spec, twice:** v1 (single grid) → he found it hard to navigate → v2: results+standings side-by-side top screen, betting split into 9 per-match blocks, engine exiled to hidden-able "ENGINE (อย่าลบ)" tab, Top 3 at bottom. Live-tested both times, all passed. Confirmed format: 2v2 = 4 groups/court. Layout + engine gotchas in [[project-rubnong-tracker]]. His manual bits: freeze panes, paint inputs yellow, hide ENGINE tab.
+- **Rebuilt the เกม 3 dodgeball tab per his spec, twice** (v1 grid → v2 blocks), then survived TWO of his live cell-drags (block cols now B–E/G–J/L–O; drags DELETE spilled formulas — rewrote all 9 Winnings twice). Winnings col added (net per round: bet ± + match-win 2). Rules audit vs Klao's doc done: 3 overrides posted on doc (no mid-game bets / max 4 / **Top 3 not Top 5**) — Klao owes inline cleanup + รางวัล tab check (prizes budgeted for 5?). Layout + gotchas: [[project-rubnong-tracker]].
+- **FULL-GAME SIMULATION PASSED (night, pre-rehearsal):** 9 matches incl. tie, 17 bets incl. all 4 illegal types — all 18 totals matched hand-computed ledger exactly (sum 195 ✓), 5/5 flags correct, 0 false positives, Top 3 correct, tie+ปรับมือ flow works, lowercase inputs fine. Sheet wiped to clean 9s, READY for 16 Jul rehearsal. Suggested: live mini-sim at rehearsal with the actual scorekeeper.
+- Game-design flags raised to Korn (his to pitch to Klao): revival mechanic → stalling (fix: revival off in final 60s), ball count unspecified, MC script missing new rules, announce next match early to pipeline betting, physical-coins-vs-sheet ledger decision still open.
 - Final Rehearsal 11–18 today.
 
 ## Session — 2026-07-14 (day → night)
