@@ -11,6 +11,12 @@ metadata:
 
 *Session notes older than the SITREP's 2-session window land here. Condensed on arrival — the full original notes live in git history of `memory/sitrep.md`. Newest first.*
 
+## 2026-07-13 (afternoon) — Games Score Tracker built
+- Built the Games Score Tracker sheet from Klao's xlsx (IDs + fixes in [[project-rubnong-tracker]]); filled the หน้าที่พี่สัน roster (24 × 3 games, aliases flagged).
+- Game 1 token order punted to Klao ("fuck it, let Klao figure it out") — don't re-raise the math (reference numbers in git history of sitrep if ever needed).
+- Korn's rulings: bets close at match start; no draw handling (blank winner + manual 1-coin refund) — both closed, don't re-raise.
+- Game 3 betting rules (finalized 14 Jul): max 4/match, no min reserve, 1+ mandatory-ish, 2× payout; coin order ~400 covers both games (tokens reusable if same physical type).
+
 ## 2026-07-07 (day) — props reschedule + basketball interviews
 - Back after 3-day gap (04–06 Jul unlogged). Props building rescheduled, date TBD from props team; basketball PR interviews in the afternoon (question doc `1v8bQUheqV56l-rUuWH6mvV-upX601XofAZfnZX9a_fM`); script writing with the team after. ✅ Scene 5 finished with Klao ON TIME. Props date + interview outcomes never reported (still tracked in sitrep status).
 

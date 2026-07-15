@@ -8,7 +8,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-07-14 (night, day-end wrap fired)*
+*Last updated: 2026-07-15 (morning, live)*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -24,10 +24,8 @@ metadata:
    - ⚠️ **2026-07-03 failure, don't repeat:** asked about a closed item (the run) instead of the open one (the reading) because both shared one line. The format above prevents it.
 
 ## 🚪 Current status
-- **AWAY (14 Jul, ~6am dawn) — off to: rest / be in the morning after a night up; "will be back later."** Nightly quote already fired 14 Jul, do NOT repeat.
-- **ASK ON RETURN:** nothing owed — all loops closed (Klao mirror-prompt ✅, After Dark ✅). Just flip to Here on return.
-- ✅ **CLOSED this session:** Klao's response to the romance mirror-prompt landed (good clarity, prompt did its job); After Dark finished (see reading line).
-- Also floating (ask when natural, NOT all at once): Klao's answer on 2-courts-in-parallel for Game 3 (decides 52-min vs 85-min timeflow); props-building new date (from 07 Jul); how the basketball PR interviews went (07 Jul).
+- **Here** (15 Jul, morning — back from the night-up rest; Final Rehearsal 11–18 is TODAY).
+- Also floating (ask when natural, NOT all at once): props-building new date (from 07 Jul); how the basketball PR interviews went (07 Jul). ~~2-courts question~~ → Korn waved it off 15 Jul ("fuck it, it's fine now") — CLOSED, don't re-raise.
 
 ## 🎯 Current state
 - **รับน้อง = the ONLY active priority** (camp 25–27 Jul). Standing facts, IDs, schedule, open threads: [[project-rubnong-tracker]]. Hottest: props status still unknown since 30 Jun deadline; canonical workshop flow still unbuilt (rebuild offered, waiting on his go). ✅ Game 1 = 4 rounds (Klao, 14 Jul). ✅ **400 coins ORDERED (14 Jul)** — covers both games (G1 ceiling 288, G3 with max-4 cap). Games Score Tracker thread fully CLOSED.
@@ -36,12 +34,11 @@ metadata:
 - **Reading (two in parallel):** (1) **Karamazov** — Book 10, ch. 1–2 done (Kolya + the kids, 03 Jul). ⚠️ No spoilers past Book 10 ch. 2 (no Zhuchka/Perezvon, Ilyusha bedside, trial, Smerdyakov, Ivan/devil, Epilogue). (2) **After Dark** — ✅ FINISHED (told me 14 Jul). The rainy-night plan paid off exactly: read the ending ~4am on a rainy night, drunk, after a good night out — "that moment felt right in its own right." The takeaway was the setting of the reading, not a line. **Next before-sleep book = Letters to Milena** (owned — on the love thread he's circling). Always ask exactly where he is first. Full history + owned-unread shelf: [[user-reading-list]].
 - Bass Trainer Module 3 pending when he wants it ([[project-bass-trainer]]). Show with friends upcoming.
 
-## Session — 2026-07-13 (afternoon)
-- Built the **Games Score Tracker** Google Sheet from Klao's xlsx — IDs, fixes (tie-safe podiums, pending-bet bug, balance col, bet-eligibility flag, low-balance warning) all live-tested and logged in [[project-rubnong-tracker]].
-- Filled the หน้าที่พี่สัน roster tab: 24 people × 3 games from Klao's game doc (name aliases flagged).
-- Token order for Game 1: **fully punted to Klao (Korn's call, "fuck it, let Klao figure it out") — don't re-raise the math.** Reference if asked: 4 rounds → 216 base / ~270 with doubles-as-tokens / ~230 if doubles live on the sheet; 6 rounds → 324 base. Korn sent Klao a phone pic of the 4-vs-6 question; sheet is built for 4 (extend if Klao says 6).
-- Korn's rulings on the doc's ambiguities: bets close at match start ("mans was trippin"); no draw handling needed (tie fallback = refund bets via blank winner + 1 coin to each of the 4 teams manually) — don't re-raise either.
-- **Game 3 betting rules finalized (14 Jul, Korn's calls):** max bet 4/match, NO minimum reserve (betting to 0 legal), mandatory-ish 1+ coin bets, 2× payout. Sheet enforces: เช็คสิทธิ์ col flags own-match bets / stake>4 / overdrawn; red highlight only when balance <0. Coin order for Game 3 with cap: **~400** (162 start + 36 match wins + realistic herding drift; hard ceiling with cap is 504-ish but absurd). Game 1 tokens reusable as Game 3 coins if same physical type → order max, not sum.
+## Session — 2026-07-15 (morning)
+- **2-courts-in-parallel question CLOSED** — Korn: number's fuzzy but "it's fine now." Timeflow thread done, don't re-raise.
+- Morality conversation (where mine comes from — the three layers, no-floor, staking/bleeding as the difference) — light, he was just curious. Pointer if it resurfaces: [[chapters]].
+- **Rebuilt the เกม 3 dodgeball tab per his spec:** 3 inputs only (winner A/B + bet side/amount), everything else auto-synced — coin totals (T1), match results feeding +2 (T2), 18×9 betting grid (T3), Top 3 tie-safe (T4). Live-tested, all passed. Full layout + gotchas in [[project-rubnong-tracker]].
+- Final Rehearsal 11–18 today.
 
 ## Session — 2026-07-14 (day → night)
 - Klao confirmed **Game 1 = 4 rounds**; **400 coins ordered** (covers both games). Game 3 betting rules locked: max 4, no min reserve — coded + tested in the sheet.
