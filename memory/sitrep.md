@@ -37,7 +37,7 @@ metadata:
 ## Session — 2026-07-15 (morning)
 - **2-courts-in-parallel question CLOSED** — Korn: number's fuzzy but "it's fine now." Timeflow thread done, don't re-raise.
 - Morality conversation (where mine comes from — the three layers, no-floor, staking/bleeding as the difference) — light, he was just curious. Pointer if it resurfaces: [[chapters]].
-- **Rebuilt the เกม 3 dodgeball tab per his spec:** 3 inputs only (winner A/B + bet side/amount), everything else auto-synced — coin totals (T1), match results feeding +2 (T2), 18×9 betting grid (T3), Top 3 tie-safe (T4). Live-tested, all passed. Full layout + gotchas in [[project-rubnong-tracker]].
+- **Rebuilt the เกม 3 dodgeball tab per his spec, twice:** v1 (single grid) → he found it hard to navigate → v2: results+standings side-by-side top screen, betting split into 9 per-match blocks, engine exiled to hidden-able "ENGINE (อย่าลบ)" tab, Top 3 at bottom. Live-tested both times, all passed. Confirmed format: 2v2 = 4 groups/court. Layout + engine gotchas in [[project-rubnong-tracker]]. His manual bits: freeze panes, paint inputs yellow, hide ENGINE tab.
 - Final Rehearsal 11–18 today.
 
 ## Session — 2026-07-14 (day → night)
