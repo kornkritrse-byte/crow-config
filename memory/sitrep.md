@@ -41,8 +41,8 @@ metadata:
 - Rebuilt เกม 3 from scratch for 8/6: same 3-input workflow, 6 betting blocks (2 bands), engine + flags + ปรับมือ + tie-safe Top 3 all rewritten. เกม 1 shrunk to 8 groups, SUM/RANK/Top-3 formulas restored.
 - Mini-sim passed: winner + legal losing bet + illegal own-match bet → totals (11/11/9…/6), ⚠️ flag, Winnings, tie-ranked Top 3 all exact. Wiped to clean 9s, READY for today's rehearsal.
 - **Pairings are MY placeholder** (halves fixed G1–4=A vs G5–8=B, every within-half pair once, each group plays 3) — swappable text cells; confirm against Klao's bracket.
-- Formula gotcha logged in tracker: nested vectorized IF inside ARRAYFORMULA → #ERROR!; scalar guard must sit OUTSIDE the ARRAYFORMULA.
-- Old timeflow worry moot: 6 matches fits the 55-min slot with room.
+- **Own-match betting made IMPOSSIBLE (his ask):** blocks now auto-list only the 4 non-playing groups (FILTER; engine rewired to name-lookup) — verified live. New fragility + formula gotchas: [[project-rubnong-tracker]].
+- Korn was in the sheet live-testing M2 bets while I worked (uppercase A/B confirmed working); old timeflow worry moot — 6 matches fits the 55-min slot.
 
 ## Session — 2026-07-15 (morning)
 - **2-courts-in-parallel question CLOSED** — Korn: number's fuzzy but "it's fine now." Timeflow thread done, don't re-raise.
