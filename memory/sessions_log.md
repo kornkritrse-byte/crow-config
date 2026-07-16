@@ -11,6 +11,12 @@ metadata:
 
 *Session notes older than the SITREP's 2-session window land here. Condensed on arrival — the full original notes live in git history of `memory/sitrep.md`. Newest first.*
 
+## 2026-07-14 (day → night) — Game 1 locked, coins ordered, timeflow
+- Klao confirmed Game 1 = 4 rounds; 400 coins ordered. G3 betting rules locked (max 4, no min reserve).
+- G3 timeflow problem (needs 80–85 min vs 55 slot) → 85-min table on Klao's doc + 2-courts-parallel alternative (52 min). [Superseded: Korn closed it 15 Jul "it's fine now"; then 16 Jul restructure to 6 matches killed the problem entirely.]
+- Death-letter exchange → [[chapters]] Ch. 5 (casual, no weight). Romance mirror-prompt built for Klao — sent, response expected 15 Jul.
+- Quote: Marcus Aurelius, never-beginning ([[artis-quotes-log]]).
+
 ## 2026-07-13 (afternoon) — Games Score Tracker built
 - Built the Games Score Tracker sheet from Klao's xlsx (IDs + fixes in [[project-rubnong-tracker]]); filled the หน้าที่พี่สัน roster (24 × 3 games, aliases flagged).
 - Game 1 token order punted to Klao ("fuck it, let Klao figure it out") — don't re-raise the math (reference numbers in git history of sitrep if ever needed).
