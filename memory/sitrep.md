@@ -24,7 +24,8 @@ metadata:
    - ⚠️ **2026-07-03 failure, don't repeat:** asked about a closed item (the run) instead of the open one (the reading) because both shared one line. The format above prevents it.
 
 ## 🚪 Current status
-- **Here** (15 Jul, morning — back from the night-up rest; Final Rehearsal 11–18 is TODAY).
+- **Here** (16 Jul, past midnight — long Game-3 sheet session ran through the night; Final Rehearsal 11–18 is TODAY 16 Jul).
+- Game 3 sheet = DONE + sim-passed; camp-day ops + pre-camp checklist live in [[project-rubnong-tracker]]. Next natural move: the 5-min scorekeeper dry-run at today's rehearsal.
 - Also floating (ask when natural, NOT all at once): props-building new date (from 07 Jul); how the basketball PR interviews went (07 Jul). ~~2-courts question~~ → Korn waved it off 15 Jul ("fuck it, it's fine now") — CLOSED, don't re-raise.
 
 ## 🎯 Current state

@@ -27,6 +27,13 @@ Korn is Entertainment Department Head, co-leading with his best friend. Team: 20
 5 Jul DEADLINE Dialoge scene 5 · 6 Jul P'san c P'group 12–17 · 7 Jul Prop Building · 8 + 10 Jul Play Runthrough · 13 Jul Workshop 12–17 · 15/16/21/22 Jul Final Rehearsal 11–18 (blue) · 25–27 Jul "the shit" = camp (all-day, red). Any older "Final Rehearsal 06/07" note is SUPERSEDED.
 ⚠️ Collisions (on the "Life" calendar): 7 Jul possible hoops interview 13–16 sits inside Prop Building day; 8 Jul ANS Dinner 19–22 follows the all-day runthrough.
 
+## Game 3 — camp-day ops (locked 15–16 Jul)
+- **SIM PASSED 15 Jul night:** full 9-match simulation, 17 bets, all edge cases — 18/18 totals exact vs hand ledger, 5/5 flags, 0 false positives. Sheet is clean (all 9s) and trusted.
+- **Payout framing:** sheet shows NET everywhere (bet 4 win → +4 = "receive 8 back"). Korn expects "8" when he thinks payout-in-hand — if he questions numbers, translate net↔received first before debugging. Winnings col = bet net + match-win 2, negatives shown, blank until resolved.
+- **⚠️ Flag runbook (taught 16 Jul, teach the scorekeeper):** flag = tripwire, human rules. เช็คเดิมพัน → check newest bet: own-match → delete; >4 → reduce/pull; typo side → retype; half-filled → complete/delete. เหรียญติดลบ → shrink stake to ≥0. Glance สถานะ after each match's bets BEFORE whistle. Slipped past resolution → default ruling: VOID the bet (announce this at MC briefing pre-game). Never fix via ปรับมือ.
+- **Pre-camp checklist (open):** (1) ledger-vs-props decision — physical coins move or sheet-only? (doc flow says stations collect coins = dual ledger risk); (2) 5-min dry run with the real scorekeeper at a rehearsal — 2 fake matches + 1 deliberate illegal bet; (3) pitches to Klao: revival-off-final-60s (anti-stalling), ball count 4–6 (unspecified anywhere), MC script needs 3 lines (bets close at start / max 4 / tie rule), announce match m+1 at start of match m (betting pipeline); (4) รางวัล tab — prizes still budgeted for Top 5?
+- Korn's manual sheet chores still open: freeze rows 1–7, paint input cells yellow, hide ENGINE tab.
+
 ## Open threads
 1. **Props deadline was 30 Jun — status unknown.** First thing to check.
 2. Deadlines spreadsheet still unfilled (assignees, due dates, statuses).
