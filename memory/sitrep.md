@@ -24,7 +24,7 @@ metadata:
    - ⚠️ **2026-07-03 failure, don't repeat:** asked about a closed item (the run) instead of the open one (the reading) because both shared one line. The format above prevents it.
 
 ## 🚪 Current status
-- **Here (17 Jul).** Real-day เกม 3 rebuild DONE + sim-passed + wiped. Open to him: tie-prize question for Klao (if 3rd is a multi-way tie, who gets prizes — Top 3 shows all tied groups).
+- **Here (17 Jul).** Real-day เกม 3 rebuild DONE + sim-passed + wiped. Open to him: tie-prize question for Klao. **NEW THREAD: venue capacity worry** — ~450 people (200ish freshmen + 200ish sophomores + staff), hall usable 36×20m = 720 m². My read: seated fits comfortably (1.6 m²/person), game-mode fits on paper (120 m² court + 400 seated + aisles), real risks = heat/ventilation (July, 450 bodies), door/egress choke, pillar sightlines. Offered a worst-case floor-plan mockup — awaiting his answer + unknowns (AC?, door count, all-450-at-once or staggered?).
 
 ## Session — 2026-07-17
 - **16 Jul final rehearsal went GREAT; all sheet coding worked on the rehearsal copy.**
