@@ -24,8 +24,7 @@ metadata:
    - ⚠️ **2026-07-03 failure, don't repeat:** asked about a closed item (the run) instead of the open one (the reading) because both shared one line. The format above prevents it.
 
 ## 🚪 Current status
-- **AWAY (17 Jul, past midnight) — off to: sleep, day closed on his ask ("finish sitrep").** Nightly quote GIVEN (Heraclitus) — never repeat it.
-- **ASK ON RETURN:** (1) **how the 16 Jul rehearsal + scorekeeper dry-run went** — the day's biggest unreported thing; (2) M1–M6 pairings: my placeholder bracket vs Klao's real one; (3) old tracker sheet vs rehearsal copy — which is canonical for camp?
+- **Here (17 Jul).** Asked the three return items (rehearsal outcome, pairings vs Klao's bracket, canonical sheet) — awaiting answers.
 - Also floating (ask when natural, NOT all at once): props-building new date (from 07 Jul); how the basketball PR interviews went (07 Jul). ~~2-courts question~~ CLOSED 15 Jul, and the 6-match format kills the timeflow question anyway.
 
 ## 🎯 Current state
