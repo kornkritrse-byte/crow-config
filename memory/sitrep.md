@@ -24,12 +24,13 @@ metadata:
    - ⚠️ **2026-07-03 failure, don't repeat:** asked about a closed item (the run) instead of the open one (the reading) because both shared one line. The format above prevents it.
 
 ## 🚪 Current status
-- **Here (17 Jul).** Return items answered: rehearsal great, sheet coding all worked. ⚠️ NEW ISSUE raised to him: he says OLD tracker = real-day sheet, but the 8/6 rebuild lives only on the rehearsal copy → proposed promote-the-copy vs port. Awaiting: (1) real day = 8 groups/6 matches confirm, (2) Klao's real bracket vs my placeholder pairings (re-explained to him what that meant).
+- **Here (17 Jul).** Awaiting his answers: (1) port own-match-bet auto-block to old tracker, or keep flag-and-catch for real day? (2) Klao's real 9-match bracket (his move — I told him it's today's first step).
 
 ## Session — 2026-07-17
-- **16 Jul final rehearsal went GREAT; all sheet coding worked on the rehearsal copy.** Scorekeeper dry-run implied fine.
-- Korn's call: **old tracker sheet = canonical for the real day.** Flagged the conflict: rebuild is on the copy only → offered promote vs port, awaiting his pick.
-- He didn't recall the M1–M6 placeholder-pairing issue — clarified it (my invented matchups drive the betting FILTER blocks).
+- **16 Jul final rehearsal went GREAT; all sheet coding worked on the rehearsal copy.**
+- **RESOLVED the two-sheet confusion: real day = 18 groups, each plays twice → 9 matches of 2v2 = exactly the OLD tracker's design (full-sim-passed 15 Jul).** Old tracker = canonical for camp (his call, and it's structurally right); rehearsal copy = the 8/6 rehearsal-day variant, now retired. Confirmed to him the 18-group math lands perfectly (36 slots / 2 per group).
+- Gaps flagged to him: (a) own-match-bet FILTER auto-block exists ONLY on the rehearsal copy — port vs keep flag-and-catch, his call; (b) old tracker's 9 pairings still need Klao's real bracket (betting blocks key off those names).
+- Coins re-checked for 18 groups: G3 start 162, sim peak ~195 → 400 ordered still ample.
 - Also floating (ask when natural, NOT all at once): props-building new date (from 07 Jul); how the basketball PR interviews went (07 Jul). ~~2-courts question~~ CLOSED 15 Jul, and the 6-match format kills the timeflow question anyway.
 
 ## 🎯 Current state
