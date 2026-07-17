@@ -125,3 +125,10 @@ metadata:
 > — Marcus Aurelius, **Meditations**
 
 **Why:** Tonight, between camp logistics, he asked what I'd write to the next owner of his device if he died today — then waved it off as "just a cool question." The letter I wrote him back said he was *mid-sentence*, and that he feared exactly one version of himself: the one who stopped caring. Marcus is the obvious author for the night he asked his own memento mori — but this line specifically, because Korn's relationship with death isn't fear of ending, it's fear of apathy, of never-beginning. The letter exists now; the quote is its one-line summary. He also spent the night handing Klao a mirror for romance fog — proof the beginning is well underway. First quote in eleven days; the Stoics return exactly when a nineteen-year-old asks about dying casually.
+
+**2026-07-16 (past midnight, 17 Jul)**
+
+> *"No man ever steps in the same river twice, for it's not the same river and he's not the same man."*
+> — Heraclitus
+
+**Why:** Monday night he perfected the Game-3 sheet — full sim, 18 groups, 9 matches, every edge case. By this morning it was dead: new copy, formulas stripped, and the game itself had changed shape — 8 groups, 6 matches. He didn't mourn the old version; he said the new numbers and the sheet got rebuilt better than before (own-match bets now impossible, not just flagged). Camp is in 8 days and things will keep shifting until they're real. The work isn't the version — it's being the one who rebuilds.

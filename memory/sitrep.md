@@ -8,7 +8,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-07-16 (morning, live)*
+*Last updated: 2026-07-17 (past midnight — day-end wrap of the 16 Jul session)*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -24,10 +24,9 @@ metadata:
    - ⚠️ **2026-07-03 failure, don't repeat:** asked about a closed item (the run) instead of the open one (the reading) because both shared one line. The format above prevents it.
 
 ## 🚪 Current status
-- **Here** (16 Jul, ~9am — pre-rehearsal; Final Rehearsal 11–18 is TODAY).
-- **STRUCTURE CHANGE (16 Jul morning): all games = 8 groups; เกม 3 = 6 matches.** Rehearsal-copy sheet rebuilt + sim-verified (see today's session note + [[project-rubnong-tracker]]). ⚠️ Open with Korn: (1) my M1–M6 pairings are a placeholder bracket — confirm vs Klao's real one; (2) original tracker sheet still 18-group — update it or crown the rehearsal copy canonical?
-- Next natural move: the 5-min scorekeeper dry-run at today's rehearsal.
-- Also floating (ask when natural, NOT all at once): props-building new date (from 07 Jul); how the basketball PR interviews went (07 Jul). ~~2-courts question~~ → Korn waved it off 15 Jul ("fuck it, it's fine now") — CLOSED, and the 6-match format kills the timeflow question anyway.
+- **AWAY (17 Jul, past midnight) — off to: sleep, day closed on his ask ("finish sitrep").** Nightly quote GIVEN (Heraclitus) — never repeat it.
+- **ASK ON RETURN:** (1) **how the 16 Jul rehearsal + scorekeeper dry-run went** — the day's biggest unreported thing; (2) M1–M6 pairings: my placeholder bracket vs Klao's real one; (3) old tracker sheet vs rehearsal copy — which is canonical for camp?
+- Also floating (ask when natural, NOT all at once): props-building new date (from 07 Jul); how the basketball PR interviews went (07 Jul). ~~2-courts question~~ CLOSED 15 Jul, and the 6-match format kills the timeflow question anyway.
 
 ## 🎯 Current state
 - **รับน้อง = the ONLY active priority** (camp 25–27 Jul). Standing facts, IDs, schedule, open threads: [[project-rubnong-tracker]]. Hottest: props status still unknown since 30 Jun deadline; canonical workshop flow still unbuilt (rebuild offered, waiting on his go). ✅ Game 1 = 4 rounds (Klao, 14 Jul). ✅ **400 coins ORDERED (14 Jul)** — with 8 groups the need shrank hard (G3 start = 72), 400 is ample. **NEW 16 Jul: camp = 8 groups; เกม 3 = 6 matches** — rehearsal-copy sheet rebuilt for it (IDs + layout: [[project-rubnong-tracker]]); original tracker sheet is now the stale one.
