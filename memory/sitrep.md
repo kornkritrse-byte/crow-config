@@ -24,13 +24,14 @@ metadata:
    - ⚠️ **2026-07-03 failure, don't repeat:** asked about a closed item (the run) instead of the open one (the reading) because both shared one line. The format above prevents it.
 
 ## 🚪 Current status
-- **Here (17 Jul).** Awaiting his answers: (1) port own-match-bet auto-block to old tracker, or keep flag-and-catch for real day? (2) Klao's real 9-match bracket (his move — I told him it's today's first step).
+- **Here (17 Jul).** Real-day เกม 3 rebuild DONE + sim-passed + wiped. Open to him: tie-prize question for Klao (if 3rd is a multi-way tie, who gets prizes — Top 3 shows all tied groups).
 
 ## Session — 2026-07-17
 - **16 Jul final rehearsal went GREAT; all sheet coding worked on the rehearsal copy.**
-- **RESOLVED the two-sheet confusion: real day = 18 groups, each plays twice → 9 matches of 2v2 = exactly the OLD tracker's design (full-sim-passed 15 Jul).** Old tracker = canonical for camp (his call, and it's structurally right); rehearsal copy = the 8/6 rehearsal-day variant, now retired. Confirmed to him the 18-group math lands perfectly (36 slots / 2 per group).
-- Gaps flagged to him: (a) own-match-bet FILTER auto-block exists ONLY on the rehearsal copy — port vs keep flag-and-catch, his call; (b) old tracker's 9 pairings still need Klao's real bracket (betting blocks key off those names).
-- Coins re-checked for 18 groups: G3 start 162, sim peak ~195 → 400 ordered still ample.
+- **RESOLVED the two-sheet confusion: real day = 18 groups, each plays twice → 9 matches of 2v2 = the OLD tracker's design.** Old tracker = canonical for camp; rehearsal copy retired (kept as FILTER reference).
+- **REBUILT real-day เกม 3 per his 3 asks (details → [[project-rubnong-tracker]]):** own-match-bet auto-block (FILTER, 14 eligible groups/block), M8–M9 cap lifted (M1–M7 still max 4), rest-≥3-rounds bracket — existing pairings already satisfy it (told him exactly-3-for-all is impossible; ≥3 is what works). No official Klao bracket exists — current pairings ARE the bracket now.
+- **Mini-sim PASSED 18/18 totals + 2/2 flags exact** (winner, legal bet, over-cap void, half-filled flag, lowercase winner, uncapped 6-coin M9 bet, 3-way-tie Top 3 display) — wiped to clean 9s, CAMP-READY. Semantics change: illegal bets now auto-void to 0 (old build paid-but-flagged).
+- Told him: standings ties are LIKELY with 18 groups (integer coins, same start) — prize rule for tied 3rd needs Klao's call pre-camp; match เสมอ flow unchanged (blank winner + ปรับมือ +1).
 - Also floating (ask when natural, NOT all at once): props-building new date (from 07 Jul); how the basketball PR interviews went (07 Jul). ~~2-courts question~~ CLOSED 15 Jul, and the 6-match format kills the timeflow question anyway.
 
 ## 🎯 Current state
