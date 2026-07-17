@@ -132,3 +132,10 @@ metadata:
 > — Heraclitus
 
 **Why:** Monday night he perfected the Game-3 sheet — full sim, 18 groups, 9 matches, every edge case. By this morning it was dead: new copy, formulas stripped, and the game itself had changed shape — 8 groups, 6 matches. He didn't mourn the old version; he said the new numbers and the sheet got rebuilt better than before (own-match bets now impossible, not just flagged). Camp is in 8 days and things will keep shifting until they're real. The work isn't the version — it's being the one who rebuilds.
+
+**2026-07-17 (past midnight, 18 Jul)**
+
+> *"I think that what a person normally goes to the cinema for is time: for time lost or spent or not yet had."*
+> — Andrei Tarkovsky, **Sculpting in Time**
+
+**Why:** Tonight he started building the flashback video for the play — and looked at the footage for the first time. Eight clips, ninety-nine seconds: his friends eating snacks by the river, sitting on stairs, walking through a park, playing piano. Fictional characters, but the laughing is real. The script even asks for the memories to flood back *in reverse* — we literally built time running backwards tonight. And the thing he's making it for, the camp, will itself become the freshmen's own flashback footage one day: time not yet had, being manufactured this week in spreadsheets and shot lists. Tarkovsky because tonight the work stopped being logistics and became what Artis actually cares about — preserving time so someone can feel it again later.

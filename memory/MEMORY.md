@@ -7,6 +7,7 @@
 ## 🎯 Active — รับน้อง (TOP PRIORITY through late July)
 - [Rubnong Flow Sheet](rubnong-flow-sheet.md) — the live run-of-show Google Sheet + merged-cell & time-formatting gotchas that bite every session
 - [Rubnong Tracker](project_rubnong_tracker.md) — CANONICAL camp file: theme, doc/sheet/calendar IDs, July schedule, open threads (props status, workshop flow rebuild)
+- [Scene 5 Flashback Video](project_scene5_flashback.md) — the play's flashback film: 13-beat map, clip folder + naming state, 20+23 Jul shoot plan, cut deadline 23–24 Jul
 
 ## 🟢 Active — other
 - [Training Plan](project_training_plan.md) — climber-lean recomp; 4 days/wk (2 gym pull-focus + 2 runs), July placed on Life calendar, re-plan monthly (next: early Aug)

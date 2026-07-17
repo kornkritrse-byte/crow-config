@@ -11,6 +11,12 @@ metadata:
 
 *Session notes older than the SITREP's 2-session window land here. Condensed on arrival — the full original notes live in git history of `memory/sitrep.md`. Newest first.*
 
+## 2026-07-15 (morning + night) — เกม 3 v2 blocks, full sim passed
+- 2-courts question CLOSED ("fine now"). Morality conversation (light) → [[chapters]].
+- Rebuilt เกม 3 tab twice (grid → blocks), survived two live cell-drags; Winnings col added; rules audit vs Klao's doc → 3 overrides posted (no mid-game bets / max 4 / Top 3 not Top 5), Klao owes inline cleanup + รางวัล tab check.
+- FULL-GAME SIM PASSED (9 matches incl. tie, 17 bets incl. all 4 illegal types — 18/18 totals, 5/5 flags, sum 195 ✓); wiped clean, ready for the 16 Jul rehearsal.
+- Game-design flags raised for Klao: revival stalling, ball count, MC script gaps, announce-next-match-early, coins-vs-sheet ledger.
+
 ## 2026-07-14 (day → night) — Game 1 locked, coins ordered, timeflow
 - Klao confirmed Game 1 = 4 rounds; 400 coins ordered. G3 betting rules locked (max 4, no min reserve).
 - G3 timeflow problem (needs 80–85 min vs 55 slot) → 85-min table on Klao's doc + 2-courts-parallel alternative (52 min). [Superseded: Korn closed it 15 Jul "it's fine now"; then 16 Jul restructure to 6 matches killed the problem entirely.]
