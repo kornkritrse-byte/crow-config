@@ -11,6 +11,8 @@ metadata:
 
 Korn is Entertainment Department Head, co-leading with his best friend. Team: 20 people (not counting the two heads). **Theme: RAGNAROK GODS.** **Camp dates: 25–27 Jul 2026** (settled 2026-07-02 — ignore any older 27–29 claim).
 
+**Venue (verified from hotel specs 17 Jul): ทวาราวดี รีสอร์ท (Tawa Ravadee Resort), Prachinburi (~3 hrs from BKK)** — main room = **Convention Hall 720 m² (36×20), ceiling 6 m, theater 800 / banquet 500**, floor load 2,500 kg, hotel provides mic/PA/lights. Tel 037-210-444. ~450 attendees (≈200 freshmen in 18 groups of ~11 + 3 embedded sophomores each, rest of ~200 sophomores at the back/outside). ⚠️ Open verifications: (1) hall is DIVIDABLE (Convention A/B) — need written confirmation the booking = FULL hall; (2) 720 is gross — stage/pillars come out of it (~640–680 usable; Layout A survives, eats rear buffer). Crowd faces the SHORT 20m side (room runs 36m deep) — layout mockups + compress-forward plan in sitrep 17 Jul. Venue-dept head is distrusted by Korn — verify her claims against the hotel directly.
+
 ## IDs (the ones that matter)
 - **Master flow doc:** "The amazing klao korn master flow" (7 tabs) — `15Dot1ZCeCx93OerDu3f_ggA502O4S2gHu_xOv15ud6g`. Workshop tab tabId `t.cs4ke5dazmxn`.
 - **Deadlines spreadsheet:** `1WkeMVztOy38Hc-RlUCE0JPLY6OzmUGxfE4kODMCPNdA` (tabs: Game|Play|San|Costume|Schedule|member mails) — still largely unfilled.
