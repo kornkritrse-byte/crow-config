@@ -24,7 +24,12 @@ metadata:
    - ⚠️ **2026-07-03 failure, don't repeat:** asked about a closed item (the run) instead of the open one (the reading) because both shared one line. The format above prevents it.
 
 ## 🚪 Current status
-- **Here (17 Jul).** Asked the three return items (rehearsal outcome, pairings vs Klao's bracket, canonical sheet) — awaiting answers.
+- **Here (17 Jul).** Return items answered: rehearsal great, sheet coding all worked. ⚠️ NEW ISSUE raised to him: he says OLD tracker = real-day sheet, but the 8/6 rebuild lives only on the rehearsal copy → proposed promote-the-copy vs port. Awaiting: (1) real day = 8 groups/6 matches confirm, (2) Klao's real bracket vs my placeholder pairings (re-explained to him what that meant).
+
+## Session — 2026-07-17
+- **16 Jul final rehearsal went GREAT; all sheet coding worked on the rehearsal copy.** Scorekeeper dry-run implied fine.
+- Korn's call: **old tracker sheet = canonical for the real day.** Flagged the conflict: rebuild is on the copy only → offered promote vs port, awaiting his pick.
+- He didn't recall the M1–M6 placeholder-pairing issue — clarified it (my invented matchups drive the betting FILTER blocks).
 - Also floating (ask when natural, NOT all at once): props-building new date (from 07 Jul); how the basketball PR interviews went (07 Jul). ~~2-courts question~~ CLOSED 15 Jul, and the 6-match format kills the timeflow question anyway.
 
 ## 🎯 Current state
