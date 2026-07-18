@@ -8,7 +8,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-07-18 (past midnight — day-end wrap of the 17 Jul session)*
+*Last updated: 2026-07-19 (in-session)*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -24,17 +24,19 @@ metadata:
    - ⚠️ **2026-07-03 failure, don't repeat:** asked about a closed item (the run) instead of the open one (the reading) because both shared one line. The format above prevents it.
 
 ## 🚪 Current status
-- **Here (18 Jul morning).** Riverside upload landed ✅ — 13 new clips inventoried + renamed into beat order (06a/06b sunset-bench+letter, 07a river confession, rest = montage alt takes + one Korn-must-confirm `03f_elevator_phones`; details [[project-scene5-flashback]]). Pixel-identical dup of 03d parked as `zzz_dup_…` for him to delete. Day's work = editing, montage beats first.
-- Floating (when natural, not all at once): Klao handoff msg (tie-prize + MC cap line) sent?; classroom shoot happening the 20th; props status (since 30 Jun); PR interviews (07 Jul).
+- **Here (19 Jul).** 21 Jul rehearsal sheet DONE + sim-passed — handed over, waiting on his next move (likely Scene 5 editing or sheet chores).
+- Floating (when natural, not all at once): Klao handoff msg (tie-prize + MC cap line) — asked 18 Jul, no answer; เพื่อน audio bought on iTunes? (edit blocker); classroom shoot tomorrow (20th); props status (since 30 Jun); `03f_elevator_phones` beat confirm.
 - **Venue thread PARKED by Korn ("not our responsibility") — don't re-raise unless he does.** If it resurfaces: specs verified + the one open action (written full-hall confirmation) live in [[project-rubnong-tracker]].
 
-## Session — 2026-07-17 (day → past midnight)
-- **16 Jul final rehearsal went GREAT; all sheet coding worked.** Two-sheet confusion RESOLVED: real day = 18 groups, each plays twice = 9 matches of 2v2 = the OLD tracker's design → old tracker canonical, rehearsal copy retired.
-- **Rebuilt real-day เกม 3 per his 3 asks + mini-sim PASSED exact, wiped clean → CAMP-READY** (auto-block, M8–M9 cap lift, rest-≥3 bracket = existing pairings; details [[project-rubnong-tracker]]). Semantics change: illegal bets auto-void to 0 now.
-- Ops confirmed: illegal bets rejected verbally at the scorer's table, auto-void = backstop → real-play ⚠️ = typo. **His to do: brief table crew on cap schedule; Klao handoff msg (MC cap line + tie-prize rule for likely tied 3rd). "MC shit is not my job" — the handoff msg is the compromise.**
-- **Venue worry raised → resolved:** 450 ppl vs hall claimed 36×20 — delivered 2 layout mockups (revised for short-side stage: compress forward, empty rear), then VERIFIED the hall against hotel specs (Tawa Ravadee, Convention Hall 720 m² real). Korn parked the thread; facts in [[project-rubnong-tracker]].
-- **Scene 5 flashback video started ([[project-scene5-flashback]]):** found the script (13 beats), inventoried + beat-renamed his 8 montage clips, built the reversed-clip set for the memory flood, flagged 4 unshot scenes incl. the two arrow-crime reveals, delivered the 23 Jul 15:00+ shot order. ffmpeg now on the Mac. Riverside scenes shot, uploading.
-- "Good work today" close; editing starts the 18th.
+## Session — 2026-07-19
+- **Built the 21 Jul rehearsal sheet on his ask ("game score tracker final rehearsal 21 Jul", ID in [[project-rubnong-tracker]]):** copy of the 16 Jul sheet; discovered the SOURCE had been flattened to values after the rehearsal → full formula rebuild (เกม 1 + เกม 3 + ENGINE).
+- **His rule change built in: เกม 3 cap = max 4 for M1–M4 only, M5–M6 ALL-IN allowed;** self-betting still impossible all game (FILTER blocks). Mini-sim passed (all-in 9 paid, 5-on-M1 voided+flagged, half-fill flagged), wiped to clean 9s.
+- Still his manual chores on the new sheet: freeze panes, paint inputs yellow, hide ENGINE; pairings still placeholder pending Klao's bracket.
+
+## Session — 2026-07-18 (morning)
+- Riverside upload landed → all 13 clips inventoried + renamed into beat order: 06a/06b (bench + letter closeup), 07a (river confession), rest = montage alt takes; dup of 03d parked as `zzz_…` for him to delete; `03f_elevator_phones` beat unconfirmed ([[project-scene5-flashback]]).
+- 06b letter closeup (vertical) → two 16:9 renders delivered (PANCROP recommended, BLURPAD fallback), verified on the ELSA-drawing reveal.
+- เพื่อน (Polycat) download request → declined the rip, pointed to iTunes Store purchase (256k AAC, ~29฿) + same route for Let It Go; purchase not yet confirmed.
 
 ## 🎯 Current state
 - **รับน้อง = the ONLY active priority** (camp 25–27 Jul). Standing facts, IDs, schedule, open threads: [[project-rubnong-tracker]]. Hottest: props status still unknown since 30 Jun deadline; canonical workshop flow still unbuilt (rebuild offered, waiting on his go). ✅ Game 1 = 4 rounds. ✅ 400 coins ordered — ample for real day (G3 start 162, sim peak ~195). ✅ **เกม 3 real day = 18 groups / 9 matches 2v2 on the OLD tracker — rebuilt + sim-passed 17 Jul, CAMP-READY** (rehearsal copy = retired 8/6 variant).

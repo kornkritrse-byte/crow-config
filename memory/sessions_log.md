@@ -11,6 +11,18 @@ metadata:
 
 *Session notes older than the SITREP's 2-session window land here. Condensed on arrival — the full original notes live in git history of `memory/sitrep.md`. Newest first.*
 
+## 2026-07-17 (day → past midnight) — real-day เกม 3 rebuilt, Scene 5 video started
+- 16 Jul rehearsal went GREAT, all sheet coding worked; two-sheet confusion resolved → old tracker canonical (18 groups / 9 matches), rehearsal copy retired.
+- Real-day เกม 3 rebuilt per his 3 asks (auto-block, M8–M9 cap lift, rest-≥3 bracket), sim passed, wiped → CAMP-READY. Illegal bets now auto-void to 0.
+- Venue worry (450 ppl vs hall) → 2 layout mockups + hall verified vs hotel specs (Tawa Ravadee 720 m²); Korn parked the thread.
+- Scene 5 flashback started: script found (13 beats), 8 montage clips renamed, reversed set built, 4 unshot scenes flagged, 23 Jul shot order delivered. ffmpeg installed.
+- His to-dos raised: brief table crew on caps; Klao handoff msg (MC cap line + tie-prize).
+
+## 2026-07-16 (morning, pre-rehearsal) — rehearsal-day 8/6 เกม 3 rebuild
+- Korn's restructure: all games 8 groups, เกม 3 = 6 matches, via new "fianl rehersal" copy that arrived values-only — every formula rebuilt (engine, flags, ปรับมือ, tie-safe Top 3), mini-sim passed, wiped ready.
+- Own-match betting made structurally impossible (FILTER auto-block) — his ask, verified live while he tested bets in-sheet.
+- Placeholder pairings (halves A/B) — swappable; 6 matches killed the old timeflow worry.
+
 ## 2026-07-15 (morning + night) — เกม 3 v2 blocks, full sim passed
 - 2-courts question CLOSED ("fine now"). Morality conversation (light) → [[chapters]].
 - Rebuilt เกม 3 tab twice (grid → blocks), survived two live cell-drags; Winnings col added; rules audit vs Klao's doc → 3 overrides posted (no mid-game bets / max 4 / Top 3 not Top 5), Klao owes inline cleanup + รางวัล tab check.
