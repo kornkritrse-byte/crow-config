@@ -18,10 +18,16 @@ Korn is making the flashback video that plays mid-Scene 5 (lights down after Zeu
 ## The 13 beats
 1 bread crash (hostile meet) · 2 classroom (new kid) · 3 friendship montage (canteen/stairs/walk/field — เพลงเพื่อน, ละครคุณธรรม-TikTok cuts) · 4 bathroom bully (เทพซ่า+เกล้า+กร Naruto gag, เทพไทย saves) · 5 uni tutoring lovestruck stare · 6 sunset bench (Elsa dumped him, cry-hug) · 7 river reflection confession vow · 8 graduation (Elsa cuts in front — heartbreak) · 9 reverse memory flood · 10 bathtub crying (milk gallons, dead shower head) · 11 Olympus plotting · 12 arrow crime: เทพม้า mid-piss · 13 arrow crime: Elsa mid–Let It Go → smirk. **12+13 are THE reveal — the video fails without them.**
 
-## Folder state (as of 18 Jul past midnight)
-- 8 clips, 4K, ~99s — ALL montage (beats 3+5), renamed into beat order: `03a_eat_together_riverside` `03b_stairs_phones` `03c_walking_park` `03d_field_flag_bike_gag` `05a_piano` `05b_bookstore` `05c/05d_closeup_1/2` (IMG numbers kept in names).
+## Folder state (as of 18 Jul morning — riverside upload landed, all renamed)
+- 20 clips + 1 dup, all in beat order. Original 8 montage clips (beats 3+5) unchanged: `03a` `03b` `03c` `03d` `05a–05d`.
+- **New from the upload (13 files, all shot 10 Jul 16:08–18:15 — same outing as the montage):**
+  - **Beat 6:** `06a_sunset_bench_letter_IMG0466` (24s, the dump-letter read on the bench at sunset) + `06b_letter_closeup_VERTICAL_IMG0469` (8s insert — ⚠️ VERTICAL 2160×3840, needs crop/blur-pad for the 16:9 cut).
+  - **Beat 7:** `07a_river_confession_IMG0476` (34s, river railing at sunset — longest clip).
+  - **Montage alt takes (beats 3a/3b/3d):** `03a2_eat_wide_alt` `03a3_eat_close_alt` `03b2_stairs_run_up` `03d2_track_walkaway` `03d3_track_thumbsup` `03d4_track_faceoff` `03d5_track_run` + `03e_field_establishing` (empty-field B-roll).
+  - `03f_elevator_phones_IMG0470` — guessed as montage; Korn should confirm the beat.
+  - `zzz_dup_of_03d_IMG0459` — pixel-identical duplicate of 03d (verified by decoded md5); safe to delete, left for Korn.
 - `09_reverse_flood/` — 5 reversed 1080p silent versions of the happy clips (beat 9), verified frame-exact.
-- **Riverside scenes (beats 6+7) shot — Korn uploading them into the folder; inventory + rename to 06/07 prefixes on arrival.**
+- ⚠️ 06b reversed-flood set does NOT include the new 06/07 clips — decide if beat 9 should flash the heartbreak beats too (currently happy-clips only).
 
 ## Shoot plan
 - **20 Jul:** classroom scene (beat 2).

@@ -24,8 +24,7 @@ metadata:
    - ⚠️ **2026-07-03 failure, don't repeat:** asked about a closed item (the run) instead of the open one (the reading) because both shared one line. The format above prevents it.
 
 ## 🚪 Current status
-- **AWAY (18 Jul, past midnight) — off to: finishing the riverside-clips upload, then done for the day. Editing starts TODAY (18th).** Nightly quote GIVEN (Tarkovsky) — never repeat it.
-- **ASK ON RETURN:** nothing to interrogate — CHECK `~/Desktop/san falshback clips` for the riverside clips FIRST (if landed: inventory + rename 06/07 prefixes unprompted), then open straight into edit support. That's the day's work.
+- **Here (18 Jul morning).** Riverside upload landed ✅ — 13 new clips inventoried + renamed into beat order (06a/06b sunset-bench+letter, 07a river confession, rest = montage alt takes + one Korn-must-confirm `03f_elevator_phones`; details [[project-scene5-flashback]]). Pixel-identical dup of 03d parked as `zzz_dup_…` for him to delete. Day's work = editing, montage beats first.
 - Floating (when natural, not all at once): Klao handoff msg (tie-prize + MC cap line) sent?; classroom shoot happening the 20th; props status (since 30 Jun); PR interviews (07 Jul).
 - **Venue thread PARKED by Korn ("not our responsibility") — don't re-raise unless he does.** If it resurfaces: specs verified + the one open action (written full-hall confirmation) live in [[project-rubnong-tracker]].
 
