@@ -21,7 +21,7 @@ Korn is making the flashback video that plays mid-Scene 5 (lights down after Zeu
 ## Folder state (as of 18 Jul morning — riverside upload landed, all renamed)
 - 20 clips + 1 dup, all in beat order. Original 8 montage clips (beats 3+5) unchanged: `03a` `03b` `03c` `03d` `05a–05d`.
 - **New from the upload (13 files, all shot 10 Jul 16:08–18:15 — same outing as the montage):**
-  - **Beat 6:** `06a_sunset_bench_letter_IMG0466` (24s, the dump-letter read on the bench at sunset) + `06b_letter_closeup_VERTICAL_IMG0469` (8s insert — ⚠️ VERTICAL 2160×3840, needs crop/blur-pad for the 16:9 cut).
+  - **Beat 6:** `06a_sunset_bench_letter_IMG0466` (24s, the dump-letter read on the bench at sunset) + `06b_letter_closeup_VERTICAL_IMG0469` (8s insert, vertical; payoff = ELSA drawing reveal at ~6s). ✅ Two 16:9 renders made 18 Jul: `…16x9_PANCROP…` (recommended — drawing fills frame) and `…16x9_BLURPAD…` (fallback, keeps whole frame); original untouched.
   - **Beat 7:** `07a_river_confession_IMG0476` (34s, river railing at sunset — longest clip).
   - **Montage alt takes (beats 3a/3b/3d):** `03a2_eat_wide_alt` `03a3_eat_close_alt` `03b2_stairs_run_up` `03d2_track_walkaway` `03d3_track_thumbsup` `03d4_track_faceoff` `03d5_track_run` + `03e_field_establishing` (empty-field B-roll).
   - `03f_elevator_phones_IMG0470` — guessed as montage; Korn should confirm the beat.
