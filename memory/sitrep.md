@@ -31,7 +31,7 @@ metadata:
 ## Session — 2026-07-19
 - **Built the 21 Jul rehearsal sheet on his ask ("game score tracker final rehearsal 21 Jul", ID in [[project-rubnong-tracker]]):** copy of the 16 Jul sheet; discovered the SOURCE had been flattened to values after the rehearsal → full formula rebuild (เกม 1 + เกม 3 + ENGINE).
 - **His rule change built in: เกม 3 cap = max 4 for M1–M4 only, M5–M6 ALL-IN allowed;** self-betting still impossible all game (FILTER blocks). Mini-sim passed (all-in 9 paid, 5-on-M1 voided+flagged, half-fill flagged), wiped to clean 9s.
-- Still his manual chores on the new sheet: freeze panes, paint inputs yellow, hide ENGINE; pairings still placeholder pending Klao's bracket.
+- **Rest question → pod bracket FINAL** (G1–4 odd matches, G5–8 even; every group exactly 1 match rest = max possible). Korn: brackets are Korn+Crow's, not Klao's. Still his manual chores: freeze panes, paint inputs yellow, hide ENGINE.
 
 ## Session — 2026-07-18 (morning)
 - Riverside upload landed → all 13 clips inventoried + renamed into beat order: 06a/06b (bench + letter closeup), 07a (river confession), rest = montage alt takes; dup of 03d parked as `zzz_…` for him to delete; `03f_elevator_phones` beat unconfirmed ([[project-scene5-flashback]]).
