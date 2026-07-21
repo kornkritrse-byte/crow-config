@@ -25,7 +25,7 @@ metadata:
 
 ## 🚪 Current status
 - **Here (21 Jul).** เกม 3 win reward changed +2 → +8 on the CAMP sheet + full sim re-passed + wiped clean ([[project-rubnong-tracker]]). Waiting on his next move.
-- **Open design choice he's weighing:** whether to keep flat +8 or add a 2×-fast-win bonus (win before 2:00 left of 3:30). Flat 8 fits the 400 coins ordered (~306 peak); 2×-fast worst case = 450 > 400. Reward-8 beats a *realistic* bettor but still loses to a perfect bettor / the uncapped-M8/M9 whale — capping M8/M9 is the only way to make winning dominate absolutely (raised, not yet decided).
+- **Ruleset LOCKED (21 Jul): win +8, bets min 1 / max 4 on M1–M7, ALL-IN on M8–M9.** Token supply: corrected my error — betting is even-money-vs-house (injects tokens when lopsided), so all-in M8/M9 could blow past 400. **Resolved:** the last 2 rounds run DIGITAL/sheet-only → 400 physical is enough. Details + scorekeeper note in [[project-rubnong-tracker]].
 - Floating (when natural, not all at once): Klao handoff msg (tie-prize + MC cap line) — asked 18 Jul, no answer; เพื่อน audio bought on iTunes? (edit blocker); props status (since 30 Jun); `03f_elevator_phones` beat confirm; 20 Jul classroom shoot done?
 - **Venue thread PARKED by Korn ("not our responsibility") — don't re-raise unless he does.** If it resurfaces: specs verified + the one open action (written full-hall confirmation) live in [[project-rubnong-tracker]].
 
