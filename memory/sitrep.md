@@ -24,9 +24,15 @@ metadata:
    - ⚠️ **2026-07-03 failure, don't repeat:** asked about a closed item (the run) instead of the open one (the reading) because both shared one line. The format above prevents it.
 
 ## 🚪 Current status
-- **Here (19 Jul).** 21 Jul rehearsal sheet DONE + sim-passed — handed over, waiting on his next move (likely Scene 5 editing or sheet chores).
-- Floating (when natural, not all at once): Klao handoff msg (tie-prize + MC cap line) — asked 18 Jul, no answer; เพื่อน audio bought on iTunes? (edit blocker); classroom shoot tomorrow (20th); props status (since 30 Jun); `03f_elevator_phones` beat confirm.
+- **Here (21 Jul).** เกม 3 win reward changed +2 → +8 on the CAMP sheet + full sim re-passed + wiped clean ([[project-rubnong-tracker]]). Waiting on his next move.
+- **Open design choice he's weighing:** whether to keep flat +8 or add a 2×-fast-win bonus (win before 2:00 left of 3:30). Flat 8 fits the 400 coins ordered (~306 peak); 2×-fast worst case = 450 > 400. Reward-8 beats a *realistic* bettor but still loses to a perfect bettor / the uncapped-M8/M9 whale — capping M8/M9 is the only way to make winning dominate absolutely (raised, not yet decided).
+- Floating (when natural, not all at once): Klao handoff msg (tie-prize + MC cap line) — asked 18 Jul, no answer; เพื่อน audio bought on iTunes? (edit blocker); props status (since 30 Jun); `03f_elevator_phones` beat confirm; 20 Jul classroom shoot done?
 - **Venue thread PARKED by Korn ("not our responsibility") — don't re-raise unless he does.** If it resurfaces: specs verified + the one open action (written full-hall confirmation) live in [[project-rubnong-tracker]].
+
+## Session — 2026-07-21
+- **เกม 3 win reward +2 → +8 on the CAMP sheet** (`1OyGQ…`, not the rehearsal copy) — his design goal: make winning a match outweigh good betting. Walked the math first (why bumping reward alone can't beat betting's 7-bet ceiling; landed on flat 8).
+- **Couldn't read formulas via the google-docs MCP** (returns computed values even under FORMULA render — tested & confirmed). Rebuilt coin-total K8:K25 fresh from a functional probe, updated H display + B3 rules text to +8. Full 9-match sim RE-PASSED (18/18 exact, >4 auto-void+flag, ปรับมือ, tie-safe Top 3), wiped clean. Details → [[project-rubnong-tracker]].
+- **Tokens:** peak ≈ 306 (162 base + 144 win bonuses); the 400 ordered still covers it. Manual chores still his: freeze panes, paint inputs yellow, hide ENGINE.
 
 ## Session — 2026-07-19
 - **Built the 21 Jul rehearsal sheet on his ask ("game score tracker final rehearsal 21 Jul", ID in [[project-rubnong-tracker]]):** copy of the 16 Jul sheet; discovered the SOURCE had been flattened to values after the rehearsal → full formula rebuild (เกม 1 + เกม 3 + ENGINE).
