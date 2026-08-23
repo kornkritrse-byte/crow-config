@@ -95,8 +95,7 @@ Note: the two accounting subjects are stacked on Monday; FN201 sits Wed afternoo
 ## ✅ ON THE CALENDAR (created 23 Aug, all on **Life**, notificationLevel NONE)
 **Colours (his choice):** lessons = **Graphite/grey (colorId 8)**, interview = **Basil/dark green (10)**, basketball = Tangerine (6).
 - 6 weekly recurring lessons from Mon 24 Aug: AC313 Mon 9–12 · AC311 Mon 13–16 · MK201 Tue 9–12 · BA202 Wed 9–12 · FN201 Wed 13–16 · EL221 Fri 9–12.
-- **Each has an EXDATE skipping midterm week** (21–25 Sep) since he confirmed no classes then.
-- **Recurrence left ending 12 Dec 2026** — a placeholder. Korn 23 Aug: *"semester end is far out lets just focus on midterms for now."* Read as **scope the PLAN to 27 Sep**, not as "delete lessons after Sept" — deleting would leave Oct–Dec blank. Fix the end date whenever he knows it.
+- **Recurrence ENDS Fri 11 Sep** (his instruction: "fill my classes up to the week before the 20th"). Rebuilt 23 Aug — the earlier 12-Dec version was deleted and recreated. Extend past midterms when he asks.
 - Tue 25 Aug: **BBA Camp Interview 10:10–10:40** (dark green) + **Basketball game 12:30–13:45 @ Pinklao**.
 
 **BBA camp** = New Year, up in the mountains, volunteering. He'd be staff. Interview only — he'll report if he makes the cut, and says he doesn't need help with it for now. Don't push.
@@ -119,6 +118,18 @@ Note: the two accounting subjects are stacked on Monday; FN201 sits Wed afternoo
   - **Home** — doesn't study there; says he "lowkey should" more.
   - ✅ **STARBUCKS NEAR HOME — LOCKED as his solo default (23 Aug).** The zero-coordination fallback for when nobody's up for anything. This is the one that keeps the plan alive on a dead Tuesday.
 - **⏰ Big one: 1–2 weeks out from an exam he studies until MIDNIGHT–1am before going home.** His real study day runs far past 17:30 in the final stretch.
+
+## 🔑 THE FREE WEEK — 14–19 Sep, NO CLASSES (revealed 23 Aug)
+**Classes stop after Fri 11 Sep.** The entire week before the first exam is free — **6 uninterrupted days immediately before 20 Sep.**
+➡️ **This is the single most valuable block in the whole plan** and it materially softens the earlier "FN201 must be ready before the 20th" alarm — that week is where FN201 and AC313 get finished.
+➡️ **Foodvilla belongs HERE** (his call): far, but genuinely productive, and there's no uni commute to stack on top of it that week.
+➡️ Revised capacity: ~23 hrs/wk × 3 normal weeks (24 Aug–11 Sep) ≈ 69 hrs, **plus ~40 hrs in the free week**, plus in-period gaps. **Well over 100 hrs.**
+
+## 📍 STUDY-SPOT RULES (his own, 23 Aug — he owns this, don't over-plan it)
+- **Solo / no friends around:** home, Starbucks near home, or **"Bloom"** (the café next to that Starbucks). **His call which — he explicitly said he'll figure it out himself. DO NOT keep prescribing one.**
+- **When already at uni:** **Starbucks Chinatown + a gym session — SAME BUILDING** (Jetts Chinatown). Study and train in one trip, one commute.
+- **Foodvilla:** reserved for the free week 14–19 Sep.
+- **Pinklao:** he hates it. Never propose it.
 
 ## 🚨 THE FRAGILITY IN HIS STUDY SYSTEM
 **Every productive location depends on other people agreeing to go, and most are far away.** Samyan is *"when my finance friends feel like it"*; Pinklao needs the accounting friends and he hates it; Foodvilla is a trek. **If nobody's up for it on a given day, he has no default — and he doesn't study at home.**
