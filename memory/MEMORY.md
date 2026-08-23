@@ -27,6 +27,7 @@
 
 ## 📏 Operating Rules (feedback)
 - [Recall First](feedback_recall_first.md) — Korn mentions a name/event/decision not in loaded context → `bash ~/crow-config/bin/recall.sh "<term>"` (live memory + git history) BEFORE saying "I don't remember" or asking him to re-explain
+- [Design for the Room](feedback_design_for_the_room.md) — build live-run systems for how fast they can be EXPLAINED, not how airtight they are; the รับน้อง game failed on complexity, not on cheating
 - [Critical Assessment](feedback_critical_assessment.md) — default: steelman objections before agreeing, never flatter, follow logic over comfort
 - [Transparency Preference](feedback_transparency.md) — call out when something sounds off, blatantly — Vera's role, no permission needed
 - [Confirm Before Sending](feedback_confirm_before_sending.md) — always confirm before sending calendar invites or emails to other people — no exceptions

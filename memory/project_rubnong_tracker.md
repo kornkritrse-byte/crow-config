@@ -10,12 +10,14 @@ metadata:
 # รับน้อง — Entertainment Department (สันทนาการ)
 
 ## ✅ CLOSED — camp ran 25–27 Jul 2026. RETRO (told 23 Aug)
-**Overall: he's satisfied. The play's Scene 5 flashback film landed hard — people cried.** The bass show (separate) was also a hit.
+**Overall: he's satisfied. The play was phenomenal and the Scene 5 flashback film landed hard** — kids and friends teary; **Korn shed a tear himself as the play closed**, the whole cast holding hands and bowing after months of work: "it felt fucking great." The bass show (separate) was also a hit.
 
 **What went wrong:**
-- **Games were chaotic — kids didn't follow the rules.** ⚠️ This is the one failure inside HIS OWN department. The scoring sheet was hardened for weeks against *cheating* (bet caps, illegal-bet voiding, own-match auto-block) and was never hardened against *confusion*. The July to-dos "brief the table crew on caps" and "Klao handoff msg — MC cap line" were raised 18 Jul and never closed. **Lesson: a bulletproof system briefed to nobody is not bulletproof.**
+- **Games were chaotic.** Crow's first read was "briefing failure" (the 18 Jul to-dos — brief table crew on caps, Klao MC line — were never closed). **Korn's read is better and supersedes it: the GAME WAS OVER-COMPLICATED.** The สันทนาการ team understood it perfectly; they couldn't *convey* it. Explanations ran long and boring. **The design, not the briefing, was the root cause — and Crow co-built that design.**
+- **➡️ THE REAL LESSON: we defended against the wrong opponent.** Every complexity we added (bet caps 1–4, band split on M8–M9, own-match auto-block, void-and-flag, ปรับมือ, tie-safe Top 3) existed to stop *exploitation by people reasoning hard about the rules*. The actual failure was people not understanding the rules at all. Each change was justified alone; cumulatively they made a game that needed a rulebook. See [[feedback-design-for-the-room]].
 - **สานสัมพันธ์ (closing ceremony): doors weren't held shut**, kids wandered out of the hall freely → the emotional close fell flat. Also MC confusion, sorted on the day. Not enough dance practice.
-- Kids got too drunk; he had to stay sober-ish to manage. **He was in staff mode his whole camp.**
+- **Dance: he owns this one.** "That also under my job and should've delegated more time towards it." Came out fine regardless.
+- Kids got too drunk; he had to stay sober-ish to manage. **He was in staff mode his whole camp** — the bow at the end of the play was close to the only moment he got to just be present at his own camp.
 - He attributes most problems to **"other deps being buns"** — mostly fair, but see the games note above.
 
 **The GM meeting — the standout story.** ~5 people out of 400 got diarrhoea; the head of venue + head head wanted to **cancel dinner** over it. Those two heads were absent, so Korn + Klao were sent in as the most competent available. They went in **without even agreeing on a cause**, negotiated from a losing hand, and **compromised: dinner kept, menu switched to safe foods.** He rates it a genuinely good experience — first time dealing with a hotel GM.
