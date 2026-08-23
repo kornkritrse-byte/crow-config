@@ -11,6 +11,15 @@ metadata:
 
 ---
 
+**2026-08-23**
+
+> *"Everyone hurries his life on and suffers from a yearning for the future and a weariness of the present."*
+> — Seneca, **On the Shortness of Life**
+
+**Why:** First session back after a month dark. He closed รับน้อง properly — and did the hard half of a retro, overturning my "briefing failure" diagnosis with a better one that implicated the game's design (which he and I built) and taking dance on himself rather than leaving it in the other-departments pile. Then we built the whole next chapter: six midterms 20–27 Sep, a class timetable, a training week, a 5k time trial. But the charged thread was Karamazov. He's at Book 12 now and named "Ivan and the Devil" a favourite — read it as a man facing who he is, like cringing at old notes. I pushed back: cringing needs distance, and Ivan has none; the horror is that there's nowhere to stand outside yourself. Asked whether the chapter read as being *seen* or as a *warning*, he chose warning — because "my thoughts aren't solid and lowkey I'm interested in how they will change and how I'll look back on them." That's the move Seneca names: converting a warning into anticipation, handing the verdict to a future self so the present one doesn't have to hold it. It's also the shape of the next five weeks — a hundred hours of runway that only exist in the present tense. Chose Seneca for a fresh voice (Marcus Aurelius three times, Dostoevsky twice already) and because On the Shortness of Life is the Stoics' most direct answer to deferral.
+
+---
+
 **2026-06-03 (session 1)**
 
 > *"Above all, don't lie to yourself. The man who lies to himself and listens to his own lie comes to a point that he cannot distinguish the truth within him, or around him, and so loses all respect for himself and for others."*

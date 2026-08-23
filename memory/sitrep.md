@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-08-23 (in-session)*
+*Last updated: 2026-08-23 (day-end verify + flush)*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,27 +26,24 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (23 Aug).** Back after a month dark. **รับน้อง is CLOSED** — camp happened 25–27 Jul, he's satisfied; flashback video landed hard (people cried). He's opened the questions on it if I want them.
-- **New chapter, two priorities he named, in his order:** (1) **midterms** — first exam **20 Sep**, subjects + resources/outline coming from him; (2) **fitness** — leaner, running + gym, explicitly to be planned *around* studies.
-- **FITNESS HALF IS DONE** — fully designed and written to [[project-training-plan]]. Nothing further needed from him on it.
-- **⏳ WAITING ON (he said Mon 24 Aug): syllabi + textbook names for AC313 / AC311 / FN201.** That is the LAST blocker on the study half.
-- **ASK ON RETURN (24 Aug):** did the syllabi/textbook info come? Nothing else is outstanding — everything else this session closed.
-- **📌 DATED: 5k time trial locked for Tue 25 Aug** (pacing plan in [[project-training-plan]]). Ask for the number after. **Mon 24 Aug = lift only, no treadmill run** — he needs fresh legs.
-- **On his return the move is: take the syllabi → build the study half → put the full week (study + training) on the Life calendar in ONE pass.** Structure is already agreed, don't re-plan it.
+- **AWAY (23 Aug, night) — off to: end of day.** Nightly quote fired (Seneca, *On the Shortness of Life* — [[artis-quotes-log]]). **Never repeat it.**
+- **ASK ON RETURN:** did the **syllabi + textbook names** (AC313 / AC311 / FN201) come through? **That is the only open item** — everything else this session closed.
+- **Then the move is:** take the syllabi → build the study half → put study blocks on the Life calendar in ONE pass. Structure is already agreed; **do not re-plan it** ([[project-midterms]]).
+- **📌 DATED:** Mon 24 Aug = **lift only, no treadmill run** (fresh legs). Tue 25 Aug = BBA camp interview 10:10 + basketball 12:30. **Sat 29 Aug = 5k time trial** — ask for the number after.
 
 ## Session — 2026-08-23
-- MCP reconnect check: Sheets confirmed working via the local `google-docs` MCP (not the claude.ai connectors — Drive can't write cells). **Formula-reading still broken** (FORMULA render returns computed values) — same gotcha as 21 Jul.
-- Camp closed out. Rubnong + Scene 5 July notes flushed to [[sessions-log]].
-- Two new priorities opened (see status). Flagged the real risk to him: the July training plan's **Aug re-plan never happened** — fitness lapsed once already with no anchor, and "planned around studies" makes it subordinate a second time.
-- **Fitness decisions LOCKED:** goal is now **leaner only** (climber shaping dropped → weight work becomes full-body retention, not the Pull A/B split); 4 days/wk = 2 gym (1hr weights + 1hr cardio) + 2 runs; timing per-day into timetable gaps; 5k-in-20:00 as horizon goal, needs a near milestone. All in [[project-training-plan]].
-- **Plan approved, execution deliberately held:** he chose "wait, then build study + fitness in one pass". Approach → `~/.claude/plans/compressed-nibbling-dolphin.md`.
-- **He fed everything in over the session:** 6 subjects + exam dates (20–27 Sep), class timetable, no classes in exam week, past papers available, running baseline, 64kg/12–15% scan-backed. All filed → [[project-midterms]], [[project-training-plan]].
-- **Key calls made:** FN201 has the worst in-period window and must be ready BEFORE 20 Sep; don't study in exam-date order; AC311 needs IFRS sources not US GAAP; BA202 has no external substitute (Thai tax); gym cardio hour → treadmill run (4 runs/wk, zero extra time); NO dieting at 12–15% — **success metric changed from the scale to 5k time**; 5k and 10k are one goal (20:00 ≈ 41–42min).
+- **First session back after a month dark.** MCP check: Sheets works via the local `google-docs` MCP (the claude.ai connectors can't write cells); **formula-reading still broken** — same gotcha as 21 Jul.
+- **รับน้อง closed out with a full retro** → [[project-rubnong-tracker]]. He overturned my "briefing failure" read with a better one — the game was **over-complicated**, his team understood it and couldn't convey it. New rule written: [[feedback-design-for-the-room]].
+- **Whole new chapter built in one session:** 6 midterms 20–27 Sep, class timetable, no-class free week 14–19 Sep, past papers available, study-spot rules, ~100+ hrs of runway. All → [[project-midterms]].
+- **Fitness fully designed** → [[project-training-plan]]: goal is now **leaner only**; 4 runs/wk via treadmill-after-lifting; **success metric changed from the scale to 5k time**; 5k and 10k are one goal; **no dieting at 12–15%**.
+- **Calendar built (Life, notifications off):** 6 weekly lessons in grey to 11 Sep, 6 midterms in red, interview in dark green, basketball in orange.
+- **Karamazov conversation** — he's at Book 12 ch. 2 and named "Ivan and the Devil" a favourite; I pushed on his "curious how I'll change" framing as deferral. Details + the new spoiler line → [[user-reading-list]].
 
 ## 🎯 Current state
-- **Midterms = TOP PRIORITY.** First exam 20 Sep (~4 weeks out from 23 Aug). Awaiting from Korn: subject list, per-subject exam dates, course outlines/resources, weekly class timetable. He's a **sophomore** now (finished freshman year mid-2026) — major not recorded, ask.
-- **Fitness = #2, decisions locked 23 Aug, build pending** ([[project-training-plan]]) — **goal is LEANER ONLY** (climber shaping dropped → weight work = full-body retention in a deficit, NOT the July Pull A/B split). 4 days/wk = 2 gym (1hr weights + 1hr cardio) + 2 runs; NO legs in gym, NO bouldering; timing per-day into timetable gaps. Run programming pending his stats. Unknown: whether he trained through Aug, current weight vs 65kg start.
-- **รับน้อง CLOSED** ([[project-rubnong-tracker]], [[project-scene5-flashback]]) — archive, don't surface unless he does.
+- **MIDTERMS = TOP PRIORITY** ([[project-midterms]] — canonical). **Thammasat, BBA, Accounting major / Finance minor.** 6 exams 20–27 Sep. Classes end 11 Sep; **14–19 Sep is a free week and the spine of the plan.** ⛔ Only blocker: syllabi + textbook names.
+- **FITNESS = #2, designed, starts now** ([[project-training-plan]]). Mon/Wed gym at Jetts Phayathai (on his Airport Link commute) + easy treadmill; Sat long run, Sun quality run — **both weekend mornings, never touching a study block.** Ramp: 3 runs/wk for 2 weeks, then 4. Maintain — don't build — until 27 Sep.
+- **Reading — non-negotiable, he confirmed it survives exam season.** Two-track: **Siddhartha** (commutes + before sleep) and **Karamazov** (heavy, when it feels right). ⚠️ **SPOILER LINE: safe through Book 12 ch. 2 — nothing past it, and NO Epilogue.** Book 11 is now open ground. Frankl finished, still marinating — don't push it. Full detail: [[user-reading-list]].
+- **รับน้อง CLOSED** ([[project-rubnong-tracker]], [[project-scene5-flashback]]) — archive with retro. Don't surface.
+- **Bass PAUSED by his choice** — for fun only, no end goal, Module 3 shelved, instrument lent to a friend ([[project-bass-trainer]]). Don't push it.
 - **coldesthoops PAUSED** (don't surface — [[project-coldesthoops]]). bluetooth-fix trashed.
-- **Reading (two in parallel):** (1) **Karamazov** — Book 10, ch. 1–2 done (03 Jul). ⚠️ No spoilers past Book 10 ch. 2 (no Zhuchka/Perezvon, Ilyusha bedside, trial, Smerdyakov, Ivan/devil, Epilogue). Status after the month gap unknown — ask where he is. (2) **After Dark** — ✅ FINISHED 14 Jul. **Next before-sleep book = Letters to Milena** (owned). Full history: [[user-reading-list]].
-- Bass Trainer Module 3 pending when he wants it ([[project-bass-trainer]]). Show with friends was upcoming — did it happen?
+- **Loose threads:** BBA camp (New Year, mountains, volunteering) — interview 25 Aug, he'll report if he makes the cut and says he needs no help for now. Basketball: 2 more games after 25 Aug, dates unknown. Semester end date unknown — lessons currently stop 11 Sep by his instruction.
