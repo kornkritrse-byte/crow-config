@@ -29,12 +29,32 @@ Climber-physique shaping is **DROPPED** (his call, 23 Aug). No pull-bias, no che
 - **Running 1–2×/week currently** — so some training DID survive August.
 - **Tracks on a Suunto watch** → pace-based targets are usable.
 - **Injury:** tore an ankle tendon ~2 years ago (2024), no current pain, considers himself clear. He'll report if it flares. → ramp volume gradually; this is the thing most likely to resurface when intensity rises.
-- ⛔ Still outstanding: **current weight** (July baseline 65kg/168cm), and **what cardio equipment the gym has.**
+- **Stats 23 Aug: 64kg / 168cm** (down 1kg from the July 65kg baseline), **self-estimated 12–15% body fat** — ⚠️ measurement method unknown, ask. BMI 22.7.
+- **Gym has everything needed incl. treadmills** — his call: treadmill run AFTER lifting on gym days. This is how he gets to 4 runs/week at zero extra time cost.
 
 ### ⚠️ THE 20:00 PROBLEM — volume, not time horizon
 20:00 for 5k = 4:00/km. From ~25:30 that's ~1:05/km of improvement — roughly a 15-point VDOT jump (~35 → ~50). Being 19 with a 12k base genuinely helps. **But almost nobody runs 20:00 on 2 runs/week.** People who do it typically run 4–6×/week. **On 2 runs/week the goal is likely unreachable at any time horizon** — that's the honest read, raised with him 23 Aug.
 
-**The fix costs zero extra time:** he has already allocated **1 hr of cardio inside each of the 2 gym days**. Converting one or both of those to runs puts him at **3–4 runs/week**, which makes 20:00 a real 12–18 month project instead of a fantasy. Same hours, different label.
+**RESOLVED 23 Aug:** the gym cardio hour becomes a **treadmill run after lifting** → **4 runs/week** at zero extra time cost. That makes 20:00 a real 12–18 month project instead of a fantasy.
+
+### ⚠️ THE LEANNESS / PERFORMANCE CONFLICT (raised 23 Aug)
+At **64kg and a claimed 12–15% BF he is already lean** — if that number is accurate, "get leaner" is nearly done and further deficit costs recovery, running performance, and focus. His July note said fat sits at the waist, which hints the true figure is higher (self-estimates usually are). **Get the measurement method before acting on it.**
+
+**A deficit and a 5k goal pull against each other**, and he'd be stacking THREE stressors at once: added running volume + calorie deficit + exam stress. **Recommendation: eat at MAINTENANCE through 27 Sep, protein ~100–110g/day.** Going 2 → 4 runs/week creates ~800–1000 kcal/week of deficit *by itself* (~0.1kg/wk fat loss) without touching food or costing study energy. Re-assess the diet after midterms.
+
+### 🗓️ THE TRAINING WEEK (designed 23 Aug, fits the class timetable in [[project-midterms]])
+| Day | Session |
+|---|---|
+| **Mon** | Class 9–16 → **lift 1hr + easy treadmill 30–40min (zone 2)** |
+| **Tue** | MK 9–12 → study 13:00–17:30 → **QUALITY run** (intervals/tempo, outdoor) |
+| **Wed** | Class 9–16 → **lift 1hr + easy treadmill 30–40min (zone 2)** |
+| **Thu** | Full study day — no training |
+| **Fri** | EL 9–12 → study 13:00–17:30 → **LONG run 60–75min** (outdoor) |
+| **Sat/Sun** | Full study days — no training |
+
+**Why this allocation:** treadmill runs come *after lifting* on tired legs → they must be **easy zone-2 only**. Never program intervals there. The two fresh outdoor slots (Tue/Fri) carry the quality and the long run. Total ≈ **5.5 hrs/week**, and it still never touches a deep study block.
+
+**⚠️ RAMP — do not jump straight to 4 runs.** He's at 1–2/wk with an old ankle tendon tear. Week 1: 3 runs (one of them the 5k TT). Week 2: 3 runs. Week 3 onward: 4 runs.
 
 ### 📍 Sequencing agreed
 - **23 Aug → 27 Sep (midterms):** MAINTAIN, do not build. Training is not the priority; it is the anchor that keeps structure.
