@@ -29,7 +29,7 @@ Climber-physique shaping is **DROPPED** (his call, 23 Aug). No pull-bias, no che
 - **Running 1–2×/week currently** — so some training DID survive August.
 - **Tracks on a Suunto watch** → pace-based targets are usable.
 - **Injury:** tore an ankle tendon ~2 years ago (2024), no current pain, considers himself clear. He'll report if it flares. → ramp volume gradually; this is the thing most likely to resurface when intensity rises.
-- **Stats 23 Aug: 64kg / 168cm** (down 1kg from the July 65kg baseline), **self-estimated 12–15% body fat** — ⚠️ measurement method unknown, ask. BMI 22.7.
+- **Stats 23 Aug: 64kg / 168cm** (down 1kg from the July 65kg baseline), **12–15% body fat — SCAN-BACKED, treat as data** (body scan a while ago; he has consistently hovered in that range and is confident he's not fatter now, likely marginally leaner). BMI 22.7.
 - **Gym has everything needed incl. treadmills** — his call: treadmill run AFTER lifting on gym days. This is how he gets to 4 runs/week at zero extra time cost.
 
 ### ⚠️ THE 20:00 PROBLEM — volume, not time horizon
@@ -39,6 +39,10 @@ Climber-physique shaping is **DROPPED** (his call, 23 Aug). No pull-bias, no che
 
 ### ⚠️ THE LEANNESS / PERFORMANCE CONFLICT (raised 23 Aug)
 At **64kg and a claimed 12–15% BF he is already lean** — if that number is accurate, "get leaner" is nearly done and further deficit costs recovery, running performance, and focus. His July note said fat sits at the waist, which hints the true figure is higher (self-estimates usually are). **Get the measurement method before acting on it.**
+
+**⚠️ THE GOAL IS NEARLY ALREADY MET.** Scan-backed 12–15% at 64kg means "get leaner" has ~2–3% of runway left, not 10. Below ~12% the cost curve turns sharply (recovery, running, focus) for a difference almost nobody notices. **NO deliberate dieting. Ever, at this composition, unless a fresh scan says otherwise.**
+
+**➡️ METRIC CHANGE (agreed 23 Aug): success is measured by 5k TIME, not by the scale or body fat.** At his composition the scale is a noisy, misleading signal that will demoralise him for no reason. The running goal is the one with real runway and a clean metric.
 
 **A deficit and a 5k goal pull against each other**, and he'd be stacking THREE stressors at once: added running volume + calorie deficit + exam stress. **Recommendation: eat at MAINTENANCE through 27 Sep, protein ~100–110g/day.** Going 2 → 4 runs/week creates ~800–1000 kcal/week of deficit *by itself* (~0.1kg/wk fat loss) without touching food or costing study energy. Re-assess the diet after midterms.
 
