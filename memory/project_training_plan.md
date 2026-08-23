@@ -25,6 +25,8 @@ Climber-physique shaping is **DROPPED** (his call, 23 Aug). No pull-bias, no che
 
 ### 🏃 RUNNING BASELINE (given 23 Aug)
 - **"Fastest 5k" = 27:06 — but it was a split inside a 12k run, never a time-trial effort.** So it is NOT his 5k ability; a fresh all-out 5k is realistically **~25:00–26:00**. Get a real TT before programming off any number.
+- **Best 10k: 6:10/km pace (~61:40)** — added 23 Aug as a second/nearer goal.
+- ⚠️ **NONE of his numbers are real efforts.** 6:10/km for 10k is *slower per km* than the 5:25/km he held for a 5k split inside a 12k — physiologically backwards if both were maximal. So the 10k was a comfortable run too. **His true 10k is well under 61:40.** Do not program off these numbers; get a real TT.
 - **Easy pace 6:30–7:00/km.**
 - **Running 1–2×/week currently** — so some training DID survive August.
 - **Tracks on a Suunto watch** → pace-based targets are usable.
@@ -59,6 +61,11 @@ At **64kg and a claimed 12–15% BF he is already lean** — if that number is a
 **Why this allocation:** treadmill runs come *after lifting* on tired legs → they must be **easy zone-2 only**. Never program intervals there. The two fresh outdoor slots (Tue/Fri) carry the quality and the long run. Total ≈ **5.5 hrs/week**, and it still never touches a deep study block.
 
 **⚠️ RAMP — do not jump straight to 4 runs.** He's at 1–2/wk with an old ankle tendon tear. Week 1: 3 runs (one of them the 5k TT). Week 2: 3 runs. Week 3 onward: 4 runs.
+
+### 🎯 5k AND 10k ARE ONE GOAL, NOT TWO
+For most runners 10k pace ≈ 5k pace + ~15–20 s/km. **A 20:00 5k (4:00/km) ≈ a 41–42 min 10k** — the same fitness, two readings. Training for one trains the other; there is no conflict and no split focus. The week already covers both: the **Friday long run (60–75 min) is the 10k engine**, the Tuesday quality session sharpens the 5k.
+
+**Testing:** ONE time trial during midterms (the 5k, week 1). Do NOT add a 10k TT before 27 Sep — a second hard test costs a session and adds stress for no decision value. Test the 10k after exams; set both targets off the 5k TT number.
 
 ### 📍 Sequencing agreed
 - **23 Aug → 27 Sep (midterms):** MAINTAIN, do not build. Training is not the priority; it is the anchor that keeps structure.
