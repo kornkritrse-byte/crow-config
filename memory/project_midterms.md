@@ -94,7 +94,8 @@ Note: the two accounting subjects are stacked on Monday; FN201 sits Wed afternoo
 
 ## ⛔ STILL BLOCKED — inputs owed by Korn
 **His call 23 Aug: build study + fitness in one pass** — no partial skeleton.
-- **Syllabi / course outlines** — he said tomorrow (24 Aug)
+- **Syllabi / course outlines + textbook names (AC313, AC311, FN201)** — he said tomorrow (24 Aug)
+- ✅ **PAST MIDTERM PAPERS ARE AVAILABLE** (confirmed 23 Aug) — highest-value asset for a comprehension fear; they show the *form* understanding gets tested in. Build the reds' practice around these.
 - **University + major** — inferred business/accounting, not confirmed
 
 ## Approach agreed (plan file: ~/.claude/plans/compressed-nibbling-dolphin.md)
