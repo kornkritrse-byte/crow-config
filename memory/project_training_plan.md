@@ -23,11 +23,24 @@ Climber-physique shaping is **DROPPED** (his call, 23 Aug). No pull-bias, no che
 - **Session timing: per-day**, placed into timetable gaps once the class schedule lands ([[project-midterms]]). Not a fixed 6pm block like July.
 - **Diet:** modest deficit, protein high enough to retain muscle. Revisit with current weight.
 
-### ⛔ Pending inputs (he said ask later — running stats)
-- Current running stats: recent best 5k or comparable, typical easy pace, current weekly mileage
-- Did any training survive August?
-- Current weight (July baseline **65kg / 168cm**)
-- Gym cardio equipment available — decides whether that hour feeds the 5k goal or just burns calories
+### 🏃 RUNNING BASELINE (given 23 Aug)
+- **"Fastest 5k" = 27:06 — but it was a split inside a 12k run, never a time-trial effort.** So it is NOT his 5k ability; a fresh all-out 5k is realistically **~25:00–26:00**. Get a real TT before programming off any number.
+- **Easy pace 6:30–7:00/km.**
+- **Running 1–2×/week currently** — so some training DID survive August.
+- **Tracks on a Suunto watch** → pace-based targets are usable.
+- **Injury:** tore an ankle tendon ~2 years ago (2024), no current pain, considers himself clear. He'll report if it flares. → ramp volume gradually; this is the thing most likely to resurface when intensity rises.
+- ⛔ Still outstanding: **current weight** (July baseline 65kg/168cm), and **what cardio equipment the gym has.**
+
+### ⚠️ THE 20:00 PROBLEM — volume, not time horizon
+20:00 for 5k = 4:00/km. From ~25:30 that's ~1:05/km of improvement — roughly a 15-point VDOT jump (~35 → ~50). Being 19 with a 12k base genuinely helps. **But almost nobody runs 20:00 on 2 runs/week.** People who do it typically run 4–6×/week. **On 2 runs/week the goal is likely unreachable at any time horizon** — that's the honest read, raised with him 23 Aug.
+
+**The fix costs zero extra time:** he has already allocated **1 hr of cardio inside each of the 2 gym days**. Converting one or both of those to runs puts him at **3–4 runs/week**, which makes 20:00 a real 12–18 month project instead of a fantasy. Same hours, different label.
+
+### 📍 Sequencing agreed
+- **23 Aug → 27 Sep (midterms):** MAINTAIN, do not build. Training is not the priority; it is the anchor that keeps structure.
+- **Early:** run one real **5k time trial** to get a true baseline (costs one session).
+- **Near milestone:** ~late Oct — **sub-24:00**, with 20:00 as the horizon behind it.
+- **After 27 Sep:** ramp properly.
 
 ### Standing constraints (carried over, still true)
 - **NO bouldering programmed** — expensive + a social thing, once every month or two.
