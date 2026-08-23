@@ -92,6 +92,15 @@ Note: the two accounting subjects are stacked on Monday; FN201 sits Wed afternoo
 | **BA202 Taxation** | ❌ **Thai-specific. No external substitute exists.** Course material only. (Fortunately his 2nd-lowest worry.) |
 | EL221 English | n/a |
 
+## ✅ ON THE CALENDAR (created 23 Aug, all on **Life**, notificationLevel NONE)
+**Colours (his choice):** lessons = **Graphite/grey (colorId 8)**, interview = **Basil/dark green (10)**, basketball = Tangerine (6).
+- 6 weekly recurring lessons from Mon 24 Aug: AC313 Mon 9–12 · AC311 Mon 13–16 · MK201 Tue 9–12 · BA202 Wed 9–12 · FN201 Wed 13–16 · EL221 Fri 9–12.
+- **Each has an EXDATE skipping midterm week** (21–25 Sep) since he confirmed no classes then.
+- ⚠️ **ASSUMPTION: recurrence ends 12 Dec 2026** — Crow's guess at semester end, NOT confirmed by Korn. Correct it when known.
+- Tue 25 Aug: **BBA Camp Interview 10:10–10:40** (dark green) + **Basketball game 12:30–13:45 @ Pinklao**.
+
+**BBA camp** = New Year, up in the mountains, volunteering. He'd be staff. Interview only — he'll report if he makes the cut, and says he doesn't need help with it for now. Don't push.
+
 ## ⛔ STILL BLOCKED — inputs owed by Korn
 **His call 23 Aug: build study + fitness in one pass** — no partial skeleton.
 - **Syllabi / course outlines + textbook names (AC313, AC311, FN201)** — he said tomorrow (24 Aug)
