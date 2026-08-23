@@ -28,15 +28,20 @@ metadata:
 ## 🚪 Current status
 - **Here (23 Aug).** Back after a month dark. **รับน้อง is CLOSED** — camp happened 25–27 Jul, he's satisfied; flashback video landed hard (people cried). He's opened the questions on it if I want them.
 - **New chapter, two priorities he named, in his order:** (1) **midterms** — first exam **20 Sep**, subjects + resources/outline coming from him; (2) **fitness** — leaner, running + gym, explicitly to be planned *around* studies.
-- **BLOCKING BOTH: I don't have his class timetable, subject list, exam dates past 20 Sep, his major, or his running baseline.** Nothing gets built until they land — his explicit call. Asked 23 Aug. Full list in [[project-midterms]] + [[project-training-plan]].
-- **On his return: the FIRST move is to collect that dump, then build both plans in one pass.** Don't re-plan from scratch — the approach is already agreed.
+- **FITNESS HALF IS DONE** — fully designed and written to [[project-training-plan]]. Nothing further needed from him on it.
+- **⏳ WAITING ON (he said Mon 24 Aug): syllabi + textbook names for AC313 / AC311 / FN201.** That is the LAST blocker on the study half.
+- **ASK ON RETURN (24 Aug):** did the syllabi/textbook info come? Nothing else is outstanding — everything else this session closed.
+- **📌 DATED: 5k time trial locked for Tue 25 Aug** (pacing plan in [[project-training-plan]]). Ask for the number after. **Mon 24 Aug = lift only, no treadmill run** — he needs fresh legs.
+- **On his return the move is: take the syllabi → build the study half → put the full week (study + training) on the Life calendar in ONE pass.** Structure is already agreed, don't re-plan it.
 
 ## Session — 2026-08-23
 - MCP reconnect check: Sheets confirmed working via the local `google-docs` MCP (not the claude.ai connectors — Drive can't write cells). **Formula-reading still broken** (FORMULA render returns computed values) — same gotcha as 21 Jul.
 - Camp closed out. Rubnong + Scene 5 July notes flushed to [[sessions-log]].
 - Two new priorities opened (see status). Flagged the real risk to him: the July training plan's **Aug re-plan never happened** — fitness lapsed once already with no anchor, and "planned around studies" makes it subordinate a second time.
 - **Fitness decisions LOCKED:** goal is now **leaner only** (climber shaping dropped → weight work becomes full-body retention, not the Pull A/B split); 4 days/wk = 2 gym (1hr weights + 1hr cardio) + 2 runs; timing per-day into timetable gaps; 5k-in-20:00 as horizon goal, needs a near milestone. All in [[project-training-plan]].
-- **Plan approved, execution deliberately held:** he chose "wait, then build study + fitness in one pass". Approach + full input list → `~/.claude/plans/compressed-nibbling-dolphin.md` and [[project-midterms]].
+- **Plan approved, execution deliberately held:** he chose "wait, then build study + fitness in one pass". Approach → `~/.claude/plans/compressed-nibbling-dolphin.md`.
+- **He fed everything in over the session:** 6 subjects + exam dates (20–27 Sep), class timetable, no classes in exam week, past papers available, running baseline, 64kg/12–15% scan-backed. All filed → [[project-midterms]], [[project-training-plan]].
+- **Key calls made:** FN201 has the worst in-period window and must be ready BEFORE 20 Sep; don't study in exam-date order; AC311 needs IFRS sources not US GAAP; BA202 has no external substitute (Thai tax); gym cardio hour → treadmill run (4 runs/wk, zero extra time); NO dieting at 12–15% — **success metric changed from the scale to 5k time**; 5k and 10k are one goal (20:00 ≈ 41–42min).
 
 ## 🎯 Current state
 - **Midterms = TOP PRIORITY.** First exam 20 Sep (~4 weeks out from 23 Aug). Awaiting from Korn: subject list, per-subject exam dates, course outlines/resources, weekly class timetable. He's a **sophomore** now (finished freshman year mid-2026) — major not recorded, ask.
