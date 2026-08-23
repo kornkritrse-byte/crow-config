@@ -5,10 +5,11 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
+  modified: 2026-08-23T14:23:42.322Z
 ---
 
 # Situation Report
-*Last updated: 2026-07-19 (in-session)*
+*Last updated: 2026-08-23 (in-session)*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -22,43 +23,25 @@ metadata:
    - **On return:** read this line before greeting, ask exactly the ASK-ON-RETURN items, reset to `Here`. If he returns *after* the day-end wrap-up already fired: flip to `Here` and continue normally — **the nightly quote fires ONCE per day, never repeat it.**
    - Don't log a stale away-note after the fact (already back + done = expired — [[feedback-open-loop]]).
    - ⚠️ **2026-07-03 failure, don't repeat:** asked about a closed item (the run) instead of the open one (the reading) because both shared one line. The format above prevents it.
+   - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (21 Jul).** เกม 3 win reward changed +2 → +8 on the CAMP sheet + full sim re-passed + wiped clean ([[project-rubnong-tracker]]). Waiting on his next move.
-- **Ruleset LOCKED (21 Jul): win +8, bets min 1 / max 4 on M1–M7, ALL-IN on M8–M9.** Token supply: corrected my error — betting is even-money-vs-house (injects tokens when lopsided), so all-in M8/M9 could blow past 400. **Resolved:** the last 2 rounds run DIGITAL/sheet-only → 400 physical is enough. Details + scorekeeper note in [[project-rubnong-tracker]].
-- Floating (when natural, not all at once): Klao handoff msg (tie-prize + MC cap line) — asked 18 Jul, no answer; เพื่อน audio bought on iTunes? (edit blocker); props status (since 30 Jun); `03f_elevator_phones` beat confirm; 20 Jul classroom shoot done?
-- **Venue thread PARKED by Korn ("not our responsibility") — don't re-raise unless he does.** If it resurfaces: specs verified + the one open action (written full-hall confirmation) live in [[project-rubnong-tracker]].
+- **Here (23 Aug).** Back after a month dark. **รับน้อง is CLOSED** — camp happened 25–27 Jul, he's satisfied; flashback video landed hard (people cried). He's opened the questions on it if I want them.
+- **New chapter, two priorities he named, in his order:** (1) **midterms** — first exam **20 Sep**, subjects + resources/outline coming from him; (2) **fitness** — leaner, running + gym, explicitly to be planned *around* studies.
+- **BLOCKING BOTH: I don't have his class timetable, subject list, exam dates past 20 Sep, his major, or his running baseline.** Nothing gets built until they land — his explicit call. Asked 23 Aug. Full list in [[project-midterms]] + [[project-training-plan]].
+- **On his return: the FIRST move is to collect that dump, then build both plans in one pass.** Don't re-plan from scratch — the approach is already agreed.
 
-## Session — 2026-07-21
-- **เกม 3 win reward +2 → +8 on the CAMP sheet** (`1OyGQ…`, not the rehearsal copy) — his design goal: make winning a match outweigh good betting. Walked the math first (why bumping reward alone can't beat betting's 7-bet ceiling; landed on flat 8).
-- **Couldn't read formulas via the google-docs MCP** (returns computed values even under FORMULA render — tested & confirmed). Rebuilt coin-total K8:K25 fresh from a functional probe, updated H display + B3 rules text to +8. Full 9-match sim RE-PASSED (18/18 exact, >4 auto-void+flag, ปรับมือ, tie-safe Top 3), wiped clean. Details → [[project-rubnong-tracker]].
-- **Tokens:** peak ≈ 306 (162 base + 144 win bonuses); the 400 ordered still covers it. Manual chores still his: freeze panes, paint inputs yellow, hide ENGINE.
-- **Floor plans built** for the full hall (~450 ppl / 200 kids / 18 groups): interactive to-scale webpage `~/Downloads/rubnong-floorplan.html` (source img `~/Downloads/rubnong floor plan.jpg`). Two formations toggle on the SAME 6×3 group grid — seated-facing-stage + dance circles (stage on long 40m wall). ⚠️ ONE big 200-ring can't fit (needs ~38m Ø > 20m depth) → used 18 group circles. **Still open: confirm booking = FULL hall (partition open) vs one 400m² half — everything assumes full.** Offered next: Canva/print version, annotate onto the real JPG, move stage to east AV end, or concentric-ring single-circle variant.
-
-## Session — 2026-07-19
-- **Built the 21 Jul rehearsal sheet on his ask ("game score tracker final rehearsal 21 Jul", ID in [[project-rubnong-tracker]]):** copy of the 16 Jul sheet; discovered the SOURCE had been flattened to values after the rehearsal → full formula rebuild (เกม 1 + เกม 3 + ENGINE).
-- **His rule change built in: เกม 3 cap = max 4 for M1–M4 only, M5–M6 ALL-IN allowed;** self-betting still impossible all game (FILTER blocks). Mini-sim passed (all-in 9 paid, 5-on-M1 voided+flagged, half-fill flagged), wiped to clean 9s.
-- **Rest question → pod bracket FINAL** (G1–4 odd matches, G5–8 even; every group exactly 1 match rest = max possible). Korn: brackets are Korn+Crow's, not Klao's. Still his manual chores: freeze panes, paint inputs yellow, hide ENGINE.
-
-## Session — 2026-07-18 (morning)
-- Riverside upload landed → all 13 clips inventoried + renamed into beat order: 06a/06b (bench + letter closeup), 07a (river confession), rest = montage alt takes; dup of 03d parked as `zzz_…` for him to delete; `03f_elevator_phones` beat unconfirmed ([[project-scene5-flashback]]).
-- 06b letter closeup (vertical) → two 16:9 renders delivered (PANCROP recommended, BLURPAD fallback), verified on the ELSA-drawing reveal.
-- เพื่อน (Polycat) download request → declined the rip, pointed to iTunes Store purchase (256k AAC, ~29฿) + same route for Let It Go; purchase not yet confirmed.
+## Session — 2026-08-23
+- MCP reconnect check: Sheets confirmed working via the local `google-docs` MCP (not the claude.ai connectors — Drive can't write cells). **Formula-reading still broken** (FORMULA render returns computed values) — same gotcha as 21 Jul.
+- Camp closed out. Rubnong + Scene 5 July notes flushed to [[sessions-log]].
+- Two new priorities opened (see status). Flagged the real risk to him: the July training plan's **Aug re-plan never happened** — fitness lapsed once already with no anchor, and "planned around studies" makes it subordinate a second time.
+- **Fitness decisions LOCKED:** goal is now **leaner only** (climber shaping dropped → weight work becomes full-body retention, not the Pull A/B split); 4 days/wk = 2 gym (1hr weights + 1hr cardio) + 2 runs; timing per-day into timetable gaps; 5k-in-20:00 as horizon goal, needs a near milestone. All in [[project-training-plan]].
+- **Plan approved, execution deliberately held:** he chose "wait, then build study + fitness in one pass". Approach + full input list → `~/.claude/plans/compressed-nibbling-dolphin.md` and [[project-midterms]].
 
 ## 🎯 Current state
-- **รับน้อง = the ONLY active priority** (camp 25–27 Jul). Standing facts, IDs, schedule, open threads: [[project-rubnong-tracker]]. Hottest: props status still unknown since 30 Jun deadline; canonical workshop flow still unbuilt (rebuild offered, waiting on his go). ✅ Game 1 = 4 rounds. ✅ 400 coins ordered — ample for real day (G3 start 162, sim peak ~195). ✅ **เกม 3 real day = 18 groups / 9 matches 2v2 on the OLD tracker — rebuilt + sim-passed 17 Jul, CAMP-READY** (rehearsal copy = retired 8/6 variant).
-- **Scene 5 flashback video ACTIVE ([[project-scene5-flashback]])** — editing starts 18 Jul (montage beats fully shot + prepped); shoots 20 Jul (classroom) + 23 Jul 15:00 (everything else, shot order in the project file); cut deadline 23–24. Audio still needed: เพลงเพื่อน + Let It Go.
-- **Training plan live** ([[project-training-plan]]) — climber-lean recomp, 4 days/wk, July on the Life calendar at 6pm. Re-plan early Aug.
+- **Midterms = TOP PRIORITY.** First exam 20 Sep (~4 weeks out from 23 Aug). Awaiting from Korn: subject list, per-subject exam dates, course outlines/resources, weekly class timetable. He's a **sophomore** now (finished freshman year mid-2026) — major not recorded, ask.
+- **Fitness = #2, decisions locked 23 Aug, build pending** ([[project-training-plan]]) — **goal is LEANER ONLY** (climber shaping dropped → weight work = full-body retention in a deficit, NOT the July Pull A/B split). 4 days/wk = 2 gym (1hr weights + 1hr cardio) + 2 runs; NO legs in gym, NO bouldering; timing per-day into timetable gaps. Run programming pending his stats. Unknown: whether he trained through Aug, current weight vs 65kg start.
+- **รับน้อง CLOSED** ([[project-rubnong-tracker]], [[project-scene5-flashback]]) — archive, don't surface unless he does.
 - **coldesthoops PAUSED** (don't surface — [[project-coldesthoops]]). bluetooth-fix trashed.
-- **Reading (two in parallel):** (1) **Karamazov** — Book 10, ch. 1–2 done (Kolya + the kids, 03 Jul). ⚠️ No spoilers past Book 10 ch. 2 (no Zhuchka/Perezvon, Ilyusha bedside, trial, Smerdyakov, Ivan/devil, Epilogue). (2) **After Dark** — ✅ FINISHED (told me 14 Jul). The rainy-night plan paid off exactly: read the ending ~4am on a rainy night, drunk, after a good night out — "that moment felt right in its own right." The takeaway was the setting of the reading, not a line. **Next before-sleep book = Letters to Milena** (owned — on the love thread he's circling). Always ask exactly where he is first. Full history + owned-unread shelf: [[user-reading-list]].
-- Bass Trainer Module 3 pending when he wants it ([[project-bass-trainer]]). Show with friends upcoming.
-
-## Session — 2026-07-16 (morning, pre-rehearsal)
-- Korn dropped the restructure: **all games 8 groups, เกม 3 = 6 matches** — via a NEW "game score tracker fianl rehersal" copy (ID in [[project-rubnong-tracker]]). The copy had lost EVERY formula (copied values-only, both game tabs + ENGINE dead).
-- Rebuilt เกม 3 from scratch for 8/6: same 3-input workflow, 6 betting blocks (2 bands), engine + flags + ปรับมือ + tie-safe Top 3 all rewritten. เกม 1 shrunk to 8 groups, SUM/RANK/Top-3 formulas restored.
-- Mini-sim passed: winner + legal losing bet + illegal own-match bet → totals (11/11/9…/6), ⚠️ flag, Winnings, tie-ranked Top 3 all exact. Wiped to clean 9s, READY for today's rehearsal.
-- **Pairings are MY placeholder** (halves fixed G1–4=A vs G5–8=B, every within-half pair once, each group plays 3) — swappable text cells; confirm against Klao's bracket.
-- **Own-match betting made IMPOSSIBLE (his ask):** blocks now auto-list only the 4 non-playing groups (FILTER; engine rewired to name-lookup) — verified live. New fragility + formula gotchas: [[project-rubnong-tracker]].
-- Korn was in the sheet live-testing M2 bets while I worked (uppercase A/B confirmed working); old timeflow worry moot — 6 matches fits the 55-min slot.
-
-
+- **Reading (two in parallel):** (1) **Karamazov** — Book 10, ch. 1–2 done (03 Jul). ⚠️ No spoilers past Book 10 ch. 2 (no Zhuchka/Perezvon, Ilyusha bedside, trial, Smerdyakov, Ivan/devil, Epilogue). Status after the month gap unknown — ask where he is. (2) **After Dark** — ✅ FINISHED 14 Jul. **Next before-sleep book = Letters to Milena** (owned). Full history: [[user-reading-list]].
+- Bass Trainer Module 3 pending when he wants it ([[project-bass-trainer]]). Show with friends was upcoming — did it happen?

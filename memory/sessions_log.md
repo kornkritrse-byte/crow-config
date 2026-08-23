@@ -5,11 +5,27 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: c38e29c0-da2f-4906-8e70-a7a356ec2563
+  modified: 2026-08-23T14:23:04.862Z
 ---
 
 # Sessions Log (archive)
 
 *Session notes older than the SITREP's 2-session window land here. Condensed on arrival — the full original notes live in git history of `memory/sitrep.md`. Newest first.*
+
+## 2026-07-21 — เกม 3 reward +8, ruleset locked, floor plans
+- Win reward +2 → +8 on the CAMP sheet (his goal: winning a match must outweigh good betting); walked the math first. Coin-total K8:K25 rebuilt fresh because the MCP can't read formulas (FORMULA render returns computed values — confirmed again 23 Aug).
+- Ruleset LOCKED: win +8, bets 1–4 on M1–M7, ALL-IN M8–M9; last 2 rounds run digital/sheet-only so the 400 physical coins hold (peak ≈306). Full 9-match sim re-passed, wiped clean.
+- Floor plans built for the full hall (~450 ppl / 18 groups): to-scale interactive page `~/Downloads/rubnong-floorplan.html`. One 200-person ring doesn't fit (~38m Ø > 20m depth) → 18 group circles.
+
+## 2026-07-19 — rehearsal sheet built, pod bracket final
+- Built the 21 Jul rehearsal sheet (copy of 16 Jul, which had been flattened to values → full formula rebuild of เกม 1 + เกม 3 + ENGINE).
+- His rule change built in: cap 4 on M1–M4, ALL-IN on M5–M6; self-betting still structurally impossible. Mini-sim passed, wiped.
+- Pod bracket FINAL (G1–4 odd matches, G5–8 even; every group exactly 1 rest = max possible). Brackets are Korn+Crow's, not Klao's.
+
+## 2026-07-18 (morning) — Scene 5 clips inventoried
+- Riverside upload → all 13 clips renamed into beat order; dup parked as `zzz_…`; `03f_elevator_phones` beat never confirmed.
+- 06b letter closeup (vertical) → two 16:9 renders delivered (PANCROP recommended), verified on the ELSA-drawing reveal.
+- Declined ripping เพื่อน (Polycat) → pointed to iTunes purchase (~29฿); same for Let It Go.
 
 ## 2026-07-17 (day → past midnight) — real-day เกม 3 rebuilt, Scene 5 video started
 - 16 Jul rehearsal went GREAT, all sheet coding worked; two-sheet confusion resolved → old tracker canonical (18 groups / 9 matches), rehearsal copy retired.

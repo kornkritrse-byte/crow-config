@@ -1,16 +1,14 @@
 # Memory Index
-*Reorganized 2026-07-02 — grouped by status. Priority call by Korn: รับน้อง is #1, coldesthoops paused, bluetooth-fix trashed.*
+*Reorganized 2026-08-23 — grouped by status. รับน้อง CLOSED (camp done 25–27 Jul). New chapter: midterms #1, fitness #2. coldesthoops still paused.*
 
 ## 🔴 Read First
 - [**SITREP**](sitrep.md) — rolling situation report: current state + last TWO sessions only; maintained LIVE in-session, verified+flushed at day-end (marker + Stop hook — see Artis Nightly Quote rule); deep-night reflections live in chapters.md (sitrep keeps one pointer bullet), older notes flush to sessions_log.md
 
-## 🎯 Active — รับน้อง (TOP PRIORITY through late July)
-- [Rubnong Flow Sheet](rubnong-flow-sheet.md) — the live run-of-show Google Sheet + merged-cell & time-formatting gotchas that bite every session
-- [Rubnong Tracker](project_rubnong_tracker.md) — CANONICAL camp file: theme, doc/sheet/calendar IDs, July schedule, open threads (props status, workshop flow rebuild)
-- [Scene 5 Flashback Video](project_scene5_flashback.md) — the play's flashback film: 13-beat map, clip folder + naming state, 20+23 Jul shoot plan, cut deadline 23–24 Jul
+## 🎯 Active — Midterms (TOP PRIORITY through Sep)
+- [Midterms](project_midterms.md) — sophomore midterms, first exam 20 Sep 2026; ⛔ BLOCKED on his subject list, exam dates, class timetable, outlines, major. Build study + fitness in ONE pass when they land (his call 23 Aug)
 
 ## 🟢 Active — other
-- [Training Plan](project_training_plan.md) — climber-lean recomp; 4 days/wk (2 gym pull-focus + 2 runs), July placed on Life calendar, re-plan monthly (next: early Aug)
+- [Training Plan](project_training_plan.md) — ⚠️ goal changed 23 Aug to LEANER ONLY (climber shaping dropped, weight work now full-body retention); 4 days/wk = 2 gym (1hr weights + 1hr cardio) + 2 runs; run structure pending his running stats; 5k-in-20:00 is the horizon goal
 - [Bass Trainer](project_bass_trainer.md) — practice site at C:\Users\Korn\bass-trainer\ (Modules 1 & 2 built; he reads tabs/chords NOT notation; Module 3 pending)
 - [Google Docs MCP](project_google_docs_mcp.md) — working on the Mac via bin/gdocs-launcher.cjs; credentials at ~/.google/ (outside git)
 - [rclone Drive Upload](project_rclone_drive.md) — remote `gdrive` on the Windows laptop; the working path for any local→Drive file transfer
@@ -18,7 +16,10 @@
 - [Calendar IDs](reference_calendars.md) — which Google Calendar each kind of event goes into (camp → Rubnong34x35, personal → Life); always notificationLevel NONE
 - [Upcoming Events](reference_upcoming_events.md) — feeds the session-start banner; MUST be updated whenever calendar events change in-session
 
-## ⏸️ Paused (2026-07-02 — รับน้อง takes priority)
+## ✅ Closed
+- [Rubnong Tracker](project_rubnong_tracker.md) + [Flow Sheet](rubnong-flow-sheet.md) + [Scene 5 Flashback Video](project_scene5_flashback.md) — camp ran 25–27 Jul 2026 and CLOSED. Korn satisfied; the flashback film landed hard (people cried). Archive — don't surface unless he raises it.
+
+## ⏸️ Paused (2026-07-02)
 - [Coldesthoops Pipeline](project_coldesthoops.md) — PAUSED. Shorts pipeline (Windows-only); #9 built-not-published + teaser-test wiring are the first moves on unpause
 - [Coldesthoops Videos](coldesthoops_videos.md) — published-topics log — check before suggesting new ones to avoid repeats
 
