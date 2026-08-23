@@ -40,10 +40,40 @@ Free windows *inside* the exam period, per subject:
 4. Sat 19 + Sun 20 morning get eaten by MK201 → **AC313 and FN201 work must be substantially done by ~16 Sep.**
 5. Front-load priority for the 28-day runway: **FN201 > AC313 > AC311 > BA202 > MK201 > EL221.**
 
+## 🗓️ CLASS TIMETABLE (given 23 Aug)
+
+| Day | Classes | Free |
+|---|---|---|
+| Mon | AC313 09–12, **AC311 13–16** | evening only |
+| Tue | MK201 09–12 | **12:00 onward** |
+| Wed | BA202 09–12, **FN201 13–16** | evening only |
+| Thu | **NONE** | **FULL DAY** |
+| Fri | EL221 09–12 | **12:00 onward** |
+| Sat | none | **FULL DAY** |
+| Sun | none | **FULL DAY** |
+
+Note: the two accounting subjects are stacked on Monday; FN201 sits Wed afternoon.
+
+## 🧱 PROPOSED WEEKLY SKELETON (structure agreed in principle 23 Aug; content pending syllabi)
+
+| Day | Shape |
+|---|---|
+| **Mon** | Class 9–16 → **GYM** (1hr weights + 1hr cardio). **No study planned.** |
+| **Tue** | MK class 9–12 → **STUDY 13:00–17:30** → **RUN** |
+| **Wed** | Class 9–16 → **GYM**. **No study planned.** |
+| **Thu** | **FULL STUDY DAY** — the best block of the week, reserve for the hardest subject |
+| **Fri** | EL class 9–12 → **STUDY 13:00–17:30** → **RUN** |
+| **Sat** | **FULL STUDY DAY** |
+| **Sun** | **FULL STUDY DAY** |
+
+**Key design decisions:**
+1. **Training sits ONLY on Mon/Wed evenings + Tue/Fri evenings — it never touches a deep study block.** Mon/Wed are 6–7hr class days where deep study was never going to happen anyway. This resolves the "fitness is the dependent variable" risk: the two aren't competing for the same hours.
+2. **Deliberately NO study scheduled on Mon/Wed evenings.** Class 9–16 plus a 2hr gym session = the day is spent. Planning study there is how plans get abandoned. **They are the RESERVE** — where slippage goes, not where the plan lives.
+3. Capacity: ~23 real study hrs/week × ~4 weeks ≈ **90+ hrs before the first exam**, for 6 subjects. **Time is NOT the binding constraint — allocation and adherence are.** Do not let the comfort of that number justify an even split; the reds get the weight.
+
 ## ⛔ STILL BLOCKED — inputs owed by Korn
 **His call 23 Aug: build study + fitness in one pass** — no partial skeleton.
 - **Syllabi / course outlines** — he said tomorrow (24 Aug)
-- **Weekly class timetable** — still not supplied. The hard skeleton; study blocks AND training get placed into its gaps
 - Standing per subject *within* the worry tiers — behind vs just anxious (different fix: catch-up vs practice volume)
 - **University + major** — inferred business/accounting, not confirmed
 
