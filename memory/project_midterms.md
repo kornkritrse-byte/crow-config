@@ -96,7 +96,7 @@ Note: the two accounting subjects are stacked on Monday; FN201 sits Wed afternoo
 **Colours (his choice):** lessons = **Graphite/grey (colorId 8)**, interview = **Basil/dark green (10)**, basketball = Tangerine (6).
 - 6 weekly recurring lessons from Mon 24 Aug: AC313 Mon 9–12 · AC311 Mon 13–16 · MK201 Tue 9–12 · BA202 Wed 9–12 · FN201 Wed 13–16 · EL221 Fri 9–12.
 - **Each has an EXDATE skipping midterm week** (21–25 Sep) since he confirmed no classes then.
-- ⚠️ **ASSUMPTION: recurrence ends 12 Dec 2026** — Crow's guess at semester end, NOT confirmed by Korn. Correct it when known.
+- **Recurrence left ending 12 Dec 2026** — a placeholder. Korn 23 Aug: *"semester end is far out lets just focus on midterms for now."* Read as **scope the PLAN to 27 Sep**, not as "delete lessons after Sept" — deleting would leave Oct–Dec blank. Fix the end date whenever he knows it.
 - Tue 25 Aug: **BBA Camp Interview 10:10–10:40** (dark green) + **Basketball game 12:30–13:45 @ Pinklao**.
 
 **BBA camp** = New Year, up in the mountains, volunteering. He'd be staff. Interview only — he'll report if he makes the cut, and says he doesn't need help with it for now. Don't push.
@@ -108,14 +108,16 @@ Note: the two accounting subjects are stacked on Monday; FN201 sits Wed afternoo
 - **Logistics — PARTIAL (23 Aug): campus = THA PRACHAN.** Either drives, or **Airport Link train → Grab** — "still a long ass commute." **He reads on the train** (protect this; reading is non-negotiable — [[user-reading-list]]).
 
 ## 📍 WHERE THINGS HAPPEN (23 Aug)
-- **Campus:** Tha Prachan. Commute = drive, or **Airport Link + Grab** — "a long ass commute." He reads on the train.
+- **Campus:** Tha Prachan. Commute = drive, or **Airport Link + Grab** — **~1 HOUR each way, ~2 hrs round trip.** He reads on the train.
+- ⏱️ **THE COMMUTE IS THE HIDDEN TAX.** Rule: **far study spots ONLY on days he's already out.** Tue/Fri he's at Tha Prachan → Samyan is a short hop, fine. **Thu/Sat/Sun he pays ZERO commute if he stays local** → Starbucks near home. Going to Foodvilla/Pinklao on a free day burns 2+ hrs of it for nothing.
+- 📖 **~2 hrs/day of train time is his reading slot** (currently Siddhartha — [[user-reading-list]]). Reading is non-negotiable; this is where it already fits with zero cost to studying. Never propose reclaiming it.
 - **Gym: Jetts, Unicorn Building, PHAYATHAI — directly on the Airport Link.** ✅ This is why Mon/Wed gym works: it's *on* the commute, near-zero detour. (Jetts Chinatown as backup.)
 - **Study spots:**
   - **Samyan Mitrtown** — with the finance friends, *"when they feel like it."*
   - **Pinklao** — with the accounting friends. **He fucking hates it** (his words). Don't propose it.
   - **Foodvilla** — "the other side of earth," but **genuinely productive when he goes.**
   - **Home** — doesn't study there; says he "lowkey should" more.
-  - **Café near home / Starbucks** — the fallback.
+  - ✅ **STARBUCKS NEAR HOME — LOCKED as his solo default (23 Aug).** The zero-coordination fallback for when nobody's up for anything. This is the one that keeps the plan alive on a dead Tuesday.
 - **⏰ Big one: 1–2 weeks out from an exam he studies until MIDNIGHT–1am before going home.** His real study day runs far past 17:30 in the final stretch.
 
 ## 🚨 THE FRAGILITY IN HIS STUDY SYSTEM
