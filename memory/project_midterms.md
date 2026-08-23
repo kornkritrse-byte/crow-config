@@ -93,7 +93,8 @@ Note: the two accounting subjects are stacked on Monday; FN201 sits Wed afternoo
 | EL221 English | n/a |
 
 ## ✅ ON THE CALENDAR (created 23 Aug, all on **Life**, notificationLevel NONE)
-**Colours (his choice):** lessons = **Graphite/grey (colorId 8)**, interview = **Basil/dark green (10)**, basketball = Tangerine (6).
+**Colours (his choice):** lessons = **Graphite/grey (8)**, interview = **Basil/dark green (10)**, **EXAMS = Tomato/red (11)**, basketball = Tangerine (6).
+- ✅ **All 6 midterms on the calendar in red** (created 23 Aug): 20 Sep MK201 13–16 · 22 Sep AC313 9–12 · 23 Sep FN201 9–11:30 · 25 Sep EL221 9–12 · 26 Sep AC311 9–12 · 27 Sep BA202 9–12.
 - 6 weekly recurring lessons from Mon 24 Aug: AC313 Mon 9–12 · AC311 Mon 13–16 · MK201 Tue 9–12 · BA202 Wed 9–12 · FN201 Wed 13–16 · EL221 Fri 9–12.
 - **Recurrence ENDS Fri 11 Sep** (his instruction: "fill my classes up to the week before the 20th"). Rebuilt 23 Aug — the earlier 12-Dec version was deleted and recreated. Extend past midterms when he asks.
 - Tue 25 Aug: **BBA Camp Interview 10:10–10:40** (dark green) + **Basketball game 12:30–13:45 @ Pinklao**.
