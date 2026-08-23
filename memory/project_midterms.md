@@ -23,6 +23,8 @@ Opened 2026-08-23. **TOP PRIORITY.** Korn's stated order: midterms first, fitnes
 Runway: **28 days** from 23 Aug to the first exam. Course codes (AC/FN/MK/BA/EL) point to a **business/accounting major** — confirm which university.
 
 ## ⚠️ THE STRUCTURAL FINDING — drives the whole plan
+✅ **Confirmed 23 Aug: NO classes during exam week** — 21–25 Sep are fully free apart from the exams themselves. This *confirms* the map below (which already assumed it); it does **not** loosen it. FN201's squeeze is caused by exams on either side, not by classes.
+
 Free windows *inside* the exam period, per subject:
 - **MK201** → whole runway + Sat 19 + Sun 20 morning. Fine (lowest worry anyway).
 - **AC313** → Sun 20 evening + **all of Mon 21**. One day, for a top worry.
@@ -42,7 +44,6 @@ Free windows *inside* the exam period, per subject:
 **His call 23 Aug: build study + fitness in one pass** — no partial skeleton.
 - **Syllabi / course outlines** — he said tomorrow (24 Aug)
 - **Weekly class timetable** — still not supplied. The hard skeleton; study blocks AND training get placed into its gaps
-- **Are classes suspended during exam week (21–25 Sep are Mon–Fri)?** Materially changes the in-period plan
 - Standing per subject *within* the worry tiers — behind vs just anxious (different fix: catch-up vs practice volume)
 - **University + major** — inferred business/accounting, not confirmed
 
