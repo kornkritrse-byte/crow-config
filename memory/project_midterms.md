@@ -20,7 +20,7 @@ Opened 2026-08-23. **TOP PRIORITY.** Korn's stated order: midterms first, fitnes
 | 5 | 26 Sep | **Sat** | AC311 | Intermediate Accounting | 09:00–12:00 | 🔴 top worry |
 | 6 | 27 Sep | **Sun** | BA202 | Taxation | 09:00–12:00 | 🟡 "so ok with" |
 
-Runway: **28 days** from 23 Aug to the first exam. Course codes (AC/FN/MK/BA/EL) point to a **business/accounting major** — confirm which university.
+Runway: **28 days** from 23 Aug to the first exam. ✅ Confirmed 23 Aug: **Thammasat University, BBA — major Accounting, minor Finance.**
 
 ## ⚠️ THE STRUCTURAL FINDING — drives the whole plan
 ✅ **Confirmed 23 Aug: NO classes during exam week** — 21–25 Sep are fully free apart from the exams themselves. This *confirms* the map below (which already assumed it); it does **not** loosen it. FN201's squeeze is caused by exams on either side, not by classes.
@@ -96,7 +96,7 @@ Note: the two accounting subjects are stacked on Monday; FN201 sits Wed afternoo
 **His call 23 Aug: build study + fitness in one pass** — no partial skeleton.
 - **Syllabi / course outlines + textbook names (AC313, AC311, FN201)** — he said tomorrow (24 Aug)
 - ✅ **PAST MIDTERM PAPERS ARE AVAILABLE** (confirmed 23 Aug) — highest-value asset for a comprehension fear; they show the *form* understanding gets tested in. Build the reds' practice around these.
-- **University + major** — inferred business/accounting, not confirmed
+- **Logistics — ASKED 23 Aug, NOT YET ANSWERED:** which Thammasat campus (Tha Prachan vs Rangsit — hugely different commutes), door-to-door commute time, where he actually studies well, distance to the gym. Transit hiding inside the timetable gaps would make the whole plan more optimistic than it looks.
 
 ## Approach agreed (plan file: ~/.claude/plans/compressed-nibbling-dolphin.md)
 1. **Skeleton before content** — place study blocks into timetable gaps before assigning any subject to them. Structure precedes content; this is the piece that addresses the August lapse.
