@@ -9,15 +9,42 @@ metadata:
 
 Opened 2026-08-23. **TOP PRIORITY.** Korn's stated order: midterms first, fitness second (fitness explicitly planned *around* studies).
 
-**First exam: 20 Sep 2026.** ~4 weeks of runway from 23 Aug. Full subject list and remaining dates not yet supplied.
+## 📅 EXAM SCHEDULE (given by Korn 23 Aug) — 6 subjects, Sun 20 → Sun 27 Sep 2026
 
-## ⛔ BLOCKED — inputs owed by Korn (asked 23 Aug)
-Nothing real gets built until these land. **His call 23 Aug: wait and build study + fitness in one pass** — no partial skeleton.
-- Subject list + exam date for each (20 Sep = first; last date unknown, count unknown)
-- **Weekly class timetable** — the hard skeleton; study blocks AND training both get placed into its gaps
-- Standing per subject: on top of the material vs catching up from zero (changes the plan completely)
-- Course outlines / resources / syllabi
-- **His major** — never recorded in any memory file. He's a sophomore (finished freshman year mid-2026).
+| # | Date | Day | Code | Subject | Time | His worry |
+|---|---|---|---|---|---|---|
+| 1 | 20 Sep | **Sun** | MK201 | Principles of Marketing | 13:00–16:00 | 🟢 chill |
+| 2 | 22 Sep | **Tue** | AC313 | Cost Accounting | 09:00–12:00 | 🔴 top worry |
+| 3 | 23 Sep | **Wed** | FN201 | Business Finance | 09:00–11:30 | 🔴 top worry |
+| 4 | 25 Sep | **Fri** | EL221 | Communicative English | 09:00–12:00 | 🟢 chill |
+| 5 | 26 Sep | **Sat** | AC311 | Intermediate Accounting | 09:00–12:00 | 🔴 top worry |
+| 6 | 27 Sep | **Sun** | BA202 | Taxation | 09:00–12:00 | 🟡 "so ok with" |
+
+Runway: **28 days** from 23 Aug to the first exam. Course codes (AC/FN/MK/BA/EL) point to a **business/accounting major** — confirm which university.
+
+## ⚠️ THE STRUCTURAL FINDING — drives the whole plan
+Free windows *inside* the exam period, per subject:
+- **MK201** → whole runway + Sat 19 + Sun 20 morning. Fine (lowest worry anyway).
+- **AC313** → Sun 20 evening + **all of Mon 21**. One day, for a top worry.
+- **FN201** → **Tue 22 afternoon/evening ONLY** — ~8 hrs, immediately after a 3-hour cost accounting exam. **The worst window in the schedule, on a top-3 worry.**
+- **EL221** → Wed 23 afternoon + Thu 24. Generous, and he's chill with it → Thu 24 should mostly go to AC311.
+- **AC311** → Thu 24 + Fri 25 afternoon. Decent.
+- **BA202** → Sat 26 afternoon/evening only. Thin, but mid-worry.
+
+**Conclusions:**
+1. **FN201 must be effectively exam-ready before 20 Sep.** It gets no real in-period study time.
+2. **AC313 close behind** — a single day (Mon 21) is not enough runway for a top worry.
+3. **Do NOT study in exam-date order.** MK201 is first but lowest worry; front-loading it burns the runway on the easy subject.
+4. Sat 19 + Sun 20 morning get eaten by MK201 → **AC313 and FN201 work must be substantially done by ~16 Sep.**
+5. Front-load priority for the 28-day runway: **FN201 > AC313 > AC311 > BA202 > MK201 > EL221.**
+
+## ⛔ STILL BLOCKED — inputs owed by Korn
+**His call 23 Aug: build study + fitness in one pass** — no partial skeleton.
+- **Syllabi / course outlines** — he said tomorrow (24 Aug)
+- **Weekly class timetable** — still not supplied. The hard skeleton; study blocks AND training get placed into its gaps
+- **Are classes suspended during exam week (21–25 Sep are Mon–Fri)?** Materially changes the in-period plan
+- Standing per subject *within* the worry tiers — behind vs just anxious (different fix: catch-up vs practice volume)
+- **University + major** — inferred business/accounting, not confirmed
 
 ## Approach agreed (plan file: ~/.claude/plans/compressed-nibbling-dolphin.md)
 1. **Skeleton before content** — place study blocks into timetable gaps before assigning any subject to them. Structure precedes content; this is the piece that addresses the August lapse.
