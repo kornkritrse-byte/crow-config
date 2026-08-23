@@ -96,7 +96,8 @@ Note: the two accounting subjects are stacked on Monday; FN201 sits Wed afternoo
 **His call 23 Aug: build study + fitness in one pass** — no partial skeleton.
 - **Syllabi / course outlines + textbook names (AC313, AC311, FN201)** — he said tomorrow (24 Aug)
 - ✅ **PAST MIDTERM PAPERS ARE AVAILABLE** (confirmed 23 Aug) — highest-value asset for a comprehension fear; they show the *form* understanding gets tested in. Build the reds' practice around these.
-- **Logistics — ASKED 23 Aug, NOT YET ANSWERED:** which Thammasat campus (Tha Prachan vs Rangsit — hugely different commutes), door-to-door commute time, where he actually studies well, distance to the gym. Transit hiding inside the timetable gaps would make the whole plan more optimistic than it looks.
+- **Logistics — PARTIAL (23 Aug): campus = THA PRACHAN.** Either drives, or **Airport Link train → Grab** — "still a long ass commute." **He reads on the train** (protect this; reading is non-negotiable — [[user-reading-list]]).
+- ⛔ Still needed: **rough door-to-door minutes**, **where he actually studies well** (campus vs home vs café), and **distance to the gym**. The Tue/Fri 13:00–17:30 blocks assume he doesn't travel home first.
 
 ## Approach agreed (plan file: ~/.claude/plans/compressed-nibbling-dolphin.md)
 1. **Skeleton before content** — place study blocks into timetable gaps before assigning any subject to them. Structure precedes content; this is the piece that addresses the August lapse.
