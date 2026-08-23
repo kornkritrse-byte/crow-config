@@ -71,10 +71,30 @@ Note: the two accounting subjects are stacked on Monday; FN201 sits Wed afternoo
 2. **Deliberately NO study scheduled on Mon/Wed evenings.** Class 9–16 plus a 2hr gym session = the day is spent. Planning study there is how plans get abandoned. **They are the RESERVE** — where slippage goes, not where the plan lives.
 3. Capacity: ~23 real study hrs/week × ~4 weeks ≈ **90+ hrs before the first exam**, for 6 subjects. **Time is NOT the binding constraint — allocation and adherence are.** Do not let the comfort of that number justify an even split; the reds get the weight.
 
+## 🧠 HIS ACTUAL FEAR + THE MATERIAL PROBLEM (23 Aug)
+
+**Both behind AND conceptually insecure — but the fear is specifically the second.** He is *not* worried about catching up on coverage ("we have an abundance of time"). He's worried he **won't fully understand the concepts.** Treat coverage as solved; treat understanding as the real target.
+
+**The material is broken:**
+- Provided clips run **3–5 hours per topic** — unusable as a primary path.
+- **Both AC subjects (AC313, AC311) have NO clips at all** to revise from.
+- He asked for alternate places to learn the topics.
+
+⚠️ **Crow's counter (raised 23 Aug):** swapping clip sources fixes the *time* problem, not the *understanding* problem. Conceptual insecurity is not cured by better consumption — it's cured by working problems cold and being wrong. Per topic: fast intake (20–30 min) → problems without solutions visible → return to material only for what broke.
+
+## 🌏 JURISDICTION MAP — which subjects can use external resources
+| Subject | External resources? |
+|---|---|
+| **AC313 Cost Accounting** | ✅ **Fully transferable** — job/process costing, ABC, CVP, variance analysis, budgeting are identical worldwide. Safest subject to learn externally. |
+| **FN201 Business Finance** | ✅ **Fully transferable** — TVM, NPV/IRR, WACC, capital budgeting, CAPM are universal. |
+| **MK201 Marketing** | ✅ Transferable (Kotler-based globally). |
+| **AC311 Intermediate Accounting** | ⚠️ **MUST use IFRS-based sources, NOT US GAAP.** Thailand uses TFRS ≈ IFRS. US-GAAP resources (most of YouTube) diverge on LIFO, PPE revaluation, development-cost capitalisation, and more. Using them could actively cost marks. |
+| **BA202 Taxation** | ❌ **Thai-specific. No external substitute exists.** Course material only. (Fortunately his 2nd-lowest worry.) |
+| EL221 English | n/a |
+
 ## ⛔ STILL BLOCKED — inputs owed by Korn
 **His call 23 Aug: build study + fitness in one pass** — no partial skeleton.
 - **Syllabi / course outlines** — he said tomorrow (24 Aug)
-- Standing per subject *within* the worry tiers — behind vs just anxious (different fix: catch-up vs practice volume)
 - **University + major** — inferred business/accounting, not confirmed
 
 ## Approach agreed (plan file: ~/.claude/plans/compressed-nibbling-dolphin.md)
