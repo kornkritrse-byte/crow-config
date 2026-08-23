@@ -97,7 +97,21 @@ Note: the two accounting subjects are stacked on Monday; FN201 sits Wed afternoo
 - **Syllabi / course outlines + textbook names (AC313, AC311, FN201)** — he said tomorrow (24 Aug)
 - ✅ **PAST MIDTERM PAPERS ARE AVAILABLE** (confirmed 23 Aug) — highest-value asset for a comprehension fear; they show the *form* understanding gets tested in. Build the reds' practice around these.
 - **Logistics — PARTIAL (23 Aug): campus = THA PRACHAN.** Either drives, or **Airport Link train → Grab** — "still a long ass commute." **He reads on the train** (protect this; reading is non-negotiable — [[user-reading-list]]).
-- ⛔ Still needed: **rough door-to-door minutes**, **where he actually studies well** (campus vs home vs café), and **distance to the gym**. The Tue/Fri 13:00–17:30 blocks assume he doesn't travel home first.
+
+## 📍 WHERE THINGS HAPPEN (23 Aug)
+- **Campus:** Tha Prachan. Commute = drive, or **Airport Link + Grab** — "a long ass commute." He reads on the train.
+- **Gym: Jetts, Unicorn Building, PHAYATHAI — directly on the Airport Link.** ✅ This is why Mon/Wed gym works: it's *on* the commute, near-zero detour. (Jetts Chinatown as backup.)
+- **Study spots:**
+  - **Samyan Mitrtown** — with the finance friends, *"when they feel like it."*
+  - **Pinklao** — with the accounting friends. **He fucking hates it** (his words). Don't propose it.
+  - **Foodvilla** — "the other side of earth," but **genuinely productive when he goes.**
+  - **Home** — doesn't study there; says he "lowkey should" more.
+  - **Café near home / Starbucks** — the fallback.
+- **⏰ Big one: 1–2 weeks out from an exam he studies until MIDNIGHT–1am before going home.** His real study day runs far past 17:30 in the final stretch.
+
+## 🚨 THE FRAGILITY IN HIS STUDY SYSTEM
+**Every productive location depends on other people agreeing to go, and most are far away.** Samyan is *"when my finance friends feel like it"*; Pinklao needs the accounting friends and he hates it; Foodvilla is a trek. **If nobody's up for it on a given day, he has no default — and he doesn't study at home.**
+➡️ **He needs ONE solo default requiring zero coordination.** The café near home is the realistic candidate — NOT home ("should study there more" is an aspiration, and aspirations don't hold under exam pressure).
 
 ## Approach agreed (plan file: ~/.claude/plans/compressed-nibbling-dolphin.md)
 1. **Skeleton before content** — place study blocks into timetable gaps before assigning any subject to them. Structure precedes content; this is the piece that addresses the August lapse.

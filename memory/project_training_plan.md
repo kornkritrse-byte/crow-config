@@ -52,13 +52,21 @@ At **64kg and a claimed 12–15% BF he is already lean** — if that number is a
 | Day | Session |
 |---|---|
 | **Mon** | Class 9–16 → **lift 1hr + easy treadmill 30–40min (zone 2)** |
-| **Tue** | MK 9–12 → study 13:00–17:30 → **QUALITY run** (intervals/tempo, outdoor) |
+| **Tue** | MK 9–12 → **STUDY, no training** |
 | **Wed** | Class 9–16 → **lift 1hr + easy treadmill 30–40min (zone 2)** |
 | **Thu** | Full study day — no training |
-| **Fri** | EL 9–12 → study 13:00–17:30 → **LONG run 60–75min** (outdoor) |
-| **Sat/Sun** | Full study days — no training |
+| **Fri** | EL 9–12 → **STUDY, no training** |
+| **Sat** | **LONG run 60–75min (morning)** → full study day |
+| **Sun** | **QUALITY run (morning)** → full study day |
 
-**Why this allocation:** treadmill runs come *after lifting* on tired legs → they must be **easy zone-2 only**. Never program intervals there. The two fresh outdoor slots (Tue/Fri) carry the quality and the long run. Total ≈ **5.5 hrs/week**, and it still never touches a deep study block.
+**Why this allocation:** treadmill runs come *after lifting* on tired legs → they must be **easy zone-2 only**. Never program intervals there. The two fresh outdoor slots carry the quality work and the long run.
+
+⚠️ **REVISED 23 Aug — outdoor runs moved from Tue/Fri evenings to Sat/Sun MORNINGS.** Reason: he revealed that 1–2 weeks out from an exam he studies **until midnight–1am**. Tue/Fri evening runs would be the first thing crushed by that, exactly when it matters most. Weekend mornings instead:
+- He's home, in his own neighbourhood (where the July plan already put his runs).
+- Bangkok mornings are **much cooler** — meaningfully faster, safer running.
+- Tue/Fri evenings freed entirely for the long social study sessions.
+- Costs ~1.5 hrs off Saturday's study day; buys two whole evenings back.
+✅ **Gym at Jetts Phayathai is ON the Airport Link** = his commute line, so Mon/Wed gym costs near-zero extra transit. This is what makes the Mon/Wed placement hold.
 
 **⚠️ RAMP — do not jump straight to 4 runs.** He's at 1–2/wk with an old ankle tendon tear. Week 1: 3 runs (one of them the 5k TT). Week 2: 3 runs. Week 3 onward: 4 runs.
 
