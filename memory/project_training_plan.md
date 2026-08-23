@@ -65,7 +65,11 @@ At **64kg and a claimed 12–15% BF he is already lean** — if that number is a
 ### 🎯 5k AND 10k ARE ONE GOAL, NOT TWO
 For most runners 10k pace ≈ 5k pace + ~15–20 s/km. **A 20:00 5k (4:00/km) ≈ a 41–42 min 10k** — the same fitness, two readings. Training for one trains the other; there is no conflict and no split focus. The week already covers both: the **Friday long run (60–75 min) is the 10k engine**, the Tuesday quality session sharpens the 5k.
 
-**Testing:** ONE time trial during midterms (the 5k, week 1). Do NOT add a 10k TT before 27 Sep — a second hard test costs a session and adds stress for no decision value. Test the 10k after exams; set both targets off the 5k TT number.
+**Testing:** ONE time trial during midterms — **5k TT locked for Tue 25 Aug 2026**, in the Tuesday quality slot (after MK class + the 13:00–17:30 study block).
+- **Pacing plan given: NEGATIVE SPLIT.** km1 5:20–5:25 → km2 5:15 → km3 5:10 → km4 5:05 → km5 empty it. Projected ≈ **25:45**. First-ever max effort → the failure mode is going out too fast and blowing at 3k, which produces a fake-low number.
+- **Week 1 adjusted for it: Mon 24 Aug = LIFT ONLY, no treadmill run** (fresh legs). Week 1 runs = Tue TT, Wed easy 30min, Fri long 60min = 3 runs, matching the ramp.
+- ⚠️ **Bangkok late-August heat/humidity will suppress the number, possibly by 30–60s+.** Run it as late in the evening as practical. Read the result as a floor, not a ceiling.
+- Course: **track or an uninterrupted loop — no traffic lights.** Warm up 10–15 min easy + 4 strides; do NOT start cold (old ankle tendon). Do NOT add a 10k TT before 27 Sep — a second hard test costs a session and adds stress for no decision value. Test the 10k after exams; set both targets off the 5k TT number.
 
 ### 📍 Sequencing agreed
 - **23 Aug → 27 Sep (midterms):** MAINTAIN, do not build. Training is not the priority; it is the anchor that keeps structure.
