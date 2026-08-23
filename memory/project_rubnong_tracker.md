@@ -1,6 +1,6 @@
 ---
 name: project-rubnong-tracker
-description: "Canonical รับน้อง camp file — standing facts, doc/sheet/calendar IDs, July schedule, open threads. TOP PRIORITY through 27 Jul 2026."
+description: "รับน้อง camp — CLOSED. Camp ran 25-27 Jul 2026; retro at top. Archive: standing facts, IDs, schedule. Do not surface unless Korn raises it."
 metadata:
   node_type: memory
   type: project
@@ -8,6 +8,20 @@ metadata:
 ---
 
 # รับน้อง — Entertainment Department (สันทนาการ)
+
+## ✅ CLOSED — camp ran 25–27 Jul 2026. RETRO (told 23 Aug)
+**Overall: he's satisfied. The play's Scene 5 flashback film landed hard — people cried.** The bass show (separate) was also a hit.
+
+**What went wrong:**
+- **Games were chaotic — kids didn't follow the rules.** ⚠️ This is the one failure inside HIS OWN department. The scoring sheet was hardened for weeks against *cheating* (bet caps, illegal-bet voiding, own-match auto-block) and was never hardened against *confusion*. The July to-dos "brief the table crew on caps" and "Klao handoff msg — MC cap line" were raised 18 Jul and never closed. **Lesson: a bulletproof system briefed to nobody is not bulletproof.**
+- **สานสัมพันธ์ (closing ceremony): doors weren't held shut**, kids wandered out of the hall freely → the emotional close fell flat. Also MC confusion, sorted on the day. Not enough dance practice.
+- Kids got too drunk; he had to stay sober-ish to manage. **He was in staff mode his whole camp.**
+- He attributes most problems to **"other deps being buns"** — mostly fair, but see the games note above.
+
+**The GM meeting — the standout story.** ~5 people out of 400 got diarrhoea; the head of venue + head head wanted to **cancel dinner** over it. Those two heads were absent, so Korn + Klao were sent in as the most competent available. They went in **without even agreeing on a cause**, negotiated from a losing hand, and **compromised: dinner kept, menu switched to safe foods.** He rates it a genuinely good experience — first time dealing with a hotel GM.
+- ⚠️ **The venue thread he parked in July as "not our responsibility" came back and landed on him anyway.** He now calls the head of venue "the dumbass who chose this hotel with a small ass hall" — the July hall-size concern was real. **Pattern worth remembering: being the competent one means inheriting other people's failures at the worst moment.**
+
+---
 
 Korn is Entertainment Department Head, co-leading with his best friend. Team: 20 people (not counting the two heads). **Theme: RAGNAROK GODS.** **Camp dates: 25–27 Jul 2026** (settled 2026-07-02 — ignore any older 27–29 claim).
 

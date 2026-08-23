@@ -9,7 +9,6 @@
 
 ## 🟢 Active — other
 - [Training Plan](project_training_plan.md) — ⚠️ goal changed 23 Aug to LEANER ONLY (climber shaping dropped, weight work now full-body retention); 4 days/wk = 2 gym (1hr weights + 1hr cardio) + 2 runs; run structure pending his running stats; 5k-in-20:00 is the horizon goal
-- [Bass Trainer](project_bass_trainer.md) — practice site at C:\Users\Korn\bass-trainer\ (Modules 1 & 2 built; he reads tabs/chords NOT notation; Module 3 pending)
 - [Google Docs MCP](project_google_docs_mcp.md) — working on the Mac via bin/gdocs-launcher.cjs; credentials at ~/.google/ (outside git)
 - [rclone Drive Upload](project_rclone_drive.md) — remote `gdrive` on the Windows laptop; the working path for any local→Drive file transfer
 - [Skills Reference](reference_skills.md) — installed skills in .claude/skills/; must be called explicitly
@@ -18,6 +17,9 @@
 
 ## ✅ Closed
 - [Rubnong Tracker](project_rubnong_tracker.md) + [Flow Sheet](rubnong-flow-sheet.md) + [Scene 5 Flashback Video](project_scene5_flashback.md) — camp ran 25–27 Jul 2026 and CLOSED. Korn satisfied; the flashback film landed hard (people cried). Archive — don't surface unless he raises it.
+
+## ⏸️ Paused
+- [Bass Trainer](project_bass_trainer.md) — PAUSED 23 Aug by Korn: bass is for fun now, no end goal, Module 3 shelved. Don't push it. (Bass currently lent to a friend.)
 
 ## ⏸️ Paused (2026-07-02)
 - [Coldesthoops Pipeline](project_coldesthoops.md) — PAUSED. Shorts pipeline (Windows-only); #9 built-not-published + teaser-test wiring are the first moves on unpause
