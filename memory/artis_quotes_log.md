@@ -11,7 +11,7 @@ metadata:
 
 ---
 
-**2026-08-23**
+**2026-08-23** ⭐ *(Korn asked to save this one specifically.)*
 
 > *"Everyone hurries his life on and suffers from a yearning for the future and a weariness of the present."*
 > — Seneca, **On the Shortness of Life**
