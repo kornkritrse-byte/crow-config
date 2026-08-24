@@ -218,6 +218,7 @@ Reason BA202 moved from 4th to joint-1st — his 🟡 rating measured *difficult
 ## 📍 STUDY-SPOT RULES (his own, 23 Aug — he owns this, don't over-plan it)
 - **Solo / no friends around:** home, Starbucks near home, or **"Bloom"** (the café next to that Starbucks). **His call which — he explicitly said he'll figure it out himself. DO NOT keep prescribing one.**
 - **When already at uni:** **Starbucks Chinatown + a gym session — SAME BUILDING** (Jetts Chinatown). Study and train in one trip, one commute.
+- ✅ **CAMPUS LIBRARY (Tha Prachan) — his own find, 24 Aug.** He proposed it unprompted for the Tue 25 block. **This is the answer to the fragility problem below:** zero commute when he's already at uni, zero coordination, no friends required, and it's open on every Tue/Fri/Wed he's on campus. **Treat it as the default for any at-uni block** — it beats Starbucks Chinatown on cost and quietness. Verify after 25 Aug whether he actually got work done there.
 - **Foodvilla:** reserved for the free week 14–19 Sep.
 - **Pinklao:** he hates it. Never propose it.
 
