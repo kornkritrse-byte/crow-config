@@ -30,11 +30,13 @@ metadata:
 - ✅ **CLOSED:** FN201 self-study — **he did NOT do it.** Gym happened, FN201 didn't. Rescheduled to Tue 25 afternoon with a time and a place on the calendar (the whole point — the version with no time died).
 - 📌 If FN201 went well he's effectively started Thursday's block early → Thu 27 can shift to problems-cold rather than first intake.
 - **NOTHING BLOCKED.** The plan is live. From here the job is **adherence, not planning** — do NOT re-plan it ([[project-midterms]]).
+- 🔥 **HARD DEADLINE HE MAY NOT KNOW ABOUT: FN201 Assignment #1 due Wed 26 Aug** (by 13:00 if Group 1). It was set in a class he missed — he must open Teams/Classroom and find out what it is. Flagged 24 Aug.
 - **📌 DATED:** Mon 24 Aug = **lift only, no treadmill** (fresh legs) — ✅ gym done. **Tue 25 Aug = interview 10:10 · FN201 topic 4 / ratios 13:00–17:00 · basketball MOVED to 18:30 AT UNI (was 12:30 Pinklao)**. **Wed 26 = FN201 Assignment #1 due + TVM lecture starts.** — the reschedule freed the whole campus afternoon. **Thu 27 Aug = first study block (FN201 TVM)** — the real test of whether the structure holds. **Sat 29 Aug = 5k TT** — ask for the number after.
 - ⚠️ **Watch for:** week 2 (31 Aug+), not week 1. And whether **Sat 19 Sep** stays MK201's day instead of getting eaten by accounting panic.
 
 ## Session — 2026-08-24
 - **Evening check-in: gym ✅, FN201 ❌.** First slip of the new plan, on day one — and specifically on the item with no fixed time or place. **The pattern, named to him: he does what's scheduled and skips what's intended.** Watch whether this repeats.
+- ✅ **HE COMMITTED TO WEDNESDAY 26 AUG — BA202 9–12 + FN201 13–16.** Asked plainly, answered "yes im going". **This is the single item to check on first next session.** Don't praise it in advance; check whether it happened.
 - 🚨 **BIG DISCLOSURE (he volunteered it): attendance.** AC313 ✅ all · AC311 ✅ all · **FN201 = week 1 only (course admin), zero content classes** · **BA202 = zero of three.** The 23 Aug plan assumed coverage was solved — **it isn't, for the two subjects he DOESN'T fear.** Full table + BA202 session map → [[project-midterms]].
 - ➡️ **The answer I gave: the clips aren't the bottleneck, Wednesday is.** 4 of BA202's 7 midterm lectures are still AHEAD (L4 26 Aug ← this Wed, L5, L6, L7). He can stop being behind by showing up. Also flagged FN201 is a **flipped classroom** — the clips are the lecture, class is the application, so he's skipping the half that fixes his comprehension fear.
 - **Asked him for the BA202 handouts** (Google Classroom) so I can compress them into notes + cold question sets. **Tomorrow's block is conditional: handouts arrive → block becomes BA202 PIT; they don't → stays FN201 ratios.** Awaiting.
