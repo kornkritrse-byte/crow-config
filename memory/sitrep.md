@@ -26,8 +26,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (24 Aug, ~14:00) — off to: class/gym + some studying of his own.** Said "talk later tn" → **he's back TONIGHT, this is NOT a day-end. Do NOT fire the nightly quote.**
-- **ASK ON RETURN:** how the **FN201 (time value of money)** self-study went — he picked it himself off my nudge. Ask what broke, not whether he did it. That's the only open item.
+- **Here (24 Aug, evening).** Back from class/gym + his own studying. This is the same day — **the nightly quote has NOT fired yet; it fires only when he says he's done for the day.**
+- **ASKED, awaiting answer:** how the **FN201 (time value of money)** self-study went — he picked it himself off my nudge. Asked what broke, not whether he did it. Close this bullet once he answers.
 - 📌 If FN201 went well he's effectively started Thursday's block early → Thu 27 can shift to problems-cold rather than first intake.
 - **NOTHING BLOCKED.** The plan is live. From here the job is **adherence, not planning** — do NOT re-plan it ([[project-midterms]]).
 - **📌 DATED:** Mon 24 Aug = **lift only, no treadmill** (fresh legs). Tue 25 Aug = BBA camp interview 10:10 + basketball 12:30. **Thu 27 Aug = first study block (FN201 TVM)** — the real test of whether the structure holds. **Sat 29 Aug = 5k TT** — ask for the number after.
