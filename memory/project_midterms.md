@@ -120,7 +120,7 @@ Note: the two accounting subjects are stacked on Monday; FN201 sits Wed afternoo
   - ✅ **STARBUCKS NEAR HOME — LOCKED as his solo default (23 Aug).** The zero-coordination fallback for when nobody's up for anything. This is the one that keeps the plan alive on a dead Tuesday.
 - **⏰ Big one: 1–2 weeks out from an exam he studies until MIDNIGHT–1am before going home.** His real study day runs far past 17:30 in the final stretch.
 
-## 🔑 THE FREE WEEK — 14–19 Sep, NO CLASSES (revealed 23 Aug)
+## ❌ SUPERSEDED — "THE FREE WEEK" (23 Aug, WRONG — see RESOLVED block above)
 **Classes stop after Fri 11 Sep.** The entire week before the first exam is free — **6 uninterrupted days immediately before 20 Sep.**
 ➡️ **This is the single most valuable block in the whole plan** and it materially softens the earlier "FN201 must be ready before the 20th" alarm — that week is where FN201 and AC313 get finished.
 ➡️ **Foodvilla belongs HERE** (his call): far, but genuinely productive, and there's no uni commute to stack on top of it that week.
@@ -147,13 +147,36 @@ Files: `~/Desktop/class outline/` (BA202, AC311, AC313, FN201, MK201). **EL221 o
 7. **MK201 exam time discrepancy:** outline says 20 Sep **13:00–15:00 (2 hrs)**; calendar has 13:00–16:00. Probably a 3-hr slot with a 2-hr paper. Not fixed — flagged.
 8. **AC313 / AC311 / BA202 midterm dates are "TBA" in their outlines** — the 22/26/27 Sep dates came from the program exam timetable, not confirmed by these documents.
 
-## 🚨 CONTESTED — THE "FREE WEEK 14–19 SEP" MAY NOT EXIST (raised 24 Aug, UNRESOLVED)
-Korn said 23 Aug that classes stop after Fri 11 Sep. **All five outlines disagree**, independently:
-- AC313 session 7 = **Mon 14 Sep** · AC311 session 7 = **Mon 14 Sep**
-- MK201 session 7 = **Tue 15 Sep**
-- BA202 lecture 7 (sec 026401) = **Wed 16 Sep** · FN201 week 7 = **Wed 16 Sep**
+## ✅ RESOLVED 24 Aug — THE FREE WEEK DOES NOT EXIST
+**Korn confirmed: classes DO run to the week before midterms.** His 23 Aug "classes stop 11 Sep" was wrong; all five outlines were right.
+**He will SKIP EL221 on Fri 18 Sep** — that's what buys one full day back.
 
-➡️ If the outlines are right, the free run before the first exam is **Thu 17 + Fri 18 + Sat 19** — **3 days, not 6** — and the "~40 hrs in the free week" estimate roughly halves. **The spine of the plan rests on this. Resolve before building.**
+Final week 14–19 Sep, actual shape:
+| Day | Committed | Free |
+|---|---|---|
+| Mon 14 | AC313 9–12, AC311 13–16, gym 17:30–19:30 | evening 20:00–23:00 |
+| Tue 15 | MK201 9–12 | **13:00 → late** |
+| Wed 16 | BA202 9–12, FN201 13–16, gym 17:30–19:30 | evening 20:00–23:00 |
+| Thu 17 | — | **FULL DAY** |
+| Fri 18 | EL221 9–12 **← SKIPPING** | **FULL DAY** |
+| Sat 19 | — | **FULL DAY** |
+
+➡️ **The loss is smaller than first feared.** Because he studies to midnight–1am in the final stretch, week D still yields **~40 hrs**. Total pre-exam runway ≈ **110 hrs** (22 + 25 + 25 + 40). Time was never the binding constraint — allocation and adherence are.
+➡️ ⚠️ **The 6 lesson recurrences on the calendar still END 11 Sep.** `update_event` can't edit RRULEs, so the 14–16 Sep classes were added as **one-off grey events (24 Aug)**. If the series ever gets rebuilt, extend UNTIL 16 Sep instead.
+
+## 🔄 FRONT-LOAD ORDER REVISED 24 Aug — BA202 promoted to joint-first
+**OLD:** FN201 > AC313 > AC311 > BA202 > MK201 > EL221
+**NEW: FN201 ≈ BA202 > AC313 > AC311 > MK201 > EL221**
+
+Reason BA202 moved from 4th to joint-1st — his 🟡 rating measured *difficulty*, not *exposure*:
+- **45% of the course grade** — the heaviest single exam of the six.
+- **Thinnest in-period window: Sat 26 pm only (~8 hrs)**, straight after a 3-hour AC311 exam.
+- **Zero external substitute** (Thai tax law) — no YouTube, no alternate textbook, no clips.
+- High memorisation volume: PIT ×3 lectures + CIT ×2 + petroleum + special regimes.
+
+**The two structural risks, both now explicitly front-loaded against:**
+1. **FN201** — Tue 22 pm only, after the AC313 exam. Must be REVIEW by then, not learning.
+2. **BA202** — Sat 26 pm only, after the AC311 exam, for a 45% paper.
 
 ## 📍 STUDY-SPOT RULES (his own, 23 Aug — he owns this, don't over-plan it)
 - **Solo / no friends around:** home, Starbucks near home, or **"Bloom"** (the café next to that Starbucks). **His call which — he explicitly said he'll figure it out himself. DO NOT keep prescribing one.**
@@ -176,3 +199,31 @@ Korn said 23 Aug that classes stop after Fri 11 Sep. **All five outlines disagre
 ## Watch
 - The real test is **week 2**, not week 1 — check whether the structure held after the first bad day.
 - Training is ~6–7 hrs/wk and is the stated dependent variable ([[project-training-plan]]). If the timetable comes back tight, the gym cardio hour is the designated first cut — a decision, not a collapse.
+
+## ✅ FULL PLAN ON THE CALENDAR (built 24 Aug — study + fitness in one pass, as he asked)
+All on **Life**, notificationLevel NONE. **Study = Blueberry/blue (9). Training = Sage/green (2).**
+⚠️ **No training events existed before today** — the 23 Aug design was never actually placed. Now it is.
+
+**Study blocks — one intention per block, subject named in the title:**
+- **Wk A (24–30 Aug):** Thu 27 FN201 TVM pt1 · Fri 28 BA202 PIT · Sat 29 AC313 job order · Sun 30 FN201 TVM pt2. *(Tue 25 = basketball, no study block.)*
+- **Wk B (31 Aug–6 Sep):** Tue 1 BA202 CIT · Thu 3 AC313 process costing · Fri 4 FN201 ratios/Du Pont · Sat 5 AC311 Ch7 · Sun 6 BA202 past paper COLD.
+- **Wk C (7–13 Sep):** Tue 8 AC313 joint/byproduct · Thu 10 FN201 full paper timed · Fri 11 AC311 Ch8–9 · Sat 12 BA202 petroleum+regimes · Sun 13 AC313 full paper timed.
+- **Wk D (14–19 Sep):** Mon 14 eve AC311 Ch13 · Tue 15 FN201 2nd paper (13:00–22:00) · Wed 16 eve BA202 weak spots · Thu 17 AC313 final paper · Fri 18 BA202 full paper *(EL skipped)* · Sat 19 **MK201 whole subject in one day** · Sun 20 am MK201 skim.
+- **In-period:** Sun 20 eve + Mon 21 AC313 · **Tue 22 FN201 ⚠️** · Wed 23 AC311+EL skim · Thu 24 AC311 · Fri 25 AC311 final · **Sat 26 BA202 ⚠️**.
+
+**Training placed:**
+- 🏋️ Gym Mon + Wed **17:30–19:30**, weekly to 16 Sep, Jetts Phayathai. Lift (no legs) + 30–40min easy zone-2 treadmill.
+- 🏃 **5k TT Sat 29 Aug 06:30** (red) with the negative-split plan in the description · Sun 30 easy 40min.
+- 🏃 Long run Sat 06:30 (5 + 12 Sep) · Quality run Sun 06:30 (6 + 13 Sep).
+- **Exam-period taper (Crow's call 24 Aug, flagged to him):** no gym or quality work 17–27 Sep; two easy 30min runs only, Mon 21 + Thu 24. Normal training resumes after 27 Sep.
+- **No run Sat 19 Sep** — MK201 exam is the next day and that day is fully committed.
+
+**Design notes:**
+- MK201 is deliberately given NOTHING until Sat 19 Sep. That is a decision, not an oversight — 30%, 2hr paper, textbook optional. If Sat 19 gets eaten by accounting panic, MK201 is the subject that pays.
+- Every red subject gets a **COLD timed past paper** before the exam period (BA202 6 Sep, FN201 10 Sep, AC313 13 Sep) and a second pass in Wk D. This is the answer to his *comprehension* fear, not his *coverage* fear.
+
+## 📌 TO ASK / CONFIRM (raised 24 Aug)
+- **AC311 midterm weight:** grading table says 40%, schedule table says 35%. Ask Ajarn Pailin. (40% makes the total sum to 100.)
+- **MK201 exam length:** outline says 13:00–15:00 (2 hrs), calendar has 13:00–16:00.
+- **AC311 → Saturday 09:00–12:00 from 3 Oct** (Ajarn Saifon). Post-midterm, but it kills "Sat = full study day" and collides with the Saturday long run — [[project-training-plan]].
+- **AC311 Midterm 2** (~late Oct, sessions 8–11, 30%) — a second midterm he hadn't accounted for.

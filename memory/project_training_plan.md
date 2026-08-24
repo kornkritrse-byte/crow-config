@@ -80,6 +80,20 @@ For most runners 10k pace ≈ 5k pace + ~15–20 s/km. **A 20:00 5k (4:00/km) �
 - ⚠️ **Bangkok late-August heat/humidity will suppress the number, possibly by 30–60s+.** Run it as late in the evening as practical. Read the result as a floor, not a ceiling.
 - Course: **track or an uninterrupted loop — no traffic lights.** Warm up 10–15 min easy + 4 strides; do NOT start cold (old ankle tendon). Do NOT add a 10k TT before 27 Sep — a second hard test costs a session and adds stress for no decision value. Test the 10k after exams; set both targets off the 5k TT number.
 
+### ✅ PLACED ON THE CALENDAR 24 Aug 2026 (it had NEVER been placed before)
+The 23 Aug design existed only in this file — **zero training events were on the Life calendar.** Now built, Sage/green (2), notificationLevel NONE:
+- 🏋️ **Gym Mon + Wed 17:30–19:30**, weekly to 16 Sep, Jetts Phayathai. Lift (no legs) + 30–40min easy zone-2 treadmill.
+- 🏃 **5k TT Sat 29 Aug 06:30** (red) — negative-split pacing plan is in the event description.
+- 🏃 Sun 30 Aug easy 40min · Long run Sat 06:30 (5 + 12 Sep) · Quality run Sun 06:30 (6 + 13 Sep).
+- ⚠️ **Mon 24 Aug = lift only, no treadmill** (his call) — noted in the event description.
+
+**EXAM-PERIOD TAPER — Crow's call 24 Aug, flagged to him as a decision he can overrule:**
+No gym, no quality work **17–27 Sep**. Two easy 30min runs only: **Mon 21 + Thu 24 Sep** (the two free days). Normal training resumes after 27 Sep — that's the ramp point.
+- **No run Sat 19 Sep** — MK201 exam next day, that day is fully committed to it.
+- Rationale: training is the stated dependent variable and this is the designated cut. Made it a decision, not a collapse.
+
+⚠️ **Sat long run collides with AC311 from 3 Oct** — AC311 moves to Saturday 09:00–12:00 for sessions 8–15 ([[project-midterms]]). A 06:30 long run still fits before a 09:00 class, but only just. Revisit after 27 Sep.
+
 ### 📍 Sequencing agreed
 - **23 Aug → 27 Sep (midterms):** MAINTAIN, do not build. Training is not the priority; it is the anchor that keeps structure.
 - **Early:** run one real **5k time trial** to get a true baseline (costs one session).

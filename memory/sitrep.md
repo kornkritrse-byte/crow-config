@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-08-23 (day-end verify + flush)*
+*Last updated: 2026-08-24 (live)*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,10 +26,18 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (24 Aug).** Returned; asked the one open item (syllabi + textbook names).
-- **ASK ON RETURN:** did the **syllabi + textbook names** (AC313 / AC311 / FN201) come through? **That is the only open item** — everything else this session closed.
-- **Then the move is:** take the syllabi → build the study half → put study blocks on the Life calendar in ONE pass. Structure is already agreed; **do not re-plan it** ([[project-midterms]]).
-- **📌 DATED:** Mon 24 Aug = **lift only, no treadmill run** (fresh legs). Tue 25 Aug = BBA camp interview 10:10 + basketball 12:30. **Sat 29 Aug = 5k time trial** — ask for the number after.
+- **Here (24 Aug).** ✅ Syllabi landed — the ONE blocker is cleared and **the full midterm + fitness plan is built and on the calendar**. No open inputs owed.
+- **NOTHING BLOCKED.** The plan is live. From here the job is **adherence, not planning** — do NOT re-plan it ([[project-midterms]]).
+- **📌 DATED:** Mon 24 Aug = **lift only, no treadmill** (fresh legs). Tue 25 Aug = BBA camp interview 10:10 + basketball 12:30. **Thu 27 Aug = first study block (FN201 TVM)** — the real test of whether the structure holds. **Sat 29 Aug = 5k TT** — ask for the number after.
+- ⚠️ **Watch for:** week 2 (31 Aug+), not week 1. And whether **Sat 19 Sep** stays MK201's day instead of getting eaten by accounting panic.
+
+## Session — 2026-08-24
+- **Read all 5 course outlines** from `~/Desktop/class outline/` (BA202, AC311, AC313, FN201, MK201; **no EL221 — he called that subject a free win**). Textbooks + full exam scope → [[project-midterms]].
+- **Caught a plan-breaking error:** the "free week 14–19 Sep" didn't exist — all five outlines showed classes running to 16 Sep. **He confirmed it. He'll skip EL221 Fri 18 Sep** to buy one day back. Real runway still ≈110 hrs because his final-stretch days run to midnight.
+- **Both accounting scopes are much SMALLER than he feared** — AC313's standard costing/variance analysis and AC311's PPE/Intangibles are all post-midterm. Told him plainly; that was the good news of the session.
+- **Revised the triage: BA202 promoted from 4th to joint-1st.** 45% weight (heaviest of six), thinnest in-period window (~8 hrs), zero external resources. His 🟡 rating measured difficulty, not exposure.
+- **Built the whole thing on the Life calendar in one pass** — 28 study blocks (blue, one intention each) + the training week (green) that had **never actually been placed** + 5 missing 14–16 Sep classes.
+- Flagged 4 things for him to confirm with instructors (AC311 weight 40 vs 35%, MK201 exam length, AC311→Saturdays from 3 Oct, AC311 has a *second* midterm in late Oct).
 
 ## Session — 2026-08-23
 - **First session back after a month dark.** MCP check: Sheets works via the local `google-docs` MCP (the claude.ai connectors can't write cells); **formula-reading still broken** — same gotcha as 21 Jul.
