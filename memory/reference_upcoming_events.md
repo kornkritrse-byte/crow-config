@@ -11,7 +11,9 @@ metadata:
 
 **Maintenance rule (Crow):** whenever an event is created, moved, or cancelled in Google Calendar during a session, mirror it here. The banner only knows what this file knows. Past dates are ignored by the hook — prune them when convenient. Format is one event per line, `YYYY-MM-DD | title` (the hook greps for date-prefixed lines; camp countdown is hardcoded to 2026-07-25 in the hook itself).
 
-2026-08-25 | BBA Camp Interview 10:10–10:40 (overlaps MK201) + FN201 TVM study 13:00–17:00 + Basketball game 18:30–19:45 @ uni (Tha Prachan)
+2026-08-25 | BBA Camp Interview 10:10–10:40 (overlaps MK201) + FN201 topic 4 / ratios 13:00–17:00 + Basketball game 18:30–19:45 @ uni (Tha Prachan)
+2026-08-26 | FN201 Assignment #1 DUE (by 13:00 if Group 1 / 09:00 if Group 2)
+2026-09-16 | FN201 GROUP ASSIGNMENT DUE — 15%, inside the crunch week
 2026-08-29 | 5k TIME TRIAL (morning) — real baseline
 2026-09-20 | MIDTERM 1: MK201 Marketing 13:00–16:00
 2026-09-22 | MIDTERM 2: AC313 Cost Accounting 09:00–12:00

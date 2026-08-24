@@ -206,6 +206,7 @@ All on **Life**, notificationLevel NONE. **Study = Blueberry/blue (9). Training 
 
 **Study blocks — one intention per block, subject named in the title:**
 - **Wk A (24–30 Aug):** **Tue 25 FN201 TVM intake 13:00–17:00 (added 24 Aug)** · Thu 27 FN201 TVM pt1 · Fri 28 BA202 PIT · Sat 29 AC313 job order · Sun 30 FN201 TVM pt2.
+  - ⚠️ **Tue 25 block is TOPIC 4 (ratios), not TVM** — corrected 24 Aug after he said he **missed FN201 class on Wed 19 Aug**. That session was topic 3's tail + **topic 4 in full**. TVM's lecture is Wed 26 and Thu 27 is already the TVM block → **lecture Wed → block Thu is better spacing than pre-reading TVM on Tue.** His instinct was right; his stated reason (prerequisite) was wrong — **TVM depends on nothing before it.**
   - ⚠️ **Tue 25 changed:** the basketball game moved from 12:30 @ Pinklao → **18:30 at uni**, freeing the whole afternoon on campus. Block placed there because he's stuck at uni anyway and won't commute home. **This is the FN201 self-study he skipped on 24 Aug**, not an extra. If it lands, **Thu 27 shifts from intake to problems-COLD.**
 - **Wk B (31 Aug–6 Sep):** Tue 1 BA202 CIT · Thu 3 AC313 process costing · Fri 4 FN201 ratios/Du Pont · Sat 5 AC311 Ch7 · Sun 6 BA202 past paper COLD.
 - **Wk C (7–13 Sep):** Tue 8 AC313 joint/byproduct · Thu 10 FN201 full paper timed · Fri 11 AC311 Ch8–9 · Sat 12 BA202 petroleum+regimes · Sun 13 AC313 full paper timed.
@@ -222,6 +223,22 @@ All on **Life**, notificationLevel NONE. **Study = Blueberry/blue (9). Training 
 **Design notes:**
 - MK201 is deliberately given NOTHING until Sat 19 Sep. That is a decision, not an oversight — 30%, 2hr paper, textbook optional. If Sat 19 gets eaten by accounting panic, MK201 is the subject that pays.
 - Every red subject gets a **COLD timed past paper** before the exam period (BA202 6 Sep, FN201 10 Sep, AC313 13 Sep) and a second pass in Wk D. This is the answer to his *comprehension* fear, not his *coverage* fear.
+
+## 📆 FN201 SESSION MAP + ASSESSMENT (from the outline, 24 Aug)
+| Week | Date (Wed) | Topic |
+|---|---|---|
+| 1 | Aug 5 | Course admin |
+| 2 | Aug 12 | (1) Overview of business finance · (2) The Axioms · (3) Financial environments & markets |
+| 3 | **Aug 19** | topic 3 tail (cash flows firms↔markets, capital formation, institutions & securities, cost of money, determinants of market interest rates) + **(4) Financial Reports & Analysis of Financial Reports** — ratios, Du Pont, operating/cash cycles |
+| 4–7 | **Aug 26 · Sep 2 · Sep 9 · Sep 16** | **(5) The Time Value of Money** — 4 straight weeks, the exam's centre of gravity |
+
+⚠️ **KORN MISSED WEEK 3 (Aug 19)** — i.e. all of topic 4. Patched with the Tue 25 block.
+
+**FN201 assessment (not previously recorded):**
+- Assignments **20%** total. Due Wed by **09:00 (Group 2) / 13:00 (Group 1)**. His section is 026401 → **likely Group 1, 13:00** *(inference from the outline's section/Teams pairing — not confirmed)*.
+  - **#1 due Wed 26 Aug (1%)** · #2 due Wed 9 Sep (1%) · #3 due 18 Nov (3%)
+- 🚨 **GROUP ASSIGNMENT 15% — due Wed 16 Sep** (12% data/computations/analysis + 3% self-and-peer eval). **This lands inside the final crunch week (Wk D)**, the same week as Tue 15 FN201 paper + Wed 16 BA202 evening. Worth **more than any individual assignment and nearly half the midterm's weight.** Not on the calendar yet; group work has other people's timelines attached — needs starting well before 16 Sep.
+- Midterm **35%** (Wed 23 Sep, 09:00–11:30, topics 1–5) = 25% selected-response + the rest constructed. Final 45% (2 Dec, non-cumulative, topics 6–10).
 
 ## 📌 TO ASK / CONFIRM (raised 24 Aug)
 - **AC311 midterm weight:** grading table says 40%, schedule table says 35%. Ask Ajarn Pailin. (40% makes the total sum to 100.)
