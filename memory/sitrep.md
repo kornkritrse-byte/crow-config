@@ -27,13 +27,15 @@ metadata:
 
 ## 🚪 Current status
 - **Here (24 Aug, evening).** Back from class/gym + his own studying. This is the same day — **the nightly quote has NOT fired yet; it fires only when he says he's done for the day.**
-- **ASKED, awaiting answer:** how the **FN201 (time value of money)** self-study went — he picked it himself off my nudge. Asked what broke, not whether he did it. Close this bullet once he answers.
+- ✅ **CLOSED:** FN201 self-study — **he did NOT do it.** Gym happened, FN201 didn't. Rescheduled to Tue 25 afternoon with a time and a place on the calendar (the whole point — the version with no time died).
 - 📌 If FN201 went well he's effectively started Thursday's block early → Thu 27 can shift to problems-cold rather than first intake.
 - **NOTHING BLOCKED.** The plan is live. From here the job is **adherence, not planning** — do NOT re-plan it ([[project-midterms]]).
-- **📌 DATED:** Mon 24 Aug = **lift only, no treadmill** (fresh legs). Tue 25 Aug = BBA camp interview 10:10 + basketball 12:30. **Thu 27 Aug = first study block (FN201 TVM)** — the real test of whether the structure holds. **Sat 29 Aug = 5k TT** — ask for the number after.
+- **📌 DATED:** Mon 24 Aug = **lift only, no treadmill** (fresh legs) — ✅ gym done. **Tue 25 Aug = interview 10:10 · FN201 TVM 13:00–17:00 · basketball MOVED to 18:30 AT UNI (was 12:30 Pinklao)** — the reschedule freed the whole campus afternoon. **Thu 27 Aug = first study block (FN201 TVM)** — the real test of whether the structure holds. **Sat 29 Aug = 5k TT** — ask for the number after.
 - ⚠️ **Watch for:** week 2 (31 Aug+), not week 1. And whether **Sat 19 Sep** stays MK201's day instead of getting eaten by accounting panic.
 
 ## Session — 2026-08-24
+- **Evening check-in: gym ✅, FN201 ❌.** First slip of the new plan, on day one — and specifically on the item with no fixed time or place. **The pattern, named to him: he does what's scheduled and skips what's intended.** Watch whether this repeats.
+- **Basketball moved 12:30 @ Pinklao → 18:30 at uni**, so Tue 25 has a free campus afternoon. Placed **FN201 TVM intake 13:00–17:00** there (blue, Life) — this is the skipped block, not an extra. If it lands, **Thu 27 becomes problems-COLD** instead of first intake.
 - **Read all 5 course outlines** from `~/Desktop/class outline/` (BA202, AC311, AC313, FN201, MK201; **no EL221 — he called that subject a free win**). Textbooks + full exam scope → [[project-midterms]].
 - **Caught a plan-breaking error:** the "free week 14–19 Sep" didn't exist — all five outlines showed classes running to 16 Sep. **He confirmed it. He'll skip EL221 Fri 18 Sep** to buy one day back. Real runway still ≈110 hrs because his final-stretch days run to midnight.
 - **Both accounting scopes are much SMALLER than he feared** — AC313's standard costing/variance analysis and AC311's PPE/Intangibles are all post-midterm. Told him plainly; that was the good news of the session.

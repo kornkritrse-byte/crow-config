@@ -205,7 +205,8 @@ All on **Life**, notificationLevel NONE. **Study = Blueberry/blue (9). Training 
 ⚠️ **No training events existed before today** — the 23 Aug design was never actually placed. Now it is.
 
 **Study blocks — one intention per block, subject named in the title:**
-- **Wk A (24–30 Aug):** Thu 27 FN201 TVM pt1 · Fri 28 BA202 PIT · Sat 29 AC313 job order · Sun 30 FN201 TVM pt2. *(Tue 25 = basketball, no study block.)*
+- **Wk A (24–30 Aug):** **Tue 25 FN201 TVM intake 13:00–17:00 (added 24 Aug)** · Thu 27 FN201 TVM pt1 · Fri 28 BA202 PIT · Sat 29 AC313 job order · Sun 30 FN201 TVM pt2.
+  - ⚠️ **Tue 25 changed:** the basketball game moved from 12:30 @ Pinklao → **18:30 at uni**, freeing the whole afternoon on campus. Block placed there because he's stuck at uni anyway and won't commute home. **This is the FN201 self-study he skipped on 24 Aug**, not an extra. If it lands, **Thu 27 shifts from intake to problems-COLD.**
 - **Wk B (31 Aug–6 Sep):** Tue 1 BA202 CIT · Thu 3 AC313 process costing · Fri 4 FN201 ratios/Du Pont · Sat 5 AC311 Ch7 · Sun 6 BA202 past paper COLD.
 - **Wk C (7–13 Sep):** Tue 8 AC313 joint/byproduct · Thu 10 FN201 full paper timed · Fri 11 AC311 Ch8–9 · Sat 12 BA202 petroleum+regimes · Sun 13 AC313 full paper timed.
 - **Wk D (14–19 Sep):** Mon 14 eve AC311 Ch13 · Tue 15 FN201 2nd paper (13:00–22:00) · Wed 16 eve BA202 weak spots · Thu 17 AC313 final paper · Fri 18 BA202 full paper *(EL skipped)* · Sat 19 **MK201 whole subject in one day** · Sun 20 am MK201 skim.
