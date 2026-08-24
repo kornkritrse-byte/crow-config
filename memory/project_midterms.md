@@ -71,6 +71,43 @@ Note: the two accounting subjects are stacked on Monday; FN201 sits Wed afternoo
 2. **Deliberately NO study scheduled on Mon/Wed evenings.** Class 9–16 plus a 2hr gym session = the day is spent. Planning study there is how plans get abandoned. **They are the RESERVE** — where slippage goes, not where the plan lives.
 3. Capacity: ~23 real study hrs/week × ~4 weeks ≈ **90+ hrs before the first exam**, for 6 subjects. **Time is NOT the binding constraint — allocation and adherence are.** Do not let the comfort of that number justify an even split; the reds get the weight.
 
+## 🚨 ATTENDANCE — DISCLOSED 24 Aug (overturns the 23 Aug premise)
+He volunteered this unprompted. **The 23 Aug plan was built on "coverage is solved, understanding is the target." That premise is FALSE for two subjects.**
+
+| Subject | Attendance | Status |
+|---|---|---|
+| **AC313** | ✅ **All classes** | genuinely caught up |
+| **AC311** | ✅ **All classes** | genuinely caught up |
+| **FN201** | ❌ **Week 1 only (Aug 5 = course admin)** → **ZERO content classes.** Missed Aug 12 (topics 1,2,3) + Aug 19 (topic 3 tail + topic 4) | all of topics 1–4 unseen |
+| **BA202** | ❌ **NONE. Zero of three.** Missed L1 (5 Aug), L2 (12 Aug, was online-via-Zoom for the holiday), L3 (19 Aug) | 45% exam, nothing attended |
+
+➡️ **The reds were mis-ranked by difficulty, not by exposure.** The two he *fears* (AC313, AC311) are the two he's actually on top of. The two he's never attended are BA202 (45%) and FN201 (35%).
+➡️ **THE DECISIVE NUMBER: 4 of BA202's 7 midterm lectures HAVE NOT HAPPENED YET** (L4 26 Aug, L5 2 Sep, L6 9 Sep, L7 16 Sep). Same for FN201 — TVM's four sessions are all still ahead. **He can stop being behind by attending, starting Wed 26 Aug.** No compression system beats this. Lead with it.
+➡️ ⚠️ **Wed is the pivotal day of his week: BA202 9–12 AND FN201 13–16.** One Wednesday = both problem subjects. Track whether he goes.
+
+## 📆 BA202 SESSION MAP — section 026401 = **WEDNESDAYS 09:00–12:00**
+| # | Date | Topic | Status |
+|---|---|---|---|
+| L1 | Wed 5 Aug | Intro to Taxation; Global outlook/ESG/AI; **Overview of Thai Tax System Pt I** (history, theories, policy, law-making, administration, dispute resolution) | ❌ missed |
+| L2 | Wed 12 Aug (**holiday — held online via Zoom**) | Overview Pt II; Direct Taxation in Thailand; **PIT Part I** | ❌ missed — *a Zoom session may have a recording; ask* |
+| L3 | Wed 19 Aug | **PIT Part II** | ❌ missed |
+| **L4** | **Wed 26 Aug** | **PIT Part III** | ⬅️ **NEXT — the intervention point** |
+| L5 | Wed 2 Sep | CIT Part I | ahead |
+| L6 | Wed 9 Sep | CIT Part II | ahead |
+| L7 | Wed 16 Sep | Special regimes: SME incentives, BOI, certain business types | ahead |
+
+**PIT = L2+L3+L4 — three of the seven midterm lectures.** It is the single biggest block on a 45% paper.
+**Grading: midterm 45% + final 55% = 100%. NO attendance mark, NO assignments, NO quizzes.** Skipping costs zero marks directly — the argument for going is comprehension only, and it should be made honestly on those terms. **Grades ARE curved** (outline: a class that shows mastery gets a more generous curve).
+
+⚠️ **CORRECTION to the jurisdiction map:** "BA202 has NO external substitute" was too strong. The outline names the primary source: **the Thai Revenue Code, Chapter 3 = Personal Income Tax** — public, finite, available in English translation from the Revenue Department. It's not YouTube, but it IS the actual examinable law, which beats a secondary explainer. Materials are "class presentation handout & Self-Practice" on Google Classroom.
+
+## 🎬 THE CLIPS PROBLEM — his ask, 24 Aug
+He asked directly for a way to make the 3-hour clips efficient: YouTube substitutes, Crow teaching it, or **him sending the videos for Crow to compress**.
+- ⚠️ **FN201 is a FLIPPED CLASSROOM** (its outline lists "flipped classroom via recorded lecture clips" as a teaching method). **The clips ARE the lecture; the in-person session is discussion/application.** So skipping class means skipping the *application* half — precisely the half that fixes his stated comprehension fear. He's dreading the replaceable half and skipping the valuable one.
+- **Highest-value, zero-friction move: he sends the handouts/slides (PDFs, Google Classroom) → Crow compresses into notes + COLD question sets.** Works on BA202 today with no new tooling (MarkItDown is installed — [[feedback-markitdown]]).
+- For clips: needs transcripts or downloadable files. **FN201 lives on MS Teams** (per its outline). Ask what BA202 uses.
+- Honest limit told to him: Crow compresses material he supplies far better than he replaces it. FN201/AC313 topics are universal so external sources work; **BA202 is Thai law, so the handouts are not optional.**
+
 ## 🧠 HIS ACTUAL FEAR + THE MATERIAL PROBLEM (23 Aug)
 
 **Both behind AND conceptually insecure — but the fear is specifically the second.** He is *not* worried about catching up on coverage ("we have an abundance of time"). He's worried he **won't fully understand the concepts.** Treat coverage as solved; treat understanding as the real target.
