@@ -26,7 +26,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (23 Aug, night) — off to: end of day.** Nightly quote fired (Seneca, *On the Shortness of Life* — [[artis-quotes-log]]). **Never repeat it.**
+- **Here (24 Aug).** Returned; asked the one open item (syllabi + textbook names).
 - **ASK ON RETURN:** did the **syllabi + textbook names** (AC313 / AC311 / FN201) come through? **That is the only open item** — everything else this session closed.
 - **Then the move is:** take the syllabi → build the study half → put study blocks on the Life calendar in ONE pass. Structure is already agreed; **do not re-plan it** ([[project-midterms]]).
 - **📌 DATED:** Mon 24 Aug = **lift only, no treadmill run** (fresh legs). Tue 25 Aug = BBA camp interview 10:10 + basketball 12:30. **Sat 29 Aug = 5k time trial** — ask for the number after.
