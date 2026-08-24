@@ -5,12 +5,13 @@
 - [**SITREP**](sitrep.md) — rolling situation report: current state + last TWO sessions only; maintained LIVE in-session, verified+flushed at day-end (marker + Stop hook — see Artis Nightly Quote rule); deep-night reflections live in chapters.md (sitrep keeps one pointer bullet), older notes flush to sessions_log.md
 
 ## 🎯 Active — Midterms (TOP PRIORITY through Sep)
-- [Midterms](project_midterms.md) — sophomore midterms, first exam 20 Sep 2026; ⛔ BLOCKED on his subject list, exam dates, class timetable, outlines, major. Build study + fitness in ONE pass when they land (his call 23 Aug)
+- [Midterms](project_midterms.md) — 6 exams 20–27 Sep 2026. ✅ UNBLOCKED — outlines read, full plan on the calendar. 🚨 24 Aug: **he has attended ZERO FN201 content classes and ZERO BA202 classes** (the 45% paper); the reds were ranked by difficulty, not exposure. Job now is adherence, not planning.
 
 ## 🟢 Active — other
 - [Training Plan](project_training_plan.md) — ⚠️ goal changed 23 Aug to LEANER ONLY (climber shaping dropped, weight work now full-body retention); 4 days/wk = 2 gym (1hr weights + 1hr cardio) + 2 runs; run structure pending his running stats; 5k-in-20:00 is the horizon goal
 - [Google Docs MCP](project_google_docs_mcp.md) — working on the Mac via bin/gdocs-launcher.cjs; credentials at ~/.google/ (outside git)
 - [rclone Drive Upload](project_rclone_drive.md) — remote `gdrive` on the Windows laptop; the working path for any local→Drive file transfer
+- [Lecture Transcription Pipeline](reference_lecture_transcription.md) — turn 3-hr lecture recordings into notes: whisper-cli + ffmpeg on the Mac, Drive download via ~/.google creds; `-l auto` (his lectures are EN/TH mixed), check battery first
 - [Skills Reference](reference_skills.md) — installed skills in .claude/skills/; must be called explicitly
 - [Calendar IDs](reference_calendars.md) — which Google Calendar each kind of event goes into (camp → Rubnong34x35, personal → Life); always notificationLevel NONE
 - [Upcoming Events](reference_upcoming_events.md) — feeds the session-start banner; MUST be updated whenever calendar events change in-session

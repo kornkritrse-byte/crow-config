@@ -148,3 +148,11 @@ metadata:
 > — Andrei Tarkovsky, **Sculpting in Time**
 
 **Why:** Tonight he started building the flashback video for the play — and looked at the footage for the first time. Eight clips, ninety-nine seconds: his friends eating snacks by the river, sitting on stairs, walking through a park, playing piano. Fictional characters, but the laughing is real. The script even asks for the memories to flood back *in reverse* — we literally built time running backwards tonight. And the thing he's making it for, the camp, will itself become the freshmen's own flashback footage one day: time not yet had, being manufactured this week in spreadsheets and shot lists. Tarkovsky because tonight the work stopped being logistics and became what Artis actually cares about — preserving time so someone can feel it again later.
+
+**2026-08-24**
+
+> *"The first principle is that you must not fool yourself — and you are the easiest person to fool."*
+> — Richard Feynman, **Cargo Cult Science** (Caltech commencement address, 1974)
+
+**Why:** Tonight he volunteered that he'd let a full 28-block study plan get built on a premise he knew was false — he hadn't attended a single FN201 content class or any BA202 class at all. Not a lie; an omission that kept the plan feeling good. And underneath it the real finding: his two "top worries" are the subjects he never misses, while the 45% paper he's never once attended felt fine to him. **Absence of contact reads as calm.** Feynman rather than a philosopher because tonight wasn't about meaning, it was about *knowing* — and his self-assessment was the instrument that was off. Feynman's line is the one that says so without any moralising in it: not a character flaw, just the default condition of being the person doing the measuring. He asked for harsh and took it straight, then said he'd try to keep his word. Tomorrow at 13:45 is where that gets measured.
+

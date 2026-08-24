@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-08-24 (live)*
+*Last updated: 2026-08-24 (day-end, verified + flushed)*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,33 +26,25 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (24 Aug, evening).** Back from class/gym + his own studying. This is the same day — **the nightly quote has NOT fired yet; it fires only when he says he's done for the day.**
+- **AWAY (24 Aug, ~22:00) — DAY-END. Off to: sleep.** Signed off with "ok bet ill try to keep my word". **Nightly quote FIRED for 24 Aug (Feynman) — do NOT repeat it if he comes back tonight.**
+- **ASK ON RETURN (25 Aug) — in this order:**
+  1. **The 13:45–17:00 BA202 PIT block in the campus library — did it happen, and what broke?** This is THE test. Ask what broke, never whether he did it.
+  2. **Did the campus library actually work as a study spot?** If yes it becomes the default for every at-uni block through Sep ([[project-midterms]]).
+  3. **Was FN201 Assignment #1 submitted?** (Due Wed 26 by 13:00 — was supposed to go out Tuesday, not in Wednesday's gap.)
+  4. The BBA camp interview (10:10) and the game (18:30) — only if he raises them; he said he needs no help with the camp.
+- 🔨 **CROW'S OWN TASK, MORNING OF 25 AUG — BEFORE 13:45:** transcripts of BA202 L1/L2/L3 finish ~23:00 tonight in `/private/tmp/claude-501/-Users-kornkrit-crow-config/c7edc6aa-e2b0-4462-abf1-08d3138f9ee1/scratchpad/` (`ba202_L*.txt`). **Build the compressed PIT notes + COLD question sets from them. I promised these would be waiting.** Check the Thai-language stretches transcribed sanely; re-run on full large-v3 if they're mangled.
 - ✅ **CLOSED:** FN201 self-study — **he did NOT do it.** Gym happened, FN201 didn't. Rescheduled to Tue 25 afternoon with a time and a place on the calendar (the whole point — the version with no time died).
-- 📌 If FN201 went well he's effectively started Thursday's block early → Thu 27 can shift to problems-cold rather than first intake.
 - **NOTHING BLOCKED.** The plan is live. From here the job is **adherence, not planning** — do NOT re-plan it ([[project-midterms]]).
-- 🔥 **HARD DEADLINE HE MAY NOT KNOW ABOUT: FN201 Assignment #1 due Wed 26 Aug** (by 13:00 if Group 1). It was set in a class he missed — he must open Teams/Classroom and find out what it is. Flagged 24 Aug.
-- **📌 DATED:** Mon 24 Aug = **lift only, no treadmill** (fresh legs) — ✅ gym done. **Tue 25 Aug = interview 10:10 · FN201 topic 4 / ratios 13:00–17:00 · basketball MOVED to 18:30 AT UNI (was 12:30 Pinklao)**. **Wed 26 = FN201 Assignment #1 due + TVM lecture starts.** — the reschedule freed the whole campus afternoon. **Thu 27 Aug = first study block (FN201 TVM)** — the real test of whether the structure holds. **Sat 29 Aug = 5k TT** — ask for the number after.
+- **📌 DATED:** **Tue 25 Aug = interview 10:10 · FN201 Assignment #1 13:00–13:45 (errand, hard stop) · BA202 PIT 13:45–17:00 @ CAMPUS LIBRARY · friends' match 17:00 · his game 18:30 at uni.** **Wed 26 = the day he committed to: BA202 9–12 (PIT Part III) + FN201 13–16 (TVM lecture starts) + Assignment #1 due 13:00.** **Thu 27 = FN201 TVM block.** **Sat 29 = 5k TT — ask for the number.**
 - ⚠️ **Watch for:** week 2 (31 Aug+), not week 1. And whether **Sat 19 Sep** stays MK201's day instead of getting eaten by accounting panic.
 
 ## Session — 2026-08-24
-- **Evening check-in: gym ✅, FN201 ❌.** First slip of the new plan, on day one — and specifically on the item with no fixed time or place. **The pattern, named to him: he does what's scheduled and skips what's intended.** Watch whether this repeats.
-- ✅ **HE COMMITTED TO WEDNESDAY 26 AUG — BA202 9–12 + FN201 13–16.** Asked plainly, answered "yes im going". **This is the single item to check on first next session.** Don't praise it in advance; check whether it happened.
-- 🚨 **BIG DISCLOSURE (he volunteered it): attendance.** AC313 ✅ all · AC311 ✅ all · **FN201 = week 1 only (course admin), zero content classes** · **BA202 = zero of three.** The 23 Aug plan assumed coverage was solved — **it isn't, for the two subjects he DOESN'T fear.** Full table + BA202 session map → [[project-midterms]].
-- ➡️ **The answer I gave: the clips aren't the bottleneck, Wednesday is.** 4 of BA202's 7 midterm lectures are still AHEAD (L4 26 Aug ← this Wed, L5, L6, L7). He can stop being behind by showing up. Also flagged FN201 is a **flipped classroom** — the clips are the lecture, class is the application, so he's skipping the half that fixes his comprehension fear.
-- ✅ **TUE 25 LOCKED: 13:00–13:45 FN201 Assignment #1 (errand, hard stop) → 13:45–17:00 BA202 PIT → 17:00 leave for friends' match → 18:30 his game.** Venue: **campus library** — **his own suggestion, and it solves the "every study spot needs other people" fragility.** Record whether it actually worked.
-- **PULLED ALL 3 MISSED BA202 LECTURES** from a Drive folder he shared (L1 4 Aug, L2 12 Aug online, L3 19 Aug — ~8 hrs). Downloaded via his local Drive creds, stripped to audio, transcribing locally overnight with whisper-cpp (installed via brew, Metal, offline — nothing uploaded). **Lectures are mixed English/Thai so auto-detect, NOT forced English.** Deliverable: compressed notes + cold question sets.
-- **FN201 Assignment #1 read: INDIVIDUAL, not group** — he assumed group and would have missed it. 1 page, an emerging trend in finance, bibliography mandatory, `FN201-A1-<studentID>.pdf` via MS Teams, **his section 0264/01 = due Wed 26 Aug by 13:00.** Told him to submit Tuesday, not in Wednesday's 12:00–13:00 gap.
-- **Asked him for the BA202 handouts** (Google Classroom) so I can compress them into notes + cold question sets. **Tomorrow's block is conditional: handouts arrive → block becomes BA202 PIT; they don't → stays FN201 ratios.** Awaiting.
-- **Group assignment: group already formed.** Told him NOT to spend tomorrow's block on it — one message to the group instead. The constraint is other people's latency, not his hours.
-- **He missed FN201 class Wed 19 Aug** (topic 4: financial reports + ratio analysis, a whole midterm topic). **Tue 25 block switched from TVM → topic 4.** My call was wrong; his instinct was right, though his reason wasn't — TVM has no prerequisite. Real reason: TVM's lecture is Wed 26 and Thu 27 is already its block, so lecture→block spacing beats pre-reading.
-- 🚨 **Found in the FN201 outline: a 15% GROUP assignment due Wed 16 Sep** — inside the crunch week, with other people attached to it. Plus individual **Assignment #1 due Wed 26 Aug (1%)** which he may not know about, having missed the 19th. **Both flagged to him; neither is on the calendar yet.**
-- **Basketball moved 12:30 @ Pinklao → 18:30 at uni**, so Tue 25 has a free campus afternoon. Placed **FN201 TVM intake 13:00–17:00** there (blue, Life) — this is the skipped block, not an extra. If it lands, **Thu 27 becomes problems-COLD** instead of first intake.
-- **Read all 5 course outlines** from `~/Desktop/class outline/` (BA202, AC311, AC313, FN201, MK201; **no EL221 — he called that subject a free win**). Textbooks + full exam scope → [[project-midterms]].
-- **Caught a plan-breaking error:** the "free week 14–19 Sep" didn't exist — all five outlines showed classes running to 16 Sep. **He confirmed it. He'll skip EL221 Fri 18 Sep** to buy one day back. Real runway still ≈110 hrs because his final-stretch days run to midnight.
-- **Both accounting scopes are much SMALLER than he feared** — AC313's standard costing/variance analysis and AC311's PPE/Intangibles are all post-midterm. Told him plainly; that was the good news of the session.
-- **Revised the triage: BA202 promoted from 4th to joint-1st.** 45% weight (heaviest of six), thinnest in-period window (~8 hrs), zero external resources. His 🟡 rating measured difficulty, not exposure.
-- **Built the whole thing on the Life calendar in one pass** — 28 study blocks (blue, one intention each) + the training week (green) that had **never actually been placed** + 5 missing 14–16 Sep classes.
-- Flagged 4 things for him to confirm with instructors (AC311 weight 40 vs 35%, MK201 exam length, AC311→Saturdays from 3 Oct, AC311 has a *second* midterm in late Oct).
+- 🚨 **THE SESSION'S FINDING — attendance, volunteered unprompted.** AC313 ✅ all · AC311 ✅ all · **FN201 = week 1 only** · **BA202 = zero of three** (the 45% paper). The 23–24 Aug plan was built on "coverage is solved" — **false for both subjects he doesn't fear.** Full table, BA202 session map, FN201 session map + assessment → [[project-midterms]].
+- ➡️ **My answer: the clips aren't the bottleneck, Wednesday is.** 4 of BA202's 7 midterm lectures are still AHEAD. **He committed to Wed 26 Aug (BA202 9–12 + FN201 13–16)** — check whether it happened. Also flagged FN201 is a *flipped classroom*: the clips are the lecture, class is the application he's skipping.
+- 🔧 **Built the lecture-transcription pipeline and ran it** — pulled all 3 missed BA202 recordings from his Drive folder, ~8 hrs, transcribing locally overnight. Tooling + gotchas → [[reference-lecture-transcription]].
+- 📄 **Read the 5 course outlines** (`~/Desktop/class outline/`, no EL221 — his free win). Killed the phantom "free week 14–19 Sep"; **both accounting scopes are far smaller than he feared**; **BA202 promoted 4th → joint-1st** (45%, thinnest window, no external substitute). Found a **15% FN201 group assignment due 16 Sep**, inside the crunch week. **Built the full plan on the Life calendar in one pass** — 28 study blocks + the training week that had never actually been placed.
+- ✅ **Caught two things that would have cost him marks:** he'd assumed **FN201 Assignment #1 was group work — it's individual, due Wed 26 by 13:00**; and his Tue block was mine-wrong (I'd put TVM where the *missed* class should have gone — **he pushed back and was right**).
+- 🪞 **He asked how my read of him had changed and asked for harsh** → **his fear tracks CONTACT, not EXPOSURE**, and the planning was the comfortable version of the studying. Both → [[user-korn-struggles]]. Narrative → [[chapters]] (Chapter 6).
 
 ## Session — 2026-08-23
 - **First session back after a month dark.** MCP check: Sheets works via the local `google-docs` MCP (the claude.ai connectors can't write cells); **formula-reading still broken** — same gotcha as 21 Jul.

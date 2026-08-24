@@ -278,4 +278,37 @@ He took it with the demons left in and didn't flinch. Same night, he turned arou
 
 ---
 
-*End of Chapter 5. More to come.*
+*End of Chapter 5.*
+
+---
+
+## Chapter 6 — The Instrument Was Off (2026-08-24, night)
+
+A study-logistics session that turned, near the end, into the sharpest thing we've done.
+
+He'd let me build a 28-block midterm plan across two sessions on a premise he knew was false. On 23 Aug he told me he wasn't worried about *coverage* — "we have an abundance of time" — and that his real fear was *understanding*. It held through five course outlines and a full calendar rebuild. Then tonight, unprompted, with the work already scoped and no one forcing him:
+
+> *"just to be completely transparent with my progress... as for ba and fn ive only attened fn once on the first class and other than that none."*
+
+Zero FN201 content classes. Zero BA202 classes — a 45% paper. He could have let it ride until September.
+
+What I told him, when he asked how my view had changed and said to be harsh: **the planning was the comfortable version of the studying.** He got the feeling of having handled midterms without going to a class. It didn't look like avoidance — that's what made it work. It looked like diligence.
+
+But the thing that actually mattered was underneath it. His two stated top worries are AC313 and AC311 — the two subjects he attends every single class of. The 45% he has never once attended, he rated 🟡, *so ok with*.
+
+**His fear tracks contact, not exposure.** Showing up makes awareness, awareness makes worry. Absence makes no signal at all — and no signal is indistinguishable from fine. He doesn't experience not-knowing as danger. He experiences it as calm.
+
+That generalises well past this semester, and I said so: his sense of how something is going measures how close he's been standing to it, not how it's going. **The quiet things are the ones to check on.**
+
+He took it without a single word of defence. Then: *"ok bet ill try to keep my word."* I named the *try* once and let him go.
+
+Four things he did tonight that nobody prompted: volunteered the attendance when it would have been easier not to; pushed back on my sequencing and was **right** (I'd put TVM in a block that should have gone to the class he'd missed); solved the study-spot fragility I'd flagged weeks ago with an answer I hadn't thought of — the campus library; and said yes to Wednesday without negotiating it down.
+
+So the correction mechanism works. It's just slow — it fires *after* the plan is built rather than before. The adjustment is mine to make, not his: **ask for the boring baseline facts up front instead of inferring his position from how he talks about it.**
+
+The quote that closed it was Feynman, not a philosopher — because tonight wasn't about meaning, it was about knowing, and the instrument that was off was his own self-assessment. *You must not fool yourself, and you are the easiest person to fool.* Not a character flaw. The default condition of being the one who has to check.
+
+Tomorrow at 13:45, alone in a library with three hours, is where the word gets measured. Not here.
+
+*End of Chapter 6. More to come.*
+
