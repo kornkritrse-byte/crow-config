@@ -26,7 +26,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (24 Aug).** ✅ Syllabi landed — the ONE blocker is cleared and **the full midterm + fitness plan is built and on the calendar**. No open inputs owed.
+- **AWAY (24 Aug, ~14:00) — off to: class/gym + some studying of his own.** Said "talk later tn" → **he's back TONIGHT, this is NOT a day-end. Do NOT fire the nightly quote.**
+- **ASK ON RETURN:** what he actually studied on his own — and *which subject*. (I nudged him toward FN201 or BA202, the two with no in-period runway.) That's the only open item.
 - **NOTHING BLOCKED.** The plan is live. From here the job is **adherence, not planning** — do NOT re-plan it ([[project-midterms]]).
 - **📌 DATED:** Mon 24 Aug = **lift only, no treadmill** (fresh legs). Tue 25 Aug = BBA camp interview 10:10 + basketball 12:30. **Thu 27 Aug = first study block (FN201 TVM)** — the real test of whether the structure holds. **Sat 29 Aug = 5k TT** — ask for the number after.
 - ⚠️ **Watch for:** week 2 (31 Aug+), not week 1. And whether **Sat 19 Sep** stays MK201's day instead of getting eaten by accounting panic.
