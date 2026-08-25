@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-08-24 (day-end, verified + flushed)*
+*Last updated: 2026-08-25 (live, mid-session)*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,17 +26,24 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (24 Aug, ~22:00) — DAY-END. Off to: sleep.** Signed off with "ok bet ill try to keep my word". **Nightly quote FIRED for 24 Aug (Feynman) — do NOT repeat it if he comes back tonight.**
-- **ASK ON RETURN (25 Aug) — in this order:**
-  1. **The 13:45–17:00 BA202 PIT block in the campus library — did it happen, and what broke?** This is THE test. Ask what broke, never whether he did it.
-  2. **Did the campus library actually work as a study spot?** If yes it becomes the default for every at-uni block through Sep ([[project-midterms]]).
-  3. **Was FN201 Assignment #1 submitted?** (Due Wed 26 by 13:00 — was supposed to go out Tuesday, not in Wednesday's gap.)
-  4. The BBA camp interview (10:10) and the game (18:30) — only if he raises them; he said he needs no help with the camp.
-- 🔨 **CROW'S OWN TASK, MORNING OF 25 AUG — BEFORE 13:45:** transcripts of BA202 L1/L2/L3 finish ~23:00 tonight in `/private/tmp/claude-501/-Users-kornkrit-crow-config/c7edc6aa-e2b0-4462-abf1-08d3138f9ee1/scratchpad/` (`ba202_L*.txt`). **Build the compressed PIT notes + COLD question sets from them. I promised these would be waiting.** Check the Thai-language stretches transcribed sanely; re-run on full large-v3 if they're mangled.
-- ✅ **CLOSED:** FN201 self-study — **he did NOT do it.** Gym happened, FN201 didn't. Rescheduled to Tue 25 afternoon with a time and a place on the calendar (the whole point — the version with no time died).
-- **NOTHING BLOCKED.** The plan is live. From here the job is **adherence, not planning** — do NOT re-plan it ([[project-midterms]]).
-- **📌 DATED:** **Tue 25 Aug = interview 10:10 · FN201 Assignment #1 13:00–13:45 (errand, hard stop) · BA202 PIT 13:45–17:00 @ CAMPUS LIBRARY · friends' match 17:00 · his game 18:30 at uni.** **Wed 26 = the day he committed to: BA202 9–12 (PIT Part III) + FN201 13–16 (TVM lecture starts) + Assignment #1 due 13:00.** **Thu 27 = FN201 TVM block.** **Sat 29 = 5k TT — ask for the number.**
-- ⚠️ **Watch for:** week 2 (31 Aug+), not week 1. And whether **Sat 19 Sep** stays MK201's day instead of getting eaten by accounting panic.
+- **HERE (25 Aug, 21:58).** Home. Reported: **studying done** and **his basketball game was WON**. Nightly quote has NOT fired for 25 Aug — it fires only when he says he's logging off.
+- **STILL OPEN — ask when it fits:**
+  1. **FN201 Assignment #1 — submitted or not?** 🚨 **DUE TOMORROW (Wed 26) 13:00**, and his morning is BA202 09:00–12:00. Section 0264/01 → 13:00 deadline **CONFIRMED from the assignment brief** (no longer an inference). Topic chosen: **catastrophe bonds**. He drafted one paragraph, I flagged it needed a rewrite (payout direction inverted, "cat 5 earthquake" error). Unknown whether he finished it.
+  2. **Did the campus library work as a study spot?** Feeds [[project-midterms]] — if yes it's the default for every at-uni block through Sep.
+  3. BBA camp interview (10:10 today) — only if he raises it; he said he needs no help.
+- **📌 TOMORROW, WED 26 — THE PIVOTAL DAY:** BA202 09:00–12:00 (**his first-ever BA202 class**) · FN201 Assignment #1 due 13:00 · FN201 13:00–16:00 · gym 17:30–19:30.
+- **NOTHING BLOCKED.** Job is adherence, not planning — do NOT re-plan ([[project-midterms]]).
+- ⚠️ **Watch for:** week 2 (31 Aug+), not week 1. And whether **Sat 19 Sep** stays MK201's day.
+- **Sat 29 Aug = 5k TT — ask for the number.**
+
+## Session — 2026-08-25
+- 🎧 **Read all three BA202 transcripts and found the outline's lecture titles are WRONG** — the lecturer runs ~1 session behind. **L2 never reached PIT; PIT only starts in L3.** Korn is **one PIT lecture behind, not three.** L4 tomorrow = source rule + residence rule. Full detail → [[project-midterms]].
+- 🚨 **THE FIND OF THE DAY: a CHEAT SHEET IS ALLOWED in BA202** — midterm AND final, A4 both sides, and the lecturer told the class to build a period × milestone table. Reshapes how BA202 gets studied. Korn to confirm exact page allowance.
+- 📄 **Built + published the reconstruction** (L2 history + tax administration + constitutional basis, L3 PIT sequence + 6 taxpayer categories, 14 COLD questions): https://claude.ai/code/artifact/2c6630bc-54d1-40a5-b47e-74f69c703483 — **note: I promised these for 13:45 and delivered late; the block had already started.**
+- 🎯 **L2 is denser in exam tells than L3** — he asked AND answered several in class (source of tax law → Supreme Court judgment; not-a-tax-authority → land & building + signboard tax). All logged in [[project-midterms]].
+- 📚 **FN201 Assignment #1:** he asked for a niche topic, chose **catastrophe bonds**, and asked me to explain rather than write it — good instinct. I corrected two of his misreads (investor LOSES principal on trigger; "cat 5 earthquake" isn't a thing). **Unresolved whether he submitted.**
+- ✅ **Studying done + basketball game WON.** The 13:00–17:00 campus block appears to have held.
+- ⚠️ **Caught a stale banner:** reference_upcoming_events had today as "FN201 topic 4 / ratios" when the calendar said BA202 PIT. Fixed — mirror the calendar whenever it changes.
 
 ## Session — 2026-08-24
 - 🚨 **THE SESSION'S FINDING — attendance, volunteered unprompted.** AC313 ✅ all · AC311 ✅ all · **FN201 = week 1 only** · **BA202 = zero of three** (the 45% paper). The 23–24 Aug plan was built on "coverage is solved" — **false for both subjects he doesn't fear.** Full table, BA202 session map, FN201 session map + assessment → [[project-midterms]].
