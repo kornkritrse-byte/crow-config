@@ -14,7 +14,7 @@ metadata:
 2026-08-25 | BBA Camp Interview 10:10–10:40 (overlaps MK201) + FN201 Assignment #1 13:00–13:45 + BA202 PIT 13:45–17:00 @ campus library + Basketball game 18:30–19:45 @ uni (Tha Prachan)
 2026-08-26 | FN201 Assignment #1 DUE (by 13:00 if Group 1 / 09:00 if Group 2)
 2026-09-16 | FN201 GROUP ASSIGNMENT DUE — 15%, inside the crunch week
-2026-08-29 | 5k TIME TRIAL (morning) — real baseline
+2026-08-27 | 5k TIME TRIAL 06:30 — real baseline (MOVED from Sat 29: night out Friday)
 2026-09-20 | MIDTERM 1: MK201 Marketing 13:00–16:00
 2026-09-22 | MIDTERM 2: AC313 Cost Accounting 09:00–12:00
 2026-09-23 | MIDTERM 3: FN201 Business Finance 09:00–11:30

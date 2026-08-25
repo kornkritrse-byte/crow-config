@@ -39,7 +39,9 @@ metadata:
   2. **Did the campus library work as a study spot?** Still unanswered — feeds [[project-midterms]] as the default at-uni spot.
   3. BBA camp interview (25 Aug 10:10) — only if he raises it.
 - **📌 WED 26 = THE PIVOTAL DAY:** BA202 09:00–12:00 (**his first-ever BA202 class**; picks up at source rule + residence rule, exactly where the notes stop) · FN201 A#1 due 13:00 · FN201 13:00–16:00 (**TVM starts — 4 weeks, the midterm's centre of gravity**) · gym 17:30–19:30.
-- **Sat 29 Aug = 5k TT — ask for the number.**
+- **🏃 5k TT MOVED to THU 27 Aug 06:30** (was Sat 29) — Friday night out would have made Saturday a compromised test, and a bad baseline misprograms 4 weeks. **Ask for the number Thursday.**
+- **📅 WEEK RESHUFFLED 25 Aug (his plan):** Wed 26 = home study, BA202 09–12 (moved off Friday) + FN201 TVM clips pm + gym. Thu 27 = TT 06:30 then FN201 TVM 09:30–17:30. **Fri 28 = WRITE-OFF after EL221** (goodbye lunch ~12–15 for friends leaving on exchange year, then Klao's + dogs, then out). Sat 29 = cooked morning, AC313 pm (expect it short), easy run 17:45. Sun 30 = easy run + FN201 TVM pt2.
+- ⚠️ **BA202 L4 recording doesn't upload until the weekend** — L4 catch-up has NO slot yet. Land it Sunday or early next week.
 - ⚠️ **Watch for:** week 2 (31 Aug+), not week 1.
 - 📄 **Notes artifact:** https://claude.ai/code/artifact/2c6630bc-54d1-40a5-b47e-74f69c703483 (L2+L3 reconstruction, 14 COLD questions)
 
