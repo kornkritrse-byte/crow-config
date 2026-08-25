@@ -262,6 +262,29 @@ All on **Life**, notificationLevel NONE. **Study = Blueberry/blue (9). Training 
 - MK201 is deliberately given NOTHING until Sat 19 Sep. That is a decision, not an oversight — 30%, 2hr paper, textbook optional. If Sat 19 gets eaten by accounting panic, MK201 is the subject that pays.
 - Every red subject gets a **COLD timed past paper** before the exam period (BA202 6 Sep, FN201 10 Sep, AC313 13 Sep) and a second pass in Wk D. This is the answer to his *comprehension* fear, not his *coverage* fear.
 
+## 🎧 BA202 LECTURE AUDIO — WHAT THE RECORDINGS ACTUALLY SHOW (25 Aug)
+**Transcribed L1/L2/L3 locally and read them. The course outline's lecture titles are WRONG — the lecturer is running ~1 session behind his own schedule.**
+
+| Rec | Outline said | Actually covered |
+|---|---|---|
+| L1 (5 Aug) | Intro + Thai Tax System Pt I | as stated — global tax history, Adam Smith, Thai system Pt I. **~40% of audio lost** to a dead-air whisper loop. |
+| L2 (12 Aug) | **"PIT Part I"** | ❌ **NEVER REACHED PIT.** Thai tax system Pt II, the 7 characteristics of Thai tax law, tax administration, SDG + AI policy trends. Clean recording. Ended: *"best to stop at page 106."* |
+| L3 (19 Aug) | **"PIT Part II"** | ✅ **PIT actually begins here** — the 8-step analysis framework + the 6 categories of PIT taxpayer. Ends mid-framework at step 1. ~18% audio lost. |
+
+➡️ **KORN IS ONE PIT LECTURE BEHIND, NOT THREE.** This materially softens the 24 Aug alarm.
+➡️ **L4 (Wed 26 Aug 09:00) = source rule + residence rule** (step 2 of the framework), NOT "PIT Part III". Lecturer's own closing words on L3.
+➡️ **Deliverable built + published:** compressed PIT notes + 8 COLD questions → https://claude.ai/code/artifact/2c6630bc-54d1-40a5-b47e-74f69c703483
+
+**🚨 EXAM TELLS the lecturer signposted out loud (cheap marks):**
+- **L2:** "which type of tax best represents tax policy supporting SDGs?" — 1 MCQ. Answers: carbon tax / sugar tax / salt tax / EV exemptions.
+- **L2:** one AI question. The point: **Thailand's AI Act is still a DRAFT, not in force** (EU's has passed).
+- **L3:** the deceased-person MCQ trap — she is NOT a natural person (personality ends at death) but IS still liable as "deceased person who died during the tax year". He said he writes tempting wrong options: *"we can fool… look at the reason of each multiple choice."*
+- **L3:** the undivided-estate → inheritance-tax boundary ("interesting to ask in the exam").
+- **L3:** cascading multi-part questions — misidentify the taxpayer at step 1 and every later part is wrong.
+- **The classic student error he named unprompted:** correctly identifying a CIT entity, then computing it with PIT's *deduction and allowance* instead of *deductible expenses*.
+
+⚠️ **Transcription gotcha:** whisper large-v3-turbo produced long hallucination loops on dead/quiet audio (one line repeated 300–600×). Always `uniq`-collapse before reading — see [[reference-lecture-transcription]].
+
 ## 📆 FN201 SESSION MAP + ASSESSMENT (from the outline, 24 Aug)
 | Week | Date (Wed) | Topic |
 |---|---|---|
