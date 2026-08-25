@@ -26,16 +26,17 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **HERE (25 Aug, 21:58).** Home. Reported: **studying done** and **his basketball game was WON**. Nightly quote has NOT fired for 25 Aug — it fires only when he says he's logging off.
-- **STILL OPEN — ask when it fits:**
-  0. ✅ **RESOLVED 25 Aug ~22:10 — HE'S GOING TO CLASS TOMORROW.** He argued for skipping (3hr class + 2hr commute vs ~1hr of compressed notes), then narrowed it to skipping BA202 only. Counters that landed: **recordings don't upload until the weekend** (and Sat 29 is already 5k TT + AC313), **the commute is paid anyway** since FN201 is 13:00, and he'd hit L5 on 2 Sep never having been in the room. **Deal struck: attend once, then judge with evidence — if the room adds nothing, Crow runs the transcription pipeline WEEKLY and backs him skipping BA202.** ⚠️ Follow up Wed evening: did the room add anything?
-  1. **FN201 Assignment #1 — WRITTEN 25 Aug ~23:00 (topic: catastrophe bonds). ⚠️ SUBMISSION NOT CONFIRMED.** Due Wed 26 by **13:00** via MS Teams, filename `FN201-A1-<studentID>.pdf`, 1 page incl. bibliography. He took 3 rounds to get the money-flow direction right (investor LOSES principal on trigger; collateral is ring-fenced in an SPV, never handed to the sponsor) — he got there himself, I only corrected. **Ask first thing: did it actually go in?** 🚨 **DUE TOMORROW (Wed 26) 13:00**, and his morning is BA202 09:00–12:00. Section 0264/01 → 13:00 deadline **CONFIRMED from the assignment brief** (no longer an inference). Topic chosen: **catastrophe bonds**. He drafted one paragraph, I flagged it needed a rewrite (payout direction inverted, "cat 5 earthquake" error). Unknown whether he finished it.
-  2. **Did the campus library work as a study spot?** Feeds [[project-midterms]] — if yes it's the default for every at-uni block through Sep.
-  3. BBA camp interview (10:10 today) — only if he raises it; he said he needs no help.
-- **📌 TOMORROW, WED 26 — THE PIVOTAL DAY:** BA202 09:00–12:00 (**his first-ever BA202 class**) · FN201 Assignment #1 due 13:00 · FN201 13:00–16:00 · gym 17:30–19:30.
-- **NOTHING BLOCKED.** Job is adherence, not planning — do NOT re-plan ([[project-midterms]]).
-- ⚠️ **Watch for:** week 2 (31 Aug+), not week 1. And whether **Sat 19 Sep** stays MK201's day.
+- **HERE (25 Aug, ~23:05) — wrapping up, NOT a confirmed day-end.** **Nightly quote has NOT fired for 25 Aug.** If he signs off properly, it fires then.
+- ✅ **CLOSED TONIGHT:** FN201 Assignment #1 finished — catastrophe bonds, exported from Google Doc to `~/Downloads/FN201-A1-6802640661.pdf` (1 page, correct filename). **Assumed uploaded to Teams; he said "done fr this time" right after being told to upload. Confirm if it comes up.** Due Wed 26 13:00.
+- ✅ **CLOSED:** studying done at the campus block · **basketball game WON** · **decided to ATTEND class Wed 26** after arguing to skip.
+- **ASK ON RETURN:**
+  1. **Wed 26 evening — did the room add anything the recording wouldn't?** This is the agreed test. If it didn't, Crow runs the transcription pipeline weekly and backs him skipping BA202. If it did, the attendance argument is settled.
+  2. **Did the campus library work as a study spot?** Still unanswered — feeds [[project-midterms]] as the default at-uni spot.
+  3. BBA camp interview (25 Aug 10:10) — only if he raises it.
+- **📌 WED 26 = THE PIVOTAL DAY:** BA202 09:00–12:00 (**his first-ever BA202 class**; picks up at source rule + residence rule, exactly where the notes stop) · FN201 A#1 due 13:00 · FN201 13:00–16:00 (**TVM starts — 4 weeks, the midterm's centre of gravity**) · gym 17:30–19:30.
 - **Sat 29 Aug = 5k TT — ask for the number.**
+- ⚠️ **Watch for:** week 2 (31 Aug+), not week 1.
+- 📄 **Notes artifact:** https://claude.ai/code/artifact/2c6630bc-54d1-40a5-b47e-74f69c703483 (L2+L3 reconstruction, 14 COLD questions)
 
 ## Session — 2026-08-25
 - 🎧 **Read all three BA202 transcripts and found the outline's lecture titles are WRONG** — the lecturer runs ~1 session behind. **L2 never reached PIT; PIT only starts in L3.** Korn is **one PIT lecture behind, not three.** L4 tomorrow = source rule + residence rule. Full detail → [[project-midterms]].
