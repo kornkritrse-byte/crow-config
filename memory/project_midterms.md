@@ -285,6 +285,21 @@ All on **Life**, notificationLevel NONE. **Study = Blueberry/blue (9). Training 
 
 ⚠️ **Transcription gotcha:** whisper large-v3-turbo produced long hallucination loops on dead/quiet audio (one line repeated 300–600×). Always `uniq`-collapse before reading — see [[reference-lecture-transcription]].
 
+### 🚨 BA202 CHEAT SHEET IS ALLOWED (found in L2 audio, 25 Aug)
+**Lecturer stated it in class: students may bring a cheat sheet to BOTH the midterm and the final. A4, both sides.** He raised it unprompted when asked how to cope with the volume of history, and told the class what to put on it: **a table of periods (left column) × key milestone**.
+➡️ **This changes how BA202 should be studied** — dates, tax counts, milestone lists and the department→tax mapping do NOT need memorising. Build the sheet; spend revision on reasoning instead.
+⚠️ Exact page allowance garbled in the audio — **Korn to confirm page count + whether handwritten** with the lecturer or the handout.
+
+### 📚 L2 CONTENT (clean recording, fully reconstructed 25 Aug)
+Thai tax history (economists' 4 periods: Classical → Reform/Rama V → post-1932 → Modern/1986+); the Rama III-broke-it / Rama V-fixed-it causal chain; **customs duty = first Thai tax (late Sukhothai, from China trade) and the ONLY tax to survive every period**; Ayutthaya's 4 taxes (customs, akon, ruecha, tribute); Revenue Code 1938; Central Tax Court 1986 (**tax court passed, commercial court did NOT**); VAT+SBT 1992 from the French model; **Revenue Code = 5 taxes** (PIT/CIT/VAT/SBT/stamp duty); sources of tax law (civil law → written law only); tax administration; Constitution s.4 + s.37 + s.50(9) + s.26.
+
+**MORE EXAM TELLS FROM L2 (he asked AND answered several in class — free marks):**
+- **"Which is NOT a source of Thai tax law?" → SUPREME COURT JUDGMENT** (civil law system = written law only).
+- **"Which tax is NOT collected by a tax authority?" → LAND & BUILDING TAX + SIGNBOARD TAX** (Ministry of Interior collects for MoF, for convenience).
+- **"Which department collects which tax" — his words: "that is the key question in part one of your midterm examination."** Two-parter flagged: petroleum income tax → collected by the **Revenue Department**.
+- **"Which route challenges an unfair tax law?"** → Constitutional Court direct / via tax court referral / Ombudsman.
+- ⚠️ **NEW THIS SEMESTER:** Central Tax Court now has **criminal** jurisdiction too (tax evasion), not just civil. He flagged it as a fresh update.
+
 ## 📆 FN201 SESSION MAP + ASSESSMENT (from the outline, 24 Aug)
 | Week | Date (Wed) | Topic |
 |---|---|---|
