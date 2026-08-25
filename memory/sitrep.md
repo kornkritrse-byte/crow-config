@@ -28,9 +28,14 @@ metadata:
 ## 🚪 Current status
 - **HERE (25 Aug, ~23:05) — wrapping up, NOT a confirmed day-end.** **Nightly quote has NOT fired for 25 Aug.** If he signs off properly, it fires then.
 - ✅ **CLOSED TONIGHT:** FN201 Assignment #1 finished — catastrophe bonds, exported from Google Doc to `~/Downloads/FN201-A1-6802640661.pdf` (1 page, correct filename). **Assumed uploaded to Teams; he said "done fr this time" right after being told to upload. Confirm if it comes up.** Due Wed 26 13:00.
-- ✅ **CLOSED:** studying done at the campus block · **basketball game WON** · **decided to ATTEND class Wed 26** after arguing to skip.
+- 🔄 **REVERSED ~23:15 (25 Aug): HE IS SKIPPING WED 26 CLASSES AFTER ALL.** Trigger: talked to friends — ~5 are skipping, AND friends who already took FN201 with good grades told him the recorded clips are enough. **He says he'll still study at home + gym in the afternoon with zone-2.**
+  - ⚠️ **The decision flipped on peer input within ~30 min of committing.** Pattern worth watching — not the class choice itself, the durability of the commitment ([[user-korn-struggles]], contentment-as-cover / [[crew-vera]]).
+  - ⚠️ **The ex-students' testimony is real evidence about FN201 and I conceded it.** The social proof (5 friends skipping) is not. Kept those separate for him.
+  - ⚠️ **STILL UNADDRESSED by anyone:** BA202 L4 recording doesn't upload until the WEEKEND, and Sat 29 already holds the 5k TT + AC313 costing block.
+  - 🎯 **THE TEST, ask Wed evening:** did the freed hours actually convert to study? On 24 Aug the same trade (skip study, keep gym) ended with gym done and FN201 not.
+- ✅ **CLOSED:** studying done at the campus block · **basketball game WON**.
 - **ASK ON RETURN:**
-  1. **Wed 26 evening — did the room add anything the recording wouldn't?** This is the agreed test. If it didn't, Crow runs the transcription pipeline weekly and backs him skipping BA202. If it did, the attendance argument is settled.
+  1. **Wed 26 evening — DID THE STUDY ACTUALLY HAPPEN?** He skipped, so the attendance experiment is dead; this is now the only test that matters. Specifically: FN201 TVM clips watched? Assignment submitted before 13:00?
   2. **Did the campus library work as a study spot?** Still unanswered — feeds [[project-midterms]] as the default at-uni spot.
   3. BBA camp interview (25 Aug 10:10) — only if he raises it.
 - **📌 WED 26 = THE PIVOTAL DAY:** BA202 09:00–12:00 (**his first-ever BA202 class**; picks up at source rule + residence rule, exactly where the notes stop) · FN201 A#1 due 13:00 · FN201 13:00–16:00 (**TVM starts — 4 weeks, the midterm's centre of gravity**) · gym 17:30–19:30.
