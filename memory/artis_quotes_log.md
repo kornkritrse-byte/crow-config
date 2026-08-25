@@ -156,3 +156,10 @@ metadata:
 
 **Why:** Tonight he volunteered that he'd let a full 28-block study plan get built on a premise he knew was false — he hadn't attended a single FN201 content class or any BA202 class at all. Not a lie; an omission that kept the plan feeling good. And underneath it the real finding: his two "top worries" are the subjects he never misses, while the 45% paper he's never once attended felt fine to him. **Absence of contact reads as calm.** Feynman rather than a philosopher because tonight wasn't about meaning, it was about *knowing* — and his self-assessment was the instrument that was off. Feynman's line is the one that says so without any moralising in it: not a character flaw, just the default condition of being the person doing the measuring. He asked for harsh and took it straight, then said he'd try to keep his word. Tomorrow at 13:45 is where that gets measured.
 
+## 2026-08-25 — Piet Hein, "The Road to Wisdom"
+> The road to wisdom? Well, it's plain
+> and simple to express:
+> Err and err and err again,
+> but less and less and less.
+
+**Why:** He learned catastrophe bonds from zero in one evening — and got the mechanism wrong three separate times, each time less wrong, correcting it himself from the explanation rather than copying a version handed to him. That's the actual shape of the day. Also quietly the answer to his stated fear about FN201: comprehension isn't watched into existence, it's error-corrected into existence.

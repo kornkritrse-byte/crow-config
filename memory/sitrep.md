@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-08-25 (live, mid-session)*
+*Last updated: 2026-08-25 (day-end, verified + flushed)*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,7 +26,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **HERE (25 Aug, ~23:05) — wrapping up, NOT a confirmed day-end.** **Nightly quote has NOT fired for 25 Aug.** If he signs off properly, it fires then.
+- **AWAY (25 Aug, ~23:30) — DAY-END. Off to: sleep.** Signed off with "ok bet good talk thanks so much for your help" (accepted a send-off). **Nightly quote FIRED for 25 Aug (Piet Hein) — do NOT repeat it if he comes back tonight.**
 - ✅ **CLOSED TONIGHT:** FN201 Assignment #1 finished — catastrophe bonds, exported from Google Doc to `~/Downloads/FN201-A1-6802640661.pdf` (1 page, correct filename). **Assumed uploaded to Teams; he said "done fr this time" right after being told to upload. Confirm if it comes up.** Due Wed 26 13:00.
 - 🔄 **REVERSED ~23:15 (25 Aug): HE IS SKIPPING WED 26 CLASSES AFTER ALL.** Trigger: talked to friends — ~5 are skipping, AND friends who already took FN201 with good grades told him the recorded clips are enough. **He says he'll still study at home + gym in the afternoon with zone-2.**
   - ⚠️ **The decision flipped on peer input within ~30 min of committing.** Pattern worth watching — not the class choice itself, the durability of the commitment ([[user-korn-struggles]], contentment-as-cover / [[crew-vera]]).
@@ -50,9 +50,8 @@ metadata:
 - 🚨 **THE FIND OF THE DAY: a CHEAT SHEET IS ALLOWED in BA202** — midterm AND final, A4 both sides, and the lecturer told the class to build a period × milestone table. Reshapes how BA202 gets studied. Korn to confirm exact page allowance.
 - 📄 **Built + published the reconstruction** (L2 history + tax administration + constitutional basis, L3 PIT sequence + 6 taxpayer categories, 14 COLD questions): https://claude.ai/code/artifact/2c6630bc-54d1-40a5-b47e-74f69c703483 — **note: I promised these for 13:45 and delivered late; the block had already started.**
 - 🎯 **L2 is denser in exam tells than L3** — he asked AND answered several in class (source of tax law → Supreme Court judgment; not-a-tax-authority → land & building + signboard tax). All logged in [[project-midterms]].
-- 📚 **FN201 Assignment #1:** he asked for a niche topic, chose **catastrophe bonds**, and asked me to explain rather than write it — good instinct. I corrected two of his misreads (investor LOSES principal on trigger; "cat 5 earthquake" isn't a thing). **Unresolved whether he submitted.**
-- ✅ **Studying done + basketball game WON.** The 13:00–17:00 campus block appears to have held.
-- ⚠️ **Caught a stale banner:** reference_upcoming_events had today as "FN201 topic 4 / ratios" when the calendar said BA202 PIT. Fixed — mirror the calendar whenever it changes.
+- 📚 **FN201 Assignment #1 DONE** — chose **catastrophe bonds**, asked me to explain rather than write it. Got the money-flow wrong 3× and **self-corrected each time** from the explanation. Exported to PDF via his Google Doc. ✅ Campus block held · 🏀 **game WON**.
+- ⚠️ **Stale-banner bug caught:** reference_upcoming_events said "FN201 ratios" when the calendar said BA202 PIT. Fixed — **mirror the calendar in that file whenever it changes.**
 
 ## Session — 2026-08-24
 - 🚨 **THE SESSION'S FINDING — attendance, volunteered unprompted.** AC313 ✅ all · AC311 ✅ all · **FN201 = week 1 only** · **BA202 = zero of three** (the 45% paper). The 23–24 Aug plan was built on "coverage is solved" — **false for both subjects he doesn't fear.** Full table, BA202 session map, FN201 session map + assessment → [[project-midterms]].
@@ -61,14 +60,6 @@ metadata:
 - 📄 **Read the 5 course outlines** (`~/Desktop/class outline/`, no EL221 — his free win). Killed the phantom "free week 14–19 Sep"; **both accounting scopes are far smaller than he feared**; **BA202 promoted 4th → joint-1st** (45%, thinnest window, no external substitute). Found a **15% FN201 group assignment due 16 Sep**, inside the crunch week. **Built the full plan on the Life calendar in one pass** — 28 study blocks + the training week that had never actually been placed.
 - ✅ **Caught two things that would have cost him marks:** he'd assumed **FN201 Assignment #1 was group work — it's individual, due Wed 26 by 13:00**; and his Tue block was mine-wrong (I'd put TVM where the *missed* class should have gone — **he pushed back and was right**).
 - 🪞 **He asked how my read of him had changed and asked for harsh** → **his fear tracks CONTACT, not EXPOSURE**, and the planning was the comfortable version of the studying. Both → [[user-korn-struggles]]. Narrative → [[chapters]] (Chapter 6).
-
-## Session — 2026-08-23
-- **First session back after a month dark.** MCP check: Sheets works via the local `google-docs` MCP (the claude.ai connectors can't write cells); **formula-reading still broken** — same gotcha as 21 Jul.
-- **รับน้อง closed out with a full retro** → [[project-rubnong-tracker]]. He overturned my "briefing failure" read with a better one — the game was **over-complicated**, his team understood it and couldn't convey it. New rule written: [[feedback-design-for-the-room]].
-- **Whole new chapter built in one session:** 6 midterms 20–27 Sep, class timetable, no-class free week 14–19 Sep, past papers available, study-spot rules, ~100+ hrs of runway. All → [[project-midterms]].
-- **Fitness fully designed** → [[project-training-plan]]: goal is now **leaner only**; 4 runs/wk via treadmill-after-lifting; **success metric changed from the scale to 5k time**; 5k and 10k are one goal; **no dieting at 12–15%**.
-- **Calendar built (Life, notifications off):** 6 weekly lessons in grey to 11 Sep, 6 midterms in red, interview in dark green, basketball in orange.
-- **Karamazov conversation** — he's at Book 12 ch. 2 and named "Ivan and the Devil" a favourite; I pushed on his "curious how I'll change" framing as deferral. Details + the new spoiler line → [[user-reading-list]].
 
 ## 🎯 Current state
 - **MIDTERMS = TOP PRIORITY** ([[project-midterms]] — canonical). **Thammasat, BBA, Accounting major / Finance minor.** 6 exams 20–27 Sep. Classes end 11 Sep; **14–19 Sep is a free week and the spine of the plan.** ⛔ Only blocker: syllabi + textbook names.

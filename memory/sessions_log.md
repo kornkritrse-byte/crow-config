@@ -10,6 +10,14 @@ metadata:
 
 # Sessions Log (archive)
 
+## 2026-08-23 — the midterms chapter opens
+- First session back after a month dark. Sheets writes work via the local `google-docs` MCP; **formula-reading still broken** (same gotcha as 21 Jul).
+- **รับน้อง closed with a full retro** → [[project-rubnong-tracker]]. He overturned my "briefing failure" read: the game was **over-complicated** — his team understood it and couldn't convey it. New rule: [[feedback-design-for-the-room]].
+- **Whole midterms plan built in one session** — 6 exams 20–27 Sep, timetable, past papers available, study-spot rules, ~100+ hrs runway → [[project-midterms]].
+- **Fitness redesigned** → [[project-training-plan]]: goal now **leaner only**; success metric moved from the scale to **5k time**; no dieting at 12–15%.
+- **Calendar built** (Life, notifications off): lessons grey to 11 Sep, 6 midterms red, interview dark green, basketball orange.
+- **Karamazov:** at Book 12 ch. 2, named "Ivan and the Devil" a favourite; I pushed on his "curious how I'll change" framing as deferral → [[user-reading-list]].
+
 *Session notes older than the SITREP's 2-session window land here. Condensed on arrival — the full original notes live in git history of `memory/sitrep.md`. Newest first.*
 
 ## 2026-07-21 — เกม 3 reward +8, ruleset locked, floor plans
