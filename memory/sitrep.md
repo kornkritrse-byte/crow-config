@@ -26,7 +26,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **HERE (26 Aug, 12:53)** — back mid-day on the pivotal Wednesday. Nightly quote for 25 Aug already fired (Piet Hein) — do not repeat.
+- **AWAY (26 Aug, ~18:55) — off to: not stated ("save for now, ill be back in the evening").** NOT a day-end — he is returning tonight, so **no nightly quote and no `~/.crow-session-ending` yet**; the 26 Aug quote fires only when he actually logs off for the day. Session ran 12:53 → 18:55.
 - ✅ **CONFIRMED 26 Aug ~13:00: FN201 Assignment #1 SUBMITTED.** He is **Group 1** (clip title reads "26F BBA G1") → the 13:00 deadline was his. Closed.
 - ▶️ **He is watching the FN201 TVM clip right now** — "FN201 26F BBA G1 L02 OBF2 ABF TVM1 260812 MU1" (rec. 12 Aug), YouTube channel **Obrom Chaowalerd** (@obromchaowalerd5981). **The FN201 recorded clips live on public YouTube — that channel is the intake source.** Note L02 = TVM1, so the clips run AHEAD of class; flipped-classroom confirmed again.
 - 🟢 **Korn confirmed (26 Aug): this is the FIRST TVM coverage — there is NO TVM backlog.** He is arriving at TVM on schedule. **FN201 is pace-keeping, not catch-up.** The only real hole remains **BA202** (zero classes attended, 45% paper, L4 recording not up till the weekend).
@@ -41,10 +41,12 @@ metadata:
   - ⚠️ **STILL UNADDRESSED by anyone:** BA202 L4 recording doesn't upload until the WEEKEND, and Sat 29 already holds the 5k TT + AC313 costing block.
   - 🎯 **THE TEST, ask Wed evening:** did the freed hours actually convert to study? On 24 Aug the same trade (skip study, keep gym) ended with gym done and FN201 not.
 - ✅ **CLOSED:** studying done at the campus block · **basketball game WON**.
-- **ASK ON RETURN:**
-  1. **Wed 26 evening — DID THE STUDY ACTUALLY HAPPEN?** He skipped, so the attendance experiment is dead; this is now the only test that matters. Specifically: FN201 TVM clips watched? Assignment submitted before 13:00?
-  2. **Did the campus library work as a study spot?** Still unanswered — feeds [[project-midterms]] as the default at-uni spot.
-  3. BBA camp interview (25 Aug 10:10) — only if he raises it.
+- **ASK ON RETURN (evening of 26 Aug):**
+  1. 🎯 **THE NUMBER — how many of the 16 drill problems did he get right FIRST TRY?** Not "did you read it." He had ~13:00–18:55 with the Playbook open. This is THE test of whether the skipped classes converted. (Q9 delayed annuity + Q11 growing perpetuity are the two designed to catch him.)
+  2. **Did the 17:30 gym block happen?** It was 18:53 when he left — either it just ran, or it got dropped. On 24 Aug the same trade ended gym-done/study-not; watch for the mirror image today.
+  3. **Did he actually open LN4** (`~/Desktop/fn/FN201-26F-BBA-LN4-TVM-V22-260701.pdf`) — or work only from the artifact? The artifact is a drill layer, NOT a substitute for the deck.
+  4. BBA camp interview (25 Aug 10:10) — only if he raises it.
+  5. ~~Campus library as a study spot~~ — stale, he stayed home today. Re-ask next time he studies on campus.
 - **📌 WED 26 = THE PIVOTAL DAY:** BA202 09:00–12:00 (**his first-ever BA202 class**; picks up at source rule + residence rule, exactly where the notes stop) · FN201 A#1 due 13:00 · FN201 13:00–16:00 (**TVM starts — 4 weeks, the midterm's centre of gravity**) · gym 17:30–19:30.
 - **🏃 5k TT MOVED to THU 27 Aug 06:30** (was Sat 29) — Friday night out would have made Saturday a compromised test, and a bad baseline misprograms 4 weeks. **Ask for the number Thursday.**
 - **📅 WEEK RESHUFFLED 25 Aug (his plan):** **Wed 26 = FN201 TVM intake + first problems 09:00–16:00** + gym 17:30. **Thu 27 = 5k TT 06:30 then BA202 09:30–17:30** (his own swap — correct: TVM intake and problems belong on the SAME day, and it frees his best block for the 45% paper). **Fri 28 = WRITE-OFF after EL221** (goodbye lunch ~12–15 for friends leaving on exchange year, then Klao's + dogs, then out). Sat 29 = cooked morning, AC313 pm (expect it short), easy run 17:45. Sun 30 = easy run + FN201 TVM pt2.
