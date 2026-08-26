@@ -26,7 +26,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (25 Aug, ~23:30) — DAY-END. Off to: sleep.** Signed off with "ok bet good talk thanks so much for your help" (accepted a send-off). **Nightly quote FIRED for 25 Aug (Piet Hein) — do NOT repeat it if he comes back tonight.**
+- **HERE (26 Aug, 12:53)** — back mid-day on the pivotal Wednesday. Nightly quote for 25 Aug already fired (Piet Hein) — do not repeat.
 - ✅ **CLOSED TONIGHT:** FN201 Assignment #1 finished — catastrophe bonds, exported from Google Doc to `~/Downloads/FN201-A1-6802640661.pdf` (1 page, correct filename). **Assumed uploaded to Teams; he said "done fr this time" right after being told to upload. Confirm if it comes up.** Due Wed 26 13:00.
 - 🔄 **REVERSED ~23:15 (25 Aug): HE IS SKIPPING WED 26 CLASSES AFTER ALL.** Trigger: talked to friends — ~5 are skipping, AND friends who already took FN201 with good grades told him the recorded clips are enough. **He says he'll still study at home + gym in the afternoon with zone-2.**
   - ⚠️ **The decision flipped on peer input within ~30 min of committing.** Pattern worth watching — not the class choice itself, the durability of the commitment ([[user-korn-struggles]], contentment-as-cover / [[crew-vera]]).
