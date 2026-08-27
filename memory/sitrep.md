@@ -26,6 +26,12 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
+- **IN THE BLOCK (27 Aug, ~10:45) — off to: BA202 study, at home now → favourite cafe after lunch → Karamazov → then day-end.** ⚠️ **NOT a day-end yet** — he forecast "call it a day" but has not signed off. **No nightly quote, no `~/.crow-session-ending` until he actually says he's done.**
+- **ASK ON RETURN (27 Aug):**
+  1. 🎯 **The new cold questions — which ones did he miss?** 11 new ones (Q15–25) on s.41/s.40/s.42. Same test as the TVM drills. **He deferred the FN drill detail this morning ("we can get into detail about that later") — don't let this one slide the same way.**
+  2. **Did he email Ajarn Pattie the scope question** (are petroleum income tax + special CIT regimes/BOI/DTAs on the midterm)? 2-minute email, could remove 2 topics from the 45% exam.
+  3. **Did the cafe move happen** — and is the cafe actually a better study spot than home? (Supersedes the stale campus-library question.)
+  4. ⏳ **Still open from this morning:** which of the 16 TVM drills he missed — specifically **Q9 delayed annuity** and **Q11 growing perpetuity**.
 - **HERE — Thu 27 Aug 09:28.** ⚠️ **He never came back on the evening of 26 Aug** (said "back in the evening", didn't return). So the whole 26 Aug evening is UNREPORTED and the ASK-ON-RETURN list below is still fully open. **No 26 Aug nightly quote fired and none should — he never signed off; do not retro-fire it.**
 - 🏃 **5k BASELINE SET — 25:30 (27 Aug 06:30).** = 5:06/km. Gap to the 20:00 horizon goal is 5:30 / ~22% — that is a 12–18 month project, NOT this year. **He positive-split it (went out way too fast), so true current fitness is likely ~24:45–25:00.** Baseline is soft but USABLE — do not re-test before 27 Sep. → [[project-training-plan]]
 - ✅ **26 Aug EVENING DELIVERED — my prediction was wrong on 3 of 4.** He read + took handwritten notes, **cold-tested the drills and got ~8/16 with no notes open**, and trained at home (calisthenics circuit: pull-ups, front levers, DB biceps, push-ups, sit-ups) instead of the 17:30 Jetts block. No night out. **The 26 Aug skip-classes trade CONVERTED.**
