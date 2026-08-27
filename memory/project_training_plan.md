@@ -164,7 +164,14 @@ No gym, no quality work **17–27 Sep**. Two easy 30min runs only: **Mon 21 + Th
 - **The post-27 Sep ramp now has a deadline and a number.** Sub-24:00 5k in late Oct is still the right checkpoint — it sits directly on the line to 48:00.
 - **Add a 10k-specific element from ~early Nov:** the Sunday quality rotation should start including sustained threshold (2 × 15 min, then 20–25 min continuous @ 5:10–5:20) rather than only short VO2 reps. 10k is a threshold race.
 - **Long run should reach 14–16 km by late Nov**, then taper the final 10 days.
-- ⛔ **Not yet on the calendar** — waiting on race name, start time and venue from him. Bangkok events often gun at 04:00–05:30, which changes the whole taper week.
+### 🕓 RACE-DAY LOGISTICS — CONFIRMED 27 Aug
+- **Samitivej hospital's own event.** His **dad signed him up** — Samitivej is the hospital he's gone to since he was a kid. He did not choose this race; it arrived. Note it, don't make a thing of it.
+- **Register 04:00 · GUN 05:00.** Venue still unknown (not listed in any public race database as of 27 Aug — ask him).
+- ✅ **ON THE LIFE CALENDAR** ([[reference-calendars]]), 04:00–07:00, red (11), notificationLevel NONE, full pacing + race-morning plan in the event description. Event id `uk1pd54hcprjghvhgekdu8ej7c`.
+- 🌅 **A 05:00 gun is a performance GIFT** — coolest hour of the Bangkok day, mid-December, lowest humidity. This is the opposite of the heat-suppressed August TT and it supports the 48:00 target.
+- ⚠️ **Wake ~02:30.** Sleep has to be shifted across the **whole final week**, not the night before — one early night doesn't work, and a bad-sleep race is a slow race.
+- ⚠️ **The hour between registration and gun is a real trap.** Do NOT warm up at 03:50 and then stand around for 60 min getting cold and stiff. Warm up in the **last 20 min**: 10 min easy + 4 strides.
+- 🍞 **Eat light ~03:30.** Eating at 3am is a skill — **practise it on at least two long runs in the final month**, run at race time. Never debut race-day fuelling on race day.
 
 ### 📍 Sequencing agreed
 - **23 Aug → 27 Sep (midterms):** MAINTAIN, do not build. Training is not the priority; it is the anchor that keeps structure.

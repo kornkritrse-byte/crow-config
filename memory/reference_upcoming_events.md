@@ -21,6 +21,7 @@ metadata:
 2026-09-25 | MIDTERM 4: EL221 Communicative English 09:00–12:00
 2026-09-26 | MIDTERM 5: AC311 Intermediate Accounting 09:00–12:00
 2026-09-27 | MIDTERM 6: BA202 Taxation 09:00–12:00
+2026-12-13 | 🏁 10K RACE — Samitivej hospital event (register 04:00, GUN 05:00, venue TBC). Target 48:00.
 
 *(รับน้อง camp CLOSED — ran 25–27 Jul 2026. July events pruned 23 Aug; retro in [[project-rubnong-tracker]].)*
 *(Class lessons are on the Life calendar as weekly recurring, grey/Graphite — intentionally NOT mirrored here, same reason as training.)*
