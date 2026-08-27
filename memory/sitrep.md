@@ -26,7 +26,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (26 Aug, ~18:55) — off to: not stated ("save for now, ill be back in the evening").** NOT a day-end — he is returning tonight, so **no nightly quote and no `~/.crow-session-ending` yet**; the 26 Aug quote fires only when he actually logs off for the day. Session ran 12:53 → 18:55.
+- **HERE — Thu 27 Aug 09:28.** ⚠️ **He never came back on the evening of 26 Aug** (said "back in the evening", didn't return). So the whole 26 Aug evening is UNREPORTED and the ASK-ON-RETURN list below is still fully open. **No 26 Aug nightly quote fired and none should — he never signed off; do not retro-fire it.**
+- 🏃 **5k TT was scheduled 06:30 TODAY (27 Aug) — ask for the number first.** BA202 block 09:30–17:30 starts now.
 - ✅ **CONFIRMED 26 Aug ~13:00: FN201 Assignment #1 SUBMITTED.** He is **Group 1** (clip title reads "26F BBA G1") → the 13:00 deadline was his. Closed.
 - ▶️ **He is watching the FN201 TVM clip right now** — "FN201 26F BBA G1 L02 OBF2 ABF TVM1 260812 MU1" (rec. 12 Aug), YouTube channel **Obrom Chaowalerd** (@obromchaowalerd5981). **The FN201 recorded clips live on public YouTube — that channel is the intake source.** Note L02 = TVM1, so the clips run AHEAD of class; flipped-classroom confirmed again.
 - 🟢 **Korn confirmed (26 Aug): this is the FIRST TVM coverage — there is NO TVM backlog.** He is arriving at TVM on schedule. **FN201 is pace-keeping, not catch-up.** The only real hole remains **BA202** (zero classes attended, 45% paper, L4 recording not up till the weekend).
