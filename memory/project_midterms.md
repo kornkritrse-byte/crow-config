@@ -325,7 +325,7 @@ Thai tax history (economists' 4 periods: Classical → Reform/Rama V → post-19
 ## 🔓 BA202 HANDOUTS — THE UNLOCK (27 Aug 2026)
 
 **Google Classroom/Drive folder:** https://drive.google.com/drive/folders/1OVMV9lSMsAPSZf_KXQQp5CUeAoxR27QF
-Only **3 files** exist (lecturer = Asst. Prof. Dr Patharawan Chongchit, "Ajarn Pattie"):
+Only **3 files** exist (lecturer = Asst. Prof. Dr Patharawan Chongchit, "Ajarn Pattie" — **she/her**, confirmed by Korn 27 Aug):
 | # | File | ID | Covers |
 |---|---|---|---|
 | 1 | Course Outline (both sections) | `1iWshmImG0sAXjxRBO9ZDfHec6tox5ipU` | admin |
