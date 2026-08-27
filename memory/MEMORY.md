@@ -12,6 +12,7 @@
 - [Google Docs MCP](project_google_docs_mcp.md) — working on the Mac via bin/gdocs-launcher.cjs; credentials at ~/.google/ (outside git)
 - [rclone Drive Upload](project_rclone_drive.md) — remote `gdrive` on the Windows laptop; the working path for any local→Drive file transfer
 - [Lecture Transcription Pipeline](reference_lecture_transcription.md) — turn 3-hr lecture recordings into notes: whisper-cli + ffmpeg on the Mac, Drive download via ~/.google creds; `-l auto` (his lectures are EN/TH mixed), check battery first
+- [Study Artifacts](reference_artifacts.md) — every artifact built for Term 2.1 + the hub URL + the one-doc-per-subject rule
 - [Skills Reference](reference_skills.md) — installed skills in .claude/skills/; must be called explicitly
 - [Calendar IDs](reference_calendars.md) — which Google Calendar each kind of event goes into (camp → Rubnong34x35, personal → Life); always notificationLevel NONE
 - [Upcoming Events](reference_upcoming_events.md) — feeds the session-start banner; MUST be updated whenever calendar events change in-session
