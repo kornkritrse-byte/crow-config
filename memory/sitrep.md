@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-08-27 (session close — verified + flushed; NOT a day-end, he is back tonight)*
+*Last updated: 2026-08-27 (DAY-END — verified + flushed; quote fired, `~/.crow-session-ending` touched. Window holds 27 + 26 Aug, so nothing fell out to [[sessions-log]] this time.)*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,17 +26,19 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (27 Aug, back after dinner — returned from Karamazov + dinner as planned).**
-- ⚠️ **The day-end has NOT fired yet.** No nightly quote and no `~/.crow-session-ending` until he signs off for the day.
-- ✅ **Nothing open.** Artifact links confirmed working (he tapped them). Cheat sheet confirmed at 8 printed sheets.
+- **AWAY (27 Aug, ~20:10) — DAY-END. "ill see you tmr." Nightly quote fired, `~/.crow-session-ending` touched.**
+- **Tomorrow (Fri 28 Aug) he pre-declared a "social ass day" and told me not to expect studying.** Not avoidance — he said it up front. But pre-announcing a write-off is also how a write-off gets authorised. Named it once, lightly. Do not nag it on return.
+- **ASK ON RETURN — one thing only:**
+  1. 🧾 **AC artifacts** — he floated "maybe ill just have you make some artifacts for ac tmr..idk". ⛔ **BLOCKED until he brings material**: there is no AC313/AC311 syllabus, outline or handout in hand ([[project-midterms]] — syllabi are still the standing blocker). If he raises it, the first move is "send me the outline/handouts", not "let's build".
+- **Race loose ends (not urgent, 15 weeks out):** venue unknown, and whether bib pickup is race-morning or in advance — his dad likely has the confirmation.
 - **Everything else from today is closed.** → today's session note below.
 
 ## Session — 2026-08-27  *(a very heavy day — durable detail lives in the linked files, not here)*
 - 🏃 **5k baseline finally set: 25:30.** Positive-split, so true fitness ~24:45–25:00. **Run structure now written** — paces, the Sunday quality rotation, the "first km is the slowest km" rule → [[project-training-plan]]. 20:00 is a 12–18 month project and he has been told so.
 - 🔓 **BA202 unblocked: L4's whole content was already in a handout he had.** I twice declared coverage gaps from lecture audio without the deck and was **wrong both times**. New rule → get the handout before calling anything missing. Full audit, file IDs, corrected session map → [[project-midterms]].
-- 📊 **Two cold tests, and the contrast is the finding of the day.** BA202 **20/25** — every miss was lookup. FN201 TVM **11/16** — every miss was procedure. **Paper fixes one, only reps fix the other, and FN201 is the earlier exam.** → [[project-midterms]]
-- 🃏 **✅ BA202 CHEAT SHEET CONFIRMED (evening): 8 A4 sheets, printed is fine.** Friend verified — the number the whole BA202 strategy rests on is settled, and printing means the GoodNotes build exports straight out with no handwriting tax. He also chose to **treat the outline scope as-is** and skip emailing Ajarn Pattie — his call, stop re-raising it. → [[project-midterms]]
-- 🗺️ **Artifacts: BA202 doc extended to L1–L4 with a sidebar TOC, 7 hand-built SVG diagrams, 25 cold questions and worked examples; the Term 2.1 hub built; all three now link to each other.** URLs, the one-doc-per-subject rule and the build/verify checklist → [[reference-artifacts]]
+- 📊 **Two cold tests + the cheat sheet, and together they're the study finding of the day.** BA202 **20/25**, every miss a lookup. FN201 TVM **11/16**, every miss procedure. ✅ **BA202 sheet CONFIRMED that evening: 8 A4 sheets, printed fine** — so paper fixes the BA202 misses outright, while only reps fix FN201, and **FN201 is the earlier exam.** He also chose to take the outline scope as-is and skip emailing Ajarn Pattie — his call, stop re-raising it. → [[project-midterms]]
+- 🏁 **A 10K RACE LANDED ON THE CALENDAR — Sun 13 Dec 2026, Samitivej hospital's own event, and his DAD signed him up.** Register 04:00, gun 05:00, venue <15 min away. Targets given: **floor sub-52 · target 48:00 · stretch sub-47.** Wake 03:30 agreed (he proposed 03:45 and took the recommendation). **This is the externally-dated near milestone the training plan said it needed and could never give itself** → [[project-training-plan]]
+- 🗺️ **Artifacts: BA202 doc extended to L1–L4 with a sidebar TOC, 7 hand-built SVG diagrams, 25 cold questions and worked examples; the Term 2.1 hub built; all three now link to each other, and ✅ he tapped the links and confirmed they work.** URLs, the one-doc-per-subject rule and the build/verify checklist → [[reference-artifacts]]
 - 🧭 **Read of him:** he asked for diagrams unprompted and used them well; he took direct correction on his own framing three separate times without defensiveness; and the day's plan changed twice (cafe dropped, email dropped) with **good reasons given both times** — a different thing from the 25 Aug peer-driven flip.
 
 ## Session — 2026-08-26

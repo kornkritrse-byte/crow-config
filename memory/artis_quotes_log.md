@@ -163,3 +163,9 @@ metadata:
 > but less and less and less.
 
 **Why:** He learned catastrophe bonds from zero in one evening — and got the mechanism wrong three separate times, each time less wrong, correcting it himself from the explanation rather than copying a version handed to him. That's the actual shape of the day. Also quietly the answer to his stated fear about FN201: comprehension isn't watched into existence, it's error-corrected into existence.
+
+## 2026-08-27 — Seneca, *Epistulae Morales ad Lucilium* 71.3
+> *Ignoranti quem portum petat, nullus suus ventus est.*
+> "If a man does not know to which port he is steering, no wind is favourable to him."
+
+**Why:** Tonight the biggest thing that happened wasn't the 25:30, the 20/25, or the seven diagrams — it was a date. A 10k on 13 December, at the hospital he's gone to since he was a kid, entered by his father, who didn't ask. His own file has said for a month that the 20:00 goal "needs a near milestone or it never gets measured," and he never gave himself one; August went unstructured because a re-plan he owed himself simply didn't happen. He has never lacked wind — the fitness, the capacity, the willingness to be corrected three times in one day without flinching. He lacked a port. Seneca rather than Marcus because this isn't about enduring anything; it's about *direction*, his named struggle, and the quiet, slightly uncomfortable fact that the direction arrived from outside him and stuck where his own never did. He signs off tomorrow already excused — "a social ass day," don't expect studying. Fine. The port doesn't move.
