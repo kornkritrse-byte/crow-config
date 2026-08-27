@@ -166,7 +166,9 @@ No gym, no quality work **17–27 Sep**. Two easy 30min runs only: **Mon 21 + Th
 - **Long run should reach 14–16 km by late Nov**, then taper the final 10 days.
 ### 🕓 RACE-DAY LOGISTICS — CONFIRMED 27 Aug
 - **Samitivej hospital's own event.** His **dad signed him up** — Samitivej is the hospital he's gone to since he was a kid. He did not choose this race; it arrived. Note it, don't make a thing of it.
-- **Register 04:00 · GUN 05:00.** Venue still unknown (not listed in any public race database as of 27 Aug — ask him).
+- **Register 04:00 · GUN 05:00.** Venue not named yet but **<15 min drive from home** (not listed in any public race database as of 27 Aug — get the actual venue).
+- 🕒 **HIS TIMELINE (27 Aug, PROVISIONAL — he said "for now"): 03:45 wake · ~04:00 leave · eat in the car · ~04:15 arrive+register · 04:40 warm up · 05:00 gun.** Placed on the calendar as given. **Finalise in November** after he's run two long runs at race time.
+- ⚠️ **The two objections to 03:45, both logistics not fitness:** (1) **bathroom** — eating at 04:00 means his gut wakes at ~04:45, in the corral; fix is something small + coffee AT HOME on waking. (2) **registration queue** — arriving 04:15 for an 04:00 window assumes no queue, and charity runs queue; matters much more if bib pickup is race-morning rather than collected in advance. **03:30 buys 15 min of margin for almost no sleep cost — recommended to him, not insisted on. His call.**
 - ✅ **ON THE LIFE CALENDAR** ([[reference-calendars]]), 04:00–07:00, red (11), notificationLevel NONE, full pacing + race-morning plan in the event description. Event id `uk1pd54hcprjghvhgekdu8ej7c`.
 - 🌅 **A 05:00 gun is a performance GIFT** — coolest hour of the Bangkok day, mid-December, lowest humidity. This is the opposite of the heat-suppressed August TT and it supports the 48:00 target.
 - ⚠️ **Wake ~02:30.** Sleep has to be shifted across the **whole final week**, not the night before — one early night doesn't work, and a bad-sleep race is a slow race.
