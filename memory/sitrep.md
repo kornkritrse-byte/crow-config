@@ -28,16 +28,14 @@ metadata:
 ## 🚪 Current status
 - **Here (27 Aug, back after dinner — returned from Karamazov + dinner as planned).**
 - ⚠️ **The day-end has NOT fired yet.** No nightly quote and no `~/.crow-session-ending` until he signs off for the day.
-- **ASKED ON RETURN (awaiting his answer):**
-  1. 🃏 **Did the friend confirm the BA202 cheat-sheet allowance?** (~7–8 A4 sheets, printed OK?) He is building it in **GoodNotes** as he reads, so page count can be fixed at the end — but the whole BA202 strategy hangs off that number. *(Email to Ajarn Pattie: he declined it. Don't re-offer.)*
-  2. 🔗 **Did the artifact-to-artifact links actually work when tapped?** I wired them both ways and reasoned it from the frame runtime, but never clicked one live.
+- **STILL OPEN:** 🔗 **Do the artifact-to-artifact links work when tapped?** Wired both ways, never clicked live. He hasn't reported on it — he asked for the URLs again instead, so he may not have opened them yet.
 - **Everything else from today is closed.** → today's session note below.
 
 ## Session — 2026-08-27  *(a very heavy day — durable detail lives in the linked files, not here)*
 - 🏃 **5k baseline finally set: 25:30.** Positive-split, so true fitness ~24:45–25:00. **Run structure now written** — paces, the Sunday quality rotation, the "first km is the slowest km" rule → [[project-training-plan]]. 20:00 is a 12–18 month project and he has been told so.
 - 🔓 **BA202 unblocked: L4's whole content was already in a handout he had.** I twice declared coverage gaps from lecture audio without the deck and was **wrong both times**. New rule → get the handout before calling anything missing. Full audit, file IDs, corrected session map → [[project-midterms]].
 - 📊 **Two cold tests, and the contrast is the finding of the day.** BA202 **20/25** — every miss was lookup. FN201 TVM **11/16** — every miss was procedure. **Paper fixes one, only reps fix the other, and FN201 is the earlier exam.** → [[project-midterms]]
-- 🃏 **BA202 may allow ~7–8 printed A4 sheets.** Unverified, friend to confirm. If true it guts the memorisation load. He also chose to **treat the outline scope as-is** and skip emailing Ajarn Pattie — his call, stop re-raising it. → [[project-midterms]]
+- 🃏 **✅ BA202 CHEAT SHEET CONFIRMED (evening): 8 A4 sheets, printed is fine.** Friend verified — the number the whole BA202 strategy rests on is settled, and printing means the GoodNotes build exports straight out with no handwriting tax. He also chose to **treat the outline scope as-is** and skip emailing Ajarn Pattie — his call, stop re-raising it. → [[project-midterms]]
 - 🗺️ **Artifacts: BA202 doc extended to L1–L4 with a sidebar TOC, 7 hand-built SVG diagrams, 25 cold questions and worked examples; the Term 2.1 hub built; all three now link to each other.** URLs, the one-doc-per-subject rule and the build/verify checklist → [[reference-artifacts]]
 - 🧭 **Read of him:** he asked for diagrams unprompted and used them well; he took direct correction on his own framing three separate times without defensiveness; and the day's plan changed twice (cafe dropped, email dropped) with **good reasons given both times** — a different thing from the 25 Aug peer-driven flip.
 

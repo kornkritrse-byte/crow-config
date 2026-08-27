@@ -357,15 +357,16 @@ The outline lists midterm scope as lectures 1–7 = overview + PIT×3 + **CIT×2
 ### 🃏 Cheat sheet (A4 both sides, allowed — midterm AND final)
 s.40's 8 income categories and s.42's 29 exemptions are exactly what a cheat sheet is for. **Building it IS the studying** — compression requires understanding. Plus her own instruction: a period × milestone table.
 
-## 🃏 BA202 CHEAT SHEET — THE ALLOWANCE IS HUGE (27 Aug 2026)
+## 🃏 BA202 CHEAT SHEET — ✅ CONFIRMED 8 SHEETS, PRINTED OK (27 Aug 2026)
 
-**Korn's read: ~7–8 A4 sheets, printed or handwritten, both sides.** ⚠️ **NOT VERIFIED — "i think 7 or 8 sheets ill ask a friend they know."** He declined to email Ajarn Pattie. **The friend's answer is the confirmation step; get it before building 4 weeks of strategy on it.**
+**✅ VERIFIED 27 Aug (evening) — Korn's friend confirmed: 8 A4 sheets, PRINTED is fine.** No longer an assumption; the number the whole BA202 strategy rests on is settled. He is building it in **GoodNotes** as he reads, so page count is fixed at the end, not up front. (Email to Ajarn Pattie: declined — don't re-offer.)
 
-**If true, this re-shapes BA202 completely:**
+**This re-shapes BA202 completely:**
 - **Memorisation is almost entirely off the table as a use of study time.** s.42's 29 exemptions, s.40's 8 categories, the rate table, the period × milestone table, the authority map, the PIT sequence — all of it goes on paper.
 - **What a sheet cannot carry:** applying a rule to a fact pattern she has never shown before, deciding *which* category/rule applies, and speed. **That is what revision time should now buy.**
 - **Second-order:** a big sheet allowance makes the *scope* question cheap — adding petroleum income tax and the special CIT regimes to a sheet costs almost nothing. **Korn's two calls on 27 Aug (take the wider scope, skip the email) are coherent with each other**, and were the right pair *given* the allowance.
-- ⚠️ **The risk if the number is wrong the other way:** building 8 sheets and skipping memorisation, then being allowed 1, is a real loss. Asymmetric — verify.
+- ~~⚠️ Risk if the number is wrong the other way~~ — **closed 27 Aug: confirmed at 8, printed allowed.**
+- 📄 **Printed being allowed is the second win:** the GoodNotes build exports straight to print — no handwriting-time tax, and the sheet can be revised and re-printed as late as the night before.
 
 **Korn's decision 27 Aug: treat the outline's topic list as the examinable scope** — do NOT assume petroleum income tax / special CIT regimes / BOI / DTAs fall out of the midterm. The ~65% inference stands unresolved and he has chosen the conservative side. Stop raising it.
 
