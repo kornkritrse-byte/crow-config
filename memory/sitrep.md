@@ -27,7 +27,12 @@ metadata:
 
 ## 🚪 Current status
 - **HERE — Thu 27 Aug 09:28.** ⚠️ **He never came back on the evening of 26 Aug** (said "back in the evening", didn't return). So the whole 26 Aug evening is UNREPORTED and the ASK-ON-RETURN list below is still fully open. **No 26 Aug nightly quote fired and none should — he never signed off; do not retro-fire it.**
-- 🏃 **5k TT was scheduled 06:30 TODAY (27 Aug) — ask for the number first.** BA202 block 09:30–17:30 starts now.
+- 🏃 **5k BASELINE SET — 25:30 (27 Aug 06:30).** = 5:06/km. Gap to the 20:00 horizon goal is 5:30 / ~22% — that is a 12–18 month project, NOT this year. **He positive-split it (went out way too fast), so true current fitness is likely ~24:45–25:00.** Baseline is soft but USABLE — do not re-test before 27 Sep. → [[project-training-plan]]
+- ✅ **26 Aug EVENING DELIVERED — my prediction was wrong on 3 of 4.** He read + took handwritten notes, **cold-tested the drills and got ~8/16 with no notes open**, and trained at home (calisthenics circuit: pull-ups, front levers, DB biceps, push-ups, sit-ups) instead of the 17:30 Jetts block. No night out. **The 26 Aug skip-classes trade CONVERTED.**
+- 🔴 **STILL TRUE: he never opened LN4** (he confirmed it, `~/Desktop/fn/FN201-26F-BBA-LN4-TVM-V22-260701.pdf`). All 8/16 came off the derived Playbook artifact. **Sections III–VII (every mechanic) are only in the deck, and Obrom sets the exam off his own deck.** ⚠️ Ambiguity to resolve: he said he "read through the whole fn file" — unclear WHICH file if not LN4.
+- ⏳ **OPEN: which drills he missed** — he deferred detail. Ask specifically about **Q9 (delayed annuity)** and **Q11 (growing perpetuity)**.
+- 🔧 **OWED TONIGHT: build the run structure** off the 25:30 baseline — it was the one blocker in [[project-training-plan]]. ~15 min job, deliberately deferred so it does not eat the Thu BA202 block.
+- **📌 THU 27 = BA202 09:30–17:30, his best block on the 45% paper (zero classes attended). This is the day.**
 - ✅ **CONFIRMED 26 Aug ~13:00: FN201 Assignment #1 SUBMITTED.** He is **Group 1** (clip title reads "26F BBA G1") → the 13:00 deadline was his. Closed.
 - ▶️ **He is watching the FN201 TVM clip right now** — "FN201 26F BBA G1 L02 OBF2 ABF TVM1 260812 MU1" (rec. 12 Aug), YouTube channel **Obrom Chaowalerd** (@obromchaowalerd5981). **The FN201 recorded clips live on public YouTube — that channel is the intake source.** Note L02 = TVM1, so the clips run AHEAD of class; flipped-classroom confirmed again.
 - 🟢 **Korn confirmed (26 Aug): this is the FIRST TVM coverage — there is NO TVM backlog.** He is arriving at TVM on schedule. **FN201 is pace-keeping, not catch-up.** The only real hole remains **BA202** (zero classes attended, 45% paper, L4 recording not up till the weekend).
