@@ -19,8 +19,9 @@ Built 27 Aug 2026. The board for all six midterms: live day-count to the first p
 | **FN201** Business Finance | **Obrom's TVM Playbook** — https://claude.ai/code/artifact/7005f3de-c10b-4542-b3b4-40f619b4f51c | Topic 5 (TVM) only. 16 drills. **OWED: the 3-question pre-flight** (n? · end or start? · does the rate match the payment frequency?) — deferred by Korn to the next FN session. |
 | AC313 · AC311 · MK201 · EL221 | not built | Korn plans BA202-style docs for the AC subjects and MK201. |
 
-## 🔗 NAVIGATION IS TWO-WAY (wired 27 Aug)
+## 🔗 NAVIGATION IS TWO-WAY — ✅ VERIFIED WORKING 27 Aug
 The hub's subject cards link **out** to each document, and each document carries a small `← TERM 2.1` link above its masthead pointing **back**. Class `.uplink`, styled from each doc's own tokens so it matches that document rather than the hub. **Any new subject doc must get one.**
+✅ **Korn tapped them live 27 Aug and confirmed all links work.** No longer a reasoned assumption — tested.
 Links between artifacts work because the frame runtime intercepts clicks on external-origin `<a href>` and posts `__frame_nav` to the shell, which opens them — not a network request, so the CSP does not block it.
 
 ## 📏 THE RULE — one document per subject, never one merged document
