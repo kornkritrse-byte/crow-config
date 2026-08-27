@@ -321,3 +321,38 @@ Thai tax history (economists' 4 periods: Classical → Reform/Rama V → post-19
 - **MK201 exam length:** outline says 13:00–15:00 (2 hrs), calendar has 13:00–16:00.
 - **AC311 → Saturday 09:00–12:00 from 3 Oct** (Ajarn Saifon). Post-midterm, but it kills "Sat = full study day" and collides with the Saturday long run — [[project-training-plan]].
 - **AC311 Midterm 2** (~late Oct, sessions 8–11, 30%) — a second midterm he hadn't accounted for.
+
+## 🔓 BA202 HANDOUTS — THE UNLOCK (27 Aug 2026)
+
+**Google Classroom/Drive folder:** https://drive.google.com/drive/folders/1OVMV9lSMsAPSZf_KXQQp5CUeAoxR27QF
+Only **3 files** exist (lecturer = Asst. Prof. Dr Patharawan Chongchit, "Ajarn Pattie"):
+| # | File | ID | Covers |
+|---|---|---|---|
+| 1 | Course Outline (both sections) | `1iWshmImG0sAXjxRBO9ZDfHec6tox5ipU` | admin |
+| 2 | Introduction to Taxation: Past-Present-Future | `1DAZ3KJwAuCT757QD6g2liij61Oa9uq_S` | **L1+L2** — fills the 11-types-of-tax + Adam Smith gap |
+| 3 | **Personal Income Tax Part 1 — Class 3** | `1E-GgyQOzzjj6-ytWQTmaTp1eqMUIJ7PN` | **L3 AND L4** |
+
+### 🚨 THE FINDING: there is no separate L4 handout because L4 IS the back half of the Class 3 deck.
+Her 26 Aug synopsis: *"Today (Class 4), we will continue **the rest of lecture 3's presentation** (PIT: Part I)."*
+**So L4's entire content is in a PDF Korn already had.** Read + verified 27 Aug. The Class 3 deck runs:
+1. PIT taxpayers → 6 categories *(= L3, already in the artifact)*
+2. **Relationship with the State — Source Rule + Residence Rule** *(= L4)*
+3. **Type of Income — Section 40, all 8 categories** *(= L4)*
+4. **Exemption — Section 42, all 29 items + Ministerial Reg. No.126** *(= L4)*
+→ deck ENDS on "Next Step: Identify Deductions"
+
+⚠️ **CORRECTION to the 2c6630bc artifact + my 27 Aug claim** that "PIT steps 3–7 are entirely ahead, zero coverage" and "source/residence — you get this one live." **Wrong — steps 3 and 4 are fully in the handout.** That error came from reasoning off lecture AUDIO only, without the deck. Lesson: **get the handout before declaring a coverage gap.**
+⚠️ **Residual real gap:** the deck is slide-titles-heavy — every "Example:" / "Question?" slide was filled in VERBALLY in the L4 class he skipped. The deck gives him the law, not the worked examples. **The L4 recording (uploads weekend) is what fills that** — still worth watching.
+
+### 📆 CORRECTED BA202 SESSION MAP (from her 26 Aug synopsis — supersedes the outline titles)
+- **L3** (19 Aug) — PIT taxpayers, 6 categories ✅ *artifact covers*
+- **L4** (26 Aug, SKIPPED) — source + residence rule · types of income (s.40) · exemption (s.42) → **handout #3 back half**
+- **L5** (2 Sep) — deduction · allowance · progressive rates · **two methods of calculation** · right to elect · **WHT** · **dividend tax credit** · procedural aspects of PIT
+- → **PIT spans L3+L4+L5.** L6 (9 Sep) + L7 (16 Sep) = CIT ×2.
+
+### 🔎 HYPOTHESIS worth confirming (~65% confidence, 27 Aug)
+The outline lists midterm scope as lectures 1–7 = overview + PIT×3 + **CIT×2 + petroleum income tax + special CIT regimes/BOI/DTAs**. But at her actual pace (~1 session behind), L1–L7 only reaches **the end of CIT**. → **Petroleum income tax and special regimes/BOI/DTAs likely fall OUT of the midterm and into the final.**
+**Korn should just ask her.** If true it removes ~2 topics from the heaviest exam of the six. Do NOT treat as settled until she confirms.
+
+### 🃏 Cheat sheet (A4 both sides, allowed — midterm AND final)
+s.40's 8 income categories and s.42's 29 exemptions are exactly what a cheat sheet is for. **Building it IS the studying** — compression requires understanding. Plus her own instruction: a period × milestone table.
