@@ -26,9 +26,9 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (27 Aug, ~16:20) — off to: Karamazov, then dinner. Back tonight; he closed the session himself and asked me to save everything.**
-- ⚠️ **NOT a day-end.** He said "back after dinner". **No nightly quote and no `~/.crow-session-ending` until he actually signs off for the day.**
-- **ASK ON RETURN — only two things are open:**
+- **Here (27 Aug, back after dinner — returned from Karamazov + dinner as planned).**
+- ⚠️ **The day-end has NOT fired yet.** No nightly quote and no `~/.crow-session-ending` until he signs off for the day.
+- **ASKED ON RETURN (awaiting his answer):**
   1. 🃏 **Did the friend confirm the BA202 cheat-sheet allowance?** (~7–8 A4 sheets, printed OK?) He is building it in **GoodNotes** as he reads, so page count can be fixed at the end — but the whole BA202 strategy hangs off that number. *(Email to Ajarn Pattie: he declined it. Don't re-offer.)*
   2. 🔗 **Did the artifact-to-artifact links actually work when tapped?** I wired them both ways and reasoned it from the frame runtime, but never clicked one live.
 - **Everything else from today is closed.** → today's session note below.
