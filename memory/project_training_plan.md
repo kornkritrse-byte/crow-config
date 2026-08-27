@@ -137,6 +137,35 @@ No gym, no quality work **17–27 Sep**. Two easy 30min runs only: **Mon 21 + Th
 
 ⚠️ **Sat long run collides with AC311 from 3 Oct** — AC311 moves to Saturday 09:00–12:00 for sessions 8–15 ([[project-midterms]]). A 06:30 long run still fits before a 09:00 class, but only just. Revisit after 27 Sep.
 
+## 🏁 RACE ON THE CALENDAR — 10K, SUN 13 DEC 2026 (told to Crow 27 Aug evening)
+
+**This is the single most useful thing that has happened to this plan.** The file's own diagnosis was that the 20:00 5k is a horizon goal with *no date attached*, and that it "needs a near milestone 6–8 weeks out or it never gets measured." **The race is that milestone, and it is externally dated — he cannot quietly let it slide the way the early-Aug re-plan slid.** The number matters less than the date.
+
+### The maths
+- Baseline 27 Aug: **5k ≈ 25:00 true** (25:30 run, positive-split), ≈ VDOT 37–38 → **10k equivalent TODAY ≈ 52–53 min.**
+- **He can already cover the distance** — the Sat long run is 60–75 min at 6:30–7:00 ≈ 9–11 km. Distance is not the risk; pace discipline is.
+- **Real build window = 28 Sep → 13 Dec ≈ 11 weeks.** Everything before that is maintain-then-taper (17–27 Sep is the exam cut, already agreed). Sept contributes ~nothing.
+- 11 weeks × 4 runs/wk (~30–35 km/wk, 1 quality + 1 long) realistically buys **1:30–2:00 off the 5k → ~23:00–23:30**, which maps to a **10k of 47:30–49:00.**
+- 🌤️ **Tailwind: mid-December is Bangkok's coolest month.** The Aug TT was heat-suppressed; race day will not be. Worth ~30–60 s over 10k.
+
+### 🎯 TARGETS GIVEN 27 Aug — three tiers, deliberately
+| Tier | Time | Pace | What it means |
+|---|---|---|---|
+| **Floor** | **sub-52:00** | 5:12/km | Today's fitness, executed properly. Bank it — this is "did not blow up." |
+| **🎯 Target** | **48:00** | **4:48/km** | The number to train for. Requires the 11-week block to actually happen. |
+| **Stretch** | **sub-47:00** | 4:42/km | Only if all 11 weeks land clean. Do not chase it in the first 5k of the race. |
+
+### ⚠️ The real risk is pacing, not fitness
+- **He has never raced.** His only "10k" is a comfortable 61:40; his only max effort is the 27 Aug TT — **which he positive-split by going out hot.** That same error over 10k costs roughly double.
+- **The [[project-training-plan]] rule applies with force: first km is the slowest km.** Race plan: km 1–2 at **4:55–4:50**, settle into **4:48**, and only from km 8 take whatever is left.
+- Start-line adrenaline + a crowd will make 4:30/km feel effortless for 3 km. **That is the trap.** Named to him 27 Aug.
+
+### What this changes
+- **The post-27 Sep ramp now has a deadline and a number.** Sub-24:00 5k in late Oct is still the right checkpoint — it sits directly on the line to 48:00.
+- **Add a 10k-specific element from ~early Nov:** the Sunday quality rotation should start including sustained threshold (2 × 15 min, then 20–25 min continuous @ 5:10–5:20) rather than only short VO2 reps. 10k is a threshold race.
+- **Long run should reach 14–16 km by late Nov**, then taper the final 10 days.
+- ⛔ **Not yet on the calendar** — waiting on race name, start time and venue from him. Bangkok events often gun at 04:00–05:30, which changes the whole taper week.
+
 ### 📍 Sequencing agreed
 - **23 Aug → 27 Sep (midterms):** MAINTAIN, do not build. Training is not the priority; it is the anchor that keeps structure.
 - **Early:** run one real **5k time trial** to get a true baseline (costs one session).
