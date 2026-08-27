@@ -368,3 +368,30 @@ s.40's 8 income categories and s.42's 29 exemptions are exactly what a cheat she
 - ⚠️ **The risk if the number is wrong the other way:** building 8 sheets and skipping memorisation, then being allowed 1, is a real loss. Asymmetric — verify.
 
 **Korn's decision 27 Aug: treat the outline's topic list as the examinable scope** — do NOT assume petroleum income tax / special CIT regimes / BOI / DTAs fall out of the midterm. The ~65% inference stands unresolved and he has chosen the conservative side. Stop raising it.
+
+## 🧮 FN201 TVM — DIAGNOSIS FROM THE 16 DRILLS (27 Aug 2026)
+
+**Score: 11/16 first try, cold.** Missed **Q5, Q8, Q12, Q15, Q16.** My prediction (Q9 delayed annuity, Q11 growing perpetuity) was **wrong — he got both.**
+
+**🎯 THE PATTERN — 4 of 5 misses are ONE failure: he reaches for the formula before fixing the inputs.**
+| Q | What it needed | What broke |
+|---|---|---|
+| **Q5** | n = 29, not 50 (money starts 21 yrs out) | **the clock** — anchored to today |
+| **Q8** | annuity due = ordinary × (1+i) | **the timing** |
+| **Q15** | 6% compounded semiannually + annual deposits → convert to EAR 6.09% FIRST | **the rate** (m ≠ m*) |
+| **Q16** | instalment, then interest = rate × outstanding balance | multi-step schedule |
+| **Q12** | why a growing perpetuity needs i > g | the only pure-concept question |
+
+**The tell that confirms the diagnosis: he got Q9 (delayed annuity) right** — because that question *labelled itself* as delayed. **When the adjustment is named he makes it; when it is buried in the wording he does not.**
+
+**🔧 THE FIX — a 3-question pre-flight before writing any formula.** Deferred by Korn (27 Aug) to the next FN session; add it to the TVM Playbook then.
+1. **What is my n?** Count from where the money starts, not from today.
+2. **End or start?** Ordinary or due — due means × (1+i).
+3. **Does the rate match the payment frequency?** If not, convert to an effective rate for the payment period first.
+These three catch Q5, Q8 and Q15 outright.
+
+**🚨 THE CROSS-SUBJECT FINDING — this should reorder the front-loading.**
+- **BA202 misses (20/25 same day) were all LOOKUP** — section numbers, caps, lists. Every judgment question landed. **~8 sheets of paper fix that.**
+- **FN201 misses are PROCEDURE.** No cheat sheet mentioned for FN201, and **procedure gaps only close with reps.**
+- **FN201 sits 4 days EARLIER (23 Sep vs 27 Sep)** and has the worst in-period window on the board (Tue 22 pm only, straight after a 3-hr AC313 paper).
+➡️ **FN201 goes ahead of BA202.** Told to him 27 Aug; reflected in the Term 2.1 hub ranking ([[reference-artifacts]]).

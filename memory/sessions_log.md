@@ -139,6 +139,22 @@ metadata:
 ## 2026-06-10 (evening)
 - Brothers Karamazov check-in: finished Book 7 Ch 3 "An Onion." No project work.
 
+## 2026-08-25 — the BA202 transcripts
+- Read all three BA202 recordings and found **the outline's lecture titles are wrong** — the lecturer runs ~1 session behind. L2 never reached PIT; PIT starts in L3. Korn was **one** PIT lecture behind, not three.
+- 🚨 **Find of the day: a CHEAT SHEET IS ALLOWED in BA202**, midterm and final, and the lecturer told the class to build a period × milestone table.
+- Built the L2+L3 reconstruction artifact with 14 cold questions — **promised for 13:45 and delivered late, after his block had started.**
+- FN201 Assignment #1 written (catastrophe bonds); he asked to be *explained* it rather than have it written, got the money-flow wrong three times and self-corrected each time.
+- ⚠️ Stale-banner bug caught in reference_upcoming_events — mirror the calendar whenever it changes.
+- 🔄 Late that night he **reversed his commitment to attend Wed classes within ~30 min, on peer input.** The durability of the commitment is the thing to watch, not the choice.
+
+## 2026-08-24 — the attendance finding
+- 🚨 **Volunteered unprompted: AC313 ✅ all · AC311 ✅ all · FN201 week 1 only · BA202 zero of three.** The plan up to then assumed coverage was solved — false for both subjects he does not fear.
+- ➡️ My answer: the clips are not the bottleneck, Wednesday is. 4 of BA202's 7 midterm lectures were still ahead.
+- Built the lecture-transcription pipeline and ran it overnight on ~8 hrs of BA202 recordings.
+- Read the five course outlines: killed the phantom free week, **both accounting scopes far smaller than feared**, BA202 promoted 4th → joint-1st, found a 15% FN201 group assignment due 16 Sep. Built 28 study blocks + the training week onto the calendar in one pass.
+- ✅ Caught two things that would have cost marks — FN201 A#1 was individual not group, and his Tue block was mine-wrong (**he pushed back and was right**).
+- 🪞 He asked how my read of him had changed and asked for harsh → **his fear tracks CONTACT, not EXPOSURE**, and the planning was the comfortable version of the studying. Narrative → [[chapters]] Chapter 6.
+
 ## 2026-06-10 — hooks born
 - Set up the original SessionStart (SITREP auto-load) + Stop (sitrep update + auto-push) hooks on Windows. GitHub sync became automatic.
 

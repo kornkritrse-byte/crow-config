@@ -1,6 +1,6 @@
 ---
 name: project-training-plan
-description: "Korn's training plan — goal changed 2026-08-23 to leaner-only; 4 days/wk (2 gym 2hr + 2 runs); July climber-lean split SUPERSEDED"
+description: "Korn's training plan — leaner-only since 2026-08-23; 4 days/wk; run structure SET 27 Aug off a real 25:30 5k TT"
 metadata:
   node_type: memory
   type: project
@@ -18,7 +18,7 @@ Climber-physique shaping is **DROPPED** (his call, 23 Aug). No pull-bias, no che
 ### Locked 2026-08-23
 - **4 days/week: 2 gym + 2 runs** (unchanged frequency).
 - **Gym day = 1 hr weight training + 1 hr cardio.** ~2 hrs per visit. He may vary the split on the day.
-- **Run structure: NOT SET** — pending his running baseline.
+- ✅ **Run structure: SET 27 Aug 2026** off the real 25:30 TT — see the pace table below.
 - **Running goal: 5k in 20:00** (4:00/km). Horizon goal, **no date attached.** Needs a near milestone 6–8 weeks out or it never gets measured.
 - **Session timing: per-day**, placed into timetable gaps once the class schedule lands ([[project-midterms]]). Not a fixed 6pm block like July.
 - **Diet:** modest deficit, protein high enough to retain muscle. Revisit with current weight.
@@ -69,6 +69,49 @@ At **64kg and a claimed 12–15% BF he is already lean** — if that number is a
 ✅ **Gym at Jetts Phayathai is ON the Airport Link** = his commute line, so Mon/Wed gym costs near-zero extra transit. This is what makes the Mon/Wed placement hold.
 
 **⚠️ RAMP — do not jump straight to 4 runs.** He's at 1–2/wk with an old ankle tendon tear. Week 1: 3 runs (one of them the 5k TT). Week 2: 3 runs. Week 3 onward: 4 runs.
+
+
+## 🏃 RUN STRUCTURE — SET 2026-08-27, off the real 25:30 baseline
+
+**The blocker is gone.** 5k TT run Thu 27 Aug 06:30: **25:30 = 5:06/km.** He positive-split it ("started off the run way too fast"), so **true current fitness is ~24:45–25:00.** All paces below are derived from **25:00**, not from the 25:30 he actually ran. ≈ VDOT 37–38.
+
+### Paces — the whole point of the time trial
+| Session | Pace | Feel |
+|---|---|---|
+| **Easy / zone 2 / long** | **6:30–7:00 /km** | full sentences, nose-breathable. His own stated easy pace — unchanged, it was right. |
+| **Threshold (tempo)** | **5:10–5:20 /km** | comfortably hard. Could hold ~40 min in theory; he runs 20. |
+| **Interval (VO2)** | **4:45–4:55 /km** | hard, 3-min reps only. |
+| **Strides** | ~4:15–4:30 /km | 20 s, relaxed and fast, never a sprint. |
+| *(current 5k race pace)* | *5:00–5:06 /km* | *for reference — do not train here* |
+
+### The week (paces plugged into the 23 Aug shape — the shape does not change)
+- **Mon + Wed** — after lifting, treadmill **30–40 min @ 6:30–7:00**. ⛔ **Zone 2 ONLY. Never intervals here** — pre-fatigued legs plus an old ankle tendon tear is exactly how that injury comes back.
+- **Sat 06:30** — **long run 60–75 min @ 6:30–7:00.** This is the 10k engine. Conversational the whole way.
+- **Sun 06:30** — **the one quality session.** Rotate A→B→C→D week to week. **Do not progress the numbers — this is maintenance until 27 Sep, deliberately.**
+
+| | Sunday quality rotation |
+|---|---|
+| **A** | 2 × 10 min @ **5:10–5:20**, 3 min easy jog between |
+| **B** | 5 × 3 min @ **4:45–4:55**, 2 min jog between |
+| **C** | 20 min continuous @ **5:20**, then 6 × 20 s strides |
+| **D** | fartlek — 8 × (1 min hard / 2 min easy), by feel, no watch |
+
+Every session: **10–15 min easy warm-up + 4 strides** before anything hard. Non-negotiable with that ankle.
+
+### 🎯 THE RULE THAT COMES OUT OF THE TT — first km is the slowest km
+He blew the pacing by going out hot. **Every run, easy or hard, starts slower than goal pace and gets faster.** If km 1 is the fastest km, the session was run wrong regardless of the average.
+⚠️ **This is the same failure as his FN201 misses** — executing before setting up. Worth naming to him if it recurs; it may be one pattern, not two.
+
+### Milestones
+- **27 Aug 2026 — 25:30** (soft; positive-split). Baseline set.
+- **Late Oct — sub-24:00.** The near milestone. Reachable on this structure once the post-midterm ramp starts.
+- **20:00 — 12–18 months**, and only on 4–6 runs/week sustained. Told to him 27 Aug. **He should not be carrying this as a near-term target.**
+
+### ⛔ Do not re-test before 27 Sep
+A second TT costs a session, adds stress, and changes no decision. The 25:30 is soft by ~30–45 s and that is *fine* — it is a floor to program from, not a verdict. **Next time trial: after the last exam.**
+
+### Ramp position
+Week of 24 Aug = week 1 (3 runs — TT Thu 27, easy Sat 29, easy Sun 30 ✅). Week of 31 Aug = week 2 (3 runs). **Week of 7 Sep onward = 4 runs.** Then the exam taper 17–27 Sep (two easy 30 min runs only, Mon 21 + Thu 24) already agreed above.
 
 ### 🎯 5k AND 10k ARE ONE GOAL, NOT TWO
 For most runners 10k pace ≈ 5k pace + ~15–20 s/km. **A 20:00 5k (4:00/km) ≈ a 41–42 min 10k** — the same fitness, two readings. Training for one trains the other; there is no conflict and no split focus. The week already covers both: the **Friday long run (60–75 min) is the 10k engine**, the Tuesday quality session sharpens the 5k.

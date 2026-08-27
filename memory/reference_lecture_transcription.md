@@ -36,3 +36,14 @@ Local OAuth creds at `~/.google/token.json` + `credentials.json` carry **full `a
 ## What the output is FOR
 Transcript is the raw material, not the deliverable. **Deliverable = compressed structured notes + a COLD question set** (answers hidden) per lecture. His fear is comprehension, not coverage — consumption doesn't fix that, being wrong on problems does ([[project-midterms]]).
 ⚠️ **Not a licence to keep skipping.** Told him plainly: this is for the *backlog*. For lectures not yet given, attending is cheaper than transcribing — and a transcript can't answer a question he has.
+
+## ⚡ FN201 CLIPS — use yt-dlp, NOT whisper (added 2026-08-27)
+`yt-dlp` is **installed on the Mac** (brew). FN201's recorded lectures are **unlisted YouTube** videos on channel **Obrom Chaowalerd (@obromchaowalerd5981)** — the URLs come from MS Teams; the channel itself lists nothing.
+
+**They carry auto-captions, so pulling the transcript takes seconds instead of hours:**
+```
+yt-dlp --skip-download --write-auto-subs --sub-langs en-orig "<url>"
+```
+**Always try this before reaching for whisper.** Whisper is only for recordings with no captions — e.g. the BA202 Drive recordings, which is what the pipeline below was built for.
+
+⚠️ **A transcript is not the deck.** On 27 Aug I declared a BA202 coverage gap from audio alone and was wrong twice — the material was in a handout Korn already had. **Get the handout/slides before concluding anything is missing.**
