@@ -28,7 +28,8 @@ metadata:
 ## 🚪 Current status
 - **Here (28 Aug) — working.** He came back and immediately put AC311 on the table.
 - **He pre-declared today a "social ass day" and then handed me a build instead.** Not a contradiction worth poking — he asked for the artifact, he didn't promise to study. Do not nag it.
-- **ASK NEXT:** (1) what the **435-page adidas annual report** in the AC311 folder is for — assignment? group project? (2) the **MCQ/entry mark split** on the AC311 paper — worth one question in class Monday. (3) the AC311 inventory MCQ on deck slide 9 has **two** valid "not inventory" answers (cranes + office software) — flagged in the doc, worth asking Ajarn Pailin.
+- **ASK NEXT — two, both for Monday's class:** (1) the **MCQ/entry mark split** on the AC311 paper. (2) the inventory MCQ on deck slide 9 has **two** valid "not inventory" answers (cranes + office software) — flagged in the doc, worth asking Ajarn Pailin which reading she holds.
+- ✅ **adidas report CLOSED** — his call: a class example, not graded work. Don't raise it.
 - **Race loose ends (not urgent, 15 weeks out):** venue unknown, and whether bib pickup is race-morning or in advance — his dad likely has the confirmation.
 
 ## Session — 2026-08-28
@@ -37,7 +38,8 @@ metadata:
 - ✅ **He then confirmed the AC311 format: a MIX of MCQ and journal entries**, and asked for entries "for like all the transactions" → doc extended the same session with a 26-entry catalogue (each tagged official vs derived), a 10-entry cold drill, and the deck's own 4 MCQs. **The mark split between the two halves is still unknown.**
 - 📂 **He had real material this time** — syllabus + both decks + two practice sets **with official solutions**. The practice PDFs are the highest-value pages in the folder; the doc is built around them.
 - ⚠️ **Two of my own claims corrected:** (1) the AC syllabi were never a blocker — AC311/AC313 outlines have been on his Desktop since 24 Aug; (2) the "AC311 is 40% or 35%, the document contradicts itself" note was a misread — it is **40%**, and the split is 40/30/25/5 = 100.
-- ❓ **Unread on purpose:** a 435-page adidas annual report sitting in the AC311 folder. Not midterm content — flagged to him rather than guessed at.
+- 📐 **He pushed back on entry formatting and was right:** wanted a real journal page — **Date | Account | Debit | Credit**, debits then indented credits. All 56 entry blocks rebuilt to that shape with a column header and separators between entries. **Lesson: for accounting artifacts, entries must LOOK like a journal, not like a two-column list.**
+- ❓ **adidas report:** he closed it himself — a class example, not graded work.
 - 🧭 **Read of him:** he asked for the resource in one line, gave me the syllabus as the scope authority ("see where we are supposed to be right now"), and let me pick the boundary. That's trust in the process, not disengagement — but it also means nobody has checked whether he *works* the doc. The cold questions are the test of that, not the build.
 
 ## Session — 2026-08-27  *(a very heavy day — durable detail lives in the linked files, not here)*

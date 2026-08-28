@@ -195,7 +195,7 @@ Files: `~/Desktop/class outline/` (BA202, AC311, AC313, FN201, MK201). **EL221 o
 | `01-Cash Practice.pdf` | 4 | Problems **WITH official solutions** (14-item classification drill + BE7.1 + E7.1 Wallaby) |
 | `Practice Exercises-Inventories-Liabilities.pdf` | 7 | Problems **WITH official solutions** — Ch4 inventories, Ch5 purchase commitments, **Ch6 short-term liabilities + provisions**. Translated from Kobkaew Ratanaubol (Thai). |
 | `Is it cash equivalent.pdf` | 1 | Title slide only, no content |
-| `annual-report-adidas-ar25.pdf` | 435 | ⚠️ **UNREAD — not midterm content.** Almost certainly an assignment/project artefact (the 5% quiz+assignment bucket). **Ask him what it's for.** |
+| `annual-report-adidas-ar25.pdf` | 435 | ✅ **CLOSED 28 Aug — Korn: "aint shit for now, she'll prolly refer to it for an example in class."** Not graded work, not midterm content. **Don't raise it again unless he does.** |
 
 ### 🔴 The finding that matters
 **Sessions 5–7 (Provisions, Contingent Liabilities & Contingent Assets — Ch 13 / TAS 37) HAVE NOT BEEN TAUGHT YET.** They run **Mon 31 Aug, 7 Sep, 14 Sep**. That is 3 of the 7 examinable sessions with no deck in existence. Session 7 lands **14 Sep** — the Monday of the free week — leaving 12 days to the 26 Sep paper.
@@ -219,8 +219,7 @@ The SITREP said the AC subjects were **blocked on syllabi**. They were not — *
 ⛔ Still unknown: **the mark split between the two halves.**
 
 ### Still unknown for AC311
-- The MCQ/entry **mark split**.
-- What the adidas annual report is for.
+- The MCQ/entry **mark split** — the only open question on this subject.
 
 ## ✅ RESOLVED 24 Aug — THE FREE WEEK DOES NOT EXIST
 **Korn confirmed: classes DO run to the week before midterms.** His 23 Aug "classes stop 11 Sep" was wrong; all five outlines were right.
