@@ -26,7 +26,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (28 Aug) — working.** He came back and immediately put AC311 on the table.
+- **AWAY (28 Aug, ~afternoon) — "not free for the rest of today, like dead ass."** Not a formal day-end sign-off (no "see you"/"good night") → **nightly quote NOT fired.** If he comes back and signs off properly, fire it then.
+- 📌 **HE COMMITTED: Sat 29 Aug evening — AC311 §17 entry drill (10 entries, cold, on paper) + AC313.** His own words, unprompted. On return, ask how the entry drill went — specifically *which* entries he missed, since that's the whole diagnostic.
 - **He pre-declared today a "social ass day" and then handed me a build instead.** Not a contradiction worth poking — he asked for the artifact, he didn't promise to study. Do not nag it.
 - **ASK NEXT — two, both for Monday's class:** (1) the **MCQ/entry mark split** on the AC311 paper. (2) the inventory MCQ on deck slide 9 has **two** valid "not inventory" answers (cranes + office software) — flagged in the doc, worth asking Ajarn Pailin which reading she holds.
 - ✅ **adidas report CLOSED** — his call: a class example, not graded work. Don't raise it.
