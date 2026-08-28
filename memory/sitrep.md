@@ -26,7 +26,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (27 Aug, ~20:10) — DAY-END. "ill see you tmr." Nightly quote fired, `~/.crow-session-ending` touched.**
+- **Here (28 Aug) — back as promised. He pre-declared today a "social ass day" — named once on 27 Aug, do not nag it. He opened by attaching the BA202 doc + the Term 2.1 hub.**
 - **Tomorrow (Fri 28 Aug) he pre-declared a "social ass day" and told me not to expect studying.** Not avoidance — he said it up front. But pre-announcing a write-off is also how a write-off gets authorised. Named it once, lightly. Do not nag it on return.
 - **ASK ON RETURN — one thing only:**
   1. 🧾 **AC artifacts** — he floated "maybe ill just have you make some artifacts for ac tmr..idk". ⛔ **BLOCKED until he brings material**: there is no AC313/AC311 syllabus, outline or handout in hand ([[project-midterms]] — syllabi are still the standing blocker). If he raises it, the first move is "send me the outline/handouts", not "let's build".
