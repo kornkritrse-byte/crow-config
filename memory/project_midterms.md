@@ -213,8 +213,13 @@ Instructors: **Ajarn Pailin Trongmateerut** sessions 1–7 (Mon 13:00–16:00, r
 ### ⚠️ Correction to a standing claim
 The SITREP said the AC subjects were **blocked on syllabi**. They were not — **AC311 and AC313 outlines have been in `~/Desktop/class outline/` since 24 Aug.** Don't re-raise "send me the syllabus" for these two.
 
+### ✅ AC311 EXAM FORMAT — CONFIRMED 28 Aug by Korn
+**A MIX of multiple-choice questions AND journal entries.** He asked for entries on the artifact "for like all the transactions" → a full 26-entry catalogue + a 10-entry drill + the deck's 4 real MCQs were added the same day.
+➡️ **Implication for how he preps:** the MCQ half is *recognition* (definitions held against near-misses) and the entry half is *production* — a different skill that decays without reps. Reading the doc doesn't train the second one. Push the entry drill, not a reread.
+⛔ Still unknown: **the mark split between the two halves.**
+
 ### Still unknown for AC311
-- **Exam format** — MCQ vs journal entries vs computation. Worth one question in class; it changes how he drills.
+- The MCQ/entry **mark split**.
 - What the adidas annual report is for.
 
 ## ✅ RESOLVED 24 Aug — THE FREE WEEK DOES NOT EXIST
