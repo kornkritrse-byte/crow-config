@@ -169,7 +169,7 @@ Files: `~/Desktop/class outline/` (BA202, AC311, AC313, FN201, MK201). **EL221 o
 | Code | Required text | Midterm scope | Midterm weight |
 |---|---|---|---|
 | **AC313** Cost Accounting | Datar & Rajan, *Horngren's Cost Accounting: A Managerial Emphasis*, **Global Ed. 17e** (Pearson). Also Phadoongsitthi, *Cost Accounting* 10e (Thai). | Sessions 1–7 → Horngren **Ch 1, 2, 4, 17, 18, 19** / Monvika Ch 1,2,3,6. Fundamentals & cost classification; **job order costing** (incl. spoilage/rework/scrap); **process costing** (weighted-average + FIFO); **joint products & byproducts** (splitoff, NRV, physical-measure). | **40%** |
-| **AC311** Intermediate Acct 1 | Kieso, Weygandt, Warfield, *Intermediate Accounting* **IFRS Edition, 4e** (Wiley). ✅ IFRS ed. — matches the TFRS jurisdiction rule. | **Midterm 1 only**, sessions 1–7 → Kieso **Ch 7** (Cash & Receivables), **Ch 8–9** (Inventories, TAS 2), **Ch 13** (Provisions/Contingencies, TAS 37). | **40%** (grading table) / **35%** (schedule table) — ⚠️ document contradicts itself |
+| **AC311** Intermediate Acct 1 | Kieso, Weygandt, Warfield, *Intermediate Accounting* **IFRS Edition, 4e** (Wiley). ✅ IFRS ed. — matches the TFRS jurisdiction rule. | **Midterm 1 only**, sessions 1–7 → Kieso **Ch 7** (Cash & Receivables), **Ch 8–9** (Inventories, TAS 2), **Ch 13** (Provisions/Contingencies, TAS 37). | **40%** — ✅ **CONFIRMED 28 Aug, no contradiction.** Syllabus grading table and course plan both say 40%; full split is M1 40 / M2 30 / Final 25 / Quiz+Assignment 5 = 100. The earlier "35% in the schedule table" note was my misread — corrected. |
 | **FN201** Business Finance | Ang, Hong, Koh, Brigham & Ehrhardt, *Financial Management: Theory and Practice*, **Asia Ed. 2e** (Cengage 2021) = "FM". | Topics **1–5**: overview of business finance; the **10 axioms**; financial environments & markets; **financial reports + ratio analysis** (Du Pont, operating/cash cycles); **Time Value of Money**. | **35%** |
 | **MK201** Marketing | Kotler & Armstrong, *Principles of Marketing* (Global Ed.) — **explicitly OPTIONAL, "just ppt slides are enough."** | **Ch 1, 3, 5, 7, 8.** 2-hour paper. | **30%** |
 | **BA202** Taxation | **NO textbook.** Thai Revenue Code + weekly handouts on Google Classroom. | Lectures **1–7**: tax system overview; **Personal Income Tax (3 lectures)**; **Corporate Income Tax (2 lectures)**; petroleum income tax; special CIT regimes/BOI/DTAs. | **45% — the single heaviest exam of the six** |
@@ -183,6 +183,39 @@ Files: `~/Desktop/class outline/` (BA202, AC311, AC313, FN201, MK201). **EL221 o
 6. ⚠️ **AC311 moves to SATURDAY 09:00–12:00 from 3 Oct** (sessions 8–15, different instructor: Ajarn Saifon). Post-midterm, but it kills "Sat = full study day" and collides with the Saturday long run — [[project-training-plan]].
 7. **MK201 exam time discrepancy:** outline says 20 Sep **13:00–15:00 (2 hrs)**; calendar has 13:00–16:00. Probably a 3-hr slot with a 2-hr paper. Not fixed — flagged.
 8. **AC313 / AC311 / BA202 midterm dates are "TBA" in their outlines** — the 22/26/27 Sep dates came from the program exam timetable, not confirmed by these documents.
+
+## 📒 AC311 — MATERIAL IN HAND + DOC BUILT (28 Aug 2026)
+**Folder: `~/Desktop/AC311/OneDrive_1_8-28-2026/`** (duplicate in `~/Downloads/OneDrive_1_8-28-2026/`). Korn downloaded it 28 Aug and asked for a midterm-scope study resource.
+
+| File | Pages | What it is |
+|---|---|---|
+| `AC311-BBA-1-2026 Course Syllabus 026401.pdf` | 6 | Also in `~/Desktop/class outline/` since 24 Aug |
+| `01-Cash and Receivables.pdf` | 34 | **Full deck, sessions 1–2** |
+| `02-AC311-BBA-Inventories.pdf` | 66 | **Full deck, sessions 3–4** |
+| `01-Cash Practice.pdf` | 4 | Problems **WITH official solutions** (14-item classification drill + BE7.1 + E7.1 Wallaby) |
+| `Practice Exercises-Inventories-Liabilities.pdf` | 7 | Problems **WITH official solutions** — Ch4 inventories, Ch5 purchase commitments, **Ch6 short-term liabilities + provisions**. Translated from Kobkaew Ratanaubol (Thai). |
+| `Is it cash equivalent.pdf` | 1 | Title slide only, no content |
+| `annual-report-adidas-ar25.pdf` | 435 | ⚠️ **UNREAD — not midterm content.** Almost certainly an assignment/project artefact (the 5% quiz+assignment bucket). **Ask him what it's for.** |
+
+### 🔴 The finding that matters
+**Sessions 5–7 (Provisions, Contingent Liabilities & Contingent Assets — Ch 13 / TAS 37) HAVE NOT BEEN TAUGHT YET.** They run **Mon 31 Aug, 7 Sep, 14 Sep**. That is 3 of the 7 examinable sessions with no deck in existence. Session 7 lands **14 Sep** — the Monday of the free week — leaving 12 days to the 26 Sep paper.
+➡️ Best available outcome now: **close Cash + Inventories before 31 Aug** so September's only new AC311 load is the three Provisions Mondays.
+
+### Session map (from the syllabus)
+| Sessions | Dates | Topic | Status 28 Aug |
+|---|---|---|---|
+| 1–2 | Mon 3, 10 Aug | Cash & Accounts Receivable (Ch 7) | ✅ taught, deck in hand |
+| 3–4 | Mon 17, 24 Aug | Inventories (Ch 8–9, TAS 2) | ✅ taught, deck in hand |
+| 5–7 | Mon 31 Aug, 7 Sep, 14 Sep | Provisions / Contingent Liabilities / Contingent Assets / Onerous contracts (Ch 13, TAS 37) | 🔴 **not yet taught** |
+
+Instructors: **Ajarn Pailin Trongmateerut** sessions 1–7 (Mon 13:00–16:00, room 205, pailin@tbs.tu.ac.th) → **Ajarn Saifon Inkaew** sessions 8–15 (Sat 09:00–12:00). TA: Nattanicha Kamdee (P'Aom).
+
+### ⚠️ Correction to a standing claim
+The SITREP said the AC subjects were **blocked on syllabi**. They were not — **AC311 and AC313 outlines have been in `~/Desktop/class outline/` since 24 Aug.** Don't re-raise "send me the syllabus" for these two.
+
+### Still unknown for AC311
+- **Exam format** — MCQ vs journal entries vs computation. Worth one question in class; it changes how he drills.
+- What the adidas annual report is for.
 
 ## ✅ RESOLVED 24 Aug — THE FREE WEEK DOES NOT EXIST
 **Korn confirmed: classes DO run to the week before midterms.** His 23 Aug "classes stop 11 Sep" was wrong; all five outlines were right.

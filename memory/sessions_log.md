@@ -160,3 +160,12 @@ metadata:
 
 ## 2026-06-04 and earlier
 - google-docs MCP first registered and working on Windows (key lesson: `claude mcp add`, not a manual mcp.json). Workshop calendar built (Mondays locked; late-reg fines 50฿/20min then 5฿/min). Theme confirmed RAGNAROK GODS. Chapter 1 crew night was 2026-06-03 — see [[chapters]].
+
+## Session — 2026-08-26
+- ✅ FN201 Assignment #1 submitted by the 13:00 deadline (he is **Group 1**).
+- ✅ **He skipped Wed classes and the trade CONVERTED** — read + handwritten notes, cold-tested the TVM drills (~8/16 at that point), trained at home with a calisthenics circuit instead of the Jetts block. No night out. My prediction that the evening had collapsed was wrong on 3 of 4 counts.
+- 🔴 He never opened LN4 — all of it came off the derived Playbook artifact.
+- 🚨 The L02 clip is **mostly not TVM**: TVM starts at 2:06 of 2:42, so it delivers LN4 Sections I–II only. Every mechanic is still ahead.
+- 📄 Built and published **Obrom's TVM Playbook** → [[reference-artifacts]].
+- 🔧 `yt-dlp` installed; FN201 clips are unlisted YouTube with auto-captions → [[reference-lecture-transcription]].
+

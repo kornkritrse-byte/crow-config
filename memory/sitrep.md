@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-08-27 (DAY-END — verified + flushed; quote fired, `~/.crow-session-ending` touched. Window holds 27 + 26 Aug, so nothing fell out to [[sessions-log]] this time.)*
+*Last updated: 2026-08-28 (LIVE — session in progress. 26 Aug note flushed to [[sessions-log]]; window now holds 28 + 27 Aug.)*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,12 +26,18 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (28 Aug) — back as promised. He pre-declared today a "social ass day" — named once on 27 Aug, do not nag it. He opened by attaching the BA202 doc + the Term 2.1 hub.**
-- **Tomorrow (Fri 28 Aug) he pre-declared a "social ass day" and told me not to expect studying.** Not avoidance — he said it up front. But pre-announcing a write-off is also how a write-off gets authorised. Named it once, lightly. Do not nag it on return.
-- **ASK ON RETURN — one thing only:**
-  1. 🧾 **AC artifacts** — he floated "maybe ill just have you make some artifacts for ac tmr..idk". ⛔ **BLOCKED until he brings material**: there is no AC313/AC311 syllabus, outline or handout in hand ([[project-midterms]] — syllabi are still the standing blocker). If he raises it, the first move is "send me the outline/handouts", not "let's build".
+- **Here (28 Aug) — working.** He came back and immediately put AC311 on the table.
+- **He pre-declared today a "social ass day" and then handed me a build instead.** Not a contradiction worth poking — he asked for the artifact, he didn't promise to study. Do not nag it.
+- **ASK NEXT:** (1) what the **435-page adidas annual report** in the AC311 folder is for — assignment? group project? (2) the **AC311 exam format** — MCQ / journal entries / computation — worth one question in class Monday.
 - **Race loose ends (not urgent, 15 weeks out):** venue unknown, and whether bib pickup is race-morning or in advance — his dad likely has the confirmation.
-- **Everything else from today is closed.** → today's session note below.
+
+## Session — 2026-08-28
+- 📒 **AC311 doc built and published — "Assets Before the Cut-Off"** → https://claude.ai/code/artifact/622ff9d5-05d0-498e-8604-ec60013538f4 · linked both ways with the hub, AC311 card updated. Full detail → [[reference-artifacts]]
+- 🔴 **The finding of the day: AC311 sessions 5–7 (Provisions, Ch 13 / TAS 37) HAVE NOT BEEN TAUGHT.** They run Mon 31 Aug, 7 Sep, 14 Sep — 3 of 7 examinable sessions, no deck in existence. His folder only covers sessions 1–4. → [[project-midterms]]
+- 📂 **He had real material this time** — syllabus + both decks + two practice sets **with official solutions**. The practice PDFs are the highest-value pages in the folder; the doc is built around them.
+- ⚠️ **Two of my own claims corrected:** (1) the AC syllabi were never a blocker — AC311/AC313 outlines have been on his Desktop since 24 Aug; (2) the "AC311 is 40% or 35%, the document contradicts itself" note was a misread — it is **40%**, and the split is 40/30/25/5 = 100.
+- ❓ **Unread on purpose:** a 435-page adidas annual report sitting in the AC311 folder. Not midterm content — flagged to him rather than guessed at.
+- 🧭 **Read of him:** he asked for the resource in one line, gave me the syllabus as the scope authority ("see where we are supposed to be right now"), and let me pick the boundary. That's trust in the process, not disengagement — but it also means nobody has checked whether he *works* the doc. The cold questions are the test of that, not the build.
 
 ## Session — 2026-08-27  *(a very heavy day — durable detail lives in the linked files, not here)*
 - 🏃 **5k baseline finally set: 25:30.** Positive-split, so true fitness ~24:45–25:00. **Run structure now written** — paces, the Sunday quality rotation, the "first km is the slowest km" rule → [[project-training-plan]]. 20:00 is a 12–18 month project and he has been told so.
@@ -40,14 +46,6 @@ metadata:
 - 🏁 **A 10K RACE LANDED ON THE CALENDAR — Sun 13 Dec 2026, Samitivej hospital's own event, and his DAD signed him up.** Register 04:00, gun 05:00, venue <15 min away. Targets given: **floor sub-52 · target 48:00 · stretch sub-47.** Wake 03:30 agreed (he proposed 03:45 and took the recommendation). **This is the externally-dated near milestone the training plan said it needed and could never give itself** → [[project-training-plan]]
 - 🗺️ **Artifacts: BA202 doc extended to L1–L4 with a sidebar TOC, 7 hand-built SVG diagrams, 25 cold questions and worked examples; the Term 2.1 hub built; all three now link to each other, and ✅ he tapped the links and confirmed they work.** URLs, the one-doc-per-subject rule and the build/verify checklist → [[reference-artifacts]]
 - 🧭 **Read of him:** he asked for diagrams unprompted and used them well; he took direct correction on his own framing three separate times without defensiveness; and the day's plan changed twice (cafe dropped, email dropped) with **good reasons given both times** — a different thing from the 25 Aug peer-driven flip.
-
-## Session — 2026-08-26
-- ✅ FN201 Assignment #1 submitted by the 13:00 deadline (he is **Group 1**).
-- ✅ **He skipped Wed classes and the trade CONVERTED** — read + handwritten notes, cold-tested the TVM drills (~8/16 at that point), trained at home with a calisthenics circuit instead of the Jetts block. No night out. My prediction that the evening had collapsed was wrong on 3 of 4 counts.
-- 🔴 He never opened LN4 — all of it came off the derived Playbook artifact.
-- 🚨 The L02 clip is **mostly not TVM**: TVM starts at 2:06 of 2:42, so it delivers LN4 Sections I–II only. Every mechanic is still ahead.
-- 📄 Built and published **Obrom's TVM Playbook** → [[reference-artifacts]].
-- 🔧 `yt-dlp` installed; FN201 clips are unlisted YouTube with auto-captions → [[reference-lecture-transcription]].
 
 ## 🎯 Current state
 - **MIDTERMS = TOP PRIORITY** ([[project-midterms]] — canonical). 🗓️ **Board: the Term 2.1 hub** — https://claude.ai/code/artifact/017ced5a-48b7-4101-a4a9-e18b38b4de3e · **front-load order revised 27 Aug: FN201 > BA202 > AC313 > AC311 > MK201 > EL221.** **Thammasat, BBA, Accounting major / Finance minor.** 6 exams 20–27 Sep. Classes end 11 Sep; **14–19 Sep is a free week and the spine of the plan.** ⛔ Only blocker: syllabi + textbook names.
