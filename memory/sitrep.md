@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-08-28 (LIVE — session in progress. 26 Aug note flushed to [[sessions-log]]; window now holds 28 + 27 Aug.)*
+*Last updated: 2026-08-28 (DAY-END — verified + flushed; quote fired, `~/.crow-session-ending` touched. 26 Aug flushed to [[sessions-log]] earlier today; window holds 28 + 27 Aug.)*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,7 +26,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (28 Aug, ~afternoon) — "not free for the rest of today, like dead ass."** Not a formal day-end sign-off (no "see you"/"good night") → **nightly quote NOT fired.** If he comes back and signs off properly, fire it then.
+- **AWAY (28 Aug) — DAY-END. "ill see you when i see you my guy."** Open-ended, no return date given. Nightly quote fired, `~/.crow-session-ending` touched.
+- ⚠️ **Open-ended sign-off — do not assume the next session is tomorrow.** A month has passed between sessions before (21 Jul → 23 Aug). On return, ask what changed before acting on anything below.
 - 📌 **HE COMMITTED: Sat 29 Aug evening — AC311 §17 entry drill (10 entries, cold, on paper) + AC313.** His own words, unprompted. On return, ask how the entry drill went — specifically *which* entries he missed, since that's the whole diagnostic.
 - **He pre-declared today a "social ass day" and then handed me a build instead.** Not a contradiction worth poking — he asked for the artifact, he didn't promise to study. Do not nag it.
 - **ASK NEXT — two, both for Monday's class:** (1) the **MCQ/entry mark split** on the AC311 paper. (2) the inventory MCQ on deck slide 9 has **two** valid "not inventory" answers (cranes + office software) — flagged in the doc, worth asking Ajarn Pailin which reading she holds.
@@ -34,14 +35,12 @@ metadata:
 - **Race loose ends (not urgent, 15 weeks out):** venue unknown, and whether bib pickup is race-morning or in advance — his dad likely has the confirmation.
 
 ## Session — 2026-08-28
-- 📒 **AC311 doc built and published — "Assets Before the Cut-Off"** → https://claude.ai/code/artifact/622ff9d5-05d0-498e-8604-ec60013538f4 · linked both ways with the hub, AC311 card updated. Full detail → [[reference-artifacts]]
-- 🔴 **The finding of the day: AC311 sessions 5–7 (Provisions, Ch 13 / TAS 37) HAVE NOT BEEN TAUGHT.** They run Mon 31 Aug, 7 Sep, 14 Sep — 3 of 7 examinable sessions, no deck in existence. His folder only covers sessions 1–4. → [[project-midterms]]
-- ✅ **He then confirmed the AC311 format: a MIX of MCQ and journal entries**, and asked for entries "for like all the transactions" → doc extended the same session with a 26-entry catalogue (each tagged official vs derived), a 10-entry cold drill, and the deck's own 4 MCQs. **The mark split between the two halves is still unknown.**
-- 📂 **He had real material this time** — syllabus + both decks + two practice sets **with official solutions**. The practice PDFs are the highest-value pages in the folder; the doc is built around them.
-- ⚠️ **Two of my own claims corrected:** (1) the AC syllabi were never a blocker — AC311/AC313 outlines have been on his Desktop since 24 Aug; (2) the "AC311 is 40% or 35%, the document contradicts itself" note was a misread — it is **40%**, and the split is 40/30/25/5 = 100.
-- 📐 **He pushed back on entry formatting and was right:** wanted a real journal page — **Date | Account | Debit | Credit**, debits then indented credits. All 56 entry blocks rebuilt to that shape with a column header and separators between entries. **Lesson: for accounting artifacts, entries must LOOK like a journal, not like a two-column list.**
-- ❓ **adidas report:** he closed it himself — a class example, not graded work.
-- 🧭 **Read of him:** he asked for the resource in one line, gave me the syllabus as the scope authority ("see where we are supposed to be right now"), and let me pick the boundary. That's trust in the process, not disengagement — but it also means nobody has checked whether he *works* the doc. The cold questions are the test of that, not the build.
+- 📒 **AC311 doc built and published — "Assets Before the Cut-Off"** → https://claude.ai/code/artifact/622ff9d5-05d0-498e-8604-ec60013538f4 · linked both ways with the hub. **He brought real material for once** (syllabus + both decks + two practice sets *with official solutions*) — the doc is built around those solutions. Detail → [[reference-artifacts]]
+- 🔴 **Finding of the day: AC311 sessions 5–7 (Provisions, Ch 13 / TAS 37) HAVE NOT BEEN TAUGHT.** They run Mon 31 Aug, 7 Sep, 14 Sep — 3 of 7 examinable sessions with no deck in existence. That section of the doc is a scaffold and is marked as one. → [[project-midterms]]
+- ✅ **He confirmed the format himself: MCQ + journal entries.** Doc extended same session — 26-entry catalogue tagged official/derived, a 10-entry cold drill (§17), the deck's own 4 MCQs. ⛔ **Mark split between the two halves still unknown — he'll ask Monday.**
+- 📐 **He pushed back on entry formatting and was right.** Wanted a real journal page: **Date | Account | Debit | Credit**, credits indented, rules between entries. All 56 blocks rebuilt. **Rule going forward: accounting entries must LOOK like a journal, not a two-column list.**
+- ⚠️ **Two of my own claims corrected:** (1) the AC syllabi were never a blocker — AC311/AC313 outlines have been on his Desktop since 24 Aug; (2) "AC311 is 40% or 35%, the document contradicts itself" was my misread — it is **40%**, split 40/30/25/5.
+- 🧭 **Read of him — the day he called off, he ran.** He pre-declared today a write-off ("social ass day"), then pulled the AC311 folder at 02:33, drove three revisions, corrected my formatting, closed the adidas thread in one line, and committed Saturday evening unprompted. **He directed rather than received, three separate times.** But: none of it is studying yet. He built the instrument and hasn't used it. §17 is the test, not the build.
 
 ## Session — 2026-08-27  *(a very heavy day — durable detail lives in the linked files, not here)*
 - 🏃 **5k baseline finally set: 25:30.** Positive-split, so true fitness ~24:45–25:00. **Run structure now written** — paces, the Sunday quality rotation, the "first km is the slowest km" rule → [[project-training-plan]]. 20:00 is a 12–18 month project and he has been told so.
