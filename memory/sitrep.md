@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-08-28 (DAY-END — verified + flushed; quote fired, `~/.crow-session-ending` touched. 26 Aug flushed to [[sessions-log]] earlier today; window holds 28 + 27 Aug.)*
+*Last updated: 2026-08-30 (live, mid-session — FN201 doc rebuilt to five topics. Window holds 30 + 28 Aug; **27 Aug still needs flushing to [[sessions-log]] at day-end**.)*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,11 +26,19 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **HERE (30 Aug, ~12:00) — back after a 1-day gap.** Opened with "hey lets do fn" — straight to work, no warmup wanted. Away note from 28 Aug ("ill see you when i see you") is CLOSED.
-- **ASK-ON-RETURN — still open:** how the **Sat 29 Aug AC311 §17 entry drill** went, specifically *which* entries he missed (that's the diagnostic). Asked 30 Aug, awaiting answer.
+- **HERE (30 Aug) — his own plan for the day, his words:** study till **15:00**, then Samyan, **read 15:00–18:00**, then a run at **Suan Lumphini**, then read again after. Away note from 28 Aug is CLOSED.
+- ✅ **ASK-ON-RETURN CLOSED (30 Aug):** the Sat 29 Aug AC311 §17 drill **did not run** — his dad took him to a Japanese convention. He read + annotated instead. Self-report: sorting/classification fine, **entries still need work**. Don't re-ask; the open item is now *running* §17, not asking about it.
 - **ASK NEXT — two, both for Monday 31 Aug class:** (1) the **AC311 MCQ/entry mark split**. (2) deck slide 9's inventory MCQ has **two** valid "not inventory" answers (cranes + office software) — which reading does Ajarn Pailin hold?
 - ✅ **adidas report CLOSED** — his call: a class example, not graded work. Don't raise it.
 - **Race loose ends (not urgent, 15 weeks out):** venue unknown, and whether bib pickup is race-morning or in advance — his dad likely has the confirmation.
+
+## Session — 2026-08-30
+- 📕 **FN201 doc rebuilt from TVM-only to ALL FIVE topics — "Obrom's Playbook"** → https://claude.ai/code/artifact/7005f3de-c10b-4542-b3b4-40f619b4f51c (56KB → 167KB). He asked for it himself: "integrate all the shit from the notes then add to the fn artifact." **The 3-question pre-flight owed since 27 Aug is now delivered.** Detail → [[reference-artifacts]]
+- 🔴 **Finding of the day: ~70% of the FN201 midterm is MCQ (25% selected + 10% constructed), and the formula sheet AND interest tables are handed out in the room.** Memorising formulas is worth nothing; breadth across topics 1,2,3,5 beats more TVM reps. → [[project-midterms]]
+- ⚠️ **Two of my own claims corrected:** (1) topic numbering — the syllabus and the lecture notes disagree on topics 3/4/5; use the LN numbering. (2) **"he missed the ratios class on 19 Aug" was wrong — Analysis of Financial Reports has ZERO scheduled lecture hours, it is "full self-study" by design.** He missed nothing; nobody was ever going to teach it.
+- ✅ **Group assignment (15%) CLOSED — he already has a group**, same friends since last year. Stop raising it. Also: all five lecture notes have been on his Desktop since 26 Aug — the materials blocker never existed.
+- 🧭 **Read of him — Saturday went to a Japanese convention with his dad, so the AC311 §17 drill did NOT run.** He read and annotated instead and said he's "fairly sure" of the sorting, "a little more work" on entries. **That's the second build-then-don't-test in three days.** Told him plainly; every new section in the FN doc therefore ends in cold questions. **Today's plan is his own: study till 15:00, Samyan, read till 18:00, run at Suan Lumphini, read after.**
+- ⛔ **Still untested: whether he actually answers the drills or just reads them.** That is the open question on him right now, not coverage.
 
 ## Session — 2026-08-28
 - 📒 **AC311 doc built and published — "Assets Before the Cut-Off"** → https://claude.ai/code/artifact/622ff9d5-05d0-498e-8604-ec60013538f4 · linked both ways with the hub. **He brought real material for once** (syllabus + both decks + two practice sets *with official solutions*) — the doc is built around those solutions. Detail → [[reference-artifacts]]

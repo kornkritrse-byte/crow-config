@@ -407,6 +407,44 @@ s.40's 8 income categories and s.42's 29 exemptions are exactly what a cheat she
 
 **Korn's decision 27 Aug: treat the outline's topic list as the examinable scope** — do NOT assume petroleum income tax / special CIT regimes / BOI / DTAs fall out of the midterm. The ~65% inference stands unresolved and he has chosen the conservative side. Stop raising it.
 
+## 🔺 FN201 — CORRECTIONS + FINDINGS (30 Aug 2026)
+
+### ⚠️ Topic numbering: the syllabus and the lecture notes DISAGREE. Use the lecture notes.
+| Printed on the note | Topic |
+|---|---|
+| LN1 | Topic #1 An Overview of Business Finance |
+| LN2 | Topic #2 The Axioms of Business Finance *(mostly self-study)* |
+| LN3 | Topic #3 Analysis of Financial Reports *(**full self-study**)* |
+| LN4 | Topic #4 The Time Value of Money |
+| LN5 | Topic #5 Financial Environments and Markets |
+
+The **syllabus** numbers them 1 Overview, 2 Axioms, **3 Financial Environments**, **4 Financial Reports**, **5 TVM** — i.e. 3/4/5 are swapped against the decks. Exam scope is "topics 1–5" either way, so **scope is unaffected**; the earlier sitrep/midterms line calling ratios "topic 4" and TVM "topic 5" came from the syllabus and is now superseded. **Docs and conversation use the LN numbering** (those are the pages he reads).
+
+### ⚠️ CORRECTION: "he missed the ratios class on 19 Aug" was WRONG.
+Syllabus hours per topic (Lecture / Practical / Active-learning):
+| Topic | Note | Lec | Active | Note |
+|---|---|---|---|---|
+| Overview | LN1 | 1 | 2 | taught **remotely via Zoom**, 12 Aug |
+| Axioms | LN2 | 1 | 7 | deck says "mostly self-study" |
+| **Analysis of Financial Reports** | LN3 | **0** | **28** | deck says **"full self-study"** |
+| TVM | LN4 | 13 | 19 | 4 weeks, 26 Aug → 16 Sep |
+| Financial Environments & Markets | LN5 | 4 | 4 | clips optional "if covered in the class" |
+➡️ **Ratios has ZERO scheduled lecture hours. There was never a class to miss.** It is the longest note (32pp), the only non-TVM topic that computes, and the syllabus flags it as feeding the group project.
+
+### 🚨 EXAM STRUCTURE — the number that reorders FN201 study
+- Midterm **35%** = **25% selected-response + 10% constructed-response**. → **~70% of the paper is MCQ.**
+- **Closed book, BUT formula sheet AND interest-factor tables are PROVIDED.** Up to two simple / non-graphing / non-programmable scientific or financial calculators allowed.
+- ➡️ **Memorising formulas is worth nothing.** All the marks are in *choosing* the formula and *fixing the inputs* — which is exactly his diagnosed TVM failure mode.
+- ➡️ **Breadth across topics 1,2,3,5 beats more TVM reps.** Topics 1–3 and 5 are largely definitional and he was at zero on all four until 30 Aug.
+- Final 45% (2 Dec, non-cumulative, topics 6–10) = **45% selected-response, 0% constructed.**
+
+### ✅ CLOSED — the 15% group assignment is NOT a risk
+**30 Aug, his words: he already has a group — the same friends he's worked with since last year, "we are good."** Outline requires 4–5 members and **strictly forbids working solo**; scored *mainly on attempt, completeness and punctuality*, adjusted by self-and-peer evaluation. **Stop raising it.** Due Wed 16 Sep.
+
+### 📂 MATERIALS — never were a blocker
+`~/Desktop/fn/` has held **all five lecture notes since 26 Aug**, plus `Interest Factor Tables.pdf` (4pp) and the A1 assignment sheet. His submitted A1 is at `~/Downloads/FN201-A1-6802640661.pdf`. Extract with `markitdown` — the PDFs are text, tables come out mangled but readable, numbers survive.
+⚠️ **The decks are deliberately incomplete** — flipped classroom, so "Drawbacks of ……", "The conclusion", and several blank grids were filled in **verbally**. Anything reconstructed is tagged `worked here` in the doc and should be checked against a classmate's notes.
+
 ## 🧮 FN201 TVM — DIAGNOSIS FROM THE 16 DRILLS (27 Aug 2026)
 
 **Score: 11/16 first try, cold.** Missed **Q5, Q8, Q12, Q15, Q16.** My prediction (Q9 delayed annuity, Q11 growing perpetuity) was **wrong — he got both.**
@@ -422,7 +460,7 @@ s.40's 8 income categories and s.42's 29 exemptions are exactly what a cheat she
 
 **The tell that confirms the diagnosis: he got Q9 (delayed annuity) right** — because that question *labelled itself* as delayed. **When the adjustment is named he makes it; when it is buried in the wording he does not.**
 
-**🔧 THE FIX — a 3-question pre-flight before writing any formula.** Deferred by Korn (27 Aug) to the next FN session; add it to the TVM Playbook then.
+**🔧 THE FIX — a 3-question pre-flight before writing any formula.** ✅ **DELIVERED 30 Aug** — §preflight in [[reference-artifacts]]'s FN doc, with the miss-table and the note that it catches Q5/Q8/Q15 but NOT Q16 (amortisation procedure) or Q12 (concept).
 1. **What is my n?** Count from where the money starts, not from today.
 2. **End or start?** Ordinary or due — due means × (1+i).
 3. **Does the rate match the payment frequency?** If not, convert to an effective rate for the payment period first.
