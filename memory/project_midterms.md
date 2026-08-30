@@ -445,6 +445,23 @@ Syllabus hours per topic (Lecture / Practical / Active-learning):
 `~/Desktop/fn/` has held **all five lecture notes since 26 Aug**, plus `Interest Factor Tables.pdf` (4pp) and the A1 assignment sheet. His submitted A1 is at `~/Downloads/FN201-A1-6802640661.pdf`. Extract with `markitdown` — the PDFs are text, tables come out mangled but readable, numbers survive.
 ⚠️ **The decks are deliberately incomplete** — flipped classroom, so "Drawbacks of ……", "The conclusion", and several blank grids were filled in **verbally**. Anything reconstructed is tagged `worked here` in the doc and should be checked against a classmate's notes.
 
+### 📄 THE EXAM FORMULA SHEET + THE SELF-TEST SETS (dropped by Korn 30 Aug, ~17:10)
+`~/Desktop/fn/` now also holds:
+| File | What it is | Solutions? |
+|---|---|---|
+| `FN201-25S-BBA-E1-Formulas-V1R-260219.pdf` | **LAST SEMESTER'S ACTUAL MIDTERM FORMULA SHEET**, 6pp. `25S`=2nd sem AY2025, `E1`=exam 1, header says "1st draft (revised)" — indicative of scope, NOT a guarantee for 26F | n/a |
+| `STQ01-OBF-Q&S1-30` | Self-test #1, Topic 1, Q1–30 | ✅ **official solutions included** |
+| `STQ02-ABF-Q1-30&S1-20-P1-of-2` | Self-test #2, Topic 2, Q1–30, True/False on bold-underlined parts | ✅ **official for Q1–20 only**; Part 2/2 missing |
+| `STQ03-AFR-Q1-20` | Self-test #3, Topic 3, ratio MCQs + "which statement is most CORRECT" | ❌ **NO SOLUTIONS** |
+| `STQ04-TVM-Q1-30` | Self-test #4, Topic 4 | ❌ **NO SOLUTIONS** |
+⚠️ **No STQ05 (markets) exists yet.**
+🚨 **8 of STQ04's 30 questions are labelled actual past midterm questions** — Q1–4 (1st/AY2019), Q13–14 (S/AY2019), Q29 (2nd/AY2021), Q30 (1st/AY2022). **This is what Korn meant by "past paper test exams."**
+➡️ **Because STQ03/04 have no official answers, every worked figure Crow supplies for them is DERIVED — must be tagged `worked here` in the doc and stated out loud.**
+
+### 🚨 SCOPE CORRECTION — the formula sheet is WIDER than the lecture notes suggest
+On the sheet but absent/deferred in the decks: **CAPM** (LN2 says "later in FN311/312"), **bond valuation** (finite + perpetual), **preferred share valuation**, **common share valuation — Gordon constant-growth AND non-constant growth**, `r_s = DY + CGY`, **amortised loans in full** (balance at T, interest/principal split), **flat-rate/add-on-interest loans** (incl. `ERR ≈ i%(2) − 1%`), **dividend payout ratio + dividend yield**, and the **full 13-type cash-flow taxonomy** (RA/AD/DA · RP/PD/DP · RGP/GPD/DGP · RGA/GAD/DGA).
+✅ Syllabus check confirms it: topic 4's description ends *"...applications on amortized loans; flat-rate or add-on-interest loans; bond and stock valuation"*. **It was always in scope — Crow's first build under-read it.** All of the above added to the doc 30 Aug.
+
 ## 🧮 FN201 TVM — DIAGNOSIS FROM THE 16 DRILLS (27 Aug 2026)
 
 **Score: 11/16 first try, cold.** Missed **Q5, Q8, Q12, Q15, Q16.** My prediction (Q9 delayed annuity, Q11 growing perpetuity) was **wrong — he got both.**
