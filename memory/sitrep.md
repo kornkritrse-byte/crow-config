@@ -26,7 +26,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **HERE (30 Aug) — his own plan for the day, his words:** study till **15:00**, then Samyan, **read 15:00–18:00**, then a run at **Suan Lumphini**, then read again after. Away note from 28 Aug is CLOSED.
+- **AWAY (30 Aug, ~13:15) — "perfect lemme lock in." Heads-down studying FN201, not a day-end.** Off to: **Topic 1 → Topic 2 (ending on drills A1–A8) → start Topic 3**, till 15:00. Then **Samyan 16:00–18:00** = rest of Topic 3 + **R1–R10**. Then a run at **Suan Lumphini**, then evening = **§preflight + Topic 5 + M1–M9**. His own call, agreed: if the evening goes, **drop Topic 5, not the back half of Topic 3.**
+- **ASK ON RETURN — one thing only: WHICH DRILL CODES HE MISSED.** `A1–A8` Topic 2 · `R1–R10` Topic 3 · `M1–M9` Topic 5. ⚠️ **This is the whole point — he has built two docs in three days and not yet tested himself on either.** Do not let it turn into "how did the reading go." Ask for codes.
 - ✅ **ASK-ON-RETURN CLOSED (30 Aug):** the Sat 29 Aug AC311 §17 drill **did not run** — his dad took him to a Japanese convention. He read + annotated instead. Self-report: sorting/classification fine, **entries still need work**. Don't re-ask; the open item is now *running* §17, not asking about it.
 - **ASK NEXT — two, both for Monday 31 Aug class:** (1) the **AC311 MCQ/entry mark split**. (2) deck slide 9's inventory MCQ has **two** valid "not inventory" answers (cranes + office software) — which reading does Ajarn Pailin hold?
 - ✅ **adidas report CLOSED** — his call: a class example, not graded work. Don't raise it.
