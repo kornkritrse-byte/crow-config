@@ -45,6 +45,7 @@ Korn proposed merging BA202 + FN201 into a single "Term 2.1" artifact on 27 Aug.
 - Verify every artifact with Playwright before publishing: light + dark + phone, horizontal-overflow check, and for SVGs a geometry pass that no `<text>` escapes its `<rect>`. This caught real bugs on 27 Aug.
 - Hand-author inline SVG, style it with page-level CSS classes bound to theme tokens (never literal colours, never `<style>` inside the SVG), and give each `<marker>` a unique id — duplicate ids across figures are invalid.
 - **Korn responds well to diagrams** — draw sequences and decision procedures, leave lists as lists.
+- **Plain-English first, symbols second (30 Aug).** He asked what "a risk can be *compensated*" meant, got a correct answer built on bond pricing and `E[RP]`, and said **"can you dumb it down."** The version that landed: a two-jobs analogy (bank vs startup), then the consequence. **Rule: when a doc introduces a loaded term, define it in ordinary words with a non-finance analogy BEFORE the formula — then show the formula.** Added to §compensated in the FN doc as the pattern to copy. Ties to his CLAUDE.md: he learns from examples, not principles.
 
 ## 🎨 ONE DESIGN SYSTEM, ONE PALETTE PER DOC
 Each subject doc reuses the same **token architecture** (`--ground/--surface/--sunk/--ink/--muted/--faint/--rule`, three-state dark mode, the `.uplink` component) but gets **its own typeface pairing and accent hue** so the family reads as a set without looking cloned:
