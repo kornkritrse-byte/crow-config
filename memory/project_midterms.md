@@ -452,11 +452,16 @@ Syllabus hours per topic (Lecture / Practical / Active-learning):
 | `FN201-25S-BBA-E1-Formulas-V1R-260219.pdf` | **LAST SEMESTER'S ACTUAL MIDTERM FORMULA SHEET**, 6pp. `25S`=2nd sem AY2025, `E1`=exam 1, header says "1st draft (revised)" — indicative of scope, NOT a guarantee for 26F | n/a |
 | `STQ01-OBF-Q&S1-30` | Self-test #1, Topic 1, Q1–30 | ✅ **official solutions included** |
 | `STQ02-ABF-Q1-30&S1-20-P1-of-2` | Self-test #2, Topic 2, Q1–30, True/False on bold-underlined parts | ✅ **official for Q1–20 only**; Part 2/2 missing |
-| `STQ03-AFR-Q1-20` | Self-test #3, Topic 3, ratio MCQs + "which statement is most CORRECT" | ❌ **NO SOLUTIONS** |
-| `STQ04-TVM-Q1-30` | Self-test #4, Topic 4 | ❌ **NO SOLUTIONS** |
+| `STQ03-AFR-Q1-20` | Self-test #3, Topic 3, ratio MCQs + "which statement is most CORRECT" | ✅ **`STQ03-AFR-S1-20-V03R.xlsx`** (added 17:44) |
+| `STQ04-TVM-Q1-30` | Self-test #4, Topic 4 | ✅ **`STQ04-TVM-S1-30-V8RR.xlsx`** (added 17:44) |
 ⚠️ **No STQ05 (markets) exists yet.**
 🚨 **8 of STQ04's 30 questions are labelled actual past midterm questions** — Q1–4 (1st/AY2019), Q13–14 (S/AY2019), Q29 (2nd/AY2021), Q30 (1st/AY2022). **This is what Korn meant by "past paper test exams."**
-➡️ **Because STQ03/04 have no official answers, every worked figure Crow supplies for them is DERIVED — must be tagged `worked here` in the doc and stated out loud.**
+✅ **ALL FOUR SETS NOW HAVE OFFICIAL SOLUTIONS.** Sets 1–2 inside the question PDFs; sets 3–4 as separate .xlsx workbooks (read with `markitdown`).
+📊 **Crow's derived answers scored 18/20 on STQ03 and 7/7 on the STQ04 questions worked (Q2, Q3, Q14, Q15, Q17, Q18, Q19 — exact to the baht).**
+🔴 **THE TWO MISSES — both STQ03 Q15, and the lesson generalises:**
+- **Q15(c) "two unambiguous causes of falling ROE":** Crow answered *operating-cost blowout + receivables*. Official answer is **accounts receivable + inventory**. Obrom's stated reason for rejecting the cost explanation: **the ratio table he provides contains no GPM and no OPM**, so cost mismanagement "cannot be concluded with confidence."
+- **Q15(d) "which efficiencies were weaknesses":** Crow answered *asset-management/receivables+inventory*. Official frames it as the **three Du Pont efficiencies** — operating (NPM), investment (TAT), financing (EM) — and the answer is **operating efficiency**. He also rules that rising leverage was still *efficient* because positive NPM means leverage magnified ROE.
+➡️ **RULE FOR OBROM'S QUESTIONS: "unambiguous" means PROVABLE FROM THE RATIOS HE GAVE YOU, not merely visible if you recompute from the statements.** And when a question says "which efficiency", he wants the Du Pont decomposition, not a free-form answer. Both corrected in the doc 30 Aug.
 
 ### 🚨 SCOPE CORRECTION — the formula sheet is WIDER than the lecture notes suggest
 On the sheet but absent/deferred in the decks: **CAPM** (LN2 says "later in FN311/312"), **bond valuation** (finite + perpetual), **preferred share valuation**, **common share valuation — Gordon constant-growth AND non-constant growth**, `r_s = DY + CGY`, **amortised loans in full** (balance at T, interest/principal split), **flat-rate/add-on-interest loans** (incl. `ERR ≈ i%(2) − 1%`), **dividend payout ratio + dividend yield**, and the **full 13-type cash-flow taxonomy** (RA/AD/DA · RP/PD/DP · RGP/GPD/DGP · RGA/GAD/DGA).
