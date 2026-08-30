@@ -26,11 +26,9 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (28 Aug) — DAY-END. "ill see you when i see you my guy."** Open-ended, no return date given. Nightly quote fired, `~/.crow-session-ending` touched.
-- ⚠️ **Open-ended sign-off — do not assume the next session is tomorrow.** A month has passed between sessions before (21 Jul → 23 Aug). On return, ask what changed before acting on anything below.
-- 📌 **HE COMMITTED: Sat 29 Aug evening — AC311 §17 entry drill (10 entries, cold, on paper) + AC313.** His own words, unprompted. On return, ask how the entry drill went — specifically *which* entries he missed, since that's the whole diagnostic.
-- **He pre-declared today a "social ass day" and then handed me a build instead.** Not a contradiction worth poking — he asked for the artifact, he didn't promise to study. Do not nag it.
-- **ASK NEXT — two, both for Monday's class:** (1) the **MCQ/entry mark split** on the AC311 paper. (2) the inventory MCQ on deck slide 9 has **two** valid "not inventory" answers (cranes + office software) — flagged in the doc, worth asking Ajarn Pailin which reading she holds.
+- **HERE (30 Aug, ~12:00) — back after a 1-day gap.** Opened with "hey lets do fn" — straight to work, no warmup wanted. Away note from 28 Aug ("ill see you when i see you") is CLOSED.
+- **ASK-ON-RETURN — still open:** how the **Sat 29 Aug AC311 §17 entry drill** went, specifically *which* entries he missed (that's the diagnostic). Asked 30 Aug, awaiting answer.
+- **ASK NEXT — two, both for Monday 31 Aug class:** (1) the **AC311 MCQ/entry mark split**. (2) deck slide 9's inventory MCQ has **two** valid "not inventory" answers (cranes + office software) — which reading does Ajarn Pailin hold?
 - ✅ **adidas report CLOSED** — his call: a class example, not graded work. Don't raise it.
 - **Race loose ends (not urgent, 15 weeks out):** venue unknown, and whether bib pickup is race-morning or in advance — his dad likely has the confirmation.
 
