@@ -456,6 +456,12 @@ Syllabus hours per topic (Lecture / Practical / Active-learning):
 | `STQ04-TVM-Q1-30` | Self-test #4, Topic 4 | ✅ **`STQ04-TVM-S1-30-V8RR.xlsx`** (added 17:44) |
 ⚠️ **No STQ05 (markets) exists yet.**
 🚨 **8 of STQ04's 30 questions are labelled actual past midterm questions** — Q1–4 (1st/AY2019), Q13–14 (S/AY2019), Q29 (2nd/AY2021), Q30 (1st/AY2022). **This is what Korn meant by "past paper test exams."**
+🔑 **HOW TO READ OBROM'S MCQ ANSWER KEYS — the answers are COLOUR-CODED, and plain text extraction loses them.**
+`markitdown` returns the option glyphs (Wingdings2 `\uf06a`–`\uf06e` = ①–⑤) but NOT which one is right. The signal is span colour:
+- **STQ01:** the correct option is coloured **green `0x00b050`**.
+- **STQ02:** a **red `0xff0000`** statement = the answer is **FALSE**; black = **TRUE**. Green text is his correction note.
+**Tool:** `pymupdf` in a venv at the scratchpad (`python3 -m venv venv && venv/bin/pip install pymupdf`) — system pip is externally-managed and refuses. Read `page.get_text("dict")` and check `span["color"]`. **poppler/pdftoppm is NOT installed, so the Read tool cannot render PDF pages as images.**
+
 ✅ **ALL FOUR SETS NOW HAVE OFFICIAL SOLUTIONS.** Sets 1–2 inside the question PDFs; sets 3–4 as separate .xlsx workbooks (read with `markitdown`).
 📊 **Crow's derived answers scored 18/20 on STQ03 and 7/7 on the STQ04 questions worked (Q2, Q3, Q14, Q15, Q17, Q18, Q19 — exact to the baht).**
 🔴 **THE TWO MISSES — both STQ03 Q15, and the lesson generalises:**
