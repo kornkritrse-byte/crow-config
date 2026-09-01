@@ -79,12 +79,21 @@ Korn stated it as a standing instruction, not a reaction: **"please keep the exp
 **Why it works on him:** his CLAUDE.md — he learns from examples, not principles.
 ⚠️ **He will not always say it twice.** Assume "dumb it down" is the default request on every explanation, and only go technical when he asks for the mechanics.
 
-## 🔴 CORRECTION 1 Sep 2026 — STQ03 & STQ04 DO have official solutions
-The claim above that *"STQ#3 and #4 have NO official answer key — every figure there is Crow's"* is **WRONG**. Two official worked-solution workbooks have been on his Mac in `~/Desktop/fn/` since 30 Aug 17:44:
-- `FN201-26F-BBA-STQ03-AFR-S1-20-V03R-230223.xlsx` — **20 sheets, Q1–Q20**, one worked sheet per question.
-- `FN201-26F-BBA-STQ04-TVM-S1-30-V8RR-250917.xlsx` — **30 sheets, Q1–Q30.**
+## ✅ RESOLVED 1 Sep 2026 — STQ03 & STQ04 verification sweep: doc is CLEAN, the memory note was the error
+The line above claiming *"STQ#3 and #4 have NO official answer key — every figure there is Crow's"* was **wrong, and only ever wrong in this memory file.** Two official worked-solution workbooks sit in `~/Desktop/fn/`:
+- `FN201-26F-BBA-STQ03-AFR-S1-20-V03R-230223.xlsx` — 20 sheets, Q1–Q20.
+- `FN201-26F-BBA-STQ04-TVM-S1-30-V8RR-250917.xlsx` — 30 sheets, Q1–Q30.
 
-They landed *after* the PDFs (17:17–17:18) and after the doc's §pretest was written, so the "no key" tag was true when written and stale within the hour. **Consequence: every §pretest figure for STQ3/STQ4 tagged as Crow's is unverified against a key that exists.** Any mismatch teaches him a wrong method in his primary document. **Verify and re-tag.**
+**The artifact never claimed otherwise.** §pretest's own header reads: *"He supplies solutions for all four sets — sets 1 and 2 inside the question PDFs, sets 3 and 4 as separate spreadsheets… Every answer below has been checked against Obrom's own solution workbook."* Two `verified —` bands in §apps and §valuation name the workbook by filename.
+
+**Sweep run 1 Sep against both workbooks (all 50 answers):**
+- **STQ03 Q1–Q20 — 20/20 match**, including the 20-ratio Wayabutara sweep (Q13) and the whole Rubber Ducklings case (Q15: 15 ratios × 3 years, Du Pont, the inventory-days table, (c) and (d) verbatim to his reasoning).
+- **STQ04 — every answer checked matches**, including Q28 (a–f), Q29 (X ≈ 145,946,483) and Q30 (a, b, c, d-1, d-2, d-3), plus Q2/Q3/Q14/Q15/Q17/Q18/Q19 in §apps and §valuation.
+
+🔴 **ONE REAL FINDING — the OFFICIAL KEY is wrong, not the doc. STQ03 Q15, ROE for 20X2.**
+Obrom's workbook cell says **20.59%**. The true figure is **145 / 694 = 20.89%**, which is what the doc has. His own Du Pont row on the same sheet gives 20.80%, so the sheet is internally inconsistent — it is a rounding/typo artifact in a table of pre-rounded components. **20X1 and 20X3 match exactly**, so it is isolated to that one cell. **Tell Korn not to "correct" himself down to 20.59%.**
+
+⚠️ **Process lesson: I told Korn ~50 answers were "tagged unverified" before checking the document.** They were not — no such tag exists in it. **Read the artifact before reporting a defect in the artifact.** Same failure shape as the 27 Aug BA202 "coverage gap" called from audio alone.
 
 ## 📂 THE FN201 STQ SET — what exists, and the hole in it (1 Sep 2026)
 Files in `~/Desktop/fn/`. STQ numbering follows the **lecture notes**, not the syllabus:
