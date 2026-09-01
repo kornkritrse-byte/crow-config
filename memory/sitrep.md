@@ -26,7 +26,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (31 Aug, day-end) — he closed the session himself: "update sitrep im closing this sesd".** Off to: nothing declared. Last thing on the desk was **FN201 STQ01 (Topic 1), worked question by question.**
+- **Here (1 Sep).** Back after the 31 Aug day-end close. Last thing on the desk was **FN201 STQ01 (Topic 1), worked question by question.**
 - **ASK ON RETURN — three, and the first two are carried over because I never asked them on 31 Aug:**
   1. 🔴 **WHICH DRILL CODES HE MISSED** — `A1–A8` Topic 2 · `R1–R10` Topic 3 · `M1–M9` Topic 5, from the 30 Aug plan. **Open since 30 Aug. Ask for codes, not "how did it go."**
   2. **The two AC311 questions from Monday 31 Aug class** — (a) the MCQ/entry **mark split**; (b) deck slide 9's inventory MCQ has *two* valid "not inventory" answers (cranes + office software) — which reading does Ajarn Pailin hold? *He had the class on 31 Aug and it never came up.*
