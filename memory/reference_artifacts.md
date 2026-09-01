@@ -70,3 +70,30 @@ Korn asked *"where are those"* on 1 Sep after I'd demanded these codes across th
 Base URL: https://claude.ai/code/artifact/7005f3de-c10b-4542-b3b4-40f619b4f51c — append the anchor.
 ⚠️ **Count correction: the axiom set is A1–A9 (nine), not A1–A8.** A9 lives in a different section, which is why it kept getting dropped from my own count.
 🔴 **Design lesson — the real one:** A1–A8 have no heading and no TOC entry, so they are unreachable by browsing. He defaults to Obrom's STQ PDFs because those are *findable*. **Any drill set gets its own heading + its own TOC line, or it does not exist.**
+
+
+## 🗣️ PLAIN-ENGLISH IS A HARD RULE — third confirmation, 1 Sep 2026
+Korn stated it as a standing instruction, not a reaction: **"please keep the explanations extremely easy."** Prior triggers 30 Aug (§compensated) and 31 Aug (STQ01 Topic-1). **Three strikes — this is now a hard rule, not a preference.**
+
+**How to apply, every time:** ordinary words + a non-finance analogy FIRST → then the consequence → then the formula/term LAST, as a label for something he already understands. Never open with notation. Never define a term with another term.
+**Why it works on him:** his CLAUDE.md — he learns from examples, not principles.
+⚠️ **He will not always say it twice.** Assume "dumb it down" is the default request on every explanation, and only go technical when he asks for the mechanics.
+
+## 🔴 CORRECTION 1 Sep 2026 — STQ03 & STQ04 DO have official solutions
+The claim above that *"STQ#3 and #4 have NO official answer key — every figure there is Crow's"* is **WRONG**. Two official worked-solution workbooks have been on his Mac in `~/Desktop/fn/` since 30 Aug 17:44:
+- `FN201-26F-BBA-STQ03-AFR-S1-20-V03R-230223.xlsx` — **20 sheets, Q1–Q20**, one worked sheet per question.
+- `FN201-26F-BBA-STQ04-TVM-S1-30-V8RR-250917.xlsx` — **30 sheets, Q1–Q30.**
+
+They landed *after* the PDFs (17:17–17:18) and after the doc's §pretest was written, so the "no key" tag was true when written and stale within the hour. **Consequence: every §pretest figure for STQ3/STQ4 tagged as Crow's is unverified against a key that exists.** Any mismatch teaches him a wrong method in his primary document. **Verify and re-tag.**
+
+## 📂 THE FN201 STQ SET — what exists, and the hole in it (1 Sep 2026)
+Files in `~/Desktop/fn/`. STQ numbering follows the **lecture notes**, not the syllabus:
+| STQ | Topic | Questions | Official solutions? |
+|---|---|---|---|
+| **STQ01-OBF** | T1 Overview | 1–30 | ✅ Q&S in one PDF (green-coded key — `pymupdf` span-colour method) |
+| **STQ02-ABF** | T2 Axioms | 1–30 | ⚠️ **Q1–20 only.** File is `P1-of-2`; part 2 was never posted → **Q21–30 have no key** |
+| **STQ03-AFR** | T3 Financial Reports | 1–20 | ✅ xlsx, 20 sheets |
+| **STQ04-TVM** | T4 TVM | 1–30 | ✅ xlsx, 30 sheets |
+| **T5 FE&M** | T5 Markets | — | 🔴 **NO STQ FILE EXISTS.** |
+
+🔴 **THE HOLE:** Korn's stated method (1 Sep) is *theory from the artifact, practice from the original STQ files*. That method gives **Topic 5 zero practice**, and leaves STQ02 Q21–30 unmarkable. **`M1–M9` in §drill5 are the only Topic-5 questions in existence for him** — they stop being optional under this plan.
