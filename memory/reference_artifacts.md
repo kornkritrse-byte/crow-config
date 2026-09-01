@@ -131,3 +131,10 @@ Korn dropped `4.BA202-Taxation-Class4-Wed26August2026-Onsite.mp4` (2 h 40 m, 306
 **Verified before publishing** with Playwright (global `playwright@1.61.1` under `/opt/homebrew/lib/node_modules`, **not** a Python module): desktop + phone × light + dark, zero page-level horizontal overflow, no duplicate ids, every TOC anchor resolves.
 🔧 **Build gotcha:** the doc sets `scroll-behavior: smooth`, so Playwright screenshots after `scrollTo` land mid-animation — inject `html{scroll-behavior:auto!important}` first or every screenshot is of the wrong place.
 🔧 **Second gotcha:** `.step` in this doc auto-numbers via a CSS counter. It was wrong for the category list (the counter printed "2" beside 40(3)); rebuilt on `.statute`, whose `.st-id` column takes a real label.
+
+### 🎨 Two diagrams added to §catwork — 1 Sep 2026
+He asked for diagrams **only where one would genuinely help**, explicitly leaving it open to add none. **Answer given: two out of seven categories are diagram-shaped; the other five are definitional lists where a picture would be decoration.** Both drawn in the doc's existing hand-authored `.dg-*` SVG vocabulary (markers `dgA8`, `dgA9`).
+1. **The work-income discriminator** — a three-gate staircase separating **40(1) / 40(6) / 40(7) / 40(2)**, deliberately rhyming with the s.41 staircase so the reading pattern is already familiar. The claim: the gates must be asked **in order**, because control beats everything, and **40(2) is the floor**.
+2. **The category-5 convergence** — three unlike contracts (s.537 rental · s.572 hire-purchase · instalment sale) feeding a shared bus into one 40(5) outcome, with **breach gates** whose NO exits drop to dashed boxes (40(8) / nothing special). The claim: all three routes end with the owner holding **the property AND the money**.
+
+📏 **Judgement rule worth keeping:** a category list is not a diagram. Only draw where there is a **decision order** or a **convergence** — something the reader would otherwise have to assemble from prose.
