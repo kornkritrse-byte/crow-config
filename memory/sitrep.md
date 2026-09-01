@@ -27,10 +27,11 @@ metadata:
 
 ## 🚪 Current status
 - **Here (1 Sep).** Back after the 31 Aug day-end close. Last thing on the desk was **FN201 STQ01 (Topic 1), worked question by question.**
-- **ASK ON RETURN — three, and the first two are carried over because I never asked them on 31 Aug:**
-  1. 🔴 **WHICH DRILL CODES HE MISSED** — `A1–A8` Topic 2 · `R1–R10` Topic 3 · `M1–M9` Topic 5, from the 30 Aug plan. **Open since 30 Aug. Ask for codes, not "how did it go."**
-  2. **The two AC311 questions from Monday 31 Aug class** — (a) the MCQ/entry **mark split**; (b) deck slide 9's inventory MCQ has *two* valid "not inventory" answers (cranes + office software) — which reading does Ajarn Pailin hold? *He had the class on 31 Aug and it never came up.*
-  3. **How far he got through STQ01** — he was mid-set at close (last question raised was Q17 of 30).
+- **ASK ON RETURN — asked 1 Sep, answered only in part:**
+  1. ✅ **STQ01 — done** (he confirmed 1 Sep: "did stq 1").
+  2. ✅ **AC311 caught up** 31 Aug — but the two specific questions (MCQ/entry **mark split**; deck slide 9's two valid "not inventory" answers, cranes vs office software — which does Ajarn Pailin hold?) **still not answered. Re-ask.**
+  3. 🔴 **STILL OPEN — WHICH DRILL CODES HE MISSED** — `A1–A8` Topic 2 · `R1–R10` Topic 3 · `M1–M9` Topic 5, from the 30 Aug plan. **Open since 30 Aug, asked once and skipped past. Ask for codes, not "how did it go."**
+  4. ⚠️ **He skipped the gym on 31 Aug** — Monday is a programmed gym day ([[project-training-plan]]). First logged miss since the plan was dated. Not a lecture; note it, watch for a second.
 - ✅ **CLOSED 31 Aug — he does answer them.** The 30 Aug open question ("does he actually work the drills or just read them") is answered: he worked STQ01 cold and brought his misses. **Partially** — it was Obrom's own STQ PDF, not the docs' drills. The drill codes are still untested.
 - ✅ **adidas report CLOSED** — a class example, not graded work. Don't raise it.
 - **Race loose ends (not urgent, 15 weeks out):** venue unknown, and whether bib pickup is race-morning or in advance — his dad likely has the confirmation.
