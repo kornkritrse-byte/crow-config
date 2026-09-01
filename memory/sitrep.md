@@ -30,7 +30,8 @@ metadata:
 - **ASK ON RETURN — asked 1 Sep, answered only in part:**
   1. ✅ **STQ01 — done** (he confirmed 1 Sep: "did stq 1").
   2. ✅ **AC311 caught up** 31 Aug — but the two specific questions (MCQ/entry **mark split**; deck slide 9's two valid "not inventory" answers, cranes vs office software — which does Ajarn Pailin hold?) **still not answered. Re-ask.**
-  3. 🔴 **STILL OPEN — WHICH DRILL CODES HE MISSED** — `A1–A8` Topic 2 · `R1–R10` Topic 3 · `M1–M9` Topic 5, from the 30 Aug plan. **Open since 30 Aug, asked once and skipped past. Ask for codes, not "how did it go."**
+  3. ✅ **CLOSED 1 Sep — and the answer is that he never did them.** He asked *"where are those"*. He had never found the drills; I'd been demanding codes for a set he couldn't locate. **My failure, not his: I named codes across three sessions and never once gave the anchor.** Locations now sent — `A1–A8` end of **§shield**, `A9` in **§capm** (note: it's A1–A9, nine not eight — my earlier count was wrong), `R1–R10` in **§drill3**, `M1–M9` in **§drill5**. → durable copy in [[reference-artifacts]].
+  ⚠️ **Lesson: he goes to source material (Obrom's STQ PDFs) because it's findable. The doc's drills are buried behind anchors he's never been given. Navigation is the blocker, not willingness.**
   4. ⚠️ **He skipped the gym on 31 Aug** — Monday is a programmed gym day ([[project-training-plan]]). First logged miss since the plan was dated. Not a lecture; note it, watch for a second.
 - ✅ **CLOSED 31 Aug — he does answer them.** The 30 Aug open question ("does he actually work the drills or just read them") is answered: he worked STQ01 cold and brought his misses. **Partially** — it was Obrom's own STQ PDF, not the docs' drills. The drill codes are still untested.
 - ✅ **adidas report CLOSED** — a class example, not graded work. Don't raise it.

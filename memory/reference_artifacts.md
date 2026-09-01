@@ -56,3 +56,17 @@ Each subject doc reuses the same **token architecture** (`--ground/--surface/--s
 - **AC311 Assets Before the Cut-Off** — Fraunces / IBM Plex Sans / IBM Plex Mono, deep teal `#0D5A63`
 
 Reusable AC311 components worth copying for AC313/MK201: `.je` (journal-entry block, mono + tabular-nums), `.drill` + `details.rev` (question with the answer hidden until tapped — this is what makes cold-testing possible on a phone), `.src-tag` provenance band, `.std` standard-reference chip.
+
+## 🧭 FN201 DRILL MAP — where the coded drills actually live (added 1 Sep 2026)
+Korn asked *"where are those"* on 1 Sep after I'd demanded these codes across three sessions. **He had never been told the anchors.** Never name a drill code again without the link.
+
+| Codes | Topic | Anchor |
+|---|---|---|
+| **A1–A8** | T2 Ten Axioms | `#shield` (they sit at the END of the interest-tax-shield section, not under a heading of their own) |
+| **A9** | T2 CAPM | `#capm` |
+| **R1–R10** | T3 Analysis of Financial Reports | `#drill3` |
+| **M1–M9** | T5 Financial Environments & Markets | `#drill5` |
+
+Base URL: https://claude.ai/code/artifact/7005f3de-c10b-4542-b3b4-40f619b4f51c — append the anchor.
+⚠️ **Count correction: the axiom set is A1–A9 (nine), not A1–A8.** A9 lives in a different section, which is why it kept getting dropped from my own count.
+🔴 **Design lesson — the real one:** A1–A8 have no heading and no TOC entry, so they are unreachable by browsing. He defaults to Obrom's STQ PDFs because those are *findable*. **Any drill set gets its own heading + its own TOC line, or it does not exist.**
