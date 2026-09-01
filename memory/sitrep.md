@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-08-31 (day-end wrap, verified + flushed. Window holds 31 + 30 Aug; 28 + 27 Aug archived to [[sessions-log]].)*
+*Last updated: 2026-09-01 (live, session in progress. Window holds 1 Sep + 31 Aug; 30 Aug due to flush to [[sessions-log]] at day-end.)*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -36,6 +36,14 @@ metadata:
 - ✅ **CLOSED 31 Aug — he does answer them.** The 30 Aug open question ("does he actually work the drills or just read them") is answered: he worked STQ01 cold and brought his misses. **Partially** — it was Obrom's own STQ PDF, not the docs' drills. The drill codes are still untested.
 - ✅ **adidas report CLOSED** — a class example, not graded work. Don't raise it.
 - **Race loose ends (not urgent, 15 weeks out):** venue unknown, and whether bib pickup is race-morning or in advance — his dad likely has the confirmation.
+
+## Session — 2026-09-01
+- 📕 **BA202 L4 REBUILT FROM THE CLASS RECORDING** — he dropped the 26 Aug onsite mp4 (2 h 40 m) in and asked for the new content added. Transcribed on the Mac (whisper large-v3-turbo, ~30 min), read in full, **nine sections added to [[reference-artifacts]]'s "The Missed Lectures"**. The doc's own "what this doesn't cover" bullet — *her worked examples* — is now closed.
+- 🔴 **Biggest catch: the 2024 remittance change is CONFIRMED** (the doc had it as a 70% guess off a blank slide title). Foreign income is now taxable in the **year you bring it in**, whatever year it was earned — by Director-General announcement, not by amending the statute. **Old past papers answer this wrong.** Full findings list in [[reference-artifacts]].
+- 🧭 **His method, stated 1 Sep:** theory from my artifacts, practice from **Obrom's original STQ PDFs** (friends who took the class advised it, and I agree — his questions, his phrasing, his keys). **The hole: Topic 5 has NO STQ file**, so `M1–M9` in §drill5 are his only T5 practice. STQ02 Q21–30 are also unmarkable (Part 2/2 never posted).
+- ✅ **Drill-code loop CLOSED, and the answer was on me** — he asked *"where are those"*. He'd never been given the anchors; A1–A8 have no heading and no TOC entry. Locations sent, durable copy in [[reference-artifacts]].
+- ⛔ **I reported a defect in a document I hadn't read.** Told him ~50 §pretest answers were "tagged unverified" — no such tag exists; the doc says plainly it was checked against Obrom's workbooks. **Then verified all 50 anyway: they match.** The one error found is in **Obrom's own key** (STQ03 Q15, 20X2 ROE: his sheet says 20.59%, truth is 145/694 = **20.89%**, doc is right).
+- ⚠️ **Stale `~/.crow-session-ending` marker fired a false day-end wrap** on his first "whats up". The 2 h staleness guard in `hooks/stop.sh` doesn't catch a corpse from a session that died minutes earlier. **Offered a SessionStart `rm -f` as the fix; he hasn't answered.** Also: he **skipped Monday's gym** (first logged miss since the race was dated) and **plain-English explanations are now a hard rule, third ask.**
 
 ## Session — 2026-08-31
 - 📖 **He worked FN201 STQ01 (Topic 1) himself and brought three questions cold — Q13, Q14, Q17.** All answered and **verified against Obrom's green-coded key** in the PDF (`pymupdf` span-colour method — [[project-midterms]]). Q13 = (I) and (II) only · Q14 = Notes payable · Q17 = (II) and (III) only.
