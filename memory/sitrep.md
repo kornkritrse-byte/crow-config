@@ -26,7 +26,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (1 Sep).** Back after the 31 Aug day-end close. Last thing on the desk was **FN201 STQ01 (Topic 1), worked question by question.**
+- **AWAY (1 Sep, 16:29) — off to: a 20-min nap, then a BASKETBALL GAME at 18:30.** Not a day-end — he closed the *study* session, not the day. **No nightly quote has fired today.**
+- **ASK ON RETURN:** how the game went, and nothing else — everything else from today is closed below.
 - **ASK ON RETURN — asked 1 Sep, answered only in part:**
   1. ✅ **STQ01 — done** (he confirmed 1 Sep: "did stq 1").
   2. ✅ **AC311 caught up** 31 Aug — but the two specific questions (MCQ/entry **mark split**; deck slide 9's two valid "not inventory" answers, cranes vs office software — which does Ajarn Pailin hold?) **still not answered. Re-ask.**
@@ -38,6 +39,7 @@ metadata:
 - **Race loose ends (not urgent, 15 weeks out):** venue unknown, and whether bib pickup is race-morning or in advance — his dad likely has the confirmation.
 
 ## Session — 2026-09-01
+- 🏀 **Closed the study block ~15:00 for a nap + a 18:30 basketball game.** His own verdict: *"not the best progress but fair enough — got all the questions in the test ok now but maybe not the best grip on the new content."* **He asked to work the new L4 content out together in the next BA session.** That is the single live thread going into tomorrow.
 - 📕 **BA202 L4 REBUILT FROM THE CLASS RECORDING** — he dropped the 26 Aug onsite mp4 (2 h 40 m) in and asked for the new content added. Transcribed on the Mac (whisper large-v3-turbo, ~30 min), read in full, **nine sections added to [[reference-artifacts]]'s "The Missed Lectures"**. The doc's own "what this doesn't cover" bullet — *her worked examples* — is now closed.
 - 🔴 **Biggest catch: the 2024 remittance change is CONFIRMED** (the doc had it as a 70% guess off a blank slide title). Foreign income is now taxable in the **year you bring it in**, whatever year it was earned — by Director-General announcement, not by amending the statute. **Old past papers answer this wrong.** Full findings list in [[reference-artifacts]].
 - 🧭 **His method, stated 1 Sep:** theory from my artifacts, practice from **Obrom's original STQ PDFs** (friends who took the class advised it, and I agree — his questions, his phrasing, his keys). **The hole: Topic 5 has NO STQ file**, so `M1–M9` in §drill5 are his only T5 practice. STQ02 Q21–30 are also unmarkable (Part 2/2 never posted).
