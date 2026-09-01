@@ -462,6 +462,13 @@ Syllabus hours per topic (Lecture / Practical / Active-learning):
 - **STQ02:** a **red `0xff0000`** statement = the answer is **FALSE**; black = **TRUE**. Green text is his correction note.
 **Tool:** `pymupdf` in a venv at the scratchpad (`python3 -m venv venv && venv/bin/pip install pymupdf`) — system pip is externally-managed and refuses. Read `page.get_text("dict")` and check `span["color"]`. **poppler/pdftoppm is NOT installed, so the Read tool cannot render PDF pages as images.**
 
+### 📖 STQ01 (Topic 1) — HE IS WORKING IT HIMSELF, from 31 Aug
+First confirmed self-testing. He works Obrom's STQ PDF directly, **not the drills in the Playbook** — the source has an official key, the drills don't. Verified answers so far (green-span check): **Q13 = (I) and (II) only · Q14 = Notes payable · Q17 = (II) and (III) only · Q18 = (I) only.**
+🎯 **His soft spot on Topic 1 is CLASSIFICATION, not calculation.** On Q13 he had the causality inverted — thought trade AP was *caused by* working capital instead of *being a component of* it. The two frames that fixed it and should be reused for the whole topic:
+- **Uses vs sources (the T-account split):** left = assets = where the money WENT; right = liabilities + equity = where it CAME FROM. The trap is picking Cash as a "source" — cash is money already raised, a parking spot, not a faucet.
+- **The corporation advantages/disadvantages table** — ✅ limited liability · unlimited life · transferable ownership · easier to raise capital ⟷ ❌ costly to form · double taxation · heavier regulation · agency problem. Every Q17/Q18-style question is a shuffle of that table; the test is *"is the corporation BETTER at this?"*, not *"does a corporation have this?"*
+- **Working capital = the everyday money** (settles inside a year, moves from normal operating). Investment in subsidiary is capital budgeting, not working capital.
+
 ✅ **ALL FOUR SETS NOW HAVE OFFICIAL SOLUTIONS.** Sets 1–2 inside the question PDFs; sets 3–4 as separate .xlsx workbooks (read with `markitdown`).
 📊 **Crow's derived answers scored 18/20 on STQ03 and 7/7 on the STQ04 questions worked (Q2, Q3, Q14, Q15, Q17, Q18, Q19 — exact to the baht).**
 🔴 **THE TWO MISSES — both STQ03 Q15, and the lesson generalises:**

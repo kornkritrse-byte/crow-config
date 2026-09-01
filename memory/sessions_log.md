@@ -10,6 +10,22 @@ metadata:
 
 # Sessions Log (archive)
 
+## 2026-08-28 — AC311 doc built, and the format correction
+- **"Assets Before the Cut-Off" built and published** → https://claude.ai/code/artifact/622ff9d5-05d0-498e-8604-ec60013538f4 · two-way linked with the hub. He brought real material for once — syllabus + both decks + two practice sets **with official solutions** — and the doc is built around those solutions. → [[reference-artifacts]]
+- 🔴 **AC311 sessions 5–7 (Provisions, TAS 37) had not been taught** — 3 of 7 examinable sessions with no deck in existence; they run 31 Aug / 7 Sep / 14 Sep. That section is a marked scaffold. → [[project-midterms]]
+- He confirmed the paper is **MCQ + journal entries**; doc extended same session with the 26-entry catalogue, the §17 cold drill and the deck's 4 MCQs.
+- 📐 **He pushed back on entry formatting and was right** — entries rebuilt as a real journal page (Date | Account | Debit | Credit). Rule kept → [[reference-artifacts]].
+- Two of my own claims corrected: the AC syllabi were never a blocker, and AC311 is **40%** (not the contradiction I read).
+- 🧭 **Read: the day he called off, he ran.** Pre-declared it a "social ass day", then pulled the AC311 folder at 02:33 and directed three revisions. He built the instrument and did not use it — §17 was the test, not the build.
+
+## 2026-08-27 — a very heavy day: the 5k baseline, two cold tests, and a race date
+- 🏃 **5k baseline set: 25:30** (positive-split, true fitness ~24:45–25:00). Run structure written → [[project-training-plan]]. 20:00 named a 12–18 month project.
+- 🔓 **BA202 unblocked — L4's content was already in a handout he had.** I twice called coverage gaps from lecture audio without the deck and was **wrong both times**. New rule: get the handout before calling anything missing. → [[project-midterms]]
+- 📊 **Two cold tests, and together the finding of the day.** BA202 **20/25**, every miss a lookup. FN201 TVM **11/16**, every miss procedure. The BA202 cheat sheet (8 A4, confirmed printed) fixes lookups outright; only reps fix FN201 — and FN201 is the earlier exam. → [[project-midterms]]
+- 🏁 **10K RACE ON THE CALENDAR — Sun 13 Dec 2026**, Samitivej's own event, **his DAD signed him up**. Targets: floor sub-52 · target 48:00 · stretch sub-47. Wake 03:30 agreed. The externally-dated near milestone the plan could never give itself → [[project-training-plan]]
+- 🗺️ BA202 doc extended to L1–L4 (sidebar TOC, 7 SVGs, 25 cold questions); **Term 2.1 hub built**; all three link both ways and he tapped them to confirm → [[reference-artifacts]]
+- 🧭 **Read:** asked for diagrams unprompted and used them well; took direct correction on his own framing three times without defensiveness; changed the day's plan twice with good reasons given — different in kind from the 25 Aug peer-driven flip.
+
 ## 2026-08-23 — the midterms chapter opens
 - First session back after a month dark. Sheets writes work via the local `google-docs` MCP; **formula-reading still broken** (same gotcha as 21 Jul).
 - **รับน้อง closed with a full retro** → [[project-rubnong-tracker]]. He overturned my "briefing failure" read: the game was **over-complicated** — his team understood it and couldn't convey it. New rule: [[feedback-design-for-the-room]].

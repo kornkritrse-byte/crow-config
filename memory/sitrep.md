@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-08-30 (live, mid-session — FN201 doc rebuilt to five topics. Window holds 30 + 28 Aug; **27 Aug still needs flushing to [[sessions-log]] at day-end**.)*
+*Last updated: 2026-08-31 (day-end wrap, verified + flushed. Window holds 31 + 30 Aug; 28 + 27 Aug archived to [[sessions-log]].)*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,12 +26,21 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (30 Aug, ~13:15) — "perfect lemme lock in." Heads-down studying FN201, not a day-end.** Off to: **Topic 1 → Topic 2 (ending on drills A1–A8) → start Topic 3**, till 15:00. Then **Samyan 16:00–18:00** = rest of Topic 3 + **R1–R10**. Then a run at **Suan Lumphini**, then evening = **§preflight + Topic 5 + M1–M9**. His own call, agreed: if the evening goes, **drop Topic 5, not the back half of Topic 3.**
-- **ASK ON RETURN — one thing only: WHICH DRILL CODES HE MISSED.** `A1–A8` Topic 2 · `R1–R10` Topic 3 · `M1–M9` Topic 5. ⚠️ **This is the whole point — he has built two docs in three days and not yet tested himself on either.** Do not let it turn into "how did the reading go." Ask for codes.
-- ✅ **ASK-ON-RETURN CLOSED (30 Aug):** the Sat 29 Aug AC311 §17 drill **did not run** — his dad took him to a Japanese convention. He read + annotated instead. Self-report: sorting/classification fine, **entries still need work**. Don't re-ask; the open item is now *running* §17, not asking about it.
-- **ASK NEXT — two, both for Monday 31 Aug class:** (1) the **AC311 MCQ/entry mark split**. (2) deck slide 9's inventory MCQ has **two** valid "not inventory" answers (cranes + office software) — which reading does Ajarn Pailin hold?
-- ✅ **adidas report CLOSED** — his call: a class example, not graded work. Don't raise it.
+- **AWAY (31 Aug, day-end) — he closed the session himself: "update sitrep im closing this sesd".** Off to: nothing declared. Last thing on the desk was **FN201 STQ01 (Topic 1), worked question by question.**
+- **ASK ON RETURN — three, and the first two are carried over because I never asked them on 31 Aug:**
+  1. 🔴 **WHICH DRILL CODES HE MISSED** — `A1–A8` Topic 2 · `R1–R10` Topic 3 · `M1–M9` Topic 5, from the 30 Aug plan. **Open since 30 Aug. Ask for codes, not "how did it go."**
+  2. **The two AC311 questions from Monday 31 Aug class** — (a) the MCQ/entry **mark split**; (b) deck slide 9's inventory MCQ has *two* valid "not inventory" answers (cranes + office software) — which reading does Ajarn Pailin hold? *He had the class on 31 Aug and it never came up.*
+  3. **How far he got through STQ01** — he was mid-set at close (last question raised was Q17 of 30).
+- ✅ **CLOSED 31 Aug — he does answer them.** The 30 Aug open question ("does he actually work the drills or just read them") is answered: he worked STQ01 cold and brought his misses. **Partially** — it was Obrom's own STQ PDF, not the docs' drills. The drill codes are still untested.
+- ✅ **adidas report CLOSED** — a class example, not graded work. Don't raise it.
 - **Race loose ends (not urgent, 15 weeks out):** venue unknown, and whether bib pickup is race-morning or in advance — his dad likely has the confirmation.
+
+## Session — 2026-08-31
+- 📖 **He worked FN201 STQ01 (Topic 1) himself and brought three questions cold — Q13, Q14, Q17.** All answered and **verified against Obrom's green-coded key** in the PDF (`pymupdf` span-colour method — [[project-midterms]]). Q13 = (I) and (II) only · Q14 = Notes payable · Q17 = (II) and (III) only.
+- 🔴 **This is the first confirmed self-testing** and it answers the question that was open on him since 28 Aug. But note what he tested on: **Obrom's STQ PDFs, not the drills in the docs I built.** He goes to the source material, not the instrument. Worth watching, not correcting — the source has an official key and the drills don't.
+- 🧠 **Where he's soft: Topic 1 classification, not calculation.** Zero of the three were computational. On Q13 he had the causality **inverted** — thought trade AP was *caused by* working capital rather than *being a component of* it. Q14/Q17 he wanted the method, not the answer. **The uses-vs-sources T-account split and the corporation advantages/disadvantages table are the two frames that did the work.**
+- 📏 **"can you dum it down" fired again — second time in three days** (30 Aug was §compensated). The plain-English-and-analogy-before-formula rule is now confirmed twice, not a one-off → [[reference-artifacts]].
+- ⛔ **My miss: I never asked the ASK-ON-RETURN item.** He opened mid-question and I went straight to content — the 30 Aug drill codes (A1–A8 / R1–R10 / M1–M9) were never asked for, and neither were the two AC311 questions from a class he had *that day*. Both carried forward. **Content urgency swallowed the open loop; that's exactly what the loop exists to prevent.**
 
 ## Session — 2026-08-30
 - 📕 **FN201 doc rebuilt from TVM-only to ALL FIVE topics — "Obrom's Playbook"** → https://claude.ai/code/artifact/7005f3de-c10b-4542-b3b4-40f619b4f51c (56KB → 167KB). He asked for it himself: "integrate all the shit from the notes then add to the fn artifact." **The 3-question pre-flight owed since 27 Aug is now delivered.** Detail → [[reference-artifacts]]
@@ -40,22 +49,6 @@ metadata:
 - ✅ **Group assignment (15%) CLOSED — he already has a group**, same friends since last year. Stop raising it. Also: all five lecture notes have been on his Desktop since 26 Aug — the materials blocker never existed.
 - 🧭 **Read of him — Saturday went to a Japanese convention with his dad, so the AC311 §17 drill did NOT run.** He read and annotated instead and said he's "fairly sure" of the sorting, "a little more work" on entries. **That's the second build-then-don't-test in three days.** Told him plainly; every new section in the FN doc therefore ends in cold questions. **Today's plan is his own: study till 15:00, Samyan, read till 18:00, run at Suan Lumphini, read after.**
 - ⛔ **Still untested: whether he actually answers the drills or just reads them.** That is the open question on him right now, not coverage.
-
-## Session — 2026-08-28
-- 📒 **AC311 doc built and published — "Assets Before the Cut-Off"** → https://claude.ai/code/artifact/622ff9d5-05d0-498e-8604-ec60013538f4 · linked both ways with the hub. **He brought real material for once** (syllabus + both decks + two practice sets *with official solutions*) — the doc is built around those solutions. Detail → [[reference-artifacts]]
-- 🔴 **Finding of the day: AC311 sessions 5–7 (Provisions, Ch 13 / TAS 37) HAVE NOT BEEN TAUGHT.** They run Mon 31 Aug, 7 Sep, 14 Sep — 3 of 7 examinable sessions with no deck in existence. That section of the doc is a scaffold and is marked as one. → [[project-midterms]]
-- ✅ **He confirmed the format himself: MCQ + journal entries.** Doc extended same session — 26-entry catalogue tagged official/derived, a 10-entry cold drill (§17), the deck's own 4 MCQs. ⛔ **Mark split between the two halves still unknown — he'll ask Monday.**
-- 📐 **He pushed back on entry formatting and was right.** Wanted a real journal page: **Date | Account | Debit | Credit**, credits indented, rules between entries. All 56 blocks rebuilt. **Rule going forward: accounting entries must LOOK like a journal, not a two-column list.**
-- ⚠️ **Two of my own claims corrected:** (1) the AC syllabi were never a blocker — AC311/AC313 outlines have been on his Desktop since 24 Aug; (2) "AC311 is 40% or 35%, the document contradicts itself" was my misread — it is **40%**, split 40/30/25/5.
-- 🧭 **Read of him — the day he called off, he ran.** He pre-declared today a write-off ("social ass day"), then pulled the AC311 folder at 02:33, drove three revisions, corrected my formatting, closed the adidas thread in one line, and committed Saturday evening unprompted. **He directed rather than received, three separate times.** But: none of it is studying yet. He built the instrument and hasn't used it. §17 is the test, not the build.
-
-## Session — 2026-08-27  *(a very heavy day — durable detail lives in the linked files, not here)*
-- 🏃 **5k baseline finally set: 25:30.** Positive-split, so true fitness ~24:45–25:00. **Run structure now written** — paces, the Sunday quality rotation, the "first km is the slowest km" rule → [[project-training-plan]]. 20:00 is a 12–18 month project and he has been told so.
-- 🔓 **BA202 unblocked: L4's whole content was already in a handout he had.** I twice declared coverage gaps from lecture audio without the deck and was **wrong both times**. New rule → get the handout before calling anything missing. Full audit, file IDs, corrected session map → [[project-midterms]].
-- 📊 **Two cold tests + the cheat sheet, and together they're the study finding of the day.** BA202 **20/25**, every miss a lookup. FN201 TVM **11/16**, every miss procedure. ✅ **BA202 sheet CONFIRMED that evening: 8 A4 sheets, printed fine** — so paper fixes the BA202 misses outright, while only reps fix FN201, and **FN201 is the earlier exam.** He also chose to take the outline scope as-is and skip emailing Ajarn Pattie — his call, stop re-raising it. → [[project-midterms]]
-- 🏁 **A 10K RACE LANDED ON THE CALENDAR — Sun 13 Dec 2026, Samitivej hospital's own event, and his DAD signed him up.** Register 04:00, gun 05:00, venue <15 min away. Targets given: **floor sub-52 · target 48:00 · stretch sub-47.** Wake 03:30 agreed (he proposed 03:45 and took the recommendation). **This is the externally-dated near milestone the training plan said it needed and could never give itself** → [[project-training-plan]]
-- 🗺️ **Artifacts: BA202 doc extended to L1–L4 with a sidebar TOC, 7 hand-built SVG diagrams, 25 cold questions and worked examples; the Term 2.1 hub built; all three now link to each other, and ✅ he tapped the links and confirmed they work.** URLs, the one-doc-per-subject rule and the build/verify checklist → [[reference-artifacts]]
-- 🧭 **Read of him:** he asked for diagrams unprompted and used them well; he took direct correction on his own framing three separate times without defensiveness; and the day's plan changed twice (cafe dropped, email dropped) with **good reasons given both times** — a different thing from the 25 Aug peer-driven flip.
 
 ## 🎯 Current state
 - **MIDTERMS = TOP PRIORITY** ([[project-midterms]] — canonical). 🗓️ **Board: the Term 2.1 hub** — https://claude.ai/code/artifact/017ced5a-48b7-4101-a4a9-e18b38b4de3e · **front-load order revised 27 Aug: FN201 > BA202 > AC313 > AC311 > MK201 > EL221.** **Thammasat, BBA, Accounting major / Finance minor.** 6 exams 20–27 Sep. Classes end 11 Sep; **14–19 Sep is a free week and the spine of the plan.** ⛔ Only blocker: syllabi + textbook names.
