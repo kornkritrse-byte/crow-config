@@ -451,10 +451,12 @@ Syllabus hours per topic (Lecture / Practical / Active-learning):
 |---|---|---|
 | `FN201-25S-BBA-E1-Formulas-V1R-260219.pdf` | **LAST SEMESTER'S ACTUAL MIDTERM FORMULA SHEET**, 6pp. `25S`=2nd sem AY2025, `E1`=exam 1, header says "1st draft (revised)" — indicative of scope, NOT a guarantee for 26F | n/a |
 | `STQ01-OBF-Q&S1-30` | Self-test #1, Topic 1, Q1–30 | ✅ **official solutions included** |
-| `STQ02-ABF-Q1-30&S1-20-P1-of-2` | Self-test #2, Topic 2, Q1–30, True/False on bold-underlined parts | ✅ **official for Q1–20 only**; Part 2/2 missing |
+| `STQ02-ABF-Q1-30&S1-20-P1-of-2` | Self-test #2, **Topic 2 = The Axioms of Business Finance**. Q1–20 True/False on bold-underlined parts; **Q21–30 computational** (Rhodes Corp: operating profit, NOPAT, NOCF, ΔOA, FCF) | ✅ **COMPLETE as of 2 Sep** — Q1–20 keyed in the PDF (colour code), and **Korn found the missing Part 2/2**, `STQ02-ABF-S21-30-P2-of-2-V03R-250813.xlsx`, full worked solutions. *The old "Part 2/2 missing" note is retracted.* Answers: Q21 1,008 · Q22 756 · Q23 1,136 · Q24 1,030 · Q25 106 (THB M) |
 | `STQ03-AFR-Q1-20` | Self-test #3, Topic 3, ratio MCQs + "which statement is most CORRECT" | ✅ **`STQ03-AFR-S1-20-V03R.xlsx`** (added 17:44) |
 | `STQ04-TVM-Q1-30` | Self-test #4, Topic 4 | ✅ **`STQ04-TVM-S1-30-V8RR.xlsx`** (added 17:44) |
 ⚠️ **No STQ05 (markets) exists yet.**
+
+📁 **ALL FN201 MATERIAL IS LOCAL ON THE MAC: `~/Desktop/fn/`** — confirmed 2 Sep, I can read it directly, no Drive round-trip needed. Holds all five lecture notes (LN1 OBF · LN2 ABF · LN3 AFR · LN4 TVM · LN5 FE&M), all four STQ question PDFs, all four solution files, the **`E1-Formulas`** sheet and the **`Interest Factor Tables`** — i.e. the two documents handed out in the exam room. Read PDFs with `markitdown` (installed via pipx at `~/.local/bin/markitdown`). ⚠️ **`pymupdf`/`fitz` is NOT installed on this Mac** — the span-colour key-reading method needs installing first.
 🚨 **8 of STQ04's 30 questions are labelled actual past midterm questions** — Q1–4 (1st/AY2019), Q13–14 (S/AY2019), Q29 (2nd/AY2021), Q30 (1st/AY2022). **This is what Korn meant by "past paper test exams."**
 🔑 **HOW TO READ OBROM'S MCQ ANSWER KEYS — the answers are COLOUR-CODED, and plain text extraction loses them.**
 `markitdown` returns the option glyphs (Wingdings2 `\uf06a`–`\uf06e` = ①–⑤) but NOT which one is right. The signal is span colour:

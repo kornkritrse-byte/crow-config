@@ -10,6 +10,20 @@ metadata:
 
 # Sessions Log (archive)
 
+## 2026-08-31 — first confirmed self-testing
+- **He worked FN201 STQ01 (Topic 1) himself and brought Q13, Q14, Q17 cold.** All verified against Obrom's green-coded key (`pymupdf` span-colour method). Q13 = (I) and (II) only · Q14 = Notes payable · Q17 = (II) and (III) only.
+- **First confirmed self-testing** — but on Obrom's STQ PDFs, not the drills in the docs I built. He goes to the source material, not the instrument, because the source has an official key.
+- **Where he's soft: Topic 1 classification, not calculation.** On Q13 he had the causality inverted — thought trade AP was *caused by* working capital rather than being a *component* of it.
+- **"can you dum it down" fired a 2nd time in three days** → plain-English rule confirmed, [[reference-artifacts]].
+- ⛔ **My miss: I never asked the ASK-ON-RETURN items.** Content urgency swallowed the open loop — the exact thing the loop exists to prevent.
+
+## 2026-08-30 — FN201 doc rebuilt to all five topics
+- **"Obrom's Playbook" built** → https://claude.ai/code/artifact/7005f3de-c10b-4542-b3b4-40f619b4f51c (56KB → 167KB), his own ask. Detail → [[reference-artifacts]]
+- 🔴 **~70% of the FN201 midterm is MCQ, and the formula sheet AND interest tables are handed out in the room.** Memorising formulas is worth nothing; breadth beats more TVM reps. → [[project-midterms]]
+- **Two of my claims corrected:** topic numbering (use the LN numbering, not the syllabus); and "he missed the ratios class" was **wrong** — Analysis of Financial Reports has ZERO scheduled lecture hours, it is full self-study by design.
+- ✅ **Group assignment (15%) — he already has a group**, same friends since last year. Stop raising it.
+- ⛔ **Open question left standing: whether he works the drills or just reads them.** (Answered 31 Aug: he tests — but on Obrom's sets.)
+
 ## 2026-08-28 — AC311 doc built, and the format correction
 - **"Assets Before the Cut-Off" built and published** → https://claude.ai/code/artifact/622ff9d5-05d0-498e-8604-ec60013538f4 · two-way linked with the hub. He brought real material for once — syllabus + both decks + two practice sets **with official solutions** — and the doc is built around those solutions. → [[reference-artifacts]]
 - 🔴 **AC311 sessions 5–7 (Provisions, TAS 37) had not been taught** — 3 of 7 examinable sessions with no deck in existence; they run 31 Aug / 7 Sep / 14 Sep. That section is a marked scaffold. → [[project-midterms]]
