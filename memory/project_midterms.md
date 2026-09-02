@@ -91,12 +91,12 @@ He volunteered this unprompted. **The 23 Aug plan was built on "coverage is solv
 | L1 | Wed 5 Aug | Intro to Taxation; Global outlook/ESG/AI; **Overview of Thai Tax System Pt I** (history, theories, policy, law-making, administration, dispute resolution) | ❌ missed |
 | L2 | Wed 12 Aug (**holiday — held online via Zoom**) | Overview Pt II; Direct Taxation in Thailand; **PIT Part I** | ❌ missed — *a Zoom session may have a recording; ask* |
 | L3 | Wed 19 Aug | **PIT Part II** | ❌ missed |
-| **L4** | **Wed 26 Aug** | **PIT Part III** | ⬅️ **NEXT — the intervention point** |
-| L5 | Wed 2 Sep | CIT Part I | ahead |
+| **L4** | **Wed 26 Aug** | **PIT Part III** | ❌ **missed — rebuilt 1 Sep from the 2h40m onsite recording** |
+| L5 | Wed 2 Sep | **PIT Part IV — deduction, allowance, progressive rates, the two calculation methods, right to elect, WHT, dividend tax credit, PIT procedure.** ⚠️ *This row previously said "CIT Part I" — WRONG, corrected 2 Sep. PIT spans L3+L4+L5; L6+L7 are the CIT pair.* | ❌ **missed 2 Sep — recording not yet chased. Every number in a PIT computation comes from this lecture.** |
 | L6 | Wed 9 Sep | CIT Part II | ahead |
 | L7 | Wed 16 Sep | Special regimes: SME incentives, BOI, certain business types | ahead |
 
-**PIT = L2+L3+L4 — three of the seven midterm lectures.** It is the single biggest block on a 45% paper.
+**PIT = L2+L3+L4+L5 — FOUR of the seven midterm lectures** (corrected 2 Sep: L5 is PIT Part IV, not CIT). It is the single biggest block on a 45% paper — and **he has attended none of the four.**
 **Grading: midterm 45% + final 55% = 100%. NO attendance mark, NO assignments, NO quizzes.** Skipping costs zero marks directly — the argument for going is comprehension only, and it should be made honestly on those terms. **Grades ARE curved** (outline: a class that shows mastery gets a more generous curve).
 
 ⚠️ **CORRECTION to the jurisdiction map:** "BA202 has NO external substitute" was too strong. The outline names the primary source: **the Thai Revenue Code, Chapter 3 = Personal Income Tax** — public, finite, available in English translation from the Revenue Department. It's not YouTube, but it IS the actual examinable law, which beats a secondary explainer. Materials are "class presentation handout & Self-Practice" on Google Classroom.

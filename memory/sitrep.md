@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-09-01 (live, session in progress. Window holds 1 Sep + 31 Aug; 30 Aug due to flush to [[sessions-log]] at day-end.)*
+*Last updated: 2026-09-02 (live, session in progress. Window should hold 2 Sep + 1 Sep; 31 Aug AND 30 Aug both due to flush to [[sessions-log]] at day-end.)*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,17 +26,23 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (1 Sep, 16:29) — off to: a 20-min nap, then a BASKETBALL GAME at 18:30.** Not a day-end — he closed the *study* session, not the day. **No nightly quote has fired today.**
-- **ASK ON RETURN:** how the game went, and nothing else — everything else from today is closed below.
-- **ASK ON RETURN — asked 1 Sep, answered only in part:**
-  1. ✅ **STQ01 — done** (he confirmed 1 Sep: "did stq 1").
-  2. ✅ **AC311 caught up** 31 Aug — but the two specific questions (MCQ/entry **mark split**; deck slide 9's two valid "not inventory" answers, cranes vs office software — which does Ajarn Pailin hold?) **still not answered. Re-ask.**
-  3. ✅ **CLOSED 1 Sep — and the answer is that he never did them.** He asked *"where are those"*. He had never found the drills; I'd been demanding codes for a set he couldn't locate. **My failure, not his: I named codes across three sessions and never once gave the anchor.** Locations now sent — `A1–A8` end of **§shield**, `A9` in **§capm** (note: it's A1–A9, nine not eight — my earlier count was wrong), `R1–R10` in **§drill3**, `M1–M9` in **§drill5**. → durable copy in [[reference-artifacts]].
-  ⚠️ **Lesson: he goes to source material (Obrom's STQ PDFs) because it's findable. The doc's drills are buried behind anchors he's never been given. Navigation is the blocker, not willingness.**
-  4. ⚠️ **He skipped the gym on 31 Aug** — Monday is a programmed gym day ([[project-training-plan]]). First logged miss since the plan was dated. Not a lecture; note it, watch for a second.
-- ✅ **CLOSED 31 Aug — he does answer them.** The 30 Aug open question ("does he actually work the drills or just read them") is answered: he worked STQ01 cold and brought his misses. **Partially** — it was Obrom's own STQ PDF, not the docs' drills. The drill codes are still untested.
+- **HERE (2 Sep, from ~15:45) — at Samyan, studying afternoon into the evening.** Skipped BA202 class today. No gym today either. **No nightly quote has fired today.**
+- **OPEN — asked and not answered (do not let these slide again):**
+  1. 🔴 **The BA202 cold-question numbers he missed.** He ran all 25 on 2 Sep, read the answers, moved on. **Asked twice, never sent.** I gave him the out ("say nah and I'll drop it") and he said nothing — [[feedback-silent-misses]]. This is the map of his weak spots for 27 Sep; still want it.
+  2. 🔴 **The BA202 L5 recording (2 Sep).** Told him to chase it while it's easy to get. **Not confirmed he has.**
+  3. 🟡 **STQ02 Q21–30** — no official key exists (Part 2/2 never posted). He's to send them to me to mark.
+  4. 🟡 **AC311, still unanswered since 31 Aug — third carry.** The MCQ/entry **mark split**, and deck slide 9's two valid "not inventory" answers (cranes vs office software) — which does Ajarn Pailin hold? Ask when we're next in AC311.
+- ⚠️ **FITNESS: both programmed gym days missed this week** — Mon 31 Aug and Wed 2 Sep. That's the second miss I said I'd watch for. Saturday's long run is now the whole week's training. Race is externally dated (13 Dec) so this does not self-correct.
 - ✅ **adidas report CLOSED** — a class example, not graded work. Don't raise it.
 - **Race loose ends (not urgent, 15 weeks out):** venue unknown, and whether bib pickup is race-morning or in advance — his dad likely has the confirmation.
+
+## Session — 2026-09-02
+- 🏀 **Won Monday's basketball match.** Back at Samyan 2 Sep, studying afternoon → evening. **Gym skipped** — both programmed gym days gone this week (Mon 31 Aug + Wed 2 Sep).
+- ⛔ **Skipped BA202 L5 (Wed 2 Sep, class 9–16) — third BA202 class not attended.** L5 is the back half of PIT: deduction, allowance, progressive rate table, the two calculation methods, WHT, dividend tax credit, procedure. **Every number in a PIT computation comes out of it.** Told him to chase the recording; unconfirmed. (Note: my own [[project-midterms]] table calls L5 "CIT Part I" while the detailed breakdown says L6+L7 are the CIT pair — **the detailed one is right, fix the table.**)
+- 📕 **Ran all 25 §cold-questions** in The Missed Lectures (11 of them are the new L4 content, added 1 Sep — confirmed present and collapsed behind `<details>`, so genuinely cold). **But he fixed his misses by READING the answers, not re-testing** — recognition, not recall. The doc's own line warns against exactly this. **Asked twice for the numbers; never sent.**
+- 📗 **Moved to FN201 mid-afternoon.** Third pass on Obrom's **STQ01 (Topic 1)**, then STQ02. **His stated method: trial and error, to get familiar with exam-style questions — that is the correct call** given ~70% MCQ and the formula sheet + interest tables are handed out in the room. Gave him the STQ02 gotchas: **Q21–30 have no key**, and the key is colour-coded (**red = FALSE**, black = TRUE, green = his correction).
+- 🧠 **Taught, all off his own STQ01 questions:** promissory note vs bill of exchange (2 parties/promise vs 3 parties/order; acceptance; cheque = BoE) · warrants (company-issued, dilutive; vs options) · **tax shields** (interest deductible, **principal never**; deduction ≠ credit; "you spend 10 to get 2 back"). He restated tax shields back correctly, unprompted — it landed.
+- ⚠️ **Two of my own misses.** (1) I called his instrument-vocabulary questions "drift" off the ratios target — **wrong, they came straight out of STQ01.** Withdrawn. Don't accuse before asking. (2) **"can you dumb it down" fired a 4TH time** (on tax shields). My "simple" version still carried four ideas. **The rule is FEWER IDEAS PER ANSWER, not simpler words** — one idea, tiny round numbers, an everyday analogy, then stop.
 
 ## Session — 2026-09-01
 - 🏀 **Closed the study block ~15:00 for a nap + a 18:30 basketball game.** His own verdict: *"not the best progress but fair enough — got all the questions in the test ok now but maybe not the best grip on the new content."* **He asked to work the new L4 content out together in the next BA session.** That is the single live thread going into tomorrow.
