@@ -26,9 +26,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY — DAY CLOSED (2 Sep, ~20:40).** He studied at Samyan from ~15:45 straight through the evening and called it himself: *"update sitrep closing for today."* **Nightly quote fired.**
-- **ASK ON RETURN — one thing only:**
-  1. 🔴 **Did he get the BA202 L5 recording?** His own commitment: *"ill get the recording tmr"* (= Thu 3 Sep). Thursday is his FULL STUDY DAY, so there's no excuse of time. Ask once, don't stack it.
+- **HERE (3 Sep) — full study day.** Open-loop asked and answered.
+- ⛔ **BA202 L5 recording is NOT on Google Classroom** (his report, 3 Sep). Ajarn hasn't posted it. **Do NOT let this become the reason L5 stays untouched** — L5 = every number in a PIT computation. Path forward without it: the L5 deck + a classmate who attended. Asked him to message someone from the class today rather than wait passively.
 - **Still open, but NOT to be re-asked cold — raise only when the subject comes up:**
   - The BA202 cold-question numbers he missed (asked twice on 2 Sep, never sent; I gave him the out and he took neither — [[feedback-silent-misses]]).
   - AC311, unanswered since 31 Aug, **third carry**: the MCQ/entry **mark split**, and deck slide 9's two valid "not inventory" answers (cranes vs office software) — which does Ajarn Pailin hold?
