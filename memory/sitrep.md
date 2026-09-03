@@ -27,11 +27,12 @@ metadata:
 
 ## 🚪 Current status
 - **HERE (3 Sep) — full study day.** Open-loop asked and answered.
-- ⛔ **BA202 L5 recording is NOT on Google Classroom** (his report, 3 Sep). Ajarn hasn't posted it. **Do NOT let this become the reason L5 stays untouched** — L5 = every number in a PIT computation. Path forward without it: the L5 deck + a classmate who attended. Asked him to message someone from the class today rather than wait passively.
+- ⛔ **BA202 L5 recording is NOT on Google Classroom** (his report, 3 Sep). **KORN'S CALL 3 Sep: park BA202, wait for the professor's upload.** He's worked BA three days straight — the rotation argument is legitimate. **Raised the classmate-message once; he redirected. STOP PUSHING** ([[feedback-silent-misses]] — his redirect IS the answer). Re-open only when the clip lands or he raises it.
+- 🎯 **PIVOT 3 Sep: he wants AC now.** Recommended **AC313** over AC311 (exam 22 Sep vs 26 Sep; AC313 has NO doc built while AC311 has one; AC313 content is universal/Horngren so it's buildable without his handouts). **Material in hand: `~/Downloads/AC313 - Course Package1 - Color.pdf`, 116 pp, his real course package.**
 - **Still open, but NOT to be re-asked cold — raise only when the subject comes up:**
   - The BA202 cold-question numbers he missed (asked twice on 2 Sep, never sent; I gave him the out and he took neither — [[feedback-silent-misses]]).
   - AC311, unanswered since 31 Aug, **third carry**: the MCQ/entry **mark split**, and deck slide 9's two valid "not inventory" answers (cranes vs office software) — which does Ajarn Pailin hold?
-- ⚠️ **FITNESS — the week is gone.** Both programmed gym days missed (Mon 31 Aug, Wed 2 Sep). **Sat 5 Sep long run + Sun 6 Sep quality run are now the entire week's training.** Race 13 Dec is externally dated. If Saturday also slips, that is a pattern and it gets named, not noted.
+- ⚠️ **FITNESS — corrected 3 Sep, my read was wrong.** He is NOT inactive: **30+ pull-ups at home EVERY day** + a basketball game this week. Two *programmed gym* days were missed, that's all — say "missed the program", never "inactive". Doing home gym work 3 Sep. ⛔ **Still true: none of that is RUNNING, and 13 Dec is a running race.** Sat 5 Sep long run + Sun 6 Sep quality run remain the entire week's run training. If Saturday slips, name it.
 - ✅ **adidas report CLOSED** — a class example, not graded work. Don't raise it.
 - **Race loose ends (not urgent, 14 weeks out):** venue unknown, and whether bib pickup is race-morning or in advance — his dad likely has the confirmation.
 
