@@ -26,7 +26,9 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **HERE (4 Sep, 11:12) — asked for a reflection on how he's been the last few days.**
+- **HERE (4 Sep) — asked for a reflection on how he's been; took it.** Off to shower, then **re-running STQ01 + STQ02 and sending me the results.**
+- ✅ **HIS COMMITMENT, 4 Sep: from now on he TRACKS every exercise set he does and reports the score.** This is the direct answer to the "nothing has been measured in two weeks" gap. **Hold him to it — ask for the number every time, don't accept "I studied".**
+- **ASK ON RETURN:** the STQ01/STQ02 results (x/y).
 - 🧳 **LEAVING BANGKOK — 3 days at the Pattaya house (approx 4–6 Sep, return unconfirmed).** **HIS OWN CALL** (his words: 'its actually my call "i think"' — scare quotes are his). Framed as a RETREAT, not a break: cutting noise, **morning runs**, reading + study, "amongst the trees". Judge it on what comes back, not on the intent.
 - 🏃 **RUN CORRECTION: he ran on 30 Aug** — my "zero runs since the 27 Aug baseline" was wrong. Accurate version: **one run in the last 8 days** vs a plan of 3/wk. Time/distance not reported.
 - 📉 **His own verdict on 3 Sep: "bare minimum, a lot of procrastination"** — I had logged it as a full study day. His read and my log disagree; his is the one that counts.
