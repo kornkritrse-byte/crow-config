@@ -26,7 +26,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **HERE (4 Sep) — asked for a reflection on how he's been; took it.** Off to shower, then **re-running STQ01 + STQ02 and sending me the results.**
+- **AWAY (4 Sep, ~11:45) — off to: shower, then re-running STQ01 + STQ02 to send me the marked results.** "ill be back buddy" — a gap, NOT a day-end. ⛔ No nightly quote, no wrap-up.
+- 🧠 **Deep reflection this morning — the mirror ask + Siddhartha/"which part of myself do I learn from" → [[chapters]] Ch. 7.** Also in there: the grandpa misread and the lesson (announce a register change, or the audit frame eats the human remark).
 - ✅ **HIS COMMITMENT, 4 Sep: from now on he TRACKS every exercise set he does and reports the score.** This is the direct answer to the "nothing has been measured in two weeks" gap. **Hold him to it — ask for the number every time, don't accept "I studied".**
 - **ASK ON RETURN:** the STQ01/STQ02 results (x/y).
 - 🧳 **LEAVING BANGKOK — 3 days at the Pattaya house (approx 4–6 Sep, return unconfirmed).** **HIS OWN CALL** (his words: 'its actually my call "i think"' — scare quotes are his). Framed as a RETREAT, not a break: cutting noise, **morning runs**, reading + study, "amongst the trees". Judge it on what comes back, not on the intent.
