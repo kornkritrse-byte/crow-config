@@ -27,7 +27,8 @@ metadata:
 
 ## 🚪 Current status
 - **HERE (4 Sep, 11:12) — asked for a reflection on how he's been the last few days.**
-- 🧳 **LEAVING BANGKOK — 3 days at the Pattaya house (approx 4–6 Sep, return unconfirmed).** Announced 4 Sep. Whether it's his call or the family's is UNASKED.
+- 🧳 **LEAVING BANGKOK — 3 days at the Pattaya house (approx 4–6 Sep, return unconfirmed).** **HIS OWN CALL** (his words: 'its actually my call "i think"' — scare quotes are his). Framed as a RETREAT, not a break: cutting noise, **morning runs**, reading + study, "amongst the trees". Judge it on what comes back, not on the intent.
+- 🏃 **RUN CORRECTION: he ran on 30 Aug** — my "zero runs since the 27 Aug baseline" was wrong. Accurate version: **one run in the last 8 days** vs a plan of 3/wk. Time/distance not reported.
 - 📉 **His own verdict on 3 Sep: "bare minimum, a lot of procrastination"** — I had logged it as a full study day. His read and my log disagree; his is the one that counts.
 - ⛔ **BA202 L5 recording is NOT on Google Classroom** (his report, 3 Sep). **KORN'S CALL 3 Sep: park BA202, wait for the professor's upload.** He's worked BA three days straight — the rotation argument is legitimate. **Raised the classmate-message once; he redirected. STOP PUSHING** ([[feedback-silent-misses]] — his redirect IS the answer). Re-open only when the clip lands or he raises it.
 - 🎯 **PIVOT 3 Sep: AC313 is the active subject.** He made an `~/Desktop/AC313/` folder and said build it. ✅ **DONE — [[reference-artifacts]] "From Raw to Sold"**, built from the 116pp course package + Exercise 1 + outline. 10 money-flow SVGs, all 18 exercise questions worked, 28 cold-drill Qs, 25-row trap table.
