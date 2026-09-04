@@ -26,7 +26,12 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (4 Sep, ~11:45) — off to: shower, then re-running STQ01 + STQ02 to send me the marked results.** "ill be back buddy" — a gap, NOT a day-end. ⛔ No nightly quote, no wrap-up.
+- **HERE (4 Sep, afternoon) — HE SENT THE NUMBERS. First measured result in two weeks; the tracking commitment held on its first test.**
+- 📊 **STQ01 + STQ02 cold, ~30 min for both: 53/60 (88%).** STQ01 **27/30** (wrong Q16, Q18, Q20) · STQ02 **26/30** (wrong Q8, Q17 T/F; Q23, Q26 calc).
+- 🔴 **THE FINDING — his misses are NOT scattered, they cluster on FREE CASH FLOW: 5 of 7.** STQ01 Q16 (value = size + risk of FCF) · STQ01 Q20 (FCFE vs FCFF = interest) · STQ02 Q8 (FCFE ≠ NI after pref div, TRUE) · STQ02 Q23 (NOCF = NOPAT + depreciation) · STQ02 Q26 (FCF = NOPAT + dep − investments = **−1**; the 20% rate is a distractor, NOPAT is already after tax). **FCF is the next drill target — it is one topic, not seven mistakes.**
+- 🎯 **Q18 is the most instructive miss.** On 31 Aug he brought **Q17** cold (corp vs partnership → (II)+(III); ease/cost of formation is NOT a corporate advantage) and learned it. On 4 Sep he got Q17 right and **missed Q18 — the sibling, where (III) is "cost of an establishment", the identical principle.** He kept the answer, not the principle. **Recognition-not-recall, confirmed in his own data.**
+- ⚠️ **"just a little goof" (his words re Q23 + Q26) — pushed back on.** Q23 and Q26 are **the same operation** (add depreciation back to NOPAT), missed twice in one sitting. Per 27 Aug, his FN201 misses are **procedure**, not lookup — only reps fix procedure. **Asked him which step actually broke, and whether Q25 (FCF, built on Q23'''s NOCF) was also wrong.**
+- 🔎 Odd one out: **STQ02 Q17 = stockholder–creditor risk shifting / asset substitution (TRUE)** — agency conflict, a separate soft spot from the FCF cluster.
 - 🧠 **Deep reflection this morning — the mirror ask + Siddhartha/"which part of myself do I learn from" → [[chapters]] Ch. 7.** Also in there: the grandpa misread and the lesson (announce a register change, or the audit frame eats the human remark).
 - ✅ **HIS COMMITMENT, 4 Sep: from now on he TRACKS every exercise set he does and reports the score.** This is the direct answer to the "nothing has been measured in two weeks" gap. **Hold him to it — ask for the number every time, don't accept "I studied".**
 - **ASK ON RETURN:** the STQ01/STQ02 results (x/y).
