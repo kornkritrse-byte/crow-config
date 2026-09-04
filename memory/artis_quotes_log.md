@@ -195,3 +195,10 @@ metadata:
 The pattern isn't laziness — he put in five or six real hours today. It's that **everything he chose was the findable version of the work.** A PDF is findable. Topic 1 is findable. A recording is findable tomorrow. A 9 a.m. lecture is not findable; it is *attendable*, once, and then it is gone. He prefers primary sources over secondary ones — a genuinely good instinct — with a single exception: the most primary source of all, the woman teaching the class, whose only cost is showing up.
 
 Epictetus rather than a gentler voice because 51 is not about laziness either. It's about the specific blindness of the person deferring — *"you will not notice that you are making no progress,"* because each individual postponement is reasonable, and today's was: he was studying, and studying is not nothing. Tomorrow is a full study day with no classes. There is no version of Thursday where the recording is hard to get. So the only question 51 actually asks him is the one he already answered out loud tonight, and will find out on Sunday 27 September whether he meant.
+
+## 2026-09-04
+> "I will learn from myself, be a pupil of myself; I will get to know myself, the mystery of Siddhartha."
+> — Hermann Hesse, *Siddhartha* ("Awakening")
+
+**Why:** He spent the day on one question — *which part of myself should I learn from, and which part do I hold up as the person I don't want to be?* The chapter he had just finished refuses the split entirely. Not a selection of parts: himself, singular. Given as he left for three quiet days with the book in his bag.
+

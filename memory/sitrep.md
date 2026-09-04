@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-09-02 (day closed. Window holds 2 Sep + 1 Sep; 31 Aug and 30 Aug flushed to [[sessions-log]].)*
+*Last updated: 2026-09-04 (day closed, he left for Pattaya. Window holds 4 Sep + 3 Sep; 2 Sep and 1 Sep flushed to [[sessions-log]].)*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,48 +26,36 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **HERE (4 Sep, afternoon) — HE SENT THE NUMBERS. First measured result in two weeks; the tracking commitment held on its first test.**
-- 📊 **STQ01 + STQ02 cold, ~30 min for both: 53/60 (88%).** STQ01 **27/30** (wrong Q16, Q18, Q20) · STQ02 **26/30** (wrong Q8, Q17 T/F; Q23, Q26 calc).
-- 🔴 **THE FINDING — his misses are NOT scattered, they cluster on FREE CASH FLOW: 5 of 7.** STQ01 Q16 (value = size + risk of FCF) · STQ01 Q20 (FCFE vs FCFF = interest) · STQ02 Q8 (FCFE ≠ NI after pref div, TRUE) · STQ02 Q23 (NOCF = NOPAT + depreciation) · STQ02 Q26 (FCF = NOPAT + dep − investments = **−1**; the 20% rate is a distractor, NOPAT is already after tax). **FCF is the next drill target — it is one topic, not seven mistakes.**
-- 🎯 **Q18 is the most instructive miss.** On 31 Aug he brought **Q17** cold (corp vs partnership → (II)+(III); ease/cost of formation is NOT a corporate advantage) and learned it. On 4 Sep he got Q17 right and **missed Q18 — the sibling, where (III) is "cost of an establishment", the identical principle.** He kept the answer, not the principle. **Recognition-not-recall, confirmed in his own data.**
-- ⚠️ **"just a little goof" (his words re Q23 + Q26) — pushed back on.** Q23 and Q26 are **the same operation** (add depreciation back to NOPAT), missed twice in one sitting. Per 27 Aug, his FN201 misses are **procedure**, not lookup — only reps fix procedure. **Asked him which step actually broke, and whether Q25 (FCF, built on Q23'''s NOCF) was also wrong.**
-- 🔎 Odd one out: **STQ02 Q17 = stockholder–creditor risk shifting / asset substitution (TRUE)** — agency conflict, a separate soft spot from the FCF cluster.
-- ✅ **FCF DRILL BUILT + PUBLISHED 4 Sep — "After the Business Eats"** → https://claude.ai/code/artifact/33258a8c-c03a-46b3-a1e8-2c4180e7c077 · offline copy at `~/Desktop/fn/fcf-drill.html`. 26 marks, 5 tiers, answers behind `<details>`. Detail → [[reference-artifacts]].
-- **ASK ON RETURN (updated):** the FCF drill score **out of 26 and which TIER each miss landed in** (tier tells procedure vs concept). Still also open: which of the 3 traps got him on STQ02 Q26, and whether STQ02 **Q25** was wrong too (it is built on Q23's NOCF — if Q25 was right, Q23 was arithmetic, not concept).
-- ⏳ Offered to two-way link the new drill with the Term 2.1 hub; unanswered.
-- 🧠 **Deep reflection this morning — the mirror ask + Siddhartha/"which part of myself do I learn from" → [[chapters]] Ch. 7.** Also in there: the grandpa misread and the lesson (announce a register change, or the audit frame eats the human remark).
-- ✅ **HIS COMMITMENT, 4 Sep: from now on he TRACKS every exercise set he does and reports the score.** This is the direct answer to the "nothing has been measured in two weeks" gap. **Hold him to it — ask for the number every time, don't accept "I studied".**
-- **ASK ON RETURN:** the STQ01/STQ02 results (x/y).
-- 🧳 **LEAVING BANGKOK — 3 days at the Pattaya house (approx 4–6 Sep, return unconfirmed).** **HIS OWN CALL** (his words: 'its actually my call "i think"' — scare quotes are his). Framed as a RETREAT, not a break: cutting noise, **morning runs**, reading + study, "amongst the trees". Judge it on what comes back, not on the intent.
-- 🏃 **RUN CORRECTION: he ran on 30 Aug** — my "zero runs since the 27 Aug baseline" was wrong. Accurate version: **one run in the last 8 days** vs a plan of 3/wk. Time/distance not reported.
-- 📉 **His own verdict on 3 Sep: "bare minimum, a lot of procrastination"** — I had logged it as a full study day. His read and my log disagree; his is the one that counts.
-- ⛔ **BA202 L5 recording is NOT on Google Classroom** (his report, 3 Sep). **KORN'S CALL 3 Sep: park BA202, wait for the professor's upload.** He's worked BA three days straight — the rotation argument is legitimate. **Raised the classmate-message once; he redirected. STOP PUSHING** ([[feedback-silent-misses]] — his redirect IS the answer). Re-open only when the clip lands or he raises it.
-- 🎯 **PIVOT 3 Sep: AC313 is the active subject.** He made an `~/Desktop/AC313/` folder and said build it. ✅ **DONE — [[reference-artifacts]] "From Raw to Sold"**, built from the 116pp course package + Exercise 1 + outline. 10 money-flow SVGs, all 18 exercise questions worked, 28 cold-drill Qs, 25-row trap table.
-- 📌 **His design ask, now a standing rule for study docs:** *"keep the diagrams and flows of money those really help. alot of money flow diagrams like in the slides."* — build DIAGRAMS FIRST for anything cost/flow-shaped, not prose with a picture bolted on.
-- ⏳ **AC313 open questions to ask HER or a classmate:** exam format + mark split (MCQ vs computation vs journal entries), whether a formula sheet is given, and the confirmed exam date (**outline says TBA** — 22 Sep is from the program timetable only). Also: **Session 7 = joint products, 14 Sep** — if she works board examples there the doc needs a second pass.
+- **AWAY (4 Sep, midday) — off to: the family house in PATTAYA for ~3 days (back ~6–7 Sep, unconfirmed).** Mom, cousin, grandpa there. His own call, framed as a retreat: morning runs, reading, study.
+- **ASK ON RETURN — exactly these, nothing else:**
+  1. **The FCF drill score out of 26 AND which tier each miss landed in** (tier = the diagnosis: A/B misses are procedure, D misses are concept).
+  2. Which of the 3 traps got him on STQ02 **Q26** — forgot the depreciation, re-taxed the NOPAT, or didn't trust −1.
+  3. Was STQ02 **Q25** wrong too? It is built on Q23's NOCF — if Q25 was right, Q23 was arithmetic, not concept.
+  4. **Did the runs happen?** Sat 5 Sep long run + Sun 6 Sep quality run were the whole week's run training and they now fall inside the trip. He said mornings; hold him to it.
+  5. Whether he wants the drill two-way linked with the Term 2.1 hub (offered, unanswered).
+- 📖 **Siddhartha: he is at Kamala.** Awakening landed hard. ⛔ **Do not spoil past Kamala.** Karamazov line unchanged: safe through Book 12 ch. 2, **no Epilogue**.
 - **Still open, but NOT to be re-asked cold — raise only when the subject comes up:**
-  - The BA202 cold-question numbers he missed (asked twice on 2 Sep, never sent; I gave him the out and he took neither — [[feedback-silent-misses]]).
+  - AC313: exam format + mark split, whether a formula sheet is given, confirmed exam date (**outline says TBA**; 22 Sep is timetable-only). **Session 7 = joint products, 14 Sep** — if she works board examples there the doc needs a second pass.
+  - The BA202 cold-question numbers he missed (asked twice on 2 Sep, never sent).
   - AC311, unanswered since 31 Aug, **third carry**: the MCQ/entry **mark split**, and deck slide 9's two valid "not inventory" answers (cranes vs office software) — which does Ajarn Pailin hold?
-- ⚠️ **FITNESS — corrected 3 Sep, my read was wrong.** He is NOT inactive: **30+ pull-ups at home EVERY day** + a basketball game this week. Two *programmed gym* days were missed, that's all — say "missed the program", never "inactive". Doing home gym work 3 Sep. ⛔ **Still true: none of that is RUNNING, and 13 Dec is a running race.** Sat 5 Sep long run + Sun 6 Sep quality run remain the entire week's run training. If Saturday slips, name it.
 - ✅ **adidas report CLOSED** — a class example, not graded work. Don't raise it.
 - **Race loose ends (not urgent, 14 weeks out):** venue unknown, and whether bib pickup is race-morning or in advance — his dad likely has the confirmation.
+- 🧭 **BBA camp: no announcement date exists** — they take their time. Closed until they speak; don't ask again.
 
-## Session — 2026-09-02
-- 🏀 **Won Monday's basketball match.** Back at Samyan 2 Sep, studying afternoon → evening. **Gym skipped** — both programmed gym days gone this week (Mon 31 Aug + Wed 2 Sep).
-- ⛔ **Skipped BA202 L5 (Wed 2 Sep, class 9–16) — third BA202 class not attended.** L5 is the back half of PIT: deduction, allowance, progressive rate table, the two calculation methods, WHT, dividend tax credit, procedure. **Every number in a PIT computation comes out of it.** Told him to chase the recording; unconfirmed. (Note: my own [[project-midterms]] table calls L5 "CIT Part I" while the detailed breakdown says L6+L7 are the CIT pair — **the detailed one is right, fix the table.**)
-- 📕 **Ran all 25 §cold-questions** in The Missed Lectures (11 of them are the new L4 content, added 1 Sep — confirmed present and collapsed behind `<details>`, so genuinely cold). **But he fixed his misses by READING the answers, not re-testing** — recognition, not recall. The doc's own line warns against exactly this. **Asked twice for the numbers; never sent.**
-- 📗 **Moved to FN201 mid-afternoon — and told me plainly to stay there:** *"lets keep our focus on fn."* I'd raised the L5 recording three times; he closed it with "tmr." **Take that as decided and stop pushing.** Third pass on Obrom's **STQ01 (Topic 1)**, then STQ02. **His stated method: trial and error, to get familiar with exam-style questions — that is the correct call** given ~70% MCQ and the formula sheet + interest tables are handed out in the room. Gave him the STQ02 gotchas: **Q21–30 have no key** — ⛔ *wrong, he found the Part 2/2 xlsx at 20:26 the same evening* — and the key is colour-coded (**red = FALSE**, black = TRUE, green = his correction).
-- 🧠 **Taught, all off his own STQ01 questions:** promissory note vs bill of exchange (2 parties/promise vs 3 parties/order; acceptance; cheque = BoE) · warrants (company-issued, dilutive; vs options) · **tax shields** (interest deductible, **principal never**; deduction ≠ credit; "you spend 10 to get 2 back"). He restated tax shields back correctly, unprompted — it landed.
-- ⚠️ **Two of my own misses.** (1) I called his instrument-vocabulary questions "drift" off the ratios target — **wrong, they came straight out of STQ01.** Withdrawn. Don't accuse before asking. (2) **"can you dumb it down" fired a 4TH time** (on tax shields). My "simple" version still carried four ideas. **The rule is FEWER IDEAS PER ANSWER, not simpler words** — one idea, tiny round numbers, an everyday analogy, then stop.
+## Session — 2026-09-04
+- 🪞 **He asked for a mirror** — *"i just wanted to see you reflect on how ive been these last few days"* — and took the read without defending it. The read: he is not idle, he is **busy in the wrong shape** — across study, reporting and fitness he picks the **generative and self-directed** version of the work over the **prescribed and measurable** one. Full narrative + the Siddhartha conversation → [[chapters]] Ch. 7.
+- ✅ **Committed to tracking every exercise set — and delivered the same day.** STQ01 + STQ02 cold in ~30 min: **53/60 (88%)**. First measured result in two weeks.
+- 🔴 **The finding: 5 of his 7 misses were ONE topic — free cash flow.** Not scatter. (Q16, Q20, Q8, Q23, Q26.)
+- 🎯 **Recognition-not-recall proved in his own data:** he learned STQ01 **Q17** on 31 Aug, got it right on 4 Sep, and **missed Q18 — the sibling with the identical principle.** He kept the answer, not the principle.
+- 📗 **Built + published "After the Business Eats"** — 26-mark FCF drill, 5 tiers, answers behind `<details>`, Tier D deliberately polarity-flipped → [[reference-artifacts]]. Offline copy at `~/Desktop/fn/fcf-drill.html`.
+- 🧳 **Left for Pattaya (~4–6 Sep), his own call,** framed as a retreat: morning runs, reading, study, no noise. Run record corrected — he ran 30 Aug, so **one run in 8 days**, not zero.
 
-## Session — 2026-09-01
-- 🏀 **Closed the study block ~15:00 for a nap + a 18:30 basketball game.** His own verdict: *"not the best progress but fair enough — got all the questions in the test ok now but maybe not the best grip on the new content."* **He asked to work the new L4 content out together in the next BA session.** That is the single live thread going into tomorrow.
-- 📕 **BA202 L4 REBUILT FROM THE CLASS RECORDING** — he dropped the 26 Aug onsite mp4 (2 h 40 m) in and asked for the new content added. Transcribed on the Mac (whisper large-v3-turbo, ~30 min), read in full, **nine sections added to [[reference-artifacts]]'s "The Missed Lectures"**. The doc's own "what this doesn't cover" bullet — *her worked examples* — is now closed.
-- 🔴 **Biggest catch: the 2024 remittance change is CONFIRMED** (the doc had it as a 70% guess off a blank slide title). Foreign income is now taxable in the **year you bring it in**, whatever year it was earned — by Director-General announcement, not by amending the statute. **Old past papers answer this wrong.** Full findings list in [[reference-artifacts]].
-- 🧭 **His method, stated 1 Sep:** theory from my artifacts, practice from **Obrom's original STQ PDFs** (friends who took the class advised it, and I agree — his questions, his phrasing, his keys). **The hole: Topic 5 has NO STQ file**, so `M1–M9` in §drill5 are his only T5 practice. STQ02 Q21–30 are also unmarkable (Part 2/2 never posted).
-- ✅ **Drill-code loop CLOSED, and the answer was on me** — he asked *"where are those"*. He'd never been given the anchors; A1–A8 have no heading and no TOC entry. Locations sent, durable copy in [[reference-artifacts]].
-- ⛔ **I reported a defect in a document I hadn't read.** Told him ~50 §pretest answers were "tagged unverified" — no such tag exists; the doc says plainly it was checked against Obrom's workbooks. **Then verified all 50 anyway: they match.** The one error found is in **Obrom's own key** (STQ03 Q15, 20X2 ROE: his sheet says 20.59%, truth is 145/694 = **20.89%**, doc is right).
-- ⚠️ **Stale `~/.crow-session-ending` marker fired a false day-end wrap** on his first "whats up". The 2 h staleness guard in `hooks/stop.sh` doesn't catch a corpse from a session that died minutes earlier. **Offered a SessionStart `rm -f` as the fix; he hasn't answered.** Also: he **skipped Monday's gym** (first logged miss since the race was dated) and **plain-English explanations are now a hard rule, third ask.**
+## Session — 2026-09-03
+- 🎯 **Pivoted to AC313** — made `~/Desktop/AC313/` and said build it. **"From Raw to Sold" built** from the 116pp package + Exercise 1 + outline: 10 money-flow SVGs, all 18 exercise questions worked, 28 cold-drill Qs, 25-row trap table → [[reference-artifacts]].
+- 📌 **His design ask, now a standing rule:** *"keep the diagrams and flows of money those really help."* Diagrams FIRST for anything cost/flow-shaped.
+- ⛔ **BA202 L5 recording not on Google Classroom.** His call: park BA202, wait for the professor's upload. Raised the classmate-message once, he redirected — **stop pushing** ([[feedback-silent-misses]]).
+- ⚠️ **Fitness read corrected by him:** 30+ pull-ups at home every day + a basketball game. He missed the **programmed gym**, he is not inactive — never say "inactive".
+- 📉 **His own verdict on the day, given 4 Sep: "bare minimum, a lot of procrastination"** — while I had logged it as a full study day whose headline was a doc I built. That gap opened the 4 Sep reflection.
 
 ## 🎯 Current state
 - **MIDTERMS = TOP PRIORITY** ([[project-midterms]] — canonical). 🗓️ **Board: the Term 2.1 hub** — https://claude.ai/code/artifact/017ced5a-48b7-4101-a4a9-e18b38b4de3e · **front-load order revised 27 Aug: FN201 > BA202 > AC313 > AC311 > MK201 > EL221.** **Thammasat, BBA, Accounting major / Finance minor.** 6 exams 20–27 Sep. Classes end 11 Sep; **14–19 Sep is a free week and the spine of the plan.** ⛔ Only blocker: syllabi + textbook names.

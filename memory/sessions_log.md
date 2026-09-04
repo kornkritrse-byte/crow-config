@@ -10,6 +10,22 @@ metadata:
 
 # Sessions Log (archive)
 
+## 2026-09-02 — STQ practice, and "lets keep our focus on fn"
+- 🏀 Won Monday's basketball match. Studying at Samyan afternoon→evening. **Gym skipped — both programmed gym days gone that week** (Mon 31 Aug + Wed 2 Sep).
+- ⛔ **Skipped BA202 L5 (class 9–16) — third BA202 class not attended.** L5 is the back half of PIT (deduction, allowance, progressive table, the two calculation methods, WHT, dividend tax credit) — every number in a PIT computation comes out of it.
+- 📕 Ran all 25 §cold-questions in The Missed Lectures **but fixed his misses by READING the answers — recognition, not recall.** Asked twice for the numbers; never sent. (This became the core of the 4 Sep diagnosis.)
+- 📗 Moved to FN201 and told me plainly to stay: *"lets keep our focus on fn."* Third pass on STQ01, then STQ02. His method — trial and error on Obrom's own sets — is the right call given ~70% MCQ + formula sheet given in the room.
+- 🧠 Taught off his own questions: promissory note vs bill of exchange · warrants vs options · **tax shields** (interest deductible, principal never; deduction ≠ credit). He restated tax shields back correctly unprompted.
+- ⚠️ Two of my misses: called his instrument-vocab questions "drift" when they came straight out of STQ01 (withdrawn); and **"can you dumb it down" fired a 4TH time** — the rule is FEWER IDEAS PER ANSWER, not simpler words.
+
+## 2026-09-01 — BA202 L4 rebuilt from the class recording
+- 📕 He dropped the 26 Aug onsite mp4 (2h40) in and asked for the new content. Transcribed on the Mac (whisper large-v3-turbo, ~30 min); **nine sections added to "The Missed Lectures"** → [[reference-artifacts]]. The doc's "what this doesn't cover" bullet (her worked examples) is now closed.
+- 🔴 **2024 remittance change CONFIRMED** (had been a 70% guess off a blank slide title): foreign income is taxable in the **year you bring it in**, by Director-General announcement, not a statute amendment. **Old past papers answer this wrong.**
+- 🧭 His method, stated: theory from my artifacts, practice from **Obrom's original STQ PDFs**. Hole: **Topic 5 has NO STQ file**.
+- ✅ Drill-code loop closed — he'd never been given the A1–A8 anchors (no heading, no TOC entry). My fault, locations sent.
+- ⛔ **I reported a defect in a document I hadn't read** (claimed ~50 §pretest answers were "tagged unverified" — no such tag). Verified all 50 anyway: they match. The one real error is in **Obrom's own key** (STQ03 Q15 ROE: his sheet 20.59%, truth 145/694 = **20.89%**).
+- His verdict on the day: *"not the best progress but fair enough."* Closed ~15:00 for a nap + an 18:30 basketball game.
+
 ## 2026-08-31 — first confirmed self-testing
 - **He worked FN201 STQ01 (Topic 1) himself and brought Q13, Q14, Q17 cold.** All verified against Obrom's green-coded key (`pymupdf` span-colour method). Q13 = (I) and (II) only · Q14 = Notes payable · Q17 = (II) and (III) only.
 - **First confirmed self-testing** — but on Obrom's STQ PDFs, not the drills in the docs I built. He goes to the source material, not the instrument, because the source has an official key.
