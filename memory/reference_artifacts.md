@@ -140,3 +140,16 @@ He asked for diagrams **only where one would genuinely help**, explicitly leavin
 2. **The category-5 convergence** — three unlike contracts (s.537 rental · s.572 hire-purchase · instalment sale) feeding a shared bus into one 40(5) outcome, with **breach gates** whose NO exits drop to dashed boxes (40(8) / nothing special). The claim: all three routes end with the owner holding **the property AND the money**.
 
 📏 **Judgement rule worth keeping:** a category list is not a diagram. Only draw where there is a **decision order** or a **convergence** — something the reader would otherwise have to assemble from prose.
+
+## After the Business Eats — FN201 free cash flow drill (built 4 Sep 2026)
+**URL:** https://claude.ai/code/artifact/33258a8c-c03a-46b3-a1e8-2c4180e7c077
+**Local offline copy:** `~/Desktop/fn/fcf-drill.html` (written there deliberately — he left for Pattaya 4 Sep and may not have reliable wifi).
+
+**Why it exists:** on 4 Sep he ran STQ01 + STQ02 cold (53/60) and **5 of his 7 misses were free cash flow** — STQ01 Q16, STQ01 Q20, STQ02 Q8, STQ02 Q23, STQ02 Q26. Obrom's own sets have no *unseen* FCF practice left (STQ02 Q21–30 is the only FCF material and he has now done it), so this is fresh practice for the one topic his misses cluster in.
+
+**Contents:** the 4-rung ladder as an SVG (EBIT → ×(1−T) → NOPAT → +Dep → NOCF → −(ΔNOWC+ΔNonCA) → FCF) · a second SVG for the FCFF/FCFE fork · the 5 named traps · **26-mark drill in 5 tiers**, every answer collapsed behind `<details>` so it cannot be read accidentally: A ladder reps (6) · B full income statement, Rhodes-shaped (6) · C FCFF vs FCFE (5) · D concept with the **polarity flipped** (6) · E harder mixed (3). Tier D exists specifically to defeat recognition-not-recall — same principles, opposite keys.
+
+**Design:** ledger/green-bar palette, Bitter + Public Sans + IBM Plex Mono, diagrams-first per his standing rule. SVG semantic colours are driven by CSS tokens (`.op-accent/.op-add/.op-sub/.box-key`) so both themes read.
+
+⏳ **NOT yet two-way linked with the Term 2.1 hub** — offered, he hadn't answered before leaving.
+
