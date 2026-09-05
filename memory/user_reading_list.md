@@ -5,6 +5,7 @@ metadata:
   node_type: memory
   type: user
   originSessionId: 16dd81ab-664a-4f0c-bc5f-a96e0788e0e6
+  modified: 2026-09-05T15:32:38.870Z
 ---
 
 All read by age 19, most within 2025-2026.
@@ -16,6 +17,8 @@ All read by age 19, most within 2025-2026.
 **Before the Coffee Gets Cold** — Read abroad. Same — vibes over lessons.
 
 **Discourses** (Epictetus) — Didn't approach it correctly, didn't get the most out of it, but formed his core framework of internals vs externals from it. Foundation stuck even if the reading didn't fully land.
+
+**Meditations** (Marcus Aurelius) — Not on the numbered list above (predates it, or read piecemeal — unclear), but a live reference he returns to. **Book 5.1** (the "trouble getting out of bed" passage) is one he already knows well and recalls often — confirmed 5 Sep 2026 when Artis used it as the nightly quote and he said *"i love that quote actually one i do remember and recall often."* Worth leaning into more Aurelius for future quotes rather than reaching past him for something obscure.
 
 **The Stranger + Myth of Sisyphus** (Camus) — Too young to fully grasp. Plans to reread Myth of Sisyphus after finishing Karamazov — the two books have a conversation worth having.
 
