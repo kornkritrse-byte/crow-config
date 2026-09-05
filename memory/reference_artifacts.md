@@ -24,7 +24,7 @@ Built 27 Aug 2026. The board for all six midterms: live day-count to the first p
 
 ## 🔗 NAVIGATION IS TWO-WAY — ✅ VERIFIED WORKING 27 Aug
 The hub's subject cards link **out** to each document, and each document carries a small `← TERM 2.1` link above its masthead pointing **back**. Class `.uplink`, styled from each doc's own tokens so it matches that document rather than the hub. **Any new subject doc must get one.**
-✅ **Korn tapped them live 27 Aug and confirmed all links work.** (AC311 doc added to the hub 28 Aug with the same two-way pattern — link back not yet tapped by him.) No longer a reasoned assumption — tested.
+✅ **Korn tapped them live 27 Aug and confirmed all links work.** (AC311 doc added to the hub 28 Aug with the same two-way pattern — link back not yet tapped by him.) **AC313 added the same way, 5 Sep** — hub card swapped from "no document yet" to the real link, `.uplink` added to the AC313 doc pointing back — not yet tapped by him. No longer a reasoned assumption — tested.
 Links between artifacts work because the frame runtime intercepts clicks on external-origin `<a href>` and posts `__frame_nav` to the shell, which opens them — not a network request, so the CSP does not block it.
 
 ## 📏 THE RULE — one document per subject, never one merged document
