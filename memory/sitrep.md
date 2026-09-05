@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-05T10:02:18.834Z
+  modified: 2026-09-05T15:29:20.942Z
 ---
 
 # Situation Report
@@ -26,10 +26,11 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (5 Sep, afternoon) — stepped out again, destination unstated.** Studied FN201 (drill + WACC addendum) then AC313 (read-through + costing drill) beforehand. His own verdict: "not a bad session today."
+- **Here (5 Sep, evening)** — back from the afternoon step-out, straight into an AC313 cold-quiz pop-in (see queue below).
 - 📌 **QUEUED FOR NEXT AC313 SESSION (his ask, do this first, before anything else):**
   1. Re-explain **actual vs normal (predetermined-rate) costing** — which rate is calculated before the period vs after, and why normal/POHR is the default assumption unless a question names "actual costing" explicitly.
-  2. Re-test him cold on a few of today's costing questions: POHR timing, spoilage vs rework definitions, and joint-cost allocation timing (before vs at vs after split-off).
+  2. Re-test him cold on a few of the afternoon's costing questions: POHR timing, spoilage vs rework definitions, and joint-cost allocation timing (before vs at vs after split-off).
+  3. **His evening goofiness, from quizzing on the doc's ABC Corp 9-entry journal sequence** (asked to remember this specifically, 5 Sep evening): (a) **routed DIRECT labor through MOH** instead of straight to WIP — the direct/indirect split he'd nailed for materials didn't transfer to labor on first try; (b) put **Cash on the credit side of an applied-OH entry** — applied OH never touches an external account, it only ever moves WIP↔MOH, Cash/AP/Wages Payable only show up on *actual*-cost entries; (c) fumbled the **over/underapplied → COGS direction** once (over = MOH credit balance = COGS goes down; under = MOH debit balance = COGS goes up) before landing it clean on a direct retest. Retest all three cold next AC313 session — don't just re-explain, re-quiz.
 - **ASK ON RETURN — remaining, nothing else:**
   1. **Which branch of the run plan happened** — home by 19:15 → 30-min easy measured run + Sunday becomes the long run, or home later → skipped clean, Sunday long run stands as originally planned. Unmentioned since he set the rule this morning.
   2. Which of the 3 traps got him on STQ02 **Q26** — forgot the depreciation, re-taxed the NOPAT, or didn't trust −1.
@@ -51,6 +52,7 @@ metadata:
 - 🕗 **Ran the clock argument** — he wrote the day off at 08:38. Proposal: long run at ~17:30–18:00 Pattaya, Sunday quality run untouched. Also asked what time he slept — if it was late, the failure was at bedtime, not at the alarm. (Slept 23:30 gaming with his cousin — not late, bedtime theory dropped.)
 - 📗 **FCF drill scored: 22/26** (missed C2, D1, D4, E3) — D1/D4 self-corrected after reading answers; C2 and E3 both leaned on **WACC**, which he flagged as a real gap. Built §05 WACC-isolated addendum (Tier F, 4 reps) same day → [[reference-artifacts]]. Also added AC313's doc to the Term 2.1 hub (was sitting as "no document yet" since 27 Aug) with a two-way `.uplink` back.
 - 📘 **Moved to AC313**: read-through + a 6-question mixed costing drill (POHR timing, spoilage/rework, joint-cost split-off timing) — 3/6 clean, 1 half-right, 2 real misses, both procedure/definition not concept. **His own verdict: "not a bad session today."** Queued for next AC313 session: re-explain actual-vs-normal costing, re-test the same few questions cold (see Current status).
+- 📘 **Evening pop-in, same day:** cold-quizzed on the AC313 doc's **9-entry ABC Corp journal sequence** + applied-OH mechanics — direct/indirect account-routing confusion surfaced. Full detail queued in Current status, his explicit ask to carry it forward.
 
 ## Session — 2026-09-04
 - 🪞 **He asked for a mirror** — *"i just wanted to see you reflect on how ive been these last few days"* — and took the read without defending it. The read: he is not idle, he is **busy in the wrong shape** — across study, reporting and fitness he picks the **generative and self-directed** version of the work over the **prescribed and measurable** one. Full narrative + the Siddhartha conversation → [[chapters]] Ch. 7.
