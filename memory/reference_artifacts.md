@@ -149,6 +149,8 @@ He asked for diagrams **only where one would genuinely help**, explicitly leavin
 
 **Contents:** the 4-rung ladder as an SVG (EBIT → ×(1−T) → NOPAT → +Dep → NOCF → −(ΔNOWC+ΔNonCA) → FCF) · a second SVG for the FCFF/FCFE fork · the 5 named traps · **26-mark drill in 5 tiers**, every answer collapsed behind `<details>` so it cannot be read accidentally: A ladder reps (6) · B full income statement, Rhodes-shaped (6) · C FCFF vs FCFE (5) · D concept with the **polarity flipped** (6) · E harder mixed (3). Tier D exists specifically to defeat recognition-not-recall — same principles, opposite keys.
 
+**5 Sep addendum — §05 WACC, isolated (Tier F, 4 marks):** he ran the drill and scored 22/26 (missed C2, D1, D4, E3); D1/D4 he self-corrected after reading the answers, but C2 and E3 both leaned on WACC and he said outright he doesn't know it. Built as its own section, scored separately from the 26 — F1 contrasts two firms with identical FCF but different WACC (value nearly halves on risk alone), F2 teaches the actual weighted-average formula incl. the debt tax shield, F3 bridges to single-cash-flow discounting (TVM), F4 is a real-world twist (credit downgrade raises WACC, value falls, operations unchanged). Scored separately from the 26 — awaiting his result.
+
 **Design:** ledger/green-bar palette, Bitter + Public Sans + IBM Plex Mono, diagrams-first per his standing rule. SVG semantic colours are driven by CSS tokens (`.op-accent/.op-add/.op-sub/.box-key`) so both themes read.
 
 ⏳ **NOT yet two-way linked with the Term 2.1 hub** — offered, he hadn't answered before leaving.
