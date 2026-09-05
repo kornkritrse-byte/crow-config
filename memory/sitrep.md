@@ -32,7 +32,7 @@ metadata:
   2. Which of the 3 traps got him on STQ02 **Q26** — forgot the depreciation, re-taxed the NOPAT, or didn't trust −1.
   3. Was STQ02 **Q25** wrong too? It is built on Q23's NOCF — if Q25 was right, Q23 was arithmetic, not concept.
   4. Whether he wants the drill two-way linked with the Term 2.1 hub (offered, unanswered).
-  - ✅ *Run question answered in part: Sat 5 Sep morning long run MISSED. Evening rerun proposed — outcome pending. Sun 6 Sep quality run still live.*
+  - ✅ *Run: Sat 5 Sep morning long run MISSED. His plan — **studying is non-negotiable today**, run is conditional at **19:00 if he gets home in time** around family time. Decision rule given: home by 19:15 → 30-min easy MEASURED (not a walk) and **Sunday becomes the long run**; home later → skip cleanly, no guilt tax, Sunday long run stands. ASK TOMORROW which branch happened.*
 - 📖 **Siddhartha: he is at Kamala.** Awakening landed hard. ⛔ **Do not spoil past Kamala.** Karamazov line unchanged: safe through Book 12 ch. 2, **no Epilogue**.
 - **Still open, but NOT to be re-asked cold — raise only when the subject comes up:**
   - AC313: exam format + mark split, whether a formula sheet is given, confirmed exam date (**outline says TBA**; 22 Sep is timetable-only). **Session 7 = joint products, 14 Sep** — if she works board examples there the doc needs a second pass.
@@ -45,6 +45,7 @@ metadata:
 ## Session — 2026-09-05
 - 😞 **Slept through the Saturday long run** (woke, fell back asleep), **walked instead**, opened the session feeling bad about it — *"feel quite shitty about it so i just went on a walk"*.
 - 🪞 **Called it as the 4 Sep pattern repeating one day later**: prescribed + measurable session swapped for a self-directed, unmeasurable one; the walk discharged the guilt rather than the training.
+- 📚 **He set the day himself: studying non-negotiable, run conditional at 19:00** — priority order is correct (midterms #1, fitness #2); the risk flagged was the double conditional ("maybe"/"if I get home"), so a pre-committed decision rule was set instead of a 19:00 judgement call.
 - 🕗 **Ran the clock argument** — he wrote the day off at 08:38. Proposal: long run at ~17:30–18:00 Pattaya, Sunday quality run untouched. Also asked what time he slept — if it was late, the failure was at bedtime, not at the alarm.
 
 ## Session — 2026-09-04
