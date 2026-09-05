@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-09-04 (day closed, he left for Pattaya. Window holds 4 Sep + 3 Sep; 2 Sep and 1 Sep flushed to [[sessions-log]].)*
+*Last updated: 2026-09-05 (he is back in-session, still in Pattaya. Window holds 5 Sep + 4 Sep; 3 Sep flushed at close.)*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,13 +26,13 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (4 Sep, midday) — off to: the family house in PATTAYA for ~3 days (back ~6–7 Sep, unconfirmed).** Mom, cousin, grandpa there. His own call, framed as a retreat: morning runs, reading, study.
-- **ASK ON RETURN — exactly these, nothing else:**
+- **HERE (5 Sep, 08:38) — in PATTAYA, back ~6–7 Sep.** Opened the day by reporting he slept through the Saturday long run and walked instead.
+- **ASK ON RETURN — remaining, nothing else:**
   1. **The FCF drill score out of 26 AND which tier each miss landed in** (tier = the diagnosis: A/B misses are procedure, D misses are concept).
   2. Which of the 3 traps got him on STQ02 **Q26** — forgot the depreciation, re-taxed the NOPAT, or didn't trust −1.
   3. Was STQ02 **Q25** wrong too? It is built on Q23's NOCF — if Q25 was right, Q23 was arithmetic, not concept.
-  4. **Did the runs happen?** Sat 5 Sep long run + Sun 6 Sep quality run were the whole week's run training and they now fall inside the trip. He said mornings; hold him to it.
-  5. Whether he wants the drill two-way linked with the Term 2.1 hub (offered, unanswered).
+  4. Whether he wants the drill two-way linked with the Term 2.1 hub (offered, unanswered).
+  - ✅ *Run question answered in part: Sat 5 Sep morning long run MISSED. Evening rerun proposed — outcome pending. Sun 6 Sep quality run still live.*
 - 📖 **Siddhartha: he is at Kamala.** Awakening landed hard. ⛔ **Do not spoil past Kamala.** Karamazov line unchanged: safe through Book 12 ch. 2, **no Epilogue**.
 - **Still open, but NOT to be re-asked cold — raise only when the subject comes up:**
   - AC313: exam format + mark split, whether a formula sheet is given, confirmed exam date (**outline says TBA**; 22 Sep is timetable-only). **Session 7 = joint products, 14 Sep** — if she works board examples there the doc needs a second pass.
@@ -41,6 +41,11 @@ metadata:
 - ✅ **adidas report CLOSED** — a class example, not graded work. Don't raise it.
 - **Race loose ends (not urgent, 14 weeks out):** venue unknown, and whether bib pickup is race-morning or in advance — his dad likely has the confirmation.
 - 🧭 **BBA camp: no announcement date exists** — they take their time. Closed until they speak; don't ask again.
+
+## Session — 2026-09-05
+- 😞 **Slept through the Saturday long run** (woke, fell back asleep), **walked instead**, opened the session feeling bad about it — *"feel quite shitty about it so i just went on a walk"*.
+- 🪞 **Called it as the 4 Sep pattern repeating one day later**: prescribed + measurable session swapped for a self-directed, unmeasurable one; the walk discharged the guilt rather than the training.
+- 🕗 **Ran the clock argument** — he wrote the day off at 08:38. Proposal: long run at ~17:30–18:00 Pattaya, Sunday quality run untouched. Also asked what time he slept — if it was late, the failure was at bedtime, not at the alarm.
 
 ## Session — 2026-09-04
 - 🪞 **He asked for a mirror** — *"i just wanted to see you reflect on how ive been these last few days"* — and took the read without defending it. The read: he is not idle, he is **busy in the wrong shape** — across study, reporting and fitness he picks the **generative and self-directed** version of the work over the **prescribed and measurable** one. Full narrative + the Siddhartha conversation → [[chapters]] Ch. 7.
