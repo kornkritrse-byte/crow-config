@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-08-23T14:23:42.322Z
+  modified: 2026-09-05T10:02:18.834Z
 ---
 
 # Situation Report
@@ -26,13 +26,15 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **HERE (5 Sep, 08:38) — in PATTAYA, back ~6–7 Sep.** Opened the day by reporting he slept through the Saturday long run and walked instead.
+- **AWAY (5 Sep, afternoon) — stepped out again, destination unstated.** Studied FN201 (drill + WACC addendum) then AC313 (read-through + costing drill) beforehand. His own verdict: "not a bad session today."
+- 📌 **QUEUED FOR NEXT AC313 SESSION (his ask, do this first, before anything else):**
+  1. Re-explain **actual vs normal (predetermined-rate) costing** — which rate is calculated before the period vs after, and why normal/POHR is the default assumption unless a question names "actual costing" explicitly.
+  2. Re-test him cold on a few of today's costing questions: POHR timing, spoilage vs rework definitions, and joint-cost allocation timing (before vs at vs after split-off).
 - **ASK ON RETURN — remaining, nothing else:**
-  1. **The FCF drill score out of 26 AND which tier each miss landed in** (tier = the diagnosis: A/B misses are procedure, D misses are concept).
+  1. **Which branch of the run plan happened** — home by 19:15 → 30-min easy measured run + Sunday becomes the long run, or home later → skipped clean, Sunday long run stands as originally planned. Unmentioned since he set the rule this morning.
   2. Which of the 3 traps got him on STQ02 **Q26** — forgot the depreciation, re-taxed the NOPAT, or didn't trust −1.
   3. Was STQ02 **Q25** wrong too? It is built on Q23's NOCF — if Q25 was right, Q23 was arithmetic, not concept.
   4. Whether he wants the drill two-way linked with the Term 2.1 hub (offered, unanswered).
-  - ✅ *Run: Sat 5 Sep morning long run MISSED. His plan — **studying is non-negotiable today**, run is conditional at **19:00 if he gets home in time** around family time. Decision rule given: home by 19:15 → 30-min easy MEASURED (not a walk) and **Sunday becomes the long run**; home later → skip cleanly, no guilt tax, Sunday long run stands. ASK TOMORROW which branch happened.*
 - 📖 **Siddhartha: he is at Kamala.** Awakening landed hard. ⛔ **Do not spoil past Kamala.** Karamazov line unchanged: safe through Book 12 ch. 2, **no Epilogue**.
 - **Still open, but NOT to be re-asked cold — raise only when the subject comes up:**
   - AC313: exam format + mark split, whether a formula sheet is given, confirmed exam date (**outline says TBA**; 22 Sep is timetable-only). **Session 7 = joint products, 14 Sep** — if she works board examples there the doc needs a second pass.
@@ -46,7 +48,9 @@ metadata:
 - 😞 **Slept through the Saturday long run** (woke, fell back asleep), **walked instead**, opened the session feeling bad about it — *"feel quite shitty about it so i just went on a walk"*.
 - 🪞 **Called it as the 4 Sep pattern repeating one day later**: prescribed + measurable session swapped for a self-directed, unmeasurable one; the walk discharged the guilt rather than the training.
 - 📚 **He set the day himself: studying non-negotiable, run conditional at 19:00** — priority order is correct (midterms #1, fitness #2); the risk flagged was the double conditional ("maybe"/"if I get home"), so a pre-committed decision rule was set instead of a 19:00 judgement call.
-- 🕗 **Ran the clock argument** — he wrote the day off at 08:38. Proposal: long run at ~17:30–18:00 Pattaya, Sunday quality run untouched. Also asked what time he slept — if it was late, the failure was at bedtime, not at the alarm.
+- 🕗 **Ran the clock argument** — he wrote the day off at 08:38. Proposal: long run at ~17:30–18:00 Pattaya, Sunday quality run untouched. Also asked what time he slept — if it was late, the failure was at bedtime, not at the alarm. (Slept 23:30 gaming with his cousin — not late, bedtime theory dropped.)
+- 📗 **FCF drill scored: 22/26** (missed C2, D1, D4, E3) — D1/D4 self-corrected after reading answers; C2 and E3 both leaned on **WACC**, which he flagged as a real gap. Built §05 WACC-isolated addendum (Tier F, 4 reps) same day → [[reference-artifacts]]. Also added AC313's doc to the Term 2.1 hub (was sitting as "no document yet" since 27 Aug) with a two-way `.uplink` back.
+- 📘 **Moved to AC313**: read-through + a 6-question mixed costing drill (POHR timing, spoilage/rework, joint-cost split-off timing) — 3/6 clean, 1 half-right, 2 real misses, both procedure/definition not concept. **His own verdict: "not a bad session today."** Queued for next AC313 session: re-explain actual-vs-normal costing, re-test the same few questions cold (see Current status).
 
 ## Session — 2026-09-04
 - 🪞 **He asked for a mirror** — *"i just wanted to see you reflect on how ive been these last few days"* — and took the read without defending it. The read: he is not idle, he is **busy in the wrong shape** — across study, reporting and fitness he picks the **generative and self-directed** version of the work over the **prescribed and measurable** one. Full narrative + the Siddhartha conversation → [[chapters]] Ch. 7.
