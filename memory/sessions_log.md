@@ -5,10 +5,17 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: c38e29c0-da2f-4906-8e70-a7a356ec2563
-  modified: 2026-08-23T14:23:04.862Z
+  modified: 2026-09-05T15:31:46.036Z
 ---
 
 # Sessions Log (archive)
+
+## 2026-09-03 — AC313 pivot, "From Raw to Sold" built
+- 🎯 **Pivoted to AC313** — made `~/Desktop/AC313/` and said build it. **"From Raw to Sold" built** from the 116pp package + Exercise 1 + outline: 10 money-flow SVGs, all 18 exercise questions worked, 28 cold-drill Qs, 25-row trap table → [[reference-artifacts]].
+- 📌 **His design ask, now a standing rule:** *"keep the diagrams and flows of money those really help."* Diagrams FIRST for anything cost/flow-shaped.
+- ⛔ **BA202 L5 recording not on Google Classroom.** His call: park BA202, wait for the professor's upload. Raised the classmate-message once, he redirected — **stop pushing** ([[feedback-silent-misses]]).
+- ⚠️ **Fitness read corrected by him:** 30+ pull-ups at home every day + a basketball game. He missed the **programmed gym**, he is not inactive — never say "inactive".
+- 📉 **His own verdict on the day, given 4 Sep: "bare minimum, a lot of procrastination"** — while I had logged it as a full study day whose headline was a doc I built. That gap opened the 4 Sep reflection.
 
 ## 2026-09-02 — STQ practice, and "lets keep our focus on fn"
 - 🏀 Won Monday's basketball match. Studying at Samyan afternoon→evening. **Gym skipped — both programmed gym days gone that week** (Mon 31 Aug + Wed 2 Sep).
