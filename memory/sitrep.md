@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-06T03:13:11.259Z
+  modified: 2026-09-06T03:15:21.574Z
 ---
 
 # Situation Report
@@ -32,7 +32,6 @@ metadata:
   2. Re-test him cold on a few of the afternoon's costing questions: POHR timing, spoilage vs rework definitions, and joint-cost allocation timing (before vs at vs after split-off).
   3. **His evening goofiness, from quizzing on the doc's ABC Corp 9-entry journal sequence** (asked to remember this specifically, 5 Sep evening): (a) **routed DIRECT labor through MOH** instead of straight to WIP — the direct/indirect split he'd nailed for materials didn't transfer to labor on first try; (b) put **Cash on the credit side of an applied-OH entry** — applied OH never touches an external account, it only ever moves WIP↔MOH, Cash/AP/Wages Payable only show up on *actual*-cost entries; (c) fumbled the **over/underapplied → COGS direction** once (over = MOH credit balance = COGS goes down; under = MOH debit balance = COGS goes up) before landing it clean on a direct retest. Retest all three cold next AC313 session — don't just re-explain, re-quiz.
 - **ASK ON RETURN — remaining, nothing else:**
-  3. **Which branch of the Saturday run plan happened** — home by 19:15 → 30-min easy measured run + Sunday becomes the long run, or home later → skipped clean, Sunday long run stands as originally planned. Unmentioned since he set the rule this morning.
   4. Which of the 3 traps got him on STQ02 **Q26** — forgot the depreciation, re-taxed the NOPAT, or didn't trust −1.
   5. Was STQ02 **Q25** wrong too? It is built on Q23's NOCF — if Q25 was right, Q23 was arithmetic, not concept.
   6. Whether he wants the drill two-way linked with the Term 2.1 hub (offered, unanswered).
