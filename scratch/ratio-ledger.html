@@ -1,0 +1,655 @@
+<title>The Ratio Ledger</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,500&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F1F3EE;
+    --surface:#FFFFFF;
+    --surface-2:#E7EAE1;
+    --ink:#1B231E;
+    --ink-muted:#5C6960;
+    --line:#D5DACD;
+    --accent:#1F6F5C;
+    --accent-ink:#0E4A3C;
+    --accent-soft:#DEEAE4;
+    --good:#3F7D45;
+    --good-soft:#E4EFE1;
+    --bad:#B0472F;
+    --bad-soft:#F3E4DE;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#11150F;
+      --surface:#171B15;
+      --surface-2:#1F2419;
+      --ink:#E9ECE2;
+      --ink-muted:#9AA692;
+      --line:#2B3126;
+      --accent:#74C0A4;
+      --accent-ink:#9CD8BE;
+      --accent-soft:#1C2E27;
+      --good:#82C486;
+      --good-soft:#1D2A1D;
+      --bad:#E38E70;
+      --bad-soft:#2E2019;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#11150F;
+    --surface:#171B15;
+    --surface-2:#1F2419;
+    --ink:#E9ECE2;
+    --ink-muted:#9AA692;
+    --line:#2B3126;
+    --accent:#74C0A4;
+    --accent-ink:#9CD8BE;
+    --accent-soft:#1C2E27;
+    --good:#82C486;
+    --good-soft:#1D2A1D;
+    --bad:#E38E70;
+    --bad-soft:#2E2019;
+  }
+
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Public Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    font-size:16px;
+    line-height:1.6;
+  }
+  ::selection{background:var(--accent-soft);color:var(--ink)}
+  a{color:var(--accent-ink)}
+
+  h1,h2,h3,h4{font-family:'Newsreader',Georgia,serif;font-weight:600;text-wrap:balance;color:var(--ink);margin:0}
+  h2{font-size:1.7rem;letter-spacing:-.01em}
+  h3{font-size:1.2rem;margin-bottom:.6rem;color:var(--accent-ink)}
+  h4{font-size:1.02rem;margin-bottom:.35rem}
+
+  .shell{
+    display:grid;
+    grid-template-columns:230px minmax(0,760px);
+    justify-content:center;
+    gap:0 3.2rem;
+    max-width:1180px;
+    margin:0 auto;
+    padding:2.6rem 1.5rem 6rem;
+  }
+  @media (max-width:900px){
+    .shell{grid-template-columns:1fr;padding-top:0}
+  }
+
+  nav.toc{
+    position:sticky;
+    top:2rem;
+    align-self:start;
+    display:flex;
+    flex-direction:column;
+    gap:.15rem;
+    padding-top:.4rem;
+  }
+  @media (max-width:900px){
+    nav.toc{
+      position:sticky;top:0;z-index:5;
+      flex-direction:row;
+      overflow-x:auto;
+      background:var(--bg);
+      border-bottom:1px solid var(--line);
+      padding:.75rem 1.2rem;
+      gap:1.1rem;
+      white-space:nowrap;
+    }
+  }
+  nav.toc .tag{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:.68rem;
+    letter-spacing:.09em;
+    text-transform:uppercase;
+    color:var(--ink-muted);
+    margin:1rem 0 .3rem;
+  }
+  @media (max-width:900px){ nav.toc .tag{display:none} }
+  nav.toc a{
+    color:var(--ink-muted);
+    text-decoration:none;
+    font-size:.88rem;
+    padding:.28rem .1rem;
+    border-left:2px solid transparent;
+    padding-left:.7rem;
+  }
+  @media (max-width:900px){ nav.toc a{border-left:none;padding-left:0;font-size:.82rem} }
+  nav.toc a:hover{color:var(--ink)}
+
+  header.masthead{
+    grid-column:2;
+    padding-bottom:2.2rem;
+    margin-bottom:2rem;
+    border-bottom:1px solid var(--line);
+  }
+  @media (max-width:900px){ header.masthead{grid-column:1;padding:2rem 0 2rem} }
+  .eyebrow{
+    display:inline-block;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:.72rem;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    color:var(--accent-ink);
+    background:var(--accent-soft);
+    padding:.25rem .6rem;
+    border-radius:3px;
+    margin-bottom:.9rem;
+  }
+  header.masthead h1{font-size:2.5rem;margin-bottom:.7rem}
+  header.masthead p{color:var(--ink-muted);max-width:56ch;font-size:1.02rem}
+
+  main{grid-column:2;min-width:0}
+  @media (max-width:900px){ main{grid-column:1;padding:0 .2rem} }
+
+  section{margin-bottom:3.4rem;scroll-margin-top:1.5rem}
+  section > .sec-head{margin-bottom:1.3rem}
+  section > .sec-head .kicker{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:.74rem;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:var(--ink-muted);
+    display:block;
+    margin-bottom:.5rem;
+  }
+  section > .sec-head p{color:var(--ink-muted);max-width:64ch;margin-top:.5rem}
+
+  p{margin:.7rem 0}
+  .prose{max-width:66ch}
+
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:8px;margin:1.1rem 0;background:var(--surface)}
+  table{border-collapse:collapse;width:100%;font-size:.92rem}
+  thead th{
+    text-align:left;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:.68rem;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+    color:var(--ink-muted);
+    background:var(--surface-2);
+    padding:.6rem .8rem;
+    border-bottom:1px solid var(--line);
+    white-space:nowrap;
+  }
+  td{padding:.55rem .8rem;border-bottom:1px solid var(--line);vertical-align:top}
+  tr:last-child td{border-bottom:none}
+  td.num{text-align:right;font-variant-numeric:tabular-nums}
+  td.rowhead{font-weight:600;white-space:nowrap}
+  .mono{font-family:'IBM Plex Mono',monospace;font-variant-numeric:tabular-nums}
+  td.good{color:var(--good)}
+  td.bad{color:var(--bad)}
+  .frac{display:inline-flex;flex-direction:column;align-items:center;font-family:'IBM Plex Mono',monospace;font-size:.85rem;line-height:1.15;vertical-align:middle;margin:0 .1rem}
+  .frac .fn{padding-bottom:.15rem;border-bottom:1px solid currentColor}
+  .frac .fd{padding-top:.1rem}
+
+  .glossary dt{font-weight:600;font-family:'IBM Plex Mono',monospace;font-size:.86rem;color:var(--accent-ink)}
+  .glossary dd{margin:.15rem 0 .8rem;color:var(--ink-muted)}
+
+  .formula{
+    font-family:'IBM Plex Mono',monospace;
+    background:var(--surface-2);
+    border:1px solid var(--line);
+    border-radius:8px;
+    padding:1rem 1.2rem;
+    margin:1rem 0;
+    font-size:1rem;
+    line-height:1.7;
+    overflow-x:auto;
+  }
+  .formula.big{font-size:1.05rem}
+
+  .worked{
+    border-left:3px solid var(--accent);
+    background:var(--accent-soft);
+    border-radius:0 8px 8px 0;
+    padding:1rem 1.2rem;
+    margin:1.1rem 0;
+  }
+  .worked .lbl{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:.68rem;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:var(--accent-ink);
+    display:block;
+    margin-bottom:.45rem;
+  }
+  .worked p{margin:.4rem 0}
+  .worked .mono{display:block;margin:.5rem 0}
+
+  .note{
+    background:var(--surface);
+    border:1px solid var(--line);
+    border-radius:8px;
+    padding:1rem 1.2rem;
+    margin:1.1rem 0;
+  }
+  .note strong{display:block;margin-bottom:.3rem;color:var(--ink)}
+
+  .trap{
+    border-left:3px solid var(--bad);
+    background:var(--bad-soft);
+    border-radius:0 8px 8px 0;
+    padding:1rem 1.2rem;
+    margin:1.1rem 0;
+  }
+  .trap b{display:block;margin-bottom:.3rem;color:var(--bad)}
+
+  ol.limits{list-style:none;margin:0;padding:0;counter-reset:lim}
+  ol.limits li{
+    counter-increment:lim;
+    display:flex;
+    gap:.9rem;
+    padding:.85rem 0;
+    border-bottom:1px solid var(--line);
+  }
+  ol.limits li:last-child{border-bottom:none}
+  ol.limits li::before{
+    content:counter(lim);
+    font-family:'IBM Plex Mono',monospace;
+    font-size:.85rem;
+    color:var(--accent-ink);
+    background:var(--accent-soft);
+    width:1.7rem;height:1.7rem;
+    flex:none;
+    border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+  }
+  ol.limits b{display:block;color:var(--ink)}
+  ol.limits span{color:var(--ink-muted);font-size:.94rem}
+
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0}
+  @media (max-width:640px){.cols{grid-template-columns:1fr}}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:1rem 1.1rem}
+
+  .divider{height:1px;background:var(--line);margin:2.6rem 0}
+  code{font-family:'IBM Plex Mono',monospace;background:var(--surface-2);padding:.1rem .35rem;border-radius:4px;font-size:.88em}
+</style>
+
+<div class="shell">
+  <nav class="toc">
+    <span class="tag">Read first</span>
+    <a href="#glossary">Glossary</a>
+    <span class="tag">The case</span>
+    <a href="#statements">Plow Chemical</a>
+    <span class="tag">The 24 ratios</span>
+    <a href="#liquidity">Liquidity</a>
+    <a href="#assetmgmt">Asset management</a>
+    <a href="#leverage">Leverage</a>
+    <a href="#profitability">Profitability</a>
+    <a href="#valuation">Valuation</a>
+    <span class="tag">Synthesis</span>
+    <a href="#dupont">Du Pont</a>
+    <a href="#cycles">Operating &amp; cash cycle</a>
+    <a href="#limits">Limitations</a>
+  </nav>
+
+  <header class="masthead">
+    <span class="eyebrow">FN201 &middot; Topic 3 &middot; Analysis of Financial Reports</span>
+    <h1>The Ratio Ledger</h1>
+    <p>Everything the five-hour clip actually taught &mdash; the twenty-four ratios, Du&nbsp;Pont, and the operating/cash cycle &mdash; walked through on one company so the numbers mean something. This topic has zero scheduled lecture hours; the clip is the whole class.</p>
+  </header>
+
+  <main>
+
+    <section id="glossary">
+      <div class="sec-head">
+        <span class="kicker">Vocabulary before formulas</span>
+        <h2>Sixteen words that build all twenty-four ratios</h2>
+        <p>Almost every ratio below is a recombination of these. Learn the words once and the "24 ratios" stop being 24 separate things to memorise.</p>
+      </div>
+      <dl class="glossary">
+        <dt>EPS &mdash; Earnings per Share</dt><dd>Net income sliced per share. How much profit one share represents.</dd>
+        <dt>BVPS &mdash; Book Value per Share</dt><dd>Equity (assets minus debt) sliced per share &mdash; what a share is worth on the accounting books, not what it trades for.</dd>
+        <dt>P/E ratio</dt><dd>How many times EPS investors are willing to pay for the stock. High P/E means the market is paying a premium, usually for growth it expects later.</dd>
+        <dt>M/B ratio &mdash; market-to-book</dt><dd>Same idea against book value instead of earnings. High M/B means the market thinks the firm is worth more than its accounting value shows &mdash; brand, growth, intangibles.</dd>
+        <dt>ROE &mdash; Return on Equity</dt><dd>For every THB1 of shareholder money in the firm, how many cents of profit came out.</dd>
+        <dt>ROA &mdash; Return on Assets</dt><dd>Same question against total assets &mdash; ignores how the firm is financed.</dd>
+        <dt>Current ratio</dt><dd>Can short-term bills be covered with short-term stuff owned? Above 1&times; means yes, on paper.</dd>
+        <dt>Quick ratio &mdash; acid-test</dt><dd>Same question, but inventory is stripped out first &mdash; can bills be paid fast, without needing to sell stock?</dd>
+        <dt>TIE &mdash; Times Interest Earned</dt><dd>How many times over operating profit (EBIT) could cover the interest bill. Low TIE means one bad year from missing a payment.</dd>
+        <dt>Debt ratio</dt><dd>What percentage of total assets is funded by debt rather than equity.</dd>
+        <dt>Debt&ndash;equity ratio &mdash; D/E</dt><dd>Same information, reframed: debt as a multiple of equity instead of a percentage of assets.</dd>
+        <dt>Equity multiplier &mdash; EM</dt><dd>Assets &divide; equity. More debt pushes this higher, which amplifies ROE &mdash; for better or worse.</dd>
+        <dt>Basic Earning Power &mdash; BEP</dt><dd>EBIT &divide; total assets. ROA's cousin, but blind to tax and interest &mdash; a pure operating-efficiency number.</dd>
+        <dt>Gross / operating / net profit margin</dt><dd>What percentage of revenue survives after, respectively: just the direct cost of making the thing, operating costs too, or literally everything.</dd>
+        <dt>TAT &mdash; Total Asset Turnover</dt><dd>Revenue squeezed out per THB of assets. An efficiency measure, not a profitability one.</dd>
+      </dl>
+      <div class="note">
+        <strong>The one identity worth more than all the others</strong>
+        ROE&nbsp;=&nbsp;NPM&nbsp;&times;&nbsp;TAT&nbsp;&times;&nbsp;Equity&nbsp;Multiplier &mdash; the Du&nbsp;Pont breakdown further down. Every "which efficiency is weak" question is this equation in disguise. Separately: ROE, P/E and M/B are linked through EPS and BVPS &mdash; since ROE&nbsp;=&nbsp;EPS&nbsp;&divide;&nbsp;BVPS, it follows that <strong>M/B&nbsp;=&nbsp;P/E&nbsp;&times;&nbsp;ROE</strong>. Given any two of the three, the third is one line of algebra away.
+      </div>
+    </section>
+
+    <section id="statements">
+      <div class="sec-head">
+        <span class="kicker">The one company every ratio below is computed from</span>
+        <h2>Plow Chemical Company</h2>
+        <p>THB millions, 50,000,000 common shares at THB1 par. Learn these two statements once and the ratio tables become arithmetic instead of lookup.</p>
+      </div>
+
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Statement of financial position</th><th class="num">20X1</th><th class="num">20X0</th><th>&nbsp;</th><th class="num">20X1</th><th class="num">20X0</th></tr></thead>
+          <tbody>
+            <tr><td class="rowhead">Cash</td><td class="num mono">50</td><td class="num mono">55</td><td class="rowhead">Accounts payable</td><td class="num mono">60</td><td class="num mono">30</td></tr>
+            <tr><td class="rowhead">Short-term investments</td><td class="num mono">0</td><td class="num mono">25</td><td class="rowhead">Notes payable</td><td class="num mono">100</td><td class="num mono">60</td></tr>
+            <tr><td class="rowhead">Accounts receivable</td><td class="num mono">350</td><td class="num mono">315</td><td class="rowhead">Accrued wages</td><td class="num mono">10</td><td class="num mono">10</td></tr>
+            <tr><td class="rowhead">Inventories</td><td class="num mono">300</td><td class="num mono">215</td><td class="rowhead">Accrued income taxes</td><td class="num mono">130</td><td class="num mono">120</td></tr>
+            <tr><td class="rowhead"><strong>Total current assets</strong></td><td class="num mono"><strong>700</strong></td><td class="num mono"><strong>610</strong></td><td class="rowhead"><strong>Total current liabilities</strong></td><td class="num mono"><strong>300</strong></td><td class="num mono"><strong>220</strong></td></tr>
+            <tr><td class="rowhead">Gross non-current assets</td><td class="num mono">1,800</td><td class="num mono">1,470</td><td class="rowhead">First mortgage bonds</td><td class="num mono">500</td><td class="num mono">520</td></tr>
+            <tr><td class="rowhead">Less accumulated depreciation</td><td class="num mono">(500)</td><td class="num mono">(400)</td><td class="rowhead">Debentures</td><td class="num mono">300</td><td class="num mono">60</td></tr>
+            <tr><td class="rowhead"><strong>Net non-current assets</strong></td><td class="num mono"><strong>1,300</strong></td><td class="num mono"><strong>1,070</strong></td><td class="rowhead"><strong>Total non-current liabilities</strong></td><td class="num mono"><strong>800</strong></td><td class="num mono"><strong>580</strong></td></tr>
+            <tr><td class="rowhead">&nbsp;</td><td class="num mono">&nbsp;</td><td class="num mono">&nbsp;</td><td class="rowhead">Common stock (50M sh., THB1 par)</td><td class="num mono">50</td><td class="num mono">50</td></tr>
+            <tr><td class="rowhead">&nbsp;</td><td class="num mono">&nbsp;</td><td class="num mono">&nbsp;</td><td class="rowhead">Additional paid-in capital</td><td class="num mono">100</td><td class="num mono">100</td></tr>
+            <tr><td class="rowhead">&nbsp;</td><td class="num mono">&nbsp;</td><td class="num mono">&nbsp;</td><td class="rowhead">Retained earnings</td><td class="num mono">750</td><td class="num mono">730</td></tr>
+            <tr><td class="rowhead">&nbsp;</td><td class="num mono">&nbsp;</td><td class="num mono">&nbsp;</td><td class="rowhead"><strong>Total shareholders' equity</strong></td><td class="num mono"><strong>900</strong></td><td class="num mono"><strong>880</strong></td></tr>
+            <tr><td class="rowhead"><strong>Total assets</strong></td><td class="num mono"><strong>2,000</strong></td><td class="num mono"><strong>1,680</strong></td><td class="rowhead"><strong>Total liabilities &amp; equity</strong></td><td class="num mono"><strong>2,000</strong></td><td class="num mono"><strong>1,680</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Statement of comprehensive income</th><th class="num">20X1</th><th class="num">20X0</th></tr></thead>
+          <tbody>
+            <tr><td class="rowhead">Net sales</td><td class="num mono">3,000</td><td class="num mono">2,850</td></tr>
+            <tr><td class="rowhead">Less cost of goods sold</td><td class="num mono">2,544</td><td class="num mono">2,413</td></tr>
+            <tr><td class="rowhead">Gross profit</td><td class="num mono">456</td><td class="num mono">437</td></tr>
+            <tr><td class="rowhead">Less SG&amp;A: depreciation</td><td class="num mono">100</td><td class="num mono">90</td></tr>
+            <tr><td class="rowhead">Less SG&amp;A: selling</td><td class="num mono">22</td><td class="num mono">20</td></tr>
+            <tr><td class="rowhead">Less SG&amp;A: general &amp; admin.</td><td class="num mono">40</td><td class="num mono">35</td></tr>
+            <tr><td class="rowhead">Less SG&amp;A: lease payments</td><td class="num mono">28</td><td class="num mono">28</td></tr>
+            <tr><td class="rowhead"><strong>EBIT</strong></td><td class="num mono"><strong>266</strong></td><td class="num mono"><strong>264</strong></td></tr>
+            <tr><td class="rowhead">Less interest expense</td><td class="num mono">66</td><td class="num mono">47</td></tr>
+            <tr><td class="rowhead">EBT</td><td class="num mono">200</td><td class="num mono">217</td></tr>
+            <tr><td class="rowhead">Less taxes (40%)</td><td class="num mono">80</td><td class="num mono">87</td></tr>
+            <tr><td class="rowhead"><strong>Net income</strong></td><td class="num mono"><strong>120</strong></td><td class="num mono"><strong>130</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="prose" style="color:var(--ink-muted);font-size:.92rem">Share price: THB30.75 at the end of 20X0, THB28.25 at the end of 20X1. EPS = 130/50 = <strong>THB2.60</strong> (20X0) and 120/50 = <strong>THB2.40</strong> (20X1). Keep the THB28 of lease payments in mind &mdash; it is the only reason one leverage ratio later differs from another.</p>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="liquidity">
+      <div class="sec-head">
+        <span class="kicker">Family (a)</span>
+        <h2>Liquidity &mdash; can it pay what falls due?</h2>
+        <p>Short-term solvency: paying short-term commitments out of assets that turn to cash on roughly the same clock the claims mature on.</p>
+      </div>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Ratio</th><th>Formula</th><th class="num">20X0</th><th class="num">20X1</th><th class="num">Industry</th><th>Higher means</th></tr></thead>
+          <tbody>
+            <tr><td class="rowhead">Current ratio (CR)</td><td><span class="frac"><span class="fn">CA</span><span class="fd">CL</span></span></td><td class="num mono">2.77&times;</td><td class="num mono">2.33&times;</td><td class="num mono">2.5&times;</td><td>More liquidity, <em>less</em> return &mdash; current assets yield less than non-current ones</td></tr>
+            <tr><td class="rowhead">Quick / acid-test (QR)</td><td><span class="frac"><span class="fn">CA &minus; less-liquid CA</span><span class="fd">CL</span></span></td><td class="num mono">1.80&times;</td><td class="num mono">1.33&times;</td><td class="num mono">1.0&times;</td><td>Same question, without relying on selling inventory</td></tr>
+            <tr><td class="rowhead">AP turnover (APT)</td><td><span class="frac"><span class="fn">CGS</span><span class="fd">accounts payable</span></span></td><td class="num mono">80.43&times;</td><td class="num mono">42.40&times;</td><td class="num mono">n.a.</td><td class="bad"><em>Lower</em> liquidity &mdash; paying suppliers faster, using less of their money</td></tr>
+            <tr><td class="rowhead">Avg. payment period (APD)</td><td><span class="frac"><span class="fn">360</span><span class="fd">APT</span></span></td><td class="num mono">4.48 d</td><td class="num mono">8.49 d</td><td class="num mono">n.a.</td><td>Higher liquidity &mdash; longer use of supplier funds</td></tr>
+            <tr><td class="rowhead">AR turnover (ART)</td><td><span class="frac"><span class="fn">net credit sales</span><span class="fd">accounts receivable</span></span></td><td class="num mono">9.05&times;</td><td class="num mono">8.57&times;</td><td class="num mono">10&times;</td><td>Better liquidity &mdash; or credit terms so tight that few credit sales happen</td></tr>
+            <tr><td class="rowhead">Avg. collection period (ACP)</td><td><span class="frac"><span class="fn">360</span><span class="fd">ART</span></span></td><td class="num mono">39.79 d</td><td class="num mono">42.00 d</td><td class="num mono">36 d</td><td class="bad">Lower liquidity &mdash; cash sitting in customers' hands</td></tr>
+            <tr><td class="rowhead">Inventory turnover (IT)</td><td><span class="frac"><span class="fn">CGS</span><span class="fd">inventory</span></span></td><td class="num mono">11.22&times;</td><td class="num mono">8.48&times;</td><td class="num mono">n.a.</td><td>Higher liquidity &mdash; but possibly not enough stock to sell</td></tr>
+            <tr><td class="rowhead">Inventory days (ID)</td><td><span class="frac"><span class="fn">360</span><span class="fd">IT</span></span></td><td class="num mono">32.08 d</td><td class="num mono">42.45 d</td><td class="num mono">n.a.</td><td class="bad">Lower liquidity &mdash; but less chance of lost sales</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="worked">
+        <span class="lbl">Worked &mdash; check one row yourself</span>
+        <p>Inventory turnover, 20X1: CGS&nbsp;2,544 &divide; inventory&nbsp;300 = <strong>8.48&times;</strong>. Inventory days = 360 &divide; 8.48 = <strong>42.45&nbsp;days</strong> &mdash; up from 32.08 in 20X0. Plow's stock is sitting on the shelf eleven days longer than it did a year ago.</p>
+      </div>
+      <div class="trap">
+        <b>Two things the exam tests here</b>
+        <p><strong>One:</strong> APT and APD move in <em>opposite</em> directions for liquidity &mdash; a high payables <em>turnover</em> is bad news, a long payables <em>period</em> is good news. Same fact, two framings, both examinable.<br><strong>Two:</strong> ART, ARD, IT and ID reappear under asset management below with identical formulas but a different question being asked &mdash; here it's "how fast does this become cash?"; there it's "how well is this asset being managed?" Read which family the question sits under.</p>
+      </div>
+    </section>
+
+    <section id="assetmgmt">
+      <div class="sec-head">
+        <span class="kicker">Family (b)</span>
+        <h2>Asset management &mdash; is the asset base working?</h2>
+        <p>Same turnover ratios, asked as a management-quality question rather than a cash-speed question.</p>
+      </div>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Ratio</th><th>Formula</th><th class="num">20X0</th><th class="num">20X1</th><th class="num">Industry</th><th>Higher means</th></tr></thead>
+          <tbody>
+            <tr><td class="rowhead">Total-asset turnover (TAT)</td><td><span class="frac"><span class="fn">net sales</span><span class="fd">total assets</span></span></td><td class="num mono">1.70&times;</td><td class="num mono">1.50&times;</td><td class="num mono">1.8&times;</td><td>Good asset management &mdash; but excessively high signals under-investment</td></tr>
+            <tr><td class="rowhead">Non-current-asset turnover</td><td><span class="frac"><span class="fn">net sales</span><span class="fd">net non-current assets</span></span></td><td class="num mono">2.66&times;</td><td class="num mono">2.71&times;</td><td class="num mono">3.0&times;</td><td>Effective use of plant &mdash; unreasonably high may mean equipment is old and undervalued</td></tr>
+            <tr><td class="rowhead">ART &middot; ARD &middot; IT &middot; ID</td><td class="mono">same as above</td><td colspan="3" style="color:var(--ink-muted);font-size:.85rem">re-read as management quality, not cash speed</td><td>High ART: few overdue receivables &mdash; or credit terms so strict they're losing sales</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="color:var(--ink-muted);font-size:.92rem">The "excessively high is also bad" caveat sits on both turnover rows and is a favourite MCQ &mdash; a ratio above the industry average is never automatically good news.</p>
+    </section>
+
+    <section id="leverage">
+      <div class="sec-head">
+        <span class="kicker">Family (c)</span>
+        <h2>Leverage &mdash; how much is borrowed, and can it carry it?</h2>
+        <p>Three ratios describing one underlying fact, plus two ratios about the ability to service what's borrowed.</p>
+      </div>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Ratio</th><th>Formula</th><th class="num">20X0</th><th class="num">20X1</th><th class="num">Industry</th><th>Higher means</th></tr></thead>
+          <tbody>
+            <tr><td class="rowhead">Debt ratio (DR)</td><td><span class="frac"><span class="fn">total debts</span><span class="fd">total assets</span></span></td><td class="num mono">47.62%</td><td class="num mono">55.00%</td><td class="num mono">40%</td><td>Less future borrowing room, higher bankruptcy risk, greater earnings magnification</td></tr>
+            <tr><td class="rowhead">Debt&ndash;equity (D/E)</td><td><span class="frac"><span class="fn">total debts</span><span class="fd">total owners' equity</span></span></td><td class="num mono">0.91&times;</td><td class="num mono">1.22&times;</td><td class="num mono">0.67&times;</td><td>Same story as debt ratio, different frame</td></tr>
+            <tr><td class="rowhead">Equity multiplier (EM)</td><td><span class="frac"><span class="fn">total assets</span><span class="fd">common equity</span></span></td><td class="num mono">1.91&times;</td><td class="num mono">2.22&times;</td><td class="num mono">1.67&times;</td><td>Same again &mdash; and this is the third factor in Du&nbsp;Pont, below</td></tr>
+            <tr><td class="rowhead">LT debt / total capitalisation</td><td><span class="frac"><span class="fn">LT debts</span><span class="fd">LT debts + equity</span></span></td><td class="num mono">39.73%</td><td class="num mono">47.06%</td><td class="num mono">n.a.</td><td>Almost the debt ratio, but ignores current liabilities</td></tr>
+            <tr><td class="rowhead">Times interest earned (TIE)</td><td><span class="frac"><span class="fn">EBIT</span><span class="fd">interest</span></span></td><td class="num mono">5.62&times;</td><td class="num mono">4.03&times;</td><td class="num mono">6&times;</td><td>Safer &mdash; but perhaps too little leverage in use</td></tr>
+            <tr><td class="rowhead">Fixed charge coverage (FCC)</td><td><span class="frac"><span class="fn">EBIT + leases</span><span class="fd">interest + leases</span></span></td><td class="num mono">4.15&times;</td><td class="num mono">3.13&times;</td><td class="num mono">2.5&times;</td><td>Covers more obligations than TIE does</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="formula">EM = D/E + 1 &nbsp;&nbsp;&middot;&nbsp;&nbsp; DR = D/E &divide; (D/E + 1) &nbsp;&nbsp;&middot;&nbsp;&nbsp; DR = 1 &minus; 1/EM</div>
+      <div class="worked">
+        <span class="lbl">Worked &mdash; the identities, checked on 20X1</span>
+        <p>D/E&nbsp;=&nbsp;1.22 &rarr; EM&nbsp;=&nbsp;1.22&nbsp;+&nbsp;1&nbsp;=&nbsp;<strong>2.22&times;</strong> &check;<br>DR&nbsp;=&nbsp;1.22&nbsp;&divide;&nbsp;2.22&nbsp;=&nbsp;<strong>55.0%</strong> &check; &nbsp; and 1&nbsp;&minus;&nbsp;1/2.22&nbsp;=&nbsp;<strong>55.0%</strong> &check;</p>
+        <p>If a question hands you any one of the three leverage ratios, you have all three without opening the balance sheet.</p>
+      </div>
+      <div class="trap">
+        <b>FCC's numerator and denominator both carry the lease payment</b>
+        <p><code>FCC&#8320;&#8321; = (266 + 28) / (66 + 28) = 294/94 = 3.13&times;</code>. Leases go on both sides: into the numerator because EBIT was struck after deducting them, into the denominator because they're a fixed charge that must still be met. Add them to only one side and the ratio is wrong. The full formula also grosses up preferred dividends and sinking-fund payments by 1/(1&minus;T) since those are paid from after-tax money &mdash; Plow has neither, so the simple version works here.</p>
+      </div>
+    </section>
+
+    <section id="profitability">
+      <div class="sec-head">
+        <span class="kicker">Family (d)</span>
+        <h2>Profitability &mdash; what does it earn, and on what?</h2>
+        <p>Three margins peel back the income statement layer by layer; three "return on X" ratios ask the same profit against a different base.</p>
+      </div>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Ratio</th><th>Formula</th><th class="num">20X0</th><th class="num">20X1</th><th class="num">Industry</th><th>Reads as</th></tr></thead>
+          <tbody>
+            <tr><td class="rowhead">Gross profit margin</td><td><span class="frac"><span class="fn">gross profit</span><span class="fd">net sales</span></span></td><td class="num mono">15.33%</td><td class="num mono">15.20%</td><td class="num mono">n.a.</td><td>Control of cost of goods sold, alone</td></tr>
+            <tr><td class="rowhead">Operating profit margin</td><td><span class="frac"><span class="fn">EBIT</span><span class="fd">net sales</span></span></td><td class="num mono">9.26%</td><td class="num mono">8.87%</td><td class="num mono">n.a.</td><td>Control of CGS and operating expenses &mdash; high may mean R&amp;D was starved</td></tr>
+            <tr><td class="rowhead">Net profit margin (NPM)</td><td><span class="frac"><span class="fn">earnings avail. to common</span><span class="fd">net sales</span></span></td><td class="num mono">4.56%</td><td class="num mono">4.00%</td><td class="num mono">5%</td><td>Control of everything &mdash; financing and tax included</td></tr>
+            <tr><td class="rowhead">Basic earning power (BEP)</td><td><span class="frac"><span class="fn">EBIT</span><span class="fd">total assets</span></span></td><td class="num mono">15.71%</td><td class="num mono">13.30%</td><td class="num mono">17.2%</td><td>Earning power of the assets <em>before</em> tax and leverage touch it</td></tr>
+            <tr><td class="rowhead">Return on assets (ROA)</td><td><span class="frac"><span class="fn">earnings avail. to common</span><span class="fd">total assets</span></span></td><td class="num mono">7.74%</td><td class="num mono">6.00%</td><td class="num mono">n.a.</td><td>Same base, <em>after</em> leverage and tax</td></tr>
+            <tr><td class="rowhead">Return on equity (ROE)</td><td><span class="frac"><span class="fn">earnings avail. to common</span><span class="fd">common equity</span></span></td><td class="num mono">14.80%</td><td class="num mono">13.33%</td><td class="num mono">15%</td><td>The shareholders' own return &mdash; profitability, asset use and leverage, all at once</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note">
+        <strong>BEP vs. ROA is the distinction worth holding onto</strong>
+        Both divide by total assets. BEP uses EBIT, so it's blind to financing and tax &mdash; the honest way to compare two firms with different capital structures. ROA uses net income, so leverage and tax are already baked in. Comparing a levered firm against an unlevered one? BEP is the ratio that answers it.
+      </div>
+    </section>
+
+    <section id="valuation">
+      <div class="sec-head">
+        <span class="kicker">Family (e)</span>
+        <h2>Valuation &mdash; what will the market pay?</h2>
+        <p>The only family that looks outside the financial statements, at the share price itself.</p>
+      </div>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Ratio</th><th>Formula</th><th class="num">20X0</th><th class="num">20X1</th><th class="num">Industry</th><th>Reads as</th></tr></thead>
+          <tbody>
+            <tr><td class="rowhead">Price&ndash;earnings (P/E)</td><td><span class="frac"><span class="fn">market price / share</span><span class="fd">EPS</span></span></td><td class="num mono">11.81&times;</td><td class="num mono">11.77&times;</td><td class="num mono">12.5&times;</td><td>Investors pay X times <em>current</em> earnings &mdash; high P/E signals growth expectations</td></tr>
+            <tr><td class="rowhead">Market-to-book (M/B)</td><td><span class="frac"><span class="fn">market price / share</span><span class="fd">book value / share</span></span></td><td class="num mono">1.75&times;</td><td class="num mono">1.57&times;</td><td class="num mono">n.a.</td><td>Investors pay X times <em>historical</em> value</td></tr>
+            <tr><td class="rowhead">Dividend payout</td><td><span class="frac"><span class="fn">DPS</span><span class="fd">EPS</span></span></td><td class="num mono">&mdash;</td><td class="num mono">&mdash;</td><td class="num mono">n.a.</td><td>Share of earnings paid out &mdash; retention ratio = 1 &minus; payout</td></tr>
+            <tr><td class="rowhead">Dividend yield (DY)</td><td><span class="frac"><span class="fn">DPS</span><span class="fd">price</span></span></td><td class="num mono">&mdash;</td><td class="num mono">&mdash;</td><td class="num mono">n.a.</td><td>Cash return per baht of price</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="worked">
+        <span class="lbl">Worked &mdash; 20X1</span>
+        <p>EPS = 120 &divide; 50 = <strong>THB2.40</strong>, so P/E = 28.25 &divide; 2.40 = <strong>11.77&times;</strong>.<br>BVPS = 900 &divide; 50 = <strong>THB18.00</strong>, so M/B = 28.25 &divide; 18.00 = <strong>1.57&times;</strong>.</p>
+        <p>Plow discloses no dividend, so the last two rows have no figures here &mdash; they're on the exam formula sheet regardless.</p>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="dupont">
+      <div class="sec-head">
+        <span class="kicker">Tying three families into one number</span>
+        <h2>Du Pont</h2>
+        <p>The most likely constructed-response question in this topic &mdash; it forces liquidity, leverage and profitability to be used together.</p>
+      </div>
+
+      <div class="formula big">ROA = NPM &times; TAT = <span class="frac"><span class="fn">net income</span><span class="fd">sales</span></span> &times; <span class="frac"><span class="fn">sales</span><span class="fd">total assets</span></span></div>
+      <div class="formula big">ROE = ROA &times; EM = <span class="frac"><span class="fn">net income</span><span class="fd">sales</span></span> &times; <span class="frac"><span class="fn">sales</span><span class="fd">total assets</span></span> &times; <span class="frac"><span class="fn">total assets</span><span class="fd">common equity</span></span></div>
+      <p>Sales cancels against sales, total assets against total assets &mdash; net income over equity is what's left.</p>
+
+      <div class="worked">
+        <span class="lbl">Worked on Plow, 20X1</span>
+        <p>ROA = NPM(4.00%) &times; TAT(1.50) = <strong>6.00%</strong> &nbsp;&mdash;&nbsp; direct check: 120/2,000 = 6.00% &check;<br>
+        ROE = 6.00% &times; EM(2.22) = <strong>13.33%</strong> &nbsp;&mdash;&nbsp; direct check: 120/900 = 13.33% &check;</p>
+        <p style="color:var(--ink-muted);font-size:.9rem">Same for 20X0: 4.56% &times; 1.70 &times; 1.91 = 14.80% &check;</p>
+      </div>
+
+      <h3 style="margin-top:2rem">Why it matters &mdash; five firms, one ROE</h3>
+      <p>Five firms in the same industry. <strong>Every one earns exactly 24% ROE.</strong> Nothing else about them is alike.</p>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Firm</th><th class="num">ROE</th><th class="num">NPM</th><th class="num">TAT</th><th class="num">EM</th><th>What kind of business this is</th></tr></thead>
+          <tbody>
+            <tr><td class="rowhead">A</td><td class="num mono">24%</td><td class="num mono">2%</td><td class="num mono">6&times;</td><td class="num mono">2&times;</td><td>Thin margins, huge throughput &mdash; a discount retailer</td></tr>
+            <tr><td class="rowhead">B</td><td class="num mono">24%</td><td class="num mono">12%</td><td class="num mono">2&times;</td><td class="num mono">1&times;</td><td>Fat margins, zero debt &mdash; the safest of the five</td></tr>
+            <tr><td class="rowhead">C</td><td class="num mono">24%</td><td class="num mono">3%</td><td class="num mono">2&times;</td><td class="num mono">4&times;</td><td>Mediocre operations, rescued by borrowing</td></tr>
+            <tr><td class="rowhead">D</td><td class="num mono">24%</td><td class="num mono">4%</td><td class="num mono">3&times;</td><td class="num mono">2&times;</td><td>Balanced &mdash; nothing extreme anywhere</td></tr>
+            <tr><td class="rowhead">E</td><td class="num mono bad">24%</td><td class="num mono">4%</td><td class="num mono">1&times;</td><td class="num mono">6&times;</td><td class="bad">Assets barely turn over &mdash; the entire return is leverage</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note">
+        <strong>The point in one sentence: ROE tells you the size of the return, nothing about where it came from or what it cost in risk.</strong>
+        B and E post the same number. B earns it from the business; E borrows six times its equity to manufacture it, and a bad year that dents EBIT takes E's equity down with it. If an exam question gives two firms with equal ROE, decompose before judging &mdash; that's almost always the answer it wants.
+      </div>
+    </section>
+
+    <section id="cycles">
+      <div class="sec-head">
+        <span class="kicker">The part that computes cleanly &mdash; and feeds the group project</span>
+        <h2>Operating cycle &amp; cash cycle</h2>
+        <p>Everything above measures a snapshot. This measures a loop: how many days cash is tied up between paying for materials and collecting from the customer.</p>
+      </div>
+
+      <div class="formula">OC = ID + ARD<br>CC = OC &minus; APD = ID + ARD &minus; APD</div>
+
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Period</th><th>What it measures</th><th>Formula</th></tr></thead>
+          <tbody>
+            <tr><td class="rowhead">Inventory days (ID)</td><td>Average time to turn raw materials into finished goods and sell them</td><td><span class="frac"><span class="fn">D &times; inventory</span><span class="fd">CGS</span></span></td></tr>
+            <tr><td class="rowhead">Receivable days (ARD)</td><td>Average time to convert a receivable into cash after a sale</td><td><span class="frac"><span class="fn">D &times; receivables</span><span class="fd">credit sales</span></span></td></tr>
+            <tr><td class="rowhead">Payable days (APD)</td><td>Average time between buying materials/labour and paying cash for them</td><td><span class="frac"><span class="fn">D &times; payables</span><span class="fd">CGS</span></span></td></tr>
+            <tr><td class="rowhead">Operating cycle (OC)</td><td>Purchase of materials &rarr; collection of the receivable the sale generated</td><td class="mono">ID + ARD</td></tr>
+            <tr><td class="rowhead">Cash cycle (CC)</td><td>Payment for materials/labour &rarr; collection of that receivable</td><td class="mono">OC &minus; APD</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="trap">
+        <b>ID and APD divide by cost of goods sold; ARD divides by sales</b>
+        <p>Inventory and payables sit on the books at cost; receivables sit at selling price. Using sales in the inventory formula is the single most common way to get this wrong &mdash; read which base the question hands you and stay consistent with it. Day-count also varies by question: 360 in the Plow tables above, 365 in the examples below. Use whichever the question states.</p>
+      </div>
+
+      <h3 style="margin-top:1.8rem">Two worked examples</h3>
+      <div class="cols">
+        <div class="card">
+          <h4>John &amp; Sons</h4>
+          <p style="font-size:.92rem;color:var(--ink-muted)">50 days to produce and sell, 40 days to collect, 30 days of supplier deferral.</p>
+          <p class="mono">OC = 50 + 40 = 90 days<br>CC = 90 &minus; 30 = 60 days</p>
+        </div>
+        <div class="card">
+          <h4>Slowpay Company</h4>
+          <p style="font-size:.92rem;color:var(--ink-muted)">365-day year. Inventory 7,000 &middot; AR 2,400 &middot; AP 4,800 &middot; credit sales 50,000 &middot; CGS 30,000.</p>
+          <p class="mono">ID = 365/(30,000/7,000) = 85.17<br>ARD = 365/(50,000/2,400) = 17.52<br>APD = 365/(30,000/4,800) = 58.40<br><strong>CC = 85.17+17.52&minus;58.40 = 44.29 d</strong></p>
+        </div>
+      </div>
+
+      <h3 style="margin-top:1.8rem">Reading the sign</h3>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Case</th><th>What's happening</th><th>Liquidity</th><th>External financing</th></tr></thead>
+          <tbody>
+            <tr><td class="rowhead">Positive cash cycle</td><td>Cash comes in after it went out</td><td class="bad">Low</td><td>Required</td></tr>
+            <tr><td class="rowhead">Zero cash cycle</td><td>Inflow synchronises with outflow</td><td>About right</td><td>Not required</td></tr>
+            <tr><td class="rowhead">Negative cash cycle</td><td>Cash comes in before it goes out &mdash; suppliers are financing you</td><td class="good">Excess</td><td>None &mdash; park the surplus in higher-yielding assets</td></tr>
+            <tr><td class="rowhead">Deeply positive cycle</td><td>You pay early and collect very late</td><td class="bad">Very low</td><td>Large amounts required</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 style="margin-top:1.8rem">What shortening the cycle is actually worth</h3>
+      <p>Sales THB1,216.7m &middot; CGS THB1,013.9m &middot; inventories THB140.0m &middot; receivables THB445.0m &middot; payables THB115.0m &middot; 365-day year.</p>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>&nbsp;</th><th class="num">ID</th><th class="num">ARD</th><th class="num">APD</th><th class="num">CC</th><th>Reading</th></tr></thead>
+          <tbody>
+            <tr><td class="rowhead">Planned</td><td class="num mono">50.0</td><td class="num mono">60.0</td><td class="num mono">40.0</td><td class="num mono">70.0</td><td>&nbsp;</td></tr>
+            <tr><td class="rowhead">Actual</td><td class="num mono">50.4</td><td class="num mono">133.5</td><td class="num mono">41.4</td><td class="num mono bad">142.5</td><td>Inventory on plan; <strong>customers paying very late</strong>; suppliers paid close to on time</td></tr>
+            <tr><td class="rowhead">Target</td><td class="num mono">35.0</td><td class="num mono">40.0</td><td class="num mono">50.0</td><td class="num mono good">25.0</td><td>A cut of <strong>117.5 days</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="worked">
+        <span class="lbl">Worked &mdash; what the 117.5-day cut is worth in cash</span>
+        <p>Actual net operating working capital = inventories + AR &minus; AP = 140.0 + 445.0 &minus; 115.0 = <strong>THB470.0m</strong>.</p>
+        <p>Rebuild each balance from the target period, holding sales and CGS fixed:</p>
+        <p class="mono">Inventory = 35.0 &times; (1,013.9/365) = 97.22<br>Receivables = 40.0 &times; (1,216.7/365) = 133.34<br>Payables = 50.0 &times; (1,013.9/365) = 138.89<br><strong>Target NOWC = 97.22 + 133.34 &minus; 138.89 = THB91.67m</strong></p>
+        <p>Cash released = 470.0 &minus; 91.67 = <strong>THB378.33m</strong>. At a 10% financing cost, that's <strong>THB37.83m a year</strong> &mdash; saved without selling one extra unit, and it comes almost entirely from collecting receivables on time, which is exactly where the actual figures were bleeding.</p>
+      </div>
+      <div class="note">
+        <strong>Correction from the source deck</strong>
+        The 20X0 operating cycle above (Plow's own liquidity table) is internally inconsistent in the original notes &mdash; ID(32.08)+ARD(39.79) = <strong>71.87 days</strong>, which is what reconciles with the stated cash cycle of 67.39 days (71.87&minus;4.48). Use 71.87, not any figure printed elsewhere that doesn't net out against the cash cycle.
+      </div>
+    </section>
+
+    <section id="limits">
+      <div class="sec-head">
+        <span class="kicker">The wrap-up section</span>
+        <h2>Eight limitations of ratio analysis</h2>
+        <p>Good MCQ distractor material &mdash; several are phrased as questions in the original notes, which is a hint they get asked back.</p>
+      </div>
+      <ol class="limits">
+        <li><div><b>Comparative ratios are hard to develop</b><span>A firm operating across several industries &mdash; which industry average even applies?</span></div></li>
+        <li><div><b>"Average" is not a goal</b><span>Hitting the industry average means being unremarkable, not being healthy.</span></div></li>
+        <li><div><b>Inflation</b><span>Distorts every balance-sheet figure carried at historical cost, and every ratio built from one.</span></div></li>
+        <li><div><b>Seasonality</b><span>A balance sheet is one day. A retailer measured the week after Christmas looks like a different company than in November.</span></div></li>
+        <li><div><b>Window dressing</b><span>Transactions timed right at year-end purely to flatter the closing statements.</span></div></li>
+        <li><div><b>The notes to the statements matter</b><span>Different inventory or depreciation policies make two identical firms look different on paper. The notes aren't optional reading.</span></div></li>
+        <li><div><b>"Good" and "bad" don't generalise</b><span>A very high current ratio &mdash; good? Or just idle assets earning nothing? Depends what you're asking.</span></div></li>
+        <li><div><b>The net effect of a set of ratios</b><span>Individual ratios often point in opposite directions. Judgement is required &mdash; which is exactly what the exam is testing.</span></div></li>
+      </ol>
+      <div class="note">
+        <strong>Plow Chemical, summarised</strong>
+        Every family moved the wrong way in 20X1. Liquidity fell (current ratio 2.77&rarr;2.33). Assets turned over more slowly (TAT 1.70&rarr;1.50) while inventory grew 40% and receivables 11% against sales growth of only 5%. Leverage rose sharply (debt ratio 47.6%&rarr;55.0%, debentures +400%), interest expense jumped 40%, and TIE fell from 5.62&times; to 4.03&times; &mdash; under the industry's 6&times;. Margins slipped and ROE fell from 14.80% to 13.33%, now under the industry's 15%. The cash cycle stretched by more than eight days.
+        <p style="margin-top:.6rem"><strong>Diagnosis:</strong> Plow funded a large expansion in fixed assets and inventory with debt, and sales haven't arrived to justify it. The market noticed &mdash; the share price fell from THB30.75 to THB28.25 while P/E stayed roughly flat, meaning the whole decline is earnings, not sentiment.</p>
+      </div>
+    </section>
+
+  </main>
+</div>
