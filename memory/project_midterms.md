@@ -5,6 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 5b6c4e05-b760-4ef4-9ca7-afdb3856b8e3
+  modified: 2026-09-06T04:28:57.304Z
 ---
 
 Opened 2026-08-23. **TOP PRIORITY.** Korn's stated order: midterms first, fitness second (fitness explicitly planned *around* studies).
@@ -440,6 +441,13 @@ Syllabus hours per topic (Lecture / Practical / Active-learning):
 
 ### ✅ CLOSED — the 15% group assignment is NOT a risk
 **30 Aug, his words: he already has a group — the same friends he's worked with since last year, "we are good."** Outline requires 4–5 members and **strictly forbids working solo**; scored *mainly on attempt, completeness and punctuality*, adjusted by self-and-peer evaluation. **Stop raising it.** Due Wed 16 Sep.
+
+### 📁 GROUP ASSIGNMENT — MATERIAL LANDED (6 Sep 2026)
+**Company: Taokaenoi Food & Marketing PCL (TKN)** — seaweed snacks, group name "Cashmeifyoucan," 5 members. Two files in `~/Desktop/fn/`, correctly named per the brief's convention (brief's own example used placeholder ticker "EFORL" — resolved, not literal):
+- `FN201-Cashmeifyoucan-TKN-Analysis.pdf` — **already a near-complete draft**, not a blank template: 5-yr common-size income statement + balance sheet, growth rates, liquidity, asset utilization, leverage, profitability, valuation, full 3-way DuPont, strengths/weaknesses, bibliography.
+- `FN201-Cashmeifyoucan-TKN-Data.xlsx` — 3 sheets: P&L, Balance Sheet, Financial ratios.
+- **Deadline: 16 Sep, 13:00.** Only one group member submits.
+- **Roles not yet split** — group meeting Mon 7 Sep after class to divide work. Korn's plan for 6 Sep evening: understand every section well enough to contribute at that meeting. **Overlaps almost exactly with STQ03** — same ratio families (liquidity/asset-mgmt/leverage/profitability/valuation/DuPont). STQ03 mechanics doubles as assignment prep.
 
 ### 📂 MATERIALS — never were a blocker
 `~/Desktop/fn/` has held **all five lecture notes since 26 Aug**, plus `Interest Factor Tables.pdf` (4pp) and the A1 assignment sheet. His submitted A1 is at `~/Downloads/FN201-A1-6802640661.pdf`. Extract with `markitdown` — the PDFs are text, tables come out mangled but readable, numbers survive.
