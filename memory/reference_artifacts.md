@@ -1,9 +1,11 @@
 ---
 name: reference-artifacts
-description: Every study artifact built for Korn — URLs, what each covers, and the rule that each subject keeps its own document
-metadata:
+description: "Every study artifact built for Korn — URLs, what each covers, and the rule that each subject keeps its own document"
+metadata: 
   node_type: memory
   type: reference
+  originSessionId: 55d18c52-0ec8-4879-ba08-2eacf15bb4b1
+  modified: 2026-09-06T03:43:06.252Z
 ---
 
 # Study Artifacts — Term 2.1
@@ -154,4 +156,7 @@ He asked for diagrams **only where one would genuinely help**, explicitly leavin
 **Design:** ledger/green-bar palette, Bitter + Public Sans + IBM Plex Mono, diagrams-first per his standing rule. SVG semantic colours are driven by CSS tokens (`.op-accent/.op-add/.op-sub/.box-key`) so both themes read.
 
 ⏳ **NOT yet two-way linked with the Term 2.1 hub** — offered, he hadn't answered before leaving.
+
+## FN201 T3 glossary added (6 Sep 2026)
+Working STQ03 live with him, he asked for plain-English definitions of every ratio term instead of cluttering the chat. Added `#glossary3` section to Obrom's Playbook — one-liner defs (EPS/BVPS/P-E/M-B/ROE/ROA/current/quick/TIE/debt ratio/D-E/EM/BEP/margins/TAT) plus the two identities (Du Pont; ROE-P/E-M/B link), placed as the first thing in Topic 3, nav rail entry added ("Glossary — start here").
 
