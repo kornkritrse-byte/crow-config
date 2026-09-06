@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 5b6c4e05-b760-4ef4-9ca7-afdb3856b8e3
-  modified: 2026-09-06T04:35:28.895Z
+  modified: 2026-09-06T15:46:25.759Z
 ---
 
 Opened 2026-08-23. **TOP PRIORITY.** Korn's stated order: midterms first, fitness second (fitness explicitly planned *around* studies).
@@ -442,15 +442,16 @@ Syllabus hours per topic (Lecture / Practical / Active-learning):
 ### ✅ CLOSED — the 15% group assignment is NOT a risk
 **30 Aug, his words: he already has a group — the same friends he's worked with since last year, "we are good."** Outline requires 4–5 members and **strictly forbids working solo**; scored *mainly on attempt, completeness and punctuality*, adjusted by self-and-peer evaluation. **Stop raising it.** Due Wed 16 Sep.
 
-### 📁 GROUP ASSIGNMENT — MATERIAL LANDED (6 Sep 2026)
-**Company: Taokaenoi Food & Marketing PCL (TKN)** — seaweed snacks, group name "Cashmeifyoucan," 5 members. Two files in `~/Desktop/fn/`, correctly named per the brief's convention (brief's own example used placeholder ticker "EFORL" — resolved, not literal):
-- `FN201-Cashmeifyoucan-TKN-Analysis.pdf` — **already a near-complete draft**, not a blank template: 5-yr common-size income statement + balance sheet, growth rates, liquidity, asset utilization, leverage, profitability, valuation, full 3-way DuPont, strengths/weaknesses, bibliography.
-- `FN201-Cashmeifyoucan-TKN-Data.xlsx` — 3 sheets: P&L, Balance Sheet, Financial ratios.
+### 📁 GROUP ASSIGNMENT — CORRECTED 6 Sep evening: the "material" is someone else's old work, not his group's
+**Company chosen (his group, group name "Cashmeifyoucan," 5 members): Taokaenoi Food & Marketing PCL (TKN)** — seaweed snacks.
+⚠️ **CORRECTION — the two files below are a PAST-SEMESTER EXAMPLE a friend sent him, NOT Cashmeifyoucan's actual work.** Originally logged as "already a near-complete draft" — that was wrong; nothing has actually been produced by his group yet.
+- `FN201-Cashmeifyoucan-TKN-Analysis.pdf` — reference example only: shows the expected shape (5-yr common-size income statement + balance sheet, growth rates, liquidity, asset utilization, leverage, profitability, valuation, full 3-way DuPont, strengths/weaknesses, bibliography) but is not his group's content.
+- `FN201-Cashmeifyoucan-TKN-Data.xlsx` — same caveat, reference only.
 - **Deadline: 16 Sep, 13:00.** Only one group member submits.
-- **Roles not yet split** — group meeting Mon 7 Sep after class to divide work. Korn's plan for 6 Sep evening: understand every section well enough to contribute at that meeting. **Overlaps almost exactly with STQ03** — same ratio families (liquidity/asset-mgmt/leverage/profitability/valuation/DuPont). STQ03 mechanics doubles as assignment prep.
+- 🚨 **Roles not yet split, AND no actual analysis work exists yet** — group meeting **Mon 7 Sep after class is where the real work starts**, not where an 80%-done doc gets divided up. Korn's own words: "tmr's meeting will be quite substantial." Treat this as starting from zero: pulling TKN's real financials, building the statements, doing the ratio calcs, writing it up — same content as STQ03 (liquidity/asset-mgmt/leverage/profitability/valuation/DuPont), so tonight's STQ03 work is genuine prep, not just overlap.
 - ⚠️ **He asked for the "Self-study-FN201-21S-BBA-AFR-TLM" YouTube clip (5h15m) checked 6 Sep** — pulled via yt-dlp auto-captions, not whisper (per [[reference-lecture-transcription]]). **Confirms Obrom's Playbook T3 is accurate to the decimal** — same case, same numbers, nothing missing. Two new facts pulled from it, not previously recorded:
   - **NOT examinable (his own words, skip studying these for the midterm):** fixed charge coverage (C6), LT-debt-to-capitalization (C4), the after-tax "modified" BEP variant, forward P/E. Also: 3-component DuPont is enough — don't bother with 5-component.
-  - **OC and CC (operating/cash cycle) are NOT on the exam but ARE required in the group project** — his own words on tape: "I ask you to calculate the OC and CC in your project too, and put them in the liquidity ratios." ✅ **Already satisfied** — the TKN draft's liquidity section already reports both.
+  - **OC and CC (operating/cash cycle) are NOT on the exam but ARE required in the group project** — his own words on tape: "I ask you to calculate the OC and CC in your project too, and put them in the liquidity ratios." ⚠️ **Not yet satisfied for real** — the "already reports both" note was based on the friend's example doc, not Cashmeifyoucan's own work (corrected 6 Sep evening, see above). Whoever does liquidity ratios needs to actually compute OC/CC for TKN.
 
 ### 📂 MATERIALS — never were a blocker
 `~/Desktop/fn/` has held **all five lecture notes since 26 Aug**, plus `Interest Factor Tables.pdf` (4pp) and the A1 assignment sheet. His submitted A1 is at `~/Downloads/FN201-A1-6802640661.pdf`. Extract with `markitdown` — the PDFs are text, tables come out mangled but readable, numbers survive.
