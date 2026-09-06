@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 5b6c4e05-b760-4ef4-9ca7-afdb3856b8e3
-  modified: 2026-09-06T04:28:57.304Z
+  modified: 2026-09-06T04:35:28.895Z
 ---
 
 Opened 2026-08-23. **TOP PRIORITY.** Korn's stated order: midterms first, fitness second (fitness explicitly planned *around* studies).
@@ -448,6 +448,9 @@ Syllabus hours per topic (Lecture / Practical / Active-learning):
 - `FN201-Cashmeifyoucan-TKN-Data.xlsx` — 3 sheets: P&L, Balance Sheet, Financial ratios.
 - **Deadline: 16 Sep, 13:00.** Only one group member submits.
 - **Roles not yet split** — group meeting Mon 7 Sep after class to divide work. Korn's plan for 6 Sep evening: understand every section well enough to contribute at that meeting. **Overlaps almost exactly with STQ03** — same ratio families (liquidity/asset-mgmt/leverage/profitability/valuation/DuPont). STQ03 mechanics doubles as assignment prep.
+- ⚠️ **He asked for the "Self-study-FN201-21S-BBA-AFR-TLM" YouTube clip (5h15m) checked 6 Sep** — pulled via yt-dlp auto-captions, not whisper (per [[reference-lecture-transcription]]). **Confirms Obrom's Playbook T3 is accurate to the decimal** — same case, same numbers, nothing missing. Two new facts pulled from it, not previously recorded:
+  - **NOT examinable (his own words, skip studying these for the midterm):** fixed charge coverage (C6), LT-debt-to-capitalization (C4), the after-tax "modified" BEP variant, forward P/E. Also: 3-component DuPont is enough — don't bother with 5-component.
+  - **OC and CC (operating/cash cycle) are NOT on the exam but ARE required in the group project** — his own words on tape: "I ask you to calculate the OC and CC in your project too, and put them in the liquidity ratios." ✅ **Already satisfied** — the TKN draft's liquidity section already reports both.
 
 ### 📂 MATERIALS — never were a blocker
 `~/Desktop/fn/` has held **all five lecture notes since 26 Aug**, plus `Interest Factor Tables.pdf` (4pp) and the A1 assignment sheet. His submitted A1 is at `~/Downloads/FN201-A1-6802640661.pdf`. Extract with `markitdown` — the PDFs are text, tables come out mangled but readable, numbers survive.

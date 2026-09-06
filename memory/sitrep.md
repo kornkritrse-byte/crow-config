@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-06T04:21:50.442Z
+  modified: 2026-09-06T04:35:44.892Z
 ---
 
 # Situation Report
@@ -26,7 +26,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (6 Sep, midday) — off to: travel back to Bangkok.** His own stated goal for tonight: study enough FN201 to be ready for the group assignment work.
+- **AWAY (6 Sep, afternoon) — off to: travel home to Bangkok.** Will resume tonight: STQ03 from Q4, then FN201 group-project prep for tomorrow's (Mon 7 Sep) group meeting.
 - 📌 **IN PROGRESS — resume here first:** STQ03 (FN201 Topic 3, Analysis of Financial Reports) walkthrough, guided format (he answers + reasons, Crow corrects — his call, since this topic has ZERO lecture hours so true cold-testing isn't meaningful yet). **Q1–3 done correctly** (Q1 needed the M/B = P/E × ROE identity walked through; Q2 debt-ratio backsolve, self-corrected after one wrong division; Q3 clean). **Stopped mid-Q4** (which-statement-is-most-correct, P/E-ROE-M/B relationships) — pick up there.
 - 📌 **QUEUED FOR NEXT AC313 SESSION (his ask, do this first, before anything else):**
   1. Re-explain **actual vs normal (predetermined-rate) costing** — which rate is calculated before the period vs after, and why normal/POHR is the default assumption unless a question names "actual costing" explicitly.
