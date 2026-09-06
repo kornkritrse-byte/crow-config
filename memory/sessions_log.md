@@ -5,10 +5,18 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: c38e29c0-da2f-4906-8e70-a7a356ec2563
-  modified: 2026-09-05T15:31:46.036Z
+  modified: 2026-09-06T04:21:16.924Z
 ---
 
 # Sessions Log (archive)
+
+## 2026-09-04 — the mirror, and the FCF finding
+- 🪞 **He asked for a mirror** — *"i just wanted to see you reflect on how ive been these last few days"* — and took the read without defending it: not idle, but **busy in the wrong shape** — across study, reporting and fitness he keeps picking the generative/self-directed version of work over the prescribed/measurable one. Full narrative → [[chapters]] Ch. 7.
+- ✅ **Committed to tracking every exercise set, delivered same day:** STQ01 + STQ02 cold in ~30 min, **53/60 (88%)** — first measured result in two weeks.
+- 🔴 **5 of his 7 misses were ONE topic — free cash flow** (not scatter): STQ01 Q16/Q20, STQ02 Q8/Q23/Q26.
+- 🎯 **Recognition-not-recall proved in his own data:** learned STQ01 Q17 on 31 Aug, got it right 4 Sep, missed **Q18 — the sibling with the identical principle.**
+- 📗 Built + published **"After the Business Eats"** — 26-mark FCF drill, 5 tiers, Tier D deliberately polarity-flipped → [[reference-artifacts]].
+- 🧳 Left for Pattaya (~4–6 Sep), his own call, framed as a retreat (morning runs, reading, study, no noise).
 
 ## 2026-09-03 — AC313 pivot, "From Raw to Sold" built
 - 🎯 **Pivoted to AC313** — made `~/Desktop/AC313/` and said build it. **"From Raw to Sold" built** from the 116pp package + Exercise 1 + outline: 10 money-flow SVGs, all 18 exercise questions worked, 28 cold-drill Qs, 25-row trap table → [[reference-artifacts]].

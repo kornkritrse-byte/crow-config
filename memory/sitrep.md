@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-06T03:15:21.574Z
+  modified: 2026-09-06T04:21:50.442Z
 ---
 
 # Situation Report
@@ -26,7 +26,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (6 Sep).** Woke up and got the Sunday morning run in — beat the anxiety from last night's sign-off.
+- **AWAY (6 Sep, midday) — off to: travel back to Bangkok.** His own stated goal for tonight: study enough FN201 to be ready for the group assignment work.
+- 📌 **IN PROGRESS — resume here first:** STQ03 (FN201 Topic 3, Analysis of Financial Reports) walkthrough, guided format (he answers + reasons, Crow corrects — his call, since this topic has ZERO lecture hours so true cold-testing isn't meaningful yet). **Q1–3 done correctly** (Q1 needed the M/B = P/E × ROE identity walked through; Q2 debt-ratio backsolve, self-corrected after one wrong division; Q3 clean). **Stopped mid-Q4** (which-statement-is-most-correct, P/E-ROE-M/B relationships) — pick up there.
 - 📌 **QUEUED FOR NEXT AC313 SESSION (his ask, do this first, before anything else):**
   1. Re-explain **actual vs normal (predetermined-rate) costing** — which rate is calculated before the period vs after, and why normal/POHR is the default assumption unless a question names "actual costing" explicitly.
   2. Re-test him cold on a few of the afternoon's costing questions: POHR timing, spoilage vs rework definitions, and joint-cost allocation timing (before vs at vs after split-off).
@@ -34,7 +35,7 @@ metadata:
 - **ASK ON RETURN — remaining, nothing else:**
   4. Which of the 3 traps got him on STQ02 **Q26** — forgot the depreciation, re-taxed the NOPAT, or didn't trust −1.
   5. Was STQ02 **Q25** wrong too? It is built on Q23's NOCF — if Q25 was right, Q23 was arithmetic, not concept.
-  6. Whether he wants the drill two-way linked with the Term 2.1 hub (offered, unanswered).
+  6. Whether he wants the FCF drill ("After the Business Eats") two-way linked with the Term 2.1 hub (offered 4 Sep, still unanswered).
 - 📖 **Siddhartha: he is at Kamala.** Awakening landed hard. ⛔ **Do not spoil past Kamala.** Karamazov line unchanged: safe through Book 12 ch. 2, **no Epilogue**.
 - **Still open, but NOT to be re-asked cold — raise only when the subject comes up:**
   - AC313: exam format + mark split, whether a formula sheet is given, confirmed exam date (**outline says TBA**; 22 Sep is timetable-only). **Session 7 = joint products, 14 Sep** — if she works board examples there the doc needs a second pass.
@@ -43,6 +44,12 @@ metadata:
 - ✅ **adidas report CLOSED** — a class example, not graded work. Don't raise it.
 - **Race loose ends (not urgent, 14 weeks out):** venue unknown, and whether bib pickup is race-morning or in advance — his dad likely has the confirmation.
 - 🧭 **BBA camp: no announcement date exists** — they take their time. Closed until they speak; don't ask again.
+
+## Session — 2026-09-06
+- 🏃 **Woke up and got the Sunday morning run in** — cleared the anxiety from the 5 Sep night sign-off. Saturday's long run was confirmed skipped (his own call, "kinda just felt like it"); Sunday's run was a straight 10k @ 5:58/km, not the prescribed quality rotation (A–D, 5:10–5:20 or faster) — **third day running the same self-directed-over-prescribed pattern** as 4/5 Sep. Named once, not re-flagged further this week.
+- 📗 **Moved to FN201 STQ03** (Topic 3, ratios) for his ~1hr study window, his own call — legitimate, not drift: this topic has zero scheduled lecture hours and hadn't actually been cold-tested by him yet (STQ03's "18/20" in memory was Crow's own worked answers, not his). Switched format mid-stream to guided walkthrough (his answer + reasoning first, Crow corrects) rather than blind cold-test, since he has zero prior exposure to the material — reasonable given the full-self-study status.
+- 📘 **Built + published a plain-English glossary** into "Obrom's Playbook" (`#glossary3`) — EPS/BVPS/P-E/M-B/ROE/ROA/current/quick/TIE/debt ratio/D-E/EM/BEP/margins/TAT one-liners + the two linking identities, first thing in Topic 3, nav entry added.
+- **Q1–3 done correctly**, stopped mid-Q4. Resuming this evening back in Bangkok — his own stated goal for tonight: study FN201 to be group-assignment-ready.
 
 ## Session — 2026-09-05
 - 😞 **Slept through the Saturday long run** (woke, fell back asleep), **walked instead**, opened the session feeling bad about it — *"feel quite shitty about it so i just went on a walk"*.
