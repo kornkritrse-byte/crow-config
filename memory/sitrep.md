@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-07T13:07:14.168Z
+  modified: 2026-09-07T13:09:24.866Z
 ---
 
 # Situation Report
@@ -47,7 +47,8 @@ metadata:
 - **Still open, but NOT to be re-asked cold — raise only when the subject comes up:**
   - AC313: exam format + mark split, whether a formula sheet is given, confirmed exam date (**outline says TBA**; 22 Sep is timetable-only). **Session 7 = joint products, 14 Sep** — if she works board examples there the doc needs a second pass.
   - The BA202 cold-question numbers he missed (asked twice on 2 Sep, never sent).
-  - AC311, unanswered since 31 Aug, **third carry**: the MCQ/entry **mark split**, and deck slide 9's two valid "not inventory" answers (cranes vs office software) — which does Ajarn Pailin hold?
+  - ✅ **AC311 mark split — ANSWERED 7 Sep, stop asking.** There is no published split: *"the prof kinda makes it up on the fly depending on the students performace."* **Working assumption he set: 65 written / 35 MCQ.** His call, stated plainly: *"i wanna get my entries straight that for sure is going to matter"* → **journal entries are the priority for AC311 revision.**
+  - AC311 still open: deck slide 9's two valid "not inventory" answers (cranes vs office software) — which does Ajarn Pailin hold? (Related principle now available from Ch.4 Problem 6 key: office supplies = NOT inventory, manufacturing supplies = IS inventory — consumed in admin vs consumed in production.)
 - ✅ **adidas report CLOSED** — a class example, not graded work. Don't raise it.
 - **Race loose ends (not urgent, 14 weeks out):** venue unknown, and whether bib pickup is race-morning or in advance — his dad likely has the confirmation.
 - 🧭 **BBA camp: no announcement date exists** — they take their time. Closed until they speak; don't ask again.
