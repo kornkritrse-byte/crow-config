@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-07T09:49:36.480Z
+  modified: 2026-09-07T10:00:15.853Z
 ---
 
 # Situation Report
@@ -27,7 +27,7 @@ metadata:
 
 ## 🚪 Current status
 - **Here (7 Sep, afternoon) — in AC313 class, group meeting straight after.**
-- 🟢 **FN201 GROUP PROJECT — Excel deliverable BUILT 7 Sep, ready for the meeting.** File: `~/Desktop/fn/FN201-EFORL-Data.xlsx`. Covers guideline steps (3)–(7): IS + BS for 2021–2025, both common-sized statements, YoY growth, all 21 ratios, Du Pont. Company = **E for L Aim PCL (EFORL)**; source XLSXs live in `~/Desktop/fn group/` (5 SET filings), outline PDF in `~/Desktop/fn/`. Restatement rule (guideline item 13) followed: each year pulled from the FOLLOWING year's report. All subtotals + the A=L+E identity reconcile to the company's own reported figures for all 5 years. ⚠️ **Two things still on the group, not on Crow:** (a) the yellow `Inputs` cells — year-end closing share price and DPS from SET, needed for ratios 19–21; (b) the 13-page written report (guideline step 8), which is the other half of the 15%. **Due Wed 16 Sep, 13:00** — he is in **section 0264/01** (confirmed 7 Sep).
+- 🟢 **FN201 GROUP PROJECT — Excel deliverable BUILT 7 Sep, ready for the meeting.** File: `~/Desktop/fn/FN201-EFORL-Data.xlsx`. Covers guideline steps (3)–(7): IS + BS for 2021–2025 with the common-size % **side by side next to each year's amounts**, plus key-accounts-only CS summary sheets for report pages 3–4, YoY growth, all 21 ratios, Du Pont. Layout deliberately mirrors **`~/Desktop/fn/FN201-Cashmeifyoucan-TKN-Data.xlsx`** — a PAST group's graded project on TKN that Korn has as an exemplar (its Analysis PDF sits beside it; useful model for the 13-page report too). Company = **E for L Aim PCL (EFORL)**; source XLSXs live in `~/Desktop/fn group/` (5 SET filings), outline PDF in `~/Desktop/fn/`. Restatement rule (guideline item 13) followed: each year pulled from the FOLLOWING year's report. All subtotals + the A=L+E identity reconcile to the company's own reported figures for all 5 years. ⚠️ **Two things still on the group, not on Crow:** (a) the yellow `Inputs` cells — year-end closing share price and DPS from SET, needed for ratios 19–21; (b) the 13-page written report (guideline step 8), which is the other half of the 15%. **Due Wed 16 Sep, 13:00** — he is in **section 0264/01** (confirmed 7 Sep).
 - 📌 **STILL OPEN — resume here:** STQ03 (FN201 Topic 3, Analysis of Financial Reports) walkthrough, guided format (he answers + reasons, Crow corrects — his call, since this topic has ZERO lecture hours so true cold-testing isn't meaningful yet). **Q1–3 done correctly** (Q1 needed the M/B = P/E × ROE identity walked through; Q2 debt-ratio backsolve, self-corrected after one wrong division; Q3 clean). **Stopped mid-Q4** (which-statement-is-most-correct, P/E-ROE-M/B relationships) — pick up there.
 - 📌 **QUEUED FOR NEXT AC313 SESSION (his ask, do this first, before anything else):**
   1. Re-explain **actual vs normal (predetermined-rate) costing** — which rate is calculated before the period vs after, and why normal/POHR is the default assumption unless a question names "actual costing" explicitly.
