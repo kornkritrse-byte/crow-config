@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-07T13:09:24.866Z
+  modified: 2026-09-07T13:12:33.572Z
 ---
 
 # Situation Report
@@ -33,6 +33,7 @@ metadata:
   - 🔴 **THE PATTERN, LIVE AND NAMED:** he typed the correct recognition principle to me unprompted that morning ("if it's not happening now and will be dealt with in the future it won't be an obligation") and then failed the textbook case of it ~90 min later. **Same recognition-not-recall failure as STQ01 Q17→Q18 on 4 Sep — twice in two weeks, two different subjects. It is not an AC311 problem, it is an encoding problem.** Told him so plainly.
   - **Round 2 retest: A ✅, B ✅ answer but "not clear on the reason", C ✅✅ — he fixed BOTH Q3 errors on first retry.** Then got the airline case (accident 25 Nov 20x1, sued 11 Jan 20x2) right off the obligating-event logic.
   - 🧠 **Handles given him — reuse this exact wording, it landed:** the avoidability test **"Can I escape this cost by acting differently in the future? Yes → no provision. No → provision."** (sell the machine = escapable; can't un-injure a worker = not escapable; even a LEGAL requirement to overhaul is still no provision because you could cease operating). And the one-liner: **"A past event has happened that you cannot now escape."**
+  - 📑 **DECKS (added 7 Sep, ~19:47):** `~/Desktop/AC311/03-AC 311-BBA- Provision.pdf` (46 pp, TAS/IAS 37 + IAS 10) and `~/Desktop/AC311/02-AC311-BBA-Inventories 2.pdf` (72 pp, updated/bigger than the OneDrive copy). **He is on page 24 of the Provision deck** (= the events-after-reporting-period timeline). Decks carry HIS handwritten in-class annotations. Un-covered half = measurement (slides 26–30) + contingent liabilities/assets (34–45).
   - ⏭️ **Next AC311 targets:** Ch.6 Problem 1 (notes payable — the zero-interest note w/ Discount on Notes Payable, and 9/12 interest accrual) and Ch.4 Problem 4 (the FOB/CIF/DDP/consignment cut-off grid, answer 94,050, NOI understated 31,000) — neither touched yet.
 - 📌 **STILL OPEN — resume here:** STQ03 (FN201 Topic 3, Analysis of Financial Reports) walkthrough, guided format (he answers + reasons, Crow corrects — his call, since this topic has ZERO lecture hours so true cold-testing isn't meaningful yet). **Q1–3 done correctly** (Q1 needed the M/B = P/E × ROE identity walked through; Q2 debt-ratio backsolve, self-corrected after one wrong division; Q3 clean). **Stopped mid-Q4** (which-statement-is-most-correct, P/E-ROE-M/B relationships) — pick up there.
 - 📌 **QUEUED FOR NEXT AC313 SESSION (his ask, do this first, before anything else):**
