@@ -10,6 +10,21 @@ metadata:
 
 # Sessions Log (archive)
 
+## Session — 2026-09-05  *(flushed from SITREP 7 Sep)*
+- Slept through the Saturday long run, walked instead, opened the session feeling bad — *"feel quite shitty about it so i just went on a walk"*. Called as the 4 Sep pattern repeating: prescribed + measurable swapped for self-directed + unmeasurable; the walk discharged the guilt, not the training. Bedtime theory dropped (slept 23:30 gaming with his cousin — not late).
+- He set the day himself: studying non-negotiable, run conditional at 19:00. Priority order correct; risk was the double conditional, so a pre-committed decision rule replaced a 19:00 judgement call.
+- **FCF drill scored 22/26** (missed C2, D1, D4, E3). D1/D4 self-corrected on reading answers; C2 + E3 both leaned on **WACC**, which he named as a real gap → built §05 WACC addendum (Tier F, 4 reps). AC313's doc added to the Term 2.1 hub with a two-way uplink.
+- **AC313:** read-through + 6-question mixed costing drill (POHR timing, spoilage/rework, joint-cost split-off timing) — 3/6 clean, 1 half, 2 real misses, both procedure/definition not concept. His verdict: *"not a bad session today."*
+- Evening pop-in: cold-quizzed on the AC313 doc's 9-entry ABC Corp journal sequence — direct/indirect account-routing confusion surfaced (detail carried forward in the SITREP AC313 queue at his explicit ask).
+
+## Session — 2026-09-04  *(flushed from SITREP 7 Sep)*
+- He asked for a mirror — *"i just wanted to see you reflect on how ive been these last few days"* — and took the read without defending it. The read: not idle, **busy in the wrong shape** — across study, reporting and fitness he picks the generative/self-directed version over the prescribed/measurable one. Narrative + the Siddhartha conversation → [[chapters]] Ch. 7.
+- **Committed to tracking every exercise set — and delivered the same day.** STQ01 + STQ02 cold in ~30 min: **53/60 (88%)**, first measured result in two weeks.
+- 🔴 **5 of his 7 misses were ONE topic — free cash flow** (Q16, Q20, Q8, Q23, Q26). Not scatter.
+- 🎯 **Recognition-not-recall proved in his own data:** learned STQ01 Q17 on 31 Aug, got it right 4 Sep, then **missed Q18 — the sibling with the identical principle.** He kept the answer, not the principle. (Recurred 7 Sep in AC311 — see [[feedback-drill-format]].)
+- Built + published **"After the Business Eats"** — 26-mark FCF drill, 5 tiers, answers behind `<details>`, Tier D polarity-flipped → [[reference-artifacts]]. Offline copy `~/Desktop/fn/fcf-drill.html`.
+- Left for Pattaya (~4–6 Sep), framed as a retreat. Run record corrected: he ran 30 Aug, so **one run in 8 days**, not zero.
+
 ## 2026-09-04 — the mirror, and the FCF finding
 - 🪞 **He asked for a mirror** — *"i just wanted to see you reflect on how ive been these last few days"* — and took the read without defending it: not idle, but **busy in the wrong shape** — across study, reporting and fitness he keeps picking the generative/self-directed version of work over the prescribed/measurable one. Full narrative → [[chapters]] Ch. 7.
 - ✅ **Committed to tracking every exercise set, delivered same day:** STQ01 + STQ02 cold in ~30 min, **53/60 (88%)** — first measured result in two weeks.

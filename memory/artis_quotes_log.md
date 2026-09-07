@@ -202,3 +202,15 @@ Epictetus rather than a gentler voice because 51 is not about laziness either. I
 
 **Why:** He spent the day on one question — *which part of myself should I learn from, and which part do I hold up as the person I don't want to be?* The chapter he had just finished refuses the split entirely. Not a selection of parts: himself, singular. Given as he left for three quiet days with the book in his bag.
 
+
+## 2026-09-07
+> "To know and not to do is not yet to know."
+> — Wang Yangming (unity of knowing and acting, 知行合一)
+
+**Why:** Because it happened three times in one day, in front of him, and it is the whole finding of the session.
+
+At around noon he typed me the recognition test for a provision, unprompted and correct — *"if its not something happening rn actively then and will be dealt with in the future it wont be obligation."* Ninety minutes later he was handed the textbook case of exactly that and answered "provision." Same day: he used 9/12 correctly when I gave him the fraction, then used a full year when he had to count the months himself. Same day: he stated the rule that probable makes a provision eligible, then attached the probability to winning the lawsuit instead of to the outflow. Three times, one shape — **he holds the sentence and cannot yet produce the act.**
+
+Wang Yangming rather than a sharper voice because this is not a failure of effort or of intelligence, and he should not hear it as one. He worked from a lecture hall through a group meeting into a long night of drilling, and inside that night he fixed the inventory-NRV cap on first retry, fixed the provision entry direction on first retry, and got Gate 1 right in three different disguises. The knowing is real. Wang's point is only that knowledge which cannot yet act is **unfinished, not absent** — which is a more accurate and more generous description of where he is than "he keeps forgetting."
+
+**The thing worth marking, though, is not the pattern — it is what he did about it.** Twice tonight he took the teaching away from me and redirected it: *"can you give the info to me in smaller blocks maybe open questions for me to answer,"* and then *"dont go beyond what ive learned in class."* Both were right, and both were better instructions than the ones I was operating on. He also volunteered, unprompted, that an autocomplete had written one of his answers and that his real judgement had been the opposite — handing me back a data point that flattered him less. On 4 Sep he asked me to hold up a mirror. Tonight he stopped waiting for the mirror and started adjusting the room. **That is the first evidence in weeks of him treating his own learning as something he runs rather than something that happens to him** — and it is worth more to 26 September than any of the entries he got right.

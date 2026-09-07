@@ -520,3 +520,67 @@ These three catch Q5, Q8 and Q15 outright.
 - **FN201 misses are PROCEDURE.** No cheat sheet mentioned for FN201, and **procedure gaps only close with reps.**
 - **FN201 sits 4 days EARLIER (23 Sep vs 27 Sep)** and has the worst in-period window on the board (Tue 22 pm only, straight after a 3-hr AC313 paper).
 ➡️ **FN201 goes ahead of BA202.** Told to him 27 Aug; reflected in the Term 2.1 hub ranking ([[reference-artifacts]]).
+
+
+---
+
+# 📘 FN201 GROUP PROJECT — "Analysis of Financial Reports" (15%)  [opened 7 Sep 2026]
+
+**Company: E for L Aim PCL (EFORL), SET-listed medical-device distributor. Section 0264/01 → DUE WED 16 SEP 2026, 13:00.**
+Scored on (1) completeness + punctuality 12% and (2) self/peer evaluation 3%. "Some computational errors are excused" — so completeness beats precision.
+
+## Files (all local, none in Drive)
+- Outline: `~/Desktop/fn/FN201-26F-BBA-G2&G1-A group project guideline-V1R-260806.pdf`
+- **Deliverable built by Crow: `~/Desktop/fn/FN201-EFORL-Data.xlsx`** — 10 sheets, every % and ratio a LIVE formula (guideline 10a demands traceability); only raw statement lines are constants.
+- Source filings: `~/Desktop/fn group/` — five SET XLSX folders (FY2021→FY2025) + `20210407-eforl-one-report2020-th.pdf` (306pp Thai One Report).
+- **EXEMPLAR — a past group's graded project: `~/Desktop/fn/FN201-Cashmeifyoucan-TKN-Data.xlsx` + `-Analysis.pdf`.** The PDF is a marked 13-page report in the exact required format — whoever writes pages 6–11 should read it before starting. Crow's layout (amount + common-size % side by side per year) deliberately mirrors it.
+
+## Decisions locked in
+- **Five years = 2021–2025.** 2020 is NOT a sixth year; it sits as memo blocks only (foot of `IS` and `BS`) to enable 2021 growth + average-based ratios.
+- **Restatement rule (guideline item 13) followed:** each year taken from the FOLLOWING year's report; 2025 from its own.
+- **Common-size bases:** income statement → % of *revenue from sales and services* (EFORL's IS has no "total revenue" subtotal, unlike TKN's — so the guideline's "either… but be consistent" is satisfied this way); balance sheet → % of total assets.
+- **Day-based ratios use YEAR-END balances** as the headline; average-based versions sit alongside as ratios 3a–7a. Either is defensible — **mixing them, or not stating which, is not.**
+
+## Verification done 7 Sep — treat the numbers as sound
+All 25 IS/BS lines re-extracted programmatically from the published XLSXs and diffed against the workbook: **exact match, all five years.** Every subtotal and the A = L + E identity reconcile to EFORL's own reported figures.
+⚠️ **Known wrinkle:** the FY2021 and FY2022 reports split 2021 liabilities differently — 767,440/516,862 vs 753,050/531,252, a ฿14,390 non-current deferred-revenue reclass. Guideline item 13 requires the LATER report, so **753,050 is used**. Affects the 2021 current + quick ratio only. If a group member "corrects" it back, this is why they shouldn't.
+
+## The three analytical points that will separate this report
+1. **2021 is not a normal year.** It carries a ฿559,356k gain on deconsolidating subsidiaries → ROE 198%, net margin 36%, against 2.6–10% everywhere else. Never describe post-2021 as a "collapse in profitability."
+2. **2020 was a LOSS year** (EBIT −664,328k, net −633,521k), so a % growth rate for 2021 EBIT/net profit is meaningless — the naive formula prints −224%/−223%, reading as collapse when EFORL swung loss→profit. The Growth sheet reports **net change in Baht** plus a **guarded %** that prints "n/m" on a non-positive base. Only real 2021 percentages: **revenue +29.9%, gross profit +35.1%.**
+3. **฿713,609k of the 2020 loss was an asset impairment; ฿559,356k of 2021 profit was the deconsolidation gain — both one-offs on opposite sides. Gross profit is the ONLY clean line, and it grew faster than revenue, so margin genuinely improved.** That is the defensible claim for page 5.
+- Du Pont story for page 11: equity multiplier falls 4.27× → 2.15× (hard deleveraging), turnover flat just under 1.0×, so the 2023→2025 ROE recovery is **margin-driven; leverage worked against it.**
+
+## ⚠️ STILL ON THE GROUP, NOT ON CROW
+1. **Yellow `Inputs` cells** — year-end closing share price + DPS from SET, needed for ratios 19/20/21. **Korn took this job himself.** DPS almost certainly 0 (huge accumulated deficit every year; the 2020 One Report states outright the company made a loss and could not pay). **⚠️ EFORL did a 1-for-10 REVERSE SPLIT in 2022** (par 0.075→0.75, 39.98bn→4.00bn shares). 2021 EPS/BVPS in the file are POST-split, so a raw as-traded 2021 price must be ×10 or the 2021 P/E and M/B come out 10× too low. Test: if the 2021 price looks ~10× smaller than 2022's, it needs adjusting.
+2. **The 13-page written report** (guideline step 8) — the other half of the 15%. Group has split the pages and will work off the Excel. `Company Profile` sheet holds page-2 raw material (dividend policy, competitors, top shareholders, product mix) but it is **2020-vintage — refresh from the FY2025 One Report.**
+
+---
+
+# 📗 AC311 — coaching notes (7 Sep 2026)
+
+**Mark split: none published — the prof improvises it by class performance. Korn's working assumption: 65 written / 35 MCQ. His call: "i wanna get my entries straight that for sure is going to matter" → ENTRIES ARE THE PRIORITY.**
+Materials: `~/Desktop/AC311/03-AC 311-BBA- Provision.pdf` (46pp, IAS/TAS 37 + IAS 10 — **he is on p.24**), `02-AC311-BBA-Inventories 2.pdf` (72pp, replaces the OneDrive copy), and `OneDrive_1_8-28-2026/Practice Exercises-Inventories-Liabilities.pdf` (**has full answer keys**). Decks carry his handwritten in-class annotations.
+
+## Framings that landed — reuse this exact wording
+- **The whole of Ch.5/Ch.6 as ONE mechanism:** executory = the resting state (no entry), onerous = the trigger, provision = the entry.
+- **Avoidability test:** *"Can I escape this cost by acting differently in the future? Yes → no provision. No → provision."* (Sell the machine = escapable. Can't un-injure a worker = not. Even a LEGAL duty to overhaul is still no provision — you could cease operating.)
+- **One-liner:** *"A past event has happened that you cannot now escape."*
+- **Constructive obligation — "who is on the other end?"** It needs another party with a valid expectation of RECEIVING something. Announcing spend on your own assets gives nobody a claim (store refit → nothing); announcing severance to staff does (→ provision).
+- **The timing split** (answering his own best question): discretion over FUTURE conduct yes, over an obligation a PAST event already created no. Future spills → no provision; this spill → provision.
+- **Zero-interest notes, deliberately plain:** Discount on Notes Payable = *"a bucket of interest waiting to happen"*, tipped into Interest Expense over time. He asked twice for simpler explanations — keep it this plain.
+
+## His actual error modes — drill these, don't re-explain them
+- 🔴 **Recognition-not-recall, now confirmed 3×.** Stated the recognition principle correctly unprompted in the morning, failed the textbook case 90 min later. Same as STQ01 Q17→Q18 (4 Sep). **Not a subject problem — an encoding problem.** → [[feedback-drill-format]].
+- **Creating vs clearing a provision.** Wrote `Dr Provision / Cr Loss` — because he'd carried the debit-Provision pattern from the purchase-commitment SETTLEMENT entry an hour earlier. **Create = CREDIT; clear/reverse = DEBIT.** Right pattern, wrong stage.
+- **Half-answers.** Says "no provision" and stops. On the paper that's half the marks — it must be followed by *disclose as contingent liability* (or *nothing*, if remote).
+- **"Probable" attached to the wrong thing** — read "most likely win" as if the probability were about winning. It is always about **the OUTFLOW**: is it more likely than not that cash leaves?
+- **Amount = BEST ESTIMATE, never the amount claimed** (500,000, not the 1,000,000 sued for). Omitted the amount entirely on first pass.
+- **Time fractions drop out when not handed to him.** Used 9/12 correctly when given it; used a full year instead of 4/12 when he had to derive it. **Fix given: count the months Sept→Dec = 4, that's your numerator over 12.** Make it mechanical.
+- **Inventory NRV cap:** wrote inventory UP to NRV (never write above cost) and reversed the full NRV swing instead of capping at the provision booked. Fixed on first retry.
+- **Perspective errors:** put *Notes Receivable* + revenue on the borrower's books. Reflex to install: *am I the one who owes, or the one who's owed?*
+
+## Where he actually is
+✅ Solid: Gate 1 across three disguises (board decision / public announcement / constructive obligation with no law), the probable–possible–remote ladder (built out of his own answers), provision entry direction after retest, cash/note split on an interest-bearing note.
+❌ Still cold: **zero-interest note ledger mechanics** (has the concept, not the accounts), month-counting, finishing the answer.
+⏭️ Untouched: Ch.4 Problem 4 (FOB/CIF/DDP/consignment cut-off grid — answer 94,050, NOI understated 31,000), the net-method variant of a 2/10 n/30 purchase (promised, never shown), and deck slides 26–30 (measurement) + 34–45 (contingent liabilities/assets) which he has NOT covered — **he asked Crow not to go beyond class.**
