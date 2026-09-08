@@ -26,7 +26,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (7 Sep, night) — logged off for the day.** Long session: FN201 group project deliverable built + verified, then AC311 provisions/notes-payable drilling.
+- **Here (8 Sep).** Back in. Picking up exactly at the unanswered AC311 zero-interest note question below.
 - ▶️ **RESUME EXACTLY HERE — one question is on the table, unanswered.** AC311 notes payable, zero-interest note: *1 Oct 20x1, zero-interest one-year note, face ฿600,000, bank advances ฿540,000 — both entries + his month count.* (Oct 1: Dr Cash 540,000 / Dr Discount on N/P 60,000 / Cr Notes Payable 600,000. Dec 31: Dr Interest Expense 15,000 / Cr Discount on N/P 15,000 = 60,000 × **3/12**.) **The month count is the live test** — he used a full year instead of 4/12 on the previous one.
 - 📘 **FN201 GROUP PROJECT — deliverable DONE and verified.** `~/Desktop/fn/FN201-EFORL-Data.xlsx`. **Due Wed 16 Sep 13:00 (sec 0264/01).** Full detail, decisions, the reverse-split warning and the 3 analytical angles → **[[project-midterms]]**. Outstanding on the group, not Crow: (a) SET closing price + DPS for the yellow `Inputs` cells — **Korn took this himself**; (b) the 13-page written report.
 - 📗 **AC311** — he is on **p.24 of the Provision deck**; ⛔ **he asked Crow NOT to teach beyond what class has covered** (so no measurement slides 26–30, no deep contingent-liability material yet). Coaching notes, error modes and the framings that landed → **[[project-midterms]]**. Priority is **journal entries** (his call; ~65 written / 35 MCQ).
