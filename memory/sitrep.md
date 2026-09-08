@@ -26,7 +26,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (8 Sep).** Back in. Picking up exactly at the unanswered AC311 zero-interest note question below.
+- **AWAY (8 Sep, ~10:00) — in MK201 class.** Heading to **Samyan after class for a long study session.**
+- ▶️ **RESUME EXACTLY HERE:** FN201 **Individual Assignment #2**, due tomorrow Wed 9 Sep 13:00. Drill was one question in — *what discount rate per period, and why* (answer: 6%, because 12%/yr compounded semi-annually and one table period = six months). Continue from that question, drill format, do not hand him the answer.
 - ✅ **AC311 zero-interest note — ANSWERED CORRECTLY 8 Sep, both entries + the 3/12 month count.** He needed one nudge on which number sits on Notes Payable (face, not proceeds), then got Oct 1 and Dec 31 clean and showed the fraction unprompted. **The month-count error mode from 7 Sep did NOT repeat.** Now drilling forward from here: carrying value / contra-account presentation.
 - 🚨 **FN201 INDIVIDUAL ASSIGNMENT #2 — DUE WED 9 SEP 13:00 (sec 0264/01). TOMORROW.** `~/Desktop/fn/FN201-26F-BBA-A2-CLO2-S6-V1-260902.pdf`. 10 pts = 1%. TVM: value "Omega" vs a THB 33,000 offer. r = 12%/yr comp. semi-annually = **6% per period**; uneven CFs t=2..9 + a **growing perpetuity from t=10** (CF9 = 800, grows 2%/period forever). Submit a PDF named `FN201-A2-<StudentID>` via MS Teams. Crow's own worked value ≈ **32,883** → sell. **Do NOT hand him the number — drill him to it.**
 - 🔄 **Input cells DELEGATED 8 Sep** — he handed the SET price/DPS job to a teammate. ⚠️ The 1-for-10 2022 reverse-split warning must go WITH the handoff or the teammate types a raw 2021 price and 2021 P/E and M/B silently come out 10× low.
