@@ -184,6 +184,18 @@ metadata:
 
 **The counterweight, so this isn't a pat on the head:** he tested on Obrom's set — the one with the official key — not on the 220KB of drills he had built across three days. The easier instrument, the one that grades him. And the drill codes from 30 Aug still haven't been reported, partly because I didn't ask. Knowing where the boundary is only pays if you go stand on it.
 
+## 2026-09-08
+> "For the things we have to learn before we can do them, we learn by doing them."
+> — Aristotle, *Nicomachean Ethics*, Book II
+
+**Why:** Twice tonight he refused to be shown something. On FN201 he interrupted a fully worked parallel example — the thing he'd just asked for — and said no: *"lead me to each step... dont just give me fish teach me how to do it."* Later, mid-AC313, he cut off the answer key entirely: *"stop giving me the predicted answers."* Both times he was choosing the harder path on purpose, in real time, while tired — not once did he take the version that would have let him nod along.
+
+And it worked exactly the way Aristotle says it does. He didn't just retain the rule that normal-and-job-specific spoilage stays inside a job's WIP while normal-and-common-to-all-jobs runs through Manufacturing Overhead — three questions later, with zero prompting, he applied that exact rule to *rework*, a case I hadn't told him shared the shape. That's not recall. That's the muscle Wang Yangming's line from 7 Sep says he was missing — knowing that can act. One session later, it acted on its own.
+
+The other thread worth marking: he asked, mid-drill, what a discounted number actually *is* — not performing confusion, genuinely not having the picture. And near midnight he asked me for the honest read of his day, no cushion. Both are the same instinct as the fish line: he would rather have the real, uncomfortable thing than the comfortable version of it. Today that instinct also caught him once before it cost him — a 21km run tomorrow, cold, on an old ankle injury, invented purely because the afternoon had no shape. He named it himself before I finished the sentence.
+
+Aristotle over a softer line because tonight didn't need comfort. It needed the honest mechanism: the building came from the building, not from watching someone else build.
+
 ## 2026-09-02 — Epictetus, *Enchiridion* 51
 > *Εἰς ποῖον οὖν ἔτι χρόνον ἀναβάλλεις τὸ τῶν βελτίστων ἀξιοῦν σεαυτόν;*
 > "How long will you wait before you demand the best of yourself? … You are no longer a boy but a full-grown man. If you are careless and lazy now, and keep putting things off, and always fix one day after another as the day you will begin to attend to yourself — you will not notice that you are making no progress."

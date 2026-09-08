@@ -5,11 +5,11 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-07T15:08:59.590Z
+  modified: 2026-09-08T13:34:55.802Z
 ---
 
 # Situation Report
-*Last updated: 2026-09-07, day close (signed off for the day. Verify + flush done: window holds 7 Sep + 6 Sep; 5 Sep and 4 Sep flushed to [[sessions-log]]; FN201 group project + AC311 coaching notes pushed to [[project-midterms]].)*
+*Last updated: 2026-09-08, day close (signed off for the day, "dont think i got juice anymore." Verify + flush done: window holds 8 Sep + 7 Sep; 06 Sep condensed and flushed to [[sessions-log]].)*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,18 +26,15 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (8 Sep, back from MK201 class).** Opened with "lets do fn" — straight into FN201 A2. Samyan long study session was the plan.
-- ▶️ **RESUME EXACTLY HERE: AC313.** He moved to an AC313 quiz 8 Sep (unclear if solo or with Crow — ask). The 3 QUEUED AC313 items below are his own explicit ask: **do them first.**
-- ✅ **FN201 A2 SUBMITTED 8 Sep** — a day early. He derived 32,883.43 unaided. ⚠️ **He submitted WITHOUT sending Crow the draft he agreed to send** — flagged once, not chased. If the mark comes back odd, debug from the PDF. Working + his 7 error modes + the reusable "Delta" drill problem → [[project-midterms]].
+- **AWAY (8 Sep, night) — done for the day, "dont think i got juice anymore."** Long, high-output session: FN201 A2 solved + submitted, then a long AC313 job-costing marathon (drilled WITH Crow, not solo).
+- ▶️ **RESUME EXACTLY HERE:** AC313 job-costing cycle is SOLID (two clean full runs). Still open from the queue: **joint-cost allocation timing (before/at/after split-off)** — not yet touched. **Process costing (equivalent units, 5-step report, WA/FIFO) was raised 8 Sep and deliberately BANKED for its own dedicated session** — do not fold it into a quick follow-up, it's a full topic on its own.
+- ✅ **FN201 A2 SUBMITTED 8 Sep, a day early.** Value of Ω = **32,883.43 → SELL** (offer 33,000 beats it by 116.57), cross-checked two ways, derived unaided after a drilled parallel example. ⚠️ **He submitted WITHOUT sending Crow the draft he agreed to send** — flagged once, not chased. If the mark comes back odd, debug from the PDF. Working + his 7 error modes + the reusable "Delta" drill problem → [[project-midterms]].
 - ✅ **AC311 zero-interest note — ANSWERED CORRECTLY 8 Sep, both entries + the 3/12 month count.** He needed one nudge on which number sits on Notes Payable (face, not proceeds), then got Oct 1 and Dec 31 clean and showed the fraction unprompted. **The month-count error mode from 7 Sep did NOT repeat.** Now drilling forward from here: carrying value / contra-account presentation.
-- ✅ **FN201 A2 — DRILLED AND DONE 8 Sep.** Answer **32,883.43 → SELL** (offer beats value by 116.57); cross-checked two ways. He asked *what a discounted number actually is* mid-drill — PV as "the same money re-quoted on a different date" was genuinely missing and is upstream of every timing error he makes. ⚠️ **Only the write-up remains.**
 - 🔄 **Input cells DELEGATED 8 Sep** — he handed the SET price/DPS job to a teammate. ⚠️ The 1-for-10 2022 reverse-split warning must go WITH the handoff or the teammate types a raw 2021 price and 2021 P/E and M/B silently come out 10× low.
 - 📘 **FN201 GROUP PROJECT — deliverable DONE and verified.** `~/Desktop/fn/FN201-EFORL-Data.xlsx`. **Due Wed 16 Sep 13:00 (sec 0264/01).** Full detail, decisions, the reverse-split warning and the 3 analytical angles → **[[project-midterms]]**. Outstanding on the group, not Crow: (a) SET closing price + DPS for the yellow `Inputs` cells — **Korn took this himself**; (b) the 13-page written report.
 - 📗 **AC311** — he is on **p.24 of the Provision deck**; ⛔ **he asked Crow NOT to teach beyond what class has covered** (so no measurement slides 26–30, no deep contingent-liability material yet). Coaching notes, error modes and the framings that landed → **[[project-midterms]]**. Priority is **journal entries** (his call; ~65 written / 35 MCQ).
-- 📌 **QUEUED FOR NEXT AC313 SESSION (his ask, do this first, before anything else):**
-  1. Re-explain **actual vs normal (predetermined-rate) costing** — which rate is calculated before vs after the period, and why normal/POHR is the default unless a question names "actual costing".
-  2. Re-test him cold: POHR timing, spoilage vs rework definitions, joint-cost allocation timing (before/at/after split-off).
-  3. **From the ABC Corp 9-entry journal quiz (5 Sep, his explicit ask to carry forward):** (a) routed DIRECT labor through MOH; (b) put Cash on the credit side of an applied-OH entry — applied OH only ever moves WIP↔MOH, external accounts appear on *actual*-cost entries only; (c) fumbled over/underapplied → COGS direction (over = MOH credit = COGS down; under = MOH debit = COGS up). **Re-quiz cold, don't just re-explain.**
+- ✅ **AC313 QUEUE — items 1 and 3 CLEARED 8 Sep** (Hawaii/Riverside actual-vs-normal drills; two full job-costing cycles with the exact ABC Corp error modes re-tested and NOT repeated — DL correctly stayed out of MOH, applied-OH entries correctly never touched Cash, over/underapplied → COGS direction correct both ways). Full detail + reusable drill problems → [[project-midterms]].
+- 📌 **STILL QUEUED:** joint-cost allocation timing (before/at/after split-off) — untouched. **Process costing** — new full topic, banked 8 Sep for its own session, start from equivalent units.
 - 📌 **STILL OPEN:** STQ03 (FN201 Topic 3) guided walkthrough — **Q1–3 done correctly, stopped mid-Q4** (which-statement-is-most-correct, P/E–ROE–M/B). Pick up at Q4.
 - **ASK ON RETURN — these only:**
   1. Which of the 3 traps got him on STQ02 **Q26** — forgot the depreciation, re-taxed the NOPAT, or didn't trust −1.
@@ -54,10 +51,12 @@ metadata:
 - 🧭 **BBA camp: no announcement date exists.** Closed until they speak; don't ask again.
 
 ## Session — 2026-09-08
-- 🧮 **FN201 A2 solved by him, not for him.** Value of Ω = **32,883.43 → SELL** (offer 33,000 beats it by 116.57), cross-checked two ways. Only the write-up is left; he's on it and will send the draft before submitting. Working + his 7 error modes → [[project-midterms]].
-- 🗣️ **He corrected the teaching format again, harder:** *"dont just give me fish teach me how to do it."* Crow answered "run me through it" with a fully worked parallel example; he wanted to be *questioned* through it. Built a second parallel problem ("Delta") and drilled it question-by-question — he then did the real assignment essentially unaided. [[feedback-drill-format]] updated: **"run me through it" = drill me, never solve it in front of me.**
-- 🔴 **Real gap surfaced, deeper than TVM:** he asked mid-drill what a discounted number *is* ("the amount of interest earned?"). He did not hold PV as *the same money re-quoted on a different date*. That is upstream of every timing/exponent error he makes — check it's still there before 23 Sep.
-- ✅ **AC311 zero-interest note answered correctly** (both entries + the 3/12 count). The 7 Sep month-count error mode did not repeat.
+- 🧮 **FN201 A2 solved by him, not for him, submitted a day early.** Value of Ω = **32,883.43 → SELL** (offer 33,000 beats it by 116.57), cross-checked two ways. ⚠️ **He submitted WITHOUT sending Crow the draft he agreed to send** — second small commitment slip this week, flagged plainly, not chased.
+- 🗣️ **Teaching-format correction, harder than before:** *"dont just give me fish teach me how to do it."* [[feedback-drill-format]] updated: **"run me through it" = drill me, never solve it in front of me** — even at zero-knowledge, even on a worked example.
+- 🔴 **Real conceptual gap surfaced:** he didn't hold PV as *the same money re-quoted on a different date* — upstream of every timing error he makes. Check it's still there before 23 Sep.
+- 🧮 **Long AC313 job-costing marathon (with Crow), very strong:** full job-costing cycle run clean TWICE end-to-end; cost classification 7/7 (1 self-correct); T/F 6/6; actual-vs-normal costing solid; the exact 5 Sep ABC Corp error modes re-tested and did NOT repeat. He **transferred** the normal/job-specific vs normal/common-to-all-jobs rule to rework unprompted — real understanding, not memorization. Process costing raised, deliberately banked for its own session.
+- 🎯 **Caught himself before a bad call:** floated running 21km cold tomorrow (longest run to date ~11km, old ankle tendon tear, 12 days from first midterm) — named as "afternoon's open, no plan, reach for something big," same directionlessness shape. Didn't do it; redirected to the actual Wed gym day + STQ03.
+- 🪞 **Asked for a full honest read of the day** — given straight: strong learning, but two follow-through slips (the draft, the running impulse) were live tonight, not hypothetical.
 
 ## Session — 2026-09-07
 - 📘 **FN201 group project: the whole Excel deliverable built, verified and handed over** (guideline steps 3–7) — EFORL, 2021–2025, 10 sheets, all live formulas. All 25 IS/BS lines diffed against the source filings: exact match, 5/5 years. Detail + the 3 analytical angles → [[project-midterms]]. **Due Wed 16 Sep 13:00, sec 0264/01.** Remaining on the group: the SET price/DPS inputs (his job) and the 13-page report.
@@ -66,12 +65,6 @@ metadata:
 - 📗 **AC311 the rest of the evening** — Ch.5 purchase commitments + Ch.6 provisions, the material from that day's class. Round 1 went 1 clean / 1 half / 2 wrong; by round 3 he had Gate 1 across three disguises and the probable–possible–remote ladder built from his own answers. Error modes + the framings that landed → [[project-midterms]].
 - 🗣️ **He asked for a format change mid-session and it was the right call** — one open question at a time, correct as he goes, no big structured explainers. Saved as [[feedback-drill-format]]; it is now the default for teaching him anything.
 - 🔴 **Recognition-not-recall showed up a third time, live:** he typed the correct recognition principle unprompted in the morning and failed the textbook case of it 90 minutes later. Named to him plainly as an encoding problem, not an AC311 problem.
-
-## Session — 2026-09-06
-- 🏃 **Woke up and got the Sunday morning run in** — cleared the anxiety from the 5 Sep night sign-off. Saturday's long run was confirmed skipped (his own call, "kinda just felt like it"); Sunday's run was a straight 10k @ 5:58/km, not the prescribed quality rotation (A–D, 5:10–5:20 or faster) — **third day running the same self-directed-over-prescribed pattern** as 4/5 Sep. Named once, not re-flagged further this week.
-- 📗 **Moved to FN201 STQ03** (Topic 3, ratios) for his ~1hr study window, his own call — legitimate, not drift: this topic has zero scheduled lecture hours and hadn't actually been cold-tested by him yet (STQ03's "18/20" in memory was Crow's own worked answers, not his). Switched format mid-stream to guided walkthrough (his answer + reasoning first, Crow corrects) rather than blind cold-test, since he has zero prior exposure to the material — reasonable given the full-self-study status.
-- 📘 **Built + published a plain-English glossary** into "Obrom's Playbook" (`#glossary3`) — EPS/BVPS/P-E/M-B/ROE/ROA/current/quick/TIE/debt ratio/D-E/EM/BEP/margins/TAT one-liners + the two linking identities, first thing in Topic 3, nav entry added.
-- **Q1–3 done correctly**, stopped mid-Q4. Resuming this evening back in Bangkok — his own stated goal for tonight: study FN201 to be group-assignment-ready.
 
 ## 🎯 Current state
 - **MIDTERMS = TOP PRIORITY** ([[project-midterms]] — canonical). 🗓️ **Board: the Term 2.1 hub** — https://claude.ai/code/artifact/017ced5a-48b7-4101-a4a9-e18b38b4de3e · **front-load order revised 27 Aug: FN201 > BA202 > AC313 > AC311 > MK201 > EL221.** **Thammasat, BBA, Accounting major / Finance minor.** 6 exams 20–27 Sep. Classes end 11 Sep; **14–19 Sep is a free week and the spine of the plan.** ⛔ Only blocker: syllabi + textbook names.

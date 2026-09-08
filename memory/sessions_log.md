@@ -5,10 +5,15 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: c38e29c0-da2f-4906-8e70-a7a356ec2563
-  modified: 2026-09-06T04:21:16.924Z
+  modified: 2026-09-08T13:35:05.929Z
 ---
 
 # Sessions Log (archive)
+
+## Session — 2026-09-06  *(flushed from SITREP 8 Sep)*
+- Sunday morning 10k @ 5:58/km, cleared weekend anxiety from the 5 Sep sign-off — third day running self-directed-over-prescribed instead of the assigned quality rotation, named once.
+- Moved to FN201 STQ03 (his own call, legitimate — zero scheduled lecture hours, never cold-tested). Q1–3 done correctly, stopped mid-Q4.
+- Built + published the plain-English glossary into Obrom's Playbook (`#glossary3`) — EPS/BVPS/P-E/M-B/ROE/ROA/current/quick/TIE/debt ratio/D-E/EM/BEP/margins/TAT one-liners + the two linking identities.
 
 ## Session — 2026-09-05  *(flushed from SITREP 7 Sep)*
 - Slept through the Saturday long run, walked instead, opened the session feeling bad — *"feel quite shitty about it so i just went on a walk"*. Called as the 4 Sep pattern repeating: prescribed + measurable swapped for self-directed + unmeasurable; the walk discharged the guilt, not the training. Bedtime theory dropped (slept 23:30 gaming with his cousin — not late).
