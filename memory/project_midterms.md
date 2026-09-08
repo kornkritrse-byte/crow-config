@@ -584,3 +584,38 @@ Materials: `~/Desktop/AC311/03-AC 311-BBA- Provision.pdf` (46pp, IAS/TAS 37 + IA
 ✅ Solid: Gate 1 across three disguises (board decision / public announcement / constructive obligation with no law), the probable–possible–remote ladder (built out of his own answers), provision entry direction after retest, cash/note split on an interest-bearing note.
 ❌ Still cold: **zero-interest note ledger mechanics** (has the concept, not the accounts), month-counting, finishing the answer.
 ⏭️ Untouched: Ch.4 Problem 4 (FOB/CIF/DDP/consignment cut-off grid — answer 94,050, NOI understated 31,000), the net-method variant of a 2/10 n/30 purchase (promised, never shown), and deck slides 26–30 (measurement) + 34–45 (contingent liabilities/assets) which he has NOT covered — **he asked Crow not to go beyond class.**
+
+## 🧮 FN201 INDIVIDUAL ASSIGNMENT #2 — WORKED WITH HIM 8 Sep 2026 (due Wed 9 Sep 13:00, sec 0264/01)
+
+Source: `~/Desktop/fn/FN201-26F-BBA-A2-CLO2-S6-V1-260902.pdf`. Value "Omega (Ω)" against a THB 33,000 offer. r = 12%/yr comp. semi-annually = **6% per period**; g = **2% per period** (already per-period — do NOT divide).
+
+**Verified answer — he derived every piece himself:**
+
+| Series | Working | PV at t=0 |
+|---|---|---|
+| Annuity 5,000 × 4, t=2–5 | 5,000 × PVIFA(6%,4)=3.4651 → **17,325.53 at t=1** → ÷1.06 | 16,344.84 |
+| Lump 6,000 at t=7 | ÷1.06⁷ | 3,990.34 |
+| Lump 800 at t=9 | ÷1.06⁹ | 473.52 |
+| Growing perpetuity t=10→∞ | CF₁₀ = 800×1.02 = 816; 816/0.04 = **20,400 at t=9** → ÷1.06⁹ | 12,074.73 |
+| | **Value of Ω** | **32,883.43** |
+
+→ **SELL.** Offer exceeds value by **THB 116.57**. Cross-check that agrees: treat 800 at t=9 as the first CF of one growing perpetuity → 800/0.04 = 20,000 at t=8 → ÷1.06⁸ = 12,548.25 = 473.52 + 12,074.73. ✅
+
+**Teaching parallels built for this (reusable):** "Sigma (Σ)" (r=8%, g=3%, answer 12,964.61, don't-sell) — burned as a full worked explainer, do not reuse as a drill. **"Delta (Δ)"** (r=10%, g=4%, CFs 1,000/1,000/0/2,500/0/600 then growth from t=7; value **9,652.28**, offer 9,900 → SELL) — drilled question-by-question, he got it.
+
+### The rule that unlocked it (his words back to him)
+**The perpetuity/annuity formula's answer always lands exactly one period BEFORE the first cash flow of the stream.** Derived from PV₀ = C₁/r (first payment t=1, value at t=0). The exponent you discount by is **the date the value sits on**, not the date of the first cash flow.
+
+### FN201 error modes seen live 8 Sep — re-drill these, don't re-explain
+1. **Fed a present value into the perpetuity formula as C** (used 473.52 instead of 816). C must be a *cash flow standing on a date*, never a PV.
+2. **Wrong C — took the preceding cash flow instead of the first of the stream** (600 not 624 in Delta; needed the same nudge twice).
+3. **Direction/magnitude of the walk:** multiplied instead of divided (10,400 × 1.1), then used the wrong power (t=6 value discounted by 7) — he anchored the exponent to the first CF's date instead of the value's own date.
+4. **Miscounted annuity payments** (5 instead of 4 for t=2–5).
+5. **Denominator slip:** 0.06 − 0.02 read as 0.02 → answer 2× too big.
+6. **"Why" sentences are under-specified** — omits the required rate ("PV of the cash flows" instead of "PV *at his required 12% p.a. comp. semi-annually*"), and says the *asset's* value rises instead of his *wealth*. Marks live in that sentence.
+7. Said "years" for six-month periods. Vocabulary discipline flagged — thinking in years is how 1.06⁴ becomes 1.06⁸.
+
+### Genuine conceptual gap he surfaced (worth remembering)
+He asked mid-drill **what a discounted number actually *is*** ("the amount of interest earned?"). He did not have PV as *the same money re-quoted on a different date*. Landed via 909.09 × 1.1 = 1,000 and the currency-conversion analogy ("909.09 t=0 baht = 1,000 t=1 baht"). This was upstream of every timing error above — check it's still there before the exam.
+
+**Deliverable:** PDF named `FN201-A2-<StudentID>`, MS Teams, Wed 9 Sep 13:00. He was told to show rate conversion, timeline, each series with **its date labelled**, total, and the why-sentence — and to send the draft to Crow before submitting.

@@ -21,3 +21,7 @@ Asked for explicitly on 2026-09-07 during AC311 provisions revision, immediately
 - Sibling cases are the point, not repetition — give a case with the same principle in different clothes to test transfer, since that is precisely where he fails.
 - Reference material can still be written up, but *after* the drill, as a record of what he worked out.
 - Consistent with [[user-korn]] (learns from examples over principles) and his CLAUDE.md ban on long sprawling tasks when solo.
+
+**Reinforced 2026-09-08 (FN201 A2), and this is the harder case:** Korn said *"no clue can you run me through it"* and then *"make like another example... then teach me to go step by step through it."* Crow read that as a request for a worked explainer and delivered a full solved parallel problem. He pushed back immediately: *"wait no i mean like lead me to each step. as in ask me questions one step at a time so i can try figure it out step by step no just feed me the whole thing. dont just give me fish teach me how to do it."*
+
+**So: "run me through it" is NOT a request for a solution.** It means *drill me through it*. Even at zero-knowledge, even when he says he has no clue, even on a worked example — ask, wait, correct. Build a fresh parallel problem and question him through it rather than solving one in front of him. A solved example gets read and forgotten; the version he answers his way through is the one that sticks (he solved the real assignment unaided straight after the drilled example).
