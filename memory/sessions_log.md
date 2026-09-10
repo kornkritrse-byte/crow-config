@@ -5,10 +5,16 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: c38e29c0-da2f-4906-8e70-a7a356ec2563
-  modified: 2026-09-08T13:35:05.929Z
+  modified: 2026-09-10T10:38:38.331Z
 ---
 
 # Sessions Log (archive)
+
+## Session — 2026-09-07  *(flushed from SITREP 10 Sep)*
+- FN201 group project (TKN → EFORL pivot): full Excel deliverable built, verified, handed over — 2021–2025, 10 sheets, all live formulas. All 25 IS/BS lines diffed against source filings, exact match 5/5 years. Rebuilt twice on his direction (common-size layout matching past group's graded exemplar, then folded in FY2020 for a Company Profile sheet + guarded growth %). Caught a real trap: 2020 was a loss year, so naive % growth printed −224% for 2021 EBIT — fixed by reporting net Baht change + a guarded % that shows "n/m" on a non-positive base.
+- AC311 Ch.5 purchase commitments + Ch.6 provisions drilling — by round 3 he had Gate 1 across three disguises and the probable–possible–remote ladder self-built.
+- He asked for a teaching-format change mid-session — one open question at a time, correct as he goes, no big upfront explainers — and it was the right call. Saved as [[feedback-drill-format]], now the default.
+- Recognition-not-recall showed up a third time live: typed the correct recognition principle unprompted in the morning, failed the textbook case of it 90 min later.
 
 ## Session — 2026-09-06  *(flushed from SITREP 8 Sep)*
 - Sunday morning 10k @ 5:58/km, cleared weekend anxiety from the 5 Sep sign-off — third day running self-directed-over-prescribed instead of the assigned quality rotation, named once.

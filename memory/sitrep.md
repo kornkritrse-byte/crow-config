@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-10T07:13:56.716Z
+  modified: 2026-09-10T10:39:20.547Z
 ---
 
 # Situation Report
@@ -26,9 +26,9 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (10 Sep, midday) — off to: lunch break.** Also changed VS Code theme mid-session: Catppuccin Mocha accent switched from mauve→peach (purple icons → orange) and editor/UI foreground forced to pure white via `workbench.colorCustomizations`; he hasn't confirmed the look landed yet (reload was manual, not verified by Crow — no Accessibility permission to drive VS Code).
-- **ASK ON RETURN:** does the white-text/orange-icon VS Code change look right, or does it need dialing back?
-- ▶️ **RESUME EXACTLY HERE — FN201 STQ03 Q7.** Q4–6 done: Q6 confirmed correct (D, market/book↔MVA relationship) with full reasoning talked through, incl. why E is wrong (sustained high EVA → market/book and MVA should be *above* average, not below). STQ04 (TVM) not started — that's the second half of today's ask.
+- **AWAY (10 Sep, afternoon) — off to: short break, said he'll be back.**
+- **ASK ON RETURN:** none — just resume where he left off (see below). VS Code theme thread is closed (he never confirmed the look, moved on unprompted — don't chase it).
+- ▶️ **RESUME EXACTLY HERE — FN201 STQ03 Q13, Round 1 of the 20-ratio Wayabutara Machines calc set** (current ratio + quick ratio, data in [[sitrep]] Session-2026-09-10 note above). Q7–Q12 all done correctly today. STQ04 (TVM) still not started.
 - ▶️ **PRIOR RESUME POINT (8 Sep, still queued behind today's FN201 work):** AC313 job-costing cycle is SOLID (two clean full runs). ✅ **10 Sep: he independently resolved entry ORDERING/sequencing** ("sorted out and better visualized how the entries fall in which order") — self-directed consolidation, not drilled with Crow. Still open from the queue: **joint-cost allocation timing (before/at/after split-off)** — not yet touched. **Process costing (equivalent units, 5-step report, WA/FIFO) was raised 8 Sep and deliberately BANKED for its own dedicated session** — do not fold it into a quick follow-up, it's a full topic on its own.
 - ✅ **FN201 A2 SUBMITTED 8 Sep, a day early.** Value of Ω = **32,883.43 → SELL** (offer 33,000 beats it by 116.57), cross-checked two ways, derived unaided after a drilled parallel example. ⚠️ **He submitted WITHOUT sending Crow the draft he agreed to send** — flagged once, not chased. If the mark comes back odd, debug from the PDF. Working + his 7 error modes + the reusable "Delta" drill problem → [[project-midterms]].
 - ✅ **AC311 zero-interest note — ANSWERED CORRECTLY 8 Sep, both entries + the 3/12 month count.** He needed one nudge on which number sits on Notes Payable (face, not proceeds), then got Oct 1 and Dec 31 clean and showed the fraction unprompted. **The month-count error mode from 7 Sep did NOT repeat.** Now drilling forward from here: carrying value / contra-account presentation.
@@ -52,6 +52,13 @@ metadata:
 - **Race loose ends (not urgent, 14 weeks out):** venue unknown, and whether bib pickup is race-morning or in advance — his dad likely has the confirmation.
 - 🧭 **BBA camp: no announcement date exists.** Closed until they speak; don't ask again.
 
+## Session — 2026-09-10 (running, not yet closed)
+- 🖥️ **VS Code theme change made** (Catppuccin Mocha accent mauve→peach, foreground forced pure white) — config file verified correct (`accentColor: peach`, `#FFFFFF` across the board), but he never confirmed the visual look after asking Crow to check; he moved on to schoolwork without answering. Not chased — don't re-ask, thread closed by his own redirect.
+- 🎯 **FN201 STQ03, resumed at Q7, worked straight through Q7–Q12, all correct with drilled support:** Q7=B (equity multiplier, via the ROE leverage-effect logic from Q6), Q8=C (33.33% debt ratio, retained-earnings-per-share → shares → equity → assets chain), Q9=B (12% ROA via ROE/EM), Q10=D (quick ratio — the "adding to a sub-1 ratio helps, subtracting hurts" mechanic, worked with concrete numbers), Q11 (full balance-sheet reconstruction — AR via operating cycle, CL via quick ratio, equity via EM, RE via dividend yield — every step landed once corrected), Q12 (350,000 max short-term notes increase; quick ratio 1.19X after).
+- 🔴 **Formula-recall gaps surfaced repeatedly today** — asked "what's a quick ratio," "where do I get the formula" for total asset turnover and quick ratio mid-problem, even after using the exact same formula minutes earlier. Same recognition-not-recall shape as before, now showing on basic ratio definitions, not just applied problems.
+- ⚠️ **Decimal/unit errors twice** — dividend yield 10.4% typed as 10.4 not 0.104 (DPS came out 1000× high before correction); self-caught the "notes payable ≠ inventory automatically" mistake in Q12(b) once flagged.
+- ▶️ **RESUME EXACTLY HERE — STQ03 Q13**, the 20-ratio calc set (Wayabutara Machines Inc.). Stopped mid Round 1 (current ratio + quick ratio) — he stepped away for a short break, said he'll be back. Q14–20 (incl. the big Q15 DuPont/RDI case with its known misses, and Q16–19) still untouched today.
+
 ## Session — 2026-09-08
 - 🧮 **FN201 A2 solved by him, not for him, submitted a day early.** Value of Ω = **32,883.43 → SELL** (offer 33,000 beats it by 116.57), cross-checked two ways. ⚠️ **He submitted WITHOUT sending Crow the draft he agreed to send** — second small commitment slip this week, flagged plainly, not chased.
 - 🗣️ **Teaching-format correction, harder than before:** *"dont just give me fish teach me how to do it."* [[feedback-drill-format]] updated: **"run me through it" = drill me, never solve it in front of me** — even at zero-knowledge, even on a worked example.
@@ -59,14 +66,6 @@ metadata:
 - 🧮 **Long AC313 job-costing marathon (with Crow), very strong:** full job-costing cycle run clean TWICE end-to-end; cost classification 7/7 (1 self-correct); T/F 6/6; actual-vs-normal costing solid; the exact 5 Sep ABC Corp error modes re-tested and did NOT repeat. He **transferred** the normal/job-specific vs normal/common-to-all-jobs rule to rework unprompted — real understanding, not memorization. Process costing raised, deliberately banked for its own session.
 - 🎯 **Caught himself before a bad call:** floated running 21km cold tomorrow (longest run to date ~11km, old ankle tendon tear, 12 days from first midterm) — named as "afternoon's open, no plan, reach for something big," same directionlessness shape. Didn't do it; redirected to the actual Wed gym day + STQ03.
 - 🪞 **Asked for a full honest read of the day** — given straight: strong learning, but two follow-through slips (the draft, the running impulse) were live tonight, not hypothetical.
-
-## Session — 2026-09-07
-- 📘 **FN201 group project: the whole Excel deliverable built, verified and handed over** (guideline steps 3–7) — EFORL, 2021–2025, 10 sheets, all live formulas. All 25 IS/BS lines diffed against the source filings: exact match, 5/5 years. Detail + the 3 analytical angles → [[project-midterms]]. **Due Wed 16 Sep 13:00, sec 0264/01.** Remaining on the group: the SET price/DPS inputs (his job) and the 13-page report.
-- 🧾 **Rebuilt it twice on his direction** — first into the side-by-side common-size layout of the past group's graded TKN exemplar, then again to fold in the FY2020 report he added mid-session (Company Profile sheet for report page 2, average-based ratios, and 2021 growth).
-- ⚠️ **Caught a real trap:** 2020 was a loss year, so a naive % growth prints −224% for 2021 EBIT — reading as collapse when EFORL actually swung loss→profit. Growth sheet now reports net change in Baht + a guarded % that prints "n/m" on a non-positive base.
-- 📗 **AC311 the rest of the evening** — Ch.5 purchase commitments + Ch.6 provisions, the material from that day's class. Round 1 went 1 clean / 1 half / 2 wrong; by round 3 he had Gate 1 across three disguises and the probable–possible–remote ladder built from his own answers. Error modes + the framings that landed → [[project-midterms]].
-- 🗣️ **He asked for a format change mid-session and it was the right call** — one open question at a time, correct as he goes, no big structured explainers. Saved as [[feedback-drill-format]]; it is now the default for teaching him anything.
-- 🔴 **Recognition-not-recall showed up a third time, live:** he typed the correct recognition principle unprompted in the morning and failed the textbook case of it 90 minutes later. Named to him plainly as an encoding problem, not an AC311 problem.
 
 ## 🎯 Current state
 - **MIDTERMS = TOP PRIORITY** ([[project-midterms]] — canonical). 🗓️ **Board: the Term 2.1 hub** — https://claude.ai/code/artifact/017ced5a-48b7-4101-a4a9-e18b38b4de3e · **front-load order revised 27 Aug: FN201 > BA202 > AC313 > AC311 > MK201 > EL221.** **Thammasat, BBA, Accounting major / Finance minor.** 6 exams 20–27 Sep. Classes end 11 Sep; **14–19 Sep is a free week and the spine of the plan.** ⛔ Only blocker: syllabi + textbook names.
