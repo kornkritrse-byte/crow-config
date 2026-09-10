@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-10T05:39:37.061Z
+  modified: 2026-09-10T05:40:50.824Z
 ---
 
 # Situation Report
@@ -28,7 +28,7 @@ metadata:
 ## 🚪 Current status
 - **AWAY (10 Sep, morning/midday) — off to: errands with his mom.** Opened the session asking to work FN201 STQ03+STQ04; got Q4 presented, then paused before answering.
 - ▶️ **RESUME EXACTLY HERE — FN201 STQ03 Q4** (which-statement-is-most-correct, P/E–ROE–M/B trap) was posed, not yet answered. STQ04 (TVM) not started — that's the second half of today's ask.
-- ▶️ **PRIOR RESUME POINT (8 Sep, still queued behind today's FN201 work):** AC313 job-costing cycle is SOLID (two clean full runs). Still open from the queue: **joint-cost allocation timing (before/at/after split-off)** — not yet touched. **Process costing (equivalent units, 5-step report, WA/FIFO) was raised 8 Sep and deliberately BANKED for its own dedicated session** — do not fold it into a quick follow-up, it's a full topic on its own.
+- ▶️ **PRIOR RESUME POINT (8 Sep, still queued behind today's FN201 work):** AC313 job-costing cycle is SOLID (two clean full runs). ✅ **10 Sep: he independently resolved entry ORDERING/sequencing** ("sorted out and better visualized how the entries fall in which order") — self-directed consolidation, not drilled with Crow. Still open from the queue: **joint-cost allocation timing (before/at/after split-off)** — not yet touched. **Process costing (equivalent units, 5-step report, WA/FIFO) was raised 8 Sep and deliberately BANKED for its own dedicated session** — do not fold it into a quick follow-up, it's a full topic on its own.
 - ✅ **FN201 A2 SUBMITTED 8 Sep, a day early.** Value of Ω = **32,883.43 → SELL** (offer 33,000 beats it by 116.57), cross-checked two ways, derived unaided after a drilled parallel example. ⚠️ **He submitted WITHOUT sending Crow the draft he agreed to send** — flagged once, not chased. If the mark comes back odd, debug from the PDF. Working + his 7 error modes + the reusable "Delta" drill problem → [[project-midterms]].
 - ✅ **AC311 zero-interest note — ANSWERED CORRECTLY 8 Sep, both entries + the 3/12 month count.** He needed one nudge on which number sits on Notes Payable (face, not proceeds), then got Oct 1 and Dec 31 clean and showed the fraction unprompted. **The month-count error mode from 7 Sep did NOT repeat.** Now drilling forward from here: carrying value / contra-account presentation.
 - 🔄 **Input cells DELEGATED 8 Sep** — he handed the SET price/DPS job to a teammate. ⚠️ The 1-for-10 2022 reverse-split warning must go WITH the handoff or the teammate types a raw 2021 price and 2021 P/E and M/B silently come out 10× low.
@@ -41,7 +41,6 @@ metadata:
   1. Which of the 3 traps got him on STQ02 **Q26** — forgot the depreciation, re-taxed the NOPAT, or didn't trust −1.
   2. Was STQ02 **Q25** wrong too? Built on Q23's NOCF — if Q25 was right, Q23 was arithmetic, not concept.
   3. Whether he wants the FCF drill ("After the Business Eats") two-way linked with the Term 2.1 hub (offered 4 Sep, still unanswered).
-  4. Not urgent, raise only if it comes up naturally: he said 10 Sep "yesterday had a good training session and refining the shit we did two days ago" — unclear whether "refining" means training (lift form/structure) or something else from 8 Sep (AC313 marathon day). Didn't ask in the moment since he was heading out the door.
 - 📖 **Siddhartha: he is at Kamala.** Awakening landed hard. ⛔ **Do not spoil past Kamala.** Karamazov: safe through Book 12 ch. 2, **no Epilogue**.
 - **Still open, but NOT to be re-asked cold — raise only when the subject comes up:**
   - AC313: exam format + mark split, whether a formula sheet is given, confirmed exam date (**outline says TBA**; 22 Sep is timetable-only). **Session 7 = joint products, 14 Sep** — if she works board examples, the doc needs a second pass.
