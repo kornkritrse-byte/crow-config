@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-10T06:32:16.682Z
+  modified: 2026-09-10T07:13:56.716Z
 ---
 
 # Situation Report
@@ -26,8 +26,9 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (10 Sep).** Back from errands with his mom. Opened the session asking to work FN201 STQ03+STQ04; restarted STQ03 from Q1 (not resuming at Q4) while still out, now home and locked in.
-- ▶️ **RESUME EXACTLY HERE — FN201 STQ03 Q4** (which-statement-is-most-correct, P/E–ROE–M/B trap) was posed, not yet answered. STQ04 (TVM) not started — that's the second half of today's ask.
+- **AWAY (10 Sep, midday) — off to: lunch break.** Also changed VS Code theme mid-session: Catppuccin Mocha accent switched from mauve→peach (purple icons → orange) and editor/UI foreground forced to pure white via `workbench.colorCustomizations`; he hasn't confirmed the look landed yet (reload was manual, not verified by Crow — no Accessibility permission to drive VS Code).
+- **ASK ON RETURN:** does the white-text/orange-icon VS Code change look right, or does it need dialing back?
+- ▶️ **RESUME EXACTLY HERE — FN201 STQ03 Q7.** Q4–6 done: Q6 confirmed correct (D, market/book↔MVA relationship) with full reasoning talked through, incl. why E is wrong (sustained high EVA → market/book and MVA should be *above* average, not below). STQ04 (TVM) not started — that's the second half of today's ask.
 - ▶️ **PRIOR RESUME POINT (8 Sep, still queued behind today's FN201 work):** AC313 job-costing cycle is SOLID (two clean full runs). ✅ **10 Sep: he independently resolved entry ORDERING/sequencing** ("sorted out and better visualized how the entries fall in which order") — self-directed consolidation, not drilled with Crow. Still open from the queue: **joint-cost allocation timing (before/at/after split-off)** — not yet touched. **Process costing (equivalent units, 5-step report, WA/FIFO) was raised 8 Sep and deliberately BANKED for its own dedicated session** — do not fold it into a quick follow-up, it's a full topic on its own.
 - ✅ **FN201 A2 SUBMITTED 8 Sep, a day early.** Value of Ω = **32,883.43 → SELL** (offer 33,000 beats it by 116.57), cross-checked two ways, derived unaided after a drilled parallel example. ⚠️ **He submitted WITHOUT sending Crow the draft he agreed to send** — flagged once, not chased. If the mark comes back odd, debug from the PDF. Working + his 7 error modes + the reusable "Delta" drill problem → [[project-midterms]].
 - ✅ **AC311 zero-interest note — ANSWERED CORRECTLY 8 Sep, both entries + the 3/12 month count.** He needed one nudge on which number sits on Notes Payable (face, not proceeds), then got Oct 1 and Dec 31 clean and showed the fraction unprompted. **The month-count error mode from 7 Sep did NOT repeat.** Now drilling forward from here: carrying value / contra-account presentation.
@@ -36,7 +37,7 @@ metadata:
 - 📗 **AC311** — he is on **p.24 of the Provision deck**; ⛔ **he asked Crow NOT to teach beyond what class has covered** (so no measurement slides 26–30, no deep contingent-liability material yet). Coaching notes, error modes and the framings that landed → **[[project-midterms]]**. Priority is **journal entries** (his call; ~65 written / 35 MCQ).
 - ✅ **AC313 QUEUE — items 1 and 3 CLEARED 8 Sep** (Hawaii/Riverside actual-vs-normal drills; two full job-costing cycles with the exact ABC Corp error modes re-tested and NOT repeated — DL correctly stayed out of MOH, applied-OH entries correctly never touched Cash, over/underapplied → COGS direction correct both ways). Full detail + reusable drill problems → [[project-midterms]].
 - 📌 **STILL QUEUED:** joint-cost allocation timing (before/at/after split-off) — untouched. **Process costing** — new full topic, banked 8 Sep for its own session, start from equivalent units.
-- 📌 **STILL OPEN:** STQ03 (FN201 Topic 3) guided walkthrough — **Q1–3 done correctly, stopped mid-Q4** (which-statement-is-most-correct, P/E–ROE–M/B). Pick up at Q4.
+- 📌 **STILL OPEN:** STQ03 (FN201 Topic 3) guided walkthrough — see Current status above for exact resume point (Q7).
 - **ASK ON RETURN — these only:**
   1. Which of the 3 traps got him on STQ02 **Q26** — forgot the depreciation, re-taxed the NOPAT, or didn't trust −1.
   2. Was STQ02 **Q25** wrong too? Built on Q23's NOCF — if Q25 was right, Q23 was arithmetic, not concept.
