@@ -5,6 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 6b179f8b-0d5d-4b21-b9e8-8a36a0feb75f
+  modified: 2026-09-10T05:46:22.603Z
 ---
 
 ## ⚠️ 2026-08-23 — GOAL CHANGED, July plan superseded
@@ -109,6 +110,8 @@ He blew the pacing by going out hot. **Every run, easy or hard, starts slower th
 
 ### ⛔ Do not re-test before 27 Sep
 A second TT costs a session, adds stress, and changes no decision. The 25:30 is soft by ~30–45 s and that is *fine* — it is a floor to program from, not a verdict. **Next time trial: after the last exam.**
+
+⚠️ **10 Sep — he floated a sub-60 10k attempt AND cadence-form work stacked onto Sat 12 Sep**, which is supposed to be the easy long run. Flagged plainly: breaks the no-retest rule, and stacking a new motor pattern (cadence) with a max effort on the tendon-history joint is the exact combo most likely to aggravate it — same shape as the 21km-cold impulse he caught himself on 8 Sep. **His response: "ok bet ill keep that in mind" — not a firm reversal, not a commitment either.** Watch what actually happens Saturday.
 
 ### Ramp position
 Week of 24 Aug = week 1 (3 runs — TT Thu 27, easy Sat 29, easy Sun 30 ✅). Week of 31 Aug = week 2 (3 runs). **Week of 7 Sep onward = 4 runs.** Then the exam taper 17–27 Sep (two easy 30 min runs only, Mon 21 + Thu 24) already agreed above.
