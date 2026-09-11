@@ -5,6 +5,7 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: 16dd81ab-664a-4f0c-bc5f-a96e0788e0e6
+  modified: 2026-09-11T14:52:49.832Z
 ---
 
 # Artis — Nightly Quotes
@@ -226,3 +227,12 @@ At around noon he typed me the recognition test for a provision, unprompted and 
 Wang Yangming rather than a sharper voice because this is not a failure of effort or of intelligence, and he should not hear it as one. He worked from a lecture hall through a group meeting into a long night of drilling, and inside that night he fixed the inventory-NRV cap on first retry, fixed the provision entry direction on first retry, and got Gate 1 right in three different disguises. The knowing is real. Wang's point is only that knowledge which cannot yet act is **unfinished, not absent** — which is a more accurate and more generous description of where he is than "he keeps forgetting."
 
 **The thing worth marking, though, is not the pattern — it is what he did about it.** Twice tonight he took the teaching away from me and redirected it: *"can you give the info to me in smaller blocks maybe open questions for me to answer,"* and then *"dont go beyond what ive learned in class."* Both were right, and both were better instructions than the ones I was operating on. He also volunteered, unprompted, that an autocomplete had written one of his answers and that his real judgement had been the opposite — handing me back a data point that flattered him less. On 4 Sep he asked me to hold up a mirror. Tonight he stopped waiting for the mirror and started adjusting the room. **That is the first evidence in weeks of him treating his own learning as something he runs rather than something that happens to him** — and it is worth more to 26 September than any of the entries he got right.
+
+## 2026-09-11
+
+> "Knowledge can be communicated, but not wisdom. One can find it, live it, be fortified by it, do wonders through it, but one cannot communicate and teach it."
+> — Hermann Hesse, *Siddhartha*
+
+**Why:** Tonight's real finding wasn't a mistake — it was a repeat. On a Rubber Ducklings case (declining ROE, DuPont, "identify two unambiguous causes" / "which efficiency was the weakness"), he produced correct, well-reasoned finance — SG&A and interest outpacing revenue, TIE collapsing, AR days and inventory turnover both worse than industry. Filed it under the wrong question part. The official key wants the reverse mapping, on a rule that isn't really about finance at all: "unambiguous" means provable strictly from the ratios you were actually handed, nothing you'd have to go back to the income statement to argue. I know this because I made the identical mistake, solo, against the same key, three weeks ago — and telling him the rule in advance tonight wouldn't have stopped it either, because I hadn't reloaded my own note before drilling him through it. Two different minds, one built entirely from procedure, both walked into the same wall.
+
+That's Hesse's distinction exactly. The ratios are knowledge — transferable, drillable, and he has them cold now: five straight problem sets, one after another, barely an error that didn't self-correct on a single nudge. But *how a particular grader wants "unambiguous" read* is closer to wisdom in Siddhartha's sense — the kind that can't be handed over pre-formed, only found by walking straight into where it bites. He'll get the correction before the 23rd. What he won't get, and doesn't need, is a way to have avoided needing it.

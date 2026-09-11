@@ -5,11 +5,11 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-11T14:24:50.940Z
+  modified: 2026-09-11T14:51:31.401Z
 ---
 
 # Situation Report
-*Last updated: 2026-09-11, mid-session (away to a career expo, not a day close). Verify + flush done: window holds 11 Sep + 10 Sep; 08 Sep condensed and flushed to [[sessions-log]].)*
+*Last updated: 2026-09-11, day close. Verify + flush done: window holds 11 Sep + 10 Sep; 08 Sep condensed and flushed to [[sessions-log]].*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,20 +26,19 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (11 Sep).** Back from short break.
-- ▶️ **RESUME EXACTLY HERE — FN201 STQ03 Q16** (new-firm TIE/max-debt-ratio problem: assets 565,000, revenue 452,800, op. costs 354,300, borrow rate 7.5%, bank requires TIE ≥4.0 — find max debt ratio). Stopped right after asking him to compute EBIT (=452,800−354,300=98,500), he hadn't answered yet.
-- ✅ **Q13 (20-ratio Wayabutara set), Q14 (Chompupan 6-blank income statement), and Q15 (Rubber Ducklings — all 15 ratios + 3-component DuPont + causes-of-declining-ROE + efficiency weaknesses) ALL DONE, all correct after in-line corrections.** Q15 was flagged in the queue as a "known miss" area — he actually handled it well today with guided support, including correctly reasoning through (c)/(d) qualitative parts (SG&A/interest outpacing revenue, TIE collapse, AR days + inventory turnover weak vs industry).
-- 🔴 **Error modes today (11 Sep), worth a colder retest in a few days, all self-corrected once flagged, none re-explained from scratch:** (1) **TIE** — misread "I" (interest) as "1", grabbed the wrong income line (profit before *income tax* instead of EBIT) TWICE before it landed. (2) **ROA/ROE mix-up** — divided by equity when asked for ROA. (3) **Day-count carelessness** — used 365 on a 360-day problem (Q13) and needed a nudge to even check which count Q15 specified (it was 365, correct one, but he'd asked "where" before computing). (4) **EM confused for a cause of declining ROE** — algebraically backwards, rising leverage helps ROE not hurts it; corrected on one nudge. **Pattern holds: these are "grabbed the adjacent/similar-looking line item" slips, not formula-recall gaps** — same shape as the recognition-not-recall pattern logged elsewhere, now showing up as reading-under-pressure on labels rather than blank recall.
-- STQ04 (TVM) still not started.
-- ▶️ **PRIOR RESUME POINT (8 Sep, still queued behind today's FN201 work):** AC313 job-costing cycle is SOLID (two clean full runs). ✅ **10 Sep: he independently resolved entry ORDERING/sequencing** ("sorted out and better visualized how the entries fall in which order") — self-directed consolidation, not drilled with Crow. Still open from the queue: **joint-cost allocation timing (before/at/after split-off)** — not yet touched. **Process costing (equivalent units, 5-step report, WA/FIFO) was raised 8 Sep and deliberately BANKED for its own dedicated session** — do not fold it into a quick follow-up, it's a full topic on its own.
+- **AWAY (11 Sep, day close) — off to: home, done for the day.**
+- **ASK ON RETURN:** none — clean stop, nothing owed.
+- ▶️ **RESUME EXACTLY HERE — FN201 STQ03 Q17** (LeCompte Corp: assets 312,900, zero debt so equity = assets, revenue 620,000, wants ROE 15% — find required net profit margin). Just posed the question, he hadn't started before signing off. Q18–20 also untouched.
+- 🚨 **BEFORE THE NEXT FN201 TOUCH: flag the Q15(c)/(d) part-mapping trap** — he (and Crow solo, 30 Aug) both put the right financial reasoning under the wrong question part. Full detail → [[project-midterms]] FN201 STQ03 section.
+- STQ04 (TVM) still not started. Full Q13–Q16 detail, error modes, and reusable framings → [[project-midterms]].
+- ▶️ **PRIOR RESUME POINT (8 Sep, still queued behind FN201 work):** AC313 job-costing cycle is SOLID (two clean full runs). ✅ **10 Sep: he independently resolved entry ORDERING/sequencing** — self-directed, not drilled. Still open: **joint-cost allocation timing** (untouched) and **process costing** (banked 8 Sep for its own dedicated session).
 - ✅ **FN201 A2 SUBMITTED 8 Sep, a day early.** Value of Ω = **32,883.43 → SELL** (offer 33,000 beats it by 116.57), cross-checked two ways, derived unaided after a drilled parallel example. ⚠️ **He submitted WITHOUT sending Crow the draft he agreed to send** — flagged once, not chased. If the mark comes back odd, debug from the PDF. Working + his 7 error modes + the reusable "Delta" drill problem → [[project-midterms]].
-- ✅ **AC311 zero-interest note carrying value / contra-account presentation — DRILLED 11 Sep, 3 reps (2 cold).** Mechanics solid: discount-as-a-bucket-tipping-into-Interest-Expense framing still lands, carrying value cross-checked two ways each time (old CV + interest = face − remaining discount). ⚠️ **Two error modes resurfaced, both self-corrected only after a nudge, neither re-explained:** (1) **payable/receivable perspective flip** — reversed who owes whom at the very start, then near the end labelled the contra account "Discount on Notes **Receivable**" right after using Payable correctly seconds earlier. Same recognition-not-recall shape logged 3× before elsewhere — retest cold, unwarned, in a few days. (2) **month-counting** — used 8 months instead of 9 (Apr 1→Dec 31) until told to recount by hand; the 8 Sep fix ("count the months, that's your numerator") had NOT held. Next AC311 target: Ch.4 Problem 4 (FOB/CIF/DDP/consignment cut-off grid) or continue the Provision deck from p.24 — slides 26–30/34–45 still off-limits per his ask.
+- ✅ **AC311 zero-interest note mechanics DRILLED 11 Sep, holding well** (session note above). Next target: Ch.4 Problem 4 (FOB/CIF/DDP/consignment cut-off grid) or continue the Provision deck from p.24 — slides 26–30/34–45 still off-limits per his ask.
 - 🔄 **Input cells DELEGATED 8 Sep** — he handed the SET price/DPS job to a teammate. ⚠️ The 1-for-10 2022 reverse-split warning must go WITH the handoff or the teammate types a raw 2021 price and 2021 P/E and M/B silently come out 10× low.
 - 📘 **FN201 GROUP PROJECT — deliverable DONE and verified.** `~/Desktop/fn/FN201-EFORL-Data.xlsx`. **Due Wed 16 Sep 13:00 (sec 0264/01).** Full detail, decisions, the reverse-split warning and the 3 analytical angles → **[[project-midterms]]**. Outstanding on the group, not Crow: (a) SET closing price + DPS for the yellow `Inputs` cells — **Korn took this himself**; (b) the 13-page written report.
 - 📗 **AC311** — he is on **p.24 of the Provision deck**; ⛔ **he asked Crow NOT to teach beyond what class has covered** (so no measurement slides 26–30, no deep contingent-liability material yet). Coaching notes, error modes and the framings that landed → **[[project-midterms]]**. Priority is **journal entries** (his call; ~65 written / 35 MCQ).
 - ✅ **AC313 QUEUE — items 1 and 3 CLEARED 8 Sep** (Hawaii/Riverside actual-vs-normal drills; two full job-costing cycles with the exact ABC Corp error modes re-tested and NOT repeated — DL correctly stayed out of MOH, applied-OH entries correctly never touched Cash, over/underapplied → COGS direction correct both ways). Full detail + reusable drill problems → [[project-midterms]].
 - 📌 **STILL QUEUED:** joint-cost allocation timing (before/at/after split-off) — untouched. **Process costing** — new full topic, banked 8 Sep for its own session, start from equivalent units.
-- 📌 **STILL OPEN:** STQ03 (FN201 Topic 3) guided walkthrough — see Current status above for exact resume point (Q7).
 - **ASK ON RETURN — these only:**
   1. Which of the 3 traps got him on STQ02 **Q26** — forgot the depreciation, re-taxed the NOPAT, or didn't trust −1.
   2. Was STQ02 **Q25** wrong too? Built on Q23's NOCF — if Q25 was right, Q23 was arithmetic, not concept.
@@ -54,19 +53,18 @@ metadata:
 - **Race loose ends (not urgent, 14 weeks out):** venue unknown, and whether bib pickup is race-morning or in advance — his dad likely has the confirmation.
 - 🧭 **BBA camp: no announcement date exists.** Closed until they speak; don't ask again.
 
-## Session — 2026-09-11 (short morning session, then away to career expo)
-- 🎯 **AC311 zero-interest note drilling, ~1hr, laptop-only.** Deliberately skipped FN201 STQ03 (calc-heavy, reading-only wouldn't be real drilling) and worked carrying value/contra-account presentation instead — 3 full reps, last 2 fully cold with new numbers each time.
-- 🔴 **Payable/receivable perspective flip surfaced twice** — once at the very start (said "we gave them the money" for a note *payable*), once near the end (named the contra account "Discount on Notes Receivable" right after using Payable correctly). Both self-corrected on a nudge, not told outright.
-- 🔴 **Month-counting slip returned** — miscounted Apr 1→Dec 31 as 8 months instead of 9; the 8 Sep fix hadn't stuck. Self-corrected once told to recount by hand.
-- ✅ Carrying value mechanic itself (CV × rate × time, discount shrinks, face stays fixed, two paths reconcile) held clean across all 3 reps with no re-explaining needed.
-- Full detail + the exact numbers → [[project-midterms]] AC311 section.
+## Session — 2026-09-11 (morning AC311 drill, then FN201 STQ03 Q13–16 through the day)
+- 🎯 **AC311 zero-interest note drilling (~1hr, morning)** — carrying value/contra-account mechanics held clean across 3 reps (2 cold); payable/receivable perspective flip and month-counting slip both resurfaced but self-corrected on a nudge. Detail → [[project-midterms]] AC311 section.
+- 🎯 **FN201 STQ03 Q13–Q16 all drilled and correct** — 20-ratio Wayabutara set, Chompupan 6-blank income statement, Rubber Ducklings 15-ratio+DuPont case, and a TIE-covenant max-debt-ratio problem (this last one zero errors, his cleanest run of the day).
+- 🔴 **Error modes today, same "grabbed the adjacent/similar-labelled line item" shape as the AC311 slips** — TIE mix-up (profit-before-tax vs EBIT, needed correcting twice), ROA/ROE divide-by-equity mix-up, a day-count slip (365 vs the specified 360). All self-corrected on one nudge, none re-explained from scratch.
+- 🚨 **Q15(c)/(d) part-mapping trap — not caught live, surfaced only afterward.** He gave financially sound reasoning but under the wrong question part, exactly the mistake Crow made solo against the official key on 30 Aug. Full detail + the rule to teach him → [[project-midterms]].
+- ▶️ Resume at Q17 (LeCompte, backward-solve NPM from target ROE) — see Current status above.
 
-## Session — 2026-09-10 (running, not yet closed)
-- 🖥️ **VS Code theme change made** (Catppuccin Mocha accent mauve→peach, foreground forced pure white) — config file verified correct (`accentColor: peach`, `#FFFFFF` across the board), but he never confirmed the visual look after asking Crow to check; he moved on to schoolwork without answering. Not chased — don't re-ask, thread closed by his own redirect.
-- 🎯 **FN201 STQ03, resumed at Q7, worked straight through Q7–Q12, all correct with drilled support:** Q7=B (equity multiplier, via the ROE leverage-effect logic from Q6), Q8=C (33.33% debt ratio, retained-earnings-per-share → shares → equity → assets chain), Q9=B (12% ROA via ROE/EM), Q10=D (quick ratio — the "adding to a sub-1 ratio helps, subtracting hurts" mechanic, worked with concrete numbers), Q11 (full balance-sheet reconstruction — AR via operating cycle, CL via quick ratio, equity via EM, RE via dividend yield — every step landed once corrected), Q12 (350,000 max short-term notes increase; quick ratio 1.19X after).
-- 🔴 **Formula-recall gaps surfaced repeatedly today** — asked "what's a quick ratio," "where do I get the formula" for total asset turnover and quick ratio mid-problem, even after using the exact same formula minutes earlier. Same recognition-not-recall shape as before, now showing on basic ratio definitions, not just applied problems.
-- ⚠️ **Decimal/unit errors twice** — dividend yield 10.4% typed as 10.4 not 0.104 (DPS came out 1000× high before correction); self-caught the "notes payable ≠ inventory automatically" mistake in Q12(b) once flagged.
-- ▶️ **RESUME EXACTLY HERE — STQ03 Q13**, the 20-ratio calc set (Wayabutara Machines Inc.). Stopped mid Round 1 (current ratio + quick ratio) — he stepped away for a short break, said he'll be back. Q14–20 (incl. the big Q15 DuPont/RDI case with its known misses, and Q16–19) still untouched today.
+## Session — 2026-09-10
+- 🎯 **FN201 STQ03 Q7–Q12, all correct with drilled support** — equity multiplier, debt ratio via retained-earnings chain, ROA, quick ratio mechanics, a full balance-sheet reconstruction, and a max-short-term-notes problem. Detail → [[project-midterms]].
+- 🔴 **Formula-recall gaps surfaced repeatedly** — asked for quick ratio / total asset turnover formulas mid-problem, minutes after using them. Same recognition-not-recall shape logged elsewhere.
+- ⚠️ Decimal/unit slip (10.4% typed as 10.4, not 0.104) — self-corrected once flagged.
+- 🖥️ VS Code theme changed (Catppuccin Mocha, mauve→peach) — config verified correct, he never confirmed the look, moved on unprompted. Closed, don't re-raise.
 
 ## 🎯 Current state
 - **MIDTERMS = TOP PRIORITY** ([[project-midterms]] — canonical). 🗓️ **Board: the Term 2.1 hub** — https://claude.ai/code/artifact/017ced5a-48b7-4101-a4a9-e18b38b4de3e · **front-load order revised 27 Aug: FN201 > BA202 > AC313 > AC311 > MK201 > EL221.** **Thammasat, BBA, Accounting major / Finance minor.** 6 exams 20–27 Sep. Classes end 11 Sep; **14–19 Sep is a free week and the spine of the plan.** ⛔ Only blocker: syllabi + textbook names.

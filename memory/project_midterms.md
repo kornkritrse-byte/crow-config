@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 5b6c4e05-b760-4ef4-9ca7-afdb3856b8e3
-  modified: 2026-09-06T15:46:25.759Z
+  modified: 2026-09-11T14:50:34.034Z
 ---
 
 Opened 2026-08-23. **TOP PRIORITY.** Korn's stated order: midterms first, fitness second (fitness explicitly planned *around* studies).
@@ -605,6 +605,20 @@ Source: `~/Desktop/fn/FN201-26F-BBA-A2-CLO2-S6-V1-260902.pdf`. Value "Omega (Ω)
 
 ### The rule that unlocked it (his words back to him)
 **The perpetuity/annuity formula's answer always lands exactly one period BEFORE the first cash flow of the stream.** Derived from PV₀ = C₁/r (first payment t=1, value at t=0). The exponent you discount by is **the date the value sits on**, not the date of the first cash flow.
+
+## 🧮 FN201 STQ03 — Q13–Q16 DRILLED 11 Sep 2026 (continues from Q7–Q12, 10 Sep)
+
+All four correct after in-line corrections. **Q13** (Wayabutara, 20-ratio calc set) — full clean run bar two slips: (1) **TIE** — misread "I" as "1", grabbed profit-before-income-tax (91,000) instead of EBIT/profit-before-finance-costs-and-tax (140,000), needed the wrong-line-item correction TWICE before it held; (2) **ROA/ROE mix-up** — divided by equity when asked for ROA. Also a 360-vs-365-day slip (this set specifies 360). **Q14** (Chompupan, 6-blank income statement from op./net margins) — clean, no errors. **Q16** (new-firm max-debt-ratio from a TIE covenant: EBIT→max interest→max debt→debt ratio) — clean, zero errors, his best run of the day.
+
+### 🚨 Q15 (Rubber Ducklings) — CORRECT REASONING, WRONG PART MAPPING — same trap Crow fell into solo on 30 Aug
+He computed all 15 ratios + the 3-component DuPont correctly. For (c)/(d) he produced good financial reasoning, but **assigned it to the opposite parts from Obrom's official key** — the exact same swap logged above at line ~488 when Crow first worked this set cold:
+- **He gave for (c) "unambiguous causes of declining ROE":** NPM decline driven by SG&A outpacing revenue (2.51x vs 2.07x) + rising interest burden (TIE collapsing, finance costs 2.27x vs 2.07x revenue growth).
+- **He gave for (d) "efficiency weaknesses":** AR days rising above industry + inventory turnover falling below industry.
+- **Official key is the reverse:** **(c) = AR + inventory** (Obrom's own reasoning: the ratio table given has no GPM/OPM rows, so cost/margin causes "cannot be concluded with confidence" from what's provided — only AR days and inventory turnover, which ARE in the table, count as "unambiguous"). **(d) = operating efficiency** (the NPM leg of the 3-component DuPont — investment efficiency=TAT and financing efficiency=EM were fine, operating efficiency=NPM was the weak one).
+- **The underlying finance content he produced was sound** — this is a rubric-literalism trap, not a comprehension gap. Obrom wants "unambiguous" to mean *provable strictly from the ratios he hands you*, and wants "efficiency" in part (d) read as the 3-way DuPont taxonomy specifically, not a free-form efficiency-ratio scan.
+- ⚠️ **NOT corrected live in-session** (surfaced only while writing this note after he'd logged off) — **flag this explicitly on the next FN201 touch, before the exam.** This is a two-time-now pattern (Crow solo 30 Aug, Korn guided 11 Sep) — worth naming the rule to him directly: *"unambiguous cause" question → scan only the ratios actually in the table; "efficiency weakness" question → map straight onto NPM/TAT/EM, nothing else.*
+
+**Still untouched: Q17 (LeCompte, backward-solve NPM from a target ROE — posed, not started), Q18, Q19, Q20.** Q17 resume point: assets 312,900, zero debt (equity=assets), revenue 620,000, target ROE 15% → required NPM.
 
 ### FN201 error modes seen live 8 Sep — re-drill these, don't re-explain
 1. **Fed a present value into the perpetuity formula as C** (used 473.52 instead of 816). C must be a *cash flow standing on a date*, never a PV.
