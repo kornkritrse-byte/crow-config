@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-11T14:06:28.264Z
+  modified: 2026-09-11T14:24:50.940Z
 ---
 
 # Situation Report
@@ -26,8 +26,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (11 Sep, short break) — off to: quick break, said "back in a small bit."**
-- **ASK ON RETURN:** none — pure break, nothing owed.
+- **Here (11 Sep).** Back from short break.
 - ▶️ **RESUME EXACTLY HERE — FN201 STQ03 Q16** (new-firm TIE/max-debt-ratio problem: assets 565,000, revenue 452,800, op. costs 354,300, borrow rate 7.5%, bank requires TIE ≥4.0 — find max debt ratio). Stopped right after asking him to compute EBIT (=452,800−354,300=98,500), he hadn't answered yet.
 - ✅ **Q13 (20-ratio Wayabutara set), Q14 (Chompupan 6-blank income statement), and Q15 (Rubber Ducklings — all 15 ratios + 3-component DuPont + causes-of-declining-ROE + efficiency weaknesses) ALL DONE, all correct after in-line corrections.** Q15 was flagged in the queue as a "known miss" area — he actually handled it well today with guided support, including correctly reasoning through (c)/(d) qualitative parts (SG&A/interest outpacing revenue, TIE collapse, AR days + inventory turnover weak vs industry).
 - 🔴 **Error modes today (11 Sep), worth a colder retest in a few days, all self-corrected once flagged, none re-explained from scratch:** (1) **TIE** — misread "I" (interest) as "1", grabbed the wrong income line (profit before *income tax* instead of EBIT) TWICE before it landed. (2) **ROA/ROE mix-up** — divided by equity when asked for ROA. (3) **Day-count carelessness** — used 365 on a 360-day problem (Q13) and needed a nudge to even check which count Q15 specified (it was 365, correct one, but he'd asked "where" before computing). (4) **EM confused for a cause of declining ROE** — algebraically backwards, rising leverage helps ROE not hurts it; corrected on one nudge. **Pattern holds: these are "grabbed the adjacent/similar-looking line item" slips, not formula-recall gaps** — same shape as the recognition-not-recall pattern logged elsewhere, now showing up as reading-under-pressure on labels rather than blank recall.
