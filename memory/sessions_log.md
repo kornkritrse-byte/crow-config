@@ -5,10 +5,18 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: c38e29c0-da2f-4906-8e70-a7a356ec2563
-  modified: 2026-09-10T10:38:38.331Z
+  modified: 2026-09-11T02:18:20.732Z
 ---
 
 # Sessions Log (archive)
+
+## Session — 2026-09-08  *(flushed from SITREP 11 Sep)*
+- FN201 A2 solved unaided, submitted a day early — Ω = 32,883.43 → SELL (offer beats it by 116.57), cross-checked two ways. Submitted without sending Crow the agreed draft — second small commitment slip that week, flagged not chased.
+- Teaching-format correction, harder version: *"dont just give me fish teach me how to do it"* — [[feedback-drill-format]] hardened: "run me through it" = drill, never solve, even at zero-knowledge.
+- Real conceptual gap surfaced: didn't hold PV as the same money re-quoted on a different date — upstream of every FN201 timing error.
+- Long AC313 job-costing marathon, very strong: full cycle run clean twice, cost classification 7/7, the 5 Sep ABC Corp error modes re-tested and did NOT repeat; transferred the normal/job-specific vs common-to-all-jobs rule unprompted. Process costing raised, banked for its own session.
+- Caught himself before a bad call — floated a cold 21km run 12 days from the first midterm, named the directionlessness shape himself, didn't do it.
+- Asked for a full honest read of the day; given straight — strong learning, but two follow-through slips (the draft, the running impulse) were live that night.
 
 ## Session — 2026-09-07  *(flushed from SITREP 10 Sep)*
 - FN201 group project (TKN → EFORL pivot): full Excel deliverable built, verified, handed over — 2021–2025, 10 sheets, all live formulas. All 25 IS/BS lines diffed against source filings, exact match 5/5 years. Rebuilt twice on his direction (common-size layout matching past group's graded exemplar, then folded in FY2020 for a Company Profile sheet + guarded growth %). Caught a real trap: 2020 was a loss year, so naive % growth printed −224% for 2021 EBIT — fixed by reporting net Baht change + a guarded % that shows "n/m" on a non-positive base.
