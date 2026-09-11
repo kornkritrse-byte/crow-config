@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-10T10:39:20.547Z
+  modified: 2026-09-11T01:46:35.420Z
 ---
 
 # Situation Report
@@ -26,7 +26,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (10 Sep, afternoon) — off to: short break, said he'll be back.**
+- **Here.**
 - **ASK ON RETURN:** none — just resume where he left off (see below). VS Code theme thread is closed (he never confirmed the look, moved on unprompted — don't chase it).
 - ▶️ **RESUME EXACTLY HERE — FN201 STQ03 Q13, Round 1 of the 20-ratio Wayabutara Machines calc set** (current ratio + quick ratio, data in [[sitrep]] Session-2026-09-10 note above). Q7–Q12 all done correctly today. STQ04 (TVM) still not started.
 - ▶️ **PRIOR RESUME POINT (8 Sep, still queued behind today's FN201 work):** AC313 job-costing cycle is SOLID (two clean full runs). ✅ **10 Sep: he independently resolved entry ORDERING/sequencing** ("sorted out and better visualized how the entries fall in which order") — self-directed consolidation, not drilled with Crow. Still open from the queue: **joint-cost allocation timing (before/at/after split-off)** — not yet touched. **Process costing (equivalent units, 5-step report, WA/FIFO) was raised 8 Sep and deliberately BANKED for its own dedicated session** — do not fold it into a quick follow-up, it's a full topic on its own.
