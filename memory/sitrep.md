@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-11T02:18:13.557Z
+  modified: 2026-09-11T12:37:28.116Z
 ---
 
 # Situation Report
@@ -26,8 +26,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (11 Sep, morning) — off to: career expo, rest of the day.**
-- **ASK ON RETURN:** none — just resume where he left off (see below).
+- **Here (11 Sep).** Back from career expo, resumed FN201 STQ03 Q13.
 - ▶️ **RESUME EXACTLY HERE — FN201 STQ03 Q13, Round 1 of the 20-ratio Wayabutara Machines calc set** (current ratio + quick ratio, data in [[sitrep]] Session-2026-09-10 note above). Q7–Q12 all done correctly 10 Sep, untouched 11 Sep (laptop-only morning, deliberately skipped a calc-heavy set — did AC311 instead). STQ04 (TVM) still not started.
 - ▶️ **PRIOR RESUME POINT (8 Sep, still queued behind today's FN201 work):** AC313 job-costing cycle is SOLID (two clean full runs). ✅ **10 Sep: he independently resolved entry ORDERING/sequencing** ("sorted out and better visualized how the entries fall in which order") — self-directed consolidation, not drilled with Crow. Still open from the queue: **joint-cost allocation timing (before/at/after split-off)** — not yet touched. **Process costing (equivalent units, 5-step report, WA/FIFO) was raised 8 Sep and deliberately BANKED for its own dedicated session** — do not fold it into a quick follow-up, it's a full topic on its own.
 - ✅ **FN201 A2 SUBMITTED 8 Sep, a day early.** Value of Ω = **32,883.43 → SELL** (offer 33,000 beats it by 116.57), cross-checked two ways, derived unaided after a drilled parallel example. ⚠️ **He submitted WITHOUT sending Crow the draft he agreed to send** — flagged once, not chased. If the mark comes back odd, debug from the PDF. Working + his 7 error modes + the reusable "Delta" drill problem → [[project-midterms]].
