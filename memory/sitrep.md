@@ -5,11 +5,11 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-12T09:00:51.631Z
+  modified: 2026-09-12T09:04:14.959Z
 ---
 
 # Situation Report
-*Last updated: 2026-09-12, live. Window holds 12 Sep + 11 Sep; 10 Sep condensed and flushed to [[sessions-log]].*
+*Last updated: 2026-09-12, day close. Verify + flush done: window holds 12 Sep + 11 Sep; 10 Sep condensed and flushed to [[sessions-log]].*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
