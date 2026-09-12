@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-12T06:46:15.009Z
+  modified: 2026-09-12T07:31:17.848Z
 ---
 
 # Situation Report
@@ -27,10 +27,11 @@ metadata:
 
 ## 🚪 Current status
 - **Here — 12 Sep, back on FN201 STQ03.**
-- ▶️ **RESUME EXACTLY HERE — FN201 STQ03 Q17** (LeCompte Corp: assets 312,900, zero debt so equity = assets, revenue 620,000, wants ROE 15% — find required net profit margin). Just posed the question, he hadn't started before signing off. Q18–20 also untouched.
+- ✅ **FN201 STQ03 FULLY CLEARED, 12 Sep — all 20 questions done.** Q17 (LeCompte, target NPM from target ROE) clean once TE=TA was sorted (see below). Q18 (DuPont for EM, then TE/TA) clean. Q19 (max inventory purchase on credit within a CR floor) — two wrong tries (0.29, 290,000) from an arithmetic slip while working in millions, corrected to 875,000 on the third, matching the key. Q20 (DuPont with a ΔTA shock, EM held constant) solved and cross-checked via two independent routes (NI/TE path and NPM×TAT×EM path), both landing on ROE moving 10.23%→12.24% (+2.02pp).
+- 🔴 **New instance of the "grabbed the adjacent/similar-labelled line item" error mode (Q20):** used Revenue (205,000) in place of Total Assets (127,500) in EM=TA/TE, and subtracted the ΔTA of −21,000 from Revenue instead of TA — both numbers traced cleanly back to that one substitution. Self-corrected in one nudge once flagged, no re-explanation needed.
+- ▶️ **RESUME NEXT: FN201 STQ04 (TVM)** — untouched, full Q13–16 groundwork notes already in [[project-midterms]] but TVM itself hasn't started.
+- 🚨 **STILL OVERDUE — Q15(c)/(d) part-mapping trap, missed again 12 Sep.** Was flagged "before the next FN201 touch" but Crow ran Q17–20 without raising it. Surfaced to him live 12 Sep instead. Detail → [[project-midterms]] FN201 STQ03 section — raise it for real before STQ04 starts.
 - 🔴 **CORRECTION, 12 Sep — Crow gave a fabricated study-location claim, caught by Korn.** Told him "home = peak focus," conflating CLAUDE.md's night+coffee timing line with a location that was never established. Actual record ([[project-midterms]]): he does **not** study at home — flagged there as aspiration only ("lowkey should"); his locked zero-coordination solo default is **the cafe near home** (Starbucks/Bloom). Corrected call: **STQ at home, group-work sections 2/3 at the cafe** — his original instinct was right. Lesson: check project_midterms.md's location rules before giving study-location advice, don't extrapolate from a general CLAUDE.md trait.
-- 🚨 **BEFORE THE NEXT FN201 TOUCH: flag the Q15(c)/(d) part-mapping trap** — he (and Crow solo, 30 Aug) both put the right financial reasoning under the wrong question part. Full detail → [[project-midterms]] FN201 STQ03 section.
-- STQ04 (TVM) still not started. Full Q13–Q16 detail, error modes, and reusable framings → [[project-midterms]].
 - ▶️ **PRIOR RESUME POINT (8 Sep, still queued behind FN201 work):** AC313 job-costing cycle is SOLID (two clean full runs). ✅ **10 Sep: he independently resolved entry ORDERING/sequencing** — self-directed, not drilled. Still open: **joint-cost allocation timing** (untouched) and **process costing** (banked 8 Sep for its own dedicated session).
 - ✅ **FN201 A2 SUBMITTED 8 Sep, a day early.** Value of Ω = **32,883.43 → SELL** (offer 33,000 beats it by 116.57), cross-checked two ways, derived unaided after a drilled parallel example. ⚠️ **He submitted WITHOUT sending Crow the draft he agreed to send** — flagged once, not chased. If the mark comes back odd, debug from the PDF. Working + his 7 error modes + the reusable "Delta" drill problem → [[project-midterms]].
 - ✅ **AC311 zero-interest note mechanics DRILLED 11 Sep, holding well** (session note above). Next target: Ch.4 Problem 4 (FOB/CIF/DDP/consignment cut-off grid) or continue the Provision deck from p.24 — slides 26–30/34–45 still off-limits per his ask.
