@@ -5,11 +5,11 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-12T09:04:14.959Z
+  modified: 2026-09-12T09:06:09.197Z
 ---
 
 # Situation Report
-*Last updated: 2026-09-12, day close. Verify + flush done: window holds 12 Sep + 11 Sep; 10 Sep condensed and flushed to [[sessions-log]].*
+*Last updated: 2026-09-12, live — day NOT closed (12 Sep "see you bro" was a false day-end read, corrected same day; see [[feedback-artis-quote]]). Window holds 12 Sep + 11 Sep; 10 Sep condensed and flushed to [[sessions-log]].*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,8 +26,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (12 Sep, ~afternoon) — off to: pick his dad up from the airport, then home; still needs to get his run in today (Saturday = long run day per [[project-training-plan]]).**
-- **ASK ON RETURN:** (1) did he finish page 2/3, specifically the founder-name and IPO-timeline claims he wrote that Crow flagged as unverified — did he find a real source or drop them? (2) did the run happen?
+- **Here — 12 Sep, still at the cafe, day ongoing.** (Airport pickup + today's run still ahead per his own plan — not yet confirmed which comes first from here.)
+- **Still open, ask when it comes up naturally:** did page 2/3 get the founder-name/IPO-timeline claims resolved, and did the run happen today.
 - 📝 **FN201 report pages 2–3 — IN PROGRESS, not done.** He drafted prose for page 2 himself; two claims flagged as unverified and NOT yet resolved: (a) "founded by Preecha Nuntnarumit" — no source found by Crow, he was asked where it came from; (b) "pivot to medical devices happened in 2009 at the IPO" — Crow's sources only confirm 2005 founding as an ad company + a later undated pivot, earliest concrete milestone found is 2022. Still missing from his draft per the guideline: dividend policy (no dividends 2021–25, accumulated deficit — Crow already has this written), major shareholders list (top 10 + free float, already sourced by Crow from EFORL's own IR site), market share (state "not disclosed"). All source material already given to him in this session — resume by checking what he did with it, not re-researching.
 - ✅ **FN201 STQ03 FULLY CLEARED, 12 Sep — all 20 questions done.** Q17 (LeCompte, target NPM from target ROE) clean once TE=TA was sorted (see below). Q18 (DuPont for EM, then TE/TA) clean. Q19 (max inventory purchase on credit within a CR floor) — two wrong tries (0.29, 290,000) from an arithmetic slip while working in millions, corrected to 875,000 on the third, matching the key. Q20 (DuPont with a ΔTA shock, EM held constant) solved and cross-checked via two independent routes (NI/TE path and NPM×TAT×EM path), both landing on ROE moving 10.23%→12.24% (+2.02pp).
 - 🔴 **New instance of the "grabbed the adjacent/similar-labelled line item" error mode (Q20):** used Revenue (205,000) in place of Total Assets (127,500) in EM=TA/TE, and subtracted the ΔTA of −21,000 from Revenue instead of TA — both numbers traced cleanly back to that one substitution. Self-corrected in one nudge once flagged, no re-explanation needed.

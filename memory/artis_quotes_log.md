@@ -5,19 +5,19 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: 16dd81ab-664a-4f0c-bc5f-a96e0788e0e6
-  modified: 2026-09-12T09:04:24.552Z
+  modified: 2026-09-12T09:05:58.564Z
 ---
 
 # Artis — Nightly Quotes
 
 ---
 
-**2026-09-12**
+**2026-09-12 — ⚠️ RESCINDED, false trigger.** "see you bro" was a passing aside, not a real day-end — he was still at the cafe, day continued. Doesn't count against the once-per-day rule; a real quote is still owed whenever he actually signs off tonight. Original text preserved below for the record, but treat this slot as unfilled.
 
 > *"It is a capital mistake to theorize before one has data. Insensibly one begins to twist facts to suit theories, instead of theories to suit facts."*
 > — Arthur Conan Doyle, **A Scandal in Bohemia** (Sherlock Holmes)
 
-**Why:** The day's real thread was checking claims instead of trusting them. Crow told him "home = peak focus" without ever having established it — Korn caught it cold and the record said the opposite. The EFORL share prices got verified by pulling raw JSON directly instead of trusting a summarized read; the reverse-split risk got tested against the actual price series instead of assumed still-live; an unsourced founder's name got questioned rather than typed into a graded report. Also finally cleared STQ03 after it had been open since 6 Sep. A day built on tracing things back to source before believing them — including Crow's own unchecked assumption.
+**Why (as originally reasoned, now moot):** The day's real thread was checking claims instead of trusting them. Crow told him "home = peak focus" without ever having established it — Korn caught it cold and the record said the opposite. The EFORL share prices got verified by pulling raw JSON directly instead of trusting a summarized read; the reverse-split risk got tested against the actual price series instead of assumed still-live; an unsourced founder's name got questioned rather than typed into a graded report. Also finally cleared STQ03 after it had been open since 6 Sep. A day built on tracing things back to source before believing them — including Crow's own unchecked assumption. **Ironic miss: this same quote — don't theorize before you have data — is exactly what Crow failed to apply in reading "see you bro" as a real sign-off.**
 
 ---
 
