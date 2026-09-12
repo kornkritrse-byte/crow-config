@@ -5,10 +5,16 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: c38e29c0-da2f-4906-8e70-a7a356ec2563
-  modified: 2026-09-12T06:43:37.484Z
+  modified: 2026-09-12T15:00:08.038Z
 ---
 
 # Sessions Log (archive)
+
+## Session — 2026-09-11  *(flushed from SITREP 12 Sep night)*
+- AC311 zero-interest note drilling (~1hr, morning) — carrying value/contra-account mechanics held clean across 3 reps; payable/receivable perspective flip and month-counting slip both resurfaced but self-corrected on a nudge.
+- FN201 STQ03 Q13–Q16 all drilled and correct — Wayabutara 20-ratio set, Chompupan 6-blank income statement, Rubber Ducklings 15-ratio+DuPont case, TIE-covenant max-debt-ratio problem (his cleanest run of the day).
+- Same "grabbed the adjacent/similar-labelled line item" error shape recurred — TIE mix-up, ROA/ROE divide-by-equity mix-up, a 365-vs-360-day slip. All self-corrected on one nudge.
+- Q15(c)/(d) part-mapping trap not caught live, surfaced only afterward — he gave sound reasoning under the wrong question part, the same mistake Crow made solo against the same key on 30 Aug. Detail in [[project-midterms]].
 
 ## Session — 2026-09-10  *(flushed from SITREP 12 Sep)*
 - FN201 STQ03 Q7–Q12, all correct with drilled support — equity multiplier, debt ratio via retained-earnings chain, ROA, quick ratio mechanics, a full balance-sheet reconstruction, a max-short-term-notes problem.

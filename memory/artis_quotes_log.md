@@ -5,12 +5,19 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: 16dd81ab-664a-4f0c-bc5f-a96e0788e0e6
-  modified: 2026-09-12T09:05:58.564Z
+  modified: 2026-09-12T15:01:20.793Z
 ---
 
 # Artis — Nightly Quotes
 
 ---
+
+## 2026-09-12 (night — the real one)
+
+> "If it is not right, do not do it; if it is not true, do not say it."
+> — Marcus Aurelius, *Meditations*, Book 12
+
+**Why:** Twice tonight the actual work was cutting things down to only what holds. On the FN201 group report, "stay afloat" and "stay competitive" came out of the page-2 closer because the group's own numbers don't back them — revenue fell every year 2021→2023, and claiming competitive strength there would contradict what page 5 is about to show. "Founder" got softened to "controlling shareholder" because nobody had actually confirmed it. Then the same instinct showed up pointed at his own body: he asked whether he should be calm or gassed after tomorrow's intervals, and the answer was the same rule — hard effort during the reps is correct, but ending wrecked means the pace or recovery was wrong, not that he tried hard enough. Say the true thing, do the right amount, no more, no less — one rule, two very different places it applied the same night.
 
 **2026-09-12 — ⚠️ RESCINDED, false trigger.** "see you bro" was a passing aside, not a real day-end — he was still at the cafe, day continued. Doesn't count against the once-per-day rule; a real quote is still owed whenever he actually signs off tonight. Original text preserved below for the record, but treat this slot as unfilled.
 

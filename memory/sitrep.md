@@ -5,11 +5,11 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-12T09:06:09.197Z
+  modified: 2026-09-12T15:01:03.292Z
 ---
 
 # Situation Report
-*Last updated: 2026-09-12, live — day NOT closed (12 Sep "see you bro" was a false day-end read, corrected same day; see [[feedback-artis-quote]]). Window holds 12 Sep + 11 Sep; 10 Sep condensed and flushed to [[sessions-log]].*
+*Last updated: 2026-09-12, CLOSED for the night — nightly quote given (Marcus Aurelius, see [[artis-quotes-log]]). Window holds 12 Sep only; 11 Sep condensed and flushed to [[sessions-log]].*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,11 +26,10 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here — 12 Sep, still at the cafe, day ongoing.** (Airport pickup + today's run still ahead per his own plan — not yet confirmed which comes first from here.)
-- **Still open, ask when it comes up naturally:** did page 2/3 get the founder-name/IPO-timeline claims resolved, and did the run happen today.
-- 📝 **FN201 report pages 2–3 — IN PROGRESS, not done.** He drafted prose for page 2 himself; two claims flagged as unverified and NOT yet resolved: (a) "founded by Preecha Nuntnarumit" — no source found by Crow, he was asked where it came from; (b) "pivot to medical devices happened in 2009 at the IPO" — Crow's sources only confirm 2005 founding as an ad company + a later undated pivot, earliest concrete milestone found is 2022. Still missing from his draft per the guideline: dividend policy (no dividends 2021–25, accumulated deficit — Crow already has this written), major shareholders list (top 10 + free float, already sourced by Crow from EFORL's own IR site), market share (state "not disclosed"). All source material already given to him in this session — resume by checking what he did with it, not re-researching.
-- ✅ **FN201 STQ03 FULLY CLEARED, 12 Sep — all 20 questions done.** Q17 (LeCompte, target NPM from target ROE) clean once TE=TA was sorted (see below). Q18 (DuPont for EM, then TE/TA) clean. Q19 (max inventory purchase on credit within a CR floor) — two wrong tries (0.29, 290,000) from an arithmetic slip while working in millions, corrected to 875,000 on the third, matching the key. Q20 (DuPont with a ΔTA shock, EM held constant) solved and cross-checked via two independent routes (NI/TE path and NPM×TAT×EM path), both landing on ROE moving 10.23%→12.24% (+2.02pp).
-- 🔴 **New instance of the "grabbed the adjacent/similar-labelled line item" error mode (Q20):** used Revenue (205,000) in place of Total Assets (127,500) in EM=TA/TE, and subtracted the ΔTA of −21,000 from Revenue instead of TA — both numbers traced cleanly back to that one substitution. Self-corrected in one nudge once flagged, no re-explanation needed.
+- **AWAY (2026-09-12, night) — off to: sleep.** Day closed clean, no open ask.
+- ✅ **FN201 group report pages 2–3 — drafted with Crow tonight, PAUSED mid-work, resume 13 Sep.** Shareholders/dividend/market-share sourced and written; closing paragraph landed. Only open item: founder-vs-controlling-shareholder wording for Wichai Thongtang, unresolved. Full detail → [[project-midterms]].
+- ✅ **FN201 STQ03 FULLY CLEARED, 12 Sep — all 20 questions done.** Q17–Q20 finished tonight (LeCompte target-NPM backsolve, DuPont/EM, max-inventory-purchase, ΔTA DuPont shock) — all correct, one arithmetic slip self-corrected. Full workings → [[project-midterms]].
+- 🔴 **Recurring error mode (Q20):** grabbed Revenue instead of Total Assets in EM=TA/TE — same "adjacent/similar-labelled line item" shape as AC311. Self-corrected in one nudge.
 - ▶️ **RESUME NEXT: FN201 STQ04 (TVM)** — untouched, full Q13–16 groundwork notes already in [[project-midterms]] but TVM itself hasn't started.
 - 🚨 **STILL OVERDUE — Q15(c)/(d) part-mapping trap, missed again 12 Sep.** Was flagged "before the next FN201 touch" but Crow ran Q17–20 without raising it. Surfaced to him live 12 Sep instead. Detail → [[project-midterms]] FN201 STQ03 section — raise it for real before STQ04 starts.
 - 🔴 **CORRECTION, 12 Sep — Crow gave a fabricated study-location claim, caught by Korn.** Told him "home = peak focus," conflating CLAUDE.md's night+coffee timing line with a location that was never established. Actual record ([[project-midterms]]): he does **not** study at home — flagged there as aspiration only ("lowkey should"); his locked zero-coordination solo default is **the cafe near home** (Starbucks/Bloom). Corrected call: **STQ at home, group-work sections 2/3 at the cafe** — his original instinct was right. Lesson: check project_midterms.md's location rules before giving study-location advice, don't extrapolate from a general CLAUDE.md trait.
@@ -56,19 +55,13 @@ metadata:
 - **Race loose ends (not urgent, 14 weeks out):** venue unknown, and whether bib pickup is race-morning or in advance — his dad likely has the confirmation.
 - 🧭 **BBA camp: no announcement date exists.** Closed until they speak; don't ask again.
 
-## Session — 2026-09-12 (FN201 group project valuation fix, then back to STQ03)
-- 🎯 **FN201 EFORL group workbook — valuation section fixed and verified in Excel.** Diagnosed "fill Inputs" placeholders in Ratios rows 33–35, sourced 2021–2025 closing prices via Yahoo Finance, filled `Inputs!B6:F6`, confirmed P/E/M/B/div-yield recalculate correctly on open. Full detail → [[project-midterms]].
-- ✅ Tested and cleared the 8-Sep reverse-split risk against the sourced prices — no ×10 adjustment needed (detail above + [[project-midterms]]).
-- 🔴 **Crow correction:** fabricated a "home = peak focus" claim giving study-location advice — caught by Korn, corrected against [[project-midterms]]'s actual record (he doesn't study at home; cafe near home is the locked default). See Current status.
-- 🖥️ Minor snag: editing the xlsx via script left a macOS quarantine flag that forced Excel into Protected View on open, blocking scripted reads. Cleared with `xattr -d com.apple.quarantine`; one-off, not expected to recur unless the file gets script-edited again.
-- ▶️ Resuming FN201 STQ03 at Q17 (LeCompte Corp) — see Current status above.
-
-## Session — 2026-09-11 (morning AC311 drill, then FN201 STQ03 Q13–16 through the day)
-- 🎯 **AC311 zero-interest note drilling (~1hr, morning)** — carrying value/contra-account mechanics held clean across 3 reps (2 cold); payable/receivable perspective flip and month-counting slip both resurfaced but self-corrected on a nudge. Detail → [[project-midterms]] AC311 section.
-- 🎯 **FN201 STQ03 Q13–Q16 all drilled and correct** — 20-ratio Wayabutara set, Chompupan 6-blank income statement, Rubber Ducklings 15-ratio+DuPont case, and a TIE-covenant max-debt-ratio problem (this last one zero errors, his cleanest run of the day).
-- 🔴 **Error modes today, same "grabbed the adjacent/similar-labelled line item" shape as the AC311 slips** — TIE mix-up (profit-before-tax vs EBIT, needed correcting twice), ROA/ROE divide-by-equity mix-up, a day-count slip (365 vs the specified 360). All self-corrected on one nudge, none re-explained from scratch.
-- 🚨 **Q15(c)/(d) part-mapping trap — not caught live, surfaced only afterward.** He gave financially sound reasoning but under the wrong question part, exactly the mistake Crow made solo against the official key on 30 Aug. Full detail + the rule to teach him → [[project-midterms]].
-- ▶️ Resume at Q17 (LeCompte, backward-solve NPM from target ROE) — see Current status above.
+## Session — 2026-09-12 (FN201 valuation fix + STQ03 finished, group report pages 2–3, evening run)
+- 🎯 **FN201 EFORL group workbook — valuation section fixed and verified.** Sourced 2021–2025 closing prices via Yahoo Finance, filled `Inputs!B6:F6`, confirmed P/E/M/B/div-yield recalculate correctly; cleared the 8-Sep reverse-split risk against the sourced prices (no ×10 adjustment needed). Full detail → [[project-midterms]].
+- ✅ **FN201 STQ03 finished — all 20 questions correct.** Q17–Q20 done tonight; one recurring "adjacent line item" slip (Revenue for Total Assets in EM), self-corrected on a nudge. Next up: STQ04 (TVM), untouched.
+- ✍️ **FN201 group report pages 2–3 drafted together** — shareholders, dividend policy, market-share framing sourced and written; page 3's common-sized income statement pulled straight from the group's own Excel. Paused mid-work, one open wording call (founder vs. controlling shareholder) — resume 13 Sep. Full detail → [[project-midterms]].
+- 🏃 **Evening 10k, easy (6:44/km, chill, no mouth breathing)** — resolves the 10 Sep sub-60/cadence-stacking flag cleanly; didn't happen. Confirmed tomorrow is rotation B (VO2 intervals, 5×3min @ 4:45–4:55/km).
+- 🔴 **Crow correction:** fabricated a "home = peak focus" study-location claim, caught by Korn — actual locked default is the cafe near home, not home. Lesson: check [[project-training-plan]]/[[project-midterms]] before extrapolating from a general CLAUDE.md trait.
+- 🖥️ Minor snag: script-editing the xlsx tripped macOS quarantine/Protected View — cleared with `xattr -d com.apple.quarantine`, one-off.
 
 ## 🎯 Current state
 - **MIDTERMS = TOP PRIORITY** ([[project-midterms]] — canonical). 🗓️ **Board: the Term 2.1 hub** — https://claude.ai/code/artifact/017ced5a-48b7-4101-a4a9-e18b38b4de3e · **front-load order revised 27 Aug: FN201 > BA202 > AC313 > AC311 > MK201 > EL221.** **Thammasat, BBA, Accounting major / Finance minor.** 6 exams 20–27 Sep. Classes end 11 Sep; **14–19 Sep is a free week and the spine of the plan.** ⛔ Only blocker: syllabi + textbook names.
