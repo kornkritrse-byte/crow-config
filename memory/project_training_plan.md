@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 6b179f8b-0d5d-4b21-b9e8-8a36a0feb75f
-  modified: 2026-09-10T05:46:22.603Z
+  modified: 2026-09-12T13:25:30.502Z
 ---
 
 ## ⚠️ 2026-08-23 — GOAL CHANGED, July plan superseded
@@ -97,6 +97,8 @@ At **64kg and a claimed 12–15% BF he is already lean** — if that number is a
 | **C** | 20 min continuous @ **5:20**, then 6 × 20 s strides |
 | **D** | fartlek — 8 × (1 min hard / 2 min easy), by feel, no watch |
 
+**Rotation position:** A ran Sun 6 Sep → **B is due Sun 13 Sep.**
+
 Every session: **10–15 min easy warm-up + 4 strides** before anything hard. Non-negotiable with that ankle.
 
 ### 🎯 THE RULE THAT COMES OUT OF THE TT — first km is the slowest km
@@ -111,7 +113,9 @@ He blew the pacing by going out hot. **Every run, easy or hard, starts slower th
 ### ⛔ Do not re-test before 27 Sep
 A second TT costs a session, adds stress, and changes no decision. The 25:30 is soft by ~30–45 s and that is *fine* — it is a floor to program from, not a verdict. **Next time trial: after the last exam.**
 
-⚠️ **10 Sep — he floated a sub-60 10k attempt AND cadence-form work stacked onto Sat 12 Sep**, which is supposed to be the easy long run. Flagged plainly: breaks the no-retest rule, and stacking a new motor pattern (cadence) with a max effort on the tendon-history joint is the exact combo most likely to aggravate it — same shape as the 21km-cold impulse he caught himself on 8 Sep. **His response: "ok bet ill keep that in mind" — not a firm reversal, not a commitment either.** Watch what actually happens Saturday.
+⚠️ **10 Sep — he floated a sub-60 10k attempt AND cadence-form work stacked onto Sat 12 Sep**, which is supposed to be the easy long run. Flagged plainly: breaks the no-retest rule, and stacking a new motor pattern (cadence) with a max effort on the tendon-history joint is the exact combo most likely to aggravate it — same shape as the 21km-cold impulse he caught himself on 8 Sep. **His response: "ok bet ill keep that in mind" — not a firm reversal, not a commitment either.**
+
+✅ **RESOLVED 12 Sep — the flag did NOT materialize.** He ran the Sat 12 Sep 10k easy: **6:44/km, "really chill," no mouth breathing.** Right in the 6:30–7:00 easy band despite him calling it "zone 3–4" — breathing/feel says zone 2, which is the correct call for this session regardless of the label. No sub-60 attempt, no cadence stacking. Ran evening instead of the planned 06:30 morning slot — timing shifted, execution was right.
 
 ### Ramp position
 Week of 24 Aug = week 1 (3 runs — TT Thu 27, easy Sat 29, easy Sun 30 ✅). Week of 31 Aug = week 2 (3 runs). **Week of 7 Sep onward = 4 runs.** Then the exam taper 17–27 Sep (two easy 30 min runs only, Mon 21 + Thu 24) already agreed above.
