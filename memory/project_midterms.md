@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 5b6c4e05-b760-4ef4-9ca7-afdb3856b8e3
-  modified: 2026-09-12T06:45:58.246Z
+  modified: 2026-09-12T14:51:00.504Z
 ---
 
 Opened 2026-08-23. **TOP PRIORITY.** Korn's stated order: midterms first, fitness second (fitness explicitly planned *around* studies).
@@ -554,6 +554,13 @@ All 25 IS/BS lines re-extracted programmatically from the published XLSXs and di
 ## ⚠️ STILL ON THE GROUP, NOT ON CROW
 1. ✅ **Yellow `Inputs` cells — DONE 12 Sep.** Crow filled `B6:F6` with year-end closing prices sourced from Yahoo Finance's chart API (SET's own historical-trading page is JS-rendered / unreachable by script, settrade's API 403'd): 2021 2.00, 2022 0.34, 2023 0.25, 2024 0.27, 2025 0.15. DPS row left at 0 for all years — cross-checked against SET factsheet + wisesheets dividend history, no dividend record 2021–2025 (consistent with the accumulated-deficit story; the 2020 One Report states outright the company made a loss and could not pay). **⚠️ EFORL did a 1-for-10 REVERSE SPLIT in 2022** (par 0.075→0.75, 39.98bn→4.00bn shares) — this was the risk that a raw as-traded 2021 price would need ×10 or the 2021 P/E and M/B come out 10× too low. **Tested and cleared 12 Sep:** the Yahoo close series is continuous across the 2022 boundary (2021's 2.00 is ~6× *larger* than 2022's 0.34, not ~10× smaller) — i.e. already split-adjusted, matching the flat ~4.00bn post-split share count the professor's data uses for all 5 years including 2021. No further adjustment needed. Not independently verified against SET's own tape — if grading precision matters, a manual settrade.com spot-check is still worth doing.
 2. **The 13-page written report** (guideline step 8) — the other half of the 15%. Group has split the pages and will work off the Excel. `Company Profile` sheet holds page-2 raw material (dividend policy, competitors, top shareholders, product mix) but it is **2020-vintage — refresh from the FY2025 One Report.**
+
+### ✍️ Pages 2–3 — Korn's own two pages, worked with Crow 12 Sep, PAUSED mid-draft (resume 13 Sep)
+**Page 2 (general info):** he drafted the products/history/competitors paragraph himself. Crow sourced and added: major shareholders (Wichai Thongtang 15.92%, next-largest under 4% each — from EFORL's own IR shareholdings page, dated Mar 2026), dividend policy (zero declared 2021–2025, consistent with the accumulated deficit — already in the Excel Inputs sheet), and market share (genuinely not publicly disclosed — state that outright, guideline says "if available"). Closing paragraph drafted and iterated twice; landed on a version that summarizes ownership + dividend + product breadth without making an analytical/forward-looking claim (dropped "stay afloat" and "stay competitive" — both read as unsupported verdicts on a page that's supposed to be pure description, and "stay competitive" would directly contradict the revenue decline the group's own data shows for 2021→2023).
+⚠️ **OPEN — not yet resolved:** whether Wichai Thongtang is actually the company's *founder* or just its largest/controlling shareholder. Crow could not verify "founder" from any source pulled 12 Sep — recommended "controlling shareholder" as the safe default unless someone in the group has confirmed it from the annual report. **Korn has not yet decided which word to use — ask him this first when resuming.**
+**Page 3 (common-sized income statement):** fully drafted — pulled straight from the group's own `CS-IS` sheet in `FN201-EFORL-Data.xlsx` (no new research needed). Table + summary paragraph both written; the summary flags that 2021's 38.2%/35.9% operating/net margins are a one-off deconsolidation-gain artifact, not the underlying trend, and that the real story is selling expenses stepping up from ~13.5% to ~19–20% of revenue from 2022 onward and never coming back down.
+📌 **Not yet passed to the group:** page 5 (growth rates) will show revenue *falling* every year 2021→2023 before flattening — Crow flagged this to Korn as worth a heads-up to whoever owns that page, before they build it assuming growth. Korn had not yet acted on this when the session paused.
+▶️ **RESUME 13 Sep:** finalize the founder/controlling-shareholder wording, paste the two pages in, then decide whether to pass the page-5 heads-up along.
 
 ---
 
