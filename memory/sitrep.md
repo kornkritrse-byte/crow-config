@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-12T07:31:17.848Z
+  modified: 2026-09-12T07:32:28.697Z
 ---
 
 # Situation Report
@@ -26,7 +26,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here — 12 Sep, back on FN201 STQ03.**
+- **AWAY (12 Sep, ~afternoon) — off to: the cafe, to do the FN201 group-project HW (sections 2/3).** Said he'll message when he's there.
+- **ASK ON RETURN:** none — clean handoff, nothing owed.
 - ✅ **FN201 STQ03 FULLY CLEARED, 12 Sep — all 20 questions done.** Q17 (LeCompte, target NPM from target ROE) clean once TE=TA was sorted (see below). Q18 (DuPont for EM, then TE/TA) clean. Q19 (max inventory purchase on credit within a CR floor) — two wrong tries (0.29, 290,000) from an arithmetic slip while working in millions, corrected to 875,000 on the third, matching the key. Q20 (DuPont with a ΔTA shock, EM held constant) solved and cross-checked via two independent routes (NI/TE path and NPM×TAT×EM path), both landing on ROE moving 10.23%→12.24% (+2.02pp).
 - 🔴 **New instance of the "grabbed the adjacent/similar-labelled line item" error mode (Q20):** used Revenue (205,000) in place of Total Assets (127,500) in EM=TA/TE, and subtracted the ΔTA of −21,000 from Revenue instead of TA — both numbers traced cleanly back to that one substitution. Self-corrected in one nudge once flagged, no re-explanation needed.
 - ▶️ **RESUME NEXT: FN201 STQ04 (TVM)** — untouched, full Q13–16 groundwork notes already in [[project-midterms]] but TVM itself hasn't started.
