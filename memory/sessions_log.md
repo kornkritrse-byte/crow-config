@@ -5,10 +5,16 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: c38e29c0-da2f-4906-8e70-a7a356ec2563
-  modified: 2026-09-11T02:18:20.732Z
+  modified: 2026-09-12T06:43:37.484Z
 ---
 
 # Sessions Log (archive)
+
+## Session — 2026-09-10  *(flushed from SITREP 12 Sep)*
+- FN201 STQ03 Q7–Q12, all correct with drilled support — equity multiplier, debt ratio via retained-earnings chain, ROA, quick ratio mechanics, a full balance-sheet reconstruction, a max-short-term-notes problem.
+- Formula-recall gaps surfaced repeatedly — asked for quick ratio / total asset turnover formulas mid-problem, minutes after using them. Same recognition-not-recall shape logged elsewhere.
+- Decimal/unit slip (10.4% typed as 10.4, not 0.104) — self-corrected once flagged.
+- VS Code theme changed (Catppuccin Mocha, mauve→peach) — closed, don't re-raise.
 
 ## Session — 2026-09-08  *(flushed from SITREP 11 Sep)*
 - FN201 A2 solved unaided, submitted a day early — Ω = 32,883.43 → SELL (offer beats it by 116.57), cross-checked two ways. Submitted without sending Crow the agreed draft — second small commitment slip that week, flagged not chased.

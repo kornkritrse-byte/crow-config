@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 5b6c4e05-b760-4ef4-9ca7-afdb3856b8e3
-  modified: 2026-09-11T14:50:34.034Z
+  modified: 2026-09-12T06:45:58.246Z
 ---
 
 Opened 2026-08-23. **TOP PRIORITY.** Korn's stated order: midterms first, fitness second (fitness explicitly planned *around* studies).
@@ -552,7 +552,7 @@ All 25 IS/BS lines re-extracted programmatically from the published XLSXs and di
 - Du Pont story for page 11: equity multiplier falls 4.27× → 2.15× (hard deleveraging), turnover flat just under 1.0×, so the 2023→2025 ROE recovery is **margin-driven; leverage worked against it.**
 
 ## ⚠️ STILL ON THE GROUP, NOT ON CROW
-1. **Yellow `Inputs` cells** — year-end closing share price + DPS from SET, needed for ratios 19/20/21. **Korn took this job himself.** DPS almost certainly 0 (huge accumulated deficit every year; the 2020 One Report states outright the company made a loss and could not pay). **⚠️ EFORL did a 1-for-10 REVERSE SPLIT in 2022** (par 0.075→0.75, 39.98bn→4.00bn shares). 2021 EPS/BVPS in the file are POST-split, so a raw as-traded 2021 price must be ×10 or the 2021 P/E and M/B come out 10× too low. Test: if the 2021 price looks ~10× smaller than 2022's, it needs adjusting.
+1. ✅ **Yellow `Inputs` cells — DONE 12 Sep.** Crow filled `B6:F6` with year-end closing prices sourced from Yahoo Finance's chart API (SET's own historical-trading page is JS-rendered / unreachable by script, settrade's API 403'd): 2021 2.00, 2022 0.34, 2023 0.25, 2024 0.27, 2025 0.15. DPS row left at 0 for all years — cross-checked against SET factsheet + wisesheets dividend history, no dividend record 2021–2025 (consistent with the accumulated-deficit story; the 2020 One Report states outright the company made a loss and could not pay). **⚠️ EFORL did a 1-for-10 REVERSE SPLIT in 2022** (par 0.075→0.75, 39.98bn→4.00bn shares) — this was the risk that a raw as-traded 2021 price would need ×10 or the 2021 P/E and M/B come out 10× too low. **Tested and cleared 12 Sep:** the Yahoo close series is continuous across the 2022 boundary (2021's 2.00 is ~6× *larger* than 2022's 0.34, not ~10× smaller) — i.e. already split-adjusted, matching the flat ~4.00bn post-split share count the professor's data uses for all 5 years including 2021. No further adjustment needed. Not independently verified against SET's own tape — if grading precision matters, a manual settrade.com spot-check is still worth doing.
 2. **The 13-page written report** (guideline step 8) — the other half of the 15%. Group has split the pages and will work off the Excel. `Company Profile` sheet holds page-2 raw material (dividend policy, competitors, top shareholders, product mix) but it is **2020-vintage — refresh from the FY2025 One Report.**
 
 ---

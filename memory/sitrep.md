@@ -5,11 +5,11 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-11T14:51:31.401Z
+  modified: 2026-09-12T06:46:15.009Z
 ---
 
 # Situation Report
-*Last updated: 2026-09-11, day close. Verify + flush done: window holds 11 Sep + 10 Sep; 08 Sep condensed and flushed to [[sessions-log]].*
+*Last updated: 2026-09-12, live. Window holds 12 Sep + 11 Sep; 10 Sep condensed and flushed to [[sessions-log]].*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,16 +26,16 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (11 Sep, day close) — off to: home, done for the day.**
-- **ASK ON RETURN:** none — clean stop, nothing owed.
+- **Here — 12 Sep, back on FN201 STQ03.**
 - ▶️ **RESUME EXACTLY HERE — FN201 STQ03 Q17** (LeCompte Corp: assets 312,900, zero debt so equity = assets, revenue 620,000, wants ROE 15% — find required net profit margin). Just posed the question, he hadn't started before signing off. Q18–20 also untouched.
+- 🔴 **CORRECTION, 12 Sep — Crow gave a fabricated study-location claim, caught by Korn.** Told him "home = peak focus," conflating CLAUDE.md's night+coffee timing line with a location that was never established. Actual record ([[project-midterms]]): he does **not** study at home — flagged there as aspiration only ("lowkey should"); his locked zero-coordination solo default is **the cafe near home** (Starbucks/Bloom). Corrected call: **STQ at home, group-work sections 2/3 at the cafe** — his original instinct was right. Lesson: check project_midterms.md's location rules before giving study-location advice, don't extrapolate from a general CLAUDE.md trait.
 - 🚨 **BEFORE THE NEXT FN201 TOUCH: flag the Q15(c)/(d) part-mapping trap** — he (and Crow solo, 30 Aug) both put the right financial reasoning under the wrong question part. Full detail → [[project-midterms]] FN201 STQ03 section.
 - STQ04 (TVM) still not started. Full Q13–Q16 detail, error modes, and reusable framings → [[project-midterms]].
 - ▶️ **PRIOR RESUME POINT (8 Sep, still queued behind FN201 work):** AC313 job-costing cycle is SOLID (two clean full runs). ✅ **10 Sep: he independently resolved entry ORDERING/sequencing** — self-directed, not drilled. Still open: **joint-cost allocation timing** (untouched) and **process costing** (banked 8 Sep for its own dedicated session).
 - ✅ **FN201 A2 SUBMITTED 8 Sep, a day early.** Value of Ω = **32,883.43 → SELL** (offer 33,000 beats it by 116.57), cross-checked two ways, derived unaided after a drilled parallel example. ⚠️ **He submitted WITHOUT sending Crow the draft he agreed to send** — flagged once, not chased. If the mark comes back odd, debug from the PDF. Working + his 7 error modes + the reusable "Delta" drill problem → [[project-midterms]].
 - ✅ **AC311 zero-interest note mechanics DRILLED 11 Sep, holding well** (session note above). Next target: Ch.4 Problem 4 (FOB/CIF/DDP/consignment cut-off grid) or continue the Provision deck from p.24 — slides 26–30/34–45 still off-limits per his ask.
-- 🔄 **Input cells DELEGATED 8 Sep** — he handed the SET price/DPS job to a teammate. ⚠️ The 1-for-10 2022 reverse-split warning must go WITH the handoff or the teammate types a raw 2021 price and 2021 P/E and M/B silently come out 10× low.
-- 📘 **FN201 GROUP PROJECT — deliverable DONE and verified.** `~/Desktop/fn/FN201-EFORL-Data.xlsx`. **Due Wed 16 Sep 13:00 (sec 0264/01).** Full detail, decisions, the reverse-split warning and the 3 analytical angles → **[[project-midterms]]**. Outstanding on the group, not Crow: (a) SET closing price + DPS for the yellow `Inputs` cells — **Korn took this himself**; (b) the 13-page written report.
+- ✅ **1-for-10 2022 reverse-split risk RESOLVED 12 Sep.** Was flagged 8 Sep as a handoff risk (raw as-traded 2021 price would need ×10 vs post-split EPS/BVPS, or P/E and M/B come out 10× low). Tested against the Yahoo Finance series Crow pulled: 2021 close (2.00) is ~6× *larger* than 2022's (0.34), not ~10× smaller — a raw unadjusted 2021 price would make 2022 look ~59× cheaper, which isn't what the data shows. Yahoo's close series is continuous across the split boundary (no jump), i.e. already split-adjusted — matches the professor's post-split share count (~4.00bn) being flat across all 5 years including 2021. **No ×10 correction needed for the values Crow entered.** Full mechanics → [[project-midterms]].
+- 📘 **FN201 GROUP PROJECT — deliverable DONE and verified.** `~/Desktop/fn/FN201-EFORL-Data.xlsx`. **Due Wed 16 Sep 13:00 (sec 0264/01).** Full detail, decisions, and the 3 analytical angles → **[[project-midterms]]**. ✅ **12 Sep: `Inputs!B6:F6` filled** (2.00 / 0.34 / 0.25 / 0.27 / 0.15 for 2021–2025, split risk cleared — see bullet above) and the Ratios-sheet valuation section (P/E, Market/Book, div yield) confirmed recalculating correctly in Excel. ⚠️ Sourced from **Yahoo Finance** (raw chart API, parsed directly — not the small-model WebFetch summary), because SET's historical-trading page is JS-rendered and settrade's API 403'd every attempt; not independently confirmed against SET's own tape. DPS row (0 for all years) cross-checked against SET factsheet + wisesheets dividend history — no dividend record 2021–2025. If precision matters for grading, a manual settrade.com spot-check is still worth 5 minutes. Outstanding: the 13-page written report.
 - 📗 **AC311** — he is on **p.24 of the Provision deck**; ⛔ **he asked Crow NOT to teach beyond what class has covered** (so no measurement slides 26–30, no deep contingent-liability material yet). Coaching notes, error modes and the framings that landed → **[[project-midterms]]**. Priority is **journal entries** (his call; ~65 written / 35 MCQ).
 - ✅ **AC313 QUEUE — items 1 and 3 CLEARED 8 Sep** (Hawaii/Riverside actual-vs-normal drills; two full job-costing cycles with the exact ABC Corp error modes re-tested and NOT repeated — DL correctly stayed out of MOH, applied-OH entries correctly never touched Cash, over/underapplied → COGS direction correct both ways). Full detail + reusable drill problems → [[project-midterms]].
 - 📌 **STILL QUEUED:** joint-cost allocation timing (before/at/after split-off) — untouched. **Process costing** — new full topic, banked 8 Sep for its own session, start from equivalent units.
@@ -53,18 +53,19 @@ metadata:
 - **Race loose ends (not urgent, 14 weeks out):** venue unknown, and whether bib pickup is race-morning or in advance — his dad likely has the confirmation.
 - 🧭 **BBA camp: no announcement date exists.** Closed until they speak; don't ask again.
 
+## Session — 2026-09-12 (FN201 group project valuation fix, then back to STQ03)
+- 🎯 **FN201 EFORL group workbook — valuation section fixed and verified in Excel.** Diagnosed "fill Inputs" placeholders in Ratios rows 33–35, sourced 2021–2025 closing prices via Yahoo Finance, filled `Inputs!B6:F6`, confirmed P/E/M/B/div-yield recalculate correctly on open. Full detail → [[project-midterms]].
+- ✅ Tested and cleared the 8-Sep reverse-split risk against the sourced prices — no ×10 adjustment needed (detail above + [[project-midterms]]).
+- 🔴 **Crow correction:** fabricated a "home = peak focus" claim giving study-location advice — caught by Korn, corrected against [[project-midterms]]'s actual record (he doesn't study at home; cafe near home is the locked default). See Current status.
+- 🖥️ Minor snag: editing the xlsx via script left a macOS quarantine flag that forced Excel into Protected View on open, blocking scripted reads. Cleared with `xattr -d com.apple.quarantine`; one-off, not expected to recur unless the file gets script-edited again.
+- ▶️ Resuming FN201 STQ03 at Q17 (LeCompte Corp) — see Current status above.
+
 ## Session — 2026-09-11 (morning AC311 drill, then FN201 STQ03 Q13–16 through the day)
 - 🎯 **AC311 zero-interest note drilling (~1hr, morning)** — carrying value/contra-account mechanics held clean across 3 reps (2 cold); payable/receivable perspective flip and month-counting slip both resurfaced but self-corrected on a nudge. Detail → [[project-midterms]] AC311 section.
 - 🎯 **FN201 STQ03 Q13–Q16 all drilled and correct** — 20-ratio Wayabutara set, Chompupan 6-blank income statement, Rubber Ducklings 15-ratio+DuPont case, and a TIE-covenant max-debt-ratio problem (this last one zero errors, his cleanest run of the day).
 - 🔴 **Error modes today, same "grabbed the adjacent/similar-labelled line item" shape as the AC311 slips** — TIE mix-up (profit-before-tax vs EBIT, needed correcting twice), ROA/ROE divide-by-equity mix-up, a day-count slip (365 vs the specified 360). All self-corrected on one nudge, none re-explained from scratch.
 - 🚨 **Q15(c)/(d) part-mapping trap — not caught live, surfaced only afterward.** He gave financially sound reasoning but under the wrong question part, exactly the mistake Crow made solo against the official key on 30 Aug. Full detail + the rule to teach him → [[project-midterms]].
 - ▶️ Resume at Q17 (LeCompte, backward-solve NPM from target ROE) — see Current status above.
-
-## Session — 2026-09-10
-- 🎯 **FN201 STQ03 Q7–Q12, all correct with drilled support** — equity multiplier, debt ratio via retained-earnings chain, ROA, quick ratio mechanics, a full balance-sheet reconstruction, and a max-short-term-notes problem. Detail → [[project-midterms]].
-- 🔴 **Formula-recall gaps surfaced repeatedly** — asked for quick ratio / total asset turnover formulas mid-problem, minutes after using them. Same recognition-not-recall shape logged elsewhere.
-- ⚠️ Decimal/unit slip (10.4% typed as 10.4, not 0.104) — self-corrected once flagged.
-- 🖥️ VS Code theme changed (Catppuccin Mocha, mauve→peach) — config verified correct, he never confirmed the look, moved on unprompted. Closed, don't re-raise.
 
 ## 🎯 Current state
 - **MIDTERMS = TOP PRIORITY** ([[project-midterms]] — canonical). 🗓️ **Board: the Term 2.1 hub** — https://claude.ai/code/artifact/017ced5a-48b7-4101-a4a9-e18b38b4de3e · **front-load order revised 27 Aug: FN201 > BA202 > AC313 > AC311 > MK201 > EL221.** **Thammasat, BBA, Accounting major / Finance minor.** 6 exams 20–27 Sep. Classes end 11 Sep; **14–19 Sep is a free week and the spine of the plan.** ⛔ Only blocker: syllabi + textbook names.
