@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-13T09:01:33.357Z
+  modified: 2026-09-13T09:15:06.561Z
 ---
 
 # Situation Report
@@ -28,7 +28,8 @@ metadata:
 ## 🚪 Current status
 - **Here (2026-09-13)** — **FN201 STQ04 (TVM) STARTED.** ✅ Q15(c)/(d) part-mapping rule finally delivered before starting (was overdue twice — now CLOSED, drop it from the overdue list).
 - 🚨 **THE TVM FINDING — his formulas are 100% clean; `n` is the only thing broken.** He overwrote a GIVEN n with a date **five times in one session**. The questions state n in plain English ("6 payments total") and he replaces it with a calendar position. ⛔ **Do not re-teach formulas.** Fix = the 5-step pre-flight (write n off the text → freeze it → derive `last = first + (n−1)` → gap → only then a formula). Full breakdown + the "4 primitives + 2 moves" reframe of the 13 cash-flow types → [[project-midterms]].
-- ▶️ **RESUME AT Q7** (PV mirror of Q6). Q6 + Crow's drills A–D complete; C and D clean with setup done unprompted. ⛔ **Do NOT go back to Q1 until Q6–Q9 are solid** — it's a past-midterm growing-annuity monster.
+- **AWAY (2026-09-13) — off to: a 5-min break mid-drill.** Working a 7-question mixed TVM set Crow built (answers given for self-check). On return: ask how the set went, then **Q8 (perpetuities)**.
+- ✅ **Q6 AND Q7 COMPLETE**, plus Crow's drills A–D. Q7(c) delayed annuity needed a full walk-through ("idk how to do this one") — landed via the **two-move frame: collapse with PVIFA → then carry as a plain lump sum.** He then asked a sharp unprompted question ("when do I ever multiply?") — answered with the 3-case table; he'd already done the multiply case in Q7(b) without registering it. ⛔ **Do NOT go back to Q1 until Q6–Q9 are solid** — it's a past-midterm growing-annuity monster.
 - ✅ **FN201 group report pages 2–3 — FINISHED 13 Sep.** Page 3 prose written, critiqued and corrected (his own draft had inverted the thesis — said the problem was *cost of sales* when COGS was the one stable line; real story is the 9-pt SG&A step-up). Page 2 rewritten: "stay afloat" cut for the 2nd time, "founder" → **controlling shareholder** (resolved — his own founding-history paragraph contradicted "founder"), and his 3-category revenue split **replaced with the audited 97.1% / 2.9% distribution-vs-services split** — the filings state ONE operating segment, so the 3-way claim was unsupported. Sources table given. Full detail → [[project-midterms]].
 - ✅ **FN201 STQ03 FULLY CLEARED, 12 Sep — all 20 questions done.** Q17–Q20 finished tonight (LeCompte target-NPM backsolve, DuPont/EM, max-inventory-purchase, ΔTA DuPont shock) — all correct, one arithmetic slip self-corrected. Full workings → [[project-midterms]].
 - 🔴 **Recurring error mode (Q20):** grabbed Revenue instead of Total Assets in EM=TA/TE — same "adjacent/similar-labelled line item" shape as AC311. Self-corrected in one nudge.
