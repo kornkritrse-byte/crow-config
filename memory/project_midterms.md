@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 5b6c4e05-b760-4ef4-9ca7-afdb3856b8e3
-  modified: 2026-09-13T10:37:26.612Z
+  modified: 2026-09-13T11:00:44.684Z
 ---
 
 Opened 2026-08-23. **TOP PRIORITY.** Korn's stated order: midterms first, fitness second (fitness explicitly planned *around* studies).
@@ -690,6 +690,15 @@ He asked unprompted whether the formula sheet's bigger equations reduce to somet
 **Sanity-check bracket that landed well** (use this framing again): a growing annuity must sit between the flat annuity and the growing perpetuity. Q10(a): flat 855.95 < **1,017.73** < perpetuity 2,000. ✓
 
 **Answers for checking — Q7:** 671.01 · 724.69 · 532.67. **Q8:** 1,250 · 1,350 · 787.71. **Q9:** 2,000 · 2,160 · 857.77 · 1,000. **Q10:** 1,017.73 · 1,099.15 · 872.54 · 767.17.
+
+### 🧮 EXAM CALCULATOR POLICY — CONFIRMED 13 Sep from the FN201 syllabus (`~/Desktop/class outline/FN201-26F-BBA-CS-V3-260713.pdf`)
+> *"Exams are proctored closed-book ones with **sufficient formula and interest-factor tables provided**. Students are allowed to use **up to two simple, or non-graphing and non-programmable scientific, or financial calculators.**"*
+
+✅ **A financial calculator (TVM keys) IS allowed.** Korn raised this himself mid-drill ("I could've just used my finance calculator"). **He should use one** — his error profile has shifted from concepts to arithmetic/keying slips, and TVM keys remove several manual steps.
+⚠️ **But it does NOT remove the failure mode.** The calculator automates step 5 of the pre-flight only; steps 1–4 (n, first, landing, gap) are still his. Specifically: **BGN vs END mode is the annuity-due decision** — if he doesn't recognise a due, the calculator returns a confidently wrong number. Every error he made on 13 Sep would have happened on a calculator too.
+📌 **ACTION: he must practise on the actual device before 23 Sep**, especially BGN↔END switching. A fumbled calculator under time pressure is worse than none.
+- Q11 on TVM keys: **BGN**, N=25, I/Y=7.5, PV=−3,750,000, FV=0, CPT PMT → 312,944.20
+- Q12 on TVM keys: **END**, I/Y=7.5, PV=−3,750,000, PMT=640,226.34, FV=0, CPT N → 7.99997
 
 ### Progress + where to resume
 - **Q6 (a)–(e) COMPLETE.** Teaching point landed: (a), (c), (e) are all 1,448.66 — *"FV depends on n and the gap, the calendar is irrelevant."*
