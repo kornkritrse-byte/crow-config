@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-13T10:37:12.852Z
+  modified: 2026-09-13T11:09:58.159Z
 ---
 
 # Situation Report
@@ -28,8 +28,10 @@ metadata:
 ## 🚪 Current status
 - **Here (2026-09-13)** — **FN201 STQ04 (TVM) STARTED.** ✅ Q15(c)/(d) part-mapping rule finally delivered before starting (was overdue twice — now CLOSED, drop it from the overdue list).
 - 🚨 **THE TVM FINDING — his formulas are 100% clean; `n` is the only thing broken.** He overwrote a GIVEN n with a date **five times in one session**. The questions state n in plain English ("6 payments total") and he replaces it with a calendar position. ⛔ **Do not re-teach formulas.** Fix = the 5-step pre-flight (write n off the text → freeze it → derive `last = first + (n−1)` → gap → only then a formula). Full breakdown + the "4 primitives + 2 moves" reframe of the 13 cash-flow types → [[project-midterms]].
-- **AWAY (2026-09-13) — off to: a second 5-min break.** Mid-STQ04, paused at **Q11** (the uncle/retirement worded problem — annuity due, solve for PMT from a given PV). On return: pick up Q11 directly, he was asked for n / primitive / unknown / landing date.
-- ✅ **Q6–Q10 COMPLETE — all five primitives and all three moves done**, plus 15 extra Crow-built drills (A–D, then a 7-set, then an 8-set he asked for: "4pv 4fv"). Q7(c) delayed annuity needed a full walk-through ("idk how to do this one") — landed via the **two-move frame: collapse with PVIFA → then carry as a plain lump sum.** ⛔ **Do NOT go back to Q1 until Q11–Q12 are done** — it's a past-midterm growing-annuity monster.
+- **AWAY (2026-09-13) — off to: a break.** Mid-STQ04, paused at **Q13** (past midterm S/AY2019 — the tungsten mine). He'd been asked to break the stream into its 4 pieces + find the quarterly rate; nothing computed yet. **Crow's verified answer: PV = 33,904.05 → BUY** (600×9 due = 4,811.82 · 800@t11 = 577.94 · 1000@t20 = 553.68 · growing perp from t=21 lands t=20 at 50,500 → 27,960.63).
+- ✅ **Q6–Q12 COMPLETE**, plus ~15 extra Crow-built drills. All five primitives, all three moves, both reversals (solve-for-PMT Q11, solve-for-n Q12). ⛔ **Do NOT go back to Q1 until Q13–Q16 are done.**
+- 🚨 **Q13 ≈ his A2 assignment — same skeleton, SAME 33,000 price, but the answer FLIPS** (A2 = 32,883.43 → sell; Q13 = 33,904.05 → buy). **Flagged to him so he doesn't pattern-match the conclusion.** Q5 (oil-palm plantation) is the same shape again — Obrom reuses this question type heavily. Worth mastering once.
+- ✅ **FINANCIAL CALCULATORS ARE ALLOWED** (FN201 syllabus, confirmed 13 Sep — up to two, non-graphing/non-programmable). ⚠️ **He only has a PHONE APP — that won't be permitted in a proctored exam. He needs a physical device this week** and must practise BGN↔END before 23 Sep. Detail → [[project-midterms]].
 - ✅ **FN201 group report pages 2–3 — FINISHED 13 Sep.** Page 3 prose written, critiqued and corrected (his own draft had inverted the thesis — said the problem was *cost of sales* when COGS was the one stable line; real story is the 9-pt SG&A step-up). Page 2 rewritten: "stay afloat" cut for the 2nd time, "founder" → **controlling shareholder** (resolved — his own founding-history paragraph contradicted "founder"), and his 3-category revenue split **replaced with the audited 97.1% / 2.9% distribution-vs-services split** — the filings state ONE operating segment, so the 3-way claim was unsupported. Sources table given. Full detail → [[project-midterms]].
 - ✅ **FN201 STQ03 FULLY CLEARED, 12 Sep — all 20 questions done.** Q17–Q20 finished tonight (LeCompte target-NPM backsolve, DuPont/EM, max-inventory-purchase, ΔTA DuPont shock) — all correct, one arithmetic slip self-corrected. Full workings → [[project-midterms]].
 - 🔴 **Recurring error mode (Q20):** grabbed Revenue instead of Total Assets in EM=TA/TE — same "adjacent/similar-labelled line item" shape as AC311. Self-corrected in one nudge.

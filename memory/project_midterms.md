@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 5b6c4e05-b760-4ef4-9ca7-afdb3856b8e3
-  modified: 2026-09-13T11:00:44.684Z
+  modified: 2026-09-13T11:10:13.655Z
 ---
 
 Opened 2026-08-23. **TOP PRIORITY.** Korn's stated order: midterms first, fitness second (fitness explicitly planned *around* studies).
@@ -699,6 +699,15 @@ He asked unprompted whether the formula sheet's bigger equations reduce to somet
 📌 **ACTION: he must practise on the actual device before 23 Sep**, especially BGN↔END switching. A fumbled calculator under time pressure is worse than none.
 - Q11 on TVM keys: **BGN**, N=25, I/Y=7.5, PV=−3,750,000, FV=0, CPT PMT → 312,944.20
 - Q12 on TVM keys: **END**, I/Y=7.5, PV=−3,750,000, PMT=640,226.34, FV=0, CPT N → 7.99997
+
+### Q11–Q12 (worded problems, no table) — both correct, with one real trap
+- **Q11** (uncle, 3,750,000, 25 yrs, 7.5%, withdrawals at the BEGINNING) = **312,944.20**. Annuity due, solve for PMT. He asked *why* the 11.1469 factor needed ×1.075 — answered via the landing rule (pile sits at t=−1) **plus** the intuition: a due factor is bigger, it's in the denominator, so the affordable withdrawal is *smaller*. Ordinary version would be 336,415.02.
+- **Q12** (same pot, PMT 640,226.34 given, solve for **n**) = **7**, not 8. 🚨 **Designed trap: true n = 7.99997, and a calculator rounds the display to 8.** After 7 withdrawals the balance is 595,559.36 — less than the 640,226.34 needed for an 8th, so it cannot be made. **His calculator app displayed 8; he instinctively answered 7 and asked whether 7.9 was better.** Rule given: on any "maximum number of payments" question, always round DOWN, and never trust an N display that lands on a suspiciously round integer — verify the last payment can actually be funded.
+
+### 🔁 Q13 ≈ A2 — SAME SKELETON, OPPOSITE ANSWER (flagged 13 Sep)
+Korn spotted it himself ("q13 is similar to the hw right"). Correct — **same THB 33,000 price, same buy/sell-and-justify framing, same multi-segment stream ending in a growing perpetuity.** ⚠️ **But the cash flows differ and the conclusion REVERSES:** A2 = 32,883.43 → SELL (offer beat value by 116.57); **Q13 = 33,904.05 → BUY** (value beats price by 904.05). Told to him before he started so he wouldn't pattern-match the verdict.
+**Q13 decomposition (verified):** quarterly rate 3%. · 600 × 9 at t=0–8, annuity **due** → 4,811.82 · 800 at t=11 → 577.94 · 1,000 at t=20 → 553.68 · growing perpetuity first CF 1,010 at t=21, g=1% → lands t=20 at 50,500 → 27,960.63. **Total 33,904.05.**
+➡️ **Q5 (oil-palm plantation) is this same shape a third time.** Obrom reuses it heavily — segments, gaps of zeros, perpetuity tail. **Master the method once: chop the stream into pieces you have a primitive for, value each at t=0, sum.**
 
 ### Progress + where to resume
 - **Q6 (a)–(e) COMPLETE.** Teaching point landed: (a), (c), (e) are all 1,448.66 — *"FV depends on n and the gap, the calendar is irrelevant."*
