@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-12T15:01:03.292Z
+  modified: 2026-09-13T03:16:06.584Z
 ---
 
 # Situation Report
@@ -26,8 +26,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (2026-09-12, night) — off to: sleep.** Day closed clean, no open ask.
-- ✅ **FN201 group report pages 2–3 — drafted with Crow tonight, PAUSED mid-work, resume 13 Sep.** Shareholders/dividend/market-share sourced and written; closing paragraph landed. Only open item: founder-vs-controlling-shareholder wording for Wichai Thongtang, unresolved. Full detail → [[project-midterms]].
+- **AWAY (2026-09-13, afternoon) — off to: a break.** Returning to do **FN201 STQ04 (TVM)** — he said so explicitly. On return: go straight to STQ04, no warm-up needed. ⚠️ **Raise the Q15(c)/(d) part-mapping trap BEFORE starting** (overdue twice now — see the STILL OVERDUE bullet below).
+- ✅ **FN201 group report pages 2–3 — FINISHED 13 Sep.** Page 3 prose written, critiqued and corrected (his own draft had inverted the thesis — said the problem was *cost of sales* when COGS was the one stable line; real story is the 9-pt SG&A step-up). Page 2 rewritten: "stay afloat" cut for the 2nd time, "founder" → **controlling shareholder** (resolved — his own founding-history paragraph contradicted "founder"), and his 3-category revenue split **replaced with the audited 97.1% / 2.9% distribution-vs-services split** — the filings state ONE operating segment, so the 3-way claim was unsupported. Sources table given. Full detail → [[project-midterms]].
 - ✅ **FN201 STQ03 FULLY CLEARED, 12 Sep — all 20 questions done.** Q17–Q20 finished tonight (LeCompte target-NPM backsolve, DuPont/EM, max-inventory-purchase, ΔTA DuPont shock) — all correct, one arithmetic slip self-corrected. Full workings → [[project-midterms]].
 - 🔴 **Recurring error mode (Q20):** grabbed Revenue instead of Total Assets in EM=TA/TE — same "adjacent/similar-labelled line item" shape as AC311. Self-corrected in one nudge.
 - ▶️ **RESUME NEXT: FN201 STQ04 (TVM)** — untouched, full Q13–16 groundwork notes already in [[project-midterms]] but TVM itself hasn't started.

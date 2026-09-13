@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 5b6c4e05-b760-4ef4-9ca7-afdb3856b8e3
-  modified: 2026-09-12T14:51:00.504Z
+  modified: 2026-09-13T03:16:39.036Z
 ---
 
 Opened 2026-08-23. **TOP PRIORITY.** Korn's stated order: midterms first, fitness second (fitness explicitly planned *around* studies).
@@ -561,6 +561,26 @@ All 25 IS/BS lines re-extracted programmatically from the published XLSXs and di
 **Page 3 (common-sized income statement):** fully drafted — pulled straight from the group's own `CS-IS` sheet in `FN201-EFORL-Data.xlsx` (no new research needed). Table + summary paragraph both written; the summary flags that 2021's 38.2%/35.9% operating/net margins are a one-off deconsolidation-gain artifact, not the underlying trend, and that the real story is selling expenses stepping up from ~13.5% to ~19–20% of revenue from 2022 onward and never coming back down.
 📌 **Not yet passed to the group:** page 5 (growth rates) will show revenue *falling* every year 2021→2023 before flattening — Crow flagged this to Korn as worth a heads-up to whoever owns that page, before they build it assuming growth. Korn had not yet acted on this when the session paused.
 ▶️ **RESUME 13 Sep:** finalize the founder/controlling-shareholder wording, paste the two pages in, then decide whether to pass the page-5 heads-up along.
+
+### ✅ PAGES 2–3 CLOSED 13 Sep 2026
+
+**Page 3 — prose written, after correcting a thesis inversion in Korn's own draft.** His opening sentence said the problem "lay within the cost of sales." **That is backwards** — COGS held 64.97–66.78% and *improved* in 2025; the problem sits in operating expenses below the gross line. Final framing: gross margin stable ~33% (35.03% in 2025) while net margin never cleared 3.55% outside 2021 → all movement happened between gross profit and operating profit. 2021 stripped of the 25.83%-of-revenue deconsolidation gain gives an underlying operating margin of **12.67%** (this is the comparable baseline, not 38.19%). Selling 13.46→~19.6 and admin 7.76→10.27 = a **+9.00pt combined SG&A step** that accounts for nearly all of the 9.26pt fall to the **3.41% trough in 2023**. 2025 recovery is **gross-margin-driven, not cost-driven** — evidenced by operating margin 5.20% still sitting BELOW 2022's 5.71%.
+- 🎓 **He learned the gross-margin-driven vs cost-driven distinction cold** — answered the check question correctly unprompted.
+- Trimmed from the table: `Loss on disposal of subsidiaries` (0.32%, immaterial). Kept the deconsolidation gain (25.83%, it is the reason the 2021 caveat exists).
+- ⚠️ His draft also used `(~6%)` / `(~3%)` for expense *changes*, which reads as levels (they're ~20% and ~10% of revenue). Fixed to percentage points.
+
+**Page 2 — rewritten. Three substantive corrections:**
+1. 🚨 **"stay afloat" came back and was cut for the SECOND time** (first cut 12 Sep). The 13 Sep version was worse — *"is able to stay afloat by diversifying their revenue"* asserts a causal mechanism with no evidence, on a page that is meant to be pure description. **Watch for this phrase specifically; it has recurred once already.**
+2. ✅ **FOUNDER QUESTION RESOLVED — use "controlling shareholder."** The decisive argument was internal, not external: Korn's own paragraph says EFORL was founded in 2005 as **Absolute Impact PLC, an advertising and media company**, pivoting to medical only after the 2009 IPO. Wichai Thongtang holding 15.92% today is not the founder of a 2005 ad agency. No external verification was ever found for "founder" (12 Sep or 13 Sep).
+3. 🔴 **His 3-category revenue split was UNSUPPORTED and is now replaced with audited figures.** He wrote revenue was diversified across "monitoring/diagnostic, respiratory/ICU, and IT & after-sales service." **The FY2025 notes say EFORL has ONE operating segment and no major customers**, and disaggregate revenue only two ways. Real numbers, 2025 consolidated: **distribution ฿1,267,458k = 97.1%**, **services ฿38,110k = 2.9%** (2024: ฿1,311,293k / ฿28,714k = 97.9% / 2.1%). Services is small but **growing +32.7% YoY while distribution declined −3.3%** — a better fact than the claim it replaced.
+4. Added the required **market share** item as "not publicly disclosed" (guideline says "if available" — stating it shows the search happened).
+
+### 📚 PAGE 2 SOURCE PROVENANCE (compiled 13 Sep — needed for the bibliography)
+- **Primary, verifiable locally:** revenue composition + segment/no-major-customers → FY2025 consolidated FS, Notes "REVENUES" and "SEGMENT REPORTING", `~/Desktop/fn group/1001FIN260220262209470450E/NOTES.DOCX`. Unappropriated deficit → the five `FINANCIAL_STATEMENTS.XLSX` filings. Cite as *E for L Aim PCL, Annual Financial Statements FY2021–FY2025, SET.*
+- ⚠️ **URLS NOT RECORDED — a real gap.** Shareholder percentages (Wichai 15.92%, Supachai 3.63%, Krisorn 3.5%, dated Mar 2026), the no-dividend finding, and the Yahoo Finance year-end prices were all sourced in-session on 12 Sep **without saving the links.** Told him plainly rather than inventing citations. Fix: SET's own EFORL company page carries both the major-shareholder table and historical trading — one visit covers both. **LESSON: save the URL at the moment of sourcing when the output feeds a cited academic document.**
+- **Korn's own unverified research** (he must supply his own sources): product list · founded 2005 as Absolute Impact PLC / MAI listing / 2009 IPO · the 2022 Mindray + April restructure + November distributor-status timeline · competitor list (Meditop, Mind Medical, R.X. Company, Nipro, Cardinal Health). ✅ Partial corroboration: the April share restructuring matches the **1-for-10 reverse split** verified from the filings (par ฿0.075→0.75, 39.98bn→4.00bn shares).
+- ⛔ **CEO name: NOT in any filing held locally** (the auditor's report addresses the Board generically; the One Report in `~/Desktop/fn group/` is 2020-vintage). Crow declined to guess. The guideline does **not** require a CEO — it's optional under "etc." If he wants it, it goes at the end of the shareholder paragraph, name pulled from SET's company profile or the FY2025 One Report.
+- 📌 **Page-5 heads-up STILL not passed to the group** (carried from 12 Sep): revenue *falls* every year 2021→2023 before flattening — whoever owns growth rates should know before building that page.
 
 ---
 
