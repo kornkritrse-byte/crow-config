@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 5b6c4e05-b760-4ef4-9ca7-afdb3856b8e3
-  modified: 2026-09-13T09:01:25.473Z
+  modified: 2026-09-13T10:37:26.612Z
 ---
 
 Opened 2026-08-23. **TOP PRIORITY.** Korn's stated order: midterms first, fitness second (fitness explicitly planned *around* studies).
@@ -677,6 +677,19 @@ He computed all 15 ratios + the 3-component DuPont correctly. For (c)/(d) he pro
 He asked unprompted whether the formula sheet's bigger equations reduce to something simpler — they do: **13 named cash-flow types (S/RA/AD/DA/RP/PD/DP/RGP/GPD/DGP/RGA/GAD/DGA) = 4 primitives + 2 moves.** Primitives: lump sum · annuity (PVIFA/FVIFA) · perpetuity C/r · growing perpetuity C/(r−g) [+ growing annuity]. Moves: **due = × (1+r)** · **delayed = don't touch the formula, just walk the answer to the date you want.** Seven of the thirteen names are not formulas at all. **Re-use this framing — it visibly reduced his load.**
 - Also corrected: he gave `14.49` as an answer when it was the **factor** — PVIFA/FVIFA give the per-baht factor, cash enters only at × PMT.
 - `i/m` = periodic rate = the `r` that goes in the formula; **r and n must be in the same unit** (Q2's 12% quoted / 30 monthly → r=0.01, n=30, NOT r=0.12, n=2.5).
+
+### 📈 SESSION 2 OF 13 SEP — Q7–Q10 DONE, ERROR PROFILE HAS SHIFTED
+**The `n`-overwriting habit is essentially fixed.** After the 5-step pre-flight was installed he ran ~15 Crow-built drills plus Q7–Q10 with **zero** further n errors. What's left is a different, milder class:
+| New failure mode | Instances | Fix that worked |
+|---|---|---|
+| **Wrong direction on the move** (multiplied when he should divide) | Q8(c) | **Sanity check: later payments = smaller value, earlier = bigger.** Q8(c) answer came out *larger* than the base — impossible on sight. |
+| **Used `g` instead of `r` for the carry** | Q9(b) | *Growth lives in the denominator; moving money through time is always (1+r).* The sheet's `GPD` row uses `FVIF(i%,1)` — no `g` in it. |
+| **Calculator typos** (× instead of −; 0.08 for 0.98) | Q9(a), Q10(d) | Same sanity check catches these too — **this is now his dominant failure mode, not concepts.** |
+⚠️ **CROW MISDIAGNOSED TWICE**, both times attributing a typo to a conceptual error (claimed he fed a PV in as C on Q9(a); claimed a number "migrated" from Q9(d) to Q10(d)). Korn corrected both. **Lesson: when a wrong answer has two possible causes, ASK which he did before asserting one** — the ask-what-you-did move worked well earlier in the session (it's how the `n=7` and `n=6` diagnoses were confirmed).
+
+**Sanity-check bracket that landed well** (use this framing again): a growing annuity must sit between the flat annuity and the growing perpetuity. Q10(a): flat 855.95 < **1,017.73** < perpetuity 2,000. ✓
+
+**Answers for checking — Q7:** 671.01 · 724.69 · 532.67. **Q8:** 1,250 · 1,350 · 787.71. **Q9:** 2,000 · 2,160 · 857.77 · 1,000. **Q10:** 1,017.73 · 1,099.15 · 872.54 · 767.17.
 
 ### Progress + where to resume
 - **Q6 (a)–(e) COMPLETE.** Teaching point landed: (a), (c), (e) are all 1,448.66 — *"FV depends on n and the gap, the calendar is irrelevant."*
