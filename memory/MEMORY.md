@@ -8,6 +8,7 @@
 - [Midterms](project_midterms.md) — 6 exams 20–27 Sep 2026. ✅ UNBLOCKED — outlines read, full plan on the calendar. 🚨 24 Aug: **he has attended ZERO FN201 content classes and ZERO BA202 classes** (the 45% paper); the reds were ranked by difficulty, not exposure. Job now is adherence, not planning.
 
 ## 🟢 Active — other
+- [Morning Person](project_morning_person.md) — his own call 13 Sep 2026: actively trying to become one and "make use of the time in my days"; first attempt Mon 14 Sep (gym before class). ⚠️ Collides with the midnight–1am study pattern — track whether mornings HAPPEN, not whether he still wants them
 - [Training Plan](project_training_plan.md) — ⚠️ goal changed 23 Aug to LEANER ONLY (climber shaping dropped, weight work now full-body retention); 4 days/wk = 2 gym (1hr weights + 1hr cardio) + 2 runs; run structure pending his running stats; 5k-in-20:00 is the horizon goal
 - [Google Docs MCP](project_google_docs_mcp.md) — working on the Mac via bin/gdocs-launcher.cjs; credentials at ~/.google/ (outside git)
 - [rclone Drive Upload](project_rclone_drive.md) — remote `gdrive` on the Windows laptop; the working path for any local→Drive file transfer

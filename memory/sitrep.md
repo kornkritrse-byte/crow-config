@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-13T12:08:27.847Z
+  modified: 2026-09-13T13:28:06.756Z
 ---
 
 # Situation Report
@@ -28,7 +28,10 @@ metadata:
 ## 🚪 Current status
 - **Here (2026-09-13)** — **FN201 STQ04 (TVM) STARTED.** ✅ Q15(c)/(d) part-mapping rule finally delivered before starting (was overdue twice — now CLOSED, drop it from the overdue list).
 - 🚨 **THE TVM FINDING — his formulas are 100% clean; `n` is the only thing broken.** He overwrote a GIVEN n with a date **five times in one session**. The questions state n in plain English ("6 payments total") and he replaces it with a calendar position. ⛔ **Do not re-teach formulas.** Fix = the 5-step pre-flight (write n off the text → freeze it → derive `last = first + (n−1)` → gap → only then a formula). Full breakdown + the "4 primitives + 2 moves" reframe of the 13 cash-flow types → [[project-midterms]].
-- **Here (2026-09-13)** — back from eating, resuming **STQ04 Q13** (past midterm S/AY2019 — the tungsten mine). **Crow's verified answer: PV = 33,904.05 → BUY** (600×9 due = 4,811.82 · 800@t11 = 577.94 · 1000@t20 = 553.68 · growing perp from t=21 lands t=20 at 50,500 → 27,960.63).
+- **Here (2026-09-13)** — FN201 STQ04 session closed at Q13; Crow called it (attention drift into meta-questions) and he agreed to stop.
+- 🌅 **NEW GOAL, his own words, he asked for it to be written down: "I AM ACTIVELY TRYING TO BECOME A MORNING PERSON. make use of the time in my days."** First attempt **Mon 14 Sep — gym before the 09:00 AC313 class.** ⚠️ Flagged to him: this collides head-on with his midnight–1am crunch-study pattern, 9 days out from exam 1; one has to give and he hasn't said which. Full file → [[project-morning-person]]. **Ask how it went when he next appears — don't nag before.**
+- 📌 **TOMORROW (Mon 14 Sep) — ask Ajarn Monvika the three AC313 questions. LAST class before the exam** (no classes in exam week): (1) format + MCQ/written split, (2) is a formula sheet provided, (3) confirm the exam date — her outline still says TBA, the 22 Sep date is timetable-only. Session 7 tomorrow = joint products, the one AC313 topic still untouched.
+- ▶️ **NEXT FN201 SESSION OPENS WITH Q2** (amortised loan) — highest-risk untouched area, deliberately left for a fresh head.
 - ✅ **Q6–Q12 COMPLETE**, plus ~15 extra Crow-built drills. All five primitives, all three moves, both reversals (solve-for-PMT Q11, solve-for-n Q12). ⛔ **Do NOT go back to Q1 until Q13–Q16 are done.**
 - 🚨 **Q13 ≈ his A2 assignment — same skeleton, SAME 33,000 price, but the answer FLIPS** (A2 = 32,883.43 → sell; Q13 = 33,904.05 → buy). **Flagged to him so he doesn't pattern-match the conclusion.** Q5 (oil-palm plantation) is the same shape again — Obrom reuses this question type heavily. Worth mastering once.
 - ✅ **FINANCIAL CALCULATORS ARE ALLOWED** (FN201 syllabus, confirmed 13 Sep — up to two, non-graphing/non-programmable). ✅ **CLOSED 13 Sep — he already owns a physical one at home ("dont worry"). Stop raising it.** Only residual: BGN↔END muscle memory on that specific device (today's due-mode adjustment was done on a phone app). Detail → [[project-midterms]].
