@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 6b179f8b-0d5d-4b21-b9e8-8a36a0feb75f
-  modified: 2026-09-12T13:25:30.502Z
+  modified: 2026-09-13T01:28:25.514Z
 ---
 
 ## ⚠️ 2026-08-23 — GOAL CHANGED, July plan superseded
@@ -97,7 +97,14 @@ At **64kg and a claimed 12–15% BF he is already lean** — if that number is a
 | **C** | 20 min continuous @ **5:20**, then 6 × 20 s strides |
 | **D** | fartlek — 8 × (1 min hard / 2 min easy), by feel, no watch |
 
-**Rotation position:** A ran Sun 6 Sep → **B is due Sun 13 Sep.**
+**Rotation position:** A ran Sun 6 Sep → B ran Sun 13 Sep (see result below).
+
+### 📊 Sun 13 Sep — Rotation B, actual (from Morning_Run.fit)
+Ran 06:05, 6.36km/35:44 total. Warmup 1.4km@7:21/km, then 5 reps: 4:26, 4:11, 4:03, **3:55**, 4:11/km (jogs 7:00–11:20/km between). **Prescribed was 4:45–4:55/km — every rep ran 20–60s/km faster, and paces got faster through the set**, not maintained. His read: felt controlled, didn't gas out; rep pace "4:30 felt off so I pushed it." No HR data (watch not paired to a strap that day).
+⚠️ **Third self-directed intensity override this month** (10 Sep sub-60 10k float, 12 Sep cadence-stack float, now this one actually executed). Possible reads: (a) the 27 Aug baseline is stale and his body knows it, (b) same execute-before-setup pattern as the FN201 misses. Not resolved — his call, not a verdict.
+
+### ⚠️ 13 Sep — ANKLE: STOP FLAGGING IT REFLEXIVELY
+Korn's own words: **"my ankle is 100% fine... nothing has felt off since it healed... dont worry about it at all."** Stated emphatically, twice, unprompted follow-up. **Do not lead with the ankle-injury angle every time his pace runs hot going forward** — he has better data on his own body than a splits file does. If pace deviations keep happening, frame it as plan-adherence/pacing-discipline, not injury risk, unless he reports something new himself.
 
 Every session: **10–15 min easy warm-up + 4 strides** before anything hard. Non-negotiable with that ankle.
 
