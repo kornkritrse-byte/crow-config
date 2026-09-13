@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 5b6c4e05-b760-4ef4-9ca7-afdb3856b8e3
-  modified: 2026-09-13T03:16:39.036Z
+  modified: 2026-09-13T09:01:25.473Z
 ---
 
 Opened 2026-08-23. **TOP PRIORITY.** Korn's stated order: midterms first, fitness second (fitness explicitly planned *around* studies).
@@ -646,6 +646,44 @@ He computed all 15 ratios + the 3-component DuPont correctly. For (c)/(d) he pro
 - ⚠️ **NOT corrected live in-session** (surfaced only while writing this note after he'd logged off) — **flag this explicitly on the next FN201 touch, before the exam.** This is a two-time-now pattern (Crow solo 30 Aug, Korn guided 11 Sep) — worth naming the rule to him directly: *"unambiguous cause" question → scan only the ratios actually in the table; "efficiency weakness" question → map straight onto NPM/TAT/EM, nothing else.*
 
 **Still untouched: Q17 (LeCompte, backward-solve NPM from a target ROE — posed, not started), Q18, Q19, Q20.** Q17 resume point: assets 312,900, zero debt (equity=assets), revenue 620,000, target ROE 15% → required NPM.
+
+## 🧮 FN201 STQ04 (TVM) — STARTED 13 Sep 2026. THE FINDING: `n` IS THE ONLY THING BROKEN
+
+⚠️ **He opened with "I have no fucking clue how to do TVM stuff"** — contradicts the 27 Aug drill score (11/16 cold, including delayed annuity + growing perpetuity). Read: decay + low confidence, not a void. **Confirmed by the session** — every formula he selected was the correct formula; he has never once picked the wrong primitive.
+
+### 🚨 THE ERROR MODE — he overwrites a GIVEN `n` with a DATE. Five times in one session.
+| # | Where | What he did |
+|---|---|---|
+| 1 | Q6(b) | used n=9, given 10 |
+| 2 | Prac A | named the **first** payment date as the pile's landing date |
+| 3 | Prac A | used n=7 — fed in the **last payment date** as n |
+| 4 | Prac B | used n=6, given 5 (first PMT at t=0 read as an *extra* payment) |
+| 5 | Prac D | used n=5, given 6 — let the **valuation date truncate the stream** |
+➡️ **Root cause is one thing: he derives `n` from dates.** The questions *hand him n in plain English* ("6 payments total") and he replaces it with a calendar position. **This is the same failure as the 27 Aug Q5 miss and the same shape as his FN201/AC311 "adjacent line item" grabs.**
+➡️ ⛔ **Do NOT re-teach formulas. His formula selection is 100% clean.** All marks at risk on 23 Sep are setup marks.
+
+### ✅ THE FIX THAT LANDED — the 5-step pre-flight (supersedes the 3-question version for annuities)
+1. Write **n** straight off the question text. **It is a transcription, not a calculation.** Once written it is frozen.
+2. Write **first** off the text.
+3. **last = first + (n − 1)**  ← derive dates FROM n, never n from dates
+4. **gap = valuation − last** (sign matters)
+5. Only now touch a formula.
+- Counting formula if ever needed backwards: **n = last − first + 1** (the +1 is the off-by-one).
+- ⚠️ **Two rules he needed explicitly because they weren't obvious:** (a) *the move is driven by the GAP, never by the label* — "annuity due"/"delayed" do not automatically mean ×(1+r); Q6(d) and Prac B both had labels that did nothing. (b) *the valuation date does not truncate the stream* (Prac D).
+
+### 🔑 THE TWO ANCHOR SENTENCES — this was the highest-value thing delivered all session
+> **Every PV formula lands the pile ONE PERIOD BEFORE the first cash flow.**
+> **Every FV formula lands the pile ON the date of the last cash flow.**
+He asked unprompted whether the formula sheet's bigger equations reduce to something simpler — they do: **13 named cash-flow types (S/RA/AD/DA/RP/PD/DP/RGP/GPD/DGP/RGA/GAD/DGA) = 4 primitives + 2 moves.** Primitives: lump sum · annuity (PVIFA/FVIFA) · perpetuity C/r · growing perpetuity C/(r−g) [+ growing annuity]. Moves: **due = × (1+r)** · **delayed = don't touch the formula, just walk the answer to the date you want.** Seven of the thirteen names are not formulas at all. **Re-use this framing — it visibly reduced his load.**
+- Also corrected: he gave `14.49` as an answer when it was the **factor** — PVIFA/FVIFA give the per-baht factor, cash enters only at × PMT.
+- `i/m` = periodic rate = the `r` that goes in the formula; **r and n must be in the same unit** (Q2's 12% quoted / 30 monthly → r=0.01, n=30, NOT r=0.12, n=2.5).
+
+### Progress + where to resume
+- **Q6 (a)–(e) COMPLETE.** Teaching point landed: (a), (c), (e) are all 1,448.66 — *"FV depends on n and the gap, the calendar is irrelevant."*
+- **Crow-built extra drills A–D** (his ask, twice: "give me another 2"). A and B both hit the n error. **C and D were clean — including D's backward gap (÷1.09), setup done unprompted.** Real within-session improvement.
+- 😤 **He got genuinely frustrated** ("FUCKKK", "for fuck sake") — pushed through it, ended correct. Frustration was at himself, not the material. He twice refused an isolation drill and demanded full problems instead; **giving him reps with the 4-line setup enforced worked better than stripping the arithmetic out.** Remember this: he wants whole problems, not scaffolding exercises.
+- ▶️ **RESUME AT Q7** (PV mirror of Q6: PMT 100, n=10, first PMT at yearend 1 / 0 / 4, PV@0 → **671.01 · 724.69 · 532.67**). Then Q8 (perpetuities), Q9 (growing perpetuities). ⛔ **Q1 is a past-midterm growing-annuity monster — do NOT return to it until Q6–Q9 are solid.** (Crow's answer for Q1, verified: **PMT = exactly 5,000.00**; 30 withdrawals t=40–69, growing annuity PV@39 = 968,152.96 → ×1.05 → 1,016,560.61 needed at t=40; 58,602.61 grows to 412,561.71; shortfall 603,998.90 ÷ FVIFA(5%,40)=120.799774.)
+- Q6/Q7 answers for checking: Q6 = 1,448.66 · 1,564.55 · 1,448.66 · 1,063.66 · 1,448.66.
 
 ### FN201 error modes seen live 8 Sep — re-drill these, don't re-explain
 1. **Fed a present value into the perpetuity formula as C** (used 473.52 instead of 816). C must be a *cash flow standing on a date*, never a PV.
