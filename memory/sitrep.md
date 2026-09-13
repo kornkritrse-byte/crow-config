@@ -5,11 +5,11 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-13T13:28:06.756Z
+  modified: 2026-09-13T13:34:50.755Z
 ---
 
 # Situation Report
-*Last updated: 2026-09-12, CLOSED for the night — nightly quote given (Marcus Aurelius, see [[artis-quotes-log]]). Window holds 12 Sep only; 11 Sep condensed and flushed to [[sessions-log]].*
+*Last updated: 2026-09-13, CLOSED for the night — nightly quote given (Aristotle, *NE* II.1, see [[artis-quotes-log]]). Window holds 12–13 Sep. Status section rebuilt at close: ~30 settled bullets dropped, all already living in [[project-midterms]].*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,50 +26,52 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (2026-09-13)** — **FN201 STQ04 (TVM) STARTED.** ✅ Q15(c)/(d) part-mapping rule finally delivered before starting (was overdue twice — now CLOSED, drop it from the overdue list).
-- 🚨 **THE TVM FINDING — his formulas are 100% clean; `n` is the only thing broken.** He overwrote a GIVEN n with a date **five times in one session**. The questions state n in plain English ("6 payments total") and he replaces it with a calendar position. ⛔ **Do not re-teach formulas.** Fix = the 5-step pre-flight (write n off the text → freeze it → derive `last = first + (n−1)` → gap → only then a formula). Full breakdown + the "4 primitives + 2 moves" reframe of the 13 cash-flow types → [[project-midterms]].
-- **Here (2026-09-13)** — FN201 STQ04 session closed at Q13; Crow called it (attention drift into meta-questions) and he agreed to stop.
-- 🌅 **NEW GOAL, his own words, he asked for it to be written down: "I AM ACTIVELY TRYING TO BECOME A MORNING PERSON. make use of the time in my days."** First attempt **Mon 14 Sep — gym before the 09:00 AC313 class.** ⚠️ Flagged to him: this collides head-on with his midnight–1am crunch-study pattern, 9 days out from exam 1; one has to give and he hasn't said which. Full file → [[project-morning-person]]. **Ask how it went when he next appears — don't nag before.**
-- 📌 **TOMORROW (Mon 14 Sep) — ask Ajarn Monvika the three AC313 questions. LAST class before the exam** (no classes in exam week): (1) format + MCQ/written split, (2) is a formula sheet provided, (3) confirm the exam date — her outline still says TBA, the 22 Sep date is timetable-only. Session 7 tomorrow = joint products, the one AC313 topic still untouched.
-- ▶️ **NEXT FN201 SESSION OPENS WITH Q2** (amortised loan) — highest-risk untouched area, deliberately left for a fresh head.
-- ✅ **Q6–Q12 COMPLETE**, plus ~15 extra Crow-built drills. All five primitives, all three moves, both reversals (solve-for-PMT Q11, solve-for-n Q12). ⛔ **Do NOT go back to Q1 until Q13–Q16 are done.**
-- 🚨 **Q13 ≈ his A2 assignment — same skeleton, SAME 33,000 price, but the answer FLIPS** (A2 = 32,883.43 → sell; Q13 = 33,904.05 → buy). **Flagged to him so he doesn't pattern-match the conclusion.** Q5 (oil-palm plantation) is the same shape again — Obrom reuses this question type heavily. Worth mastering once.
-- ✅ **FINANCIAL CALCULATORS ARE ALLOWED** (FN201 syllabus, confirmed 13 Sep — up to two, non-graphing/non-programmable). ✅ **CLOSED 13 Sep — he already owns a physical one at home ("dont worry"). Stop raising it.** Only residual: BGN↔END muscle memory on that specific device (today's due-mode adjustment was done on a phone app). Detail → [[project-midterms]].
-- ✅ **CLOSED 13 Sep — the page-5 growth heads-up and group-project division.** His read: "the team is working fine on the work so far." Raised twice; he's closed it. **Don't raise either again unless he does.**
-- ✅ **FN201 group report pages 2–3 — FINISHED 13 Sep.** Page 3 prose written, critiqued and corrected (his own draft had inverted the thesis — said the problem was *cost of sales* when COGS was the one stable line; real story is the 9-pt SG&A step-up). Page 2 rewritten: "stay afloat" cut for the 2nd time, "founder" → **controlling shareholder** (resolved — his own founding-history paragraph contradicted "founder"), and his 3-category revenue split **replaced with the audited 97.1% / 2.9% distribution-vs-services split** — the filings state ONE operating segment, so the 3-way claim was unsupported. Sources table given. Full detail → [[project-midterms]].
-- ✅ **FN201 STQ03 FULLY CLEARED, 12 Sep — all 20 questions done.** Q17–Q20 finished tonight (LeCompte target-NPM backsolve, DuPont/EM, max-inventory-purchase, ΔTA DuPont shock) — all correct, one arithmetic slip self-corrected. Full workings → [[project-midterms]].
-- 🔴 **Recurring error mode (Q20):** grabbed Revenue instead of Total Assets in EM=TA/TE — same "adjacent/similar-labelled line item" shape as AC311. Self-corrected in one nudge.
-- ▶️ **RESUME NEXT: FN201 STQ04 (TVM)** — untouched, full Q13–16 groundwork notes already in [[project-midterms]] but TVM itself hasn't started.
-- 🚨 **STILL OVERDUE — Q15(c)/(d) part-mapping trap, missed again 12 Sep.** Was flagged "before the next FN201 touch" but Crow ran Q17–20 without raising it. Surfaced to him live 12 Sep instead. Detail → [[project-midterms]] FN201 STQ03 section — raise it for real before STQ04 starts.
-- 🔴 **CORRECTION, 12 Sep — Crow gave a fabricated study-location claim, caught by Korn.** Told him "home = peak focus," conflating CLAUDE.md's night+coffee timing line with a location that was never established. Actual record ([[project-midterms]]): he does **not** study at home — flagged there as aspiration only ("lowkey should"); his locked zero-coordination solo default is **the cafe near home** (Starbucks/Bloom). Corrected call: **STQ at home, group-work sections 2/3 at the cafe** — his original instinct was right. Lesson: check project_midterms.md's location rules before giving study-location advice, don't extrapolate from a general CLAUDE.md trait.
-- ▶️ **PRIOR RESUME POINT (8 Sep, still queued behind FN201 work):** AC313 job-costing cycle is SOLID (two clean full runs). ✅ **10 Sep: he independently resolved entry ORDERING/sequencing** — self-directed, not drilled. Still open: **joint-cost allocation timing** (untouched) and **process costing** (banked 8 Sep for its own dedicated session).
-- ✅ **FN201 A2 SUBMITTED 8 Sep, a day early.** Value of Ω = **32,883.43 → SELL** (offer 33,000 beats it by 116.57), cross-checked two ways, derived unaided after a drilled parallel example. ⚠️ **He submitted WITHOUT sending Crow the draft he agreed to send** — flagged once, not chased. If the mark comes back odd, debug from the PDF. Working + his 7 error modes + the reusable "Delta" drill problem → [[project-midterms]].
-- ✅ **AC311 zero-interest note mechanics DRILLED 11 Sep, holding well** (session note above). Next target: Ch.4 Problem 4 (FOB/CIF/DDP/consignment cut-off grid) or continue the Provision deck from p.24 — slides 26–30/34–45 still off-limits per his ask.
-- ✅ **1-for-10 2022 reverse-split risk RESOLVED 12 Sep.** Was flagged 8 Sep as a handoff risk (raw as-traded 2021 price would need ×10 vs post-split EPS/BVPS, or P/E and M/B come out 10× low). Tested against the Yahoo Finance series Crow pulled: 2021 close (2.00) is ~6× *larger* than 2022's (0.34), not ~10× smaller — a raw unadjusted 2021 price would make 2022 look ~59× cheaper, which isn't what the data shows. Yahoo's close series is continuous across the split boundary (no jump), i.e. already split-adjusted — matches the professor's post-split share count (~4.00bn) being flat across all 5 years including 2021. **No ×10 correction needed for the values Crow entered.** Full mechanics → [[project-midterms]].
-- 📘 **FN201 GROUP PROJECT — deliverable DONE and verified.** `~/Desktop/fn/FN201-EFORL-Data.xlsx`. **Due Wed 16 Sep 13:00 (sec 0264/01).** Full detail, decisions, and the 3 analytical angles → **[[project-midterms]]**. ✅ **12 Sep: `Inputs!B6:F6` filled** (2.00 / 0.34 / 0.25 / 0.27 / 0.15 for 2021–2025, split risk cleared — see bullet above) and the Ratios-sheet valuation section (P/E, Market/Book, div yield) confirmed recalculating correctly in Excel. ⚠️ Sourced from **Yahoo Finance** (raw chart API, parsed directly — not the small-model WebFetch summary), because SET's historical-trading page is JS-rendered and settrade's API 403'd every attempt; not independently confirmed against SET's own tape. DPS row (0 for all years) cross-checked against SET factsheet + wisesheets dividend history — no dividend record 2021–2025. If precision matters for grading, a manual settrade.com spot-check is still worth 5 minutes. Outstanding: the 13-page written report.
-- 📗 **AC311** — he is on **p.24 of the Provision deck**; ⛔ **he asked Crow NOT to teach beyond what class has covered** (so no measurement slides 26–30, no deep contingent-liability material yet). Coaching notes, error modes and the framings that landed → **[[project-midterms]]**. Priority is **journal entries** (his call; ~65 written / 35 MCQ).
-- ✅ **AC313 QUEUE — items 1 and 3 CLEARED 8 Sep** (Hawaii/Riverside actual-vs-normal drills; two full job-costing cycles with the exact ABC Corp error modes re-tested and NOT repeated — DL correctly stayed out of MOH, applied-OH entries correctly never touched Cash, over/underapplied → COGS direction correct both ways). Full detail + reusable drill problems → [[project-midterms]].
-- 📌 **STILL QUEUED:** joint-cost allocation timing (before/at/after split-off) — untouched. **Process costing** — new full topic, banked 8 Sep for its own session, start from equivalent units.
-- **ASK ON RETURN — these only:**
-  1. Which of the 3 traps got him on STQ02 **Q26** — forgot the depreciation, re-taxed the NOPAT, or didn't trust −1.
-  2. Was STQ02 **Q25** wrong too? Built on Q23's NOCF — if Q25 was right, Q23 was arithmetic, not concept.
-  3. Whether he wants the FCF drill ("After the Business Eats") two-way linked with the Term 2.1 hub (offered 4 Sep, still unanswered).
-- 📖 **Siddhartha: he is at Kamala.** Awakening landed hard. ⛔ **Do not spoil past Kamala.** Karamazov: safe through Book 12 ch. 2, **no Epilogue**.
-- **Still open, but NOT to be re-asked cold — raise only when the subject comes up:**
-  - AC313: exam format + mark split, whether a formula sheet is given, confirmed exam date (**outline says TBA**; 22 Sep is timetable-only). **Session 7 = joint products, 14 Sep** — if she works board examples, the doc needs a second pass.
-  - The BA202 cold-question numbers he missed (asked twice on 2 Sep, never sent).
-  - AC311 deck slide 9's two valid "not inventory" answers (cranes vs office software) — which does Ajarn Pailin hold? (Related principle from Ch.4 Problem 6 key: office supplies = NOT inventory, manufacturing supplies = IS — consumed in admin vs in production.)
-  - ✅ **AC311 mark split — ANSWERED 7 Sep, stop asking.** No published split; prof improvises it by class performance. Working assumption **65 written / 35 MCQ**.
-- ✅ **adidas report CLOSED** — a class example, not graded work. Don't raise it.
-- **Race loose ends (not urgent, 14 weeks out):** venue unknown, and whether bib pickup is race-morning or in advance — his dad likely has the confirmation.
-- 🧭 **BBA camp: no announcement date exists.** Closed until they speak; don't ask again.
+- **AWAY (2026-09-13, night) — CLOSED for the day.** Heading home to sleep; first morning-gym attempt Mon 14 Sep. No open ask.
+
+### 🔥 Live / time-critical
+- 🚨 **FN201 GROUP REPORT DUE WED 16 SEP, 13:00** (sec 0264/01) — 3 days. Excel deliverable done and verified; **pages 2 and 3 finished 13 Sep**. Outstanding: the rest of the 13-page written report, owned by the group. He says the team is fine — ✅ **don't re-raise the division of work or the page-5 heads-up, he closed both.**
+- 📌 **MON 14 SEP — ask Ajarn Monvika the three AC313 questions. LAST class before the exam** (no classes in exam week): (1) format + MCQ/written split, (2) is a formula sheet provided, (3) confirm the exam date (her outline says TBA; 22 Sep is timetable-only). Session 7 that day = **joint products**, the one AC313 topic still untouched.
+- 🌅 **MORNING-PERSON ATTEMPT #1 = Mon 14 Sep.** His own declared goal, he asked for it written down → [[project-morning-person]]. **Ask how it went when he next appears — don't nag before.** ⚠️ Collides with his midnight–1am crunch-study pattern; he hasn't said which gives.
+- ▶️ **NEXT FN201 SESSION OPENS WITH Q2** (amortised loan). Deliberately left for a fresh head.
+- 📉 **ALLOCATION RISK, named to him 13 Sep:** a full day went to FN201 TVM mechanics. **Loans, two-stream equations and securities are still at zero — that's 7 of the 8 past-midterm questions in STQ04.** Meanwhile **BA202 (45%, heaviest paper of six) got nothing**, and AC311 Ch13 provisions is still mid-deck at p.24.
+
+### 📚 Subject state (detail all lives in [[project-midterms]])
+- **FN201** — STQ01–03 cleared; **STQ04 Q6–Q13 done 13 Sep** plus ~20 extra drills. ⛔ Don't return to Q1 until Q13–Q16 are done. ✅ Financial calculators allowed and he owns one; only residual is BGN↔END muscle memory.
+- **AC311** — on **p.24 of the Provision deck**; ⛔ he asked Crow NOT to teach past what class has covered (no slides 26–30). Priority is **journal entries** (~65 written / 35 MCQ, his working assumption).
+- **AC313** — job costing SOLID (two clean cycles, error modes not repeated). 📌 Still queued: **joint-cost allocation timing** and **process costing** (own session, start from equivalent units).
+- **BA202** — cheat sheet confirmed **8 A4 sheets, printed OK**; he builds it in GoodNotes as he reads. Biggest untouched risk by weight.
+
+### ❓ ASK ON RETURN — these only
+1. **How the Monday morning went** (gym before class).
+2. Which of the 3 traps got him on STQ02 **Q26** — forgot the depreciation, re-taxed the NOPAT, or didn't trust −1.
+3. Was STQ02 **Q25** wrong too? Built on Q23's NOCF — if Q25 was right, Q23 was arithmetic, not concept.
+
+### 🔕 Standing — raise only if the subject comes up
+- The BA202 cold-question numbers he missed (asked twice on 2 Sep, never sent).
+- AC311 deck slide 9's two valid "not inventory" answers (cranes vs office software) — which does Ajarn Pailin hold?
+- FCF drill ("After the Business Eats") two-way link with the Term 2.1 hub — offered 4 Sep, still unanswered.
+- **Race loose ends** (14 weeks out): venue unknown; bib pickup race-morning or in advance — his dad likely knows.
+- ✅ **Closed, do NOT re-ask:** AC311 mark split (no published split, prof improvises) · adidas report (class example) · BBA camp (no announcement date exists) · the calculator · the group-work division.
+- 📖 **Siddhartha: he is at Kamala.** ⛔ Do not spoil past Kamala. Karamazov: safe through Book 12 ch. 2, **no Epilogue**.
+
+### ⚠️ Crow's own error log (recent, don't repeat)
+- **13 Sep — misdiagnosed twice in one session**, both times calling a calculator typo a conceptual error (claimed he fed a PV in as C; claimed a number "migrated" between sub-questions). He corrected both. **Rule: when a wrong answer has two possible causes, ask what he punched in before asserting one.**
+- **12 Sep — fabricated a "home = peak focus" study-location claim.** He does NOT study at home; his locked solo default is the cafe near home (Starbucks/Bloom). Check [[project-midterms]]' location rules before giving location advice.
+
+## Session — 2026-09-13 (group report pages closed, TVM from scratch, morning-person call)
+- ✍️ **FN201 group report pages 2 and 3 FINISHED.** Three substantive corrections to his drafts: page 3's thesis was **inverted** (blamed cost of sales, the one line that never moved; real story is the +9pt SG&A step-up), **"stay afloat" cut for the second time**, and his 3-category revenue split replaced with the **audited 97.1% / 2.9%** distribution-vs-services split from the FY2025 notes. "Founder" → **controlling shareholder**, resolved off his own founding-history paragraph.
+- 🧮 **STQ04 (TVM) Q6–Q13 + ~20 Crow-built drills** — from "no fucking clue" to a clean past-midterm-shaped valuation exact to the baht. All five primitives, all three moves, both reversals (solve-for-PMT, solve-for-n).
+- 🚨 **The finding: his formula selection was never wrong — `n` was.** He overwrote a *given* n with a date 5× in the first hour; the 5-step pre-flight killed it and it never recurred across ~20 problems. Errors degraded gaps → wrong model → unautomated recognition → typos, which is the correct direction.
+- 🔑 **Highest-value reframe delivered:** the sheet's 13 cash-flow types = **4 primitives + 2 moves**, plus the two anchor sentences (PV lands one period *before* the first CF; FV lands *on* the last CF). He asked for it unprompted and it visibly reduced his load.
+- 🌅 **He declared the morning-person goal and asked for it written down** → [[project-morning-person]]. Flagged the collision with midnight–1am study.
+- 📉 Crow named the allocation risk to him: one subject got the whole day; BA202 (45%) got none.
 
 ## Session — 2026-09-12 (FN201 valuation fix + STQ03 finished, group report pages 2–3, evening run)
 - 🎯 **FN201 EFORL group workbook — valuation section fixed and verified.** Sourced 2021–2025 closing prices via Yahoo Finance, filled `Inputs!B6:F6`, confirmed P/E/M/B/div-yield recalculate correctly; cleared the 8-Sep reverse-split risk against the sourced prices (no ×10 adjustment needed). Full detail → [[project-midterms]].
-- ✅ **FN201 STQ03 finished — all 20 questions correct.** Q17–Q20 done tonight; one recurring "adjacent line item" slip (Revenue for Total Assets in EM), self-corrected on a nudge. Next up: STQ04 (TVM), untouched.
-- ✍️ **FN201 group report pages 2–3 drafted together** — shareholders, dividend policy, market-share framing sourced and written; page 3's common-sized income statement pulled straight from the group's own Excel. Paused mid-work, one open wording call (founder vs. controlling shareholder) — resume 13 Sep. Full detail → [[project-midterms]].
-- 🏃 **Evening 10k, easy (6:44/km, chill, no mouth breathing)** — resolves the 10 Sep sub-60/cadence-stacking flag cleanly; didn't happen. Confirmed tomorrow is rotation B (VO2 intervals, 5×3min @ 4:45–4:55/km).
-- 🔴 **Crow correction:** fabricated a "home = peak focus" study-location claim, caught by Korn — actual locked default is the cafe near home, not home. Lesson: check [[project-training-plan]]/[[project-midterms]] before extrapolating from a general CLAUDE.md trait.
+- ✅ **FN201 STQ03 finished — all 20 questions correct.** Q17–Q20 done tonight; one recurring "adjacent line item" slip (Revenue for Total Assets in EM), self-corrected on a nudge.
+- ✍️ **FN201 group report pages 2–3 drafted together** — shareholders, dividend policy, market-share framing sourced and written; page 3's common-sized income statement pulled from the group's own Excel. Paused mid-work on the founder-vs-controlling-shareholder call — ✅ resolved 13 Sep.
+- 🏃 **Evening 10k, easy (6:44/km, chill, no mouth breathing)** — resolves the 10 Sep sub-60/cadence-stacking flag cleanly; it didn't happen.
+- 🔴 **Crow correction:** fabricated a "home = peak focus" study-location claim, caught by Korn — his locked default is the cafe near home, not home.
 - 🖥️ Minor snag: script-editing the xlsx tripped macOS quarantine/Protected View — cleared with `xattr -d com.apple.quarantine`, one-off.
 
 ## 🎯 Current state
