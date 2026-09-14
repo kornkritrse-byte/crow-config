@@ -37,7 +37,7 @@ metadata:
 
 ### 📚 Subject state (detail all lives in [[project-midterms]])
 - **FN201** — STQ01–03 cleared; **STQ04 Q6–Q13 done 13 Sep** plus ~20 extra drills. ⛔ Don't return to Q1 until Q13–Q16 are done. ✅ Financial calculators allowed and he owns one; only residual is BGN↔END muscle memory.
-- **AC311** — on **p.24 of the Provision deck**; ⛔ he asked Crow NOT to teach past what class has covered (no slides 26–30). Priority is **journal entries** (~65 written / 35 MCQ, his working assumption).
+- **AC311** — ✅ **EXAM SCOPE GIVEN BY THE PROF 14 Sep** → full detail in [[project-midterms]]. Part I: Cash & Receivables classification (~8) · **Inventories ~20 = the biggest block** (LCNRV + sales/purchase commitments, Dec-31 entries, SOCI + partial SOFP) · Provisions **qualitative only** (classify + recognise-vs-disclose). Part II MCQ+T/F, split still unknown. **Two statement templates handed out — memorise cold, free format marks.** ⇒ The p.24 'don't teach past class' boundary is largely moot for provisions; weight shifts to LCNRV + commitments.
 - **AC313** — job costing SOLID (two clean cycles, error modes not repeated). 📌 Still queued: **joint-cost allocation timing** and **process costing** (own session, start from equivalent units).
 - **BA202** — cheat sheet confirmed **8 A4 sheets, printed OK**; he builds it in GoodNotes as he reads. Biggest untouched risk by weight.
 

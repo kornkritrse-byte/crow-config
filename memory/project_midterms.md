@@ -219,8 +219,29 @@ The SITREP said the AC subjects were **blocked on syllabi**. They were not — *
 ➡️ **Implication for how he preps:** the MCQ half is *recognition* (definitions held against near-misses) and the entry half is *production* — a different skill that decays without reps. Reading the doc doesn't train the second one. Push the entry drill, not a reread.
 ⛔ Still unknown: **the mark split between the two halves.**
 
+### 🚨 AC311 EXAM SCOPE — GIVEN BY THE PROFESSOR 14 Sep 2026 (Korn pasted it in full)
+**Midterm 1 = 40% of the course grade** (consistent with the syllabus, no change).
+
+**PART I — PROBLEMS**
+1. **Cash & Receivables (~8 pts)** — *classification only*: a list of items → "what is it?" No bank reconciliation, no AR computation stated. Narrower than Kieso Ch 7.
+2. **Inventories (~20 pts) — THE BIGGEST SINGLE BLOCK.** LCNRV + **sales commitment** + **purchase commitment**; journal entries at Dec 31; Statement of Comprehensive Income; partial comparative Statement of Financial Position (inventory lines only).
+3. **Provisions — QUALITATIVE, NOT COMPUTATIONAL.** Liability vs Provision vs Contingent Liability vs Contingent Asset; recognition vs disclosure. i.e. the TAS 37 decision matrix, not deep deck slides.
+
+**PART II — MCQ + True/False.** ⛔ Split between Part I and Part II still not given.
+
+**TWO STATEMENT TEMPLATES WERE HANDED OUT** — memorise them cold, they are free format marks:
+- **SOCI**: COGS built as Beginning Inv + Net Purchases (Purchases − Purchase Discount + Transportation In) = COG Available for Sale − Ending Inv, **+ Loss from Decline in Inventory Value − Recovery of Loss**, then Gross Profit − S&A − **Loss on Purchase Commitment** − **Loss on Sales Commitment** = Net Operating Income.
+- **SOFP**: `Inventory` less **`Allowance for Decline in Inventory Value`** = `Inventory, net`; Provisions listed under Liabilities.
+
+➡️ **KEY READS (Crow, 14 Sep):**
+1. **The allowance method is what's tested**, not direct write-down — the contra-account line proves it.
+2. **Three comparative year columns** on both templates ⇒ expect write-down in one year and **recovery/reversal** in a later one. That is why `Recovery of Loss` has its own line.
+3. **The p.24 Provision-deck boundary worry is largely moot** — provisions is tested as the classify/recognise-vs-disclose framework.
+4. Time should move toward **LCNRV + the two commitment types**, which is where the points actually are.
+
 ### Still unknown for AC311
-- The MCQ/entry **mark split** — the only open question on this subject.
+- The **Part I / Part II mark split** (his ~65 written / 35 MCQ is still only a working assumption).
+- Exam date still timetable-only (26 Sep), never confirmed in writing by the instructor.
 
 ## ✅ RESOLVED 24 Aug — THE FREE WEEK DOES NOT EXIST
 **Korn confirmed: classes DO run to the week before midterms.** His 23 Aug "classes stop 11 Sep" was wrong; all five outlines were right.
