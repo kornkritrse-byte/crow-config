@@ -26,11 +26,11 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (2026-09-14, Mon).** Back in. Open asks pending: morning-gym attempt #1, AC313 questions to Ajarn Monvika (last class today), STQ02 Q25/Q26.
+- **Here (2026-09-14, Mon), in class (online).** ✅ **Morning-person attempt #1 HAPPENED** — cycling in the morning, then gym, then class. 🚨 **AC313 questions NOT asked — class went online, the in-person window is gone.** Still open: STQ02 Q25/Q26.
 
 ### 🔥 Live / time-critical
 - 🚨 **FN201 GROUP REPORT DUE WED 16 SEP, 13:00** (sec 0264/01) — 3 days. Excel deliverable done and verified; **pages 2 and 3 finished 13 Sep**. Outstanding: the rest of the 13-page written report, owned by the group. He says the team is fine — ✅ **don't re-raise the division of work or the page-5 heads-up, he closed both.**
-- 📌 **MON 14 SEP — ask Ajarn Monvika the three AC313 questions. LAST class before the exam** (no classes in exam week): (1) format + MCQ/written split, (2) is a formula sheet provided, (3) confirm the exam date (her outline says TBA; 22 Sep is timetable-only). Session 7 that day = **joint products**, the one AC313 topic still untouched.
+- 📌 **[14 SEP: MISSED — class was ONLINE, he didn't get to ask. Needs another channel: chat during class, or email.]** ~~MON 14 SEP — ask Ajarn Monvika the three AC313 questions. LAST class before the exam~~ (no classes in exam week): (1) format + MCQ/written split, (2) is a formula sheet provided, (3) confirm the exam date (her outline says TBA; 22 Sep is timetable-only). Session 7 that day = **joint products**, the one AC313 topic still untouched.
 - 🌅 **MORNING-PERSON ATTEMPT #1 = Mon 14 Sep.** His own declared goal, he asked for it written down → [[project-morning-person]]. **Ask how it went when he next appears — don't nag before.** ⚠️ Collides with his midnight–1am crunch-study pattern; he hasn't said which gives.
 - ▶️ **NEXT FN201 SESSION OPENS WITH Q2** (amortised loan). Deliberately left for a fresh head.
 - 📉 **ALLOCATION RISK, named to him 13 Sep:** a full day went to FN201 TVM mechanics. **Loans, two-stream equations and securities are still at zero — that's 7 of the 8 past-midterm questions in STQ04.** Meanwhile **BA202 (45%, heaviest paper of six) got nothing**, and AC311 Ch13 provisions is still mid-deck at p.24.
