@@ -26,7 +26,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (2026-09-14, Mon), in class (online).** ✅ **Morning-person attempt #1 HAPPENED** — cycling in the morning, then gym, then class. 🚨 **AC313 questions NOT asked — class went online, the in-person window is gone.** Still open: STQ02 Q25/Q26.
+- **Here (2026-09-14, Mon), in class (online).** ✅ **Morning-person attempt #1 HAPPENED** — 10-min bike warm-up, then gym, then class. (Crow initially read the cycling as a second cardio session — it wasn't.) 🚨 **AC313 questions NOT asked — class went online, the in-person window is gone.** Still open: STQ02 Q25/Q26.
 
 ### 🔥 Live / time-critical
 - 🚨 **FN201 GROUP REPORT DUE WED 16 SEP, 13:00** (sec 0264/01) — 3 days. Excel deliverable done and verified; **pages 2 and 3 finished 13 Sep**. Outstanding: the rest of the 13-page written report, owned by the group. He says the team is fine — ✅ **don't re-raise the division of work or the page-5 heads-up, he closed both.**
