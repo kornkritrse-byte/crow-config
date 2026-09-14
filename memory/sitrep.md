@@ -26,7 +26,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (2026-09-13, night) — CLOSED for the day.** Heading home to sleep; first morning-gym attempt Mon 14 Sep. No open ask.
+- **Here (2026-09-14, Mon).** Back in. Open asks pending: morning-gym attempt #1, AC313 questions to Ajarn Monvika (last class today), STQ02 Q25/Q26.
 
 ### 🔥 Live / time-critical
 - 🚨 **FN201 GROUP REPORT DUE WED 16 SEP, 13:00** (sec 0264/01) — 3 days. Excel deliverable done and verified; **pages 2 and 3 finished 13 Sep**. Outstanding: the rest of the 13-page written report, owned by the group. He says the team is fine — ✅ **don't re-raise the division of work or the page-5 heads-up, he closed both.**
