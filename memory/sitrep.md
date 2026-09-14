@@ -26,7 +26,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (2026-09-14, Mon), in class (online).** ✅ **Morning-person attempt #1 HAPPENED** — 10-min bike warm-up, then gym, then class. (Crow initially read the cycling as a second cardio session — it wasn't.) 🚨 **AC313 questions NOT asked — class went online, the in-person window is gone.** Still open: STQ02 Q25/Q26.
+- **AWAY (2026-09-14, Mon afternoon) — off to: a break, back TONIGHT.** Not a day-end — no nightly quote fired.
+- **ASK ON RETURN — one thing only:** 🔴 **resume the AC311 drill at Block 3 (Provisions), question 1 — "what makes something a provision rather than an ordinary liability like a trade payable?"** Blocks 1 and 2 are finished; do NOT re-drill them.
 
 ### 🔥 Live / time-critical
 - 🚨 **FN201 GROUP REPORT DUE WED 16 SEP, 13:00** (sec 0264/01) — 3 days. Excel deliverable done and verified; **pages 2 and 3 finished 13 Sep**. Outstanding: the rest of the 13-page written report, owned by the group. He says the team is fine — ✅ **don't re-raise the division of work or the page-5 heads-up, he closed both.**
@@ -42,9 +43,10 @@ metadata:
 - **BA202** — cheat sheet confirmed **8 A4 sheets, printed OK**; he builds it in GoodNotes as he reads. Biggest untouched risk by weight.
 
 ### ❓ ASK ON RETURN — these only
-1. **How the Monday morning went** (gym before class).
-2. Which of the 3 traps got him on STQ02 **Q26** — forgot the depreciation, re-taxed the NOPAT, or didn't trust −1.
-3. Was STQ02 **Q25** wrong too? Built on Q23's NOCF — if Q25 was right, Q23 was arithmetic, not concept.
+1. 🔴 **Resume the AC311 drill: Block 3 Provisions, question 1.** (Blocks 1–2 done, see session note.)
+2. ✅ Morning gym — ANSWERED 14 Sep, it happened. Closed, don't re-ask.
+3. Which of the 3 traps got him on STQ02 **Q26** — forgot the depreciation, re-taxed the NOPAT, or didn't trust −1. (Low priority now.)
+4. Was STQ02 **Q25** wrong too? Built on Q23's NOCF — if Q25 was right, Q23 was arithmetic, not concept. (Low priority now.)
 
 ### 🔕 Standing — raise only if the subject comes up
 - The BA202 cold-question numbers he missed (asked twice on 2 Sep, never sent).
@@ -57,6 +59,14 @@ metadata:
 ### ⚠️ Crow's own error log (recent, don't repeat)
 - **13 Sep — misdiagnosed twice in one session**, both times calling a calculator typo a conceptual error (claimed he fed a PV in as C; claimed a number "migrated" between sub-questions). He corrected both. **Rule: when a wrong answer has two possible causes, ask what he punched in before asserting one.**
 - **12 Sep — fabricated a "home = peak focus" study-location claim.** He does NOT study at home; his locked solo default is the cafe near home (Starbucks/Bloom). Check [[project-midterms]]' location rules before giving location advice.
+
+## Session — 2026-09-14 (morning-person #1 landed, AC311 scope arrived, live drill started)
+- 🌅 **MORNING-PERSON ATTEMPT #1 HAPPENED** — 10-min bike warm-up then gym then class, exactly as he said he would on 13 Sep. First declared goal of that project, met on the first dated attempt → [[project-morning-person]].
+- 🚨 **AC313 questions MISSED — the class went online and he never got to ask.** Email drafted for Ajarn Monvika (format / formula sheet / exam date); channel now email or the class chat, not in person.
+- 📋 **AC311 EXAM SCOPE ARRIVED from Ajarn Pailin** and Korn corrected Crow's read twice: **Provisions carries the MOST marks** (not Inventories), and **Inventories is answered on blank paper** — both statements from memory, no printed template. Full detail → [[project-midterms]].
+- 🧾 **Built the AC311 mock — "The December 31 Paper"** (100 marks, answers hidden, prints clean) → [[reference-artifacts]]. **Unsat — he parked it.**
+- 📊 **FN201 group file:** a groupmate had already deleted the README and, separately, **switched net profit margin / ROA / ROE for 2021 to profit attributable to owners** (35.9→37.5%, 46.4→48.4%, 197.9→206.7%). **His Google Doc pages 9 and 11 are now stale**, and page 3 still shows 35.9% — a live contradiction inside the report. Crow cleaned the remaining scaffolding text from `~/Downloads/FN201.xlsx`; no numbers touched.
+- 🎓 **Live AC311 drill run, Blocks 1–2 complete** — see the drill profile in [[project-midterms]].
 
 ## Session — 2026-09-13 (group report pages closed, TVM from scratch, morning-person call)
 - ✍️ **FN201 group report pages 2 and 3 FINISHED.** Three substantive corrections to his drafts: page 3's thesis was **inverted** (blamed cost of sales, the one line that never moved; real story is the +9pt SG&A step-up), **"stay afloat" cut for the second time**, and his 3-category revenue split replaced with the **audited 97.1% / 2.9%** distribution-vs-services split from the FY2025 notes. "Founder" → **controlling shareholder**, resolved off his own founding-history paragraph.

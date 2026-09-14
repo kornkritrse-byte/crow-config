@@ -240,6 +240,24 @@ The SITREP said the AC subjects were **blocked on syllabi**. They were not — *
 3. **The p.24 Provision-deck boundary worry is largely moot** — provisions is tested as the classify/recognise-vs-disclose framework.
 4. Time should move toward **LCNRV + the two commitment types**, which is where the points actually are.
 
+### 🎓 AC311 LIVE DRILL — Blocks 1–2 complete, 14 Sep 2026 (PAUSED at Block 3 Q1)
+Format: one open question at a time, no explainer up front, corrected as he went — [[feedback-drill-format]]. Order chosen: **Cash & Receivables → Inventories → Provisions** (oldest decays fastest; provisions last because it is the 32-mark block).
+
+**Block 1 — Cash & Receivables: 8/8 on classification.** Postdated cheque · NSF cheque · the 3-month test · the original-maturity trap (12-month deposit with 2 months left) · restricted cash + what decides current vs non-current · both overdrafts · receivables at net.
+🔴 **The real finding: he gets the classification right and the REASON wrong.** Three in a row: for the postdated cheque he said "we have the cheque but haven't got the money" — a rule that would make every cheque a receivable. Named it to him. It tightened over the block and by the original-maturity question he stated the rule cleanly and **derived the 3-month vs 12-month split himself.**
+- Misconception corrected: he thought the 3-month test separates *cash* from *cash equivalent*. It separates **cash equivalent from short-term investment** — cash and cash equivalents sit on one line anyway.
+- He wrote "expected credit loss" unprompted — correct IFRS 9 / TFRS wording, not US-GAAP "bad debt".
+
+**Block 2 — Inventories: mechanics SOLID, naming WEAK.**
+- LCNRV in both directions, the cost ceiling, and year 3 done unaided.
+- 🔴 **Balance-vs-movement error** on the recovery: gave **20** (the required closing allowance) instead of **40** (the movement). Fix given and it took: *allowance required → allowance b/f → the gap is the entry*, written as three lines every time.
+- 🔴 **Purchase vs sales commitment INVERTED, twice.** First he called a purchase commitment a "sales contract"; then on the sales commitment he said "no loss, we gain 110." Discriminator given: **you lose when the market moves away from the side you're standing on** — buyer fears a falling price, seller fears a rising cost. Also taught: **there is no gain on a commitment**, ever — same asymmetry as contingent assets, deliberately planted as a bridge into Block 3.
+- Cost-of-inventory composition 6/6, including purchase discounts as a *deduction from cost*, not income.
+- ⚠️ **Account names are his weak point, not concepts.** He guessed "LCNRV", "loss on sales contract", "provision?" — **the correct names are printed on Ajarn Pailin's own two templates.** Told him to use her exact wording because she marks it.
+- 📌 He pushed back on being told not to say "provision" — fair, and he was right: conceptually it IS a provision under TAS 37. The reason to use her names is marking friction, not correctness. **But in Problem 3 the four terms are NOT interchangeable** — that is the question.
+
+⏸️ **PAUSED at Block 3 (Provisions), question 1:** *"What makes something a provision rather than an ordinary liability like a trade payable?"* Resume there.
+
 ### Still unknown for AC311
 - The **Part I / Part II mark split** (his ~65 written / 35 MCQ is still only a working assumption).
 - Exam date still timetable-only (26 Sep), never confirmed in writing by the instructor.
