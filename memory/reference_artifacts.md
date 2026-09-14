@@ -157,6 +157,18 @@ He asked for diagrams **only where one would genuinely help**, explicitly leavin
 
 ⏳ **NOT yet two-way linked with the Term 2.1 hub** — offered, he hadn't answered before leaving.
 
+## AC311 mock midterm — "The December 31 Paper" (built 14 Sep 2026)
+**URL:** https://claude.ai/code/artifact/9e05455a-9c47-4a98-a1ea-5928563e79cd
+**Local source:** scratchpad `ac311-mock.html` (session 852f216c).
+
+**Why it exists:** Korn got the exam scope from Ajarn Pailin on 14 Sep and asked for a practice test off it. **His correction to Crow: Problem 3 (Provisions) carries the MOST marks**, and Problem 2 (Inventories) is answered on **blank paper** — both statements reproduced from memory, no printed template.
+
+**Contents:** exam cover sheet (3 hrs / 100 marks, allocation flagged as Crow's estimate since no split is published) · **P1 Cash & Receivables, 16 classify-it items, 8 marks** (postdated/NSF cheques, the 3-month-from-acquisition test, restricted cash, offsettable vs non-offsettable overdrafts) · **P2 Inventories, 20 marks** — Siam Medic Supply, 3 years, allowance method, write-down 60 → recovery 35 → write-down 55, purchase commitment (loss 70, settled 31/3/X2) and sales commitment (loss 110, open at year-end); 6 journal entries + full comparative SOCI + partial SOFP, every figure checked · **P3 Provisions, 32 marks** — the framework, the 4×2 recognise/disclose/ignore table, **15 classification scenarios**, 4 entries, best-estimate and discounting · **Part II: 15 MCQ + 10 T/F, 40 marks**, all with reasons.
+
+**Design:** AC311 family identity — Fraunces / IBM Plex Sans / IBM Plex Mono, deep teal `#0D5A63`, laid out as an exam paper (cover sheet, marks in the question head, `.blank` amber banner on the blank-paper question). `.je` journal-page format and `details.rev` hidden answers carried over per his standing rules. `@media print` hides every answer so it prints as a clean question paper. `.uplink` points back to *Assets Before the Cut-Off*. Verified with Playwright: desktop + phone × light + dark, no horizontal overflow, no duplicate ids.
+
+⏳ **Not yet added to the Term 2.1 hub** — it is a drill companion to the AC311 doc, same pattern as the FCF drill.
+
 ## FN201 T3 glossary added (6 Sep 2026)
 Working STQ03 live with him, he asked for plain-English definitions of every ratio term instead of cluttering the chat. Added `#glossary3` section to Obrom's Playbook — one-liner defs (EPS/BVPS/P-E/M-B/ROE/ROA/current/quick/TIE/debt ratio/D-E/EM/BEP/margins/TAT) plus the two identities (Du Pont; ROE-P/E-M/B link), placed as the first thing in Topic 3, nav rail entry added ("Glossary — start here").
 

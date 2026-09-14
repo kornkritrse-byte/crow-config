@@ -224,8 +224,9 @@ The SITREP said the AC subjects were **blocked on syllabi**. They were not — *
 
 **PART I — PROBLEMS**
 1. **Cash & Receivables (~8 pts)** — *classification only*: a list of items → "what is it?" No bank reconciliation, no AR computation stated. Narrower than Kieso Ch 7.
-2. **Inventories (~20 pts) — THE BIGGEST SINGLE BLOCK.** LCNRV + **sales commitment** + **purchase commitment**; journal entries at Dec 31; Statement of Comprehensive Income; partial comparative Statement of Financial Position (inventory lines only).
-3. **Provisions — QUALITATIVE, NOT COMPUTATIONAL.** Liability vs Provision vs Contingent Liability vs Contingent Asset; recognition vs disclosure. i.e. the TAS 37 decision matrix, not deep deck slides.
+2. **Inventories (~20 pts) — 📄 ANSWERED ON A BLANK SHEET.** Korn confirmed 14 Sep: the teacher hands out blank paper and both statements must be reproduced from memory — the templates are NOT pre-printed on the exam. Memorising the SOCI/SOFP layouts cold is therefore mandatory, not optional. LCNRV + **sales commitment** + **purchase commitment**; journal entries at Dec 31; Statement of Comprehensive Income; partial comparative Statement of Financial Position (inventory lines only).
+3. **Provisions — 🔴 THE BIGGEST MARK BLOCK (Korn corrected Crow, 14 Sep).** Liability vs Provision vs Contingent Liability vs Contingent Asset; recognition vs disclosure — the TAS 37 decision matrix. Qualitative in form, but it carries more marks than Inventories.
+   ⚠️ **COLLISION:** this is the highest-mark section AND the one where his AC311 doc holds only a *scaffold* (syllabus + Ch6 practice solutions, never lecture content), and where he'd told Crow not to teach past deck p.24. **The doc's Provisions section needs the rebuild that was always pencilled for "after 14 Sep".**
 
 **PART II — MCQ + True/False.** ⛔ Split between Part I and Part II still not given.
 
