@@ -26,7 +26,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (2026-09-15).** ✅ **FN201 group report SUBMITTED** — that whole block is CLOSED, do not re-raise it (contradictions, bibliography, page 1 IDs — all moot now). ✅ **AC311 Provisions drilled AND written up** — see session note.
+- **Here (2026-09-15), long session.** ✅ FN201 report SUBMITTED (block closed). ✅ AC311 Provisions drilled + written into the doc. ✅ **Then a FULL AC311 re-run from the top** — cash/receivables classification (3 rounds), inventory cost, ownership/FOB/consignment, cut-off, LCNRV multi-year, commitments. 🔴 **ONE AC311 GAP LEFT: the SOCI + partial SOFP layouts** — she hands out BLANK PAPER and they are free format marks. Korn deferred it 15 Sep ("more so short term memory"), **Crow disagreed on the reasoning but endorsed the switch on timing** (AC313 sits ~21–22 Sep, AC311 is 26 Sep, the last paper). ⚠️ **This must be built AND re-drawn at least twice before 26 Sep — do not let it become a cram job on the 25th.** ➡️ **Now on AC313** at his call: process costing from equivalent units, then joint products.
 - **ASK ON RETURN:** nothing outstanding from 15 Sep. 🔴 **Next job = BA202** — it is now #4 by his own order but still at ZERO, and it is the 45% paper. AC311 Blocks 1–3 are all done.
 
 ### 🔥 Live / time-critical
