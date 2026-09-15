@@ -169,6 +169,20 @@ He asked for diagrams **only where one would genuinely help**, explicitly leavin
 
 ⏳ **Not yet added to the Term 2.1 hub** — it is a drill companion to the AC311 doc, same pattern as the FCF drill.
 
+## Ground Covered — the three-subject topic map (built 15 Sep 2026)
+**URL:** https://claude.ai/code/artifact/2af7a6c5-ffdf-4d11-a83c-cc991f1d7f9e
+
+**Why it exists:** Korn asked for "a big mind map which breaks off into the main topics then so on" for AC311, AC313 and FN201 — "make it look cool but also easy to understand."
+
+**What it is:** every examinable topic in the three heaviest papers as an indented connector-rail tree (root → numbered branch → leaf with a one-line gloss). **The thing that makes it more than a contents list: every leaf carries a status dot — 🟢 drilled and holding · 🟡 covered but thin/decayed · 🔴 never touched.** Footer states the rule explicitly: green only if answered COLD and correctly; being explained doesn't count. It is a progress board, not a syllabus.
+
+**What it showed at build time:** AC311 nearly all green except **the two statement layouts (red — free format marks)** and Part II MCQ; **AC313's entire back half red** (process costing + joint products, 2 of the 6 Horngren chapters); FN201 mostly green/amber with **T5 flagged as a structural gap** (no STQ file exists).
+
+**Design:** its own identity, deliberately NOT a subject doc — **Big Shoulders Display** (a wayfinding/signage face) + Karla + DM Mono, warm bone ground `#F2F1EC`. Per-subject accent drawn from that subject's own doc so the family rhymes but the three stay distinguishable: AC311 teal `#0D5A63` · AC313 blue `#17568C` · FN201 amber `#97590B`. Tree connectors are CSS borders (`.node::before/::after`, `ul.leaves > li::before/::after`) — **gotcha: the "stub the last rail" rule must target `.branch:last-child > .node`, not `.branch > .node:last-child`, or every rail collapses to a stub.** `.uplink` back to the Term 2.1 hub; each panel has a `.doclink` out to its subject document. Verified with Playwright: desktop + phone × light + dark, zero overflow.
+
+⏳ **NOT yet added to the Term 2.1 hub** — same pending state as the FCF drill and the AC311 mock.
+🔄 **MAINTENANCE: the status dots go stale fast.** Re-colour them whenever a block is drilled — an out-of-date map is worse than none, because he will trust the green.
+
 ## FN201 T3 glossary added (6 Sep 2026)
 Working STQ03 live with him, he asked for plain-English definitions of every ratio term instead of cluttering the chat. Added `#glossary3` section to Obrom's Playbook — one-liner defs (EPS/BVPS/P-E/M-B/ROE/ROA/current/quick/TIE/debt ratio/D-E/EM/BEP/margins/TAT) plus the two identities (Du Pont; ROE-P/E-M/B link), placed as the first thing in Topic 3, nav rail entry added ("Glossary — start here").
 
