@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-09-13, CLOSED for the night — nightly quote given (Aristotle, *NE* II.1, see [[artis-quotes-log]]). Window holds 12–13 Sep. Status section rebuilt at close: ~30 settled bullets dropped, all already living in [[project-midterms]].*
+*Last updated: 2026-09-15 — session handed off at Korn's request ("save the session, about to start a new one"). **NOT a day-end: no nightly quote fired.** Window holds 13–14 Sep; the 12 Sep note flushed to [[sessions-log]].*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,19 +26,23 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (2026-09-14, Mon afternoon) — off to: a break, back TONIGHT.** Not a day-end — no nightly quote fired.
+- **Session handed off 2026-09-15.** ⚠️ **He said "back tonight" on 14 Sep and did NOT return that day** — the drill has been cold since Monday afternoon. Do not assume anything happened in between; ask.
 - **ASK ON RETURN — one thing only:** 🔴 **resume the AC311 drill at Block 3 (Provisions), question 1 — "what makes something a provision rather than an ordinary liability like a trade payable?"** Blocks 1 and 2 are finished; do NOT re-drill them.
 
 ### 🔥 Live / time-critical
-- 🚨 **FN201 GROUP REPORT DUE WED 16 SEP, 13:00** (sec 0264/01) — 3 days. Excel deliverable done and verified; **pages 2 and 3 finished 13 Sep**. Outstanding: the rest of the 13-page written report, owned by the group. He says the team is fine — ✅ **don't re-raise the division of work or the page-5 heads-up, he closed both.**
+- 🚨🚨 **FN201 GROUP REPORT DUE TOMORROW — WED 16 SEP, 13:00** (sec 0264/01). **THE most time-critical item on this file.** Excel deliverable done and verified; **pages 2 and 3 finished 13 Sep**. Outstanding: the rest of the 13-page written report, owned by the group. He says the team is fine — ✅ **don't re-raise the division of work or the page-5 heads-up, he closed both.**
+- 🔴 **UNFIXED AS OF 14 SEP — the report's own numbers contradict each other.** A groupmate switched 2021 net profit margin / ROA / ROE to *profit attributable to owners*: **35.9→37.5% · 46.4→48.4% · 197.9→206.7%**. His Google Doc **pages 9 and 11 still show the OLD figures** (incl. the sentence "ROE fell dramatically from 197.9%"), and **page 3 still shows 35.9%** against page 9's 37.5% — same year, two different net-profit numbers in one report. Also still open: **page 1 has no member names/TU IDs**, **page 13 bibliography does not exist** (URLs supplied 14 Sep), the **page-10 Market/Book sentence says 2.03 against a table reading 20.35** (the table is right — the price is split-adjusted), and **P/E is interpreted backwards** on page 10.
+- 📧 **AC313 email to Ajarn Monvika: DRAFTED, NOT SENT.** Format / formula sheet / exam date. Every day it sits costs reaction time.
 - 📌 **[14 SEP: MISSED — class was ONLINE, he didn't get to ask. Needs another channel: chat during class, or email.]** ~~MON 14 SEP — ask Ajarn Monvika the three AC313 questions. LAST class before the exam~~ (no classes in exam week): (1) format + MCQ/written split, (2) is a formula sheet provided, (3) confirm the exam date (her outline says TBA; 22 Sep is timetable-only). Session 7 that day = **joint products**, the one AC313 topic still untouched.
-- 🌅 **MORNING-PERSON ATTEMPT #1 = Mon 14 Sep.** His own declared goal, he asked for it written down → [[project-morning-person]]. **Ask how it went when he next appears — don't nag before.** ⚠️ Collides with his midnight–1am crunch-study pattern; he hasn't said which gives.
+- ✅ **Morning-person attempt #1 LANDED 14 Sep** (bike warm-up + gym before class) → [[project-morning-person]]. Watch whether #2 happens; one is not a habit.
 - ▶️ **NEXT FN201 SESSION OPENS WITH Q2** (amortised loan). Deliberately left for a fresh head.
 - 📉 **ALLOCATION RISK, named to him 13 Sep:** a full day went to FN201 TVM mechanics. **Loans, two-stream equations and securities are still at zero — that's 7 of the 8 past-midterm questions in STQ04.** Meanwhile **BA202 (45%, heaviest paper of six) got nothing**, and AC311 Ch13 provisions is still mid-deck at p.24.
 
 ### 📚 Subject state (detail all lives in [[project-midterms]])
 - **FN201** — STQ01–03 cleared; **STQ04 Q6–Q13 done 13 Sep** plus ~20 extra drills. ⛔ Don't return to Q1 until Q13–Q16 are done. ✅ Financial calculators allowed and he owns one; only residual is BGN↔END muscle memory.
-- **AC311** — ✅ **EXAM SCOPE GIVEN BY THE PROF 14 Sep** → full detail in [[project-midterms]]. Part I: Cash & Receivables classification (~8) · **Inventories ~20 = the biggest block** (LCNRV + sales/purchase commitments, Dec-31 entries, SOCI + partial SOFP) · Provisions **qualitative only** (classify + recognise-vs-disclose). Part II MCQ+T/F, split still unknown. **Two statement templates handed out — memorise cold, free format marks.** ⇒ The p.24 'don't teach past class' boundary is largely moot for provisions; weight shifts to LCNRV + commitments.
+- **AC311** — ✅ **EXAM SCOPE GIVEN BY THE PROF 14 Sep** → full detail in [[project-midterms]]. Part I: Cash & Receivables classification (~8) · **Inventories ~20** (LCNRV + sales/purchase commitments, Dec-31 entries, SOCI + partial SOFP) · 🔴 **Provisions = THE BIGGEST MARK BLOCK** (Korn corrected Crow: not Inventories). Part II MCQ+T/F, split still unknown. **Inventories is answered on BLANK PAPER — both statements reproduced from memory.** ⇒ Provisions is simultaneously the heaviest section and the thinnest part of his AC311 doc (scaffold only, never lecture content) — **that rebuild is now the highest-value AC311 job.**
+- **AC311 drill 14 Sep — Blocks 1–2 DONE** (Cash 8/8, Inventories solid). ⏸️ **Paused at Block 3 Provisions Q1.** Full profile + his error patterns → [[project-midterms]].
+- **AC311 mock built — "The December 31 Paper"** → [[reference-artifacts]]. **UNSAT — he parked it.**
 - **AC313** — job costing SOLID (two clean cycles, error modes not repeated). 📌 Still queued: **joint-cost allocation timing** and **process costing** (own session, start from equivalent units).
 - **BA202** — cheat sheet confirmed **8 A4 sheets, printed OK**; he builds it in GoodNotes as he reads. Biggest untouched risk by weight.
 
@@ -57,6 +61,8 @@ metadata:
 - 📖 **Siddhartha: he is at Kamala.** ⛔ Do not spoil past Kamala. Karamazov: safe through Book 12 ch. 2, **no Epilogue**.
 
 ### ⚠️ Crow's own error log (recent, don't repeat)
+- **14 Sep — read the AC311 scope wrong and said so confidently.** Called Provisions "qualitative, not computational" and the deck-p.24 worry "largely moot"; Korn corrected that it carries the MOST marks. **The scope text listed no points for Provisions and I filled the silence with an inference.**
+- **14 Sep — asserted ~70% that the 2021 share price ฿2.00 was a ×10 typo. It was correct** (split-adjusted, matching the post-split share count the professor's data uses). **[[project-midterms]] already recorded the reverse-split check from 12 Sep — I reasoned from the doc's stale "2.03" instead of reading my own file first.** Same failure shape as the 27 Aug BA202 "coverage gap" and the 1 Sep "unverified answers" claim: **check the record before calling a defect.**
 - **13 Sep — misdiagnosed twice in one session**, both times calling a calculator typo a conceptual error (claimed he fed a PV in as C; claimed a number "migrated" between sub-questions). He corrected both. **Rule: when a wrong answer has two possible causes, ask what he punched in before asserting one.**
 - **12 Sep — fabricated a "home = peak focus" study-location claim.** He does NOT study at home; his locked solo default is the cafe near home (Starbucks/Bloom). Check [[project-midterms]]' location rules before giving location advice.
 
@@ -76,13 +82,6 @@ metadata:
 - 🌅 **He declared the morning-person goal and asked for it written down** → [[project-morning-person]]. Flagged the collision with midnight–1am study.
 - 📉 Crow named the allocation risk to him: one subject got the whole day; BA202 (45%) got none.
 
-## Session — 2026-09-12 (FN201 valuation fix + STQ03 finished, group report pages 2–3, evening run)
-- 🎯 **FN201 EFORL group workbook — valuation section fixed and verified.** Sourced 2021–2025 closing prices via Yahoo Finance, filled `Inputs!B6:F6`, confirmed P/E/M/B/div-yield recalculate correctly; cleared the 8-Sep reverse-split risk against the sourced prices (no ×10 adjustment needed). Full detail → [[project-midterms]].
-- ✅ **FN201 STQ03 finished — all 20 questions correct.** Q17–Q20 done tonight; one recurring "adjacent line item" slip (Revenue for Total Assets in EM), self-corrected on a nudge.
-- ✍️ **FN201 group report pages 2–3 drafted together** — shareholders, dividend policy, market-share framing sourced and written; page 3's common-sized income statement pulled from the group's own Excel. Paused mid-work on the founder-vs-controlling-shareholder call — ✅ resolved 13 Sep.
-- 🏃 **Evening 10k, easy (6:44/km, chill, no mouth breathing)** — resolves the 10 Sep sub-60/cadence-stacking flag cleanly; it didn't happen.
-- 🔴 **Crow correction:** fabricated a "home = peak focus" study-location claim, caught by Korn — his locked default is the cafe near home, not home.
-- 🖥️ Minor snag: script-editing the xlsx tripped macOS quarantine/Protected View — cleared with `xattr -d com.apple.quarantine`, one-off.
 
 ## 🎯 Current state
 - **MIDTERMS = TOP PRIORITY** ([[project-midterms]] — canonical). 🗓️ **Board: the Term 2.1 hub** — https://claude.ai/code/artifact/017ced5a-48b7-4101-a4a9-e18b38b4de3e · **front-load order revised 27 Aug: FN201 > BA202 > AC313 > AC311 > MK201 > EL221.** **Thammasat, BBA, Accounting major / Finance minor.** 6 exams 20–27 Sep. Classes end 11 Sep; **14–19 Sep is a free week and the spine of the plan.** ⛔ Only blocker: syllabi + textbook names.

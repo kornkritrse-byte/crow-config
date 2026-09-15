@@ -10,6 +10,15 @@ metadata:
 
 # Sessions Log (archive)
 
+## 2026-09-12 — FN201 valuation fixed, STQ03 closed, evening 10k
+- **EFORL workbook valuation section fixed and verified.** 2021–2025 closing prices sourced via Yahoo Finance's chart API (SET's page is JS-rendered, settrade 403'd), `Inputs!B6:F6` filled: 2.00 / 0.34 / 0.25 / 0.27 / 0.15. P/E, M/B and dividend yield confirmed recalculating. **The 2022 1-for-10 reverse-split risk was tested and CLEARED** — the Yahoo series is continuous across the boundary, i.e. already split-adjusted, matching the flat ~4.00bn post-split share count the professor's data uses for all five years.
+- **FN201 STQ03 finished — 20/20.** Q17–Q20 done that night; one recurring "adjacent line item" slip (Revenue for Total Assets in EM), self-corrected on a nudge.
+- **Group report pages 2–3 drafted together** — shareholders, dividend policy and market-share framing sourced and written; page 3's common-sized income statement pulled from the group's own Excel. Paused on the founder-vs-controlling-shareholder call, resolved 13 Sep as **controlling shareholder**.
+- **Evening 10k, easy (6:44/km, no mouth breathing)** — cleanly resolved the 10 Sep sub-60/cadence-stacking flag; it hadn't happened.
+- 🔴 **Crow correction:** fabricated a "home = peak focus" study-location claim, caught by Korn — his locked solo default is the cafe near home, not home.
+- Minor snag: script-editing the xlsx tripped macOS quarantine / Protected View, cleared with `xattr -d com.apple.quarantine`. One-off.
+
+
 ## Session — 2026-09-11  *(flushed from SITREP 12 Sep night)*
 - AC311 zero-interest note drilling (~1hr, morning) — carrying value/contra-account mechanics held clean across 3 reps; payable/receivable perspective flip and month-counting slip both resurfaced but self-corrected on a nudge.
 - FN201 STQ03 Q13–Q16 all drilled and correct — Wayabutara 20-ratio set, Chompupan 6-blank income statement, Rubber Ducklings 15-ratio+DuPont case, TIE-covenant max-debt-ratio problem (his cleanest run of the day).
