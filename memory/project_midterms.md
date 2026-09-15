@@ -267,6 +267,17 @@ Format: one open question at a time, no explainer up front, corrected as he went
 
 ✅ **All of the above is now written into §14 of *Assets Before the Cut-Off*** → [[reference-artifacts]]. The section is no longer a scaffold.
 
+### 🏭 AC313 PROCESS COSTING — first contact, 15 Sep 2026
+Opened at his call after he shut down the AC311 statement-layout work ("lets move on to ac313... havnt really gotten to fully understand the whole thing").
+- ✅ **Equivalent units landed immediately** — given 8,000 finished + 2,000 half-done, he answered **9,000 unaided**. The concept is not the problem.
+- 🔴 **Error 1 — ONE DENOMINATOR.** Given materials 200,000 (all at start) and conversion 270,000, he divided the combined 470,000 by 9,000. He had not grasped that **materials and conversion get separate EU counts** because they enter at different points. Fixed with the cake analogy (a half-baked cake holds 100% of its flour and 50% of its baking time) and it took — he restated it back correctly and got the next question's both columns right (6,000 / 5,100).
+- 🔴 **Error 2 — STEP 5 REACHES FOR THE WRONG NUMBER, twice in one problem.** First he gave the *total cost to account for* (273,000) when asked for closing WIP. Then, told to build it up, he **split 48,000 in the ratio of the two RATES (20:30 → 19,200 / 28,800)** instead of using each column's own EU. Right total, both pieces wrong — and he'd got the total by subtraction, the route he'd just been told not to use. **The teaching point that lands: materials is the BIGGER piece despite the LOWER rate, because the unit counts dominate.**
+- ⚠️ He also inverted the division verbally — *"equivalent units divide by the total cost"*. Sanity check given: the answer must look like money per unit.
+- 📌 **He asked to be walked through the procedure step by step** rather than drilled — same request shape as the AC311 provisions block, and again telling-then-applying worked.
+- ✅ All of it is now §p-run in *From Raw to Sold* → [[reference-artifacts]].
+- ⏸️ **PAUSED at the Rayong Ceramics full five-step run** (12,000 started · 9,000 out · 3,000 closing at 100% DM / 25% CC · DM 96,000 + CC 195,000). He was asked and never answered — **drill him on it before he reads §p-run, the model answer is in there.**
+- ▶️ **Still untouched after that: weighted-average vs FIFO · transferred-in costs · spoilage in process costing · the WHOLE of joint products** (splitoff, 3 allocation methods, byproducts, sell-or-process-further).
+
 ### Still unknown for AC311
 - The **Part I / Part II mark split** (his ~65 written / 35 MCQ is still only a working assumption).
 - Exam date still timetable-only (26 Sep), never confirmed in writing by the instructor.

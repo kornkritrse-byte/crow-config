@@ -285,3 +285,11 @@ metadata:
 - 📄 Built and published **Obrom's TVM Playbook** → [[reference-artifacts]].
 - 🔧 `yt-dlp` installed; FN201 clips are unlisted YouTube with auto-captions → [[reference-lecture-transcription]].
 
+
+## Session — 2026-09-13 (flushed from SITREP 15 Sep)
+- **FN201 group report pages 2 and 3 finished.** Three substantive corrections: page 3's thesis was inverted (blamed cost of sales, the one line that never moved; the real story is the +9pt SG&A step-up), "stay afloat" cut for the second time, and his 3-category revenue split replaced with the audited 97.1% / 2.9% distribution-vs-services split from the FY2025 notes. "Founder" → controlling shareholder.
+- **STQ04 (TVM) Q6–Q13 + ~20 Crow-built drills** — from "no fucking clue" to a clean past-midterm-shaped valuation exact to the baht. All five primitives, all three moves, both reversals.
+- **The finding: his formula selection was never wrong — `n` was.** He overwrote a *given* n with a date 5× in the first hour; the 5-step pre-flight killed it and it never recurred across ~20 problems.
+- **Highest-value reframe:** the sheet's 13 cash-flow types = 4 primitives + 2 moves, plus the two anchor sentences (PV lands one period before the first CF; FV lands on the last CF). He asked for it unprompted.
+- He declared the morning-person goal and asked for it written down → [[project-morning-person]].
+- Crow named the allocation risk: one subject got the whole day; BA202 (45%) got none.
