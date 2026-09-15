@@ -13,6 +13,11 @@ metadata:
 ## 🗓️ THE HUB — start here
 **Term 2.1** — https://claude.ai/code/artifact/017ced5a-48b7-4101-a4a9-e18b38b4de3e
 Built 27 Aug 2026. The board for all six midterms: live day-count to the first paper, the 8-day exam run (20–27 Sep) showing where the two free days fall, and the six subjects **ranked by study order, deliberately not exam order**. Each card links out to that subject's own document.
+**🔄 UPDATED 15 Sep 2026** on Korn's ask ("why not add them to the hub"):
+- ✅ **New section `Drills, mocks and maps`** (`.tools` grid + `.tool` card) — three cards: **Ground Covered** (the map), **The December 31 Paper** (AC311 mock), **After the Business Eats** (FCF drill). The three 'not yet linked from the hub' items are all now linked. ⚠️ The old rule still holds: **new subject = new card, the hub never gets heavier** — this section is for drills, not for content.
+- ✅ **CARDS RE-ORDERED to his 15 Sep call: FN201 (1) · AC311 (2, chip 'tied top with FN201') · AC313 (3) · BA202 (4) · MK201 (5) · EL221 (6).** The `.sub` line explains the change. Supersedes the 27 Aug order.
+- ✅ De-staled: FN201 doc label 'topic 5 only' → 'all five topics'; FN201 chip 'group assignment due 16 Sep' → 'group report submitted'; AC311 doc label 'sessions 1–4, provisions scaffolded' → 'all seven sessions'; AC311 scope 'sessions 5–7 have not been taught yet' → taught but no deck held; AC311 state rewritten around the 14 Sep scope (provisions heaviest, inventories on blank paper).
+- 🔧 **EXTRACTION GOTCHA:** the hub's saved HTML contains **TWO** `<body` markers and **TWO** trailing `</body></html>` pairs (a nested frame preamble). Extract from the **SECOND** `<body`, and strip trailing closers in a loop — taking the first one yields a doubled document.
 
 ## 📕 SUBJECT DOCUMENTS
 | Subject | Artifact | Covers |
