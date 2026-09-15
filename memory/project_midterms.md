@@ -240,7 +240,7 @@ The SITREP said the AC subjects were **blocked on syllabi**. They were not — *
 3. **The p.24 Provision-deck boundary worry is largely moot** — provisions is tested as the classify/recognise-vs-disclose framework.
 4. Time should move toward **LCNRV + the two commitment types**, which is where the points actually are.
 
-### 🎓 AC311 LIVE DRILL — Blocks 1–2 complete, 14 Sep 2026 (PAUSED at Block 3 Q1)
+### 🎓 AC311 LIVE DRILL — ALL THREE BLOCKS COMPLETE (Blocks 1–2 on 14 Sep, Block 3 on 15 Sep)
 Format: one open question at a time, no explainer up front, corrected as he went — [[feedback-drill-format]]. Order chosen: **Cash & Receivables → Inventories → Provisions** (oldest decays fastest; provisions last because it is the 32-mark block).
 
 **Block 1 — Cash & Receivables: 8/8 on classification.** Postdated cheque · NSF cheque · the 3-month test · the original-maturity trap (12-month deposit with 2 months left) · restricted cash + what decides current vs non-current · both overdrafts · receivables at net.
@@ -256,7 +256,16 @@ Format: one open question at a time, no explainer up front, corrected as he went
 - ⚠️ **Account names are his weak point, not concepts.** He guessed "LCNRV", "loss on sales contract", "provision?" — **the correct names are printed on Ajarn Pailin's own two templates.** Told him to use her exact wording because she marks it.
 - 📌 He pushed back on being told not to say "provision" — fair, and he was right: conceptually it IS a provision under TAS 37. The reason to use her names is marking friction, not correctness. **But in Problem 3 the four terms are NOT interchangeable** — that is the question.
 
-⏸️ **PAUSED at Block 3 (Provisions), question 1:** *"What makes something a provision rather than an ordinary liability like a trade payable?"* Resume there.
+**Block 3 — Provisions, 15 Sep: 6 of 7 concepts cold. His strongest block of the three.**
+- ✅ "A provision is an estimate rather than an exact number" — right half of the definition unprompted; supplied **timing** as the second axis on one nudge.
+- ✅ **Smoke filters (TAS 37's own example): "nothing, no past event which causes obligation"** — correct answer AND correct reason, first try, no hint.
+- ✅ Year 2 of the same case: asked *"if we don't install do we get fined? if so then provision for that"* — **he found the fine-not-the-filters pivot himself.** That is the hard half of the question.
+- ✅ Constructive obligation: said "yes provision" and computed **3% × 50m = 1.5m** unprompted. He had the mechanism without the vocabulary — "constructive obligation", "valid expectation" and "expected value" were supplied as labels for something he already understood.
+- ✅ **Did NOT fall for ฿1.4m** on the single lawsuit — answered ฿2m "since it's probable that shit's gonna hit the fan". Recognition and measurement were fused in his reasoning; separated for him afterwards.
+- 🔴 **THE ONE GAP — he classifies but does not state the TREATMENT.** On the contingent A/B mirror he produced both labels correctly ("isn't a provision", "contingent asset") and stopped. **No "disclose in the notes", no "nothing".** The labels carry few marks; the treatment carries them. ⚠️ **Same shape as his Block 1 pattern** (right answer, incomplete reason) — this is his consistent failure mode across the whole subject: **he stops one sentence early.** Drill him to always finish with recognise / disclose / nothing.
+- 🗣️ **Mid-block he asked to be told rather than drilled** ("can you list them to me again. im supposed to know this fuck") and, later, to simplify. **Telling-then-immediately-applying worked** — he got the next five right. Don't withhold when he asks directly; retrieval happens on application, not on naming.
+
+✅ **All of the above is now written into §14 of *Assets Before the Cut-Off*** → [[reference-artifacts]]. The section is no longer a scaffold.
 
 ### Still unknown for AC311
 - The **Part I / Part II mark split** (his ~65 written / 35 MCQ is still only a working assumption).

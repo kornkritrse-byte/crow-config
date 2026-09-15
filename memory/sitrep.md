@@ -26,8 +26,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (2026-09-15).** ✅ **FN201 group report SUBMITTED** — that whole block is CLOSED, do not re-raise it (contradictions, bibliography, page 1 IDs — all moot now). Drill has been cold since Monday afternoon.
-- **ASK ON RETURN — one thing only:** 🔴 **resume the AC311 drill at Block 3 (Provisions), question 1 — "what makes something a provision rather than an ordinary liability like a trade payable?"** Blocks 1 and 2 are finished; do NOT re-drill them.
+- **Here (2026-09-15).** ✅ **FN201 group report SUBMITTED** — that whole block is CLOSED, do not re-raise it (contradictions, bibliography, page 1 IDs — all moot now). ✅ **AC311 Provisions drilled AND written up** — see session note.
+- **ASK ON RETURN:** nothing outstanding from 15 Sep. 🔴 **Next job = BA202** — it is now #4 by his own order but still at ZERO, and it is the 45% paper. AC311 Blocks 1–3 are all done.
 
 ### 🔥 Live / time-critical
 - ✅ **FN201 GROUP REPORT — SUBMITTED (confirmed by Korn 15 Sep).** Closed. Excel + 13-page written report delivered. ⛔ Do not raise the number contradictions, the bibliography, or page 1 IDs again — the deliverable is gone.
@@ -39,8 +39,8 @@ metadata:
 
 ### 📚 Subject state (detail all lives in [[project-midterms]])
 - **FN201** — STQ01–03 cleared; **STQ04 Q6–Q13 done 13 Sep** plus ~20 extra drills. ⛔ Don't return to Q1 until Q13–Q16 are done. ✅ Financial calculators allowed and he owns one; only residual is BGN↔END muscle memory.
-- **AC311** — ✅ **EXAM SCOPE GIVEN BY THE PROF 14 Sep** → full detail in [[project-midterms]]. Part I: Cash & Receivables classification (~8) · **Inventories ~20** (LCNRV + sales/purchase commitments, Dec-31 entries, SOCI + partial SOFP) · 🔴 **Provisions = THE BIGGEST MARK BLOCK** (Korn corrected Crow: not Inventories). Part II MCQ+T/F, split still unknown. **Inventories is answered on BLANK PAPER — both statements reproduced from memory.** ⇒ Provisions is simultaneously the heaviest section and the thinnest part of his AC311 doc (scaffold only, never lecture content) — **that rebuild is now the highest-value AC311 job.**
-- **AC311 drill 14 Sep — Blocks 1–2 DONE** (Cash 8/8, Inventories solid). ⏸️ **Paused at Block 3 Provisions Q1.** Full profile + his error patterns → [[project-midterms]].
+- **AC311** — ✅ **EXAM SCOPE GIVEN BY THE PROF 14 Sep** → full detail in [[project-midterms]]. Part I: Cash & Receivables classification (~8) · **Inventories ~20** (LCNRV + sales/purchase commitments, Dec-31 entries, SOCI + partial SOFP) · 🔴 **Provisions = THE BIGGEST MARK BLOCK** (Korn corrected Crow: not Inventories). Part II MCQ+T/F, split still unknown. **Inventories is answered on BLANK PAPER — both statements reproduced from memory.** ⇒ ✅ **RESOLVED 15 Sep — the Provisions rebuild is DONE** (7 drills, decision-tree SVG, asymmetry table) → [[reference-artifacts]]. Provisions is no longer the thin spot.
+- **AC311 drill — Blocks 1, 2 and 3 ALL DONE.** Cash 8/8 · Inventories solid (14 Sep) · **Provisions 6/7 concepts cold (15 Sep)**. Full profile + his error patterns → [[project-midterms]].
 - **AC311 mock built — "The December 31 Paper"** → [[reference-artifacts]]. **UNSAT — he parked it.**
 - **AC313** — job costing SOLID (two clean cycles, error modes not repeated). 📌 Still queued: **joint-cost allocation timing** and **process costing** (own session, start from equivalent units).
 - **BA202** — cheat sheet confirmed **8 A4 sheets, printed OK**; he builds it in GoodNotes as he reads. Biggest untouched risk by weight.
@@ -64,6 +64,14 @@ metadata:
 - **14 Sep — asserted ~70% that the 2021 share price ฿2.00 was a ×10 typo. It was correct** (split-adjusted, matching the post-split share count the professor's data uses). **[[project-midterms]] already recorded the reverse-split check from 12 Sep — I reasoned from the doc's stale "2.03" instead of reading my own file first.** Same failure shape as the 27 Aug BA202 "coverage gap" and the 1 Sep "unverified answers" claim: **check the record before calling a defect.**
 - **13 Sep — misdiagnosed twice in one session**, both times calling a calculator typo a conceptual error (claimed he fed a PV in as C; claimed a number "migrated" between sub-questions). He corrected both. **Rule: when a wrong answer has two possible causes, ask what he punched in before asserting one.**
 - **12 Sep — fabricated a "home = peak focus" study-location claim.** He does NOT study at home; his locked solo default is the cafe near home (Starbucks/Bloom). Check [[project-midterms]]' location rules before giving location advice.
+
+## Session — 2026-09-15 (FN201 closed, priority order rewritten, Provisions built)
+- ✅ **FN201 group report SUBMITTED.** The entire block closes — the number contradictions, the missing bibliography and the page-1 IDs are all moot. Never raise them again.
+- 🔄 **HE REWROTE THE PRIORITY ORDER: FN201 = AC311 (tied top) > AC313 > BA202 > MK201 > EL221.** His reasoning, which beat Crow's: the two AC subjects have the most moving parts AND allow no cheat sheet. Crow's standing counter, stated once then dropped: BA202's 8 sheets only exist if he reads, since he builds them in GoodNotes as he reads.
+- 🎓 **AC311 Block 3 Provisions drilled — 6 of 7 concepts cold.** Got: uncertain amount, uncertain timing, past-event failure on the smoke filters, "provide for the fine not the filters", constructive obligation + 3%×50m, and most-likely-outcome ฿2m (did NOT fall for ฿1.4m). **The one gap: he named contingent liability / contingent asset correctly but gave no TREATMENT for either** — labels without "disclose / nothing". Drill rule confirmed: he asked "can you list them again", and telling-then-applying worked better than withholding.
+- 🗣️ **He asked to simplify mid-drill ("can you simplifly the hoe...") — fourth strike on plain-English.** The version that landed: "a provision is a bill you know is coming, but you don't know exactly how much or exactly when," then three questions, then the two measurement shapes. **[[reference-artifacts]]'s plain-English hard rule holds; assume it by default.**
+- 📕 **§14 Provisions REBUILT in *Assets Before the Cut-Off*** — no longer a scaffold. 3-gate decision-tree SVG, asymmetry table, 7 drills, §16 grew to 28 entries, stale "not yet taught" labels fixed throughout. Full contents → [[reference-artifacts]].
+- 🧩 **Installed the `diagram-design` plugin** (39 diagram types, user scope) on his call — "better to have than not at all". ⚠️ **Loads NEXT session, not this one.** Rejected four other skills with reasons → [[reference-skills]].
 
 ## Session — 2026-09-14 (morning-person #1 landed, AC311 scope arrived, live drill started)
 - 🌅 **MORNING-PERSON ATTEMPT #1 HAPPENED** — 10-min bike warm-up then gym then class, exactly as he said he would on 13 Sep. First declared goal of that project, met on the first dated attempt → [[project-morning-person]].
