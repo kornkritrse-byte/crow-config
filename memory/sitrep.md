@@ -44,7 +44,8 @@ metadata:
 - ⇒ **THREE examinable lectures have NO material on disk: L5 Corporate Income Tax Pt I (2 Sep) · L6 CIT Pt II + Petroleum Income Tax (9 Sep) · L7 Special Income Tax Regimes — SME incentives, investment incentives, Double Tax Treaties (16 Sep).** That is the entire CORPORATE half of the paper, where the computation lives.
 - 🚨 **His 16 Sep plan — "cram the rest of the sheet with a full day on the 18th" — is downstream of material he does not have.** The cheat sheet cannot be built from nothing. **The 18th is wasted unless the L5–L7 handouts/recordings are obtained FIRST.**
 - ▶️ **The ask given to him: Google Classroom → download L5/L6/L7 handouts + any recordings.** Pure admin, fits a fogged head. Recordings → [[reference-lecture-transcription]].
-- ❓ **L7 was taught the MORNING of Wed 16 Sep (his section 026401, 9–12). Did he attend?** Asked 16 Sep.
+- ❌ **L7 SKIPPED (16 Sep) — he has still attended ZERO BA202 classes.** His words: *"nope skipped again but we can catch up no problem."* Crow objected on record: 45% paper · zero attendance · 3 of 7 lectures with no material · Thai law so Crow cannot reconstruct it · 11 days out. **He said "sure" to pulling the files — WAITING ON L5 + L6 handouts.** ⏳ **Chase this; it is the biggest single risk on the board, bigger than FIFO.**
+- 📌 Correction made to him: L5 (2 Sep) and L6 (9 Sep) are **already on Classroom, not pending upload** — only L7 may not be posted yet.
 - ℹ️ Instructor: Asst. Prof. Dr. Patharawan Chongchit — pat.chongchit@live.com AND pc_law@tu.ac.th (both required). Materials live on **Google Classroom**, posted weekly.
 
 ### 📚 Subject state (detail all lives in [[project-midterms]])
