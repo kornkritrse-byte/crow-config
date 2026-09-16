@@ -38,6 +38,15 @@ metadata:
 - ▶️ **NEXT FN201 SESSION OPENS WITH Q2** (amortised loan). Deliberately left for a fresh head.
 - 📉 **ALLOCATION RISK, named to him 13 Sep:** a full day went to FN201 TVM mechanics. **Loans, two-stream equations and securities are still at zero — that's 7 of the 8 past-midterm questions in STQ04.** Meanwhile **BA202 (45%, heaviest paper of six) got nothing**, and AC311 Ch13 provisions is still mid-deck at p.24.
 
+### 🔴 BA202 — MATERIAL GAP FOUND 16 SEP (the real blocker, not motivation)
+- **Midterm covers LECTURES 1–7 = 45%** (confirmed in the course outline PDF, 16 Sep).
+- **`~/Desktop/BA202 lecture transcripts/` holds L1–L4 ONLY.** The doc [[reference-artifacts]] *The Missed Lectures* also stops at L4.
+- ⇒ **THREE examinable lectures have NO material on disk: L5 Corporate Income Tax Pt I (2 Sep) · L6 CIT Pt II + Petroleum Income Tax (9 Sep) · L7 Special Income Tax Regimes — SME incentives, investment incentives, Double Tax Treaties (16 Sep).** That is the entire CORPORATE half of the paper, where the computation lives.
+- 🚨 **His 16 Sep plan — "cram the rest of the sheet with a full day on the 18th" — is downstream of material he does not have.** The cheat sheet cannot be built from nothing. **The 18th is wasted unless the L5–L7 handouts/recordings are obtained FIRST.**
+- ▶️ **The ask given to him: Google Classroom → download L5/L6/L7 handouts + any recordings.** Pure admin, fits a fogged head. Recordings → [[reference-lecture-transcription]].
+- ❓ **L7 was taught the MORNING of Wed 16 Sep (his section 026401, 9–12). Did he attend?** Asked 16 Sep.
+- ℹ️ Instructor: Asst. Prof. Dr. Patharawan Chongchit — pat.chongchit@live.com AND pc_law@tu.ac.th (both required). Materials live on **Google Classroom**, posted weekly.
+
 ### 📚 Subject state (detail all lives in [[project-midterms]])
 - **FN201** — STQ01–03 cleared; **STQ04 Q6–Q13 done 13 Sep** plus ~20 extra drills. ⛔ Don't return to Q1 until Q13–Q16 are done. ✅ Financial calculators allowed and he owns one; only residual is BGN↔END muscle memory.
 - **AC311** — ✅ **EXAM SCOPE GIVEN BY THE PROF 14 Sep** → full detail in [[project-midterms]]. Part I: Cash & Receivables classification (~8) · **Inventories ~20** (LCNRV + sales/purchase commitments, Dec-31 entries, SOCI + partial SOFP) · 🔴 **Provisions = THE BIGGEST MARK BLOCK** (Korn corrected Crow: not Inventories). Part II MCQ+T/F, split still unknown. **Inventories is answered on BLANK PAPER — both statements reproduced from memory.** ⇒ ✅ **RESOLVED 15 Sep — the Provisions rebuild is DONE** (7 drills, decision-tree SVG, asymmetry table) → [[reference-artifacts]]. Provisions is no longer the thin spot.
