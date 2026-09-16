@@ -27,7 +27,8 @@ metadata:
 
 ## 🚪 Current status
 - **Session saved 2026-09-15 at his request ("save the session"). NOT a day-end — no nightly quote fired.** Very long session: FN201 closed, AC311 fully re-run, AC313 started.
-- **Here (2026-09-16)** — both 15 Sep ask-on-return items are CLOSED: the Rayong Ceramics drill is RUNNING now, and the **Monvika email is SCRAPPED at his call** (he already knew the answers).
+- **Here (2026-09-16)** — both 15 Sep ask-on-return items are CLOSED: Rayong Ceramics run **10/10 on numbers**, and the **Monvika email is SCRAPPED at his call** (he already knew the answers).
+- ⏳ **OWED TODAY — the AC311 classification cold re-run, 5 min.** He committed to it 15 Sep (16th + 19th). Deferred 16 Sep on his call: *"lets not mix up the subjects"* — sound reasoning, but **it is deferred, not cancelled. Raise it again once AC313 is done for the session.**
 
 ### 🔥 Live / time-critical
 - ✅ **FN201 GROUP REPORT — SUBMITTED (confirmed by Korn 15 Sep).** Closed. Excel + 13-page written report delivered. ⛔ Do not raise the number contradictions, the bibliography, or page 1 IDs again — the deliverable is gone.
