@@ -27,13 +27,11 @@ metadata:
 
 ## 🚪 Current status
 - **Session saved 2026-09-15 at his request ("save the session"). NOT a day-end — no nightly quote fired.** Very long session: FN201 closed, AC311 fully re-run, AC313 started.
-- **ASK ON RETURN — two things:**
-  1. 🔴 **Resume AC313 at the Rayong Ceramics five-step run** — no opening WIP, 12,000 started, 9,000 completed, 3,000 closing WIP at 100% DM / 25% CC, DM 96,000 + CC 195,000. **He was asked and never answered.** Model answer is now in [[reference-artifacts]] §p-run, so drill him BEFORE he reads it.
-  2. 📧 **Did he send the AC313 email to Ajarn Monvika?** Format / formula sheet / exam date. Drafted 14 Sep, still unsent as of 15 Sep, and AC313 is the nearest paper.
+- **Here (2026-09-16)** — both 15 Sep ask-on-return items are CLOSED: the Rayong Ceramics drill is RUNNING now, and the **Monvika email is SCRAPPED at his call** (he already knew the answers).
 
 ### 🔥 Live / time-critical
 - ✅ **FN201 GROUP REPORT — SUBMITTED (confirmed by Korn 15 Sep).** Closed. Excel + 13-page written report delivered. ⛔ Do not raise the number contradictions, the bibliography, or page 1 IDs again — the deliverable is gone.
-- 📧 **AC313 email to Ajarn Monvika: DRAFTED, NOT SENT.** Format / formula sheet / exam date. Every day it sits costs reaction time.
+- ✅ **AC313 email SCRAPPED 16 Sep — no longer needed.** Korn confirmed: **exam Tue 22 Sep 09:00, and NO formula sheet.** ⇒ **Every AC313 format is memorized cold** — the five-step process-costing layout, job-cost flows, joint-cost methods. Weight the drills accordingly → [[project-midterms]].
 - 📌 **[14 SEP: MISSED — class was ONLINE, he didn't get to ask. Needs another channel: chat during class, or email.]** ~~MON 14 SEP — ask Ajarn Monvika the three AC313 questions. LAST class before the exam~~ (no classes in exam week): (1) format + MCQ/written split, (2) is a formula sheet provided, (3) confirm the exam date (her outline says TBA; 22 Sep is timetable-only). Session 7 that day = **joint products**, the one AC313 topic still untouched.
 - ✅ **Morning-person attempt #1 LANDED 14 Sep** (bike warm-up + gym before class) → [[project-morning-person]]. Watch whether #2 happens; one is not a habit.
 - ▶️ **NEXT FN201 SESSION OPENS WITH Q2** (amortised loan). Deliberately left for a fresh head.

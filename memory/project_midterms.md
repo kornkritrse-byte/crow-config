@@ -183,7 +183,7 @@ Files: `~/Desktop/class outline/` (BA202, AC311, AC313, FN201, MK201). **EL221 o
 5. **FN201's Time Value of Money is 4 weeks of class** (Aug 26 → Sep 16) — by far the largest single block on any midterm. It is the centre of gravity for a 🔴 subject.
 6. ⚠️ **AC311 moves to SATURDAY 09:00–12:00 from 3 Oct** (sessions 8–15, different instructor: Ajarn Saifon). Post-midterm, but it kills "Sat = full study day" and collides with the Saturday long run — [[project-training-plan]].
 7. **MK201 exam time discrepancy:** outline says 20 Sep **13:00–15:00 (2 hrs)**; calendar has 13:00–16:00. Probably a 3-hr slot with a 2-hr paper. Not fixed — flagged.
-8. **AC313 / AC311 / BA202 midterm dates are "TBA" in their outlines** — the 22/26/27 Sep dates came from the program exam timetable, not confirmed by these documents.
+8. **AC313 / AC311 / BA202 midterm dates were "TBA" in their outlines** — the 22/26/27 Sep dates came from the program exam timetable, not confirmed by these documents. ✅ **AC313 CONFIRMED by Korn 16 Sep: Tue 22 Sep, 09:00. And NO FORMULA SHEET IS PROVIDED** — every process-costing / job-costing / joint-cost format must be reproduced from memory, cold. (The email to Ajarn Monvika was scrapped 16 Sep; he already had the answers.)
 
 ## 📒 AC311 — MATERIAL IN HAND + DOC BUILT (28 Aug 2026)
 **Folder: `~/Desktop/AC311/OneDrive_1_8-28-2026/`** (duplicate in `~/Downloads/OneDrive_1_8-28-2026/`). Korn downloaded it 28 Aug and asked for a midterm-scope study resource.
