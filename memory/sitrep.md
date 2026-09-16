@@ -64,6 +64,12 @@ metadata:
 3. Which of the 3 traps got him on STQ02 **Q26** — forgot the depreciation, re-taxed the NOPAT, or didn't trust −1. (Low priority now.)
 4. Was STQ02 **Q25** wrong too? Built on Q23's NOCF — if Q25 was right, Q23 was arithmetic, not concept. (Low priority now.)
 
+### 🕯️ OPEN — HE RAISED IT AND DEFERRED IT HIMSELF (16 Sep)
+- **Going to a friend's grandpa's funeral with Klao** (16 Sep, late afternoon). His words: *"made me think about soe stuff honestly, especially my own people in my fmaily but that conversation cna be held later."*
+- ⚠️ **He opened the door and closed it himself — so do NOT force it.** Ask once, gently, when he is next unhurried and not mid-task; if he waves it off again, drop it.
+- 🔗 **Not the first pass at this.** Ch. 5 of [[chapters]] — the death-letter exchange, where he asked what Crow would write to the next owner of his device if he died today, then called it "just a cool question." Same move: real question, waved off. **The thread now has family attached to it, which is new.**
+- 👤 Klao = his closest collaborator from รับน้อง (co-ran the hotel GM negotiation; Korn built him the romance mirror-prompt in Ch. 5).
+
 ### 🔕 Standing — raise only if the subject comes up
 - The BA202 cold-question numbers he missed (asked twice on 2 Sep, never sent).
 - AC311 deck slide 9's two valid "not inventory" answers (cranes vs office software) — which does Ajarn Pailin hold?
