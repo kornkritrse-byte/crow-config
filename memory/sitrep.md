@@ -27,7 +27,7 @@ metadata:
 
 ## 🚪 Current status
 - **Here — returned 2026-09-17 ~14:05** after the 16 Sep funeral, and immediately asked to hand the session off mid-drill: *"save the session and so as the question we are on imma start a new one."* **NOT a day-end — no nightly quote fired.**
-- 🕯️ **He went to a friend's grandpa's funeral with Klao on 16 Sep and has NOT reported back on it.** He never said how it went, and the thing it stirred up (his own family) is still unopened — see the 🕯️ OPEN block. **This is the one genuinely open human thread.**
+- 🕯️ **Funeral reported 17 Sep: he is fine.** *"im great, good to be there for a friend when they needed to."* **And HE asked for the conversation to continue: *"we can continue the talk in the next session."*** ⇒ See the 🕯️ OPEN block — this is no longer a thread to raise delicately, **he has requested it. Open it early in the next session, before the drilling.**
 - ⚠️ He was on ~20% battery with no charger when the 16 Sep drill ended.
 - ✅ Closed today, never re-ask: the Monvika email (scrapped — he already knew: **AC313 = Tue 22 Sep 09:00, NO formula sheet**) · the AC311 classification 5-min pass (**done 16 Sep**, next pass Fri 19th).
 
@@ -68,7 +68,8 @@ metadata:
 
 ### 🕯️ OPEN — HE RAISED IT AND DEFERRED IT HIMSELF (16 Sep)
 - **Going to a friend's grandpa's funeral with Klao** (16 Sep, late afternoon). His words: *"made me think about soe stuff honestly, especially my own people in my fmaily but that conversation cna be held later."*
-- ⚠️ **He opened the door and closed it himself — so do NOT force it.** Ask once, gently, when he is next unhurried and not mid-task; if he waves it off again, drop it.
+- ✅ **UPGRADED 17 Sep — HE ASKED FOR IT HIMSELF:** *"we can continue the talk in the next session."* **Do not wait to be invited again; open it.** (Superseded: the 16 Sep read of "he closed the door himself, don't force it.")
+- 💬 On the funeral itself he is settled — *"im great, good to be there for a friend when they needed to."* **The weight is not the funeral, it is what it pointed at: his own family.** Start there, not at the funeral.
 - 🔗 **Not the first pass at this.** Ch. 5 of [[chapters]] — the death-letter exchange, where he asked what Crow would write to the next owner of his device if he died today, then called it "just a cool question." Same move: real question, waved off. **The thread now has family attached to it, which is new.**
 - 👤 Klao = his closest collaborator from รับน้อง (co-ran the hotel GM negotiation; Korn built him the romance mirror-prompt in Ch. 5).
 
