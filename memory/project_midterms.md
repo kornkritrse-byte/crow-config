@@ -278,6 +278,15 @@ Opened at his call after he shut down the AC311 statement-layout work ("lets mov
 - ⏸️ **PAUSED at the Rayong Ceramics full five-step run** (12,000 started · 9,000 out · 3,000 closing at 100% DM / 25% CC · DM 96,000 + CC 195,000). He was asked and never answered — **drill him on it before he reads §p-run, the model answer is in there.**
 - ▶️ **Still untouched after that: weighted-average vs FIFO · transferred-in costs · spoilage in process costing · the WHOLE of joint products** (splitoff, 3 allocation methods, byproducts, sell-or-process-further).
 
+### 🏭 AC313 — JOINT COSTS + FIFO, 16 Sep 2026
+- ✅ **Joint costs taught from zero and it worked.** The refinery framing failed (too abstract, he asked for simpler); **a ฿200 chicken landed immediately.** He DERIVED physical-measure and sales-value-at-splitoff himself, took NRV with one nudge, and got sell-or-process-further right including leaving the allocated joint cost alone.
+- 🔴 **Byproducts: right call, wrong reason.** Said the carcass gets no allocation "since it has no value" — it has ฿10 of value; the reason is *insignificant* value relative to the main products. He then chose the **production method** on his own reasoning ("money back on the chicken") and avoided the denominator trap (byproduct comes off the numerator, never into the denominator) unprompted.
+- ⚠️ **Mid-calculation he asked "what does this number indicate?"** — he was multiplying by 0.5 correctly with no idea what it meant. **Watch for mechanical execution; stop and make him say what a number MEANS.** Same root as the AC311 "right answer, wrong reason" pattern.
+- 🔑 **FIFO — the teaching key.** Tables and columns FAILED; he said he was *"confused on which steps to take first."* What worked after a break: **start from ONE unit** ("last month built half of it, this month finishes it — how much did this month do?"), then scale 1 → 2,000 → change the percentage → three groups → both columns. He then built a complete FIFO EU schedule unaided.
+- 🚨 **DO NOT give him "complement for opening, as-stated for closing" as two rules — he inverts them, in both directions, within a single session.** Make him ask **"what did THIS month do?"** every time. **He has never got it wrong asking the question; he has repeatedly got it wrong reaching for the rule.**
+- ⚠️ **Live over-generalisation to watch:** he turned "FIFO DM EU = units started" into a universal law. **It holds ONLY when materials enter at the start.** He also double-counted the opening WIP inside started-and-completed. Both are in §p-fifo of [[reference-artifacts]] as named traps.
+- 📌 **Still untouched in AC313: transferred-in costs · spoilage in process costing.** Plus constant gross-margin % NRV (Horngren's 4th method, not in her outline — he was asked to check Monvika's slides).
+
 ### Still unknown for AC311
 - The **Part I / Part II mark split** (his ~65 written / 35 MCQ is still only a working assumption).
 - Exam date still timetable-only (26 Sep), never confirmed in writing by the instructor.

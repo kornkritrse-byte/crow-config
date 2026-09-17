@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-09-15 — session handed off at Korn's request ("save the session, about to start a new one"). **NOT a day-end: no nightly quote fired.** Window holds 13–14 Sep; the 12 Sep note flushed to [[sessions-log]].*
+*Last updated: 2026-09-17 (~00:xx) — session handed off at Korn's request ("save the session and so as the question we are on"). **NOT a day-end: no nightly quote fired.** The 16 Sep session ran past midnight. Window holds 15–16 Sep; the 14 Sep note flushed to [[sessions-log]].*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,9 +26,9 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Session saved 2026-09-15 at his request ("save the session"). NOT a day-end — no nightly quote fired.** Very long session: FN201 closed, AC311 fully re-run, AC313 started.
-- **Here (2026-09-16)** — both 15 Sep ask-on-return items are CLOSED: Rayong Ceramics run **10/10 on numbers**, and the **Monvika email is SCRAPPED at his call** (he already knew the answers).
-- ⏳ **OWED TODAY — the AC311 classification cold re-run, 5 min.** He committed to it 15 Sep (16th + 19th). Deferred 16 Sep on his call: *"lets not mix up the subjects"* — sound reasoning, but **it is deferred, not cancelled. Raise it again once AC313 is done for the session.**
+- **AWAY (2026-09-16, late) — off to: a friend's grandpa's funeral with Klao.** Then asked to hand the session off mid-drill: *"save the session and so as the question we are on imma start a new one."* **NOT a day-end — no nightly quote fired.**
+- ⚠️ **He was on ~20% battery with no charger** and expected the laptop to die. A gap before the next session is normal; don't read it as avoidance.
+- ✅ Closed today, never re-ask: the Monvika email (scrapped — he already knew: **AC313 = Tue 22 Sep 09:00, NO formula sheet**) · the AC311 classification 5-min pass (**done 16 Sep**, next pass Fri 19th).
 
 ### 🔥 Live / time-critical
 - ✅ **FN201 GROUP REPORT — SUBMITTED (confirmed by Korn 15 Sep).** Closed. Excel + 13-page written report delivered. ⛔ Do not raise the number contradictions, the bibliography, or page 1 IDs again — the deliverable is gone.
@@ -59,10 +59,11 @@ metadata:
 - **BA202** — cheat sheet confirmed **8 A4 sheets, printed OK**; he builds it in GoodNotes as he reads. Biggest untouched risk by weight.
 
 ### ❓ ASK ON RETURN — these only
-1. 🔴 **Resume the AC311 drill: Block 3 Provisions, question 1.** (Blocks 1–2 done, see session note.)
-2. ✅ Morning gym — ANSWERED 14 Sep, it happened. Closed, don't re-ask.
-3. Which of the 3 traps got him on STQ02 **Q26** — forgot the depreciation, re-taxed the NOPAT, or didn't trust −1. (Low priority now.)
-4. Was STQ02 **Q25** wrong too? Built on Q23's NOCF — if Q25 was right, Q23 was arithmetic, not concept. (Low priority now.)
+1. 🔴 **RESUME THE LIVE QUESTION — he asked for it to be saved by name.** Full spec + his progress + the model answer are in the 16 Sep session note below, under **Q1 · Chiang Mai Paper**. He is mid-run: **both EU columns are done (16,000 and 16,000); he still owes the rates, transferred out, closing WIP and the tie-out.** Pick up there, do not restart the question.
+2. ▶️ **He asked for rapid-fire worked examples across FIFO · equivalent units · joint costing · transferred-in**, one at a time, Crow marking between. That was the format when the session ended — continue it.
+3. 🕯️ **The funeral / his own family** — see the 🕯️ OPEN block. **Ask once, gently, only when he is unhurried.** He deferred it himself.
+4. 🔋 **BA202 transcription** — both mp4s already downloaded; it is a one-command job the moment he is near a plug.
+5. Low priority, only if FN201 comes up: which of the 3 traps got him on STQ02 **Q26**, and whether STQ02 **Q25** was wrong too.
 
 ### 🕯️ OPEN — HE RAISED IT AND DEFERRED IT HIMSELF (16 Sep)
 - **Going to a friend's grandpa's funeral with Klao** (16 Sep, late afternoon). His words: *"made me think about soe stuff honestly, especially my own people in my fmaily but that conversation cna be held later."*
@@ -97,6 +98,20 @@ metadata:
 - ⚠️ **Two live over-generalisations caught 16 Sep:** (1) he turned "FIFO DM EU = units started" into a law — **it holds ONLY when materials enter at the start**; (2) with materials added evenly he answered 1,200 (60%) for the opening WIP, contradicting his own correct 800 from ten minutes earlier. **The complement flipped INSIDE one session again** — same shape as the AC311 decay. ⇒ **FIFO still needs one cold pass before 22 Sep.**
 - 📌 **AC313 GAPS LEFT: transferred-in costs · spoilage in process costing.** (FIFO now taught but unretained.) Plus: constant gross-margin % NRV (Horngren's 4th method, NOT in her outline — he is checking Monvika's slides). ⚠️ Crow called byproducts "the last hole" — **wrong, three topics remain.**
 
+### ⏸️ Q1 · Chiang Mai Paper — THE SAVED QUESTION (resume here)
+**Chiang Mai Paper, Pulping Department, October. FIFO.**
+| | |
+|---|---|
+| Opening WIP | 4,000 units — DM 100% (฿20,000), conversion 25% (฿6,000) |
+| Started | 16,000 |
+| Completed & transferred out | 15,000 |
+| Closing WIP | 5,000 — DM 100%, conversion 40% |
+| October costs | DM ฿64,000, conversion ฿128,000 |
+
+**Done — his answers:** EU **DM 16,000 first try** (and he confirmed it equals units started). EU **CC 16,000**, but only after two corrections: he first answered **6,400** (= 16,000 × 40%, the closing-WIP percentage applied to the whole column), then gave buckets **3,000 / 15,000 / 3,000** — bucket 1 right, **bucket 2 = the whole 15,000 completed (double-counting the opening 4,000)**, **bucket 3 = 5,000 × 60%, the complement applied to CLOSING WIP.** Corrected to **3,000 / 11,000 / 2,000** once asked *"what did October do?"*.
+**Still owed by him:** cost per EU both columns · cost of goods transferred out · closing WIP · the tie-out.
+**Model answer (do not show before he answers):** rates **DM 4.00 · CC 8.00**, combined 12.00. Opening WIP prior cost 26,000 + cost to finish (3,000 × 8 =) 24,000 = **50,000**; started & completed 11,000 × 12 = **132,000**; ⇒ **transferred out 182,000**. Closing WIP (5,000 × 4) + (2,000 × 8) = 20,000 + 16,000 = **36,000**. **Ties to 218,000** = 26,000 + 64,000 + 128,000. ✓
+
 ## Session — 2026-09-15 (FN201 closed · AC311 re-run end to end · AC313 opened · 3 artifacts shipped)
 - ✅ **FN201 group report SUBMITTED** — block closed, never re-raise the contradictions/bibliography/page-1 IDs. 🔄 **He rewrote the priority order: FN201 = AC311 (tied top) > AC313 > BA202 > MK201 > EL221**, reasoning that the two AC papers have the most moving parts and allow no cheat sheet. Better argument than Crow's; accepted.
 - 🎓 **AC311 Provisions drilled — 6 of 7 concepts cold**, then **§14 of the doc REBUILT** from scaffold to full content (decision-tree SVG, asymmetry table, 7 drills) → [[reference-artifacts]], [[project-midterms]].
@@ -104,14 +119,6 @@ metadata:
 - 🔴 **THE FINDING OF THE DAY — his rules decay inside ONE HOUR, not one day.** Three separate rules that were correct on Monday had *inverted* by Tuesday (overdraft offset, original-maturity, purchase discounts); twice he got something right and lost it **within the same session** (FOB shipping point; possession-vs-ownership on bill-and-hold, contradicting his own correct answer four items earlier). **⇒ More explanation is worthless. Volume + spacing is the only thing that works.** Standing plan agreed: re-run the classification sets cold **tomorrow 16 Sep and again on the 19th**, 5 min each.
 - 🚩 **ONE AC311 GAP LEFT — the SOCI + partial SOFP layouts.** Blank paper, free format marks. He deferred it ("more so short term memory"); **Crow rejected that reasoning but endorsed the switch on timing** (AC313 ~21–22 Sep vs AC311 26 Sep). ⚠️ **Committed to Thu 17 Sep, then re-drawn 19th and 24th — three short passes. Hold him to it.**
 - 🏭 **AC313 opened** — equivalent units landed (he got 9,000 unaided), then **two errors: one denominator for both cost types, and step 5 reaching for physical units / splitting by the rate ratio.** A **§p-run "Running the five steps under exam conditions"** section was written into *From Raw to Sold* off exactly those two errors → [[reference-artifacts]]. 🧰 Also shipped: **[[reference-artifacts]] Ground Covered** (3-subject status map), the **Term 2.1 hub updated + re-ordered**, and the **diagram-design plugin** installed → [[reference-skills]].
-
-## Session — 2026-09-14 (morning-person #1 landed, AC311 scope arrived, live drill started)
-- 🌅 **MORNING-PERSON ATTEMPT #1 HAPPENED** — 10-min bike warm-up then gym then class, exactly as he said he would on 13 Sep. First declared goal of that project, met on the first dated attempt → [[project-morning-person]].
-- 🚨 **AC313 questions MISSED — the class went online and he never got to ask.** Email drafted for Ajarn Monvika (format / formula sheet / exam date); channel now email or the class chat, not in person.
-- 📋 **AC311 EXAM SCOPE ARRIVED from Ajarn Pailin** and Korn corrected Crow's read twice: **Provisions carries the MOST marks** (not Inventories), and **Inventories is answered on blank paper** — both statements from memory, no printed template. Full detail → [[project-midterms]].
-- 🧾 **Built the AC311 mock — "The December 31 Paper"** (100 marks, answers hidden, prints clean) → [[reference-artifacts]]. **Unsat — he parked it.**
-- 📊 **FN201 group file:** a groupmate had already deleted the README and, separately, **switched net profit margin / ROA / ROE for 2021 to profit attributable to owners** (35.9→37.5%, 46.4→48.4%, 197.9→206.7%). **His Google Doc pages 9 and 11 are now stale**, and page 3 still shows 35.9% — a live contradiction inside the report. Crow cleaned the remaining scaffolding text from `~/Downloads/FN201.xlsx`; no numbers touched.
-- 🎓 **Live AC311 drill run, Blocks 1–2 complete** — see the drill profile in [[project-midterms]].
 
 ## 🎯 Current state
 - **MIDTERMS = TOP PRIORITY** ([[project-midterms]] — canonical). 🗓️ **Board: the Term 2.1 hub** — https://claude.ai/code/artifact/017ced5a-48b7-4101-a4a9-e18b38b4de3e · **front-load order REVISED BY KORN 15 Sep: FN201 = AC311 (tied top) > AC313 > BA202 > MK201 > EL221.** His reasoning: the two AC subjects have the most moving parts AND no cheat sheet allowed; BA202 permits 8 A4 sheets, so its memorization load is lower. ⚠️ Counter on record: BA202's cheat sheet only exists if he reads — he builds it in GoodNotes *as* he reads, so zero sheets = zero reading. (Superseded: the 27 Aug order FN201 > BA202 > AC313 > AC311 > MK201 > EL221.) **Thammasat, BBA, Accounting major / Finance minor.** 6 exams 20–27 Sep. Classes end 11 Sep; **14–19 Sep is a free week and the spine of the plan.** ⛔ Only blocker: syllabi + textbook names.

@@ -19,6 +19,14 @@ metadata:
 - Minor snag: script-editing the xlsx tripped macOS quarantine / Protected View, cleared with `xattr -d com.apple.quarantine`. One-off.
 
 
+## Session — 2026-09-14 (morning-person #1 landed, AC311 scope arrived, live drill started)
+- 🌅 Morning-person attempt #1 HAPPENED (bike warm-up → gym → class), first declared goal of that project met on the first dated attempt → [[project-morning-person]].
+- 🚨 AC313 questions missed — the class went online; email drafted for Ajarn Monvika. *(Closed 16 Sep: scrapped, he already knew the answers.)*
+- 📋 AC311 exam scope arrived from Ajarn Pailin; Korn corrected Crow twice — Provisions carries the MOST marks, and Inventories is answered on blank paper → [[project-midterms]].
+- 🧾 Built the AC311 mock "The December 31 Paper" → [[reference-artifacts]]. Unsat — he parked it.
+- 📊 FN201 group file: a groupmate had deleted the README and switched the 2021 margin/ROA/ROE to profit attributable to owners, leaving his Doc pages 9/11 stale against page 3. *(Moot — report submitted 15 Sep.)*
+- 🎓 Live AC311 drill, Blocks 1–2 complete → drill profile in [[project-midterms]].
+
 ## Session — 2026-09-11  *(flushed from SITREP 12 Sep night)*
 - AC311 zero-interest note drilling (~1hr, morning) — carrying value/contra-account mechanics held clean across 3 reps; payable/receivable perspective flip and month-counting slip both resurfaced but self-corrected on a nudge.
 - FN201 STQ03 Q13–Q16 all drilled and correct — Wayabutara 20-ratio set, Chompupan 6-blank income statement, Rubber Ducklings 15-ratio+DuPont case, TIE-covenant max-debt-ratio problem (his cleanest run of the day).
