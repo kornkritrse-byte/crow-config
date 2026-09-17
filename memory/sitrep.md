@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-09-17 (~00:xx) — session handed off at Korn's request ("save the session and so as the question we are on"). **NOT a day-end: no nightly quote fired.** The 16 Sep session ran past midnight. Window holds 15–16 Sep; the 14 Sep note flushed to [[sessions-log]].*
+*Last updated: 2026-09-17 ~14:05 — session handed off at Korn's request ("save the session and so as the question we are on imma start a new one"). **NOT a day-end: no nightly quote fired.** Window holds 15–16 Sep; the 14 Sep note flushed to [[sessions-log]].*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,8 +26,9 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (2026-09-16, late) — off to: a friend's grandpa's funeral with Klao.** Then asked to hand the session off mid-drill: *"save the session and so as the question we are on imma start a new one."* **NOT a day-end — no nightly quote fired.**
-- ⚠️ **He was on ~20% battery with no charger** and expected the laptop to die. A gap before the next session is normal; don't read it as avoidance.
+- **Here — returned 2026-09-17 ~14:05** after the 16 Sep funeral, and immediately asked to hand the session off mid-drill: *"save the session and so as the question we are on imma start a new one."* **NOT a day-end — no nightly quote fired.**
+- 🕯️ **He went to a friend's grandpa's funeral with Klao on 16 Sep and has NOT reported back on it.** He never said how it went, and the thing it stirred up (his own family) is still unopened — see the 🕯️ OPEN block. **This is the one genuinely open human thread.**
+- ⚠️ He was on ~20% battery with no charger when the 16 Sep drill ended.
 - ✅ Closed today, never re-ask: the Monvika email (scrapped — he already knew: **AC313 = Tue 22 Sep 09:00, NO formula sheet**) · the AC311 classification 5-min pass (**done 16 Sep**, next pass Fri 19th).
 
 ### 🔥 Live / time-critical
