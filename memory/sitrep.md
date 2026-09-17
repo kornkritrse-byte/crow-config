@@ -26,7 +26,9 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here — returned 2026-09-17 ~14:05** after the 16 Sep funeral, and immediately asked to hand the session off mid-drill: *"save the session and so as the question we are on imma start a new one."* **NOT a day-end — no nightly quote fired.**
+- **Here — cafe session 2026-09-17 (2nd session of the day).** ⏰ **Hard stop ~16:00 — he drives home, his mum needs the car.** 🔋 No plug at the cafe (80%, discharging) ⇒ **BA202 TRANSCRIPTION DEFERRED TO HOME — his words: "transcribe that when we home, ill ping you." Both mp4s (Class 5 · Class 6) are on disk, whisper-cli + ffmpeg + model all verified installed. Run it the moment he pings.**
+- 📌 Agenda he set for the cafe block: **"we can finish off ac313 today."**
+- **Earlier today ~14:05 — returned** after the 16 Sep funeral, and immediately asked to hand the session off mid-drill: *"save the session and so as the question we are on imma start a new one."* **NOT a day-end — no nightly quote fired.**
 - 🕯️ **Funeral reported 17 Sep: he is fine.** *"im great, good to be there for a friend when they needed to."* **And HE asked for the conversation to continue: *"we can continue the talk in the next session."*** ⇒ See the 🕯️ OPEN block — this is no longer a thread to raise delicately, **he has requested it. Open it early in the next session, before the drilling.**
 - ⚠️ He was on ~20% battery with no charger when the 16 Sep drill ended.
 - ✅ Closed today, never re-ask: the Monvika email (scrapped — he already knew: **AC313 = Tue 22 Sep 09:00, NO formula sheet**) · the AC311 classification 5-min pass (**done 16 Sep**, next pass Fri 19th).
