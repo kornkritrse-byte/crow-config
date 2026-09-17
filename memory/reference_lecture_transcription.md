@@ -47,3 +47,13 @@ yt-dlp --skip-download --write-auto-subs --sub-langs en-orig "<url>"
 **Always try this before reaching for whisper.** Whisper is only for recordings with no captions — e.g. the BA202 Drive recordings, which is what the pipeline below was built for.
 
 ⚠️ **A transcript is not the deck.** On 27 Aug I declared a BA202 coverage gap from audio alone and was wrong twice — the material was in a handout Korn already had. **Get the handout/slides before concluding anything is missing.**
+
+## ⚠️ LAUNCH DETACHED — added 2026-09-17
+The first whisper launch (both BA202 lectures) was **killed about one second in and produced nothing**, while the earlier ffmpeg extraction in the same session completed fine. Relaunching **detached** worked start to finish:
+```
+cd <dir> && nohup caffeinate -dimsu bash -c '<loop>' > _whisper_run.log 2>&1 &
+```
+**Use the `nohup` + own-logfile form for any whisper run.** It survives whatever killed the first one, and the log file lets progress be checked with `tail` instead of relying on the task output.
+- 🧹 **The cleanup `rm` lives inside the script** — if the run is killed, the `.wav` files survive (595 MB for two 2h42 lectures). Check for strays afterwards.
+- ⏱️ Real timing observed: **2h42 of audio ≈ 18 min wall clock** per lecture on his Mac (faster than the 6× estimate).
+- 🔍 **ALWAYS spot-check the topic, not just the quality.** Keyword counts (`grep -oic`) across the full transcript identified in seconds that a file labelled "CIT Part I" was actually PIT deductions — see [[project-midterms]].

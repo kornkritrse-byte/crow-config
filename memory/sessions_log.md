@@ -301,3 +301,10 @@ metadata:
 - **Highest-value reframe:** the sheet's 13 cash-flow types = 4 primitives + 2 moves, plus the two anchor sentences (PV lands one period before the first CF; FV lands on the last CF). He asked for it unprompted.
 - He declared the morning-person goal and asked for it written down → [[project-morning-person]].
 - Crow named the allocation risk: one subject got the whole day; BA202 (45%) got none.
+
+## 2026-09-15 (FN201 closed · AC311 re-run end to end · AC313 opened · 3 artifacts shipped)
+- ✅ **FN201 group report SUBMITTED** — block closed. 🔄 He rewrote the priority order: **FN201 = AC311 (tied top) > AC313 > BA202 > MK201 > EL221**, reasoning the two AC papers have the most moving parts and allow no cheat sheet. Better argument than Crow's; accepted.
+- 🎓 AC311 Provisions drilled 6/7 cold, then §14 of the doc REBUILT (decision-tree SVG, asymmetry table, 7 drills). Then a FULL AC311 re-run at his request: classification 4/8 → 10/10-shaped, cut-off 5/5 (best block), LCNRV and commitments clean.
+- 🔴 **THE FINDING: his rules decay inside ONE HOUR, not one day.** Three rules correct on Monday had inverted by Tuesday; twice he lost something within the same session. ⇒ **More explanation is worthless — volume + spacing is the only thing that works.**
+- 🚩 AC311 gap left: the SOCI + partial SOFP layouts, blank paper. Committed to three short passes (17th, 19th, 24th).
+- 🏭 AC313 opened — equivalent units landed; two errors (one denominator for both cost types; step 5 by physical units) became the §p-run section of *From Raw to Sold*. Also shipped: Ground Covered map, hub re-order, diagram-design plugin.

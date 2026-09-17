@@ -798,3 +798,25 @@ Korn spotted it himself ("q13 is similar to the hw right"). Correct — **same T
 He asked mid-drill **what a discounted number actually *is*** ("the amount of interest earned?"). He did not have PV as *the same money re-quoted on a different date*. Landed via 909.09 × 1.1 = 1,000 and the currency-conversion analogy ("909.09 t=0 baht = 1,000 t=1 baht"). This was upstream of every timing error above — check it's still there before the exam.
 
 **Deliverable:** PDF named `FN201-A2-<StudentID>`, MS Teams, Wed 9 Sep 13:00. He was told to show rate conversion, timeline, each series with **its date labelled**, total, and the why-sentence — and to send the draft to Crow before submitting.
+
+## 2026-09-17 — AC313 COMPLETE · BA202 scope finding · his three error patterns named
+
+### ✅ AC313 — every examinable topic now taught (exam TUE 22 SEP 09:00, NO formula sheet)
+Job costing · process costing (WA + FIFO) · joint costs · byproducts · **transferred-in** · **spoilage**. Six full questions run on 17 Sep: Chiang Mai (tie-out 218,000 ✓), Lampang Glass (198,200 ✓), Polishing EU, Nonthaburi (self-marked), Khon Kaen (238,900 ✓), Polishing cost half (383,500 ✓).
+- **Transferred-in** landed off one physical image — *"can a panel be sitting in Polishing having only half-arrived from Moulding?"* ⇒ **always 100% complete for every unit present, closing WIP included.** ✅ A check he CAN trust: **transferred-in EU = units transferred in**, true by definition (bucket 1 is always 0).
+- **Spoilage** — got the normal/abnormal fork unaided (*"was it in the expected amount or more than what was expected"*), the 30/20 split, the 100%-at-inspection rule, and both destinations. ⚠️ Trap flagged to him: the base may be **% of good units passing inspection**, not % of units started.
+
+### 🔑 HIS THREE ERROR PATTERNS — all scope/structure, NOT concept
+1. **GRABS THE COST POOL, NOT THE RATE** — handed the whole ฿192,000 to one group, then the whole ฿64,000 to closing WIP. Fix: *"you have ฿4 and ฿8 — those are the only numbers you spend."*
+2. **UNITS vs MONEY** — four instances in one day, incl. opening a question with *"do i times the november cost with percentage then devide that by units?"* and trying to put EU into the tie-out. **Fix question: "does the ฿ figure appear anywhere in the EU calculation — yes or no?"**
+3. **NO SKELETON FOR STEP 4** — stalled three separate times on cost assignment, once omitting **line A entirely** (all other numbers correct). Also lost the nesting: listed line A's internals as top-level tie-out items.
+   - **Skeleton given:** `Transferred out = (A) opening WIP group [carried cost + this month's work] + (B) started & completed [units × combined rate]`; `Closing WIP = (C) each column's EU × its own rate`. **A has 3 pieces (4 with transferred-in), B has 1, C has 2+.**
+   - **Tie-out framing that worked: the bank account** — *opening balance + deposits = withdrawals + closing balance.* IN side is **flat** (straight off the paper); OUT side is **nested** (only 2 figures count). He asked the good conceptual question himself: *"arnt i counting 51000 again?"*
+- ⏳ **HOMEWORK SET: draw the skeleton from memory on blank paper — Fri morning and again Monday.** No numbers, just the shape. Every stall on 17 Sep was structural.
+
+### 🔴 BA202 — THE SCHEDULE RUNS ~ONE LECTURE BEHIND THE OUTLINE (17 Sep)
+Both recordings transcribed (L5 179KB, L6 156KB, clean English, in `~/Desktop/BA202 lecture transcripts/`).
+- **Recording 5 (2 Sep) = PIT deductions + allowances** — allowance ×69, PIT ×31, CIT ×4. **NOT "CIT Part I"** as the outline claims. File renamed.
+- **Recording 6 = PIT withholding recap + CIT only just opening** — CIT ×37, withholding ×49, PIT ×32, and **petroleum 0 · SME 0 · treaty 0** across a full 3-hour lecture.
+- ⇒ **L7 (16 Sep, skipped, no recording) is probably CIT Part II, not "Special Income Tax Regimes."** Petroleum tax, SME incentives and double tax treaties may not be examinable at all. The examinable body looks **PIT-heavy with CIT barely begun** — far smaller than the 16 Sep "entire corporate half missing" alarm.
+- ⚠️ **NOT YET VERIFIED. Check the transcripts against the L5–L7 handout PDFs in `~/Desktop/BA202/` FIRST.** This is the exact shape of the 27 Aug error — a coverage gap declared from audio alone, wrong twice, because the material was in a handout he already had.

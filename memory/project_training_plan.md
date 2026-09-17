@@ -216,3 +216,10 @@ No gym, no quality work **17–27 Sep**. Two easy 30min runs only: **Mon 21 + Th
 - **Runs:** one easy zone-2, one intervals.
 - **Diet:** ~300 deficit, protein ~90-100g (1.4-1.5g/kg).
 - Placed on the Life calendar ([[reference-calendars]]) at 6pm, Sage/green; tapered week of the 20th, camp 25-27 Jul as active rest.
+
+## 2026-09-17 — UNPLANNED 21.5K (his longest run ever)
+- Ran **21.5 km at 6:39/km** on the morning of 17 Sep, unplanned — *"kinda just felt like it."* Against a 5K baseline of 25:30 (5:06/km), so this was a genuinely **easy** long-run pace, not a race effort.
+- **Execution was sound:** gel + candy + water on the move, ~1 hr sleep after, heavy carb reload. His own report: *"energy levels could be worse"* — normally a long morning run cooks his whole day, this one didn't. **Crow's initial injury alarm was dialled back on the evidence and said so to him.**
+- ⚠️ **THE ONE LIVE FLAG — his words: "a little bit more in my knees, nothing new."** *Nothing new* is the concerning part: recurring knee discomfort he has stopped counting, now paired with a ~4× jump in distance. Classic runner's-knee / ITB setup, and the thing that would kill **13 Dec**. **Watch signal: the knee showing up on a NEXT run at a distance that wouldn't previously have provoked it.**
+- 📌 **21.5K is now his longest run and must NOT reset his idea of a normal week.** Plan stands: **maintain, don't build, until 27 Sep**; next long run well under this. Told to him and accepted.
+- ✅ Also a data point for [[project-morning-person]] — another morning session that happened without being forced.
