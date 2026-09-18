@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-09-17 ~22:30 — **DAY-END. Nightly quote fired (Heraclitus / the river).** Window holds 17 + 16 Sep; the 15 Sep note flushed to [[sessions-log]].*
+*Last updated: 2026-09-18 ~13:00 — LIVE, session in progress. Window holds 18 + 17 Sep; the 16 Sep note is next to flush.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,11 +26,12 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🌙 **DAY-END 2026-09-17 ~22:30 — he signed off: "goodnight for today right." Nightly quote fired (Heraclitus / the river).**
-- 📅 **TOMORROW FRI 18 SEP = THE COMMITTED BA202 FULL DAY.** ⚠️ **FIRST JOB: check the two new transcripts against the L5–L7 handout PDFs** before planning the day — see the schedule-offset finding below. If it holds, the BA202 scope is far smaller and far more PIT-weighted than the 16 Sep alarm assumed.
-- ⏳ **Two things he never answered tonight (ask once, don't nag):** (1) delete the **595MB of leftover .wav** on his Desktop? (2) add the **tie-out structure chart** to *From Raw to Sold* for Monday's revision — Crow's view on record: it should go in, it's the one thing the night proved he lacks.
-- 🕯️ **He committed to asking his grandfather one question that isn't about bikes.** ⏳ **Ask whether he did — gently, not as a checklist item.**
-- ✅ **Closed today, never re-ask:** the funeral (he is fine, and the family talk HAS now been had) · both BA202 recordings (transcribed) · AC313 topic coverage (complete).
+- 🟢 **HERE — Fri 18 Sep, from ~12:10, at a cafe. NOTEBOOK ONLY, no iPad** ⇒ the 8 GoodNotes cheat sheets cannot be built today. He moved off the committed BA202 day to AC + FN; Crow objected once on record (BA202 is LAST, Sun 27, straight after the AC311 paper on Sat 26 — one fried afternoon for a 45% Thai-law paper with zero attendance), then accepted: no iPad is a real blocker, AC313 is Tue. ⏳ **UNANSWERED: does BA202 get tomorrow (19 Sep) with the iPad? He has not named a day.**
+- 🚨 **MK201 IS SUN 20 SEP — 2 DAYS — AND HAS HAD ZERO.** Raised 18 Sep, he has not responded. Needs a slot before Sat night.
+- 🦵 **KNEES "COOKED" after the 21.5K** (his word, 18 Sep). Overuse presentation, not muscle soreness. He is adding stretching to a morning routine — told him load is the lever, not stretching: **if the knees still talk on Mon 21, skip the Monday easy run.** → [[project-training-plan]]
+- 🕯️ **Grandpa question: "noted" — i.e. NOT yet asked.** Don't re-ask today; he has it.
+- ⏳ **Still unanswered from 17 Sep (ask once, don't nag):** (1) delete the leftover **.wav** files on his Desktop (now ~900MB with L7's)? (2) add the **tie-out structure chart** to *From Raw to Sold*.
+- ✅ **Closed, never re-ask:** the funeral · the family talk · both BA202 recordings · AC313 topic coverage.
 
 ### 🔥 Live / time-critical
 - ✅ **FN201 GROUP REPORT — SUBMITTED (confirmed by Korn 15 Sep).** Closed. Excel + 13-page written report delivered. ⛔ Do not raise the number contradictions, the bibliography, or page 1 IDs again — the deliverable is gone.
@@ -87,6 +88,15 @@ metadata:
 - **14 Sep — asserted ~70% that the 2021 share price ฿2.00 was a ×10 typo. It was correct** (split-adjusted, matching the post-split share count the professor's data uses). **[[project-midterms]] already recorded the reverse-split check from 12 Sep — I reasoned from the doc's stale "2.03" instead of reading my own file first.** Same failure shape as the 27 Aug BA202 "coverage gap" and the 1 Sep "unverified answers" claim: **check the record before calling a defect.**
 - **13 Sep — misdiagnosed twice in one session**, both times calling a calculator typo a conceptual error (claimed he fed a PV in as C; claimed a number "migrated" between sub-questions). He corrected both. **Rule: when a wrong answer has two possible causes, ask what he punched in before asserting one.**
 - **12 Sep — fabricated a "home = peak focus" study-location claim.** He does NOT study at home; his locked solo default is the cafe near home (Starbucks/Bloom). Check [[project-midterms]]' location rules before giving location advice.
+
+## Session — 2026-09-18 (BA202 schedule-offset SOLVED · cold FIFO rep PASSED)
+- 🔑 **THE 16 SEP BA202 ALARM WAS WRONG — the class is running ~one deck BEHIND the handout names.** Transcript check: **L5 (2 Sep) = PIT deductions + allowances**, not CIT. **L6 (9 Sep) = PIT recap + the OPENING of CIT** — keyword sweep on L6: corporate 45 · withholding 49 · **petroleum 0 · treaty 0 · SME 0 · BOI 0.** ⇒ the paper is **PIT-dominant** and he has full transcripts L1–L5. `L5-L6_CorporateIncomeTax.pdf` / `L7_SpecialIncomeTaxRegime.pdf` are decks she POSTED, not lectures she DELIVERED. ⚠️ **Caveat kept open: "covers lectures 1–7" may mean her deck chapters, not what was said.** → push to [[project-midterms]] once L7 confirms it.
+- 📥 **CLASS 7 RECORDING (Wed 16 Sep) WAS POSTED TO DRIVE 18 Sep 02:52 — downloaded (306MB) and transcribing.** File id `1nEovAWC6vGoSbsUZuEgT-qUpJdzMLjqB`. Whisper route confirmed on the Mac: ffmpeg → 16k mono wav → `whisper-cli -m ~/ggml-large-v3-turbo.bin -l auto -otxt`, ~35 min per 3-hr lecture, log at `~/Desktop/BA202 lecture transcripts/_whisper_run.log`. **L7 is the last examinable lecture and the only remaining black box.**
+- ✅ **COLD FIFO REP PASSED — the one deliberately deferred from 17 Sep.** Nakhon Sawan Sugar, 16 hrs cold, notebook only. **All six EU buckets unaided** (0/1,800 · 10,000/10,000 · 4,000/1,000 → 14,000 / 12,800) — the complement SURVIVED A NIGHT for the first time (it flipped inside one session on 16 Sep), and the Q1 double-count trap was dodged. Rates 5 / 9, formula stated forward, **all three sources of cost-to-account-for named unprompted** (only 1 of 2 last night). Closing WIP 29,000, tie-out **215,800 ✓**.
+- ⚠️ **ONE NUDGE NEEDED, and it's the known shape:** for the opening-WIP group he answered **30,600 — prior cost only**, dropping November's 1,800 × ฿9 = 16,200. Fixed by pointing at his own bucket-1 number. He called it "forgot to add"; **corrected to a structure, not a slip — opening WIP is ALWAYS prior cost + what this month did to finish it** (2 pieces here, 3 in Chiang Mai).
+- 🔑 **NEW PATTERN NAMED: he answers the numeric half and silently drops the verbal half.** Ducked "why does DM EU = units started here" and "say the formula" on first ask; both correct when pressed a second time. **The number is available to him, the meaning isn't.** Keep forcing the words — the written section pays for meaning.
+- ⛔ **He asked "give all the numbers and ill check" — REFUSED, and it was the right call.** Checking is recognition, producing is recall, and recognition-not-recall is exactly his gap. **Method that worked instead of arguing: shrink the step** (two numbers, bucket 1 only) rather than hold the line on the full question. He then ran the whole problem.
+- ⏳ **AC313 REMAINING: spoilage in process costing (UNTOUCHED — only gap left) · Q3 Polishing Dept cost-assignment half (EU done 17 Sep).** Then FN201.
 
 ## Session — 2026-09-17 (family thread opened · 21.5K run out of nowhere)
 - 🕯️ **THE FAMILY TALK HAPPENED — he opened it himself as promised.** Fear named: **grandpa's hidden decline** (grandpa never talks about his health, still lively) and **being the one everyone comes to for the consensus at funerals, "wondering how i should act."** Grandma = different outlook, no dislike. He filed it as *"stuff to deal with in the future really"* — Crow rejected that on two counts: the decline is already running, and the stated fear is not grief but **performing**, which contradicts his own "same person watched or not." Named the thinness risk: nothing to offer the room but *"he was a cool guy, he used to race bikes."* → narrative to [[chapters]].
