@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-09-19 11:50 — LIVE, session open. Window holds 19 + 18 Sep; the 17 Sep note has fallen out and is next to flush.*
+*Last updated: 2026-09-19 11:55 — LIVE, paused (cafe run). Window holds 19 + 18 Sep; the 17 Sep note has fallen out and is next to flush.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -28,7 +28,9 @@ metadata:
 ## 🚪 Current status
 - 🟢 **SESSION OPEN Sat 19 Sep 11:20 — he came in to work.** **MK201 EXAM TOMORROW, Sun 20 Sep 13:00.**
 - ✅ **THE SECOND MK201 SITTING HAPPENED — 19 Sep, as a cold gauntlet.** See the session note. ⚠️ **It did NOT clear.** Owed before 13:00 Sunday: a **30–40 min cold confusion-pair sweep** (social/societal · private/licensed · image/personality/identity), plus the **discriminating-rule habit** — make him state the axis, never just the list.
-- ▶️ **NOW: FN201.** Resume point is unchanged — **STQ04 opens with Q2 (amortised loan)**, deliberately left for a fresh head; then Q13–Q16. ⛔ Do not return to Q1.
+- 🚪 **PAUSED 19 Sep ~11:55 — heading to the CAFE, will ping to resume.** His words: *"ill wait til i get to the cafe to keep working on stq or like yea ill ping you when we keep working."* **NOT a day-end — no quote, no wrap-up.**
+- ▶️ **RESUME POINT ON HIS PING: FN201 STQ04 Q2(a)** — amortised loan, THB 2,000,000, quoted 12%, 30 monthly payments over 2.5 yrs, first payment 1 month out. He was asked for the payment **plus what he punched in (N, I/Y, PV, mode)** — the mode check is deliberate, BGN↔END is his only residual. Then Q2(b) principal repaid after the 18th payment, Q2(c) EAR, then Q3 (the flat-rate twin — the contrast IS the lesson), then Q13–Q16. ⛔ Do not return to Q1. File: `~/Desktop/fn/FN201-26F-BBA-STQ04-TVM-Q1-30-V09-260819.pdf`.
+- ⏰ **HARD DEADLINE — MK201 confusion-pair sweep, 30–40 min, TOMORROW MORNING before 13:00.** Cold, no notes: social/societal · private/licensed · image/personality/identity · the discriminating-rule habit (make him state the AXIS, not the list). **If Sunday morning arrives and this has not happened, raise it unprompted — he agreed to it, and after 13:00 it is unrecoverable forever.**
 - ⏳ **"Kotler by Sight" still owed two additions** (https://claude.ai/code/artifact/13a35273-eceb-4878-a057-10c10b5bf2d1): the **qualifier-word rule** and an **image/personality/identity row** in the confusion-pairs table. Now higher value than before — the gauntlet proved confusion pairs are the exact failure mode. 10-minute job, offered for tomorrow morning.
 - ✅ **Red Bull image-vs-personality check — ANSWERED 19 Sep.** Close it, don't re-ask.
 - 🦵 **KNEES "COOKED" after the 21.5K** (his word, 18 Sep). Overuse presentation, not muscle soreness. **If the knees still talk on Mon 21, skip the Monday easy run.** → [[project-training-plan]]
