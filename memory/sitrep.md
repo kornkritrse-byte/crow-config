@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-09-19 10:17 — session closed on his word ("save session adn clsoe"). Window holds 18 + 17 Sep; the 17 Sep note is next to flush.*
+*Last updated: 2026-09-19 11:50 — LIVE, session open. Window holds 19 + 18 Sep; the 17 Sep note has fallen out and is next to flush.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,15 +26,13 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🚪 **SESSION CLOSED Sat 19 Sep 10:17 — his words: "save session adn clsoe."** No destination given and none asked for. **MK201 EXAM IS TOMORROW, Sun 20 Sep 13:00.**
-  **ASK ON RETURN, in this order:** (1) 🔴 the **second MK201 sitting** — it has still not happened and there is now less than 27 hrs; (2) the **Red Bull check he never answered** (image vs personality split — issued 18 Sep, still open); (3) the two COLD re-tests still owed — **social vs societal marketing** and **private vs licensed brand**; (4) MK201 still untested: five differentiation bases · industrial product classes · positioning-statement template · four targeting strategies at speed.
-- ✅ **THE FRIEND-GROUP MK PRACTICE HAPPENED (out 18 Sep ~15:35, back late).** The parked recap is still parked; **which pairs caused arguments in the group was never reported** — low value now, drop it unless he raises it.
-- ✅ **MK201 STARTED 18 Sep and went well** — see the session note. ⏳ **Still needs a second sitting before Sun 13:00** (remaining: five differentiation bases · industrial product classes · positioning-statement template · four targeting strategies at speed · a COLD re-run of everything from the 18th).
-- 📌 **BA202 transcripts RENAMED 18 Sep to match verified content** — `L6 - 9 Sep - PIT recap + Corporate Income Tax Pt I` and `L7 - 16 Sep - Corporate Income Tax Pt II + Special Regimes intro`. The old L6 name claimed "Pt II + Petroleum", which is wrong and would have misdirected tomorrow's session.
-- 🦵 **KNEES "COOKED" after the 21.5K** (his word, 18 Sep). Overuse presentation, not muscle soreness. He is adding stretching to a morning routine — told him load is the lever, not stretching: **if the knees still talk on Mon 21, skip the Monday easy run.** → [[project-training-plan]]
-- 🕯️ **Grandpa question: "noted" — i.e. NOT yet asked.** Don't re-ask today; he has it.
-- ✅ **890MB of leftover .wav DELETED 18 Sep on his say-so** (verified first: every wav had both its mp4 and its transcript, so all three are regenerable). ⏳ **Still open: add the tie-out structure chart to *From Raw to Sold*.**
-- ✅ **Closed, never re-ask:** the funeral · the family talk · both BA202 recordings · AC313 topic coverage.
+- 🟢 **SESSION OPEN Sat 19 Sep 11:20 — he came in to work.** **MK201 EXAM TOMORROW, Sun 20 Sep 13:00.**
+- ✅ **THE SECOND MK201 SITTING HAPPENED — 19 Sep, as a cold gauntlet.** See the session note. ⚠️ **It did NOT clear.** Owed before 13:00 Sunday: a **30–40 min cold confusion-pair sweep** (social/societal · private/licensed · image/personality/identity), plus the **discriminating-rule habit** — make him state the axis, never just the list.
+- ▶️ **NOW: FN201.** Resume point is unchanged — **STQ04 opens with Q2 (amortised loan)**, deliberately left for a fresh head; then Q13–Q16. ⛔ Do not return to Q1.
+- ⏳ **"Kotler by Sight" still owed two additions** (https://claude.ai/code/artifact/13a35273-eceb-4878-a057-10c10b5bf2d1): the **qualifier-word rule** and an **image/personality/identity row** in the confusion-pairs table. Now higher value than before — the gauntlet proved confusion pairs are the exact failure mode. 10-minute job, offered for tomorrow morning.
+- ✅ **Red Bull image-vs-personality check — ANSWERED 19 Sep.** Close it, don't re-ask.
+- 🦵 **KNEES "COOKED" after the 21.5K** (his word, 18 Sep). Overuse presentation, not muscle soreness. **If the knees still talk on Mon 21, skip the Monday easy run.** → [[project-training-plan]]
+- ⏳ **Still open: add the tie-out structure chart to *From Raw to Sold*.**
 
 ### 🔥 Live / time-critical
 - ✅ **FN201 GROUP REPORT — SUBMITTED (confirmed by Korn 15 Sep).** Closed. Excel + 13-page written report delivered. ⛔ Do not raise the number contradictions, the bibliography, or page 1 IDs again — the deliverable is gone.
@@ -91,6 +89,13 @@ metadata:
 - **14 Sep — asserted ~70% that the 2021 share price ฿2.00 was a ×10 typo. It was correct** (split-adjusted, matching the post-split share count the professor's data uses). **[[project-midterms]] already recorded the reverse-split check from 12 Sep — I reasoned from the doc's stale "2.03" instead of reading my own file first.** Same failure shape as the 27 Aug BA202 "coverage gap" and the 1 Sep "unverified answers" claim: **check the record before calling a defect.**
 - **13 Sep — misdiagnosed twice in one session**, both times calling a calculator typo a conceptual error (claimed he fed a PV in as C; claimed a number "migrated" between sub-questions). He corrected both. **Rule: when a wrong answer has two possible causes, ask what he punched in before asserting one.**
 - **12 Sep — fabricated a "home = peak focus" study-location claim.** He does NOT study at home; his locked solo default is the cafe near home (Starbucks/Bloom). Check [[project-midterms]]' location rules before giving location advice.
+
+## Session — 2026-09-19 (MK cold gauntlet — the "somehow" diagnosed)
+- 🎯 **He opened wanting to SKIP MK** — *"got to work through the mk past exams yesterday and flew through them with confidence somehow so i think we can just focus on the hard stuff."* Crow objected on the word **"somehow"** + the fact that yesterday's run was the **friend-group** session (you ride the room), and that the 6 never-tested MK items were not on those papers. Deal struck: **25-min cold gauntlet, 6 items, no notes** — clear it and MK closes for good; 2+ stumbles buys 45 min, not a day.
+- 📊 **GAUNTLET RESULT — 2 clean · 2 partial · 2 miss · 1 needed the template handed over.** ❌ social vs societal (split them by *who they serve*; both serve society — the axis is **philosophy vs practice**). ❌ private vs licensed (owner inverted — private = the **reseller** owns the name; licensed = you **rent** someone else's, money flows the other way). ✅ five differentiation bases, cold, unaided. ⚠️ image vs personality — core split right, drifted from **brand traits → USER imagery**; no Aaker vocabulary (Red Bull = **excitement**). ✅ three industrial product classes + examples. ✅ four targeting strategies — his best answer, and the first time he **labelled his own uncertainty** unprompted.
+- 🔴 **THE REAL DIAGNOSIS — he answers the WHAT, never the AXIS.** Skipped the second half of the question **three separate times** (the tell word, the examples, the separating rule). He can produce lists; he cannot produce discriminators. Past papers ask for items — Kotler exams ask for distinctions. **That is exactly what "flew through it somehow" feels like from the inside.** ⇒ MK is NOT closed, but the gap is narrow and named: **confusion pairs + discriminating rules. A 40-min fix, not a day.**
+- 📝 **Positioning statement — he wrote ANALYSIS, not the template.** Missing slot was **category** ("is a ___"), the one everyone skips. Template handed over; his Satisfy rewrite then filled all four slots, PoD still generic.
+- ▶️ **PLAN SET: MK gets a 30–40 min cold confusion-pair sweep TOMORROW MORNING before 13:00 — not today.** Today's leverage is **FN201**, argued on structure: AC313 already owns all of Mon 21, while FN201's only window is Tue 22 PM straight off a 3-hr exam, with loans + two-stream + securities still at **zero** = 7 of the 8 past-midterm questions.
 
 ## Session — 2026-09-18 (BA202 schedule-offset SOLVED · cold FIFO rep PASSED)
 - 🔑 **THE 16 SEP BA202 ALARM WAS WRONG — the class is running ~one deck BEHIND the handout names.** Transcript check: **L5 (2 Sep) = PIT deductions + allowances**, not CIT. **L6 (9 Sep) = PIT recap + the OPENING of CIT** — keyword sweep on L6: corporate 45 · withholding 49 · **petroleum 0 · treaty 0 · SME 0 · BOI 0.** ⇒ the paper is **PIT-dominant** and he has full transcripts L1–L5. `L5-L6_CorporateIncomeTax.pdf` / `L7_SpecialIncomeTaxRegime.pdf` are decks she POSTED, not lectures she DELIVERED. ⚠️ **Caveat kept open: "covers lectures 1–7" may mean her deck chapters, not what was said.** → push to [[project-midterms]] once L7 confirms it.
