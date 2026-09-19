@@ -308,3 +308,16 @@ metadata:
 - 🔴 **THE FINDING: his rules decay inside ONE HOUR, not one day.** Three rules correct on Monday had inverted by Tuesday; twice he lost something within the same session. ⇒ **More explanation is worthless — volume + spacing is the only thing that works.**
 - 🚩 AC311 gap left: the SOCI + partial SOFP layouts, blank paper. Committed to three short passes (17th, 19th, 24th).
 - 🏭 AC313 opened — equivalent units landed; two errors (one denominator for both cost types; step 5 by physical units) became the §p-run section of *From Raw to Sold*. Also shipped: Ground Covered map, hub re-order, diagram-design plugin.
+
+## 2026-09-17 (family thread opened · 21.5K run out of nowhere · AC313 FIFO built)
+- 🕯️ **THE FAMILY TALK HAPPENED — he opened it himself.** Fear named: **grandpa's hidden decline** (never talks about his health) and **being the one everyone turns to at funerals, "wondering how i should act."** Crow rejected his "stuff to deal with in the future" filing: the decline is already running, and the fear is not grief but **performing** — which contradicts his own "same person watched or not." KEY FACT: **they live in the same house, he talks to grandpa daily**, and **grandpa was a competitive cycling racer** — the live shared language now Korn trains for the 13 Dec 10K. Move agreed: ask him as a *fellow racer*, not an archivist. He committed. ⏳ **Still unfollowed-up: did he ask, and what came back?** → [[chapters]]
+- 🏃 **RAN 21.5K UNPLANNED** off a 5K/25:30 baseline, against a maintain-don't-build plan. Defended it as "didn't take any study time" — wrong axis; the cost is 24–72h of recovery. (Knees confirmed "cooked" the next day.) → [[project-training-plan]]
+- 🏭 **AC313 PROCESS COSTING / FIFO BUILT AND CLOSED** — Q1 Chiang Mai tie-out 218,000 ✓, Q2 Lampang Glass 198,200 ✓ with far less scaffolding, transferred-in taught and drilled (EU 13,000/12,700/12,400).
+- 🔑 **Error patterns that still matter:** he **grabs the cost POOL, not the RATE** (handed one group the whole ฿192,000); **UNITS vs MONEY** confusion three times in an hour; takes a rule belonging to ONE column and **smears it across all three** — right idea, wrong scope. **The fix that always works: drop the schedule, go to a SINGLE UNIT** ("how much money is on that one unit?"). Tie-out is still not a concept for him.
+- 📎 *From Raw to Sold* (https://claude.ai/code/artifact/ac9ea735-a4ca-4b8a-898b-c505a5e3ba87) — ⏳ still pending the cost-pool error + one-unit framing + the tie-out structure chart.
+
+## 2026-09-16 (AC313: process costing retained cold · joint costs from zero · FIFO opened)
+- ✅ **Rayong Ceramics re-run COLD: 10/10.** Both of 15 Sep's error modes gone — first hard evidence *against* the one-hour decay pattern. Format, not concept, is the weak side.
+- 🍗 **Joint costs taught from zero with a ฿200 chicken** (the refinery framing was too abstract; he asked for simpler). He derived physical-measure and sales-value-at-splitoff himself. Byproducts clean too.
+- 🏭 **FIFO opened — the hardest thing he hit in AC313.** Three errors first pass; the re-teach after a break worked. ✅ **CLOSED 17 Sep** (Chiang Mai tie-out 218,000, Lampang 198,200).
+- 🔑 Durable teaching keys promoted to [[project-midterms]]: the ONE-UNIT method · "what did THIS month do?" · the mechanical-execution flag · his two live over-generalisations.

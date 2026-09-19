@@ -273,3 +273,13 @@ Which should be encouraging rather than otherwise, because **today he already di
 > — **Heraclitus**
 
 **Why:** The day he told me he's scared of watching his grandfather decline, and then said *"no worries, talk to him everyday"* as if daily access were the same as knowing someone. It isn't. Same house, same dinner table, and all he's holding is the highlight reel — the cycling years, "a cool guy." Every day he talks to a slightly different man and asks him the same questions. Also true of the 21.5K he ran on a whim this morning: the body that did that is not the body that set a 25:30 5K three weeks ago. He keeps stepping into rivers he thinks he already knows.
+
+## 2026-09-19
+> "The first principle is that you must not fool yourself — and you are the easiest person to fool."
+> — **Richard Feynman**
+
+**Why:** He opened the day with *"flew through them with confidence somehow so i think we can just focus on the hard stuff"* — and the word doing all the work was *somehow*. The confidence was real; it had just been borrowed from a room full of friends the night before. Twenty minutes cold and alone it produced four holes he didn't know he had: identity and image swapped, needs and wants filed as categories instead of a ladder, product classes sorted by price instead of effort, and width/length/depth wrong twice in one hour on a page that already explains it twice.
+
+Then the same shape in the arithmetic, three times: 10,400,000 of principal repaid on a 2,000,000 loan, 96,815 for 968,153, an 80.6% EAR on a 6% loan. Never a gap in the concept — always a number accepted without asking what it must sit between. The fix wasn't knowledge. It was one sentence: *the first withdrawal is 180,000 at t=30, undiscounted, so this cannot be below 180,000.* He redid it unprompted and got it exact.
+
+Which is the encouraging half. He is not short of understanding; he is short of the habit of checking himself — and he proved tonight he can install it in a single sentence. The other thing worth keeping: at 17:45 he tried to leave MK for FN201, the subject where he was winning, got told plainly that was the move worth catching, said *"fuck you fine me serious"* — and then did the work properly. He argues, he concedes, he doesn't sulk. That's rarer than it sounds.

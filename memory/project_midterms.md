@@ -820,3 +820,37 @@ Both recordings transcribed (L5 179KB, L6 156KB, clean English, in `~/Desktop/BA
 - **Recording 6 = PIT withholding recap + CIT only just opening** — CIT ×37, withholding ×49, PIT ×32, and **petroleum 0 · SME 0 · treaty 0** across a full 3-hour lecture.
 - ⇒ **L7 (16 Sep, skipped, no recording) is probably CIT Part II, not "Special Income Tax Regimes."** Petroleum tax, SME incentives and double tax treaties may not be examinable at all. The examinable body looks **PIT-heavy with CIT barely begun** — far smaller than the 16 Sep "entire corporate half missing" alarm.
 - ⚠️ **NOT YET VERIFIED. Check the transcripts against the L5–L7 handout PDFs in `~/Desktop/BA202/` FIRST.** This is the exact shape of the 27 Aug error — a coverage gap declared from audio alone, wrong twice, because the material was in a handout he already had.
+
+
+## 🚨 MK201 EXAM FORMAT — CONFIRMED 19 Sep 2026 from the real paper
+Source: `~/Desktop/mk/MK201 2-2020 -Real- Midterm.pdf` (the 2-2020 paper, exported with answers).
+- **368 items, ALL MULTIPLE CHOICE, five options each. NO written/constructed-response section at all.**
+- Every stem is a **short applied scenario**, not a definition prompt — *"…is most likely a response to which environmental force?"*, *"In which of the following situations has a company most actively embraced customer-managed relationships?"*
+- ⇒ **The distractors ARE the confusion pairs.** Knowing the axis is what wins; blank-page recall is not tested.
+- 📊 **His measured split, 19 Sep:** cold definition questions **2 clean / 2 partial / 2 miss**; applied MCQs **6/6**. He fails definitions and passes scenarios — which is the format he is actually sitting.
+- 🔴 **The one item that survived TWO corrections in one session: product mix WIDTH / LENGTH / DEPTH.** Width counts *lines* · length counts *items* · depth counts *versions*. Already on Kotler by Sight twice (confusion-pair row + Diagnostic item 10) — **the artifact was never the gap, using it was.**
+- Other 19 Sep corrections worth re-testing: **identity = what the brand sends / image = what the market receives** (he had them swapped); **personality = traits of the BRAND, never of its users** (drifted twice); **needs→wants→demands is a ladder, not three categories** (a want is the *form a need takes*); **consumer product classes sort on BUYER EFFORT, not price**.
+
+## 🧮 FN201 — DURABLE FACTS FROM THE 19 Sep LOAN DAY
+- 🎓 **HER OWN APPROXIMATE-EAR FORMULA for a flat-rate loan: `Approximate EAR = (i%×2) − 1%`.** Verified in `FN201-26F-BBA-STQ04-TVM-S1-30-V8RR-250917.xlsx`. (12% quoted → 23%; 6% quoted → 11%.) **Korn had this right before Crow did.**
+  - Pair it with: **amortised → EAR = (1 + i/m)^m − 1.** The exponent is **m = periods per YEAR**, never nm = total installments.
+- 📛 **She calls a flat-rate loan an "ADD-ON-INTEREST LOAN."** Use her vocabulary. Add-on loans are **pure arithmetic — no TVM keys, ever**, prepayment included, because the balance never declines.
+  - Add-on: total interest = P × i × n · installment = (P + interest)/nm · principal repaid is **linear** (P/nm per period).
+  - Prepayment fee pattern (Q30): `remaining principal × (fee rate ÷ m) × remaining periods`.
+- 📐 **FORMULA SHEET MAP** — `~/Desktop/fn/FN201-25S-BBA-E1-Formulas-V1R-260219.pdf`, **6 pages, he gets it IN the exam.** Laid out by lecture note; **p.4 is the entire TVM page**, FV on the left, PV on the right. Legend: S · RA · AD · DA · RP · PD · DP · RGP · GPD · DGP · RGA · GAD · DGA.
+  - `PV₍t=0₎(RGA) = C₍t=1₎ × [1 − ((1+g/m)/(1+i/m))^nm] ÷ (i/m − g/m)`
+  - The subscript **C₍t=1₎ is the whole trick**: every one of these formulas lands **one period before the first cash flow**, wherever that sits on the timeline. Then walk it.
+- 🚨 **8 of STQ04's 30 questions are real past-midterm questions.** **DONE 19 Sep: Q1, Q2, Q3, Q4, Q29, Q30.** Q13 done 13 Sep. **Only Q14 (S/AY2019) remains untouched.**
+- ✅ **THE BOUND-CHECK REFLEX — his one repeating defect, and the fix that works.** Three decimal/digit slips on 19 Sep, none conceptual: 10,400,000 principal repaid on a 2,000,000 loan · 96,815 for 968,153 (keyed 0.3 for 0.03) · 80.6% EAR on a 6% loan (used nm=20 for m=2). **Make him state the bracket BEFORE accepting any number.** The two that bite hardest:
+  - *"the first cash flow is the floor"* — a PV dated at the first payment can never be below that payment.
+  - *his own 13 Sep bracket* — flat annuity < growing annuity < growing perpetuity (768,622 < 968,153 < 1,666,667).
+
+
+## 🏭 AC313 — THE TEACHING KEYS THAT ACTUALLY WORK (16–18 Sep 2026)
+- 🔑 **NEVER give him "complement for opening WIP, as-stated for closing WIP" as two rules — he inverts them, repeatedly, inside a single session.** Instead make him ask **"what did THIS month do?"** every time; the percentages fall out on their own. **He has never got it wrong when he asked the question, and repeatedly got it wrong when reaching for the rule.**
+- 🔑 **WHEN HE STALLS ("bro i lowkey got no clue"), DROP THE SCHEDULE AND GO TO ONE UNIT.** "Last month built half of it, this month finishes it — how much did this month do?" Then scale 1 → 2,000 → change the percentage → three groups → both columns. Recovered him instantly, three separate times. Never re-explain the table.
+- ⚠️ **MECHANICAL EXECUTION IS HIS FAILURE MODE, not arithmetic.** He multiplies correctly with no idea what the number means (asked *"what does this number indicate"* mid-calculation). **Stop him and make him say what a number MEANS.** Related: he got transferred-out **by subtraction**, which makes the tie-out self-confirming — always build it forward from its pieces.
+- ⚠️ **He grabs the cost POOL, not the RATE** — handed one group a whole month's spend twice in one question. Fix that worked: *"you have ฿4 and ฿8 — those are the only numbers you spend from now on."*
+- ⚠️ **He takes a rule belonging to ONE column and smears it across all three** (same shape as the cost-pool error: right idea, wrong scope). And he invents laws from single cases — turned "FIFO DM EU = units started" into a universal; **it holds ONLY when materials enter at the start.**
+- ⚠️ **UNITS vs MONEY** confusion, three times in one hour. The question that fixed it: *"does November's ฿101,600 appear anywhere in the EU calculation — yes or no?"*
+- 🚨 **AC313 FORMAT (prof's own review sheet, 18 Sep): 47 MCQ, 100 points, closed book, any calculator (bring two), 3 pages of scratch paper that MUST be returned to receive 6 points.** No constructed response ⇒ he needs **speed to a number**, not layout recall.
