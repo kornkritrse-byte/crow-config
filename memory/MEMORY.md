@@ -5,7 +5,7 @@
 - [**SITREP**](sitrep.md) — rolling situation report: current state + last TWO sessions only; maintained LIVE in-session, verified+flushed at day-end (marker + Stop hook — see Artis Nightly Quote rule); deep-night reflections live in chapters.md (sitrep keeps one pointer bullet), older notes flush to sessions_log.md
 
 ## 🎯 Active — Midterms (TOP PRIORITY through Sep)
-- [Midterms](project_midterms.md) — 6 exams 20–27 Sep 2026. ✅ UNBLOCKED — outlines read, full plan on the calendar. 🚨 24 Aug: **he has attended ZERO FN201 content classes and ZERO BA202 classes** (the 45% paper); the reds were ranked by difficulty, not exposure. Job now is adherence, not planning.
+- [Midterms](project_midterms.md) — **EXAMS RUNNING: 6 papers 20–27 Sep 2026.** ✅ MK201 sat 20 Sep ("felt really good"). Next: AC313 Tue 22 · FN201 Wed 23 · EL221 Fri 25 · AC311 Sat 26 · BA202 Sun 27. Holds the valuation pre-flight, the AC313 teaching keys, and the LN3/LN5 findings. 🚨 He has attended ZERO BA202 classes (the 45% paper) — transcripts L1–L7 are on disk, scope confirmed PIT-dominant.
 
 ## 🟢 Active — other
 - [Morning Person](project_morning_person.md) — his own call 13 Sep 2026: actively trying to become one and "make use of the time in my days"; first attempt Mon 14 Sep (gym before class). ⚠️ Collides with the midnight–1am study pattern — track whether mornings HAPPEN, not whether he still wants them

@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-09-20 22:15 — MK201 sat and closed. FN201 securities block closed from zero (Q14–Q18); the real find is that his gap is SEQUENCING, fixed with the valuation pre-flight. LN5 (8.4) is the resume point. Window holds 20 + 19 Sep; the 18 Sep note flushed to sessions_log.*
+*Last updated: 2026-09-20 22:35 — DAY CLOSED on his word ("im going to sleep. tmr im waking up early and getting a head start on ac 313"). MK201 sat and closed. FN201 securities block closed from zero (Q14–Q18, all 8 past-midterm Qs now done); the real find is that his gap is SEQUENCING, fixed by the valuation pre-flight. Resume at LN5 Example 3 (a)+(b). Window holds 20 + 19 Sep; the 18 Sep note is flushed to [[sessions-log]]. Next to flush: 19 Sep.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,8 +26,11 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
+- 🚪 **DAY CLOSED (Sun 20 Sep ~22:30) on his word: "im going to sleep. tmr im waking up early and getting a head start on ac 313."**
+- 🌅 **MORNING ATTEMPT — he set it himself: EARLY WAKE MON 21 for AC313.** First time the morning is for STUDY, not the gym → [[project-morning-person]]. **Ask on return whether it HAPPENED, not whether he still wants it.**
 - ✅ **MK201 SAT AND CLOSED (Sun 20 Sep). "Felt really good," no post-test concerns.** Exam #1 of 6 down. ⛔ Don't reopen MK.
-- ▶️ **FN201 RESUME POINT — LN5 section (8.4), determinants of market interest rates.** `r = r* + IP + DRP + LP + MRP` + the inflation-averaging and implied-forward problems. **HIS OWN FIND, 20 Sep.** 🚨 **No STQ05 exists — the deck's own problems are the only drill material for topic 5.** ~25–30 min. Then LN3 computation/DuPont, then LN1/LN2 rapid fire.
+- ▶️ **FN201 RESUME POINT — LN5 Example 3, parts (a) and (b), already on the table when he stopped.** He has the formula and the table; he owes the 1-month nominal r_f and r*. Full worked answers + the ladder method are in [[project-midterms]] — **do NOT hand him the numbers, he has seen none of them.**
+- ▶️ **FN201 after that — LN5 section (8.4) the rest,** `r = r* + IP + DRP + LP + MRP` + the inflation-averaging and implied-forward problems. **HIS OWN FIND, 20 Sep.** 🚨 **No STQ05 exists — the deck's own problems are the only drill material for topic 5.** ~25–30 min. Then LN3 computation/DuPont, then LN1/LN2 rapid fire.
 - 🧰 **USE THE VALUATION PRE-FLIGHT** (5 steps, [[project-midterms]]) on every FN question from here — it is the fix for the sequencing gap he named himself. And make him **say the THEREFORE** on every why-question.
 - 📅 **MON 21 SEP = AC313 DAY (exam Tue 22, 09:00).** ⚖️ **MIDDAY CHECKPOINT:** AC313's only named gaps are **transferred-in COST ASSIGNMENT under WA and FIFO** (he has done EU only) and **Topic 1's five formulas cold**. If both close clean by midday, **the back half of Monday goes to FN**, not to re-drilling AC strengths.
 - 🌙 **The night that must end early is MONDAY, not tonight** — Mon 21 is exam-free, AC313 is Tue 22 09:00.

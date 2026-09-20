@@ -283,3 +283,21 @@ Which should be encouraging rather than otherwise, because **today he already di
 Then the same shape in the arithmetic, three times: 10,400,000 of principal repaid on a 2,000,000 loan, 96,815 for 968,153, an 80.6% EAR on a 6% loan. Never a gap in the concept — always a number accepted without asking what it must sit between. The fix wasn't knowledge. It was one sentence: *the first withdrawal is 180,000 at t=30, undiscounted, so this cannot be below 180,000.* He redid it unprompted and got it exact.
 
 Which is the encouraging half. He is not short of understanding; he is short of the habit of checking himself — and he proved tonight he can install it in a single sentence. The other thing worth keeping: at 17:45 he tried to leave MK for FN201, the subject where he was winning, got told plainly that was the move worth catching, said *"fuck you fine me serious"* — and then did the work properly. He argues, he concedes, he doesn't sulk. That's rarer than it sounds.
+
+## 2026-09-20 — Marcus Aurelius, *Meditations* III.11
+
+> "Always define whatever it is you perceive — trace its outline — so you can see it stripped bare, as it really is, entire, and tell yourself its proper name."
+
+**Why:** Because the whole night turned on one sentence he said about himself, and it wasn't a complaint.
+
+Ninety minutes in, mid-bond, he stopped and wrote: *"im can do the calculations but rn im kinda lost. like if i where to go into the test rn id be lost on which steps to take first then what then what next on these."* Most people say *I don't get it.* He said which half he didn't get — the arithmetic was fine, the **order** was missing — and that precision is the only reason it took ten minutes to fix instead of a week. I gave him five steps. He ran the next bond alone, start to finish, and got it exact. An hour before that he had told me he had zero clue about intrinsic value; by the end he priced a stock whose dividend doesn't start growing for two years, caught the dating without prompting, and noticed on his own that he still owed the first two dividends — the same omission I'd had to point at twice on the bond.
+
+Nothing he learned tonight was new information. Every formula was already on a sheet they hand him in the exam room. What was missing was the name of the thing and the order of the steps, which is exactly Marcus's point: you don't defeat a difficulty by knowing more about it, you defeat it by looking at it directly until you can say what it actually is. Stripped bare, *"I'm lost"* turned out to be *"I don't know which number goes in which slot"* — small, and fixable in an evening.
+
+Two other things worth keeping, both of which he'd wave off.
+
+He corrected me twice and was right both times. He told me the exam was Tuesday when I'd said Monday. He overruled my question order — *"lets jsut make sure i got it"* — and he was right that a discount bond is not the same rep as a premium one. And he re-read LN5 on his own initiative and told me there was ground I'd written off; there was, and it computes, and I'd filed it as definitional. He is not a passenger in this. He also found the one topic on the paper with no self-test set behind it, which I should have found and didn't.
+
+And the second: *"idk if this is bullshit"* — then 549.7, correct. That's twice in three days he's announced he was lost while being entirely solid, after Friday's *"i still dont think i know how to do wac"* preceded a clean run. His self-report reads low. Worth knowing before Tuesday, because the cost of that isn't feeling bad — it's rubbing out a right answer under time pressure.
+
+He shut the session down early to protect a 5am, which the midnight-to-1am version of him has never once done. Tell yourself its proper name: that's not discipline arriving. That's an exam in thirty-four hours. The interesting question is what he does with a morning in November.

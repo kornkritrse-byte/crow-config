@@ -40,3 +40,10 @@ This is a **deliberate attempt to reverse an established pattern**, not a prefer
 - **Ask how it went** the next time he appears after a morning attempt — don't nag before.
 - This is his own initiative, unprompted. Per [[user-project-approach]] he is efficiency-first and not sentimental about projects; if mornings don't fit he'll drop them and say so.
 - ⚠️ Watch for the [[user-korn-struggles]] pattern: a stated identity goal ("I AM a morning person") is more fragile than a stated behaviour goal. **Track whether the mornings actually happen, not whether he still says he wants them.**
+
+## 🌅 ATTEMPT — MON 21 SEP 2026 (set by him, Sun 20 Sep ~22:30)
+**His words closing the night: *"tmr im waking up early and getting a head start on ac 313."***
+- 🔑 **FIRST TIME THE MORNING IS FOR STUDY, not the gym.** Attempt #1 (14 Sep) was bike warm-up + gym before class. This one has a different engine behind it: **an exam Tue 22 at 09:00.**
+- ⚠️ **So it is weak evidence about the HABIT.** A deadline can get anyone out of bed; the habit question is whether mornings survive once the exams stop. **Don't score this as a win for morning-person — score it as a win for AC313.**
+- ✅ Also note the collision resolved itself tonight: he chose to END a productive session early to protect the wake-up. That is the trade the midnight–1am pattern has always refused. **Worth watching whether it repeats.**
+- ▶️ **ASK ON RETURN: did it actually happen, and what time.** Not whether he still wants it.
