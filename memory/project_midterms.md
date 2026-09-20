@@ -854,3 +854,15 @@ Source: `~/Desktop/mk/MK201 2-2020 -Real- Midterm.pdf` (the 2-2020 paper, export
 - ⚠️ **He takes a rule belonging to ONE column and smears it across all three** (same shape as the cost-pool error: right idea, wrong scope). And he invents laws from single cases — turned "FIFO DM EU = units started" into a universal; **it holds ONLY when materials enter at the start.**
 - ⚠️ **UNITS vs MONEY** confusion, three times in one hour. The question that fixed it: *"does November's ฿101,600 appear anywhere in the EU calculation — yes or no?"*
 - 🚨 **AC313 FORMAT (prof's own review sheet, 18 Sep): 47 MCQ, 100 points, closed book, any calculator (bring two), 3 pages of scratch paper that MUST be returned to receive 6 points.** No constructed response ⇒ he needs **speed to a number**, not layout recall.
+
+## 🔺 FN201 LN5 — THE UNCOVERED COMPUTATIONAL BLOCK (found 20 Sep by Korn)
+**He re-dropped `FN201-26F-BBA-LN5-FE&M-V10-260630.pdf` into `~/Desktop/fn/` on 20 Sep 20:59 saying "i think theres extra ground we gotta cover." HE WAS RIGHT — and it was Crow's blind spot: LN5 had been filed as "definitional breadth."**
+
+**Section (8.4) Determinants of market interest rates — IT COMPUTES:**
+- **`r = r* + IP + DRP + LP + MRP`** — nominal = real risk-free + inflation premium + default risk premium + liquidity premium + maturity risk premium. (8.4.2.1–8.4.2.6 define each; 8.4.3 is the risk→premium summary table.)
+- **In-deck problems WITH answers printed:** average expected inflation over 4 years (5.50%) · prevailing rate on 4-yr T-bonds (7.50%) · **implied expected inflation in Year 5** backed out of 4-yr vs 5-yr T-bonds · a full 5-part decomposition (nominal r-f at 1 month, real r-f, DRP, MRP at 3 years, yield on Q debentures).
+- **(8.4.1) yield curve / term structure**; deck notes an MRP is *implied in* a yield curve, and that for long-term securities an MRP may already be inside the LP.
+- ⚠️ **In this class real risk-free rates are ASSUMED CONSTANT** (deck footnote 3) — that assumption is what makes the averaging problems solvable.
+- 🚨 **NO STQ05 EXISTS** ⇒ **the deck's own problems are the ONLY drill material for topic 5.** Nothing else to fall back on.
+➡️ **Value per minute is high: one additive formula with five named terms + an averaging move, and it is very MCQ-able on a ~70%-MCQ paper.** Estimated 25–30 min to solid.
+➡️ LN5 also carries the Ten Axioms restatement (LN2 overlap) and the market-participants/process lists (definitional).
