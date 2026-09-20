@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-09-19 23:00 — DAY CLOSED on his word ("ok sure", accepting the send-off to sleep). Window holds 19 + 18 Sep; the 18 Sep note is next to flush.*
+*Last updated: 2026-09-20 18:30 — MK201 sat and closed ("felt really good," no post-test concerns). Plan set: FN tonight, AC313 all Mon 21, with a midday checkpoint on Monday.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,8 +26,9 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🚪 **AWAY (Sun 20 Sep ~12:35) — off to: MK201 MIDTERM, 13:00–16:00. Exam #1 of 6.**
-  **ASK ON RETURN:** how the paper went — specifically whether **branding (private vs licensed)** showed up, since that was the one item still inverting at T-30.
+- ✅ **MK201 SAT AND CLOSED (Sun 20 Sep, 13:00). His read: "felt really good," and the post-test discussion with friends surfaced NO concerns** — i.e. no answer disputes on the way out. Exam #1 of 6 done. ⛔ Don't reopen MK; the generative-gap finding is a FINAL-exam note, not a now note.
+- ▶️ **PLAN SET BY HIM, 20 Sep evening: FN201 tonight · ALL of Mon 21 to AC313.** Structurally right (AC313 Tue 09:00, and FN's only other window is Tue PM straight off a 3-hr paper) — **tonight is FN's last fresh block.** Crow's steer: tonight is BREADTH (LN1/LN2/LN3/LN5 + STQ04 Q14), NOT more TVM — ~70% of the paper is MCQ and the formula sheet + interest tables are handed to him in the room.
+- ⚖️ **MONDAY MIDDAY CHECKPOINT (Crow's condition on the full AC day):** AC313's named remaining gaps are narrow — **transferred-in COST ASSIGNMENT under WA and FIFO** (he has done EU only) and **Topic 1's five formulas cold**. If both close clean by midday, Monday's back half goes to FN, not to re-drilling AC strengths.
 - 📋 **T-60 drill result (20 Sep, ~20 min):** width/length/depth **FIXED** — clean unaided run on his own initiative after three prior corrections (+ consistency added). social vs societal **FIXED** (hook: social = the ad, societal = the boardroom). image vs personality ✅ (Aaker/excitement). 🔴 **private vs licensed = the live soft spot — right in free response, INVERTED the moment an MCQ distractor sat next to it.** Gave him the name test (whose name is printed on it).
 - 📄 **T-30 past-paper run (real 2-2020 midterm, `~/Desktop/mk/`, 60 MCQs — Crow picked the 6 hardest discriminator items): 6/6 COLD.** Incl. multiple-products/multiple-segments (the one most people drop), a LEAST-important environmental-force trap, needs-vs-wants, and the information-search/alternative-evaluation pair. ⚠️ Answer-key marks did NOT survive MarkItDown — Crow marked from Kotler, flagged to him.
 - ➕ **Extra Crow-built hard set at T-20 (he asked for more): multibranding ✅ · shopping vs specialty product ✅✅ (incl. the cheap-item-specialty trap that breaks the price heuristic).** One miss on **Colgate electric toothbrushes → brand extension** which he said was a slip (he meant b) — taken at his word per [[feedback-drill-format]]; the **brand-development 2×2** (name × category → line ext / brand ext / multibrand / new brand) was written out for him and is worth keeping for the final.
