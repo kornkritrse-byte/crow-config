@@ -866,3 +866,40 @@ Source: `~/Desktop/mk/MK201 2-2020 -Real- Midterm.pdf` (the 2-2020 paper, export
 - 🚨 **NO STQ05 EXISTS** ⇒ **the deck's own problems are the ONLY drill material for topic 5.** Nothing else to fall back on.
 ➡️ **Value per minute is high: one additive formula with five named terms + an averaging move, and it is very MCQ-able on a ~70%-MCQ paper.** Estimated 25–30 min to solid.
 ➡️ LN5 also carries the Ten Axioms restatement (LN2 overlap) and the market-participants/process lists (definitional).
+
+## ✅ FN201 SECURITIES BLOCK — CLOSED 20 Sep 2026 (was at ZERO at the start of the night)
+**STQ04 Q14–Q18, all five shapes, ~70 min. He went from "i got zero clue on intrinsic value calculations" to a correct delayed-growth stock valuation.**
+
+| Q | Shape | Answer |
+|---|---|---|
+| Q14 (past midterm S/AY2019) | monthly-coupon bond, **premium** | value **1,106.22** vs price 1,120 ⇒ **overpriced, do NOT buy** |
+| Q15 | semiannual bond, **discount** | **828.41** |
+| Q16 | semiannual bond, **deep discount** (required = 2× coupon) | **549.69** — ✅ **run SOLO, unaided, first clean rep of the procedure** |
+| Q17 | preferred = flat perpetuity | **50** (6 ÷ 0.12), instant |
+| Q18 | flat 2 yrs then growing forever | **12.2768** (D3 1.275 → P2 12.75 → discount 2 yrs + PV of D1, D2) |
+
+### 🔑 THE ACTUAL FIX — "THE VALUATION PRE-FLIGHT"
+**His own words mid-session, the most useful thing he said: *"i can do the calculations but rn im kinda lost. like if i where to go into the test rn id be lost on which steps to take first then what then what next."* ⇒ The gap was never the math. It was SEQUENCING.** Confirms the standing "FN201 misses are PROCEDURE" diagnosis.
+1. **What does it pay me, and when?** — list the cash flows, nothing else
+2. **What period am I counting in?** — set by payment frequency; r per period = annual required ÷ periods per yr; **n = number of PAYMENTS, never years**; r is **always what you require, never what it pays**
+3. **What shape is each piece?** — lump → PVIF · fixed stream → PVIFA · forever flat → D/r · forever growing → D₁/(r−g)
+4. **Value each piece, then ADD** (a bond is ALWAYS two pieces — most misses live here)
+5. **Bound check, then answer the question actually asked**
+➡️ **Q14–Q18 are ONE procedure; only step 3 changes.** Framing this is what unlocked the night — teach it this way again.
+
+### 🔑 TEACHING KEYS THAT LANDED (reuse these)
+- **"The coupon rate CREATES the cash flow; the required rate PRICES it."** Each rate used once, for one job. Proof that sold it: discount the same bond at its own coupon rate (4%/half) and you get **exactly 1,000.00** ⇒ the premium/par/discount table is nothing but the gap between the two rates.
+- **Bound-check table:** coupon > required → premium · = → par · < → discount. Gives the answer's SIDE before any math.
+- ⚠️ **A bound check CAN FALSE-PASS on an incomplete number** — his 686 (coupons only, missing the face) passed "below 1,000" fine. **The bracket only tests a finished answer.**
+- **Growing perpetuity numerator = the NEXT dividend** (first one IN the growing stream), and the formula lands the value **one period BEFORE** it. He got the t=2 dating unprompted.
+- **g grows the cash flows; r moves value through time.** He tried to ×1.02 to get from t=2 to t=0.
+- 📄 **FORMULA SHEET: the growing perpetuity is `RGP` on p.4, PV side** (legend at the page bottom: S·RA·AD·DA·RP·PD·DP·RGP·GPD·DGP·RGA·GAD·DGA). ⚠️ **Crow CANNOT read the sheet's grid positions — markitdown scrambles that dense layout. Told him so rather than guessing a cell.**
+- 🪤 **The paper plants DIGIT COLLISIONS.** Q15 = 40 payments of 40 baht. Q16 = 8% coupon and 16÷2 = 8% required. **Make him say which number he is reaching for, every time.**
+
+## 🔺 FN201 LN3 — THE RATIO TAXONOMY WAS A HOLE (found 20 Sep)
+**Cold sort, 3 items: he got 1 of 3** (DSO → said leverage · TIE → said liquidity · BEP → profitability ✅). **He had no ratio taxonomy at all** — on a ~70%-MCQ paper where LN3 is the biggest non-TVM topic. Second sort after teaching: **4 of 5.**
+**Her five families, verbatim from LN3 §(B):** (a) Liquidity · (b) **Activity / asset utilization / asset management** · (c) **Leverage / debt management** · (d) Profitability · (e) **Valuation**.
+- Her leverage text explicitly covers *"ability to service its debt obligation… ability to meet its interest payments"* ⇒ **TIE is LEVERAGE, not liquidity.** Liquidity is *"short-term commitments out of liquid current assets"* — current items only.
+- Her activity text: *"if too many funds are tied up in certain types of assets"* ⇒ **DSO is ACTIVITY** (no debt anywhere in it).
+- 🔑 **THE SORTING RULE THAT WORKED: the family is set by what is on TOP, not the bottom.** Debt/Assets → leverage · NI/Assets → profitability · Sales/Assets → activity · EBIT/Assets → profitability. **Same denominator, three families — the denominator tells you nothing.**
+- ✅ **The 11 Sep owed correction was finally DELIVERED:** *"unambiguous cause" → scan only the ratios printed in the table · "efficiency weakness" → NPM/TAT/EM only.* He answered TAT correctly with correct EM reasoning (EM up can't cause ROE to fall), but could not word why NPM was out — **the answer is CATEGORY (efficiency = asset utilisation; NPM is profitability), not "NPM has many inputs."**
