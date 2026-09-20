@@ -26,7 +26,11 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟢 **HERE — Sun 20 Sep ~12:00, T-60 to the MK201 exam (13:00).** Running the last-hour retrieval drill: width/length/depth + the named confusion pairs. No new topics.
+- 🚪 **AWAY (Sun 20 Sep ~12:35) — off to: MK201 MIDTERM, 13:00–16:00. Exam #1 of 6.**
+  **ASK ON RETURN:** how the paper went — specifically whether **branding (private vs licensed)** showed up, since that was the one item still inverting at T-30.
+- 📋 **T-60 drill result (20 Sep, ~20 min):** width/length/depth **FIXED** — clean unaided run on his own initiative after three prior corrections (+ consistency added). social vs societal **FIXED** (hook: social = the ad, societal = the boardroom). image vs personality ✅ (Aaker/excitement). 🔴 **private vs licensed = the live soft spot — right in free response, INVERTED the moment an MCQ distractor sat next to it.** Gave him the name test (whose name is printed on it).
+- 🧠 **Pattern named to him today: it is a LABELLING gap, not a knowledge gap** — both contents correct, attached to the wrong term. In-room fix given: on any compare-X-and-Y question, **write the examples first, attach the labels second.** Also: margin-dump width/length/depth/consistency in the first 30 seconds.
+- ⚠️ **Crow broke [[feedback-drill-format]] today — served 4 MCQs as a block; Korn pushed back ("one at a time!"). One question per turn, no exceptions, even under time pressure.**
 - 🌙 **DAY CLOSED Sat 19 Sep ~23:00 — sent to sleep and he took it.** A long, genuinely productive day: **~11:20 start → cafe → lunch with his parents → 17:18 back → FN201 + MK until 23:00.**
 - 🚨 **TOMORROW: MK201 EXAM, Sun 20 Sep 13:00. FIRST OF SIX.**
   **THE ONLY MORNING JOB — 10 MINUTES, NOT A SESSION:** re-test **product mix WIDTH / LENGTH / DEPTH** cold (width counts lines · length counts items · depth counts versions). It is the one thing that survived TWO corrections in one session, and it is already on Kotler by Sight twice. ⛔ **Do NOT open a new MK topic in the morning and do NOT re-run the whole sweep** — he has done the work; a fresh scare before an exam costs more than it buys.
