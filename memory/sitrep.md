@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-09-20 18:30 — MK201 sat and closed ("felt really good," no post-test concerns). Plan set: FN tonight, AC313 all Mon 21, with a midday checkpoint on Monday.*
+*Last updated: 2026-09-20 18:35 — MK201 sat and closed. Plan: FN tonight (breadth, not TVM), AC313 all Mon 21 with a midday checkpoint. He is on a shower+dinner break; the LN3 discriminator question is open and waiting.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,6 +27,8 @@ metadata:
 
 ## 🚪 Current status
 - ✅ **MK201 SAT AND CLOSED (Sun 20 Sep, 13:00). His read: "felt really good," and the post-test discussion with friends surfaced NO concerns** — i.e. no answer disputes on the way out. Exam #1 of 6 done. ⛔ Don't reopen MK; the generative-gap finding is a FINAL-exam note, not a now note.
+- 🚪 **AWAY (Sun 20 Sep ~18:35) — shower + dinner, then "lock in" on FN201. Short break, NOT a day-end — no quote, no wrap.**
+  **ON RETURN, pick up exactly here (do not restart):** the LN3 ratio discriminator question is ALREADY ON THE TABLE and unanswered — *ROE down; NPM down, TAT down, EM up; "which is the clearest EFFICIENCY weakness?"* — he owes the answer **plus the second half** (why the other declining ratio doesn't answer it). The 11 Sep owed correction was delivered before he left: *"unambiguous cause" → scan only the ratios printed in the table · "efficiency weakness" → NPM/TAT/EM only.*
 - ▶️ **PLAN SET BY HIM, 20 Sep evening: FN201 tonight · ALL of Mon 21 to AC313.** Structurally right (AC313 Tue 09:00, and FN's only other window is Tue PM straight off a 3-hr paper) — **tonight is FN's last fresh block.** Crow's steer: tonight is BREADTH (LN1/LN2/LN3/LN5 + STQ04 Q14), NOT more TVM — ~70% of the paper is MCQ and the formula sheet + interest tables are handed to him in the room.
 - ⚖️ **MONDAY MIDDAY CHECKPOINT (Crow's condition on the full AC day):** AC313's named remaining gaps are narrow — **transferred-in COST ASSIGNMENT under WA and FIFO** (he has done EU only) and **Topic 1's five formulas cold**. If both close clean by midday, Monday's back half goes to FN, not to re-drilling AC strengths.
 - 📋 **T-60 drill result (20 Sep, ~20 min):** width/length/depth **FIXED** — clean unaided run on his own initiative after three prior corrections (+ consistency added). social vs societal **FIXED** (hook: social = the ad, societal = the boardroom). image vs personality ✅ (Aaker/excitement). 🔴 **private vs licensed = the live soft spot — right in free response, INVERTED the moment an MCQ distractor sat next to it.** Gave him the name test (whose name is printed on it).
