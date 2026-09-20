@@ -903,3 +903,12 @@ Source: `~/Desktop/mk/MK201 2-2020 -Real- Midterm.pdf` (the 2-2020 paper, export
 - Her activity text: *"if too many funds are tied up in certain types of assets"* ⇒ **DSO is ACTIVITY** (no debt anywhere in it).
 - 🔑 **THE SORTING RULE THAT WORKED: the family is set by what is on TOP, not the bottom.** Debt/Assets → leverage · NI/Assets → profitability · Sales/Assets → activity · EBIT/Assets → profitability. **Same denominator, three families — the denominator tells you nothing.**
 - ✅ **The 11 Sep owed correction was finally DELIVERED:** *"unambiguous cause" → scan only the ratios printed in the table · "efficiency weakness" → NPM/TAT/EM only.* He answered TAT correctly with correct EM reasoning (EM up can't cause ROE to fall), but could not word why NPM was out — **the answer is CATEGORY (efficiency = asset utilisation; NPM is profitability), not "NPM has many inputs."**
+
+### 📌 LN5 SCOPE INTEL (read off the deck 20 Sep — worth acting on)
+- **Example 1 and Example 2 are both printed "(optional)". Example 3 is NOT.** ⇒ **Example 3 (the full r* + IP + DRP + LP + MRP decomposition table) is the non-optional worked problem — drill THAT one.**
+- **Section (IX) The Term Structure of Interest Rates is marked "Optional"** too, as are sections (III)–(XI) "if not covered in the class."
+- **Deck's own definition: in FN201, `rf` = the YTM on 1-month T-bills.** And **real risk-free rates are ASSUMED CONSTANT** (footnote 3).
+- **Example 3 answers (worked 20 Sep): (a) 3.750% · (b) r* = 2.000% · (c) DRP = 3.125% · (d) MRP(3Y) = 2.500% · (e) Q debentures = 11.000%.**
+- 🔑 **THE METHOD — IT'S A LADDER. Each security differs from the one below it by EXACTLY ONE premium, so you subtract to isolate:** T-bill 1M = r* + IP only → Gov 3Y adds MRP (6.250 − 3.750 = 2.500) → MINT 3Y adds DRP (9.375 − 6.250 = 3.125) → Q 3Y adds LP (9.375 + 1.625 = 11.000, because Q has **no asterisk ⇒ not traded in any secondary market ⇒ LP = 1.625%**).
+- ⚠️ **The sub-questions are NOT in solvable order** — (d) MRP must be found before (c) DRP. **Teach: don't answer in the order printed; find the security that isolates one unknown.**
+- 🪤 **The asterisk in the table is the whole liquidity question.** Starred = OTC = LP 0.000%. Unstarred = no secondary market = LP 1.625%. Easy to skim past.
