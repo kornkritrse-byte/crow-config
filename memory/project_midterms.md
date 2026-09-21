@@ -899,6 +899,22 @@ Source: `~/Desktop/mk/MK201 2-2020 -Real- Midterm.pdf` (the 2-2020 paper, export
 - 📄 **FORMULA SHEET: the growing perpetuity is `RGP` on p.4, PV side** (legend at the page bottom: S·RA·AD·DA·RP·PD·DP·RGP·GPD·DGP·RGA·GAD·DGA). ⚠️ **Crow CANNOT read the sheet's grid positions — markitdown scrambles that dense layout. Told him so rather than guessing a cell.**
 - 🪤 **The paper plants DIGIT COLLISIONS.** Q15 = 40 payments of 40 baht. Q16 = 8% coupon and 16÷2 = 8% required. **Make him say which number he is reaching for, every time.**
 
+## 🚨 FN201 EXAM-WEIGHT INTEL — "MAJORITY WILL BE TVM" (Korn, 21 Sep, from the past class)
+**His words: *"the past class told me the majority of the test will be on tvm so i gotta get that straight."*** ⇒ **LN4 TVM is the dominant block on the Wed 23 paper**, consistent with its 13 lecture hours / 19 active hours (the largest in the course).
+- ⇒ **ALLOCATION RULE for the remaining FN time: TVM gets the largest share, and it must be AIRTIGHT — not just "done."** STQ04 Q1–Q18 are complete and securities closed 20 Sep, so the work is **speed + the valuation pre-flight under time**, not new learning.
+- ⚠️ **Do NOT let LN3 eat the TVM budget.** LN3 is 28 self-study hours and feels big, but the mark weight is not there.
+- 🎯 **HIS OWN NAMED WANT (21 Sep): "for ratios i wanna get used to doing shit like the first question in stq3, that really fucked me up."** ⇒ LN3 drilling = **STQ03-style chained-ratio MCQs**, not formula recall.
+- 📄 **HE HAS THE FORMULA SHEET IN THE EXAM and challenged the drill on it: *"is there really a point to this part, im kinda jsut reading off the formula sheet."* CONCEDED — he was right.** ⇒ **Never drill FN201 formula RECALL again.** The sheet gives algebra; it does not give (1) WHICH ratio answers the question, (2) what a movement MEANS, (3) the therefore. **Drill picking and interpreting only.**
+
+### 📌 STQ03 Q1 — the question that beat him (the shape to drill)
+*P/E from: M/B 2.5× · Current 1.5× · TIE 10× · ROE 20%.* **Answer 12.5.**
+- 🔑 **The move: chain two ratios through a SHARED term.** M/B = P/BVPS · ROE = EPS/BVPS ⇒ **P/E = M/B ÷ ROE = 2.5/0.20 = 12.5.**
+- 🪤 **Current ratio and TIE are pure decoys** — the question hands you four numbers and only two are live. Same family as the AC313 "answers a different quantity than the one asked" pattern.
+
+### ✅ DuPont interpretation drill (21 Sep) — first rep
+*ROE fell, NPM unchanged, TAT unchanged ⇒ what happened?* **He answered: "EM fell, which tells me either TE increased a lot or TA fell, or both." MECHANISM CORRECT, first time unaided.**
+- ⚠️ **But he stopped at the algebra and never said the THEREFORE** — that operations are untouched and the whole fall is FINANCING (less leverage / paid down debt / raised equity). **4th instance of the comparison-without-consequence pattern.**
+
 ## 🔺 FN201 LN3 — THE RATIO TAXONOMY WAS A HOLE (found 20 Sep)
 **Cold sort, 3 items: he got 1 of 3** (DSO → said leverage · TIE → said liquidity · BEP → profitability ✅). **He had no ratio taxonomy at all** — on a ~70%-MCQ paper where LN3 is the biggest non-TVM topic. Second sort after teaching: **4 of 5.**
 **Her five families, verbatim from LN3 §(B):** (a) Liquidity · (b) **Activity / asset utilization / asset management** · (c) **Leverage / debt management** · (d) Profitability · (e) **Valuation**.
