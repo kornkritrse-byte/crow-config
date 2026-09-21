@@ -949,3 +949,37 @@ Source: `~/Desktop/AC313/BBA-AC313 Midterm Review.pdf` (3 pp) + `~/Desktop/AC313
 | Q16 | Topic 4 | splitoff vs physical units vs NRV, one dataset |
 | Q17 | Topic 4 | Roundtree — all three methods + total production cost of the finished products |
 | Q18 | Topic 4 | byproduct **production method vs sale method journal entries** |
+
+## 🧾 AC313 — THE JOURNAL-ENTRY PICKER (built 21 Sep, his ask: *"give me a chart thing to note down how i can identify entries and not get them mixed up"*)
+**Master rule:** the account **receiving** the cost is **debited**; the account **supplying** it is **credited**. **WIP and MOH are always receivers.**
+**The chain:** Materials → WIP → FG → COGS. Every entry is one step along it.
+
+| What just happened | Dr | Cr |
+|---|---|---|
+| Bought materials | Materials | AP / Cash |
+| Issued materials — **direct** | WIP | Materials |
+| Issued materials — **indirect** | MOH | Materials |
+| Labor — **direct** | WIP | Wages Payable |
+| Labor — **indirect** | MOH | Wages Payable |
+| Other actual factory costs | MOH | Cash / Acc. Dep. / Payables |
+| **Applied** OH to jobs *(all year, every job)* | WIP | MOH Applied |
+| Job finished | FG | WIP |
+| Job sold — cost | COGS | FG |
+| Job sold — revenue | AR / Cash | Sales |
+| **Close** the two OH accounts *(year end, ONCE)* | MOH Applied | MOH |
+| Dispose **under**applied | COGS | MOH |
+| Dispose **over**applied | MOH | COGS |
+
+**Fork 1 — traceable to one job?** Yes → WIP · No → MOH.
+**Fork 2 — spoilage/rework, framed as DOES THE LOSS LEAVE WIP:**
+- normal + **specific job** → loss **STAYS** in WIP, no entry for it; only the recoverable resale value moves out (`Dr Materials / Cr WIP`)
+- normal + **common to all jobs** → loss **LEAVES** → `Dr Materials (resale) · Dr MOH (loss) / Cr WIP (total)`
+- **abnormal** → loss **LEAVES** → `Dr Materials · Dr Loss from Abnormal Spoilage/Rework / Cr WIP`
+🔑 **Two of the three take the loss out of the job; only "specific" leaves it in.** That framing worked where "which account" did not.
+
+### ⚠️ HIS ENTRY ERRORS, 21 Sep — all four are PICKING errors, not accounting errors
+1. **Dr/Cr inverted three times** (materials issue, payroll, OH applied). Fix = the master rule above: name the receiver first.
+2. **Adjacent grab: wrote the CLOSING entry (`Dr MOH Applied / Cr MOH`) when asked for the APPLYING entry (`Dr WIP / Cr MOH Applied`).** Separate them by WHEN: applying runs all year, closing happens once. Same failure shape as the FN201 adjacent-grabs of 20 Sep.
+3. **Credited Materials on job completion** instead of WIP — two steps back on the chain.
+4. **Missed the spoilage fork with the chart on screen** — reached for Materials when the answer was MOH. ⇒ **The chart is not self-executing; he needs the fork questions asked aloud.**
+📌 Her account names, which are what her MCQ options will use: **Materials · WIP · MOH · MOH Applied · FG · COGS · Wages Payable.** He wrote "Inventory (raw mats)", "Job 101" and "Inventory" — none of those are options. **Job 101 is the subsidiary line; WIP is the control account that appears in the entry.**
