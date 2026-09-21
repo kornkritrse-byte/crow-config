@@ -904,6 +904,15 @@ Source: `~/Desktop/mk/MK201 2-2020 -Real- Midterm.pdf` (the 2-2020 paper, export
 - 🔑 **THE SORTING RULE THAT WORKED: the family is set by what is on TOP, not the bottom.** Debt/Assets → leverage · NI/Assets → profitability · Sales/Assets → activity · EBIT/Assets → profitability. **Same denominator, three families — the denominator tells you nothing.**
 - ✅ **The 11 Sep owed correction was finally DELIVERED:** *"unambiguous cause" → scan only the ratios printed in the table · "efficiency weakness" → NPM/TAT/EM only.* He answered TAT correctly with correct EM reasoning (EM up can't cause ROE to fall), but could not word why NPM was out — **the answer is CATEGORY (efficiency = asset utilisation; NPM is profitability), not "NPM has many inputs."**
 
+### 🧰 LN5 TEACHING KEYS THAT LANDED (21 Sep, built from zero in ~25 min)
+- **Build the ladder from the LENDER's exposure, never the borrower's situation.** His first instinct was *"the company is more desperate so they'll accept a high rate"* — demand-side. Named to him: price it from what YOU are exposed to, or every question inverts.
+- 🔑 **ONE FORMULA, TERMS SWITCH ON/OFF — not five formulas.** He asked *"as in the formula for the government bond?"*, i.e. he was about to build one per security. Fixed with the same framing that won joint costing this afternoon: *one formula, only the measure/terms swap*. T-bill = r*+IP · long gov = +MRP · traded corporate = +DRP · untraded = all five.
+- 🚨 **LP↔MRP SWAPPED FOUR MINUTES AFTER BEING TAUGHT — the 5th adjacent grab in 2 days.** He defined LP as "you could sell the bond at a loss" (that is MRP) and split the single rate-movement story across both terms.
+- 🔑 **THE FIX THAT WORKED — LP AND MRP ARE READ OFF TWO DIFFERENT COLUMNS OF HER TABLE:** **LP ← the asterisk** (starred = secondary market = 0; unstarred = the LP she gives) · **MRP ← the maturity column** (1 month ≈ 0, grows with years). One is about the security's MARKET, the other about TIME LOCKED IN. Cold re-test immediately after: **2/2, instant.**
+- ⚠️ **Cold write-out of the 5 terms scored 2/5**: DRP ✅ · LP ❌ (gave MRP's meaning) · MRP ~ · **IP called "interest premium" — it is INFLATION premium, and he had said "inflation" himself 15 min earlier** · r* called "the normal rate" (vague). **His own better word for r* is "incentive" — the price of waiting. Use his word.**
+- ✅ Mechanism-first order worked: he produced bankruptcy (DRP), no-buyer (LP), inflation (IP) and "incentive" (r*) from a plain lending scenario BEFORE any names were attached. Names last, mechanism first — repeat this.
+- ⚠️ **"Back out of a bond" — corrected.** The issuer never refunds you; you SELL to a third party. That verb is what makes LP make sense.
+
 ### 📌 LN5 SCOPE INTEL (read off the deck 20 Sep — worth acting on)
 - **Example 1 and Example 2 are both printed "(optional)". Example 3 is NOT.** ⇒ **Example 3 (the full r* + IP + DRP + LP + MRP decomposition table) is the non-optional worked problem — drill THAT one.**
 - **Section (IX) The Term Structure of Interest Rates is marked "Optional"** too, as are sections (III)–(XI) "if not covered in the class."
