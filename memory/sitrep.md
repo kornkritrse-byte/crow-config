@@ -26,8 +26,10 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🚪 **DAY CLOSED (Sun 20 Sep ~22:30) on his word: "im going to sleep. tmr im waking up early and getting a head start on ac 313."**
-- 🌅 **MORNING ATTEMPT — he set it himself: EARLY WAKE MON 21 for AC313.** First time the morning is for STUDY, not the gym → [[project-morning-person]]. **Ask on return whether it HAPPENED, not whether he still wants it.**
+- ☕ **AWAY (Mon 21 Sep, ~07:30) — off to: making coffee, back to start work.** `ASK ON RETURN:` the Step-4 cost-assignment skeleton from blank paper (two destinations + how many pieces each) — he has the question, has not answered it yet.
+- ✅ **MORNING ATTEMPT #2 LANDED — he opened the session 07:23 Mon 21 Sep ("hey ac313 day").** First morning used for STUDY, not the gym → [[project-morning-person]]. Two attempts is not yet a habit; keep watching.
+- 📚 **AC313 DAY IS RUNNING. Plan set 07:2x:** (1) Step-4 skeleton from memory → (2) **transferred-in COST ASSIGNMENT under WA + FIFO** (he has done EU only) → (3) **Topic 1's five formulas / the COGM→COGS chain** cold → (4) timed MCQ speed reps. ⛔ **Do NOT re-run full process-costing questions he has already tied out** (Chiang Mai 218,000 is CLOSED) — the paper is **47 MCQ, no layout marks**, so it pays speed-to-a-number, not layout recall.
+- 🔴 **FOUND 07:3x — HE CONFLATED TWO STRUCTURES:** thought "cost assignment" meant Topic 1's cost-flow chain ending in COGS. Corrected. Same family as the units-vs-money slips of 17 Sep. **Keep the two machines explicitly separate today.**
 - ✅ **MK201 SAT AND CLOSED (Sun 20 Sep). "Felt really good," no post-test concerns.** Exam #1 of 6 down. ⛔ Don't reopen MK.
 - ▶️ **FN201 RESUME POINT — LN5 Example 3, parts (a) and (b), already on the table when he stopped.** He has the formula and the table; he owes the 1-month nominal r_f and r*. Full worked answers + the ladder method are in [[project-midterms]] — **do NOT hand him the numbers, he has seen none of them.**
 - ▶️ **FN201 after that — LN5 section (8.4) the rest,** `r = r* + IP + DRP + LP + MRP` + the inflation-averaging and implied-forward problems. **HIS OWN FIND, 20 Sep.** 🚨 **No STQ05 exists — the deck's own problems are the only drill material for topic 5.** ~25–30 min. Then LN3 computation/DuPont, then LN1/LN2 rapid fire.
