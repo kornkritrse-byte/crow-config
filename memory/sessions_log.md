@@ -10,6 +10,13 @@ metadata:
 
 # Sessions Log (archive)
 
+## 2026-09-19 — MK cold gauntlet, the "somehow" diagnosed
+- He opened wanting to SKIP MK ("flew through them with confidence somehow"). Crow objected on the word "somehow" + that the prior run was the friend-group session. Deal: 25-min cold gauntlet, 6 items, no notes.
+- **Result 2 clean · 2 partial · 2 miss · 1 handed over.** ❌ social vs societal (axis = philosophy vs practice) · ❌ private vs licensed (owner inverted) · ✅ five differentiation bases · ⚠️ image vs personality (drifted to USER imagery, no Aaker vocab) · ✅ three industrial classes · ✅ four targeting strategies — and he **labelled his own uncertainty unprompted** for the first time.
+- 🔴 **THE DIAGNOSIS: he answers the WHAT, never the AXIS** — skipped the second half of the question three times. Produces lists, not discriminators. That is what "flew through it somehow" feels like from the inside.
+- Positioning statement: he wrote analysis, not the template; missing slot was **category** ("is a ___").
+- Plan set: MK gets a 30–40 min confusion-pair sweep, not a day. Today's leverage argued to FN201 on structure.
+
 ## 2026-09-12 — FN201 valuation fixed, STQ03 closed, evening 10k
 - **EFORL workbook valuation section fixed and verified.** 2021–2025 closing prices sourced via Yahoo Finance's chart API (SET's page is JS-rendered, settrade 403'd), `Inputs!B6:F6` filled: 2.00 / 0.34 / 0.25 / 0.27 / 0.15. P/E, M/B and dividend yield confirmed recalculating. **The 2022 1-for-10 reverse-split risk was tested and CLEARED** — the Yahoo series is continuous across the boundary, i.e. already split-adjusted, matching the flat ~4.00bn post-split share count the professor's data uses for all five years.
 - **FN201 STQ03 finished — 20/20.** Q17–Q20 done that night; one recurring "adjacent line item" slip (Revenue for Total Assets in EM), self-corrected on a nudge.
