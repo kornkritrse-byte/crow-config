@@ -912,3 +912,40 @@ Source: `~/Desktop/mk/MK201 2-2020 -Real- Midterm.pdf` (the 2-2020 paper, export
 - 🔑 **THE METHOD — IT'S A LADDER. Each security differs from the one below it by EXACTLY ONE premium, so you subtract to isolate:** T-bill 1M = r* + IP only → Gov 3Y adds MRP (6.250 − 3.750 = 2.500) → MINT 3Y adds DRP (9.375 − 6.250 = 3.125) → Q 3Y adds LP (9.375 + 1.625 = 11.000, because Q has **no asterisk ⇒ not traded in any secondary market ⇒ LP = 1.625%**).
 - ⚠️ **The sub-questions are NOT in solvable order** — (d) MRP must be found before (c) DRP. **Teach: don't answer in the order printed; find the security that isolates one unknown.**
 - 🪤 **The asterisk in the table is the whole liquidity question.** Starred = OTC = LP 0.000%. Unstarred = no secondary market = LP 1.625%. Easy to skim past.
+
+## 🚨 AC313 EXAM SCOPE — READ OFF THE PROF'S OWN REVIEW SHEET (21 Sep 2026)
+Source: `~/Desktop/AC313/BBA-AC313 Midterm Review.pdf` (3 pp) + `~/Desktop/AC313/AC313 - Exercise 1.pdf` (7 pp, Q1–Q18). **Both were on disk since 3 Sep / 18 Sep and had never been read — Korn had to ask "are you drilling her style?" before Crow checked. Don't teach a subject whose own exercise sheet is sitting unread.**
+
+### ❌ EXPLICITLY NOT TESTED — her words, "Good news"
+- **Topic 2 (job costing): "Materials on SCRAP will NOT be tested."** ⇒ Exercise Q11 (5 scrap journal-entry variants) is dead.
+- **Topic 3 (process costing): "Materials on SPOILAGE, REWORK, and SCRAP will NOT be tested."** ⇒ 🔴 **SPOILAGE IN PROCESS COSTING IS OFF THE EXAM. Exercise Q15 (Appleton) is dead.** The 17 Sep spoilage teaching (normal/abnormal fork, 100%-at-inspection, % of good units) survives **only** in its job-costing form.
+- **Under/overapplied MOH: ONLY the immediate write-off to COGS approach is listed.** ⇒ Exercise **Q8 (c) and (d) — proration by ending balances and by allocated-OH amounts — are off scope.** Q7.4 (write-off to COGS) is on.
+
+### ✅ EXAMINABLE, HER OWN LIST
+- **Topic 1** — manufacturing vs period · product vs period · direct vs indirect · variable vs fixed · **prime = DM+DL · conversion = DL+MOH** · and the five formulas *verbatim*: **DM used = Beg.DM + purchases − End.DM · COGM = Beg.WIP + DM used + DL + MOH − End.WIP · COGS = Beg.FG + COGM − End.FG · Gross margin = Sales − COGS · Operating income = GM − opex.**
+- **Topic 2** — job cost under **normal costing** (POHR = budgeted MOH ÷ budgeted driver; applied = POHR × ACTUAL driver) · **the full journal-entry set** (materials, DM/IDM used, DL/IDL, MOH applied, actual MOH, COGM, closing MOH applied vs MOH) · under/overapplied → **over = decrease COGS, under = increase COGS** · **spoilage + rework journal entries (she points at Exercise Q9 & Q10)**.
+- **Topic 3** — physical units, EU (WA + FIFO), **and cost assignment, for BOTH the 1st and 2nd departments.** 1st dept = 2 cost columns (DM, CC); **2nd dept = 3 (transferred-in, DM, CC)**. Her wording: transferred-in is *"a separate type of direct material added at the beginning… degree of completion as to TR is always 100%."*
+- **Topic 4** — joint costs: **sales value at splitoff · NRV (= final sales value − separable costs) · physical measure**; byproducts: **production method vs sale method** (Exercise Q18 wants journal entries for both).
+
+### 🔴 THE GAP THIS EXPOSED
+**JOURNAL ENTRIES ARE AN EXPLICITLY EXAMINABLE BLOCK AND THERE IS NO RECORD OF KORN EVER DRILLING THEM.** Every AC313 session 15–18 Sep was computational (EU, rates, tie-outs). Her Topic 2 lists ~9 entries by name, plus spoilage/rework (Q9, Q10), plus byproduct entries (Q18). On a 47-MCQ paper these become "which account is debited" items — cheap marks, and at zero.
+
+### 📚 EXERCISE 1 — THE QUESTION MAP (her style, use these not invented ones)
+| Q | Topic | Shape |
+|---|---|---|
+| Q1–Q3 | Topic 1 | cost classification codes (DM/DL/MOH/WIP/FG/PC) · 6 T/F · pick the MOH items |
+| Q4 | Topic 1 | Chan Corp — all five formulas + prime/conversion/period costs off one messy table |
+| Q5 | Topic 2 | **actual vs normal costing** on the same job |
+| Q6 | Topic 2 | 8 job-order journal entries incl. under/overapplied disposal |
+| Q7 | Topic 2 | POHR for 3 companies on 3 different bases + under/overapplied + write-off to COGS |
+| Q8 | Topic 2 | POHR, under/overapplied, ⛔ (c)(d) proration OFF SCOPE |
+| Q9 | Topic 2 | **spoilage journal entries** — normal/specific job · normal/common · abnormal |
+| Q10 | Topic 2 | **rework journal entries** — same three cases |
+| Q11 | — | ⛔ scrap — NOT TESTED |
+| Q12 | Topic 3 | unit cost with and without EWIP — the "why do they differ" question |
+| Q13 | Topic 3 | Satellite Assembly — full 5 steps, WA and FIFO, **1st dept** |
+| Q14 | Topic 3 | **Aragon Finishing — TRANSFERRED-IN, WA and FIFO, 2nd dept.** ⚠️ **DM added at the END ⇒ DM is 0% in BOTH beginning and ending WIP.** This is the exact shape of his named gap |
+| Q15 | — | ⛔ spoilage in process costing — NOT TESTED |
+| Q16 | Topic 4 | splitoff vs physical units vs NRV, one dataset |
+| Q17 | Topic 4 | Roundtree — all three methods + total production cost of the finished products |
+| Q18 | Topic 4 | byproduct **production method vs sale method journal entries** |
