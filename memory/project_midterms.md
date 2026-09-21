@@ -863,7 +863,10 @@ Source: `~/Desktop/mk/MK201 2-2020 -Real- Midterm.pdf` (the 2-2020 paper, export
 - **In-deck problems WITH answers printed:** average expected inflation over 4 years (5.50%) · prevailing rate on 4-yr T-bonds (7.50%) · **implied expected inflation in Year 5** backed out of 4-yr vs 5-yr T-bonds · a full 5-part decomposition (nominal r-f at 1 month, real r-f, DRP, MRP at 3 years, yield on Q debentures).
 - **(8.4.1) yield curve / term structure**; deck notes an MRP is *implied in* a yield curve, and that for long-term securities an MRP may already be inside the LP.
 - ⚠️ **In this class real risk-free rates are ASSUMED CONSTANT** (deck footnote 3) — that assumption is what makes the averaging problems solvable.
-- 🚨 **NO STQ05 EXISTS** ⇒ **the deck's own problems are the ONLY drill material for topic 5.** Nothing else to fall back on.
+- 🚨 **CORRECTED 21 Sep — STQ05 IS NOT ON DISK, BUT IT EXISTS.** LN5's own front matter **(B.2) Recommended** lists **"(1) Self-test question set #5 (STQ #5)"** ⇒ it is a real set, just never downloaded (`~/Desktop/fn/` holds STQ01–STQ04 only). **URLs/files are on MS Teams.** ⇒ **ASK KORN TO PULL STQ05 — it is the only extra drill material for the one topic that has none, and FN201 is Wed 23.**
+- 📚 **ALSO LISTED AS DRILL IN THE SAME BLOCK: textbook Ch.5 problems 5-4 – 5-6, 5-18, 5-20** (FM 2021 AE 2nd ed). Reading scope for LN5: Ch.1 p.17–36 + p.49–58, **Ch.5 p.231–253**.
+- 👤 **FN201 INSTRUCTOR: Obrom Chaowalerd (อบรม เชาวน์เลิศ) — HE/HIM.** Korn corrected Crow on this 21 Sep (Crow had been saying "she"). Sections 0264/01 and 0264/02.
+- 📍 **Example 3 sits at the END of §(8.5) Examples** — after Example 1 and Example 2 (both "optional"), immediately before **§(IX) The Term Structure of Interest Rates**. Extraction puts it between page markers 22 and 23.
 ➡️ **Value per minute is high: one additive formula with five named terms + an averaging move, and it is very MCQ-able on a ~70%-MCQ paper.** Estimated 25–30 min to solid.
 ➡️ LN5 also carries the Ten Axioms restatement (LN2 overlap) and the market-participants/process lists (definitional).
 
