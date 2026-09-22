@@ -28,7 +28,8 @@ metadata:
 ## 🚪 Current status
 - 🟢 **HERE — back 16:33 Tue 22 Sep** ("lets keep working bud"). FN201 midterm is **09:00–11:30 TOMORROW, Wed 23 Sep** — this is the last FN night.
 - ✅ **AC313 PAPER ANSWERED 16:3x: "the test was good actually."** Exam #2 of 6 down, no post-test concerns raised. ⛔ Don't re-ask; don't reopen AC313.
-- ▶️ **STILL OPEN:** (1) **STQ05 still NOT in `~/Desktop/fn/`, re-checked 16:33** — MS Teams pull. (2) Stop-time for tonight not yet named.
+- ✅ **STQ05 LANDED 16:37** — he pulled it. `FN201-26F-BBA-STQ05-FE&M-Q1-30&S1-25-V4-260909.pdf` (Q1–30 + solutions 1–25) + `...S26-30-P2-of-2-V4-260909.xlsx`. **30 Qs: ~24 conceptual MCQ (markets, cost-of-money determinants, premia), computational = Q11, Q25, Q26–30** — the exact §8.4 material he built from zero 21 Sep. Text extracted to scratchpad `stq05.md`.
+- ▶️ **STILL OPEN: stop-time for tonight not yet named.** He sits FN201 at 09:00.
 - ⚠️ **16:3x — he asked an AC313 question (under/overapplied MOH → COGS direction) the night before FN201.** Answered in 30s + allocation flagged. Watch for more AC313 drift; the paper is submitted and FN is 09:00 Wed.
 - 🥊 **FN BAG WORK, 12:33–14:0x — STQ04 Q21–Q27, 7 for 7.** His words on arrival: *"fn bag work"*. All four of his misses were **BA II Plus entry slips, zero conceptual**: stale I/Y=6 carried into Q21 · FV sign opposite PMT on Q25 · pot keyed into FV not PV on Q21 · age-20 read as t=20. Full findings + the five-register frame + the BGN/END rules are in [[project-midterms]].
 - ⏰ **FN201 MIDTERM 09:00–11:30 WED 23 SEP.** TVM-dominant per the past class. Remaining work = **Q19, Q20, then speed**. ⛔ Don't let LN3 eat the TVM budget.
