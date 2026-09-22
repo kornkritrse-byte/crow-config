@@ -1119,3 +1119,13 @@ Korn's own words, 22 Sep: *"his words and also friends who have heard from other
 - 📄 **Exam set = question copy + Scantron® + formula-and-interest-factor tables (optional use) + an answer booklet.** Copies **A/B/C/D** — write the copy letter on BOTH the Scantron and the booklet.
 - ⚠️ **Scantron rules: 2B pencil or darker (a pen will not scan). A blank answer OR two choices blackened = NOT GRADED.** Up to two calculators (simple / non-graphing / non-programmable scientific / financial).
 - ➡️ **ALLOCATION CONSEQUENCE:** FE&M = 10 pts (we spent ~1.5 hrs on it) · LN1 = **4 pts, 2 questions — nearly ignorable, skim only** · LN3 = 12 pts · **TVM = 32 pts and gets the rest of the night.**
+
+### 🧪 "THE BANGKOK CONDO" — Crow-built TVM problem-solving drill (22 Sep ~20:00, PS-shaped, ~20 min)
+Built because **all 30 STQ04 questions are now done** — re-running them gives recognition, not recall — and the midterm's 18 PS points are all TVM. Deliberately targets his four slip families: two compounding frequencies, an END-vs-BGN discrimination, the PV-of-what's-left rule, a rate conversion, and "which quantity".
+**Setup:** condo THB 4,500,000, purchased exactly 5 years from today · 20% cash down payment on the purchase date · THB 300,000 saved today in an account at **6% p.a. compounded quarterly** · 20 equal quarterly deposits, first 3 months from today, **last on the purchase date** (⇒ ordinary annuity, n=20 — the BGN trap) · mortgage for the balance at **7.2% p.a. compounded monthly**, 240 equal monthly installments, first one month after purchase.
+⛔ **MODEL ANSWERS (do not show him):**
+- **(a)** down payment = 0.20 × 4,500,000 = **900,000.00**
+- **(b)** i/m = 1.5%/qtr ⇒ EAR = 1.015⁴ − 1 = **6.1364%**
+- **(c)** FV of the 300,000 = 300,000 × 1.015²⁰ (factor **1.34685501**) = **404,056.50** ⇒ shortfall = 900,000 − 404,056.50 = **495,943.50**; FVIFA(1.5%,20) = **23.12366710** ⇒ **PMT = 21,447.44**
+- **(d)** loan = 4,500,000 − 900,000 = **3,600,000**; i/m = 0.6%/month, n = 240; PVIFA = **127.00843213** ⇒ **installment = 28,344.57**
+- **(e)** after 120 payments, 120 remain ⇒ remaining principal = 28,344.57 × PVIFA(0.6%,120) = **2,419,679.12** (and interest in payment 121 = **14,518.07**)
