@@ -1083,3 +1083,12 @@ On Q27 he had the correct number for **six messages** and asked **five consecuti
 
 **LN5** — (I) Definition of financial markets · (II) Classifications · (III) Components · (IV) **The capital formation process** (direct / semi-direct / indirect — process + participants) · (V) Financial institutions in Thailand · (VI) Major roles of financial markets · (VII) Thai financial market structure · (VIII) **The cost of funds: (8.2) the four fundamental determinants — production opportunities, time preferences for consumption, inflation, risk · (8.3) economic conditions & policies · (8.4) `r = r* + IP + DRP + LP + MRP` · (8.5) worked examples** · money-market instruments.
 ⛔ **(IX) The Term Structure of Interest Rates is marked "Optional" in her own deck.**
+
+### ⛔ STQ05 Q26–30 MODEL ANSWERS (he must NOT see them)
+Shared table: r* 2.00% · avg future inflation 1.50% · MRP ≤1 month 0.00% · **LP for OTC-listed instruments 0.00%** · MRP >1 month to 2 yrs 1.75% · DRP AA+ (≤3yr) 1.25% · DRP AA (≤3yr) 1.85% · DRP AA− = **?** · T-bills 1 month (OTC) ? · Govt bonds 2 yr (OTC) ? · **Company X debentures AA+, 2 yr, OTC = ?** · **Company Y debentures AA−, 2 yr, OTC = 8.25%** · **Company Z debentures AA−, 2 yr, NOT OTC-listed = 10.50%**
+- **Q26 nominal r_f = r* + IP = 2.00 + 1.50 = 3.50%** (1-month T-bill: no DRP, no LP — OTC, no MRP — ≤1 month)
+- **Q27 2-yr govt bonds = r* + IP + MRP = 2.00 + 1.50 + 1.75 = 5.25%** (no DRP — government; no LP — OTC)
+- **Q28 X debentures = r* + IP + DRP + MRP = 2.00 + 1.50 + 1.25 + 1.75 = 6.50%** (no LP — OTC)
+- **Q29 ΔDRP(AA− vs AA+) = r_Y − r_X = 8.25 − 6.50 = 1.75%** — X and Y differ ONLY by rating, so the yield gap IS the DRP gap
+- **Q30 implied LP = r_Z − r_Y = 10.50 − 8.25 = 2.25%** — Y and Z differ ONLY by listing (Y is OTC-listed, Z is not), so the yield gap IS the liquidity premium
+🔑 **The design: Q26–28 BUILD UP from the components; Q29–30 DIFFERENCE OUT a missing component by pairing two instruments that differ in exactly one way.** That pairing trick is the examinable idea.
