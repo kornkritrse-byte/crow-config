@@ -1099,3 +1099,23 @@ Shared table: r* 2.00% · avg future inflation 1.50% · MRP ≤1 month 0.00% · 
 
 ### ⚠️ PRONOUN CORRECTION — the FN201 lecturer (Obrom) is **HE**, not "she"
 Korn's own words, 22 Sep: *"his words and also friends who have heard from others."* **Every earlier note in these memory files that calls the FN201 lecturer "her"/"she" is wrong** — that includes the LN3 ratio-taxonomy notes ("her five families"), the STQ answer-key notes, and the exam-format notes. AC313's Ajarn Monvika and AC311's Ajarn Pailin are separate people; this correction is FN201 only.
+
+## 🚨🚨 FN201 MIDTERM — OFFICIAL SCORE ALLOCATION (he uploaded it 22 Sep 19:31; `~/Desktop/fn/FN201-26F-BBA-E1-Exam Info-V1-260902.pdf`, dated 2 Sep)
+**THE DOCUMENT USES THE LECTURE-NOTE NUMBERING** (it spells the topic names out), so no 3/4/5 ambiguity.
+
+| Topic | MC Qs | MC pts | PS Qs | PS pts | TOTAL pts | Share |
+|---|---|---|---|---|---|---|
+| #1 An Overview of Business Finance | 2 | 4.0 | – | – | **4.0** | 5.7% |
+| #2 The Axioms of Business Finance | 6 | 12.0 | – | – | **12.0** | 17.1% |
+| #3 Analysis of Financial Reports | 6 | 12.0 | – | – | **12.0** | 17.1% |
+| **#4 The Time Value of Money** | 7 | 14.0 | **2** | **18.0** | **32.0** | **45.7%** |
+| #5 Financial Environments & Markets | 5 | 10.0 | – | – | **10.0** | 14.3% |
+| **Total** | **26** | **52.0** | **2** | **18.0** | **70.0** | **= 35% of the course** |
+
+- 🔴 **TVM IS 46% OF THE PAPER AND HOLDS 100% OF THE PROBLEM-SOLVING POINTS.** The **2 PS problems alone = 18 pts = 26% of the paper** — more than Axioms and FE&M combined. ⇒ **multi-part TVM problems with work shown are the single highest-value prep item.** Q28 (amortized + add-on) was exactly the right shape.
+- ⏱️ **2.5 hours, and the sheet says 1 point ≈ 2.14 minutes** ⇒ 52 MC points ≈ 111 min for 26 questions = **~4.3 min per MC.** 🔁 **THIS RETIRES THE "SPEED REPS" PRIORITY** — the paper is not time-pressured on MC. **Accuracy and the pre-flight beat speed.**
+- 🧾 **PARTIAL CREDIT IS AWARDED ON PS** — the sheet says show step-by-step calculations and use the booklet's blank space for scratch work. ⇒ **never leave a PS blank; write the structure even if the number dies.**
+- 🚨 **"There is no formula related to accounts in financial statements provided... students are expected to know the structures of financial statements by heart."** ⇒ the COGM/COGS-style statement structures and `Assets = Liabilities + Equity`, `NI = EBT − tax` are NOT on the formula sheet. LN2/LN3 exposure.
+- 📄 **Exam set = question copy + Scantron® + formula-and-interest-factor tables (optional use) + an answer booklet.** Copies **A/B/C/D** — write the copy letter on BOTH the Scantron and the booklet.
+- ⚠️ **Scantron rules: 2B pencil or darker (a pen will not scan). A blank answer OR two choices blackened = NOT GRADED.** Up to two calculators (simple / non-graphing / non-programmable scientific / financial).
+- ➡️ **ALLOCATION CONSEQUENCE:** FE&M = 10 pts (we spent ~1.5 hrs on it) · LN1 = **4 pts, 2 questions — nearly ignorable, skim only** · LN3 = 12 pts · **TVM = 32 pts and gets the rest of the night.**
