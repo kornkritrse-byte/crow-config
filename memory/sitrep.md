@@ -26,7 +26,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🚪 **ON BREAK 21:12–21:25 (his ask, Crow approved with a hard return time).** Then **LN3, 21:25–~22:20**, hard stop 22:30. ⏳ Prepped during the break: STQ03 Q1 — the chained-ratio question he named. ⛔ Answer: **12.5**, via **P/E = (M/B) ÷ ROE**; current ratio and TIE are red herrings.
+- 🟢 **HERE — back 21:2x from the break (*"back baby"*). ▶️ LN3 RUNNING, opened on STQ03 Q1.**
+- ✅ ~~ON BREAK 21:12–21:25 (his ask, Crow approved with a hard return time).~~ Then **LN3, 21:25–~22:20**, hard stop 22:30. ⏳ Prepped during the break: STQ03 Q1 — the chained-ratio question he named. ⛔ Answer: **12.5**, via **P/E = (M/B) ÷ ROE**; current ratio and TIE are red herrings.
 - 🚪 ~~AWAY (21:06) — water + frozen bananas.~~ Earlier: His words: *"i think i had a ureka moment wjile pissing and got it now imm go get water and some frozen bananas. we can do ln3 when im back"* ⇒ **back tonight, NOT a day-end. No quote, no wrap-up.**
 - ✅ **EUREKA HEARD AND CORRECTED 21:1x.** His insight: the offset rule — the annuity formula lands one period before the first payment, and he derived **PV(AD) = PV(RA) × (1+r)** himself from the t=0 case. 🔴 **One real error in his statement, fixed: he said a stream starting t=67 needs "n=66" — conflating n (the NUMBER OF PAYMENTS) with the landing date (the DISCOUNT EXPONENT).** Shown against his own Stream 2 work: started t=10, n=**6**, divided by 1.08⁹. He confirmed clean. *(His "stuck on the 120 question" = the condo mortgage part (e).)*
 - ▶️ **`ASK ON RETURN:` LN3, opening on STQ03-style CHAINED-RATIO MCQs** (his own named want: *"the first question in stq3, that really fucked me up"*). **Hard stop 22:30 — ~1h20 left at the time he stepped out.**
