@@ -1018,7 +1018,11 @@ Source: `~/Desktop/AC313/BBA-AC313 Midterm Review.pdf` (3 pp) + `~/Desktop/AC313
 📌 Her account names, which are what her MCQ options will use: **Materials · WIP · MOH · MOH Applied · FG · COGS · Wages Payable.** He wrote "Inventory (raw mats)", "Job 101" and "Inventory" — none of those are options. **Job 101 is the subsidiary line; WIP is the control account that appears in the entry.**
 
 ## 🧮 FN201 STQ04 Q21–Q27 — BAG WORK, 22 Sep 2026 (straight out of the AC313 paper)
-**7 of 9 done: Q21 ✅ · Q22 ✅ · Q23 ✅ · Q24 ✅ · Q25 ✅ · Q26 ✅ · Q27 ✅. ▶️ RESUME AT Q19, then Q20.** Every one landed correct, several after one correction. This was the only untouched block on disk (Q1–Q18 + Q29/Q30 already done).
+**9 of 9 DONE. Q19 ✅ 44 · Q20 ✅ 50.15625 (overpriced vs 55, don't buy) · Q21–Q27 ✅.**
+🚨 **BUT Q28 IS UNACCOUNTED FOR — never logged as done in any session.** It is a **six-part amortized-loan question (a)–(f)**: principal from a 40-quarter PMT of 29,244.60 @ 8% quoted · principal repaid after the 39th payment · interest inside the 40th payment · the loan's EAR · then the same loan as an **add-on-interest** loan (installment, and the interest in the 40th payment). **Shaped exactly like a constructed-response question — and the midterm is 10% constructed.** Amortized loans were already a named gap (13 Sep: "next FN session opens with Q2, amortised loan").
+⚠️ **Q20 DIAGNOSIS — structure perfect, INPUTS slipped 3×:** discounted by 1.05 instead of r=1.12 · put D2 on top of the perpetuity instead of D3 · grew D3 at 5% (1.05³) instead of the new 10%. **He named the two-stage structure unaided and got every date right.** ⇒ the pre-flight must check INPUTS (which rate grows, which discounts, which CF is first), not structure.
+📌 **Rule that landed and unified Q19+Q20: a growing perpetuity lands ONE PERIOD BEFORE its numerator's date, and its numerator is the FIRST cash flow of the stream.**
+~~7 of 9 done~~ Every one landed correct, several after one correction. This was the only untouched block on disk (Q1–Q18 + Q29/Q30 already done).
 
 **Answers (from `FN201-26F-BBA-STQ04-TVM-S1-30-V8RR-250917.xlsx`):** Q19 **44** · Q20 **50.15625** vs price 55 → overpriced, don't buy · Q21 **dies at age 90** (n=30) · Q22 **597,531.85** · Q23 **10 yrs** (n=9.3345, round UP) · Q24 **72,070.00** · Q25 **1,377,076.75** · Q26 **26** (n=25.63) · Q27 **114,699.21** vs price 115,000 → overpriced, don't buy, wealth −300.79.
 
