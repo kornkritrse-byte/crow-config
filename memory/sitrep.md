@@ -26,6 +26,9 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
+- 🚪 **AWAY — SLEEPING (Tue 22 Sep, ~22:2x).** His words: *"ok axioms in the morning ill wake up early see you."* ⇒ **he plans an EARLY WAKE for a pre-exam block.**
+- ▶️ **`ASK ON RETURN` (morning of Wed 23): go straight into LN2 AXIOMS — no warm-up, no "what matters today."** He accepted Crow's read that Axioms is the 12-point blind spot (zero evidence since early Sep, STQ02 Q26 never closed) and chose it over LN3. **Material: STQ02 `~/Desktop/fn/FN201-26F-BBA-STQ02-ABF-Q1-30&S1-20-P1-of-2-V06-260819.pdf` + the Part 2/2 xlsx.** Theory/statement questions only — ⛔ no new calculations, exam is 09:00.
+- 🌅 **MORNING ATTEMPT #3 — and the first one driven by a deadline rather than by the morning-person goal.** Log whether it HAPPENS → [[project-morning-person]].
 - 🌙 **DAY CLOSED 22:1x Tue 22 Sep on his own ask** (*"whats the wrap up tho"*) after a hard 22:30 stop he set himself at 16:4x and kept. Quote fired — see [[artis-quotes-log]].
 - ⏰ **FN201 MIDTERM 09:00–11:30 WED 23 SEP.** 2.5 hrs · 26 MC + 2 PS · 70 pts. **He wants the morning for theory questions only** (LN3 "which statement is most correct" shapes + the LN5 markets half) — his words: *"we can run theory question bullshit tmr mornign."* ⛔ Nothing new, no calculations.
 - 🎯 **THE TWO FIXES HE LEAVES WITH:** (1) **debt ratio = debt ÷ TOTAL ASSETS, not ÷ equity** — he missed it twice in one hour (STQ03 Q2 and Q8). (2) **first answer stands unless he can name what is wrong with it.**
