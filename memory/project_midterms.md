@@ -1129,3 +1129,13 @@ Built because **all 30 STQ04 questions are now done** — re-running them gives 
 - **(c)** FV of the 300,000 = 300,000 × 1.015²⁰ (factor **1.34685501**) = **404,056.50** ⇒ shortfall = 900,000 − 404,056.50 = **495,943.50**; FVIFA(1.5%,20) = **23.12366710** ⇒ **PMT = 21,447.44**
 - **(d)** loan = 4,500,000 − 900,000 = **3,600,000**; i/m = 0.6%/month, n = 240; PVIFA = **127.00843213** ⇒ **installment = 28,344.57**
 - **(e)** after 120 payments, 120 remain ⇒ remaining principal = 28,344.57 × PVIFA(0.6%,120) = **2,419,679.12** (and interest in payment 121 = **14,518.07**)
+
+### 🧪 "THE GRANDMOTHER'S FUND" — Crow-built DELAYED-cash-flow drill (22 Sep ~20:50)
+Built on **his own named gap**: *"still not that good with delayed annuity and all that... can you make up one on those lump sum annuity and growing annuity questions."* Good instinct — **delayed types are exactly where his off-by-one family lives** (4 of tonight's 10 TVM slips).
+**Setup:** fund opens today, **8% p.a. compounded annually**, single lump sum deposited today. It must fund two streams: (i) **THB 200,000 per year for 4 years, first payment at the END of year 5** (t=5…t=8); (ii) **THB 150,000 at t=10 growing 4% per year, 6 payments** (t=10…t=15). Fund is exactly exhausted after the last payment.
+⛔ **MODEL ANSWERS (do not show him):**
+- **(a)** PVIFA(8%,4) = **3.31212684** ⇒ value **at t=4** = 200,000 × 3.31212684 = **662,425.37** ⇒ ÷1.08⁴ ⇒ **PV₀ = 486,902.42**
+- **(b)** GA factor = [1 − (1.04/1.08)⁶]/(0.08−0.04) = **5.06585966** ⇒ value **at t=9** = 150,000 × 5.06585966 = **759,878.95** ⇒ ÷1.08⁹ ⇒ **PV₀ = 380,128.66**
+- **(c)** lump sum today = **867,031.08**
+- *(spare part if needed: the last growing payment, t=15 = 150,000 × 1.04⁵ = **182,497.94**)*
+🔑 **The whole drill is one rule twice: an annuity/growing-annuity formula lands ONE PERIOD BEFORE its first cash flow** — t=4 for a stream starting t=5, t=9 for a stream starting t=10. Then discount that landing date back to 0.
