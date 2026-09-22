@@ -26,6 +26,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
+- 🟢 **HERE — 07:20 Tue 22 Sep, 1h40 out from the AC313 paper (09:00–12:00).** Running the 15-min `#j-pick` entry drill ONLY, per last night's prescription. ⛔ No new material.
 - 🌙 **DAY CLOSED (Mon 21 Sep, ~22:25) — off to: the AC313 entry-picker chart for 15 min, then sleep.** His own words opening the last block: *"before i go to sleep lets do one cost assignment..."* ⏰ **AC313 MIDTERM 09:00 TUE 22 SEP, 3 hours, 47 MCQ, no formula sheet.**
 - 📋 **TOMORROW MORNING, THE ONLY AC313 INSTRUCTION: 15 min at breakfast on §`#j-pick` "Picking the entry under fire" in *From Raw to Sold*.** ⛔ NOTHING ELSE — process costing, POHR and joint costing are all closed; re-running them is comfort work.
 - ▶️ **`ASK ON RETURN:` (1) how the AC313 paper went. (2) Did he pull STQ05 off MS Teams — it EXISTS (LN5 front matter lists it) and was never downloaded; it is the only drill material for LN5.**
