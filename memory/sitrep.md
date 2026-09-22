@@ -26,7 +26,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟢 **HERE — 07:20 Tue 22 Sep, 1h40 out from the AC313 paper (09:00–12:00).** Running the 15-min `#j-pick` entry drill ONLY, per last night's prescription. ⛔ No new material.
+- 🟢 **HERE — 12:33 Tue 22 Sep, straight out of the AC313 paper. His words: "fn bag work".** ⇒ FN201 reps, TVM-dominant, exam tomorrow 09:00–11:30. Running **STQ04 Q19–Q27 — the only untouched block on disk** (Q1–Q18 + Q29/Q30 all done). Answers pulled from `FN201-26F-BBA-STQ04-TVM-S1-30-V8RR-250917.xlsx`: Q19 44 · Q20 50.15625 vs 55 → overpriced, don't buy · Q21 dies at **90** · Q22 597,531.85 · Q23 **10 yrs** (n=9.33, round UP) · Q24 72,070.00 · Q25 1,377,076.75 · Q26 **25–26 yrs** (n=25.63) · Q27 114,699.21 vs 115,000 → overpriced, don't buy. ⛔ STQ05 still NOT on disk.
 - 🌙 **DAY CLOSED (Mon 21 Sep, ~22:25) — off to: the AC313 entry-picker chart for 15 min, then sleep.** His own words opening the last block: *"before i go to sleep lets do one cost assignment..."* ⏰ **AC313 MIDTERM 09:00 TUE 22 SEP, 3 hours, 47 MCQ, no formula sheet.**
 - 📋 **TOMORROW MORNING, THE ONLY AC313 INSTRUCTION: 15 min at breakfast on §`#j-pick` "Picking the entry under fire" in *From Raw to Sold*.** ⛔ NOTHING ELSE — process costing, POHR and joint costing are all closed; re-running them is comfort work.
 - ▶️ **`ASK ON RETURN:` (1) how the AC313 paper went. (2) Did he pull STQ05 off MS Teams — it EXISTS (LN5 front matter lists it) and was never downloaded; it is the only drill material for LN5.**
