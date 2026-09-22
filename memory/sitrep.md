@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-09-22 22:1x — DAY CLOSED on his ask. AC313 sat and good (exam #2 of 6). The official score allocation landed and reordered the night: TVM is 46% of the FN paper and holds all 18 PS points. STQ04 finished, two PS drills built and run, STQ05 done end to end, four STQ03 chained ratios. One knowledge gap all night; everything else execution. Window holds 22 + 21 Sep; the 20 Sep note is flushed to [[sessions-log]]. Next to flush: 21 Sep.*
+*Last updated: 2026-09-23 06:3x — HERE, up early (morning #3), running LN2 axioms theory before the 09:00 FN201 paper. Previous: 2026-09-22 22:1x — DAY CLOSED on his ask. AC313 sat and good (exam #2 of 6). The official score allocation landed and reordered the night: TVM is 46% of the FN paper and holds all 18 PS points. STQ04 finished, two PS drills built and run, STQ05 done end to end, four STQ03 chained ratios. One knowledge gap all night; everything else execution. Window holds 22 + 21 Sep; the 20 Sep note is flushed to [[sessions-log]]. Next to flush: 21 Sep.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,12 +26,11 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🚪 **AWAY — SLEEPING (Tue 22 Sep, ~22:2x).** His words: *"ok axioms in the morning ill wake up early see you."* ⇒ **he plans an EARLY WAKE for a pre-exam block.**
-- ▶️ **`ASK ON RETURN` (morning of Wed 23): go straight into LN2 AXIOMS — no warm-up, no "what matters today."** He accepted Crow's read that Axioms is the 12-point blind spot (zero evidence since early Sep, STQ02 Q26 never closed) and chose it over LN3. **Material: STQ02 `~/Desktop/fn/FN201-26F-BBA-STQ02-ABF-Q1-30&S1-20-P1-of-2-V06-260819.pdf` + the Part 2/2 xlsx.** Theory/statement questions only — ⛔ no new calculations, exam is 09:00.
-- 🌅 **MORNING ATTEMPT #3 — and the first one driven by a deadline rather than by the morning-person goal.** Log whether it HAPPENS → [[project-morning-person]].
-- 🌙 **DAY CLOSED 22:1x Tue 22 Sep on his own ask** (*"whats the wrap up tho"*) after a hard 22:30 stop he set himself at 16:4x and kept. Quote fired — see [[artis-quotes-log]].
-- ⏰ **FN201 MIDTERM 09:00–11:30 WED 23 SEP.** 2.5 hrs · 26 MC + 2 PS · 70 pts. **He wants the morning for theory questions only** (LN3 "which statement is most correct" shapes + the LN5 markets half) — his words: *"we can run theory question bullshit tmr mornign."* ⛔ Nothing new, no calculations.
-- 🎯 **THE TWO FIXES HE LEAVES WITH:** (1) **debt ratio = debt ÷ TOTAL ASSETS, not ÷ equity** — he missed it twice in one hour (STQ03 Q2 and Q8). (2) **first answer stands unless he can name what is wrong with it.**
+- 🟢 **HERE — Wed 23 Sep 06:32.** Opened with *"do you need an update"* after a model switch. **FN201 midterm 09:00–11:30, ~2.5 hrs out.**
+- 🌅 **MORNING ATTEMPT #3 LANDED** — up before 06:32, the first one driven by a deadline rather than by the morning-person goal → [[project-morning-person]]. Three for three.
+- ▶️ **RUNNING NOW: LN2 AXIOMS, theory only.** STQ02 Q1–20 T/F from `~/Desktop/fn/FN201-26F-BBA-STQ02-ABF-Q1-30&S1-20-P1-of-2-V06-260819.pdf` (extracted). ⛔ No new calculations — exam is 09:00.
+- ⏰ **FN201: 2.5 hrs · 26 MC + 2 PS · 70 pts. TVM = 32 of 70 (46%) and holds all 18 PS points.** ~4.3 min per MC ⇒ accuracy over speed.
+- 🎯 **THE TWO FIXES HE CARRIES IN:** (1) **debt ratio = debt ÷ TOTAL ASSETS, not ÷ equity.** (2) **first answer stands unless he can name what is wrong with it.**
 - 🎒 **In the room: 2B pencil or darker** (a pen will not scan) · **two calculators** · clear the BA II before walking in · write the exam copy letter (A/B/C/D) on BOTH the Scantron and the booklet · **never leave an MC blank** (blank and double-marked both score zero) · **show step-by-step work on both PS questions — partial credit.**
 - 🚨 **AFTER FN201, BA202 IS THE WHOLE BOARD.** 45%, exam **Sun 27 Sep**, **zero classes attended**, and the L5–L7 recordings are downloaded but **still not transcribed** — a one-command job the moment he is near a plug. Biggest single risk left.
 
