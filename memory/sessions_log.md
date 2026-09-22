@@ -338,3 +338,13 @@ metadata:
 - ✅ **WA confirmed retained** — his "i still dont think i know how to do wac" was wrong; the ONE-UNIT question fixes the CC stall on WA as well as FIFO. **His wobble was FIFO crowding, not a gap.**
 - 🎯 **MK201 opened 18 Sep on his own initiative.** Scope/format nailed (Ch 1,3,5,7,8 · 2-hr paper · ~60 scenario MCQs, distractors are neighbouring labels). **Artifact built: "Kotler by Sight"** + six SVG figures. ⚠️ Crow named the tool-hunt as shopping 47 hrs out; verdict was **install nothing** (new skills don't load until the next session).
 - 📌 He ATTENDS MK lectures but does not listen ⇒ passive exposure helps on a recognition test but **sets the familiarity trap** ⇒ drill-first, read only where he fails.
+
+## Session — 2026-09-20 (flushed from SITREP 22 Sep) — MK201 sat · FN201 securities closed from zero
+- **MK201 DONE, exam #1 of 6, "felt really good."**
+- **The night's find, his words: "i can do the calculations but rn im kinda lost... id be lost on which steps to take first." The gap was SEQUENCING, not math** — fixed with the 5-step valuation pre-flight ([[project-midterms]]).
+- **Securities closed from literal zero:** Q14 1,106.22 · Q15 828.41 · Q16 549.69 solo · Q17 50 · Q18 12.2768. All 8 past-midterm questions in STQ04 done.
+- **LN3 ratio taxonomy found to be a hole** — cold sort 1 of 3, then 4 of 5 after teaching. Rule that worked: the family is set by what is on TOP.
+- **Adjacent-grab fired 4× in one session**; the paper plants digit collisions. **Self-calibration reads low when he is solid (2nd instance).**
+- Not reached: LN5 §8.4, LN1/LN2 rapid fire, LN3 DuPont.
+
+*(Full text survives in git history.)*
