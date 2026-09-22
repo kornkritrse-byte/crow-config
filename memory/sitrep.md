@@ -26,8 +26,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🚪 **AWAY (Tue 22 Sep, ~14:0x) — off to: heading home.** His words: *"save all the stuff im going home now and we can keep working then"* ⇒ **he is coming back today, this is NOT a day-end.** No quote, no wrap-up.
-- ▶️ **`ASK ON RETURN:` (1) how the AC313 paper went — asked at 12:33, never answered. (2) Did he pull STQ05 off MS Teams — still NOT in `~/Desktop/fn/`, checked 12:35. (3) Resume FN bag work at STQ04 **Q19**, then Q20.**
+- 🟢 **HERE — back 16:33 Tue 22 Sep** ("lets keep working bud"). FN201 midterm is **09:00–11:30 TOMORROW, Wed 23 Sep** — this is the last FN night.
+- ▶️ **OPEN ON RETURN:** (1) AC313 paper result — asked twice, still never answered. (2) **STQ05 still NOT in `~/Desktop/fn/`, re-checked 16:33** — MS Teams pull. (3) Stop-time for tonight not yet named.
 - 🥊 **FN BAG WORK, 12:33–14:0x — STQ04 Q21–Q27, 7 for 7.** His words on arrival: *"fn bag work"*. All four of his misses were **BA II Plus entry slips, zero conceptual**: stale I/Y=6 carried into Q21 · FV sign opposite PMT on Q25 · pot keyed into FV not PV on Q21 · age-20 read as t=20. Full findings + the five-register frame + the BGN/END rules are in [[project-midterms]].
 - ⏰ **FN201 MIDTERM 09:00–11:30 WED 23 SEP.** TVM-dominant per the past class. Remaining work = **Q19, Q20, then speed**. ⛔ Don't let LN3 eat the TVM budget.
 - 📊 **JOB-COSTING COLD SET RESULT (20 Qs, 15:50–17:15): 11/20 clean on first attempt.** Computation Q1–Q8 **6/8** (solid; misses = applied-vs-actual, and the over/under COGS direction). **Journal entries Q9–Q15: 3/7 — THE WEAK BLOCK.** Inverted Dr/Cr three times · grabbed the CLOSING entry when asked for the APPLYING entry (adjacent grab, same as FN 20 Sep) · credited Materials instead of WIP on job completion. Spoilage/rework Q16–Q20 **3/5**, both misses on the fork itself — **one of them with the picker chart already on screen.**
