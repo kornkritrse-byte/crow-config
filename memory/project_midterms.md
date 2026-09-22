@@ -1092,3 +1092,10 @@ Shared table: r* 2.00% · avg future inflation 1.50% · MRP ≤1 month 0.00% · 
 - **Q29 ΔDRP(AA− vs AA+) = r_Y − r_X = 8.25 − 6.50 = 1.75%** — X and Y differ ONLY by rating, so the yield gap IS the DRP gap
 - **Q30 implied LP = r_Z − r_Y = 10.50 − 8.25 = 2.25%** — Y and Z differ ONLY by listing (Y is OTC-listed, Z is not), so the yield gap IS the liquidity premium
 🔑 **The design: Q26–28 BUILD UP from the components; Q29–30 DIFFERENCE OUT a missing component by pairing two instruments that differ in exactly one way.** That pairing trick is the examinable idea.
+
+### 🔴 FN201 SCOPE CUT — CONFIRMED BY THE LECTURER (22 Sep 19:4x)
+**The capital-formation Ω diagram (LN5 §IV–§V — U ↔ Ω ↔ S, financial institutions) is NOT on the midterm.** Source: **the lecturer's own words**, corroborated by friends who heard the same. ⇒ **STQ05 Q15–Q19 skipped** (5 of the set's 30 questions).
+⚠️ **BUT the CONCEPT underneath it is still live and still weak:** direct vs semi-direct vs indirect transfer, and what makes something a financial intermediary, appeared with no diagram at all in **STQ05 Q9 — which he got wrong.** Drill it as prose, not as the figure.
+
+### ⚠️ PRONOUN CORRECTION — the FN201 lecturer (Obrom) is **HE**, not "she"
+Korn's own words, 22 Sep: *"his words and also friends who have heard from others."* **Every earlier note in these memory files that calls the FN201 lecturer "her"/"she" is wrong** — that includes the LN3 ratio-taxonomy notes ("her five families"), the STQ answer-key notes, and the exam-format notes. AC313's Ajarn Monvika and AC311's Ajarn Pailin are separate people; this correction is FN201 only.
