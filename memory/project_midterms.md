@@ -1015,3 +1015,41 @@ Source: `~/Desktop/AC313/BBA-AC313 Midterm Review.pdf` (3 pp) + `~/Desktop/AC313
 3. **Credited Materials on job completion** instead of WIP — two steps back on the chain.
 4. **Missed the spoilage fork with the chart on screen** — reached for Materials when the answer was MOH. ⇒ **The chart is not self-executing; he needs the fork questions asked aloud.**
 📌 Her account names, which are what her MCQ options will use: **Materials · WIP · MOH · MOH Applied · FG · COGS · Wages Payable.** He wrote "Inventory (raw mats)", "Job 101" and "Inventory" — none of those are options. **Job 101 is the subsidiary line; WIP is the control account that appears in the entry.**
+
+## 🧮 FN201 STQ04 Q21–Q27 — BAG WORK, 22 Sep 2026 (straight out of the AC313 paper)
+**7 of 9 done: Q21 ✅ · Q22 ✅ · Q23 ✅ · Q24 ✅ · Q25 ✅ · Q26 ✅ · Q27 ✅. ▶️ RESUME AT Q19, then Q20.** Every one landed correct, several after one correction. This was the only untouched block on disk (Q1–Q18 + Q29/Q30 already done).
+
+**Answers (from `FN201-26F-BBA-STQ04-TVM-S1-30-V8RR-250917.xlsx`):** Q19 **44** · Q20 **50.15625** vs price 55 → overpriced, don't buy · Q21 **dies at age 90** (n=30) · Q22 **597,531.85** · Q23 **10 yrs** (n=9.3345, round UP) · Q24 **72,070.00** · Q25 **1,377,076.75** · Q26 **26** (n=25.63) · Q27 **114,699.21** vs price 115,000 → overpriced, don't buy, wealth −300.79.
+
+### 🔑 THE FRAME THAT VISIBLY REDUCED HIS LOAD — reuse it
+His own question: *"what did i change between this one and the last one, i feel like i did the same shit."* ⇒ **Every TVM question is the SAME FIVE REGISTERS: N · I/Y · PV · PMT · FV. Four are given, one is blank — the blank one is what you CPT.** He is not learning nine methods; he is filling four slots nine times. Same shape as the "one formula, terms switch on/off" win on LN5 and joint costing.
+
+### 🧮 BA II PLUS — OPERATIONAL FACTS HE DID NOT HAVE (he owns one, had never used the TVM keys)
+- **In END mode the BA II Plus shows NOTHING.** No indicator at all. `BGN` only appears at the top of the display when you are in BGN. ⇒ **no BGN showing = you are in END.** This is exactly how he sat in END on Q23 without noticing.
+- Keystrokes: `2ND PMT` → reads END/BGN · `2ND ENTER` → toggles · `2ND CPT` → quit. **`2ND FV` = CLR TVM.**
+- 🔑 **THE MODE IS ALREADY ON HIS PAPER — it is line 2 of the pre-flight.** `first = 0` → **BGN** · `first = 1` → **END**. He never decides it separately, he reads it off `first`. Landed well.
+- 🔑 **BGN/END is measured from the DATE YOU ARE VALUING AT, not from today.** Q21: standing at t=40, the first withdrawal is zero periods away ⇒ BGN. He had no rule for this before.
+- 📌 **The by-hand two-piece method is the BACKUP, not the route.** He gets the factor tables in the exam but they are slower — PMT and FV registers do an annuity + a lump sum in one pass. He asked for this explicitly: *"keep it ba2 plus, fuck the interest spreadsheet."*
+
+### ⚠️ HIS FOUR ERRORS, 22 Sep — ALL MACHINE-ENTRY, ZERO CONCEPTUAL
+1. 🚨 **STALE `I/Y` — carried 6% from Q22 into Q21 and got BOTH factors wrong** (used 1.06^40=10.2857 and FVIFA(6%,40)=154.762 instead of 4.8010 and 95.0255). ⇒ **`2ND FV` BEFORE EVERY SINGLE QUESTION.** A stale register returns a clean, confident, completely wrong number and nothing on the paper flags it. He had skipped CLR TVM three times before it bit.
+2. **FV entered with the OPPOSITE SIGN to PMT** (Q25) → 1,348,400.00 instead of 1,377,076.75, i.e. the machine *subtracted* the 45,000 residual. 📌 **Rule: PMT and FV carry the SAME sign when both are money leaving the account.**
+3. **Put the pot into FV instead of PV** (Q21) → exactly 13.40 instead of 30. 📌 **PV = money sitting there at the START of the stream · FV = money that shows up at the END.**
+4. **AGE ≠ TIMELINE POSITION.** He said *"all this is at t20 right"* — conflating his age (20) with t. **Today is ALWAYS t=0.** Map it explicitly: t=0 = age 20 · t=40 = age 60 · death = 60 + n.
+- ⚠️ **Vocabulary slip resurfaced: said "each month" twice for annual flows** (Q21). Same defect as saying "years" for six-month periods on 8 Sep — this is how 1.04^40 becomes 1.04^480.
+
+### ✅ BOUND CHECKS THAT WORKED COLD (keep using this exact move)
+- Q21: *"899,185 ÷ 50,000 ≈ 18 — that's zero-interest. It earns 4%. Can the answer be below 18?"* ⇒ he killed 13.40 instantly, unaided.
+- Q22: *"what date is 563,709.30 standing on?"* ⇒ he found the missing gap-walk himself.
+
+### 📐 ROUNDING DIRECTION — HE PRODUCED THE RULE HIMSELF, CORRECTLY
+*"cuz here they need enough money, 9 years isnt enough."* ⇒ **Saving toward a target → round UP. Drawing down a pot → round DOWN. Never to nearest.** Reconciles Q23 (9.33 → 10) with Q12's 7.99997 → 7.
+
+### 🪤 TWO QUESTION-LEVEL TRAPS FOUND IN HER OWN MATERIAL
+- **Q23 gives a FALSE PASS in END mode.** The FV she hands you (1,754,873.51) is *exactly* `100,000 × FVIFA(12%,10)`, so END returns a clean **10.0** — right answer, wrong route. Deposits start **today** ⇒ BGN ⇒ n = 9.3345 → 10. Her sheet is marked "Revised" twice and hedges *"or 9–10 years"*. **He hit this and needed it named.**
+- **Q26 has a typo.** `6,000 × FVIFA(4%,26)` = **265,870.47**; the question prints **259,870.47**. Intended answer is a clean **26**. 📌 **Solve-for-n should land on or near an integer — a genuinely messy result means a misread slot or her slip. Answer by the rounding rule and move on, don't stare at it.**
+
+### 🔴 THE BEHAVIOURAL FINDING — HE SLIDES OFF THE VERDICT SENTENCE
+On Q27 he had the correct number for **six messages** and asked **five consecutive mechanics questions** rather than write the why-sentence (*"how tf do i compute intrinsic value"* — after computing it). **6th instance of comparison-without-consequence.**
+- 🔑 **THE 3-SLOT SKELETON GOT IT OUT OF HIM — reuse verbatim:** (1) the comparison → over/underpriced · (2) **the required rate, named** · (3) **the consequence to HIS WEALTH, with a number** (not to the asset). He produced all three once the slots were on screen.
+- 🔑 **"Intrinsic value IS a present value — there is no separate formula."** He did not have this; he computed the PV and then asked how to compute intrinsic value. Also needed: **the market price stands at t=0 too** — he asked *"price was fv??"*. The comparison is legal because both numbers are dated today; that is what all the discounting was FOR.
