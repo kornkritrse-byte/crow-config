@@ -26,7 +26,12 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟢 **HERE — back 16:33 Tue 22 Sep** ("lets keep working bud"). FN201 midterm is **09:00–11:30 TOMORROW, Wed 23 Sep** — this is the last FN night.
+- 🚪 **AWAY (Tue 22 Sep, ~18:15) — off to: eating.** His words: *"ok ill be back real quick"*, Crow sent him. ⇒ **coming back tonight, NOT a day-end. No quote, no wrap-up.**
+- ▶️ **`ASK ON RETURN:` nothing outstanding — resume straight at STQ05** (concept block rapid-fire, then the Q26–30 shared data block). Then LN3 chained ratios → TVM speed reps → LN1/LN2 skim. **Hard stop 22:30.**
+- ✅ **Q28 CLOSED ~18:15** — all six parts. (a) 800,000.05 · (b) 771,328.87 · (c) 573.42 · (d) 8.2432% · (e) 36,000.00 · (f) 16,000.00 flat. **Add-on interest learned from literal zero in ~5 min** — he said "nah i dont know it", then ran it.
+- 🩺 **THE NIGHT'S DIAGNOSIS, given to him at his own prompt ("that was quite the rocky ride wasnt it"): ONE knowledge gap all night (add-on interest, closed). EVERYTHING else was EXECUTION** — BGN left on · compounded the loan forward ignoring 39 payments · charged interest on principal REPAID not principal OWED · t=39 read as t=40 · D2 for D3 · discounted at g · ÷4 for ÷40 · three passes at one division. **He built the two-stage structure unaided and got every date in it right.**
+- 🧰 **THE PRE-FLIGHT IS NOW FOUR CHECKS (use on every FN question tomorrow): (1) 2nd CLR TVM + check BGN · (2) which rate GROWS, which DISCOUNTS · (3) what date am I standing on vs the cash flow's date · (4) what QUANTITY is she asking for.** Checks 1 and 3 are new tonight.
+- 📌 **Also landed: the TVM worksheet is the WRONG TOOL on add-on-interest and APR/simple-rate questions** — those are flat arithmetic, no compounding. "Reaching for the complicated tool is itself an error mode."
 - ✅ **AC313 PAPER ANSWERED 16:3x: "the test was good actually."** Exam #2 of 6 down, no post-test concerns raised. ⛔ Don't re-ask; don't reopen AC313.
 - ✅ **STQ05 LANDED 16:37** — he pulled it. `FN201-26F-BBA-STQ05-FE&M-Q1-30&S1-25-V4-260909.pdf` (Q1–30 + solutions 1–25) + `...S26-30-P2-of-2-V4-260909.xlsx`. **30 Qs: ~24 conceptual MCQ (markets, cost-of-money determinants, premia), computational = Q11, Q25, Q26–30** — the exact §8.4 material he built from zero 21 Sep. Text extracted to scratchpad `stq05.md`.
 - ▶️ **STILL OPEN: stop-time for tonight not yet named.** He sits FN201 at 09:00.
