@@ -1054,3 +1054,27 @@ His own question: *"what did i change between this one and the last one, i feel 
 On Q27 he had the correct number for **six messages** and asked **five consecutive mechanics questions** rather than write the why-sentence (*"how tf do i compute intrinsic value"* — after computing it). **6th instance of comparison-without-consequence.**
 - 🔑 **THE 3-SLOT SKELETON GOT IT OUT OF HIM — reuse verbatim:** (1) the comparison → over/underpriced · (2) **the required rate, named** · (3) **the consequence to HIS WEALTH, with a number** (not to the asset). He produced all three once the slots were on screen.
 - 🔑 **"Intrinsic value IS a present value — there is no separate formula."** He did not have this; he computed the PV and then asked how to compute intrinsic value. Also needed: **the market price stands at t=0 too** — he asked *"price was fv??"*. The comparison is legal because both numbers are dated today; that is what all the discounting was FOR.
+
+## 🗺️ FN201 MIDTERM — FULL TOPIC MAP (built 22 Sep 16:4x, read straight off the five decks)
+**Scope = LN1–LN5. Paper = 35% of course: 25% selected-response + 10% constructed ⇒ ~70% MCQ. Closed book BUT formula sheet + interest-factor tables provided.**
+
+| Deck | Topic | Syllabus hrs (lec/active) |
+|---|---|---|
+| LN1 | An Overview of Business Finance | 1 / 2 |
+| LN2 | The Axioms of Business Finance *(mostly self-study)* | 1 / 7 |
+| LN3 | Analysis of Financial Reports *(full self-study)* | 0 / 28 |
+| LN4 | The Time Value of Money | 13 / 19 |
+| LN5 | Financial Environments and Markets | 4 / 4 |
+
+**LN1** — (I) Intro · (II) Business finance = financing (financial structure) vs investments (asset structure) · (III) Determinants of a corporation's intrinsic value · (IV) The primary goal + its appropriate indicators, and the **types of value: par · book (BV(CE)=BV(A)−BV(L)−BV(PS) = CS+APIC+RE−TS) · market value vs market price · (D) MVA®** · (V) Value and wealth creation · (VI) Contributions of business finance · (VII) Emerging trends.
+⛔ **(F) Liquidation value and (G) Replacement cost are marked "covered in other finance classes (FN312)" — out of scope.**
+
+**LN2** — Ten axioms: (I) Risk–return trade-off · (II) Different types of risk · (III) **TVM** · (IV) **Cash flows** (the FCF block: NOPAT, Dep, ΔNOWC, ΔNonCA; the three listed gotchas = two inconsistent tax figures, credit-sales/credit-purchase adjustments, what ΔNOWC/ΔNonCA mean) · (V) Incremental cash flows · (VI) Taxes · (VII) Curse of competitive markets · (VIII) Efficient financial markets · (IX) Agency problems · (X) Business ethics.
+
+**LN3** — (II) Determinants of intrinsic value · (III) **The analysis itself: common-sized statements (definition, examples, usefulness, limitations) · growth analysis · financial ratios — (B) the five-family classification (a) liquidity (b) activity/asset management (c) leverage/debt management (d) profitability (e) valuation · (C) calculations, interpretations and relationships · (D) DuPont + extended DuPont** · (IV) Limitations of financial statement analysis · (V) Appendix: tools for liquidity management.
+⛔ Not examinable (his own words on tape): fixed charge coverage, LT-debt-to-capitalization, after-tax "modified" BEP, forward P/E, 5-component DuPont. OC/CC = project only, not exam.
+
+**LN4** — (I) Intro · (II) Compounding vs non-compounding (+ the 3 pre-flight questions: what cash-flow type / regular-due-delayed / what frequency) · **the 13 named cash-flow types: FV(S), FV(DS), FV(RA), FV(AD), FV(DA); PV(RA), PV(AD), PV(DA); PV(RP), PV(PD), PV(DP); PV(RGP), PV(GPD), PV(DGP); PV(RGA), PV(GAD), PV(DGA)** · the over/fair/under-priced decision rule · (IV) Compounding with other frequencies (m) · (V) **Rate types: periodic · simple/SAR/APR · quoted · effective/EAR** · (VI) Additional applications — **amortized loans** (regular vs short-cut, prepayment) · (VII) when the compounding interval ≠ the cash-flow interval.
+
+**LN5** — (I) Definition of financial markets · (II) Classifications · (III) Components · (IV) **The capital formation process** (direct / semi-direct / indirect — process + participants) · (V) Financial institutions in Thailand · (VI) Major roles of financial markets · (VII) Thai financial market structure · (VIII) **The cost of funds: (8.2) the four fundamental determinants — production opportunities, time preferences for consumption, inflation, risk · (8.3) economic conditions & policies · (8.4) `r = r* + IP + DRP + LP + MRP` · (8.5) worked examples** · money-market instruments.
+⛔ **(IX) The Term Structure of Interest Rates is marked "Optional" in her own deck.**
