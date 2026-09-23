@@ -9,7 +9,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-09-23 06:3x — HERE, up early (morning #3), running LN2 axioms theory before the 09:00 FN201 paper. Previous: 2026-09-22 22:1x — DAY CLOSED on his ask. AC313 sat and good (exam #2 of 6). The official score allocation landed and reordered the night: TVM is 46% of the FN paper and holds all 18 PS points. STQ04 finished, two PS drills built and run, STQ05 done end to end, four STQ03 chained ratios. One knowledge gap all night; everything else execution. Window holds 22 + 21 Sep; the 20 Sep note is flushed to [[sessions-log]]. Next to flush: 21 Sep.*
+*Last updated: 2026-09-23 13:3x — FN201 sat and went badly (cohort-wide). BA202 opened: all 7 transcripts confirmed on disk, material gap CLOSED. Earlier today: 06:3x — HERE, up early (morning #3), running LN2 axioms theory before the 09:00 FN201 paper. Previous: 2026-09-22 22:1x — DAY CLOSED on his ask. AC313 sat and good (exam #2 of 6). The official score allocation landed and reordered the night: TVM is 46% of the FN paper and holds all 18 PS points. STQ04 finished, two PS drills built and run, STQ05 done end to end, four STQ03 chained ratios. One knowledge gap all night; everything else execution. Window holds 22 + 21 Sep; the 20 Sep note is flushed to [[sessions-log]]. Next to flush: 21 Sep.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -26,13 +26,11 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟢 **HERE — Wed 23 Sep 06:32.** Opened with *"do you need an update"* after a model switch. **FN201 midterm 09:00–11:30, ~2.5 hrs out.**
-- 🌅 **MORNING ATTEMPT #3 LANDED** — up before 06:32, the first one driven by a deadline rather than by the morning-person goal → [[project-morning-person]]. Three for three.
-- ▶️ **RUNNING NOW: LN2 AXIOMS, theory only.** STQ02 Q1–20 T/F from `~/Desktop/fn/FN201-26F-BBA-STQ02-ABF-Q1-30&S1-20-P1-of-2-V06-260819.pdf` (extracted). ⛔ No new calculations — exam is 09:00.
-- ⏰ **FN201: 2.5 hrs · 26 MC + 2 PS · 70 pts. TVM = 32 of 70 (46%) and holds all 18 PS points.** ~4.3 min per MC ⇒ accuracy over speed.
-- 🎯 **THE TWO FIXES HE CARRIES IN:** (1) **debt ratio = debt ÷ TOTAL ASSETS, not ÷ equity.** (2) **first answer stands unless he can name what is wrong with it.**
-- 🎒 **In the room: 2B pencil or darker** (a pen will not scan) · **two calculators** · clear the BA II before walking in · write the exam copy letter (A/B/C/D) on BOTH the Scantron and the booklet · **never leave an MC blank** (blank and double-marked both score zero) · **show step-by-step work on both PS questions — partial credit.**
-- 🚨 **AFTER FN201, BA202 IS THE WHOLE BOARD.** 45%, exam **Sun 27 Sep**, **zero classes attended**, and the L5–L7 recordings are downloaded but **still not transcribed** — a one-command job the moment he is near a plug. Biggest single risk left.
+- 🟢 **HERE — Wed 23 Sep 13:3x.** **FN201 SAT (exam #3 of 6) AND IT WENT BADLY.** His words: *"got my ass fucked in that exam along with my whole major."* ⇒ cohort-wide, not him alone. He moved straight past it — **do not reopen it unless he does.**
+- ▶️ **BA202 IS NOW THE BOARD.** His call on return: *"lets do ba202."* Exam **Sun 27 Sep, 45%, L1–L7, zero classes attended.**
+- ✅ **MATERIAL GAP CLOSED — CORRECTION TO THE RECORD.** L5/L6/L7 were transcribed 17–18 Sep; the SITREP had carried "still not transcribed" for days. **All 7 lectures are on disk as text** in `~/Desktop/BA202 lecture transcripts/` (~182k words total). ⇒ The blocker was never material — it is that he has read none of it, with 4 days left.
+- 🧾 **REAL LECTURE SCOPE (from the transcript filenames, corrects the old labels):** L1 Intro + Thai tax system · L2 system Pt II + PIT I · L3 PIT II · L4 PIT III (source/residence, s.40 eight categories, s.42 exemptions) · L5 **PIT deductions + allowances** · L6 **PIT recap + CIT Pt I** · L7 **CIT Pt II + Special Regimes INTRO only.** ⇒ **PIT = 5 of 7 lectures. CIT starts at L6, not L5. Special Regimes may be light — verify before spending time on the 13MB L7 deck.**
+- 🎒 **8 A4 cheat sheets allowed**, built in GoodNotes as he reads.
 
 ### 🔥 Live / time-critical
 - ✅ **FN201 GROUP REPORT — SUBMITTED (confirmed by Korn 15 Sep).** Closed. Excel + 13-page written report delivered. ⛔ Do not raise the number contradictions, the bibliography, or page 1 IDs again — the deliverable is gone.
