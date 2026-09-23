@@ -26,6 +26,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
+- 🟢 **HERE — Wed 23 Sep 22:5x.** **Read the BA202 doc up to L7, and all of it is on his GoodNotes cheat sheet.** Now wants to REMAKE the sheet: doesn't like the look, and wants Nano Banana (Gemini) images for the tables/diagrams. Crow wrote 12 prompts → `~/Desktop/BA202/nano-banana-prompts.md`. ⚠️ Objection on record: image models garble digits, so every number has to be checked against the doc. AC311 (Sat, no sheet) still has nothing scheduled.
 - 🟢 **HERE — Wed 23 Sep ~14:5x.** **FN201 SAT AND IT WENT BADLY** (*"got my ass fucked in that exam along with my whole major"*) ⇒ cohort-wide. He moved straight past it — **do not reopen unless he does.**
 - ▶️ **BA202 IS THE BOARD.** Exam **Sun 27 Sep, 45%, L1–L7, zero classes attended.** His instruction: *"add the whole thing into the doc and ill learn through it, if i have any questions ill come to ask you."* ⇒ **he studies from the artifact; Crow's job is the doc, not drilling him — until he asks.**
 - 🏆 **THE ARTIFACT IS REBUILT L1→L7** — *The Missed Lectures* https://claude.ai/code/artifact/2c6630bc-54d1-40a5-b47e-74f69c703483 (details → [[reference-artifacts]]).
