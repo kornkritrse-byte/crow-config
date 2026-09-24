@@ -1,5 +1,6 @@
 ---
 name: feedback-artis-quote
+aliases: ["feedback-artis-quote"]
 description: "Every session end, Artis gives a quote from classic literature tied to the themes of that day"
 metadata: 
   node_type: memory

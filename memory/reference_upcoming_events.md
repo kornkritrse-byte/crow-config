@@ -1,5 +1,6 @@
 ---
 name: reference-upcoming-events
+aliases: ["reference-upcoming-events"]
 description: Dated event list that feeds the session-start banner (closest upcoming event + camp countdown). NOT live calendar data — update this file whenever calendar events are created/changed in-session.
 metadata: 
   node_type: memory

@@ -1,5 +1,6 @@
 ---
 name: coldesthoops-videos
+aliases: ["coldesthoops-videos"]
 description: Running log of all coldesthoops YouTube Shorts topics already published — check this before suggesting new topics
 metadata: 
   node_type: memory

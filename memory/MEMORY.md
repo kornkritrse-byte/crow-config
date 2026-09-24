@@ -10,6 +10,7 @@
 ## 🟢 Active — other
 - [Morning Person](project_morning_person.md) — his own call 13 Sep 2026: actively trying to become one and "make use of the time in my days"; first attempt Mon 14 Sep (gym before class). ⚠️ Collides with the midnight–1am study pattern — track whether mornings HAPPEN, not whether he still wants them
 - [Training Plan](project_training_plan.md) — ⚠️ goal changed 23 Aug to LEANER ONLY (climber shaping dropped, weight work now full-body retention); 4 days/wk = 2 gym (1hr weights + 1hr cardio) + 2 runs; run structure pending his running stats; 5k-in-20:00 is the horizon goal
+- [Obsidian](reference_obsidian.md) — installed 24 Sep; opens this memory folder as a vault (graph view); new memory files need an `aliases` line
 - [Google Docs MCP](project_google_docs_mcp.md) — working on the Mac via bin/gdocs-launcher.cjs; credentials at ~/.google/ (outside git)
 - [rclone Drive Upload](project_rclone_drive.md) — remote `gdrive` on the Windows laptop; the working path for any local→Drive file transfer
 - [Lecture Transcription Pipeline](reference_lecture_transcription.md) — turn 3-hr lecture recordings into notes: whisper-cli + ffmpeg on the Mac, Drive download via ~/.google creds; `-l auto` (his lectures are EN/TH mixed), check battery first

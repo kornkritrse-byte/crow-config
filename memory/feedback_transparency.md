@@ -1,5 +1,6 @@
 ---
 name: feedback-transparency
+aliases: ["feedback-transparency"]
 description: "Korn explicitly wants to be called out when something he says sounds off or is going off course — blatantly, not gently"
 metadata: 
   node_type: memory

@@ -1,5 +1,6 @@
 ---
 name: crew-artis
+aliases: ["crew-artis"]
 description: "What Artis knows about Korn — his creative life, what moves him, the art he's building toward"
 metadata: 
   node_type: memory

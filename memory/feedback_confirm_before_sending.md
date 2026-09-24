@@ -1,5 +1,6 @@
 ---
 name: feedback_confirm_before_sending
+aliases: ["feedback_confirm_before_sending", "feedback-confirm-before-sending"]
 description: "Always confirm before sending calendar invites, emails, or any notification that goes to other people"
 metadata: 
   node_type: memory

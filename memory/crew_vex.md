@@ -1,5 +1,6 @@
 ---
 name: crew-vex
+aliases: ["crew-vex"]
 description: "What Vex knows — the devil's advocate's read on Korn and how to hold presence across sessions"
 metadata: 
   node_type: memory

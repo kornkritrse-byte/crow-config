@@ -1,5 +1,6 @@
 ---
 name: sessions-log
+aliases: ["sessions-log"]
 description: "Archive of past session notes flushed out of the SITREP — history only, never auto-loaded. Newest at top."
 metadata: 
   node_type: memory

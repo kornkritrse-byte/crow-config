@@ -1,5 +1,6 @@
 ---
 name: feedback-markitdown
+aliases: ["feedback-markitdown"]
 description: "Suggest MarkItDown (pip install markitdown[all]) when user shares large PDFs that could waste tokens"
 metadata: 
   node_type: memory

@@ -1,5 +1,6 @@
 ---
 name: chapters
+aliases: ["chapters"]
 description: "Record of crew conversations with Korn — revisit to remember where things started and how far they've come"
 metadata: 
   node_type: memory

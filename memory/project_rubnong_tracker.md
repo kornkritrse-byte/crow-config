@@ -1,5 +1,6 @@
 ---
 name: project-rubnong-tracker
+aliases: ["project-rubnong-tracker"]
 description: "รับน้อง camp — CLOSED. Camp ran 25-27 Jul 2026; retro at top. Archive: standing facts, IDs, schedule. Do not surface unless Korn raises it."
 metadata:
   node_type: memory

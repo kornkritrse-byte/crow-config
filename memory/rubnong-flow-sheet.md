@@ -1,5 +1,6 @@
 ---
 name: rubnong-flow-sheet
+aliases: ["rubnong-flow-sheet"]
 description: The live รับน้อง 34x35 run-of-show Google Sheet + the editing gotchas that bite every session
 metadata: 
   node_type: memory

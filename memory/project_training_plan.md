@@ -1,5 +1,6 @@
 ---
 name: project-training-plan
+aliases: ["project-training-plan"]
 description: "Korn's training plan — leaner-only since 2026-08-23; 4 days/wk; run structure SET 27 Aug off a real 25:30 5k TT"
 metadata:
   node_type: memory

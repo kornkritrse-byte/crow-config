@@ -1,5 +1,6 @@
 ---
 name: user-project-approach
+aliases: ["user-project-approach"]
 description: "How he approaches projects — efficiency-first, iterative, not emotionally attached to everything he starts"
 metadata: 
   node_type: memory

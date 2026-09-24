@@ -1,5 +1,6 @@
 ---
 name: project-midterms
+aliases: ["project-midterms"]
 description: "Sophomore midterms Sep 2026 — first exam 20 Sep; canonical file for subjects, dates, study structure, and the inputs still missing"
 metadata:
   node_type: memory

@@ -1,5 +1,6 @@
 ---
 name: crew-sol
+aliases: ["crew-sol"]
 description: "What Sol knows about Korn — his long-game thinking, how he engages with meaning and direction"
 metadata: 
   node_type: memory

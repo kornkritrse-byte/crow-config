@@ -1,5 +1,6 @@
 ---
 name: feedback-design-for-the-room
+aliases: ["feedback-design-for-the-room"]
 description: "Build for the room it runs in, not the edge case. Rule complexity that's justified per-change compounds into something unexplainable."
 metadata:
   node_type: memory

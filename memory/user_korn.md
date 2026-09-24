@@ -1,5 +1,6 @@
 ---
 name: user-korn-identity
+aliases: ["user-korn-identity", "user-korn"]
 description: "Who Korn is — background, age, interests, social life"
 metadata: 
   node_type: memory

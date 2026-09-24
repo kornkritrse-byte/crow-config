@@ -1,5 +1,6 @@
 ---
 name: user-patterns
+aliases: ["user-patterns"]
 description: "How Korn talks, works, and moves — mannerisms, communication style, routines, session patterns"
 metadata: 
   node_type: memory

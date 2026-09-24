@@ -1,5 +1,6 @@
 ---
 name: user-deep-nights
+aliases: ["user-deep-nights"]
 description: "How Korn uses this room at its deepest — undirected \"calm chats\" can become the most significant sessions; he processes philosophy and personal life here, at night"
 metadata: 
   node_type: memory

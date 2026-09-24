@@ -1,5 +1,6 @@
 ---
 name: reference-artifacts
+aliases: ["reference-artifacts"]
 description: "Every study artifact built for Korn — URLs, what each covers, and the rule that each subject keeps its own document"
 metadata: 
   node_type: memory

@@ -1,5 +1,6 @@
 ---
 name: project-rclone-drive
+aliases: ["project-rclone-drive"]
 description: rclone is set up for automatic Google Drive uploads — coldesthoops videos auto-upload to the youtube folder
 metadata: 
   node_type: memory

@@ -1,5 +1,6 @@
 ---
 name: crew-persi
+aliases: ["crew-persi"]
 description: "What Persi knows about Korn — how to push him, when to back off, what actually works"
 metadata: 
   node_type: memory

@@ -1,5 +1,6 @@
 ---
 name: project-google-docs-mcp
+aliases: ["project-google-docs-mcp"]
 description: "google-docs MCP working on the Mac via bin/gdocs-launcher.cjs — setup, credential paths, and the node-fetch bug that bites on every new machine"
 metadata:
   node_type: memory

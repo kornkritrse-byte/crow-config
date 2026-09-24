@@ -1,5 +1,6 @@
 ---
 name: user-reading-list
+aliases: ["user-reading-list"]
 description: "Books Korn has read, what stuck, and what they reveal about how he thinks"
 metadata: 
   node_type: memory

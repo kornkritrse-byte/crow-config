@@ -1,5 +1,6 @@
 ---
 name: sitrep
+aliases: ["sitrep"]
 description: Current situation report — auto-loaded every session. Rolling window: current state + the last TWO sessions only.
 metadata:
   node_type: memory

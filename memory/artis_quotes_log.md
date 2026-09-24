@@ -1,5 +1,6 @@
 ---
 name: artis-quotes-log
+aliases: ["artis-quotes-log"]
 description: "Nightly quotes from Artis — classic literature, tied to the day's themes"
 metadata: 
   node_type: memory

@@ -1,5 +1,6 @@
 ---
 name: reference-calendars
+aliases: ["reference-calendars"]
 description: Korn's Google Calendar IDs — which calendar each kind of event goes into; always create with notificationLevel NONE unless told otherwise
 metadata:
   node_type: memory

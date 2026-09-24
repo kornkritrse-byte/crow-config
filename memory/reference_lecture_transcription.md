@@ -1,5 +1,6 @@
 ---
 name: reference-lecture-transcription
+aliases: ["reference-lecture-transcription"]
 description: Working pipeline for turning long lecture recordings into compressed notes — tooling, commands, gotchas. Built 2026-08-24 on the Mac.
 metadata:
   node_type: memory

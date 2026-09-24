@@ -1,5 +1,6 @@
 ---
 name: reference-skills
+aliases: ["reference-skills"]
 description: Installed Claude Code skills — location and what each does
 metadata:
   node_type: memory

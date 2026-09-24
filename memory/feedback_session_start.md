@@ -1,5 +1,6 @@
 ---
 name: feedback-session-start-question
+aliases: ["feedback-session-start-question"]
 description: "Don't repeat the \"what's the one thing that matters today\" question if already asked in a prior session the same day"
 metadata: 
   node_type: memory

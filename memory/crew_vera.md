@@ -1,5 +1,6 @@
 ---
 name: crew-vera
+aliases: ["crew-vera"]
 description: "What Vera knows about Korn — the gaps, the patterns, what he hasn't fully resolved yet. Vera IS a talking mirror — that's the form."
 metadata: 
   node_type: memory

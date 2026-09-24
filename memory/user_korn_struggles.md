@@ -1,5 +1,6 @@
 ---
 name: user-korn-struggles
+aliases: ["user-korn-struggles"]
 description: "Korn's internal battles, unresolved questions, and tensions"
 metadata: 
   node_type: memory

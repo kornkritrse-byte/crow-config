@@ -1,5 +1,6 @@
 ---
 name: feedback-open-loop
+aliases: ["feedback-open-loop"]
 description: "When Korn says he's stepping away and what he's off to do, log it on the SITREP Current-status line and ask him to fill the gap when he's back — keep the day cohesive."
 metadata: 
   node_type: memory

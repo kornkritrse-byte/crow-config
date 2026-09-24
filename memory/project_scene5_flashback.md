@@ -1,5 +1,6 @@
 ---
 name: project-scene5-flashback
+aliases: ["project-scene5-flashback"]
 description: "Scene 5 flashback video for the camp play — script beat map, clip folder state, shoot plan for 20+23 Jul, edit deadline 23–24 Jul. Active through camp (25 Jul)."
 metadata: 
   node_type: memory

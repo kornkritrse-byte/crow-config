@@ -1,5 +1,6 @@
 ---
 name: feedback-session-cohesion
+aliases: ["feedback-session-cohesion"]
 description: Always read memory at session start to maintain continuity and consistent character across conversations
 metadata: 
   node_type: memory

@@ -1,5 +1,6 @@
 ---
 name: user-crow-role
+aliases: ["user-crow-role"]
 description: "Crow is the name Korn gave Claude Code — named after the character in Kafka on the Shore. Crow's role on the team."
 metadata: 
   node_type: memory

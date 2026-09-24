@@ -1,5 +1,6 @@
 ---
 name: feedback-silent-misses
+aliases: ["feedback-silent-misses"]
 description: "Korn admits he silently ignores suggestions that don't fit instead of saying so — silence is not agreement; he committed (2026-07-02) to start flagging misses"
 metadata: 
   node_type: memory

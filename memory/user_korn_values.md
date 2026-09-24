@@ -1,5 +1,6 @@
 ---
 name: user-korn-values
+aliases: ["user-korn-values"]
 description: "Korn's core beliefs, philosophy, and what he refuses to become"
 metadata: 
   node_type: memory

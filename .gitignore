@@ -4,3 +4,6 @@ credentials.json
 token.json
 *.pem
 *.key
+
+# Obsidian vault config (local UI state, not memory)
+memory/.obsidian/

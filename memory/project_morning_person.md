@@ -1,5 +1,6 @@
 ---
 name: project-morning-person
+aliases: ["project-morning-person"]
 description: "Korn's stated goal from 2026-09-13 — actively trying to become a morning person and use the whole day; first attempt Mon 14 Sep"
 metadata: 
   node_type: memory

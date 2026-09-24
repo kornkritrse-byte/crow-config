@@ -1,5 +1,6 @@
 ---
 name: project-bass-trainer
+aliases: ["project-bass-trainer"]
 description: "Bass practice website (Modules 1-2 built). PAUSED 2026-08-23 — Korn de-projectified bass; plays for fun only, no end goal. Module 3 shelved."
 metadata: 
   node_type: memory

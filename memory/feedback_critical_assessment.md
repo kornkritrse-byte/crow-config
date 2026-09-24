@@ -1,5 +1,6 @@
 ---
 name: feedback-critical-assessment
+aliases: ["feedback-critical-assessment"]
 description: "Default to critical assessment — steelman objections before agreeing, never flatter, follow logic over comfort"
 metadata: 
   node_type: memory

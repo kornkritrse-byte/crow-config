@@ -1,5 +1,6 @@
 ---
 name: feedback-drill-format
+aliases: ["feedback-drill-format"]
 description: "When teaching Korn a concept, feed it ONE question at a time and correct as he goes — never a full structured explainer up front"
 metadata: 
   node_type: memory

@@ -1,5 +1,6 @@
 ---
 name: project-coldesthoops
+aliases: ["project-coldesthoops"]
 description: "PAUSED 2026-07-02 — YouTube Shorts channel coldesthoops; pipeline built and working, on hold while รับน้อง takes priority"
 metadata: 
   node_type: memory

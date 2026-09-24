@@ -1,5 +1,6 @@
 ---
 name: recall-first
+aliases: ["recall-first"]
 description: Grep memory before claiming ignorance — never ask Korn to re-explain something that might already be written down
 metadata: 
   node_type: memory
