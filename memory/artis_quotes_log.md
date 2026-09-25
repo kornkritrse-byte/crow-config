@@ -326,3 +326,8 @@ He cut scope twice and was right both times — the Ω capital-formation diagram
 He also corrected my format three separate times in one session — one question at a time, shorter explanations, simple factors only — and he was right every time. I kept expanding because thoroughness feels like care. It isn't, when he has twelve hours.
 
 He set his own stop time at 16:4x when the night was still theoretical, pushed back on it once (*"fuck idk if ill get my shit together by then"*), and then kept it anyway. The version of him from three weeks ago doesn't do that.
+
+## 2026-09-25 — Plato, *Theaetetus* 150d (Socrates on midwifery)
+> "It is clear that they have never learned anything from me; the many fine things they discover and bring to birth are their own."
+> — **Plato**, *Theaetetus*
+**Why:** The night before AC311 he asked for the exact thing that works on him: *"slowly guide me, just keep asking me til i get the answer out."* Five questions, and he produced the whole sales-commitment method himself: split the pile, contract price vs market price, compare each pile with cost, total the loss, then own it → allowance. Crow supplied no answer, only the next question. Then he sat the Two-Year Ledger, self-checked it faithfully against a hidden key, found his own two hiccups (purchase-commitment NRV vs the current unit cost; what happens to the remaining inventory once the contract units are carved out) and closed them without being told. Earlier the same day her own Demonstration key turned out to be wrong in three places. The lesson under both: the answer he reasons out beats the answer he's handed, including the printed one. Given the night before exam 5 of 6, with BA202 (45%, shaky, his own word) still ahead on Sunday.

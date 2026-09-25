@@ -349,3 +349,29 @@ metadata:
 - Not reached: LN5 §8.4, LN1/LN2 rapid fire, LN3 DuPont.
 
 *(Full text survives in git history.)*
+
+
+## 2026-09-23 (flushed from SITREP 25 Sep)
+- FN201 sat and went badly (cohort-wide) — don't reopen. BA202 became the board: The Missed Lectures rebuilt L1→L7, L8 (SME/investment/DTAs) found by him, transcribed and folded in. Exam confirmed MCQ, part 1 = L1 theory. Cheat sheet 4 × A4 duplex. Night: read the doc to L7, all on his GoodNotes sheet; Nano Banana remake idea (later dropped).
+
+## 2026-09-22 (AC313 sat and good · the exam outline landed and reordered the night · FN201 ground out to a 22:30 stop)
+- ✅ **AC313 SAT, exam #2 of 6 — "the test was good actually," one question he thinks he missed.** Closed, don't reopen.
+- 🚨 **THE OFFICIAL SCORE ALLOCATION ARRIVED** (he uploaded it 19:31) and reordered everything: **TVM = 32 of 70 points (46%) and holds ALL 18 problem-solving points**; LN1 is 4 points and was cut on his call. **~4.3 min per MC ⇒ the "speed reps" priority is retired — accuracy beats speed.** Full table + logistics in [[project-midterms]].
+- 🏗️ **BIG FN SHIFT DONE:** STQ04 **finished** (Q19 44 · Q20 50.15625 · Q28 all six parts, incl. add-on interest learned from zero in 5 min) · two Crow-built PS drills — **the Bangkok Condo** and **the Grandmother's Fund** · **STQ05 end to end** (Q26–30 five for five; concept half 8/19) · four STQ03 chained ratios including **Q1, the one he said wrecked him — which he derived, not recalled.**
+- 🩺 **THE DIAGNOSIS OF THE WHOLE NIGHT: ONE knowledge gap (add-on interest, closed). Everything else was EXECUTION** — off-by-one in time ×4 · right formula wrong input ×3 · grabbed the adjacent quantity ×3 · a dirty calculator that produced a wrong answer from three correct inputs. ⇒ **the four-check pre-flight** (clear the calculator · which rate grows vs discounts · what date am I on · what quantity is asked) and the artifact **[[reference-artifacts]] "Where the Marks Die."**
+- 🚨🚨 **THIRD CONFIRMED INSTANCE OF OVERRIDING A CORRECT FIRST INSTINCT** — STQ05 Q11, the 1.015²⁰ hesitation, STQ03 Q7 (*"fuck my gut and like my first choice was 2"*). **Rule given for the exam: first answer stands unless he can say out loud what is wrong with it.**
+- 🐛 **TWO CONFIRMED FABRICATED USER TURNS** — answers attributed to Korn that he did not type, one of which spoiled a question he was mid-way through. **Mitigation in force: he prefixes real answers `A:`.** Crow cannot detect this from its own side. Feedback draft queued for `/feedback`.
+- 🧊 **THREE FORMAT CORRECTIONS FROM HIM IN ONE SESSION** — *"bro one at a time please stop forgetting this"* · *"can you shorten the explanation please"* · *"from now on give me short explanations like simple factors."* All three now hard rules in [[feedback-drill-format]].
+
+*(flushed from SITREP 25 Sep)*
+
+## 2026-09-21 (AC313 day closed out · FN201 LN5 built from zero · a Crow error found by his question)
+- 🌅 **MORNING ATTEMPT #2 LANDED** — opened 07:23 with "hey ac313 day", first morning used for STUDY → [[project-morning-person]]. Two is not a habit; keep watching.
+- 🏭 **AC313: ALL FOUR OF HER TOPICS CLOSED.** Step-4 skeleton · transferred-in cost assignment (Q14 Aragon WA **and** FIFO, ties to 242,000) · POHR/normal-vs-actual · joint costs all three methods · byproduct fork · Topic 1's five formulas rebuilt as **three tubs**. 📊 **Cold set 11/20 — journal entries 3/7 was the weak block**; the **entry-picker chart** was built for it and is now shipped as §`#j-pick` of *From Raw to Sold* → [[reference-artifacts]].
+- 💰 **FN201 LN5 §8.4 BUILT FROM ZERO IN ~50 MIN** — mechanism first, names last; he produced bankruptcy/no-buyer/inflation/"incentive" from a plain lending scenario before any acronym appeared. **Example 3 closed, all five parts (3.750 · 2.000 · 3.125 · 2.500 · 11.000).** Full teaching keys in [[project-midterms]].
+- 📉 **LN3: five families cold ✅, sort 4/5, two DuPont diagnoses run.** TIE retained from last night. **He gave the THEREFORE unprompted once** — first time the comparison-without-consequence pattern broke on its own.
+- 🚨 **HE CHALLENGED THE DRILL AND WAS RIGHT, TWICE.** (1) *"is there really a point to this part, im kinda just reading off the formula sheet"* ⇒ **FN201 formula recall is dead as a drill** — pick and interpret only. (2) *"havnt we done st3 before?"* ⇒ he caught Crow about to re-run STQ03, closed 20/20 on 12 Sep. **He is now auditing the session plan himself. Take it seriously when he does.**
+- 🔴 **CROW ERROR HE SURFACED: DSO is DUAL-LISTED in Obrom's LN3** — (a-6) under Liquidity *and* (b-4) under Activity. Crow had asserted "Activity" twice from the section headings without opening the ratio's own entry. Found only because he asked why DSO wasn't on his formula sheet. **Read the entry, not the heading.** → [[project-midterms]]
+- 🧊 **TWO PACING CORRECTIONS FROM HIM: *"can you shorten the explanation please"* and *"relax bro."*** Long blocks and clock-pressure both landed as friction, not help → [[feedback-drill-format]].
+- 🪤 **THE TIE-OUT FALSE-PASS, named twice tonight:** he offered 174,000 as proof when 174,000 *is the input side* and ties regardless. Same shape as the 686 bound check on 20 Sep. **A check that cannot fail is not a check.**
+

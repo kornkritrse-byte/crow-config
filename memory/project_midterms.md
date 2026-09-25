@@ -1153,3 +1153,15 @@ Scope was widened mid-session on HIS catch: Crow had scoped to Part I only; a fu
 - Photo verified 25 Sep: SOCI order = Beg Inv · Purchases · less Purchase Discount · add Transportation In · Net Purchases · COGAS · less Ending Inv · **add Loss from Decline in Inventory Value · less Recovery of Loss from Decline in Inventory Value** · COGS · Gross Profit · S&A · **Loss on Purchase Commitment · Loss on Sales Commitment** · Net Operating Income. ⚠️ SOCI says "Loss **on**" but the solution entries say "Loss **from** Purchase Commitment" / "Provision from Purchase Commitment" — her own naming isn't consistent.
 - 25 Sep cold recall of SOCI: sign of Recovery wrong (added it), skipped Sales/GP + S&A lines, beg inv written twice. Order of commitment losses + NOI ending were right.
 - ✅ **CORRECTION 25 Sep (Korn):** Ajarn Pailin said in class 1 that account names **don't have to be exact, they just have to make sense.** ⇒ Stop drilling exact wording (supersedes the 14 Sep "use her exact names, she marks them" note above). What still matters: the right account TYPE — Provision (liability) vs Allowance (contra-asset) vs Loss (expense) — and signs/directions.
+
+### 🧾 BA202 durable facts (pushed from SITREP 25 Sep)
+- **MCQ, 3 hrs; part 1 = L1 theory** (theory/policy/principle, "why tax matters to business"), her own words in L1.
+- **Real scope (class ran ~1 lecture behind the outline):** L1 intro/system · L2 system II + PIT I · L3 PIT II · L4 PIT III · L5 PIT deductions + allowances · L6 PIT recap + CIT Pt I · L7 CIT Pt II + special regimes intro. ⇒ **PIT dominates. Petroleum income tax was never taught.** Special regimes are light and live in video 8.
+- **L8** = `8.BA202-Taxation-AdditionalVDOClip-SpecialIncomeTaxRegime.mp4` (Drive id `1ULbhsLncw_r1_S5ly3EGQmrIPcI28Bme`, 427MB, found by Korn): SME (RD 564, 0/15/20%) · petroleum laws · 4 investment laws (BOI/IEAT/EEC/Competitiveness Act) · DTAs (exemption vs credit). In The Missed Lectures.
+- Must carry on the sheet: s.42, the CIT exemption list, s.40 categories + deduction rates, and the WHT rate table (assume NOT supplied).
+
+### 🧾 AC311 — 25 Sep practice-pack session (durable)
+- **Her Demonstration Problem key has 3 errors:** (1) Y1 EI at invoice $14.50 with freight not loaded, while Y2 loads it ($13 = 1,690 ÷ 130); (2) the Y2 LCNRV table swaps the units (4 on the contract, 2 general); (3) the SOFP puts Provision 15 under 20Y1 when it belongs under 20Y2. **Her note: Method 1 (close the allowance to COGS, beginning inventory at net) is the one for Midterm I.**
+- Unit-cost rule: with multiple batches, load (Transport-in − Discount) ÷ units purchased onto the leftover batch's invoice price. Net purchases ÷ units only works with a single batch.
+- **The Two-Year Ledger** (Crow-built practice paper, same structure as the demo) — he sat it 25 Sep and it all checked out → [[reference-artifacts]].
+- Teaching that worked: **Socratic questioning at his request** (one question per turn until he produces the answer), and it built the whole sales-commitment method → [[feedback-drill-format]].
