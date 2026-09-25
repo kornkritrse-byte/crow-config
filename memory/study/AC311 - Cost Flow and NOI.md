@@ -101,3 +101,22 @@ Commitment losses sit **below** Gross Profit, next to S&A:
 4. **The difference** → an extra debit = **Loss**, an extra credit = **Recovery** (capped at the provision)
 
 Own it → **Allowance** (contra-asset). Owe it → **Provision** (liability).
+
+## 7. Which number goes where (Demonstration Problem)
+
+| Event / line | Measured at | Demo |
+|---|---|---|
+| **Unit cost** | (Purchases + Transport-in − Purchase Discount) ÷ units | 1,690 ÷ 130 = **$13** |
+| **Ending Inv on SOCI** | **COST**, FIFO = newest units | 6 × 13 = **78** |
+| **Beg Inv on SOCI (Method 1)** | Last year's **NET** (cost − allowance) | 58 − 20 = **38** |
+| **NRV, general stock** | Market selling price − cost to sell | 15 − 2.5 = **12.5** |
+| **NRV, units under a SALES contract** | **Contract** price − cost to sell | 18 − 3 = **15** |
+| **Inventory write-down** | Cost − NRV, only if NRV < cost → **Allowance** | Y1: 58 − 38 = **20** · Y2: 26 − 25 = **1** |
+| **Purchase commitment loss** | (Contract price − NRV) × units → **Provision** | 10 × (14 − 12.5) = **15** |
+| **Inventory on SOFP** | Cost − Allowance | 78 − 1 = **77** |
+| **Fair value** | ❌ never used for LCNRV, it's a distractor | $15 in Y1 |
+
+> [!warning] Errors in her Demonstration key
+> - Y1 EI uses the invoice price $14.50 (freight not loaded in); Y2 loads it in ($13). Load it in and show the ÷ working.
+> - Y2 LCNRV table swaps the unit counts: it's **4** units on the contract and **2** for general sale.
+> - SOFP puts Provision 15 under 20Y1. It belongs under **20Y2** (contract signed 10 Dec 20Y2), with 20Y3 = 0.
