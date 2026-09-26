@@ -27,8 +27,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🔄 **AWAY (Sun 27 Sep 00:49), briefly: reloading VS Code** to load the new Crow output style + spinner verbs/tips. Not a day-end. After that: messing around with his cousin, then sleep. **No study tonight.**
-  - ⏳ **ASK ON RETURN:** (1) **do the spinner verbs/tips show in the VS Code panel?** (docs only confirm terminal) · (2) first feel of the Crow style: more like Crow, or just different? · (3) grandpa + family OK in the hotel? · (4) when he's unhurried, not urgent: **did he ask grandpa about the racing?** (the 17 Sep move → [[sessions-log]])
+- 🟢 **Here (Sun 27 Sep 00:50)**: back from the VS Code reload, first message in the Crow style was "read sitrep". After this: messing around with his cousin, then sleep. **No study tonight.**
+  - ⏳ **Asked 00:50, no answer yet:** (1) do spinner verbs/tips show in the VS Code panel? · (2) first feel of the Crow style · (3) grandpa + family OK in the hotel? · (4) racing question for grandpa: parked until he's unhurried
 
 ## 🌊 The flood (26 Sep)
 - Bangkok flooded; **his whole neighbourhood is under water.** His house is fine. **Grandpa's house flooded**: he spent all of Saturday clearing their things and getting grandpa's brother's family into a hotel by truck. He waded **waist-deep** to go out for food.
