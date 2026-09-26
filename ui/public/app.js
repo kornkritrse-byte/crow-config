@@ -304,6 +304,7 @@ function handle(ev, live = true) {
     }
     case 'rewind_preview':
     case 'rewound':
+      if (ev.type === 'rewound') stream.querySelector(`.rewind-card[data-uuid="${ev.uuid}"]:not(.done)`)?.remove();
       add(rewindCard(ev));
       break;
     case 'result':
@@ -368,6 +369,7 @@ function permissionCard(ev, live) {
 
 function rewindCard(ev) {
   const el = div('permission rewind-card');
+  el.dataset.uuid = ev.uuid;
   if (!ev.canRewind) {
     el.append(div('ask', ev.error ? `Can’t rewind: ${ev.error}` : 'Nothing to rewind: no files changed after that message.'));
     return el;
@@ -519,7 +521,7 @@ function paintMode(value) {
   }
   document.body.classList.toggle('planning', value === 'plan');
   input.placeholder = value === 'plan'
-    ? 'Plan first: Crow maps it out and waits for your go before changing anything'
+    ? 'Plan first: nothing changes until you approve'
     : 'Talk to Crow. Type / for commands, @ for files';
 }
 for (const b of document.querySelectorAll('.segmented button')) {
@@ -545,7 +547,7 @@ function paintPending() {
   box.hidden = !pending.length;
   box.innerHTML = '';
   pending.forEach((f, i) => {
-    const chip = div('pending');
+    const chip = div('attached');
     if (f.url) chip.append(Object.assign(document.createElement('img'), { src: f.url, alt: '' }));
     chip.append(div('name', f.name));
     chip.append(button('×', 'remove', () => { pending.splice(i, 1); paintPending(); }));

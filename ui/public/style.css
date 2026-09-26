@@ -398,7 +398,15 @@ button { font: inherit; cursor: pointer; }
 .todos li.completed::before { border-color: var(--artis); background: var(--artis); }
 
 /* ---------------------------------------------------------------- composer additions */
-.composer .field { position: relative; }
+.composer {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 10px;
+  position: relative;
+}
+.composer .field { display: contents; }
+.composer .attachments { grid-column: 1 / -1; grid-row: 1; }
+.composer .box { grid-column: 1; grid-row: 2; }
+.composer > button { grid-column: 2; grid-row: 2; align-self: end; }
+.composer .hint { grid-column: 1 / -1; grid-row: 3; }
 .composer .box {
   display: flex; align-items: flex-end;
   background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
@@ -411,17 +419,17 @@ button { font: inherit; cursor: pointer; }
 }
 .composer .attach:hover { color: var(--paper); background: none; }
 .attachments { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; }
-.pending {
+.attached {
   display: flex; align-items: center; gap: 8px;
   background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 4px 4px 4px 6px;
   font-size: 12.5px; max-width: 240px;
 }
-.pending img { width: 32px; height: 32px; object-fit: cover; border-radius: 5px; }
-.pending .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.composer .pending .remove {
+.attached img { width: 32px; height: 32px; object-fit: cover; border-radius: 5px; }
+.attached .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.composer .attached .remove {
   background: none; color: var(--faint); padding: 2px 8px; font-size: 16px; font-weight: 400; border-radius: 6px;
 }
-.composer .pending .remove:hover { color: var(--paper); background: var(--raised); }
+.composer .attached .remove:hover { color: var(--paper); background: var(--raised); }
 .talk.dropping .composer .box { border-color: var(--maroon-ink); border-style: dashed; }
 
 .popup {

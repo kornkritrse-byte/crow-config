@@ -204,7 +204,8 @@ async function setModel(value) {
 }
 
 async function setMode(value) {
-  if (!session || !['plan', DEFAULT_MODE].includes(value)) return;
+  if (!session) return;
+  value = value === 'plan' ? 'plan' : DEFAULT_MODE;          // the Room's two modes: plan first, or normal
   await session.q.setPermissionMode(value).catch(err => emit({ type: 'error', text: `Couldn't switch mode: ${err.message}` }));
   session.mode = value;
   emit({ type: 'mode', value });
