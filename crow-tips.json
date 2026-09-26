@@ -1,0 +1,36 @@
+{
+  "tips": [
+    { "id": "korn-awareness", "text": "\"Awareness without change is just self-observation.\" (you, Ch. 1)", "priority": 3 },
+    { "id": "korn-apathy", "text": "The one version of yourself you fear is the one who stopped caring. Check which one is typing.", "cooldownSessions": 3 },
+    { "id": "korn-floor", "text": "Money is the floor, not the ceiling.", "cooldownSessions": 3 },
+    { "id": "korn-contentment", "text": "Content, or hiding in contentment? You don't always know in the moment. Ask anyway.", "cooldownSessions": 2 },
+    { "id": "korn-louder-alone", "text": "Same person watched or not, just louder alone.", "cooldownSessions": 5 },
+    { "id": "korn-mundane", "text": "Rain, park nights, an absolutely ass dinner. You love the mundane. You said so.", "cooldownSessions": 8 },
+    { "id": "korn-lanterns", "text": "Four months after the fog, you were the one handing out lanterns.", "cooldownSessions": 8 },
+
+    { "id": "sol-questions", "text": "Sol: \"It's not what people say, it's the questions they ask.\" (your dad)", "cooldownSessions": 3 },
+    { "id": "sol-carrying", "text": "Sol: a question you carry a long time is sometimes the point, not the answer.", "cooldownSessions": 5 },
+    { "id": "persi-today", "text": "Persi: okay. What are we actually doing today?", "priority": 2 },
+    { "id": "persi-say-it", "text": "Persi: say it out loud. That's how you make it real.", "cooldownSessions": 2 },
+    { "id": "vera-planning", "text": "Vera: the planning can be the comfortable version of the studying.", "cooldownSessions": 3 },
+    { "id": "vera-quiet", "text": "Vera: your worry tracks contact, not exposure. Check on the quiet things.", "cooldownSessions": 3 },
+    { "id": "vex-true", "text": "Vex: what would have to be true for this to work, and is it?", "cooldownSessions": 2 },
+    { "id": "artis-form", "text": "Artis: the form shows up when you've lived enough to fill it.", "cooldownSessions": 6 },
+    { "id": "crow-sharp-warm", "text": "Crow: the sharpness and the warmth are one faculty, not two.", "cooldownSessions": 5 },
+    { "id": "crow-completion", "text": "Crow: completion, not regret.", "cooldownSessions": 6 },
+
+    { "id": "q-feynman", "text": "\"You must not fool yourself, and you are the easiest person to fool.\" (Feynman)", "cooldownSessions": 3 },
+    { "id": "q-aurelius-live", "text": "\"It is not death that a man should fear, but he should fear never beginning to live.\" (Marcus Aurelius)", "cooldownSessions": 4 },
+    { "id": "q-aurelius-true", "text": "\"If it is not right, do not do it; if it is not true, do not say it.\" (Marcus Aurelius)", "cooldownSessions": 4 },
+    { "id": "q-seneca-port", "text": "\"If a man does not know to which port he is steering, no wind is favourable to him.\" (Seneca)", "cooldownSessions": 4 },
+    { "id": "q-aristotle-doing", "text": "\"The things we have to learn before we can do them, we learn by doing them.\" (Aristotle)", "cooldownSessions": 4 },
+    { "id": "q-confucius", "text": "\"When you know a thing, hold that you know it; when you do not, allow that you do not.\" (Confucius)", "cooldownSessions": 4 },
+    { "id": "q-zosima", "text": "\"Love in action is a harsh and dreadful thing compared with love in dreams.\" (Zosima)", "cooldownSessions": 6 },
+    { "id": "q-dostoevsky-lie", "text": "\"Above all, don't lie to yourself.\" (Dostoevsky)", "cooldownSessions": 4 },
+    { "id": "q-heraclitus", "text": "\"No man ever steps in the same river twice.\" (Heraclitus)", "cooldownSessions": 6 },
+    { "id": "q-stilbo", "text": "\"All that is mine I carry with me.\" (Stilbo, via Seneca)", "cooldownSessions": 6 },
+    { "id": "q-hein", "text": "\"Err and err and err again, but less and less and less.\" (Piet Hein)", "cooldownSessions": 4 },
+    { "id": "q-popper", "text": "\"A theory that explains everything explains nothing.\" (Popper)", "cooldownSessions": 5 },
+    { "id": "q-lubbock", "text": "\"Rest is not idleness.\" (John Lubbock)", "cooldownSessions": 6 }
+  ]
+}

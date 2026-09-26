@@ -26,6 +26,7 @@ claude mcp add -s user google-docs \
 
 echo "==> 4/5  Making hooks executable"
 chmod +x "$repoDir"/hooks/*.sh "$repoDir"/*.sh "$repoDir"/bin/*.py
+mkdir -p "$HOME/.claude/output-styles" && ln -sf "$repoDir/output-styles/crow.md" "$HOME/.claude/output-styles/crow.md"
 
 echo "==> 5/5  Wiring SessionStart + Stop + UserPromptSubmit hooks into ~/.claude/settings.json (preserves existing keys)"
 node - "$repoDir" <<'NODE'
@@ -40,6 +41,8 @@ const mk = (script) => ([{ hooks: [{ type: "command", command: `bash ${repoDir}/
 s.hooks.SessionStart = mk("session-start.sh");
 s.hooks.Stop = mk("stop.sh");
 s.hooks.UserPromptSubmit = mk("prompt-time.sh");
+s.outputStyle = "Crow";
+s.spinnerTipsOverride = { label: "Crow", tipsFile: "~/crow-config/crow-tips.json", excludeDefault: true };
 fs.mkdirSync(path.dirname(settingsPath), { recursive: true });
 fs.writeFileSync(settingsPath, JSON.stringify(s, null, 2) + "\n");
 console.log("    settings.json updated:", settingsPath);
