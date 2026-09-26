@@ -27,8 +27,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟢 **HERE (Sat 26 Sep morning). 🌧️ AC311 POSTPONED — Bangkok flooding.** New date UNKNOWN. ⏳ Ask: new AC311 date · is BA202 Sun 27 still on? Until told otherwise, assume BA202 runs tomorrow 09:00 → today = BA202 sheet + MCQ drills (the 4-hr plan moves up).
-  - ⏳ **STILL OPEN:** is the BA202 sheet printed? (AC311 "how did it go" is VOID until the rescheduled sitting.)
+- 🟢 **HERE (Sat 26 Sep ~10:00), at home — his neighbourhood is flooded. 🌧️ AC311 POSTPONED, no new date yet.** BA202 Sun 27 = "probably postponed" (his read: rain forecast for another day) but NOT confirmed → Crow's line: **prep as if it runs 09:00 tomorrow.** Printing status unknown (stuck at home).
+  - ⏳ **STILL OPEN:** BA202 official status · new AC311 date · sheet printed?
 
 ### 🧾 BA202 — the two artifacts he is working from
 - 📘 **The Missed Lectures** (L1–L8, the reference) — https://claude.ai/code/artifact/2c6630bc-54d1-40a5-b47e-74f69c703483
