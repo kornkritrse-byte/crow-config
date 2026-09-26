@@ -27,8 +27,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟢 **HERE (Sat 26 Sep ~10:00), at home — his neighbourhood is flooded. 🌧️ AC311 POSTPONED, no new date yet.** BA202 Sun 27 = "probably postponed" (his read: rain forecast for another day) but NOT confirmed → Crow's line: **prep as if it runs 09:00 tomorrow.** Printing status unknown (stuck at home). His house is raised, safe — Crow over-warned, he said chill. Grandpa's brother's house flooded badly; that family evacuated to a hotel by truck (they're fine).
-  - ⏳ **STILL OPEN:** BA202 official status · new AC311 date · sheet printed?
+- 🚶 **AWAY (Sat 26 Sep ~10:0x) — off to: flood errands around the house** (keeping things from breaking). His house is raised and safe; grandpa's brother's family evacuated to a hotel by truck (fine). 🌧️ **AC311 POSTPONED, no new date.** BA202 Sun 27 "probably postponed" per the forecast, NOT confirmed → prep as if it's on. **NO PRINTER at home** → fallback: the rules allow handwritten notes, and a print shop if one is open.
+  - ⏳ **ASK ON RETURN:** (1) any official word on BA202 / new AC311 date? (2) then straight into BA202 MCQ drills from the on-screen Four Sheets, one Q at a time. He said he'll ping when ready.
 
 ### 🧾 BA202 — the two artifacts he is working from
 - 📘 **The Missed Lectures** (L1–L8, the reference) — https://claude.ai/code/artifact/2c6630bc-54d1-40a5-b47e-74f69c703483
