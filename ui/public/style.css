@@ -20,8 +20,8 @@
   --vex: #5fa8d3;
 
   --measure: 680px;           /* one column width for every row in the conversation */
-  --serif: "Literata", Georgia, serif;
-  --sans: "Schibsted Grotesk", system-ui, sans-serif;
+  --serif: "Helvetica Neue", Helvetica, Arial, sans-serif;   /* Helvetica everywhere (his call, 27 Sep) */
+  --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color-scheme: dark;
 }
 
@@ -102,8 +102,8 @@ button { font: inherit; cursor: pointer; }
 
 .reply {
   font-family: var(--serif);
-  font-size: 16.5px;
-  line-height: 1.68;
+  font-size: 16px;
+  line-height: 1.6;
 }
 .reply p, .reply ul, .reply ol, .reply blockquote, .reply pre, .reply table { margin: 0 0 .85em; }
 .reply ul, .reply ol { padding-left: 1.3em; }
