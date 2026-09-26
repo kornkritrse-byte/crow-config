@@ -27,8 +27,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🌙 **AWAY (Fri 25 Sep ~23:0x, day closed) — off to: sleep → AC311 exam Sat 26 09:00–12:00.** His plan after: refine + print the BA202 sheet (Crow: **HARD CAP 1 hr**, only fixes that would cost marks; ≤4 A4 duplex, flat), then home → **4 hrs of MCQ lookup drills against the PRINTED sheet**, built from her "I will ask" tells, L1–L8. He called BA "real shaky rn".
-  - ⏳ **ASK ON RETURN:** (1) how did AC311 go? (2) is the BA202 sheet printed? → then start the BA202 question bank straight away, one question at a time.
+- 🟢 **HERE (Sat 26 Sep morning). 🌧️ AC311 POSTPONED — Bangkok flooding.** New date UNKNOWN. ⏳ Ask: new AC311 date · is BA202 Sun 27 still on? Until told otherwise, assume BA202 runs tomorrow 09:00 → today = BA202 sheet + MCQ drills (the 4-hr plan moves up).
+  - ⏳ **STILL OPEN:** is the BA202 sheet printed? (AC311 "how did it go" is VOID until the rescheduled sitting.)
 
 ### 🧾 BA202 — the two artifacts he is working from
 - 📘 **The Missed Lectures** (L1–L8, the reference) — https://claude.ai/code/artifact/2c6630bc-54d1-40a5-b47e-74f69c703483
