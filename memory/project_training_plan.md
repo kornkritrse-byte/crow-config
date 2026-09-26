@@ -10,7 +10,8 @@ metadata:
 ---
 
 ## 🏃 2026-09-27: HALF MARATHON ADDED (Sun 17 Jan 2027, จอมบึง / Chombueng, Ratchaburi)
-His dad signed him up, with Korn nudging him into it (his words, 27 Sep 01:48). **Korn pushed for this himself; nobody pushed it on him.**
+**How it happened (his correction, 27 Sep 01:50):** Korn talked about running a lot with his dad and never proposed a race. **His dad got back into running because of it**, signed up for races himself, then called one afternoon: "hey, sign up too", and signed Korn up. So Korn's influence was indirect: **he got his dad running again.** The race itself was his dad's invitation, which Korn accepted. (Crow first read "with me nudging him" as "Korn pushed for it". Wrong, see [[crow-error-log]].)
+- 👨 **His dad is running too** (at least his own races; confirm he's doing Chombueng). He's the likely source for bib pickup and race-morning logistics for both races.
 - **Race calendar now:** 10K Samitivej **Sun 13 Dec** (target 48:00) → **half marathon 35 days later.** They fit: the 10K becomes a fitness check inside the half build, not a competing goal.
 - **Runway:** training resumes after midterms (BA202 is 4 Oct) → **~15 weeks** to 17 Jan. His longest run is **12 km** (Aug), and his easy pace is 6:30–7:00/km. Finishing a half from a 12k base in 15 weeks is realistic. The thing that decides it is the **weekly long run**, which the current plan (2 runs + 2 treadmill after lifting, all 30–40 min) **doesn't have**.
 - ⚠️ **Ankle tendon (torn 2024):** the long-run ramp is where it's most likely to flare. Build the long run by ~1–2 km/week with a cutback week every 3rd–4th week, peaking around 18–19 km ~3 weeks out (late Dec).
