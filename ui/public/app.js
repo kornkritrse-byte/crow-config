@@ -117,7 +117,7 @@ function schedulePaint() {
 
 function endReply() {
   if (!reply) return;
-  reply.el.classList.remove('cursor');
+  paintReply(false);          // a pending animation-frame paint may not have run yet
   reply = null;
 }
 
@@ -173,7 +173,6 @@ function handle(ev, live = true) {
       live ? schedulePaint() : null;
       break;
     case 'tool': {
-      if (reply && !live) paintReply(false);
       endReply(); clearThinking();
       const el = div('step running');
       el.innerHTML = `<span class="verb"></span><span class="what"></span>`;
@@ -212,7 +211,6 @@ function handle(ev, live = true) {
       break;
     }
     case 'result':
-      if (reply && !live) paintReply(false);
       endReply(); clearThinking();
       for (const el of stream.querySelectorAll('.step.running')) el.classList.remove('running');
       if (typeof ev.cost === 'number') sessionCost += ev.cost;
@@ -251,7 +249,7 @@ tick();
 setInterval(tick, 15000);
 
 function cleanTitle(t) {
-  return t.replace(/\s*\([^)]*\)\s*/g, ' ').replace(/^MIDTERM \d+:\s*/i, 'Midterm: ').trim();
+  return t.replace(/\s*\([^)]*\)/g, '').replace(/\s+([.,])/g, '$1').replace(/^MIDTERM \d+:\s*/i, 'Midterm: ').trim();
 }
 
 function paintBoard(board) {
@@ -281,7 +279,7 @@ function paintBoard(board) {
   ghost.querySelector('.q').textContent = g.next.q;
   ghost.querySelector('.due').textContent = isDue
     ? `${g.due} due now, ${g.total} in the deck`
-    : `Next one due ${g.next.date}, ${g.total} in the deck`;
+    : `Next one due ${new Date(g.next.date + 'T00:00:00+07:00').toLocaleDateString('en-GB', { ...bkk, weekday: 'short', day: 'numeric', month: 'short' })}, ${g.total} in the deck`;
   ghost.querySelector('button').onclick = () => {
     input.value = `Ghost card (line ${g.next.line}), my answer: `;
     input.focus(); autosize();

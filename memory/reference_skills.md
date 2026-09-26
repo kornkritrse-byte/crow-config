@@ -33,3 +33,7 @@ Skills live in `~/crow-config/.claude/skills/` (the duplicate `.agents/skills/` 
 **Removed:** `stop-slop` (from `hardikpandya/stop-slop`) — its install was broken (empty directory, never worked); deleted 2026-07-02. Reinstall from that repo if wanted.
 
 **How to invoke:** `/skill-name` in Claude Code. Must be called explicitly — they don't auto-trigger.
+
+**Design/build skills** (from `anthropics/skills`, the official repo; installed 2026-09-27 for the [[reference-crow-room]] build; read in full before installing):
+- `frontend-design`: guidance for distinctive, non-templated UI design (palette, type, layout, self-critique).
+- `webapp-testing`: Playwright testing and screenshots of local web apps. The skill is written for Python Playwright; this Mac has **Node** Playwright globally, so adapt its scripts.
