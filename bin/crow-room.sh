@@ -9,7 +9,8 @@ port="${CROW_PORT:-4711}"
 url="http://localhost:$port"
 
 if [ "$1" = "--stop" ]; then
-  pkill -f "node $uiDir/server.mjs" && echo "Crow Room stopped." || echo "Crow Room wasn't running."
+  pid="$(lsof -tiTCP:"$port" -sTCP:LISTEN 2>/dev/null)"
+  if [ -n "$pid" ]; then kill $pid && echo "Crow Room stopped."; else echo "Crow Room wasn't running."; fi
   exit 0
 fi
 

@@ -13,7 +13,7 @@ import os from 'node:os';
 import { execFile } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { WebSocketServer } from 'ws';
-import { query } from '@anthropic-ai/claude-agent-sdk';
+import { query, getSessionMessages } from '@anthropic-ai/claude-agent-sdk';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(HERE, '..');                       // ~/crow-config
@@ -96,6 +96,7 @@ function startSession({ resume } = {}) {
   const s = { inbox, q, id: resume || null, busy: false, interrupted: false };
   session = s;
   emit({ type: 'session', state: resume ? 'resumed' : 'new', id: resume || null });
+  if (resume) loadTranscript(resume, s);
 
   // Warm the Claude Code process now, not on the first message, and learn
   // which model is live so the picker starts on the right one.
@@ -116,6 +117,30 @@ function startSession({ resume } = {}) {
   });
 }
 let lastDeadSession = null;
+
+// A resumed conversation should look like one: rebuild the Room's history from
+// the saved transcript, then send every open tab a fresh replay.
+async function loadTranscript(id, s) {
+  const msgs = await getSessionMessages(id, { dir: REPO }).catch(() => []);
+  if (s !== session || !msgs.length) return;
+  const past = [];
+  for (const m of msgs) {
+    if (m.parent_tool_use_id) continue;
+    const content = m.message?.content;
+    if (m.type === 'user' && typeof content === 'string' && !content.trimStart().startsWith('<')) {
+      past.push({ type: 'user', text: content, ts: m.timestamp ? Date.parse(m.timestamp) : undefined });
+    } else if (m.type === 'assistant' && Array.isArray(content)) {
+      for (const b of content) {
+        if (b.type === 'text' && b.text.trim()) past.push({ type: 'text_start' }, { type: 'text', text: b.text });
+        if (b.type === 'tool_use') past.push({ type: 'tool', id: b.id, name: b.name, input: summarizeInput(b.name, b.input) }, { type: 'tool_done', id: b.id });
+      }
+    }
+  }
+  past.push({ type: 'result', ok: true });
+  history.unshift(...past);
+  const replay = JSON.stringify({ type: 'replay', events: history, busy: !!s.busy, board, model: modelEvent(readSafe(MODEL_FILE).trim() || 'opus') });
+  for (const ws of wss.clients) if (ws.readyState === 1) ws.send(replay);
+}
 
 function modelEvent(value) {
   return { type: 'model', value, models: MODELS };

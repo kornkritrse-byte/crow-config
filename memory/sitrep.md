@@ -66,7 +66,7 @@ metadata:
 - 🌊 Flood (see block above). AC311 (Sat) and BA202 (Sun) both postponed → 2 & 4 Oct. He called a full day off: errands, then family in the evening. **Legit day off, and he knew it.**
 - 🧰 00:19 Sun: asked for "creative, abstract, experimental" system upgrades. Crow led with the BA202-at-09:00 objection; he answered it (postponed). **He picked 1–5 + 7 + 8, skipped the calibration log (#6).** All built this session (block above).
 - 🗓️ Exams confirmed **AC311 Fri 2 Oct · BA202 Sun 4 Oct**, calendar moved. Birthday **29 Mar** saved → 3rd capsule. Then: **Spotify mood check** added (first read: ROS, Mac Miller) and **Crow output style + crew spinner verbs/tips** (trial, "let's see first").
-- 🪟 00:59–01:15: asked to rebuild "the whole interface". Crow parked it for after midterms, he overrode ("i got time, just chilling with my cousin"). **Built the Crow Room** → [[reference-crow-room]]. Also the Artis recs: RTF "Spain" → Jaga Jazzist "Oban".
+- 🪟 00:59–01:15: asked to rebuild "the whole interface". Crow parked it for after midterms, he overrode ("i got time, just chilling with my cousin"). **Built the Crow Room** → [[reference-crow-room]]; 01:13 round 2 (maroon, model picker, security + bug fixes, layout). **He mentioned "ux ui skills" from months ago: NOT FOUND in memory, git or any Mac transcript. Ask him the name.** Also the Artis recs: RTF "Spain" → Jaga Jazzist "Oban".
 - 🧹 First lint run: SITREP was 21KB with two contradicting ASK blocks, stale "live" items from 13 Sep, and a **family talk marked "still owed" that had actually happened on 17 Sep.** Rebuilt; the 24 Sep note flushed.
 
 ## Session — 2026-09-25 (EL221 sat · AC311 practice pack worked end to end · The Two-Year Ledger checked out)
