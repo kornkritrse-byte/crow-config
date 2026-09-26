@@ -38,3 +38,6 @@ One Spotify playlist per chapter in [[chapters]], seeded from his top artists (J
 - Ch. 5 Letter to the Next Owner — https://open.spotify.com/playlist/6XYJYnj9mCJoGbXhdL8QC9
 - Ch. 6 The Instrument Was Off — https://open.spotify.com/playlist/20q2T23rnmksoVfkySzoYJ (Spotify named it "Self-Honest Hip-Hop Reckoning"; rename in-app)
 - Ch. 7 Which Part Do I Learn From? — https://open.spotify.com/playlist/69tHuuW31Gbr0LgSAshUdT (Spotify named it "Siddhartha Morning Presence"; rename in-app)
+
+## 🎧 Night tracks (late-night now-playing log — [[feedback-spotify-mood]])
+*(date · time · track · artist. Empty on the first check, 27 Sep 00:37: nothing was playing.)*

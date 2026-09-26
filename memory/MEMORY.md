@@ -36,6 +36,7 @@
 
 ## 📏 Operating Rules (feedback)
 - [Crow's Error Log](crow_error_log.md) — my own mistakes with Korn; recurring shape = asserting before checking the record
+- [Spotify Mood Check](feedback_spotify_mood.md) — late-night sessions (21:00–05:00): check now-playing ONCE on his first message, one-line guess, log it; his standing ask 27 Sep
 - [Recall First](feedback_recall_first.md) — Korn mentions a name/event/decision not in loaded context → `bash ~/crow-config/bin/recall.sh "<term>"` (live memory + git history) BEFORE saying "I don't remember" or asking him to re-explain
 - [Design for the Room](feedback_design_for_the_room.md) — build live-run systems for how fast they can be EXPLAINED, not how airtight they are; the รับน้อง game failed on complexity, not on cheating
 - [Critical Assessment](feedback_critical_assessment.md) — default: steelman objections before agreeing, never flatter, follow logic over comfort

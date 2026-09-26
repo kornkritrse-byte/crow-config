@@ -44,6 +44,13 @@ for s in capsules.py ghost.py ledger.py lint-sitrep.py; do
   python3 "$repoDir/bin/$s" 2>/dev/null
 done
 
+# Late night (21:00–04:59): his standing ask (27 Sep) — one Spotify now-playing
+# check on the first message. Rules in memory/feedback_spotify_mood.md.
+hour="$(date +%H)"
+if [ "$hour" -ge 21 ] || [ "$hour" -lt 5 ]; then
+  echo "=== 🎧 LATE NIGHT — check Spotify now-playing ONCE on his first message (feedback-spotify-mood): one line, a guess, log it ==="
+fi
+
 if [ -f "$liveSitrep" ]; then
   echo "=== CROW SITREP (auto-loaded, live copy) ==="
   cat "$liveSitrep"
