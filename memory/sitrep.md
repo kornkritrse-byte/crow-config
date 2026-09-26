@@ -27,11 +27,11 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟢 **Here (Sun 27 Sep 00:50)**: back from the VS Code reload, first message in the Crow style was "read sitrep". After this: messing around with his cousin, then sleep. **No study tonight.**
-  - ⏳ **Asked 00:50, no answer yet:** (1) do spinner verbs/tips show in the VS Code panel? · (2) first feel of the Crow style · (3) grandpa + family OK in the hotel? · (4) racing question for grandpa: parked until he's unhurried
+- 🟢 **Here (Sun 27 Sep 00:53)**: after this, messing around with his cousin, then sleep. **No study tonight.** Closed: family OK · body great · Crow style = "crowing well".
+  - ⏳ **Still open:** do the spinner verbs/tips show in the VS Code panel? · the racing question for grandpa: parked until he's unhurried
 
 ## 🌊 The flood (26 Sep)
-- Bangkok flooded; **his whole neighbourhood is under water.** His house is fine. **Grandpa's house flooded**: he spent all of Saturday clearing their things and getting grandpa's brother's family into a hotel by truck. He waded **waist-deep** to go out for food.
+- Bangkok flooded; **his whole neighbourhood is under water.** **His home (= grandpa's house) is FINE; grandpa is still there.** The one that flooded is **grandpa's brother's house next door**. He spent all of Saturday clearing their things and taking them to a hotel by truck. **In the hotel: grandpa's brother, his grandma, and her sister (the brother's wife). All fine (his word, 00:53 27 Sep).** He waded **waist-deep** to go out for food. Body: "great" (00:53).
 - ⚕️ Waist-deep floodwater = **leptospirosis risk**; told him 27 Sep: fever, muscle pain (calves) or red eyes within ~2–14 days means a doctor, and say "flood water". Raise it again only if he mentions feeling ill.
 - Exams moved by the flood (see below). Expect more disruption: commute, gym (Jetts Phayathai), running routes.
 

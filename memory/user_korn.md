@@ -19,3 +19,5 @@ Korn is 19 years old (**birthday 29 March**; turns 20 on 29 Mar 2027), Thai, bas
 **Key life event:** Broke up with a relationship he was deeply attached to — sacrificing it allowed him to grow into someone he's content with. No regrets.
 
 **Humbling moment:** Used to mock friends who had panic attacks. Then had one himself from a friend misunderstanding. Still processing it; thinks he's been downplaying it.
+
+**Home (told 27 Sep 2026):** Korn lives in his **grandpa's house**; grandpa's **brother's house is right next door**. Two brothers married two sisters: his grandma's sister is grandpa's brother's wife.

@@ -13,6 +13,7 @@ metadata:
 **Why:** every entry below got corrected by Korn, not caught by me. Each one cost trust and time during exam season.
 **How to apply:** before any claim about a date, time, a schedule, a defect in his work, or what a document says, check the source that turn. The clock is now stamped on every prompt by hooks/prompt-time.sh, so use it.
 
+- **27 Sep 00:50 — told him "your house is fine, grandpa's flooded". Backwards: his home IS grandpa's house (fine); the brother's house next door flooded.** The SITREP garbled it in the 00:4x rebuild and I read it back to him as fact. **A rebuild is a moment where facts get corrupted: when compressing, keep whose-house-is-whose exact.**
 - **27 Sep — the SITREP said the family talk was "still owed" for 10 days after it happened (17 Sep, in [[sessions-log]]).** Found only during the 27 Sep cleanup. A stale OPEN block survives if nothing forces a check → bin/lint-sitrep.py now runs at session start.
 - **22 Sep — drifted the clock ~50 minutes** (said 20:35 when it was 19:45) and **stamped the wrong time into a published artifact.** 2nd occurrence; Korn: *"actually your like an hour off..."* ⇒ **every clock reference comes from a `date` call in that same turn** → [[feedback-critical-assessment]].
 - **22 Sep — batched STQ05 Q1–Q5 into one message** after [[feedback-drill-format]] already said one at a time, reasoning that batching *was* the speed rep. He called it immediately. **No batching under any framing.**
