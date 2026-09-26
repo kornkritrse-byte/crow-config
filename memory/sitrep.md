@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟢 **HERE (Sat 26 Sep ~10:00), at home — his neighbourhood is flooded. 🌧️ AC311 POSTPONED, no new date yet.** BA202 Sun 27 = "probably postponed" (his read: rain forecast for another day) but NOT confirmed → Crow's line: **prep as if it runs 09:00 tomorrow.** Printing status unknown (stuck at home).
+- 🟢 **HERE (Sat 26 Sep ~10:00), at home — his neighbourhood is flooded. 🌧️ AC311 POSTPONED, no new date yet.** BA202 Sun 27 = "probably postponed" (his read: rain forecast for another day) but NOT confirmed → Crow's line: **prep as if it runs 09:00 tomorrow.** Printing status unknown (stuck at home). His house is raised, safe — Crow over-warned, he said chill. Grandpa's brother's house flooded badly; that family evacuated to a hotel by truck (they're fine).
   - ⏳ **STILL OPEN:** BA202 official status · new AC311 date · sheet printed?
 
 ### 🧾 BA202 — the two artifacts he is working from
