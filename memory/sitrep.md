@@ -27,8 +27,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟢 **Here (Sun 27 Sep, 00:19)** — day off by his call: flood day, family evening, now messing around with his cousin before sleep. **No study tonight, and don't push it.**
-  - ⏳ **ASK ON RETURN:** (1) grandpa + family OK in the hotel? · (2) when he's unhurried, not urgent: **did he ask grandpa about the racing?** (the 17 Sep move → [[sessions-log]])
+- 🔄 **AWAY (Sun 27 Sep 00:49), briefly: reloading VS Code** to load the new Crow output style + spinner verbs/tips. Not a day-end. After that: messing around with his cousin, then sleep. **No study tonight.**
+  - ⏳ **ASK ON RETURN:** (1) **do the spinner verbs/tips show in the VS Code panel?** (docs only confirm terminal) · (2) first feel of the Crow style: more like Crow, or just different? · (3) grandpa + family OK in the hotel? · (4) when he's unhurried, not urgent: **did he ask grandpa about the racing?** (the 17 Sep move → [[sessions-log]])
 
 ## 🌊 The flood (26 Sep)
 - Bangkok flooded; **his whole neighbourhood is under water.** His house is fine. **Grandpa's house flooded**: he spent all of Saturday clearing their things and getting grandpa's brother's family into a hotel by truck. He waded **waist-deep** to go out for food.
@@ -65,6 +65,7 @@ metadata:
 ## Session — 2026-09-26/27 (flood day · no study · system upgrades built)
 - 🌊 Flood (see block above). AC311 (Sat) and BA202 (Sun) both postponed → 2 & 4 Oct. He called a full day off: errands, then family in the evening. **Legit day off, and he knew it.**
 - 🧰 00:19 Sun: asked for "creative, abstract, experimental" system upgrades. Crow led with the BA202-at-09:00 objection; he answered it (postponed). **He picked 1–5 + 7 + 8, skipped the calibration log (#6).** All built this session (block above).
+- 🗓️ Exams confirmed **AC311 Fri 2 Oct · BA202 Sun 4 Oct**, calendar moved. Birthday **29 Mar** saved → 3rd capsule. Then: **Spotify mood check** added (first read: ROS, Mac Miller) and **Crow output style + crew spinner verbs/tips** (trial, "let's see first").
 - 🧹 First lint run: SITREP was 21KB with two contradicting ASK blocks, stale "live" items from 13 Sep, and a **family talk marked "still owed" that had actually happened on 17 Sep.** Rebuilt; the 24 Sep note flushed.
 
 ## Session — 2026-09-25 (EL221 sat · AC311 practice pack worked end to end · The Two-Year Ledger checked out)
