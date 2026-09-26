@@ -1,13 +1,21 @@
 ---
 name: project-training-plan
 aliases: ["project-training-plan"]
-description: "Korn's training plan — leaner-only since 2026-08-23; 4 days/wk; run structure SET 27 Aug off a real 25:30 5k TT"
+description: "Korn's training plan — leaner-only since 2026-08-23; 4 days/wk; run structure SET 27 Aug off a real 25:30 5k TT; RACES: 10K 13 Dec + HALF MARATHON จอมบึง 17 Jan 2027 (added 27 Sep)"
 metadata:
   node_type: memory
   type: project
   originSessionId: 6b179f8b-0d5d-4b21-b9e8-8a36a0feb75f
   modified: 2026-09-13T01:30:25.289Z
 ---
+
+## 🏃 2026-09-27: HALF MARATHON ADDED (Sun 17 Jan 2027, จอมบึง / Chombueng, Ratchaburi)
+His dad signed him up, with Korn nudging him into it (his words, 27 Sep 01:48). **Korn pushed for this himself; nobody pushed it on him.**
+- **Race calendar now:** 10K Samitivej **Sun 13 Dec** (target 48:00) → **half marathon 35 days later.** They fit: the 10K becomes a fitness check inside the half build, not a competing goal.
+- **Runway:** training resumes after midterms (BA202 is 4 Oct) → **~15 weeks** to 17 Jan. His longest run is **12 km** (Aug), and his easy pace is 6:30–7:00/km. Finishing a half from a 12k base in 15 weeks is realistic. The thing that decides it is the **weekly long run**, which the current plan (2 runs + 2 treadmill after lifting, all 30–40 min) **doesn't have**.
+- ⚠️ **Ankle tendon (torn 2024):** the long-run ramp is where it's most likely to flare. Build the long run by ~1–2 km/week with a cutback week every 3rd–4th week, peaking around 18–19 km ~3 weeks out (late Dec).
+- ⚠️ The 5k-in-20:00 goal assumed speed work. With two races on the calendar, **endurance leads until 17 Jan** and 20:00 waits.
+- Open: time goal or just finish? Chombueng course and start-time details not checked yet (guess: a very early start; verify before planning race morning). Bib pickup for both races.
 
 ## ⚠️ 2026-08-23 — GOAL CHANGED, July plan superseded
 

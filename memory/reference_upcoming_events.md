@@ -24,6 +24,7 @@ metadata:
 2026-10-04 | MIDTERM 6: BA202 Taxation 09:00–12:00 (flood-postponed from 27 Sep)
 2027-03-29 | 🎂 Korn turns 20 (time capsule opens)
 2026-12-13 | 🏁 10K RACE — Samitivej hospital event (register 04:00, GUN 05:00, venue TBC). Target 48:00.
+2027-01-17 | 🏃 HALF MARATHON: จอมบึง (Chombueng), Ratchaburi. Dad signed him up (at his nudging). 21.1 km
 
 *(รับน้อง camp CLOSED — ran 25–27 Jul 2026. July events pruned 23 Aug; retro in [[project-rubnong-tracker]].)*
 *(Class lessons are on the Life calendar as weekly recurring, grey/Graphite — intentionally NOT mirrored here, same reason as training.)*
