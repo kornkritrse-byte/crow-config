@@ -1,3 +1,4 @@
 node_modules/
 .last-session
+.model
 crow-room.log

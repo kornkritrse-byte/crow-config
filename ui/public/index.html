@@ -9,8 +9,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Schibsted+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+  <script src="/vendor/marked.js"></script>
+  <script src="/vendor/purify.js"></script>
 </head>
 <body>
   <div class="room">
@@ -22,31 +22,42 @@
 
     <main class="talk">
       <div id="stream" class="stream" aria-live="polite"></div>
+      <button id="jump" class="jump" type="button" hidden>Jump to latest</button>
       <form id="composer" class="composer">
-        <textarea id="input" rows="1" placeholder="Talk to Crow" autocomplete="off"></textarea>
+        <div class="field">
+          <textarea id="input" rows="1" placeholder="Talk to Crow" autocomplete="off" aria-label="Message"></textarea>
+          <div class="hint">Enter to send, Shift+Enter for a new line, Esc to stop Crow</div>
+        </div>
         <button id="send" type="submit">Send</button>
         <button id="stop" type="button" class="stop" hidden>Stop</button>
       </form>
     </main>
 
     <aside class="board" aria-label="Board">
-      <section class="clock">
-        <div id="time" class="time">--:--</div>
-        <div id="date" class="date"></div>
-      </section>
-      <section>
-        <h2>Coming up</h2>
-        <ol id="events" class="events"></ol>
-      </section>
-      <section>
-        <h2>Where things stand</h2>
-        <div id="status" class="status"></div>
-      </section>
-      <section id="ghost-section">
-        <h2>Ghost card</h2>
-        <div id="ghost" class="ghost"></div>
-      </section>
-      <footer id="session-info" class="session-info"></footer>
+      <div class="board-scroll">
+        <section class="clock">
+          <div id="time" class="time">--:--</div>
+          <div id="date" class="date"></div>
+        </section>
+        <section>
+          <h2>Coming up</h2>
+          <ol id="events" class="events"></ol>
+        </section>
+        <section id="ghost-section">
+          <h2>Ghost card</h2>
+          <div id="ghost" class="ghost"></div>
+        </section>
+        <section>
+          <h2>Where things stand</h2>
+          <div id="status" class="status clamped"></div>
+          <button id="status-more" type="button" class="link">Show all</button>
+        </section>
+      </div>
+      <footer class="board-foot">
+        <label for="model">Model</label>
+        <select id="model"></select>
+        <div id="model-note" class="model-note"></div>
+      </footer>
     </aside>
   </div>
   <script src="app.js"></script>

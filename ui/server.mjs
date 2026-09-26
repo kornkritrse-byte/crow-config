@@ -20,6 +20,16 @@ const REPO = path.resolve(HERE, '..');                       // ~/crow-config
 const PORT = Number(process.env.CROW_PORT || 4711);
 const MEMORY = path.join(os.homedir(), '.claude/projects', REPO.replaceAll('/', '-'), 'memory');
 const LAST_SESSION_FILE = path.join(HERE, '.last-session');
+const MODEL_FILE = path.join(HERE, '.model');                 // the model picked in the Room, kept across restarts
+
+// The short list the Room offers. Values are what setModel() takes; the SDK
+// resolves each to the current version (supportedModels() confirmed these on 27 Sep).
+const MODELS = [
+  { value: 'opus', label: 'Opus 5.5', note: 'default, best all-round' },
+  { value: 'claude-fable-5-1', label: 'Fable 5.1', note: 'most capable, slowest' },
+  { value: 'sonnet', label: 'Sonnet 5', note: 'faster, a step down' },
+  { value: 'haiku', label: 'Haiku 4.5', note: 'fastest, for quick stuff' },
+];
 
 // ---------------------------------------------------------------- session
 
@@ -44,13 +54,17 @@ class Inbox {
   }
 }
 
-let session = null;          // { inbox, q, id, busy }
+let session = null;          // { inbox, q, id, busy, interrupted }
 const history = [];          // UI events, replayed to a reloaded tab
 const pendingPermissions = new Map();
 let permissionSeq = 0;
 
 function emit(event) {
-  history.push(event);
+  // Text arrives in many small deltas; fold them into one history entry so a
+  // long session doesn't push the start of the conversation out of the replay.
+  const last = history[history.length - 1];
+  if (event.type === 'text' && last?.type === 'text') last.text += event.text;
+  else history.push({ ...event });
   if (history.length > 4000) history.splice(0, history.length - 4000);
   const data = JSON.stringify(event);
   for (const ws of wss.clients) if (ws.readyState === 1) ws.send(data);
@@ -63,6 +77,7 @@ function startSession({ resume } = {}) {
   pendingPermissions.clear();
 
   const inbox = new Inbox();
+  const model = readSafe(MODEL_FILE).trim() || undefined;
   const q = query({
     prompt: inbox,
     options: {
@@ -70,18 +85,47 @@ function startSession({ resume } = {}) {
       settingSources: ['user', 'project', 'local'],   // CLAUDE.md, hooks, output style, permissions
       systemPrompt: { type: 'preset', preset: 'claude_code' },
       includePartialMessages: true,
-      permissionMode: 'auto',
+      permissionMode: process.env.CROW_PERMISSION_MODE || 'auto',   // override only for testing the Allow/Deny card
+      // The Room has no question picker, so Crow asks in plain text instead.
+      disallowedTools: ['AskUserQuestion'],
+      ...(model ? { model } : {}),
       ...(resume ? { resume } : {}),
       canUseTool: askInBrowser,
     },
   });
-  session = { inbox, q, id: resume || null, busy: false };
+  const s = { inbox, q, id: resume || null, busy: false, interrupted: false };
+  session = s;
   emit({ type: 'session', state: resume ? 'resumed' : 'new', id: resume || null });
-  pump(session).catch(err => {
-    emit({ type: 'error', text: String(err?.message || err) });
-    if (session) session.busy = false;
+
+  // Warm the Claude Code process now, not on the first message, and learn
+  // which model is live so the picker starts on the right one.
+  q.initializationResult().then(init => {
+    if (s !== session) return;
+    s.account = init.account?.subscriptionType;
+    emit(modelEvent(model || 'opus'));
+  }).catch(() => {});
+
+  // However the loop ends (crash or a clean exit), if this is still the live
+  // session the next message has to start a new process on the same conversation.
+  pump(s).catch(err => err).then(err => {
+    if (s !== session) return;
+    emit({ type: 'error', text: `Crow's process stopped${err ? `: ${err.message || err}` : ''}. Your next message restarts it where you left off.` });
+    session = null;                                  // next send() resumes this conversation in a fresh process
+    lastDeadSession = s.id;
     emit({ type: 'busy', busy: false });
   });
+}
+let lastDeadSession = null;
+
+function modelEvent(value) {
+  return { type: 'model', value, models: MODELS };
+}
+
+async function setModel(value) {
+  if (!MODELS.some(m => m.value === value)) return;
+  fs.writeFileSync(MODEL_FILE, value);
+  if (session) await session.q.setModel(value).catch(err => emit({ type: 'error', text: `Couldn't switch model: ${err.message}` }));
+  emit(modelEvent(value));
 }
 
 // The permission prompt the terminal would show, shown in the browser instead.
@@ -148,11 +192,12 @@ async function pump(s) {
         s.busy = false;
         emit({
           type: 'result',
-          ok: msg.subtype === 'success' && !msg.is_error,
-          cost: msg.total_cost_usd,
+          ok: s.interrupted || (msg.subtype === 'success' && !msg.is_error),
+          interrupted: s.interrupted,
           ms: msg.duration_ms,
           error: msg.subtype !== 'success' ? msg.subtype : null,
         });
+        s.interrupted = false;
         emit({ type: 'busy', busy: false });
         refreshBoard();
         break;
@@ -161,9 +206,9 @@ async function pump(s) {
 }
 
 function send(text) {
-  if (!session) startSession();
+  if (!session) startSession(lastDeadSession ? { resume: lastDeadSession } : {});
   session.busy = true;
-  emit({ type: 'user', text });
+  emit({ type: 'user', text, ts: Date.now() });
   emit({ type: 'busy', busy: true });
   session.inbox.push({
     type: 'user',
@@ -225,10 +270,16 @@ async function refreshBoard() {
 // ---------------------------------------------------------------- http + ws
 
 const MIME = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascript', '.svg': 'image/svg+xml' };
+// Served from node_modules so the page works offline and skips two CDN round trips.
+const VENDOR = {
+  '/vendor/marked.js': 'node_modules/marked/lib/marked.umd.js',
+  '/vendor/purify.js': 'node_modules/dompurify/dist/purify.min.js',
+};
 const server = http.createServer((req, res) => {
   const url = new URL(req.url, 'http://x');
-  const file = path.join(HERE, 'public', url.pathname === '/' ? 'index.html' : url.pathname);
-  if (!file.startsWith(path.join(HERE, 'public'))) { res.writeHead(403).end(); return; }
+  const file = VENDOR[url.pathname] ? path.join(HERE, VENDOR[url.pathname])
+    : path.join(HERE, 'public', url.pathname === '/' ? 'index.html' : url.pathname);
+  if (!VENDOR[url.pathname] && !file.startsWith(path.join(HERE, 'public') + path.sep)) { res.writeHead(403).end(); return; }
   fs.readFile(file, (err, buf) => {
     if (err) { res.writeHead(404).end('not found'); return; }
     res.writeHead(200, { 'content-type': MIME[path.extname(file)] || 'application/octet-stream' });
@@ -236,14 +287,27 @@ const server = http.createServer((req, res) => {
   });
 });
 
-const wss = new WebSocketServer({ server });
+// Only this page may connect. Without the check, any website open in the
+// browser could open a socket to localhost and drive Crow, tools included.
+const ALLOWED_ORIGINS = new Set([`http://localhost:${PORT}`, `http://127.0.0.1:${PORT}`]);
+const wss = new WebSocketServer({
+  server,
+  verifyClient: ({ origin }) => ALLOWED_ORIGINS.has(origin),
+});
 wss.on('connection', ws => {
-  ws.send(JSON.stringify({ type: 'replay', events: history, busy: !!session?.busy, board }));
+  ws.send(JSON.stringify({
+    type: 'replay', events: history, busy: !!session?.busy, board,
+    model: modelEvent(readSafe(MODEL_FILE).trim() || 'opus'),
+  }));
   ws.on('message', raw => {
     let m;
     try { m = JSON.parse(raw); } catch { return; }
     if (m.type === 'send' && typeof m.text === 'string' && m.text.trim()) send(m.text.trim());
-    if (m.type === 'interrupt') session?.q.interrupt().catch(() => {});
+    if (m.type === 'interrupt' && session?.busy) {
+      session.interrupted = true;
+      session.q.interrupt().catch(() => {});
+    }
+    if (m.type === 'model') setModel(m.value);
     if (m.type === 'new') startSession();
     if (m.type === 'board') refreshBoard();
     if (m.type === 'permission') {
