@@ -42,3 +42,4 @@ One Spotify playlist per chapter in [[chapters]], seeded from his top artists (J
 ## 🎧 Night tracks (late-night now-playing log — [[feedback-spotify-mood]])
 *(date · time · track · artist. Empty on the first check, 27 Sep 00:37: nothing was playing.)*
 - 2026-09-27 · 00:39 · ROS · Mac Miller (GO:OD AM), flood night, hanging out with his cousin
+- 2026-09-27 · 01:09 · The Last Emperor (piano trio, *1996*) · Ryuichi Sakamoto, 30 min after the Mac Miller: the night went from hip-hop to cinematic strings
