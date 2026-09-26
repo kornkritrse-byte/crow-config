@@ -322,11 +322,23 @@ async function pump(s) {
         const ev = msg.event;
         if (ev.type === 'content_block_start' && ev.content_block?.type === 'text') emit({ type: 'text_start' });
         if (ev.type === 'content_block_start' && ev.content_block?.type === 'thinking') emit({ type: 'thinking' });
-        if (ev.type === 'content_block_delta' && ev.delta?.type === 'text_delta') emit({ type: 'text', text: ev.delta.text });
+        if (ev.type === 'content_block_delta' && ev.delta?.type === 'text_delta') {
+          s.streamedText = true;
+          emit({ type: 'text', text: ev.delta.text });
+        }
         break;
       }
       case 'assistant':
         for (const block of msg.message.content || []) {
+          // Replies stream in as deltas above. Slash commands like /context answer
+          // in one whole block with no stream, so show those from here.
+          if (block.type === 'text' && !msg.parent_tool_use_id) {
+            if (!s.streamedText && block.text.trim()) {
+              emit({ type: 'text_start' });
+              emit({ type: 'text', text: block.text });
+            }
+            s.streamedText = false;
+          }
           if (block.type === 'tool_use') {
             emit(toolEvent(block, msg.parent_tool_use_id));
             if (!msg.parent_tool_use_id) trackTodos(block, s);
@@ -407,15 +419,19 @@ function send({ text = '', files = [] }) {
 }
 
 // "Rewind files to here": first a dry run so Korn sees what would change.
+// A real rewind doesn't list its files, so the confirmation reuses the preview's.
+const rewindPreviews = new Map();
 async function rewind({ uuid, confirm }) {
   if (!session || !uuid) return;
   try {
     const r = await session.q.rewindFiles(uuid, { dryRun: !confirm });
+    let files = (r.filesChanged || []).map(f => f.replace(HOME, '~'));
+    if (!confirm) rewindPreviews.set(uuid, files);
+    else if (!files.length) files = rewindPreviews.get(uuid) || [];
     emit({
       type: confirm ? 'rewound' : 'rewind_preview', uuid,
       canRewind: r.canRewind, error: r.error || null,
-      files: (r.filesChanged || []).map(f => f.replace(HOME, '~')),
-      insertions: r.insertions || 0, deletions: r.deletions || 0,
+      files, insertions: r.insertions || 0, deletions: r.deletions || 0,
     });
   } catch (err) {
     emit({ type: 'rewind_preview', uuid, canRewind: false, error: err.message, files: [] });
