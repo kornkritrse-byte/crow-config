@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-09-27 ~00:4x — rebuilt from 21KB after the first lint run. Midterms 5+6 postponed by the Bangkok flood → 2 & 4 Oct. Window holds 26 + 25 Sep; 24 Sep flushed to [[sessions-log]]. Next to flush: 25 Sep.*
+*Last updated: 2026-09-27 01:55 (day end; verified, no flush needed: tonight is part of the 26/27 note). Earlier: rebuilt from 21KB after the first lint run. Midterms 5+6 postponed by the Bangkok flood → 2 & 4 Oct. Window holds 26 + 25 Sep; 24 Sep flushed to [[sessions-log]]. Next to flush: 25 Sep.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,8 +27,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟢 **Here (Sun 27 Sep 00:53)**: after this, messing around with his cousin, then sleep. **No study tonight.** Closed: family OK · body great · Crow style = "crowing well" · spinner verbs show in the VS Code panel ("yes i think"). 00:55 Artis rec: RTF "Spain" (he wants woodwinds + lots of unison).
-  - ⏳ **Still open:** the racing question for grandpa: parked until he's unhurried
+- 🌙 **AWAY (Sun 27 Sep, 01:55), day end** ("ok bet save everything goodnight"). Off to: hanging out with his cousin, then sleep. The nightly quote has been given (Seneca, Letter 6); don't repeat it today.
+  - ⏳ **ASK ON RETURN:** (1) **which "ux ui skills" did he mention months ago?** Not found anywhere on the Mac; get the name, vet it, then install · (2) first real use of the Crow Room: anything broken or annoying? · (3) BA202 on paper yet (print shop or by hand)? · (4) when he's unhurried: the racing question for grandpa
 
 ## 🌊 The flood (26 Sep)
 - Bangkok flooded; **his whole neighbourhood is under water.** **His home (= grandpa's house) is FINE; grandpa is still there.** The one that flooded is **grandpa's brother's house next door**. He spent all of Saturday clearing their things and taking them to a hotel by truck. **In the hotel: grandpa's brother, his grandma, and her sister (the brother's wife). All fine (his word, 00:53 27 Sep).** He waded **waist-deep** to go out for food. Body: "great" (00:53).
