@@ -1,0 +1,279 @@
+/* Crow Room: a Bangkok night in the rain. Slate-blue dark, warm paper text,
+   and each voice in the crew carries its own colour. The crew colours are the
+   one loud thing; everything else stays quiet. */
+
+:root {
+  --night: #131c26;
+  --panel: #18232f;
+  --raised: #1f2c3a;
+  --line: #2a3a4b;
+  --paper: #e4ded2;
+  --mist: #8c9baa;
+  --faint: #5f6f80;
+
+  --crow: #a597e0;
+  --sol: #d9b46c;
+  --persi: #e0714f;
+  --artis: #6fc2a8;
+  --vera: #c4ccd8;
+  --vex: #d0578f;
+
+  --serif: "Literata", Georgia, serif;
+  --sans: "Schibsted Grotesk", system-ui, sans-serif;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body {
+  background: var(--night);
+  color: var(--paper);
+  font-family: var(--sans);
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+}
+button { font: inherit; cursor: pointer; }
+:focus-visible { outline: 2px solid var(--crow); outline-offset: 2px; }
+
+.room {
+  display: grid;
+  grid-template-columns: 76px minmax(0, 1fr) 300px;
+  height: 100vh;
+}
+
+/* ---------------------------------------------------------------- crew rail */
+.crew {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  padding: 18px 0;
+  border-right: 1px solid var(--line);
+}
+.crew-mark img { width: 34px; height: 34px; display: block; }
+.crew ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+.crew li button {
+  width: 60px;
+  padding: 8px 0 6px;
+  background: none;
+  border: 0;
+  border-radius: 10px;
+  color: var(--mist);
+  display: flex; flex-direction: column; align-items: center; gap: 5px;
+  font-size: 12px;
+  transition: background .2s, color .2s;
+}
+.crew li button:hover { background: var(--panel); color: var(--paper); }
+.crew .dot {
+  width: 12px; height: 12px; border-radius: 50%;
+  background: var(--c);
+  box-shadow: 0 0 0 0 var(--c);
+  transition: box-shadow .6s ease-out;
+}
+.crew li.speaking .dot { box-shadow: 0 0 0 5px color-mix(in srgb, var(--c) 30%, transparent); }
+.crew li.speaking button { color: var(--paper); }
+.quiet {
+  background: none; border: 1px solid var(--line); color: var(--mist);
+  border-radius: 8px; padding: 5px 10px; font-size: 12px;
+}
+.quiet:hover { color: var(--paper); border-color: var(--faint); }
+
+/* ---------------------------------------------------------------- conversation */
+.talk { display: flex; flex-direction: column; min-height: 0; }
+.stream {
+  flex: 1;
+  overflow-y: auto;
+  padding: 36px 40px 24px;
+  scroll-behavior: smooth;
+}
+.stream > * { max-width: 70ch; margin-left: auto; margin-right: auto; }
+
+.you {
+  font-family: var(--sans);
+  color: var(--mist);
+  padding: 2px 0 2px 14px;
+  border-left: 2px solid var(--faint);
+  margin-top: 28px;
+  margin-bottom: 14px;
+  white-space: pre-wrap;
+}
+
+.reply {
+  font-family: var(--serif);
+  font-size: 16.5px;
+  line-height: 1.68;
+}
+.reply p, .reply ul, .reply ol, .reply blockquote, .reply pre, .reply table { margin: 0 0 .85em; }
+.reply ul, .reply ol { padding-left: 1.3em; }
+.reply li { margin-bottom: .3em; }
+.reply strong { font-weight: 600; }
+.reply a { color: var(--crow); text-underline-offset: 3px; }
+.reply code {
+  font-size: .86em; background: var(--raised); padding: 1px 5px; border-radius: 4px;
+}
+.reply pre { background: var(--panel); border: 1px solid var(--line); padding: 12px 14px; border-radius: 8px; overflow-x: auto; }
+.reply pre code { background: none; padding: 0; }
+.reply table { border-collapse: collapse; font-family: var(--sans); font-size: 14px; }
+.reply th, .reply td { border-bottom: 1px solid var(--line); padding: 6px 12px 6px 0; text-align: left; }
+.reply h1, .reply h2, .reply h3 { font-family: var(--sans); font-weight: 600; font-size: 1rem; margin: 1.2em 0 .5em; }
+.reply blockquote { border-left: 2px solid var(--line); padding-left: 14px; color: var(--mist); }
+
+/* A voice: any paragraph that opens with "Name:". The name becomes a tag in
+   that crew member's colour and the paragraph hangs off a thin rule of it. */
+.voice { --c: var(--crow); border-left: 2px solid var(--c); padding-left: 14px; margin-left: -16px; }
+.voice-crow  { --c: var(--crow); border-left-color: transparent; }
+.voice-sol   { --c: var(--sol); }
+.voice-persi { --c: var(--persi); }
+.voice-artis { --c: var(--artis); }
+.voice-vera  { --c: var(--vera); }
+.voice-vex   { --c: var(--vex); }
+.speaker {
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 13.5px;
+  color: var(--c);
+  margin-right: 6px;
+  letter-spacing: .01em;
+}
+.voice-crow .speaker::before {
+  content: "";
+  display: inline-block;
+  width: 15px; height: 15px;
+  margin-right: 5px;
+  vertical-align: -2px;
+  background: url(crow.svg) center / contain no-repeat;
+}
+
+.step {
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--faint);
+  margin: 4px auto;
+  display: flex; gap: 8px; align-items: baseline;
+}
+.step .verb { color: var(--mist); flex: none; }
+.step .what { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+.step::before {
+  content: ""; flex: none; width: 6px; height: 6px; border-radius: 50%;
+  background: var(--faint); transform: translateY(-1px);
+}
+.step.running::before { background: var(--crow); animation: pulse 1.2s ease-in-out infinite; }
+.step.failed::before { background: var(--persi); }
+.step + .reply, .step + .permission { margin-top: 14px; }
+
+.thinking { font-family: var(--sans); font-size: 13px; color: var(--faint); font-style: italic; margin: 8px auto; }
+
+.permission {
+  font-family: var(--sans);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--sol);
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin: 12px auto;
+}
+.permission .ask { color: var(--paper); margin-bottom: 6px; }
+.permission .what {
+  color: var(--mist); font-size: 13px; white-space: pre-wrap; word-break: break-word;
+  max-height: 9em; overflow: auto; margin-bottom: 10px;
+}
+.permission .actions { display: flex; gap: 8px; }
+.permission button { border-radius: 7px; padding: 5px 14px; border: 1px solid var(--line); background: var(--raised); color: var(--paper); }
+.permission button.allow { background: var(--sol); color: var(--night); border-color: var(--sol); font-weight: 600; }
+.permission.done { opacity: .55; }
+.permission.done .actions { display: none; }
+
+.meta { font-size: 12px; color: var(--faint); margin: 2px auto 0; font-family: var(--sans); }
+.error { color: var(--persi); font-family: var(--sans); font-size: 14px; margin: 10px auto; }
+.divider { text-align: center; color: var(--faint); font-size: 12px; margin: 26px auto; }
+
+.cursor::after {
+  content: ""; display: inline-block; width: 7px; height: 1.05em;
+  background: var(--crow); margin-left: 2px; vertical-align: -3px;
+  animation: blink 1s steps(2) infinite;
+}
+
+.empty { color: var(--mist); font-family: var(--serif); font-style: italic; text-align: center; margin-top: 22vh; }
+
+/* ---------------------------------------------------------------- composer */
+.composer {
+  display: flex; gap: 10px; align-items: flex-end;
+  max-width: calc(70ch + 80px);
+  width: 100%;
+  margin: 0 auto;
+  padding: 14px 40px 22px;
+}
+.composer textarea {
+  flex: 1;
+  resize: none;
+  max-height: 40vh;
+  background: var(--panel);
+  color: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 12px 14px;
+  font: inherit;
+  font-size: 15px;
+  line-height: 1.45;
+}
+.composer textarea:focus { outline: none; border-color: var(--crow); }
+.composer button {
+  border: 0; border-radius: 10px; padding: 11px 18px;
+  background: var(--crow); color: var(--night); font-weight: 600;
+}
+.composer button:disabled { opacity: .4; cursor: default; }
+.composer .stop { background: var(--raised); color: var(--paper); border: 1px solid var(--line); }
+
+/* ---------------------------------------------------------------- board */
+.board {
+  border-left: 1px solid var(--line);
+  padding: 22px 22px 16px;
+  overflow-y: auto;
+  display: flex; flex-direction: column; gap: 26px;
+  font-size: 13.5px;
+}
+.board h2 { font-size: 12.5px; font-weight: 500; color: var(--faint); margin: 0 0 10px; }
+.clock .time { font-family: var(--serif); font-size: 40px; line-height: 1; font-variant-numeric: tabular-nums; }
+.clock .date { color: var(--mist); margin-top: 6px; }
+
+.events { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.events li { display: grid; grid-template-columns: 1fr auto; gap: 2px 12px; }
+.events .title { color: var(--paper); line-height: 1.35; }
+.events .when { color: var(--mist); font-size: 12.5px; grid-column: 1; }
+.events .days {
+  grid-row: 1 / span 2; grid-column: 2; align-self: center;
+  font-family: var(--serif); font-size: 22px; font-variant-numeric: tabular-nums;
+  color: var(--mist);
+}
+.events .days small { font-family: var(--sans); font-size: 11px; margin-left: 2px; }
+.events li.near .days { color: var(--persi); }
+
+.status { color: var(--mist); line-height: 1.5; }
+.status p, .status ul { margin: 0 0 .5em; }
+.status ul { padding-left: 1.1em; }
+.status strong { color: var(--paper); font-weight: 500; }
+
+.ghost .subject { color: var(--vera); font-size: 12px; margin-bottom: 4px; }
+.ghost .q { font-family: var(--serif); font-size: 15px; line-height: 1.5; margin-bottom: 10px; }
+.ghost .due { color: var(--faint); font-size: 12px; margin-bottom: 10px; }
+
+.session-info { margin-top: auto; color: var(--faint); font-size: 12px; line-height: 1.6; }
+
+@keyframes blink { 50% { opacity: 0; } }
+@keyframes pulse { 50% { opacity: .35; } }
+
+/* ---------------------------------------------------------------- small screens */
+@media (max-width: 1000px) {
+  .room { grid-template-columns: 64px minmax(0, 1fr); }
+  .board { display: none; }
+}
+@media (max-width: 640px) {
+  .room { grid-template-columns: minmax(0, 1fr); }
+  .crew { display: none; }
+  .stream { padding: 20px 16px; }
+  .composer { padding: 10px 16px 16px; }
+  .voice { margin-left: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

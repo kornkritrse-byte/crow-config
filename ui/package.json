@@ -1,0 +1,16 @@
+{
+  "name": "crow-room",
+  "version": "1.0.0",
+  "description": "Local web interface for Crow (Claude Agent SDK)",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "resume": "node server.mjs --resume"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.3.283",
+    "ws": "^8.22.0"
+  },
+  "private": true
+}
