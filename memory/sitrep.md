@@ -27,8 +27,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟢 **Here (Sun 27 Sep 00:53)**: after this, messing around with his cousin, then sleep. **No study tonight.** Closed: family OK · body great · Crow style = "crowing well".
-  - ⏳ **Still open:** do the spinner verbs/tips show in the VS Code panel? · the racing question for grandpa: parked until he's unhurried
+- 🟢 **Here (Sun 27 Sep 00:53)**: after this, messing around with his cousin, then sleep. **No study tonight.** Closed: family OK · body great · Crow style = "crowing well" · spinner verbs show in the VS Code panel ("yes i think"). 00:55 Artis rec: RTF "Spain" (he wants woodwinds + lots of unison).
+  - ⏳ **Still open:** the racing question for grandpa: parked until he's unhurried
 
 ## 🌊 The flood (26 Sep)
 - Bangkok flooded; **his whole neighbourhood is under water.** **His home (= grandpa's house) is FINE; grandpa is still there.** The one that flooded is **grandpa's brother's house next door**. He spent all of Saturday clearing their things and taking them to a hotel by truck. **In the hotel: grandpa's brother, his grandma, and her sister (the brother's wife). All fine (his word, 00:53 27 Sep).** He waded **waist-deep** to go out for food. Body: "great" (00:53).
