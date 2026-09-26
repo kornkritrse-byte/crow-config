@@ -23,9 +23,18 @@
     <main class="talk">
       <div id="stream" class="stream" aria-live="polite"></div>
       <button id="jump" class="jump" type="button" hidden>Jump to latest</button>
+      <section id="todos" class="todos" hidden aria-label="Crow's task list"></section>
       <form id="composer" class="composer">
         <div class="field">
-          <textarea id="input" rows="1" placeholder="Talk to Crow" autocomplete="off" aria-label="Message"></textarea>
+          <div id="attachments" class="attachments" hidden></div>
+          <div class="box">
+            <button id="attach" type="button" class="attach" title="Attach images, PDFs or text files (or paste / drop them)" aria-label="Attach files">
+              <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" d="M14.5 9.5 9 15a3.5 3.5 0 0 1-5-5l6.5-6.5a2.3 2.3 0 0 1 3.3 3.3L7.4 13.2a1.1 1.1 0 0 1-1.6-1.6L11.5 6"/></svg>
+            </button>
+            <textarea id="input" rows="1" placeholder="Talk to Crow. Type / for commands, @ for files" autocomplete="off" aria-label="Message"></textarea>
+          </div>
+          <input id="file-input" type="file" multiple accept="image/png,image/jpeg,image/gif,image/webp,application/pdf,text/*,.md,.csv,.json" hidden>
+          <div id="popup" class="popup" role="listbox" hidden></div>
           <div class="hint">Enter to send, Shift+Enter for a new line, Esc to stop Crow</div>
         </div>
         <button id="send" type="submit">Send</button>
@@ -54,6 +63,11 @@
         </section>
       </div>
       <footer class="board-foot">
+        <span class="label" id="mode-label">Mode</span>
+        <div class="segmented" role="radiogroup" aria-labelledby="mode-label">
+          <button type="button" data-mode="auto" role="radio">Normal</button>
+          <button type="button" data-mode="plan" role="radio">Plan first</button>
+        </div>
         <label for="model">Model</label>
         <select id="model"></select>
         <div id="model-note" class="model-note"></div>
