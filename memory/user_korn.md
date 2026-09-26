@@ -8,7 +8,7 @@ metadata:
   originSessionId: 46dfe37f-9088-4239-b54e-77c878ea0035
 ---
 
-Korn is 19 years old, Thai, based in Bangkok. **Thammasat University — BBA, major in Accounting, minor in Finance.** Now a sophomore (finished freshman year mid-2026). Has small side projects running.
+Korn is 19 years old (**birthday 29 March**; turns 20 on 29 Mar 2027), Thai, based in Bangkok. **Thammasat University — BBA, major in Accounting, minor in Finance.** Now a sophomore (finished freshman year mid-2026). Has small side projects running.
 
 **Interests:** Bass guitar (few months in, show coming up with friends), guitar (longer history), loves music and music theory. Reads classical literature and philosophy for meaning, not aesthetic. Runs and goes to the gym. Watches basketball (plays less than he used to). Occasional doomscrolling.
 

@@ -6,12 +6,12 @@
 - [**SITREP**](sitrep.md) — rolling situation report: current state + last TWO sessions only; maintained LIVE in-session, verified+flushed at day-end (marker + Stop hook — see Artis Nightly Quote rule); deep-night reflections live in chapters.md (sitrep keeps one pointer bullet), older notes flush to sessions_log.md
 
 ## 🎯 Active — Midterms (TOP PRIORITY through 4 Oct)
-- [Midterms](project_midterms.md) — **4 of 6 SAT; flood postponed the last two to Fri 2 Oct + Sun 4 Oct (which paper is which: TBC).** ✅ MK201 · AC313 · FN201 (badly, cohort-wide) · EL221. Left: **AC311 · BA202 (MCQ, open 4-A4 sheet, NOT printed, shaky).** Holds the valuation pre-flight, the AC313 teaching keys, and the LN3/LN5 findings. 🚨 He has attended ZERO BA202 classes (the 45% paper) — transcripts L1–L7 are on disk, scope confirmed PIT-dominant.
+- [Midterms](project_midterms.md) — **4 of 6 SAT; flood postponed the last two → **AC311 Fri 2 Oct · BA202 Sun 4 Oct**, 09:00.** ✅ MK201 · AC313 · FN201 (badly, cohort-wide) · EL221. Left: **AC311 · BA202 (MCQ, open 4-A4 sheet, NOT printed, shaky).** Holds the valuation pre-flight, the AC313 teaching keys, and the LN3/LN5 findings. 🚨 He has attended ZERO BA202 classes (the 45% paper) — transcripts L1–L7 are on disk, scope confirmed PIT-dominant.
 
 ## 🟢 Active — other
 - [Ghost Deck](ghost_deck.md) — spaced-repetition deck of his drill MISSES; hook serves one cold at session start; every miss → `bin/ghost.py add` that turn
 - [Said/Did Ledger](ledger_said_did.md) — his dated "I'll do X"s, checked next session; weekly follow-through % on Sundays (Vera's evidence, not a guilt list)
-- Time capsules (`capsules/`, `bin/capsules.py`) — sealed letters surfaced on their date by the hook: 2026-12-12 race eve · 2027-09-16 your people. Deliver whole, then mark opened
+- Time capsules (`capsules/`, `bin/capsules.py`) — sealed letters surfaced on their date by the hook: 2026-12-12 race eve · 2027-03-29 his 20th birthday · 2027-09-16 your people. Deliver whole, then mark opened
 - Vex subagent (`crow-config/.claude/agents/vex.md`) — cold, context-free devil's advocate; brief with the plan + facts only
 - [Morning Person](project_morning_person.md) — his own call 13 Sep 2026: actively trying to become one and "make use of the time in my days"; first attempt Mon 14 Sep (gym before class). ⚠️ Collides with the midnight–1am study pattern — track whether mornings HAPPEN, not whether he still wants them
 - [Training Plan](project_training_plan.md) — ⚠️ goal changed 23 Aug to LEANER ONLY (climber shaping dropped, weight work now full-body retention); 4 days/wk = 2 gym (1hr weights + 1hr cardio) + 2 runs; run structure pending his running stats; 5k-in-20:00 is the horizon goal

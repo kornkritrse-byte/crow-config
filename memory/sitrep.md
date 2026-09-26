@@ -28,7 +28,7 @@ metadata:
 
 ## 🚪 Current status
 - 🟢 **Here (Sun 27 Sep, 00:19)** — day off by his call: flood day, family evening, now messing around with his cousin before sleep. **No study tonight, and don't push it.**
-  - ⏳ **ASK ON RETURN:** (1) **which paper is Fri 2 Oct and which is Sun 4 Oct?** (assumed AC311 → 2, BA202 → 4; not confirmed, calendar NOT moved yet) · (2) grandpa + family OK in the hotel? · (3) when he's unhurried, not urgent: **did he ask grandpa about the racing?** (the 17 Sep move → [[sessions-log]])
+  - ⏳ **ASK ON RETURN:** (1) grandpa + family OK in the hotel? · (2) when he's unhurried, not urgent: **did he ask grandpa about the racing?** (the 17 Sep move → [[sessions-log]])
 
 ## 🌊 The flood (26 Sep)
 - Bangkok flooded; **his whole neighbourhood is under water.** His house is fine. **Grandpa's house flooded**: he spent all of Saturday clearing their things and getting grandpa's brother's family into a hotel by truck. He waded **waist-deep** to go out for food.
@@ -37,7 +37,7 @@ metadata:
 
 ## 🎓 Midterms — 4 of 6 SAT, 2 left → [[project-midterms]]
 - ✅ MK201 · AC313 · FN201 (went badly, cohort-wide, **don't reopen**) · EL221 (finished early).
-- 🗓️ **AC311 + BA202 postponed to Fri 2 Oct + Sun 4 Oct** (mapping TBC, see ASK). The 26/27 Sep calendar events and [[reference-upcoming-events]] need moving once he confirms.
+- 🗓️ **AC311 → Fri 2 Oct · BA202 → Sun 4 Oct**, both 09:00–12:00 (confirmed 00:33 27 Sep). Calendar + [[reference-upcoming-events]] updated.
 - **AC311 — what's left:** Problem 4 (f) + totals · cold SOCI/SOFP layouts (on 25 Sep he added Recovery, skipped GP + S&A) · the NOI-effect family (Purchases cancelling EI; DDP buyer/seller) · **The December 31 Paper** mock, unsat. His AC311 misses are seeded in [[ghost-deck]] for 28 Sep – 1 Oct.
 - **BA202 (45%, heaviest; zero classes attended):** the Four Sheets exist on screen, **NOT printed (no printer at home)** → print shop, or handwritten (the rules allow it). MCQ drilling from the sheet hasn't started. 🔴 **Carry the WHT rate table on the sheet**: she promised it verbally, but the written rules don't. Exam rules (MCQ, varied points, TBS carbon sheet, 2B pencil, ≤8 pages on 4 A4, only MR126 supplied) → [[project-midterms]].
   - 📘 The Missed Lectures — https://claude.ai/code/artifact/2c6630bc-54d1-40a5-b47e-74f69c703483
@@ -49,7 +49,7 @@ metadata:
 - 🧹 `bin/lint-sitrep.py` flags rule breaks in this file → **fix whatever it prints in that session.**
 - 👻 [[ghost-deck]]: one missed question served cold at session start. **Every drill miss becomes a card that turn.**
 - 🪞 [[ledger-said-did]]: his dated "I'll do X"s, checked the next session; weekly % on Sundays.
-- 📬 `memory/capsules/`: sealed letters. **12 Dec (race eve)** and **16 Sep 2027 (a year after the funeral)**. ⏳ Asked for his **birthday** to add a third.
+- 📬 `memory/capsules/`: sealed letters. **12 Dec 2026 (race eve)** · **29 Mar 2027 (his 20th birthday)** · **16 Sep 2027 (a year after the funeral)**.
 - 😈 **Vex subagent** (`.claude/agents/vex.md`): no memory, no context, attacks a plan cold. Brief it with the plan + facts only, never with his feelings about it.
 - 🎵 Chapter soundtracks on Spotify (Artis): one playlist per chapter in [[chapters]].
 

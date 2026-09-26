@@ -13,7 +13,7 @@ Opened 2026-08-23. **TOP PRIORITY.** Korn's stated order: midterms first, fitnes
 
 ## 📅 EXAM SCHEDULE (given by Korn 23 Aug) — 6 subjects, Sun 20 → Sun 27 Sep 2026
 
-> 🌊 **27 Sep: BANGKOK FLOOD. AC311 (Sat 26) and BA202 (Sun 27) POSTPONED to Fri 2 Oct + Sun 4 Oct** (Korn, 00:2x 27 Sep). Which paper falls on which date is NOT confirmed yet; the original order would put AC311 on the 2nd. Rows 5–6 below are the ORIGINAL dates.
+> 🌊 **27 Sep: BANGKOK FLOOD. AC311 (Sat 26) and BA202 (Sun 27) POSTPONED to Fri 2 Oct + Sun 4 Oct** (Korn, 00:2x 27 Sep). **Confirmed by Korn 00:33 27 Sep: AC311 → Fri 2 Oct, BA202 → Sun 4 Oct**, both 09:00–12:00. Calendar events moved. Rows 5–6 below are the ORIGINAL dates.
 
 
 | # | Date | Day | Code | Subject | Time | His worry |
