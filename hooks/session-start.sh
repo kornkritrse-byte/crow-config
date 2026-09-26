@@ -37,6 +37,13 @@ if [ "$today" \< "$campDate" ] || [ "$today" = "$campDate" ]; then
 fi
 [ -n "$banner" ] && echo "=== $banner ==="
 
+# --- Extras: each prints ONLY when it has something (capsule due, ghost card
+# due, said/did items to check, SITREP rule breaks). Silent otherwise.
+# Order = delivery order: a capsule outranks everything, then the cold card.
+for s in capsules.py ghost.py ledger.py lint-sitrep.py; do
+  python3 "$repoDir/bin/$s" 2>/dev/null
+done
+
 if [ -f "$liveSitrep" ]; then
   echo "=== CROW SITREP (auto-loaded, live copy) ==="
   cat "$liveSitrep"

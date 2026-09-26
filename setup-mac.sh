@@ -25,9 +25,9 @@ claude mcp add -s user google-docs \
   -- node "$repoDir/bin/gdocs-launcher.cjs"
 
 echo "==> 4/5  Making hooks executable"
-chmod +x "$repoDir"/hooks/*.sh "$repoDir"/*.sh
+chmod +x "$repoDir"/hooks/*.sh "$repoDir"/*.sh "$repoDir"/bin/*.py
 
-echo "==> 5/5  Wiring SessionStart + Stop hooks into ~/.claude/settings.json (preserves existing keys)"
+echo "==> 5/5  Wiring SessionStart + Stop + UserPromptSubmit hooks into ~/.claude/settings.json (preserves existing keys)"
 node - "$repoDir" <<'NODE'
 const fs = require("fs");
 const repoDir = process.argv[2];
@@ -39,6 +39,7 @@ s.hooks = s.hooks || {};
 const mk = (script) => ([{ hooks: [{ type: "command", command: `bash ${repoDir}/hooks/${script}` }] }]);
 s.hooks.SessionStart = mk("session-start.sh");
 s.hooks.Stop = mk("stop.sh");
+s.hooks.UserPromptSubmit = mk("prompt-time.sh");
 fs.mkdirSync(path.dirname(settingsPath), { recursive: true });
 fs.writeFileSync(settingsPath, JSON.stringify(s, null, 2) + "\n");
 console.log("    settings.json updated:", settingsPath);

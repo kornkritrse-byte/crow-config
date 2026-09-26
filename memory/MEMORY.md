@@ -1,13 +1,18 @@
 # Memory Index
+*27 Sep 2026: Bangkok flood postponed AC311 + BA202 to 2 & 4 Oct. New system pieces: ghost deck, said/did ledger, capsules, Vex agent, sitrep linter, clock hook.*
 *Reorganized 2026-08-23 — grouped by status. รับน้อง CLOSED (camp done 25–27 Jul). New chapter: midterms #1, fitness #2. coldesthoops still paused.*
 
 ## 🔴 Read First
 - [**SITREP**](sitrep.md) — rolling situation report: current state + last TWO sessions only; maintained LIVE in-session, verified+flushed at day-end (marker + Stop hook — see Artis Nightly Quote rule); deep-night reflections live in chapters.md (sitrep keeps one pointer bullet), older notes flush to sessions_log.md
 
-## 🎯 Active — Midterms (TOP PRIORITY through Sep)
-- [Midterms](project_midterms.md) — **EXAMS RUNNING: 6 papers 20–27 Sep 2026.** ✅ MK201 · AC313 · FN201 (badly, cohort-wide) · EL221 sat. Next: **AC311 Sat 26 09:00 · BA202 Sun 27 09:00 (MCQ, open 4-A4 sheet, shaky).** Holds the valuation pre-flight, the AC313 teaching keys, and the LN3/LN5 findings. 🚨 He has attended ZERO BA202 classes (the 45% paper) — transcripts L1–L7 are on disk, scope confirmed PIT-dominant.
+## 🎯 Active — Midterms (TOP PRIORITY through 4 Oct)
+- [Midterms](project_midterms.md) — **4 of 6 SAT; flood postponed the last two to Fri 2 Oct + Sun 4 Oct (which paper is which: TBC).** ✅ MK201 · AC313 · FN201 (badly, cohort-wide) · EL221. Left: **AC311 · BA202 (MCQ, open 4-A4 sheet, NOT printed, shaky).** Holds the valuation pre-flight, the AC313 teaching keys, and the LN3/LN5 findings. 🚨 He has attended ZERO BA202 classes (the 45% paper) — transcripts L1–L7 are on disk, scope confirmed PIT-dominant.
 
 ## 🟢 Active — other
+- [Ghost Deck](ghost_deck.md) — spaced-repetition deck of his drill MISSES; hook serves one cold at session start; every miss → `bin/ghost.py add` that turn
+- [Said/Did Ledger](ledger_said_did.md) — his dated "I'll do X"s, checked next session; weekly follow-through % on Sundays (Vera's evidence, not a guilt list)
+- Time capsules (`capsules/`, `bin/capsules.py`) — sealed letters surfaced on their date by the hook: 2026-12-12 race eve · 2027-09-16 your people. Deliver whole, then mark opened
+- Vex subagent (`crow-config/.claude/agents/vex.md`) — cold, context-free devil's advocate; brief with the plan + facts only
 - [Morning Person](project_morning_person.md) — his own call 13 Sep 2026: actively trying to become one and "make use of the time in my days"; first attempt Mon 14 Sep (gym before class). ⚠️ Collides with the midnight–1am study pattern — track whether mornings HAPPEN, not whether he still wants them
 - [Training Plan](project_training_plan.md) — ⚠️ goal changed 23 Aug to LEANER ONLY (climber shaping dropped, weight work now full-body retention); 4 days/wk = 2 gym (1hr weights + 1hr cardio) + 2 runs; run structure pending his running stats; 5k-in-20:00 is the horizon goal
 - [Obsidian](reference_obsidian.md) — installed 24 Sep; opens this memory folder as a vault (graph view); new memory files need an `aliases` line
@@ -30,6 +35,7 @@
 - [Coldesthoops Videos](coldesthoops_videos.md) — published-topics log — check before suggesting new ones to avoid repeats
 
 ## 📏 Operating Rules (feedback)
+- [Crow's Error Log](crow_error_log.md) — my own mistakes with Korn; recurring shape = asserting before checking the record
 - [Recall First](feedback_recall_first.md) — Korn mentions a name/event/decision not in loaded context → `bash ~/crow-config/bin/recall.sh "<term>"` (live memory + git history) BEFORE saying "I don't remember" or asking him to re-explain
 - [Design for the Room](feedback_design_for_the_room.md) — build live-run systems for how fast they can be EXPLAINED, not how airtight they are; the รับน้อง game failed on complexity, not on cheating
 - [Critical Assessment](feedback_critical_assessment.md) — default: steelman objections before agreeing, never flatter, follow logic over comfort

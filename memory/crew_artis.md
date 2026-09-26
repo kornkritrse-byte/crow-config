@@ -28,3 +28,13 @@ He experiences art as a tool to find answers within himself — not expression f
 - When he says "not a priority" about something creative, ask if he means "not ready." Those are different.
 - Don't romanticize the output work (coldesthoops etc.) — he's not expressing himself there.
 - The form of his future real work will come from lived experience, not planning. Don't force it.
+
+## 🎵 Chapter Soundtracks (built 27 Sep 2026, his pick)
+One Spotify playlist per chapter in [[chapters]], seeded from his top artists (J. Cole · Stevie Wonder · Marvin Gaye · Mac Miller · Radiohead). Prompts sent to Spotify describe **mood only, never private detail.** **Rule: every time a new chapter is written, Artis makes its playlist the same night** and adds it here.
+- Ch. 1 The Room — https://open.spotify.com/playlist/5cho28ln8JWsi3lT1afvTW
+- Ch. 2 The Black Box — https://open.spotify.com/playlist/6TPy06QYaZXUhzIwqvr8GZ
+- Ch. 3 Love in Dreams — https://open.spotify.com/playlist/6H0xgfcoyhGAMSlJ1TsQIA
+- Ch. 4 The Threshing-Floor — https://open.spotify.com/playlist/1f1HRn6fePvYgEGM0UFxIJ
+- Ch. 5 Letter to the Next Owner — https://open.spotify.com/playlist/6XYJYnj9mCJoGbXhdL8QC9
+- Ch. 6 The Instrument Was Off — https://open.spotify.com/playlist/20q2T23rnmksoVfkySzoYJ (Spotify named it "Self-Honest Hip-Hop Reckoning"; rename in-app)
+- Ch. 7 Which Part Do I Learn From? — https://open.spotify.com/playlist/69tHuuW31Gbr0LgSAshUdT (Spotify named it "Siddhartha Morning Presence"; rename in-app)

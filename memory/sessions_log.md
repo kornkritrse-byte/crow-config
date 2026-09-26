@@ -11,6 +11,11 @@ metadata:
 
 # Sessions Log (archive)
 
+## 2026-09-24 — AC311 marathon recap drill · BA202 Four Sheets v2 shipped  *(flushed 27 Sep)*
+- BA202 **Four Sheets v2** shipped (8 sides, landscape, cross-checked against The Missed Lectures). Links → [[reference-artifacts]].
+- AC311 recap drill ~67 Qs over all 6 PDFs (his call to widen). Fixed: balance-vs-movement, commitment directions, contingent liabilities. Still weak: stops one sentence early, Dr/Cr inversion, lender vs borrower on notes.
+- Ajarn Pailin: account names needn't be exact, just sensible → stopped drilling wording.
+
 ## 2026-09-19 — MK cold gauntlet, the "somehow" diagnosed
 - He opened wanting to SKIP MK ("flew through them with confidence somehow"). Crow objected on the word "somehow" + that the prior run was the friend-group session. Deal: 25-min cold gauntlet, 6 items, no notes.
 - **Result 2 clean · 2 partial · 2 miss · 1 handed over.** ❌ social vs societal (axis = philosophy vs practice) · ❌ private vs licensed (owner inverted) · ✅ five differentiation bases · ⚠️ image vs personality (drifted to USER imagery, no Aaker vocab) · ✅ three industrial classes · ✅ four targeting strategies — and he **labelled his own uncertainty unprompted** for the first time.
