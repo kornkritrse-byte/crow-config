@@ -11,12 +11,15 @@ metadata:
 
 ## 🏃 2026-09-27: HALF MARATHON ADDED (Sun 17 Jan 2027, จอมบึง / Chombueng, Ratchaburi)
 **How it happened (his correction, 27 Sep 01:50):** Korn talked about running a lot with his dad and never proposed a race. **His dad got back into running because of it**, signed up for races himself, then called one afternoon: "hey, sign up too", and signed Korn up. So Korn's influence was indirect: **he got his dad running again.** The race itself was his dad's invitation, which Korn accepted. (Crow first read "with me nudging him" as "Korn pushed for it". Wrong, see [[crow-error-log]].)
-- 👨 **His dad is running too** (at least his own races; confirm he's doing Chombueng). He's the likely source for bib pickup and race-morning logistics for both races.
+- 👨 **His dad is running Chombueng too** (confirmed 27 Sep). He's the likely source for bib pickup and race-morning logistics for both races.
 - **Race calendar now:** 10K Samitivej **Sun 13 Dec** (target 48:00) → **half marathon 35 days later.** They fit: the 10K becomes a fitness check inside the half build, not a competing goal.
 - **Runway:** training resumes after midterms (BA202 is 4 Oct) → **~15 weeks** to 17 Jan. His longest run is **12 km** (Aug), and his easy pace is 6:30–7:00/km. Finishing a half from a 12k base in 15 weeks is realistic. The thing that decides it is the **weekly long run**, which the current plan (2 runs + 2 treadmill after lifting, all 30–40 min) **doesn't have**.
 - ⚠️ **Ankle tendon (torn 2024):** the long-run ramp is where it's most likely to flare. Build the long run by ~1–2 km/week with a cutback week every 3rd–4th week, peaking around 18–19 km ~3 weeks out (late Dec).
 - ⚠️ The 5k-in-20:00 goal assumed speed work. With two races on the calendar, **endurance leads until 17 Jan** and 20:00 waits.
-- Open: time goal or just finish? Chombueng course and start-time details not checked yet (guess: a very early start; verify before planning race morning). Bib pickup for both races.
+- 🎯 **Goal: under 2:00** (his call 27 Sep: "better too high than too low") = **5:41/km average.** Estimated from his 25:30 5k TT (Riegel): **~1:57–2:01 if the endurance were trained**, so the goal is realistic, not a reach. His 10K target of 48:00 implies ~1:46, so sub-2 is actually the softer of his two race goals. What decides it is **long runs, not speed**.
+- 👨 **Dad IS running Chombueng**, but Korn runs his own race ("respectfully hes kinda ass"). Don't plan joint long runs.
+- 🗓️ On the **Life calendar** (event id `lr4fvram3ocohcu9e84qb5oc1k`, all-day 17 Jan).
+- Open: Chombueng course and start-time details not checked yet (guess: a very early start; verify before planning race morning). Bib pickup for both races.
 
 ## ⚠️ 2026-08-23 — GOAL CHANGED, July plan superseded
 

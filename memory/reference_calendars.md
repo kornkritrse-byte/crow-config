@@ -16,3 +16,5 @@ Korn's calendars (as of 2026-07-02, all Asia/Bangkok unless noted):
 - **Holidays in Thailand** — Google-managed
 
 **How to apply:** camp → Rubnong34x35, personal → Life, and always `notificationLevel: NONE` per his standing rule ([[feedback-confirm-before-sending]]). No create-calendar tool exists — he makes new calendars manually in the UI, then they show up in list_calendars.
+
+⚠️ **All-day event gotcha (27 Sep 2026):** with `allDay: true`, give start/end as **UTC midnight** (`2027-01-17T00:00:00Z` → `2027-01-18T00:00:00Z`). A `+07:00` offset gets converted to UTC and lands the event **one day early**. It happened with the half marathon; fixed via update_event. Check the returned `start.date` every time.
