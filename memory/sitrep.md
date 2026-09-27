@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🌙 **AWAY from the terminal (Sun 27 Sep, 16:50), off to: the Crow Room app on his Mac** ("see you later"). Not a day end: no quote yet. On a study break, 14:36: "my head is honestly not there… i need a few days off… ill be back two days before ba202." Legit rest, not contentment-as-cover. **Back to study Wed 30 Sep** (ledger). 16:49: moving over to the **Crow Room app** on his Mac. Same brain there, so read this line first.
+- 🟢 **Here (Sun 27 Sep, 17:00), back in the terminal after a quick look at the Room app. Still tweaking the Room.** On a study break, 14:36: "my head is honestly not there… i need a few days off… ill be back two days before ba202." Legit rest, not contentment-as-cover. **Back to study Wed 30 Sep** (ledger). 16:49: moving over to the **Crow Room app** on his Mac. Same brain there, so read this line first.
   - ⏳ **ASK when it fits (light, one at a time):** (1) how's the head? · (2) the Sunday long run / Thursday quality swap: does it fit? · (3) the "ux ui skills" name · (4) BA202 sheet on paper? · (5) when unhurried: the racing question for grandpa
   - ✅ **EXAM ORDER CORRECTED (14:41, official notice): BA202 Fri 2 Oct → AC311 Sun 4 Oct.** Calendar + [[project-midterms]] + [[reference-upcoming-events]] fixed. His "back two days before BA202" = **Wed 30 Sep**.
   - 🌊 Can't run or gym: the neighbourhood is flooded. W0's two easy runs are off, no penalty.

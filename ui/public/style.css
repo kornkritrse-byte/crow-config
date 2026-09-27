@@ -479,6 +479,7 @@ canvas { image-rendering: pixelated; image-rendering: crisp-edges; }
   font-family: var(--sans); font-style: normal; margin: 0 auto; max-width: none;
   display: flex; flex-direction: column; align-items: center; gap: 14px; padding-top: 4px;
 }
+.room-idle .room-title { display: block; image-rendering: pixelated; margin: 6px 0 2px; filter: drop-shadow(0 0 18px rgba(242, 194, 48, .18)); user-select: none; }
 .room-idle .dateline { color: var(--mist); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; font-weight: 700; display: flex; gap: 14px; align-items: center; }
 .room-idle .dateline i { width: 4px; height: 4px; background: var(--faint); border-radius: 50%; }
 .room-idle .scene {
@@ -496,7 +497,6 @@ button.hot { cursor: pointer; }
   padding: 8px 11px; font-size: 12.5px; line-height: 1.4; white-space: nowrap; color: var(--paper);
 }
 .room-idle .tip b { display: block; color: #f0a64a; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; }
-.room-idle .idle-quiet { margin: 0; color: var(--mist); font-size: 15px; }
 .room-idle .starters { margin-top: 0; }
 
 /* the board's corner: a still crop of the room, the lamp says what Crow is doing */
@@ -553,3 +553,5 @@ body.dim .room-idle .scene canvas { filter: brightness(.72); }
 .task .quiet { align-self: flex-start; }
 .task .quiet.done, .task .quiet:disabled { color: var(--artis); border-color: color-mix(in srgb, var(--artis) 40%, transparent); cursor: default; }
 .task-empty { color: var(--faint); font-size: 13px; padding-top: 6px; }
+body.room-empty .stream { padding-top: 22px; }
+.empty.room-idle { gap: 12px; }

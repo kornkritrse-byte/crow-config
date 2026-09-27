@@ -17,13 +17,6 @@
   const pose = () => (mode === "thinking" ? "think" : mode === "waiting" ? "wait" : "idle");
   const lampState = () => (mode === "thinking" ? "bright" : "on");
 
-  // integer scale so pixels stay square: ×3 on a big screen, ×2 or ×1 when tight
-  function fitScale(el, w, h, maxW, maxH) {
-    const k = Math.max(1, Math.min(3, Math.floor(maxW / w), Math.floor(maxH / h)));
-    el.style.width = w * k + "px"; el.style.height = h * k + "px";
-    return k;
-  }
-
   // ---------------------------------------------------------------- the empty-state scene
   function emptyScene({ starters, onStarter, onLamp, onFlower, onMonitor, onCrew }) {
     const box = document.createElement("div");
@@ -32,9 +25,12 @@
     const day = now.toLocaleDateString("en-GB", { timeZone: "Asia/Bangkok", weekday: "long", day: "numeric", month: "long" });
     const time = now.toLocaleTimeString("en-GB", { timeZone: "Asia/Bangkok", hour: "2-digit", minute: "2-digit" });
     box.innerHTML = `<div class="dateline"><span>${day}</span><i></i><span>${time} Bangkok</span></div>
+      <img class="room-title" alt="คล้อดของฉัน" draggable="false">
       <div class="scene"><canvas></canvas><div class="tip" hidden></div></div>
-      <p class="idle-quiet">The room is quiet. Say something, or start with one of these.</p><div class="starters"></div>`;
+      <div class="starters"></div>`;
     const scene = box.querySelector(".scene"), canvas = scene.querySelector("canvas"), tip = scene.querySelector(".tip");
+    const T = root.ROOM_TITLE, title = box.querySelector(".room-title");
+    if (T) title.src = T[T.use].src; else title.remove();
     for (const s of starters) {
       const b = document.createElement("button"); b.type = "button"; b.textContent = s; b.onclick = () => onStarter(s);
       box.querySelector(".starters").append(b);
@@ -74,11 +70,25 @@
     requestAnimationFrame(() => sizeIdle());
     return box;
   }
+  // The room gets the biggest whole-pixel scale that fits. The title matches it,
+  // or drops one step when the screen is short (a 1440×900 MacBook): a sign can
+  // have finer pixels than the room, a room cut off at the bottom can't.
   function sizeIdle() {
     if (!idle?.canvas.isConnected) return;
-    const stream = idle.box.parentElement;
-    const scene = idle.canvas.parentElement;
-    fitScale(scene, S.W, S.H, stream.clientWidth - 48, stream.clientHeight - 190);
+    const host = idle.box.parentElement, scene = idle.canvas.parentElement;
+    const title = idle.box.querySelector(".room-title"), T = root.ROOM_TITLE?.[root.ROOM_TITLE.use];
+    const cs = getComputedStyle(host);
+    const availW = host.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight) - 8;
+    const other = idle.box.offsetHeight - scene.offsetHeight - (title ? title.offsetHeight : 0);
+    const availH = host.clientHeight - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom) - other - 4;
+    const th = title && T ? T.h : 0;
+    let k = 1, kt = 1;
+    search: for (let a = 3; a >= 1; a--) for (const b of [a, a - 1]) {
+      if (b < 1 || S.W * a > availW) continue;
+      if (S.H * a + th * b <= availH) { k = a; kt = b; break search; }
+    }
+    scene.style.width = S.W * k + "px"; scene.style.height = S.H * k + "px";
+    if (title && T) { title.style.width = T.w * kt + "px"; title.style.height = T.h * kt + "px"; }
   }
   function stopIdle() { if (idle?.timer) clearInterval(idle.timer); if (idle) idle.timer = null; }
   function rebuildIdle() {
