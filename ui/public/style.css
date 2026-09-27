@@ -538,7 +538,7 @@ body.dim .room-idle .scene canvas { filter: brightness(.72); }
 .home-btn:hover { color: var(--paper); border-color: var(--faint); }
 .home-btn[aria-pressed="true"] { color: var(--paper); background: var(--maroon); border-color: var(--maroon); }
 /* home: the room laid over the conversation */
-.home-view { position: absolute; top: 0; left: 0; right: 0; z-index: 4; background: var(--night); overflow: auto; padding: 36px 40px 24px; }
+.home-view { position: absolute; top: 0; left: 0; right: 0; z-index: 4; background: var(--night); overflow: auto; padding: 22px 12px 20px; }
 
 /* Water the flower: the plum blossom + today's tasks */
 #water-section { border-radius: 10px; transition: box-shadow .4s; }
@@ -553,5 +553,5 @@ body.dim .room-idle .scene canvas { filter: brightness(.72); }
 .task .quiet { align-self: flex-start; }
 .task .quiet.done, .task .quiet:disabled { color: var(--artis); border-color: color-mix(in srgb, var(--artis) 40%, transparent); cursor: default; }
 .task-empty { color: var(--faint); font-size: 13px; padding-top: 6px; }
-body.room-empty .stream { padding-top: 22px; }
+body.room-empty .stream { padding: 22px 12px 20px; }
 .empty.room-idle { gap: 12px; }

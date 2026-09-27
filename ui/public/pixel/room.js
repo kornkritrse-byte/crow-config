@@ -70,9 +70,9 @@
     requestAnimationFrame(() => sizeIdle());
     return box;
   }
-  // The room gets the biggest whole-pixel scale that fits. The title matches it,
-  // or drops one step when the screen is short (a 1440×900 MacBook): a sign can
-  // have finer pixels than the room, a room cut off at the bottom can't.
+  // The room fills the space it's given: past 3× it may take a fractional scale
+  // (uneven pixels don't show at that size), below 3× it stays on whole pixels so
+  // it stays crisp. The title keeps whole pixels, ×3 when it fits, else a step down.
   function sizeIdle() {
     if (!idle?.canvas.isConnected) return;
     const host = idle.box.parentElement, scene = idle.canvas.parentElement;
@@ -83,11 +83,11 @@
     const availH = host.clientHeight - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom) - other - 4;
     const th = title && T ? T.h : 0;
     let k = 1, kt = 1;
-    search: for (let a = 3; a >= 1; a--) for (const b of [a, a - 1]) {
-      if (b < 1 || S.W * a > availW) continue;
-      if (S.H * a + th * b <= availH) { k = a; kt = b; break search; }
+    for (const t of [3, 2, 1]) {
+      const fit = Math.min(availW / S.W, (availH - th * t) / S.H, 4);
+      if (fit >= 3 || t === 1) { kt = t; k = fit >= 3 ? Math.floor(fit * 20) / 20 : Math.max(1, Math.floor(fit)); break; }
     }
-    scene.style.width = S.W * k + "px"; scene.style.height = S.H * k + "px";
+    scene.style.width = Math.round(S.W * k) + "px"; scene.style.height = Math.round(S.H * k) + "px";
     if (title && T) { title.style.width = T.w * kt + "px"; title.style.height = T.h * kt + "px"; }
   }
   function stopIdle() { if (idle?.timer) clearInterval(idle.timer); if (idle) idle.timer = null; }
