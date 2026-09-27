@@ -29,6 +29,7 @@ const steps = new Map();   // tool_use id → step element
 let models = [];
 let commands = [];
 let pending = [];          // attachments waiting to be sent: { name, type, data, url }
+let cawed = false;         // the nest crow caws once when a reply starts
 
 marked.setOptions({ gfm: true, breaks: false });
 
@@ -255,7 +256,7 @@ function handle(ev, live = true) {
     case 'user':
       endReply(); endSteps(); clearThinking();
       add(userMessage(ev));
-      if (live) toBottom();
+      if (live) { toBottom(); exitHome(); Nest.react(ev.text); cawed = false; }
       break;
     case 'busy':
       setBusy(ev.busy, live);
@@ -264,6 +265,7 @@ function handle(ev, live = true) {
       if (live) showThinking();
       break;
     case 'text_start':
+      if (live && !cawed) { Nest.play('caw'); cawed = true; }
       clearThinking(); endSteps();
       if (!reply) reply = { el: add(div('reply')), md: '' };
       else reply.md += '\n\n';
@@ -318,6 +320,7 @@ function handle(ev, live = true) {
     case 'error':
       endReply(); endSteps(); clearThinking();
       add(div('error', ev.text));
+      if (live) Nest.play('startle');
       break;
     case 'board': paintBoard(ev.board); break;
     case 'model': paintModel(ev); break;
@@ -406,18 +409,44 @@ function setBusy(b, live = true) {
 }
 
 // An empty room shows the room itself: Korn's desk at night, drawn in pixels.
+function roomScene(before) {
+  return Room.emptyScene({
+    starters: STARTERS,
+    onStarter: s => { before?.(); sendMessage(s, []); },
+    onLamp: () => Room.toggleDim(),
+    onFlower: () => { before?.(); sendMessage('Serve me the ghost card', []); },
+    onMonitor: () => $('new-session').click(),
+    onCrew: name => { before?.(); callCrew(name); },
+  });
+}
 function showEmpty() {
   if (stream.children.length) { Room.setEmpty(false); return; }
-  stream.append(Room.emptyScene({
-    starters: STARTERS,
-    onStarter: s => sendMessage(s, []),
-    onLamp: () => Room.toggleDim(),
-    onFlower: () => sendMessage('Serve me the ghost card', []),
-    onMonitor: () => $('new-session').click(),
-    onCrew: name => callCrew(name),
-  }));
+  stream.append(roomScene());
   Room.setEmpty(true);
 }
+
+// Home: the room over the top of the conversation, which stays where it is.
+let homeEl = null;
+function goHome() {
+  if (homeEl) return exitHome();
+  if (stream.querySelector(':scope > .empty')) return;          // already looking at the room
+  homeEl = div('home-view');
+  homeEl.style.height = stream.clientHeight + 'px';
+  document.querySelector('.talk').append(homeEl);
+  homeEl.append(roomScene(exitHome));
+  Room.setEmpty(true);
+  $('home').setAttribute('aria-pressed', 'true');
+  $('home').title = 'Back to the conversation';
+}
+function exitHome() {
+  if (!homeEl) return;
+  homeEl.remove();
+  homeEl = null;
+  Room.setEmpty(!!stream.querySelector(':scope > .empty'));
+  $('home').setAttribute('aria-pressed', 'false');
+  $('home').title = 'Home: back to the room (the conversation stays)';
+}
+$('home').onclick = goHome;
 
 // ---------------------------------------------------------------- task list
 
@@ -669,6 +698,7 @@ input.addEventListener('keydown', e => {
 });
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape' && busy && popup.hidden) ws.send(JSON.stringify({ type: 'interrupt' }));
+  else if (e.key === 'Escape' && homeEl) exitHome();
 });
 $('composer').addEventListener('submit', e => {
   e.preventDefault();

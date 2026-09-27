@@ -43,11 +43,17 @@
 
     <aside class="board" aria-label="Board">
       <div class="board-scroll">
-        <section class="mini" id="mini-section"><canvas id="mini" aria-hidden="true"></canvas><span class="cap" id="mini-cap"><i></i><span></span></span></section>
-        <section class="clock">
-          <div id="time" class="time">--:--</div>
-          <div id="date" class="date"></div>
+        <section class="clock-row">
+          <div class="clock">
+            <div id="time" class="time">--:--</div>
+            <div id="date" class="date"></div>
+          </div>
+          <canvas id="nest" class="nest"></canvas>
+          <button id="home" class="home-btn" type="button" title="Home: back to the room (the conversation stays)" aria-label="Home" aria-pressed="false">
+            <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" d="M3 9.5 10 3.5l7 6M5 8v8.5h3.8v-5h2.4v5H15V8"/></svg>
+          </button>
         </section>
+        <section class="mini" id="mini-section"><canvas id="mini" aria-hidden="true"></canvas><span class="cap" id="mini-cap"><i></i><span></span></span></section>
         <section>
           <h2>Coming up</h2>
           <ol id="events" class="events"></ol>
@@ -77,6 +83,7 @@
   <script src="pixel/px.js"></script>
   <script src="pixel/sprites.js"></script>
   <script src="pixel/scene.js"></script>
+  <script src="pixel/nest.js"></script>
   <script src="pixel/room.js"></script>
   <script src="app.js"></script>
 </body>

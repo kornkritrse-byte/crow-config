@@ -533,3 +533,16 @@ body.gutters:not(.room-empty) .gutter { display: block; }
 body.dim .crew, body.dim .board, body.dim .gutter { opacity: .38; }
 body.dim .crew:hover, body.dim .board:hover { opacity: 1; }
 body.dim .room-idle .scene canvas { filter: brightness(.72); }
+
+/* clock row: time + date, the crow's nest, the home button */
+.clock-row { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 10px; align-items: start; }
+.clock-row .date { font-size: 12.5px; line-height: 1.35; }
+.nest { width: 88px; height: 60px; display: block; cursor: pointer; border-radius: 6px; }
+.home-btn {
+  width: 32px; height: 32px; display: grid; place-items: center; border-radius: 8px;
+  background: var(--panel); border: 1px solid var(--line); color: var(--mist);
+}
+.home-btn:hover { color: var(--paper); border-color: var(--faint); }
+.home-btn[aria-pressed="true"] { color: var(--paper); background: var(--maroon); border-color: var(--maroon); }
+/* home: the room laid over the conversation */
+.home-view { position: absolute; top: 0; left: 0; right: 0; z-index: 4; background: var(--night); overflow: auto; padding: 36px 40px 24px; }

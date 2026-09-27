@@ -172,6 +172,7 @@
   function setMode(m) {
     if (m === mode) return;
     mode = m;
+    root.Nest?.setMode(m);
     paintMark(); paintMini(); rebuildIdle();
   }
   function setGhost(g) {
@@ -189,6 +190,7 @@
   function init() {
     if (store.get("dim")) document.body.classList.add("dim");
     paintMark(); paintMini(); paintPile(); paintGuitars(); layout();
+    const nest = document.getElementById("nest"); if (nest && root.Nest) root.Nest.mount(nest);
     addEventListener("resize", layout);
     // the window follows the Bangkok hour
     setInterval(() => { const h = bkkHour(); if (h !== hour) { hour = h; paintMini(); rebuildIdle(); } }, 10 * 60000);
