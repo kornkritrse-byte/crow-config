@@ -33,7 +33,7 @@
     const time = now.toLocaleTimeString("en-GB", { timeZone: "Asia/Bangkok", hour: "2-digit", minute: "2-digit" });
     box.innerHTML = `<div class="dateline"><span>${day}</span><i></i><span>${time} Bangkok</span></div>
       <div class="scene"><canvas></canvas><div class="tip" hidden></div></div>
-      <p class="quiet">The room is quiet. Say something, or start with one of these.</p><div class="starters"></div>`;
+      <p class="idle-quiet">The room is quiet. Say something, or start with one of these.</p><div class="starters"></div>`;
     const scene = box.querySelector(".scene"), canvas = scene.querySelector("canvas"), tip = scene.querySelector(".tip");
     for (const s of starters) {
       const b = document.createElement("button"); b.type = "button"; b.textContent = s; b.onclick = () => onStarter(s);
