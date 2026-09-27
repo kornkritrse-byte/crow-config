@@ -12,7 +12,7 @@ const CREW = [
 // Shown when the room is empty, so the common openers are one click away.
 const STARTERS = [
   'Read the sitrep',
-  'Serve me the ghost card',
+  'Give me a task',
   'Drill me on BA202, one question at a time',
   'What’s the one thing that matters today?',
 ];
@@ -544,8 +544,8 @@ function paintWater(board) {
   };
   for (const t of w.tasks) {
     if (t.kind === 'ghost' && g?.next) {
-      card(`Ghost card · ${g.next.subject}`, g.next.q, button('Answer it', 'quiet', () => {
-        exitHome(); input.value = `Ghost card (line ${g.next.line}), my answer: `; input.focus(); autosize();
+      card(`Task · ${g.next.subject}`, g.next.q, button('Answer it', 'quiet', () => {
+        exitHome(); input.value = `Task #${g.next.line}, my answer: `; input.focus(); autosize();
       }));
     } else if (t.kind === 'training') {
       const b = button(t.done ? 'Done ✓' : 'Done', t.done ? 'quiet done' : 'quiet', () => { b.disabled = true; ws.send(JSON.stringify({ type: 'water', kind: 'training', id: t.id })); });
@@ -557,7 +557,7 @@ function paintWater(board) {
     }
   }
   if (!box.children.length) {
-    const next = g?.next ? `Next ghost card: ${shortDay(g.next.date)}.` : '';
+    const next = g?.next ? `Next task: ${shortDay(g.next.date)}.` : '';
     box.append(div('task-empty', `Nothing due right now. ${next}`.trim()));
   }
 }

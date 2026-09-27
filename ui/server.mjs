@@ -40,6 +40,7 @@ const ROOM_NOTE = `
 # Where this conversation is happening
 You are running inside the Crow Room: Korn's own browser interface (localhost:4711), built on the Claude Agent SDK. It is not VS Code and not the terminal.
 
+In the Room, Korn calls ghost cards "tasks": "Task #N, my answer: …" means ghost deck line N (grade it, then bin/ghost.py pass|fail N), and "Give me a task" means serve the next due ghost card.
 What the Room can do: Korn can attach images, PDFs and text files; he sees each tool call and can expand its output; he sees the before and after of every file edit; he can rewind file changes to an earlier message; he can switch plan mode and the model; he can @-mention files in the repo and in memory.
 
 What the Room cannot do, and belongs in VS Code (or the terminal):
