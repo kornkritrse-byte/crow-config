@@ -87,7 +87,7 @@
     idle.draw();
   }
 
-  // ---------------------------------------------------------------- board corner + rail crow
+  // ---------------------------------------------------------------- board corner
   function paintMini() {
     const cv = document.getElementById("mini"); if (!cv) return;
     const info = S.base({ hour, blooms, lamp: lampState() });
@@ -99,10 +99,6 @@
     const cap = document.getElementById("mini-cap");
     cap.className = "cap " + mode;
     cap.lastChild.textContent = mode === "thinking" ? "Crow is thinking" : mode === "waiting" ? "Waiting on you" : "Lamp on";
-  }
-  function paintMark() {
-    const cv = document.getElementById("crow-mark"); if (!cv) return;
-    const b = new PX(16, 14); R.crow(b, 6, 13, pose()); b.toCanvas(cv);
   }
 
   // ---------------------------------------------------------------- gutters: the book pile + the guitars
@@ -173,7 +169,7 @@
     if (m === mode) return;
     mode = m;
     root.Nest?.setMode(m);
-    paintMark(); paintMini(); rebuildIdle();
+    paintMini(); rebuildIdle();
   }
   function setGhost(g) {
     const total = g?.deckTotal || 0, passed = g?.passed || 0;
@@ -189,7 +185,7 @@
 
   function init() {
     if (store.get("dim")) document.body.classList.add("dim");
-    paintMark(); paintMini(); paintPile(); paintGuitars(); layout();
+    paintMini(); paintPile(); paintGuitars(); layout();
     const nest = document.getElementById("nest"); if (nest && root.Nest) root.Nest.mount(nest);
     addEventListener("resize", layout);
     // the window follows the Bangkok hour

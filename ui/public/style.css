@@ -52,7 +52,6 @@ button { font: inherit; cursor: pointer; }
   padding: 18px 0;
   border-right: 1px solid var(--line);
 }
-.crew-mark canvas { width: 48px; height: 42px; display: block; image-rendering: pixelated; }
 .crew ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; flex: 1; }
 .crew li button {
   width: 60px;
@@ -535,11 +534,11 @@ body.dim .crew:hover, body.dim .board:hover { opacity: 1; }
 body.dim .room-idle .scene canvas { filter: brightness(.72); }
 
 /* clock row: time + date, the crow's nest, the home button */
-.clock-row { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 10px; align-items: start; }
+.clock-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; align-items: start; }
 .clock-row .date { font-size: 12.5px; line-height: 1.35; }
 .nest { width: 88px; height: 60px; display: block; cursor: pointer; border-radius: 6px; }
 .home-btn {
-  width: 32px; height: 32px; display: grid; place-items: center; border-radius: 8px;
+  width: 40px; height: 40px; flex: none; display: grid; place-items: center; border-radius: 8px;
   background: var(--panel); border: 1px solid var(--line); color: var(--mist);
 }
 .home-btn:hover { color: var(--paper); border-color: var(--faint); }
