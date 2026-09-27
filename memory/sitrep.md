@@ -37,7 +37,7 @@ metadata:
 - ⚕️ Waist-deep floodwater = **leptospirosis risk**; told him 27 Sep: fever, muscle pain (calves) or red eyes within ~2–14 days means a doctor, and say "flood water". Raise it again only if he mentions feeling ill.
 - Exams moved by the flood (see below). Expect more disruption: commute, gym (Jetts Phayathai), running routes.
 - 💧 27 Sep 21:23: water "creeping down, really slowly", then rain resets it. Little change. He popped in mid-break to chat, not to work.
-- 🎸 **NEW 21:28: he plays a CONCERT Sat 3 Oct**, between BA202 and AC311. The flood blocks band practice. On bass, homecoming for returning exchange students, band with Klao + uni + exchange friends. "Not that hyped", thinks it'll be great WITH practice, which he has no time for → [[reference-upcoming-events]].
+- 🎸 **NEW 21:28: he plays a CONCERT Sat 3 Oct**, between BA202 and AC311. The flood blocks band practice. On bass, homecoming for returning exchange students, band with Klao + uni + exchange friends. "Not that hyped", thinks it'll be great WITH practice, which he has no time for. The band practises without him; he's stuck until the water drops → [[reference-upcoming-events]].
 
 ## 🎓 Midterms — 4 of 6 SAT, 2 left → [[project-midterms]]
 - ✅ MK201 · AC313 · FN201 (went badly, cohort-wide, **don't reopen**) · EL221 (finished early).
