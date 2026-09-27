@@ -11,7 +11,7 @@ metadata:
 ## ⏸️ PAUSED 2026-08-23 — by Korn's choice, and it's the RIGHT call
 He shelved bass as a *project*: **"just playing it for fun, no real end goal, just fuck around whenever I'm free and bored."** This is not drift — CLAUDE.md already says bass and reading are **who he is, not projects to manage**. De-projectifying it returns it to what it should be. **Do NOT push Module 3, do NOT set bass goals, do NOT surface this file unless he raises it.**
 
-⚠️ **Snag he hasn't clocked:** the bass is **lent to a friend** right now. "Play whenever I'm free" is impossible without the instrument in the house. Choosing not to practise and being unable to are different things — flagged 23 Aug.
+✅ **RESOLVED 27 Sep: he has his own bass at home now** ("ive got my own now"). The snag below is history. ~~⚠️ **Snag he hasn't clocked:** the bass is **lent to a friend** right now. "Play whenever I'm free" is impossible without the instrument in the house. Choosing not to practise and being unable to are different things — flagged 23 Aug.~~
 
 **The show happened and it went great** (told 23 Aug): crowd was buying him drinks, he jumped around so hard he **tore his cable** and played the entire last song silent, miming showy moves to cover. He loved it.
 

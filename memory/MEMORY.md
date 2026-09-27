@@ -30,7 +30,7 @@
 - [Rubnong Tracker](project_rubnong_tracker.md) + [Flow Sheet](rubnong-flow-sheet.md) + [Scene 5 Flashback Video](project_scene5_flashback.md) — camp ran 25–27 Jul 2026 and CLOSED. Korn satisfied; the flashback film landed hard (people cried). Archive — don't surface unless he raises it.
 
 ## ⏸️ Paused
-- [Bass Trainer](project_bass_trainer.md) — PAUSED 23 Aug by Korn: bass is for fun now, no end goal, Module 3 shelved. Don't push it. (Bass currently lent to a friend.)
+- [Bass Trainer](project_bass_trainer.md) — PAUSED 23 Aug by Korn: bass is for fun now, no end goal, Module 3 shelved. Don't push it. (Has his OWN bass at home now, 27 Sep; the lent one was a different instrument.)
 
 ## ⏸️ Paused (2026-07-02)
 - [Coldesthoops Pipeline](project_coldesthoops.md) — PAUSED. Shorts pipeline (Windows-only); #9 built-not-published + teaser-test wiring are the first moves on unpause
