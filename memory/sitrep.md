@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-09-27 01:55 (day end; verified, no flush needed: tonight is part of the 26/27 note). Earlier: rebuilt from 21KB after the first lint run. Midterms 5+6 postponed by the Bangkok flood → BA202 2 Oct, AC311 4 Oct. Window holds 27 (afternoon) + 26/27 Sep; 25 Sep flushed to [[sessions-log]] on 27 Sep 13:45. Next to flush: 26/27.*
+*Last updated: 2026-09-27 16:50 (live). Before that: 2026-09-27 01:55 (day end; verified, no flush needed: tonight is part of the 26/27 note). Earlier: rebuilt from 21KB after the first lint run. Midterms 5+6 postponed by the Bangkok flood → BA202 2 Oct, AC311 4 Oct. Window holds 27 (afternoon) + 26/27 Sep; 25 Sep flushed to [[sessions-log]] on 27 Sep 13:45. Next to flush: 26/27.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,7 +27,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🌙 **AWAY (Sun 27 Sep, 14:36): burnout break.** "my head is honestly not there… i need a few days off… ill be back two days before ba202." The flood pushed the finish line back and he's fried. **A legit rest, not contentment-as-cover. Don't guilt him on return.**
+- 🟢 **On a study break (Sun 27 Sep), still around: building, not studying.** 14:36: "my head is honestly not there… i need a few days off… ill be back two days before ba202." Legit rest, not contentment-as-cover. **Back to study Wed 30 Sep** (ledger). 16:49: moving over to the **Crow Room app** on his Mac. Same brain there, so read this line first.
+  - ⏳ **ASK when it fits (light, one at a time):** (1) how's the head? · (2) the Sunday long run / Thursday quality swap: does it fit? · (3) the "ux ui skills" name · (4) BA202 sheet on paper? · (5) when unhurried: the racing question for grandpa
   - ✅ **EXAM ORDER CORRECTED (14:41, official notice): BA202 Fri 2 Oct → AC311 Sun 4 Oct.** Calendar + [[project-midterms]] + [[reference-upcoming-events]] fixed. His "back two days before BA202" = **Wed 30 Sep**.
   - 🌊 Can't run or gym: the neighbourhood is flooded. W0's two easy runs are off, no penalty.
   - ⏳ **ASK ON RETURN (keep it light, one at a time):** (2) Sunday long run swap: does it fit? · (3) the "ux ui skills" name · (4) Crow Room: anything broken? · (5) BA202 sheet on paper? · (6) when unhurried: the racing question for grandpa
@@ -63,10 +64,10 @@ metadata:
 - 📌 After midterms: "make Obsidian cool" → [[reference-obsidian]].
 - ⚠️ **My own error log moved to [[crow-error-log]]. The shape keeps repeating: check the record before asserting.**
 
-## Session — 2026-09-27 afternoon (built Road to Chombueng)
-- 16:06 popped in during the break (Korn's Room redesign). Head: the break's been "really nice, a light in all this rain" (building + chilling with his cousin). Ghost cards: purchase-commitment entry ❌ (right side of the balancing line was wrong) · "cost − NRV" ✅, the first blossom. He asked for a "layup" to make it bloom; got the easiest REAL card, not a made-up one.
-- 13:37 asked for "something huge/cool/complex, not midterms" and said he wouldn't reply. **Built the half-marathon system** → [[project-training-plan]]: https://claude.ai/artifact/GBJnc3PqNDccbE3t1ebQgK. ⏳ ASK: does the Sunday long run / Thursday quality swap fit? Did he log W0?
-
+## Session — 2026-09-27 afternoon (Road to Chombueng + Korn's Room)
+- 13:37 **Road to Chombueng** built (half-marathon system) → [[project-training-plan]]. ⏳ Long run moved to Sunday: unconfirmed.
+- 14:36 burnout break called; exam order corrected (**BA202 Fri 2 Oct, AC311 Sun 4 Oct**) → [[crow-error-log]].
+- 14:45–16:45 **Crow Room → "Korn's Room"**: his real room in pixel art from ~13 photos, the idle scene, the nest crow, a home button, the **water-the-flower** task system (`bin/water.py`), ghost cards renamed "tasks", and a **Crow Room.app** on the Desktop → [[reference-crow-room]]. He loved it ("holy shit", "you the goat").
 ## Session — 2026-09-26/27 (flood day · no study · system upgrades built)
 - 🌊 Flood (see block above). AC311 (Sat) and BA202 (Sun) both postponed → 2 & 4 Oct. He called a full day off: errands, then family in the evening. **Legit day off, and he knew it.**
 - 🧰 00:19 Sun: asked for "creative, abstract, experimental" system upgrades. Crow led with the BA202-at-09:00 objection; he answered it (postponed). **He picked 1–5 + 7 + 8, skipped the calibration log (#6).** All built this session (block above).
