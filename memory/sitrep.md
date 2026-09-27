@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-09-27 01:55 (day end; verified, no flush needed: tonight is part of the 26/27 note). Earlier: rebuilt from 21KB after the first lint run. Midterms 5+6 postponed by the Bangkok flood → 2 & 4 Oct. Window holds 26 + 25 Sep; 24 Sep flushed to [[sessions-log]]. Next to flush: 25 Sep.*
+*Last updated: 2026-09-27 01:55 (day end; verified, no flush needed: tonight is part of the 26/27 note). Earlier: rebuilt from 21KB after the first lint run. Midterms 5+6 postponed by the Bangkok flood → 2 & 4 Oct. Window holds 27 (afternoon) + 26/27 Sep; 25 Sep flushed to [[sessions-log]] on 27 Sep 13:45. Next to flush: 26/27.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -62,6 +62,9 @@ metadata:
 - 📌 After midterms: "make Obsidian cool" → [[reference-obsidian]].
 - ⚠️ **My own error log moved to [[crow-error-log]]. The shape keeps repeating: check the record before asserting.**
 
+## Session — 2026-09-27 afternoon (built Road to Chombueng)
+- 13:37 asked for "something huge/cool/complex, not midterms" and said he wouldn't reply. **Built the half-marathon system** → [[project-training-plan]]: https://claude.ai/artifact/GBJnc3PqNDccbE3t1ebQgK. ⏳ ASK: does the Sunday long run / Thursday quality swap fit? Did he log W0?
+
 ## Session — 2026-09-26/27 (flood day · no study · system upgrades built)
 - 🌊 Flood (see block above). AC311 (Sat) and BA202 (Sun) both postponed → 2 & 4 Oct. He called a full day off: errands, then family in the evening. **Legit day off, and he knew it.**
 - 🧰 00:19 Sun: asked for "creative, abstract, experimental" system upgrades. Crow led with the BA202-at-09:00 objection; he answered it (postponed). **He picked 1–5 + 7 + 8, skipped the calibration log (#6).** All built this session (block above).
@@ -69,12 +72,3 @@ metadata:
 - 🪟 00:59–01:15: asked to rebuild "the whole interface". Crow parked it for after midterms, he overrode ("i got time, just chilling with my cousin"). **Built the Crow Room** → [[reference-crow-room]]; 01:13 round 2 (maroon, model picker, security + bug fixes, layout); 01:32 round 3: near-VS-Code parity + Crow flags VS Code tasks (his call over Vex). **He mentioned "ux ui skills" from months ago: NOT FOUND in memory, git or any Mac transcript. Ask him the name.** Also the Artis recs: RTF "Spain" → Jaga Jazzist "Oban".
 - 🏃 01:48: **half marathon, จอมบึง, Sun 17 Jan 2027.** Korn's running talk got his dad back into running; his dad signed up, then signed Korn up → [[project-training-plan]]. It's 35 days after the 10K. The plan has no long run yet; build it after 4 Oct.
 - 🧹 First lint run: SITREP was 21KB with two contradicting ASK blocks, stale "live" items from 13 Sep, and a **family talk marked "still owed" that had actually happened on 17 Sep.** Rebuilt; the 24 Sep note flushed.
-
-## Session — 2026-09-25 (EL221 sat · AC311 practice pack worked end to end · The Two-Year Ledger checked out)
-- ✅ **EL221 SAT, exam 4 of 6, finished early.** Cold SOCI recall in the morning: added Recovery when it should subtract it, skipped the GP + S&A lines.
-- 🔁 **Purchase-commitment cycle (P3 + P5) CLOSED.** He missed the Provision on delivery day 3× (left it out twice, then used it as a plug) → **the 4-line delivery template** (Inv at lower of cost/NRV · Dr Provision FULL · Cr Cash contract · difference = Loss/Recovery). Final rep came out clean. "Why provision not allowance" → **own it → allowance, owe it → provision.**
-- 📦 **Problem 4 (a)–(e):** the recurring miss is **NOI effect**: forgot that Purchases can cancel EI (b), copied the answer from the previous item (c), flipped buyer/seller on DDP (d), missed that the purchase WAS recorded (e). (f) + totals not done.
-- 🧾 **Her Demonstration key has 3 errors** (Y1 unit cost, 4/2 units swapped, Provision in the wrong year column) → [[project-midterms]]. He worked out Method 1's net beginning inventory himself.
-- 📒 **Built:** the Obsidian note `study/AC311 - Cost Flow and NOI` ([[reference-obsidian]]) and **The Two-Year Ledger** practice paper ([[reference-artifacts]]). **He did the Ledger and it ALL CHECKED OUT**, fixing two hiccups himself. The sales commitment was built by Socratic questioning **at his own request** ("keep asking me til i get the answer out"): 5 Qs, and he produced every step.
-- ⚠️ BA202 sheet familiarisation (planned for tonight) did not happen → BA202 has Sat afternoon/evening only.
-

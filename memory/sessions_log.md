@@ -380,3 +380,9 @@ metadata:
 - 🧊 **TWO PACING CORRECTIONS FROM HIM: *"can you shorten the explanation please"* and *"relax bro."*** Long blocks and clock-pressure both landed as friction, not help → [[feedback-drill-format]].
 - 🪤 **THE TIE-OUT FALSE-PASS, named twice tonight:** he offered 174,000 as proof when 174,000 *is the input side* and ties regardless. Same shape as the 686 bound check on 20 Sep. **A check that cannot fail is not a check.**
 
+## 2026-09-25 (flushed 27 Sep)
+- ✅ EL221 sat (4 of 6), finished early. Cold SOCI recall: Recovery added instead of subtracted; GP + S&A skipped.
+- 🔁 Purchase-commitment cycle closed via the 4-line delivery template; "own it → allowance, owe it → provision".
+- 📦 Problem 4 (a)–(e): NOI-effect misses; (f) + totals left. Her Demonstration key has 3 errors → [[project-midterms]].
+- 📒 Built the Obsidian note + The Two-Year Ledger; he sat it and it all checked out. Sales commitment built Socratically at his request.
+- ⚠️ BA202 sheet familiarisation didn't happen.

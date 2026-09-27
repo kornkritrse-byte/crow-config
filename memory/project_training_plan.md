@@ -13,13 +13,22 @@ metadata:
 **How it happened (his correction, 27 Sep 01:50):** Korn talked about running a lot with his dad and never proposed a race. **His dad got back into running because of it**, signed up for races himself, then called one afternoon: "hey, sign up too", and signed Korn up. So Korn's influence was indirect: **he got his dad running again.** The race itself was his dad's invitation, which Korn accepted. (Crow first read "with me nudging him" as "Korn pushed for it". Wrong, see [[crow-error-log]].)
 - 👨 **His dad is running Chombueng too** (confirmed 27 Sep). He's the likely source for bib pickup and race-morning logistics for both races.
 - **Race calendar now:** 10K Samitivej **Sun 13 Dec** (target 48:00) → **half marathon 35 days later.** They fit: the 10K becomes a fitness check inside the half build, not a competing goal.
-- **Runway:** training resumes after midterms (BA202 is 4 Oct) → **~15 weeks** to 17 Jan. His longest run is **12 km** (Aug), and his easy pace is 6:30–7:00/km. Finishing a half from a 12k base in 15 weeks is realistic. The thing that decides it is the **weekly long run**, which the current plan (2 runs + 2 treadmill after lifting, all 30–40 min) **doesn't have**.
+- **Runway:** training resumes after midterms (BA202 is 4 Oct) → **~15 weeks** to 17 Jan. His longest run is **21.5 km** (unplanned, 17 Sep, 6:39/km; see the bottom of this file), and his easy pace is 6:30–7:00/km. Finishing a half from a 12k base in 15 weeks is realistic. The thing that decides it is the **weekly long run**, which the current plan (2 runs + 2 treadmill after lifting, all 30–40 min) **doesn't have**.
 - ⚠️ **Ankle tendon (torn 2024):** the long-run ramp is where it's most likely to flare. Build the long run by ~1–2 km/week with a cutback week every 3rd–4th week, peaking around 18–19 km ~3 weeks out (late Dec).
 - ⚠️ The 5k-in-20:00 goal assumed speed work. With two races on the calendar, **endurance leads until 17 Jan** and 20:00 waits.
 - 🎯 **Goal: under 2:00** (his call 27 Sep: "better too high than too low") = **5:41/km average.** Estimated from his 25:30 5k TT (Riegel): **~1:57–2:01 if the endurance were trained**, so the goal is realistic, not a reach. His 10K target of 48:00 implies ~1:46, so sub-2 is actually the softer of his two race goals. What decides it is **long runs, not speed**.
 - 👨 **Dad IS running Chombueng**, but Korn runs his own race ("respectfully hes kinda ass"). Don't plan joint long runs.
 - 🗓️ On the **Life calendar** (event id `lr4fvram3ocohcu9e84qb5oc1k`, all-day 17 Jan).
 - Open: Chombueng course and start-time details not checked yet (guess: a very early start; verify before planning race morning). Bib pickup for both races.
+
+## 🛣️ 2026-09-27 (13:40) — "ROAD TO CHOMBUENG" BUILT: the full half-marathon plan now exists
+Korn asked for "something huge, cool, complex… not midterms" and said he wouldn't reply. Crow built the missing long-run plan as a live artifact: **https://claude.ai/artifact/GBJnc3PqNDccbE3t1ebQgK** (files in the session scratchpad, `road/`).
+- **16 weeks, W0 28 Sep → W15 race 17 Jan.** W0 = exam hold (2 × easy 30′). TT **Thu 8 Oct** (re-baseline) and **Thu 29 Oct** (sub-24:00 milestone). Long run 10 → 16 km (W7) → cutback → 10K race 13 Dec → **18 km (27 Dec) → 19 km with last 6 @ half pace (3 Jan)** → taper. Rehearsals at race time (eat 03:30, run 05:00) on 29 Nov + 6 Dec. Gel at 45′ from W5.
+- ⚠️ **Structural change, Crow's call, not yet seen by Korn: long run moved Sat → SUNDAY and quality → THURSDAY**, because AC311 is on Saturday 09:00 from 3 Oct and both races are Sundays. The page has a toggle back to Saturday. **Ask him if it fits.**
+- Engine seeded at VDOT 38.3 (25:00 true 5K). Goals stored: 10K 48:00 (needs VDOT ~42.0, a +3.7 gap) · half 1:59:30 (needs ~36.6, **already covered**, so distance is what's missing).
+- The page's `db` holds his logs (`runs/<YYYY-MM-DD>`: status, km, sec, hr, rpe, knee 0–3, notes) + `profile/main`. **Crow can read them with ArtifactData `list` on collection `runs`**, so read before asking him how training went.
+- Also: Bangkok heat correction (temp+dew point rule of thumb), Banister fitness/fatigue/form, acute:chronic, knee watch (flags a knee ≥2 on a run under 12 km), race split cards + race-morning timelines, and "Ask Crow" (sample capability).
+- Open: Chombueng start time and whether they drive the same morning or sleep there (the page takes both as inputs).
 
 ## ⚠️ 2026-08-23 — GOAL CHANGED, July plan superseded
 
