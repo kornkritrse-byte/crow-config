@@ -68,7 +68,8 @@ function lightUp(voice) {
 // ---------------------------------------------------------------- rendering helpers
 
 function atBottom() { return stream.scrollHeight - stream.scrollTop - stream.clientHeight < 80; }
-function toBottom() { follow = true; stream.scrollTop = stream.scrollHeight; }
+// Instant, not the stream's CSS smooth scroll: a glide in flight swallows his wheel.
+function toBottom(behavior = 'instant') { follow = true; stream.scrollTo({ top: stream.scrollHeight, behavior }); }
 function add(el) {
   if (stream.querySelector('.empty')) { stream.querySelector('.empty').remove(); Room.setEmpty(false); }
   stream.append(el);
@@ -113,7 +114,7 @@ new MutationObserver(() => {
   pinQueued = true;
   requestAnimationFrame(() => { pinQueued = false; if (follow) toBottom(); });
 }).observe(stream, { childList: true, subtree: true, characterData: true });
-jump.onclick = () => { toBottom(); jump.hidden = true; };
+jump.onclick = () => { toBottom('smooth'); jump.hidden = true; };
 
 function renderMarkdown(md) {
   return DOMPurify.sanitize(marked.parse(md.replace(/\[\[([^\]]+)\]\]/g, '$1')));
