@@ -27,8 +27,9 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟢 **Here (Sun 27 Sep, 14:24).** Back after the cousin hangout; asked for the big build (Road to Chombueng).
-  - ⏳ **ASKED 14:24, not yet answered:** (1) Sunday long run / Thursday quality swap: does it fit? · (2) the "ux ui skills" name · (3) Crow Room first use: anything broken? · (4) BA202 sheet on paper yet? · (5) when unhurried: the racing question for grandpa
+- 🌙 **AWAY (Sun 27 Sep, 14:36): burnout break.** "my head is honestly not there… i need a few days off… ill be back two days before ba202." The flood pushed the finish line back and he's fried. **A legit rest, not contentment-as-cover. Don't guilt him on return.**
+  - ⚠️ "Two days before BA202" = **Fri 2 Oct = the AC311 exam.** Flagged to him; his answer decides the return date.
+  - ⏳ **ASK ON RETURN (keep it light, one at a time):** (1) how's the head? · (2) Sunday long run swap: does it fit? · (3) the "ux ui skills" name · (4) Crow Room: anything broken? · (5) BA202 sheet on paper? · (6) when unhurried: the racing question for grandpa
 ## 🌊 The flood (26 Sep)
 - Bangkok flooded; **his whole neighbourhood is under water.** **His home (= grandpa's house) is FINE; grandpa is still there.** The one that flooded is **grandpa's brother's house next door**. He spent all of Saturday clearing their things and taking them to a hotel by truck. **In the hotel: grandpa's brother, his grandma, and her sister (the brother's wife). All fine (his word, 00:53 27 Sep).** He waded **waist-deep** to go out for food. Body: "great" (00:53).
 - ⚕️ Waist-deep floodwater = **leptospirosis risk**; told him 27 Sep: fever, muscle pain (calves) or red eyes within ~2–14 days means a doctor, and say "flood water". Raise it again only if he mentions feeling ill.
