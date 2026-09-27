@@ -27,12 +27,12 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟢 **HERE (Sun 27 Sep, 21:37): back in the terminal to work on the Room** ("yoyoyo lets work on the room"). Still on the study break (**back to study Wed 30 Sep**, ledger). Not a day end: no quote yet.
+- 🟢 **HERE (Sun 27 Sep, 21:37): back in the terminal to work on the Room** (21:45: auto-scroll bug he reported fixed + tested → [[reference-crow-room]]) ("yoyoyo lets work on the room"). Still on the study break (**back to study Wed 30 Sep**, ledger). Not a day end: no quote yet.
   - ⏳ **ASK when it fits (light, one at a time):** (1) how's the head? · (2) the Sunday long run / Thursday quality swap: does it fit? · (3) the "ux ui skills" name · (4) BA202 sheet on paper? · (5) when unhurried: the racing question for grandpa
   - ✅ **EXAM ORDER CORRECTED (14:41, official notice): BA202 Fri 2 Oct → AC311 Sun 4 Oct.** Calendar + [[project-midterms]] + [[reference-upcoming-events]] fixed. His "back two days before BA202" = **Wed 30 Sep**.
   - 🌊 Can't run or gym: the neighbourhood is flooded. W0's two easy runs are off, no penalty.
   - 🪟 **21:36: popped in to chat (the concert, the flood), then went to VS Code to tweak the Room's look.** Not a day-end, so no quote.
-  - ⏳ **ASK ON RETURN (keep it light, one at a time):** (1) did he ask Klao for the practice recordings ("ill tell him for sure")? · (2) Sunday long run swap: does it fit? · (3) the "ux ui skills" name · (4) Crow Room: anything broken? (asked 21:20, no answer, and he's now tweaking it in VS Code) · (5) BA202 sheet on paper? · (6) when unhurried: the racing question for grandpa
+  - ⏳ **ASK ON RETURN (keep it light, one at a time):** (1) did he ask Klao for the practice recordings ("ill tell him for sure")? · (2) Sunday long run swap: does it fit? · (3) the "ux ui skills" name · (5) BA202 sheet on paper? · (6) when unhurried: the racing question for grandpa
 ## 🌊 The flood (26 Sep)
 - Bangkok flooded; **his whole neighbourhood is under water.** **His home (= grandpa's house) is FINE; grandpa is still there.** The one that flooded is **grandpa's brother's house next door**. He spent all of Saturday clearing their things and taking them to a hotel by truck. **In the hotel: grandpa's brother, his grandma, and her sister (the brother's wife). All fine (his word, 00:53 27 Sep).** He waded **waist-deep** to go out for food. Body: "great" (00:53).
 - ⚕️ Waist-deep floodwater = **leptospirosis risk**; told him 27 Sep: fever, muscle pain (calves) or red eyes within ~2–14 days means a doctor, and say "flood water". Raise it again only if he mentions feeling ill.
