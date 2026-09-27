@@ -30,7 +30,7 @@ metadata:
 - 🌙 **AWAY (Sun 27 Sep, 14:36): burnout break.** "my head is honestly not there… i need a few days off… ill be back two days before ba202." The flood pushed the finish line back and he's fried. **A legit rest, not contentment-as-cover. Don't guilt him on return.**
   - ✅ **EXAM ORDER CORRECTED (14:41, official notice): BA202 Fri 2 Oct → AC311 Sun 4 Oct.** Calendar + [[project-midterms]] + [[reference-upcoming-events]] fixed. His "back two days before BA202" = **Wed 30 Sep**.
   - 🌊 Can't run or gym: the neighbourhood is flooded. W0's two easy runs are off, no penalty.
-  - ⏳ **ASK ON RETURN (keep it light, one at a time):** (1) how's the head? · (2) Sunday long run swap: does it fit? · (3) the "ux ui skills" name · (4) Crow Room: anything broken? · (5) BA202 sheet on paper? · (6) when unhurried: the racing question for grandpa
+  - ⏳ **ASK ON RETURN (keep it light, one at a time):** (2) Sunday long run swap: does it fit? · (3) the "ux ui skills" name · (4) Crow Room: anything broken? · (5) BA202 sheet on paper? · (6) when unhurried: the racing question for grandpa
 ## 🌊 The flood (26 Sep)
 - Bangkok flooded; **his whole neighbourhood is under water.** **His home (= grandpa's house) is FINE; grandpa is still there.** The one that flooded is **grandpa's brother's house next door**. He spent all of Saturday clearing their things and taking them to a hotel by truck. **In the hotel: grandpa's brother, his grandma, and her sister (the brother's wife). All fine (his word, 00:53 27 Sep).** He waded **waist-deep** to go out for food. Body: "great" (00:53).
 - ⚕️ Waist-deep floodwater = **leptospirosis risk**; told him 27 Sep: fever, muscle pain (calves) or red eyes within ~2–14 days means a doctor, and say "flood water". Raise it again only if he mentions feeling ill.
@@ -64,6 +64,7 @@ metadata:
 - ⚠️ **My own error log moved to [[crow-error-log]]. The shape keeps repeating: check the record before asserting.**
 
 ## Session — 2026-09-27 afternoon (built Road to Chombueng)
+- 16:06 popped in during the break (Korn's Room redesign). Head: the break's been "really nice, a light in all this rain" (building + chilling with his cousin). Ghost cards: purchase-commitment entry ❌ (right side of the balancing line was wrong) · "cost − NRV" ✅, the first blossom. He asked for a "layup" to make it bloom; got the easiest REAL card, not a made-up one.
 - 13:37 asked for "something huge/cool/complex, not midterms" and said he wouldn't reply. **Built the half-marathon system** → [[project-training-plan]]: https://claude.ai/artifact/GBJnc3PqNDccbE3t1ebQgK. ⏳ ASK: does the Sunday long run / Thursday quality swap fit? Did he log W0?
 
 ## Session — 2026-09-26/27 (flood day · no study · system upgrades built)
