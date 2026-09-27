@@ -9,7 +9,8 @@ before anything else.
 Deck file: memory/ghost_deck.md, one card per line:
   - <next YYYY-MM-DD> | box <n> | <subject> | Q: <question> | A: <answer>
 
-Leitner boxes: pass moves up a box, fail drops to box 1.
+Leitner boxes: pass moves up a box, fail drops to box 1. A pass also waters
+the plum blossom (bin/water.py).
   box 1 → +3 days · box 2 → +7 · box 3 → +14 · pass out of box 3 → retired (box 4)
 
 Usage:
@@ -22,6 +23,7 @@ Usage:
 import datetime as dt
 import pathlib
 import re
+import subprocess
 import sys
 
 REPO = pathlib.Path(__file__).resolve().parent.parent
@@ -56,6 +58,8 @@ def regrade(n, passed):
             lines[n - 1] = fmt(nxt, box, subj, q, a)
             DECK.write_text("\n".join(lines) + "\n")
             print("retired" if box > 3 else f"box {box}, next {nxt:%a %d %b}")
+            if passed:  # a passed card waters the plum blossom in the Crow Room
+                subprocess.run([sys.executable, str(REPO / "bin/water.py"), "add", "ghost", f"{subj}: {q[:60]}"], check=False)
             return
     sys.exit(f"no card on line {n}")
 

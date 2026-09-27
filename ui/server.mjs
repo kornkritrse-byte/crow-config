@@ -516,9 +516,68 @@ function ghostCards() {
   });
 }
 
+// ---------------------------------------------------------------- the water log (the plum blossom)
+// Every finished task waters the flower: a ghost card passed, a training session
+// done, a said/did item kept. One blossom per watering this week (Mon–Sun, Bangkok).
+const WATER_LOG = path.join(MEMORY, 'water_log.md');
+const LEDGER = path.join(MEMORY, 'ledger_said_did.md');
+const LEDGER_ROW = /^- \[(.)\] (\d{4}-\d{2}-\d{2}) → (\d{4}-\d{2}-\d{2}) \| (.+)$/;
+const TRAINING_FROM = '2026-10-05';   // training tasks start the Monday after the last midterm
+
+function waterRows() {
+  return readSafe(WATER_LOG).split('\n').map(l => l.match(/^- (\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}) \| (\w+) \| (.+)$/)).filter(Boolean)
+    .map(([, date, time, kind, what]) => ({ date, time, kind, what }));
+}
+function weekStart(today) {
+  const d = new Date(today + 'T00:00:00Z');
+  d.setUTCDate(d.getUTCDate() - ((d.getUTCDay() + 6) % 7));
+  return d.toISOString().slice(0, 10);
+}
+function trainingToday(today) {
+  if (today < TRAINING_FROM) return null;
+  try { return JSON.parse(readSafe(path.join(HERE, 'road-plan.json'))).sessions.find(s => s.date === today) || null; } catch { return null; }
+}
+function ledgerDue(today) {
+  return readSafe(LEDGER).split('\n').map((l, i) => ({ line: i + 1, m: l.match(LEDGER_ROW) }))
+    .filter(({ m }) => m && m[1] === ' ' && m[3] <= today)
+    .map(({ line, m }) => ({ kind: 'ledger', id: line, text: m[4], due: m[3] }));
+}
+function water(ghost) {
+  const today = bangkokToday(), rows = waterRows(), from = weekStart(today);
+  const tasks = [];
+  if (ghost?.next && ghost.due > 0) tasks.push({ kind: 'ghost' });
+  const t = trainingToday(today);
+  if (t) tasks.push({ kind: 'training', id: today, text: t.title, done: rows.some(r => r.kind === 'training' && r.date === today) });
+  tasks.push(...ledgerDue(today));
+  return { week: rows.filter(r => r.date >= from).length, tasks, last: rows.at(-1) || null };
+}
+function addWater(kind, what) {
+  return new Promise(resolve => execFile('python3', [path.join(REPO, 'bin/water.py'), 'add', kind, what], { timeout: 5000 }, () => resolve()));
+}
+// A Done button on the board: training for today, or a said/did line kept.
+async function markDone(m) {
+  const today = bangkokToday();
+  if (m.kind === 'training') {
+    const t = trainingToday(today);
+    if (!t || m.id !== today || waterRows().some(r => r.kind === 'training' && r.date === today)) return false;
+    await addWater('training', t.title);
+    return true;
+  }
+  if (m.kind === 'ledger' && Number.isInteger(m.id)) {
+    const lines = readSafe(LEDGER).split('\n'), row = lines[m.id - 1]?.match(LEDGER_ROW);
+    if (!row || row[1] !== ' ' || row[3] > today) return false;
+    lines[m.id - 1] = lines[m.id - 1].replace('- [ ]', '- [x]');
+    fs.writeFileSync(LEDGER, lines.join('\n'));
+    await addWater('ledger', row[4].slice(0, 80));
+    return true;
+  }
+  return false;
+}
+
 let board = null;
 async function refreshBoard() {
-  board = { events: upcomingEvents(), status: sitrepStatus(), ghost: await ghostCards(), at: Date.now() };
+  const ghost = await ghostCards();
+  board = { events: upcomingEvents(), status: sitrepStatus(), ghost, water: water(ghost), at: Date.now() };
   emit({ type: 'board', board });
 }
 
@@ -564,6 +623,9 @@ wss.on('connection', ws => {
         break;
       case 'new': startSession(); break;
       case 'board': refreshBoard(); break;
+      case 'water':
+        if (await markDone(m)) refreshBoard();
+        break;
       case 'model': setModel(m.value); break;
       case 'mode': setMode(m.value); break;
       case 'permission': answerPermission(m); break;

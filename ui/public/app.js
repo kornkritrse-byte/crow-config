@@ -414,7 +414,11 @@ function roomScene(before) {
     starters: STARTERS,
     onStarter: s => { before?.(); sendMessage(s, []); },
     onLamp: () => Room.toggleDim(),
-    onFlower: () => { before?.(); sendMessage('Serve me the ghost card', []); },
+    onFlower: () => {
+      const sec = $('water-section');
+      sec.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      sec.classList.add('flash'); setTimeout(() => sec.classList.remove('flash'), 1400);
+    },
     onMonitor: () => $('new-session').click(),
     onCrew: name => { before?.(); callCrew(name); },
   });
@@ -521,17 +525,41 @@ function paintBoard(board) {
     $('status-more').hidden = !overflows;
   });
 
-  Room.setGhost(board.ghost);
-  const g = board.ghost, ghost = $('ghost');
-  if (!g?.next) { $('ghost-section').hidden = true; return; }
-  $('ghost-section').hidden = false;
-  ghost.innerHTML = '';
-  ghost.append(
-    div('subject', g.next.subject),
-    div('q', g.next.q),
-    div('due', g.due > 0 ? `${g.due} due now, ${g.total} in the deck` : `Next one due ${shortDay(g.next.date)}, ${g.total} in the deck`),
-    button('Answer it', 'quiet', () => { input.value = `Ghost card (line ${g.next.line}), my answer: `; input.focus(); autosize(); }),
-  );
+  paintWater(board);
+}
+
+// Water the flower: today's tasks. A ghost card passed, a training session done, a
+// said/did kept: each one waters the plum blossom (server + bin/water.py).
+function paintWater(board) {
+  const w = board.water || { week: 0, tasks: [] }, g = board.ghost;
+  Room.setWater(w);
+  $('water-count').textContent = `${w.week} this week`;
+  const box = $('water-tasks');
+  box.innerHTML = '';
+  const card = (label, text, action) => {
+    const el = div('task');
+    el.append(div('task-label', label), div('task-text', text));
+    if (action) el.append(action);
+    box.append(el);
+  };
+  for (const t of w.tasks) {
+    if (t.kind === 'ghost' && g?.next) {
+      card(`Ghost card · ${g.next.subject}`, g.next.q, button('Answer it', 'quiet', () => {
+        exitHome(); input.value = `Ghost card (line ${g.next.line}), my answer: `; input.focus(); autosize();
+      }));
+    } else if (t.kind === 'training') {
+      const b = button(t.done ? 'Done ✓' : 'Done', t.done ? 'quiet done' : 'quiet', () => { b.disabled = true; ws.send(JSON.stringify({ type: 'water', kind: 'training', id: t.id })); });
+      b.disabled = !!t.done;
+      card('Training · today', t.text, b);
+    } else if (t.kind === 'ledger') {
+      const b = button('Kept it', 'quiet', () => { b.disabled = true; ws.send(JSON.stringify({ type: 'water', kind: 'ledger', id: t.id })); });
+      card(`Said/did · due ${shortDay(t.due)}`, t.text, b);
+    }
+  }
+  if (!box.children.length) {
+    const next = g?.next ? `Next ghost card: ${shortDay(g.next.date)}.` : '';
+    box.append(div('task-empty', `Nothing due right now. ${next}`.trim()));
+  }
 }
 
 $('status-more').onclick = () => {

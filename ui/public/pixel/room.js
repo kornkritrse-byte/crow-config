@@ -62,7 +62,7 @@
       d.onmouseenter = d.onfocus = () => {
         tip.innerHTML = `<b></b><span></span>`;
         tip.querySelector("b").textContent = h.label;
-        tip.querySelector("span").textContent = h.id === "flower" && bloomNote ? `${bloomNote}. Click for today's card.` : h.note;
+        tip.querySelector("span").textContent = h.id === "flower" && bloomNote ? `${bloomNote}. Finish a task to water it.` : h.note;
         Object.assign(tip.style, { left: pct(h.x + h.w / 2, S.W), top: pct(h.y, S.H) });
         tip.hidden = false;
       };
@@ -171,13 +171,46 @@
     root.Nest?.setMode(m);
     paintMini(); rebuildIdle();
   }
-  function setGhost(g) {
-    const total = g?.deckTotal || 0, passed = g?.passed || 0;
-    const next = total ? Math.round((6 * passed) / total) : 0;
-    bloomNote = total ? `${passed} of ${total} ghost cards passed at least once` : "";
+  // ---------------------------------------------------------------- the plum blossom: one bloom per watering this week
+  let waterWeek = null, anim = null;
+  const WF = { w: 28, h: 64, cx: 14, by: 63 };
+  function paintWaterFlower(n, fx = {}) {
+    const cv = document.getElementById("water-flower"); if (!cv) return;
+    const b = new PX(WF.w, WF.h);
+    R.flower(b, WF.cx, WF.by, { blooms: n });
+    const drop = C("#7ac8ff"), dropHi = C("#e8f6ff"), gold = C("#fff0a8");
+    for (const d of fx.drops || []) { b.set(d.x, d.y, dropHi); b.set(d.x, d.y + 1, drop); b.set(d.x - 1, d.y + 2, drop); b.set(d.x, d.y + 2, drop); b.set(d.x + 1, d.y + 2, drop); b.set(d.x, d.y + 3, drop); }
+    for (const [x, y] of fx.splash || []) { b.set(x - 2, y, drop); b.set(x + 2, y, drop); b.set(x - 1, y - 1, dropHi); b.set(x + 1, y - 1, dropHi); }
+    if (fx.pop) { const [x, y] = fx.pop.at, k = fx.pop.t; [[0, -4], [4, 0], [0, 4], [-4, 0], [3, -3], [-3, 3], [3, 3], [-3, -3]].forEach(([dx, dy], i) => { if ((i + k) % 3) b.set(x + Math.round(dx * (0.6 + k / 12)), y + Math.round(dy * (0.6 + k / 12)), gold); }); }
+    b.toCanvas(cv);
+  }
+  // drops fall onto the next blossom, it opens, a little sparkle
+  function animateWater(n) {
+    if (anim) clearInterval(anim);
+    const spots = R.flowerSpots(WF.cx, WF.by);
+    const at = spots[Math.min(n, 6) - 1] || [WF.cx, WF.by - 50];
+    if (reduceMotion) return paintWaterFlower(Math.min(n, 6));
+    let t = 0;
+    anim = setInterval(() => {
+      const drops = [], splash = [];
+      for (let i = 0; i < 3; i++) {
+        const y = (t - i * 5) * 3;
+        if (y >= 0 && y < at[1] - 4) drops.push({ x: at[0] + (i - 1), y });
+        else if (y >= at[1] - 4 && y < at[1] + 2) splash.push([at[0] + (i - 1), at[1] - 2]);
+      }
+      const opened = t >= 22;
+      paintWaterFlower(opened ? Math.min(n, 6) : Math.min(n, 6) - 1, { drops, splash, pop: opened && t < 36 ? { at, t: t - 22 } : null });
+      if (++t > 38) { clearInterval(anim); anim = null; paintWaterFlower(Math.min(n, 6)); }
+    }, 70);
+  }
+  function setWater(w) {
+    const week = w?.week || 0, next = Math.min(6, week);
+    bloomNote = `${week} task${week === 1 ? "" : "s"} done this week${week >= 6 ? ", in full bloom" : ""}`;
+    const grew = waterWeek !== null && week > waterWeek;
+    waterWeek = week;
+    if (grew) animateWater(week); else if (!anim) paintWaterFlower(next);
+    const cv = document.getElementById("water-flower"); if (cv) cv.title = bloomNote;
     if (next !== blooms) { blooms = next; paintMini(); rebuildIdle(); }
-    const ic = document.getElementById("ghost-flower");
-    if (ic) { const b = new PX(24, 58); R.flower(b, 12, 57, { blooms }); b.toCanvas(ic); ic.title = bloomNote; }
   }
   function setEmpty(empty) { document.body.classList.toggle("room-empty", empty); if (!empty) stopIdle(); }
   function newSession() { store.set("sessions", (+store.get("sessions") || 0) + 1); paintPile(); }
@@ -191,5 +224,5 @@
     // the window follows the Bangkok hour
     setInterval(() => { const h = bkkHour(); if (h !== hour) { hour = h; paintMini(); rebuildIdle(); } }, 10 * 60000);
   }
-  root.Room = { init, emptyScene, setMode, setGhost, setEmpty, newSession, toggleDim, layout };
+  root.Room = { init, emptyScene, setMode, setWater, setEmpty, newSession, toggleDim, layout, animateWater };
 })(window);

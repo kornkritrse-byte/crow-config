@@ -10,6 +10,7 @@
 
 ## 🟢 Active — other
 - [Ghost Deck](ghost_deck.md) — spaced-repetition deck of his drill MISSES; hook serves one cold at session start; every miss → `bin/ghost.py add` that turn
+- 💧 Water log (`water_log.md`, `bin/water.py`): one line per finished task (ghost pass auto, training, said/did kept); feeds the Crow Room's plum blossom (blooms per week). **When he reports finishing training/a task in chat, water it that turn.**
 - [Said/Did Ledger](ledger_said_did.md) — his dated "I'll do X"s, checked next session; weekly follow-through % on Sundays (Vera's evidence, not a guilt list)
 - Time capsules (`capsules/`, `bin/capsules.py`) — sealed letters surfaced on their date by the hook: 2026-12-12 race eve · 2027-03-29 his 20th birthday · 2027-09-16 your people. Deliver whole, then mark opened
 - Vex subagent (`crow-config/.claude/agents/vex.md`) — cold, context-free devil's advocate; brief with the plan + facts only

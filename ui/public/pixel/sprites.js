@@ -80,6 +80,8 @@
     b.ellipse(x + 0.5, y + 0.5, 3.2, 3.2, (X, Y, u, v) => (u + v < -0.6 ? P.petalHi : u + v > 0.9 ? P.petalD : P.petal));
     b.set(x, y, P.stamen); b.set(x + 1, y - 1, P.stamen); b.set(x - 1, y - 1, P.stamen);
   }
+  // where the six blossoms open, in order
+  const flowerSpots = (cx, by) => [[cx, by - 18], [cx - 6, by - 31], [cx + 6, by - 38], [cx + 3, by - 27], [cx + 1, by - 44], [cx + 8, by - 22]];
   function flower(b, cx, by, o = {}) {
     const blooms = o.blooms ?? 5;
     b.rect(cx - 6, by - 2, 13, 2, P.stand); b.hline(cx - 5, cx + 5, by - 3, P.stand2); b.set(cx - 6, by - 1, P.branch); b.set(cx + 6, by - 1, P.branch);
@@ -89,7 +91,7 @@
     const br = [[cx, by - 13, cx + 1, by - 22], [cx + 1, by - 22, cx - 1, by - 30], [cx - 1, by - 30, cx + 2, by - 38], [cx + 2, by - 38, cx - 1, by - 46], [cx - 1, by - 46, cx - 5, by - 54],
       [cx + 1, by - 22, cx + 7, by - 20], [cx + 7, by - 20, cx + 9, by - 23], [cx - 1, by - 28, cx - 7, by - 30], [cx - 7, by - 30, cx - 8, by - 26], [cx + 2, by - 36, cx + 7, by - 39]];
     br.forEach(([a, c, d, e], i) => b.line(a, c, d, e, i % 3 ? P.branch : P.branch2));
-    const spots = [[cx, by - 18], [cx - 6, by - 31], [cx + 6, by - 38], [cx + 3, by - 27], [cx + 1, by - 44], [cx + 8, by - 22]];
+    const spots = flowerSpots(cx, by);
     spots.forEach(([x, y], i) => blossom(b, x, y, i < blooms));
     [[cx - 5, by - 54], [cx - 3, by - 50], [cx - 9, by - 27], [cx + 10, by - 24], [cx + 8, by - 40], [cx - 2, by - 40], [cx + 4, by - 33]].forEach(([x, y]) => blossom(b, x, y, false));
   }
@@ -374,5 +376,5 @@
     b.hline(x - 2, x + w + 1, y - 1, P.frame);
   }
 
-  root.ROOM = { P, CREW, skyFor, slab, owala, electricSprite, lamp, flower, bassSprite, acousticSprite, amp, monitor, laptop, keyboard, deskBits, crow, bookcase, noteWall, nightWindow, rain, curtains };
+  root.ROOM = { P, CREW, skyFor, flowerSpots, slab, owala, electricSprite, lamp, flower, bassSprite, acousticSprite, amp, monitor, laptop, keyboard, deskBits, crow, bookcase, noteWall, nightWindow, rain, curtains };
 })(window);
