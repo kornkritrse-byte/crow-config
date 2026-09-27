@@ -42,3 +42,4 @@ A local web app at `~/crow-config/ui/` that runs a real Claude Code session thro
 - **17:13: title → smaller + off-white** (his call): Chonburi at 23px, 120×20, **#e8e2d4** (the Room's paper colour), still ×3 at 1440.
 - **17:14: room made bigger (his ask).** The empty-state/home side padding went 40→12px, and the room may now scale fractionally past 3× (floored to 0.05; still whole pixels below 3×), capped at 4×. 1440×900 → 1008 px wide (3.15×); 1728 → 1280 (4×). The title stays ×3 whole pixels.
 - **17:17: title +75% (his ask)**: Chonburi at 40px, 207×35, ×3 = 621×105. For it to fit, the room may now go fractional from **2.5×** up (was 3×): at 1440×900 the room is 928 px wide (2.9×); at 1728 it is still 1280.
+- **17:21: title −25%**: Chonburi at 30px, 156×27, ×3 = 468×81 (his settled size, for now). At 1440×900 the room is back to 960 px (3×).
