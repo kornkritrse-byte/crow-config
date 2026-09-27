@@ -68,13 +68,11 @@ function lightUp(voice) {
 // ---------------------------------------------------------------- rendering helpers
 
 function atBottom() { return stream.scrollHeight - stream.scrollTop - stream.clientHeight < 80; }
-function toBottom() { stream.scrollTop = stream.scrollHeight; }
+function toBottom() { follow = true; stream.scrollTop = stream.scrollHeight; }
 function add(el) {
-  const stick = atBottom();
   if (stream.querySelector('.empty')) { stream.querySelector('.empty').remove(); Room.setEmpty(false); }
   stream.append(el);
-  if (stick) toBottom();
-  else jump.hidden = false;
+  if (!follow) jump.hidden = false;
   return el;
 }
 function div(cls, text) {
@@ -92,7 +90,23 @@ function button(label, cls, onclick) {
   return b;
 }
 
-stream.addEventListener('scroll', () => { if (atBottom()) jump.hidden = true; });
+// Following = the view stays pinned to the newest line. Only scrolling UP lets go
+// (growing content never moves scrollTop up); getting back near the bottom re-pins.
+let follow = true, lastTop = 0;
+stream.addEventListener('scroll', () => {
+  const top = stream.scrollTop;
+  if (top < lastTop - 2) follow = atBottom();
+  else if (atBottom()) follow = true;
+  lastTop = top;
+  if (follow) jump.hidden = true;
+});
+// Anything that grows the stream (text, steps, outputs, the final paint) keeps it pinned.
+let pinQueued = false;
+new MutationObserver(() => {
+  if (pinQueued) return;
+  pinQueued = true;
+  requestAnimationFrame(() => { pinQueued = false; if (follow) toBottom(); });
+}).observe(stream, { childList: true, subtree: true, characterData: true });
 jump.onclick = () => { toBottom(); jump.hidden = true; };
 
 function renderMarkdown(md) {
@@ -132,7 +146,6 @@ function paintReply(live) {
   reply.el.innerHTML = renderMarkdown(reply.md);
   markVoices(reply.el, live);
   reply.el.classList.toggle('cursor', live && busy);
-  if (live && atBottom()) toBottom();
 }
 
 let paintQueued = false;
@@ -223,9 +236,7 @@ function addStep(ev) {
     stepGroup.append(button('', 'fold', () => group.classList.toggle('open')), div('list'));
     add(stepGroup);
   }
-  const stick = atBottom();
   stepGroup.querySelector('.list').append(el);
-  if (stick) toBottom();
 }
 
 function finishStep(ev) {
