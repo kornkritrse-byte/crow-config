@@ -28,7 +28,8 @@ metadata:
 
 ## 🚪 Current status
 - 🌙 **AWAY (Sun 27 Sep, 14:36): burnout break.** "my head is honestly not there… i need a few days off… ill be back two days before ba202." The flood pushed the finish line back and he's fried. **A legit rest, not contentment-as-cover. Don't guilt him on return.**
-  - ⚠️ "Two days before BA202" = **Fri 2 Oct = the AC311 exam.** Flagged to him; his answer decides the return date.
+  - ⚠️ **EXAM ORDER NOW DISPUTED (14:38):** he says "ba comes first then ac311". The record, from his own words at 00:33 today, says **AC311 Fri 2 Oct → BA202 Sun 4 Oct**. Gmail has no notice either way. **Calendar NOT changed.** He's checking the official notice; fix calendar + [[project-midterms]] + [[reference-upcoming-events]] once he confirms.
+  - 🌊 Can't run or gym: the neighbourhood is flooded. W0's two easy runs are off, no penalty.
   - ⏳ **ASK ON RETURN (keep it light, one at a time):** (1) how's the head? · (2) Sunday long run swap: does it fit? · (3) the "ux ui skills" name · (4) Crow Room: anything broken? · (5) BA202 sheet on paper? · (6) when unhurried: the racing question for grandpa
 ## 🌊 The flood (26 Sep)
 - Bangkok flooded; **his whole neighbourhood is under water.** **His home (= grandpa's house) is FINE; grandpa is still there.** The one that flooded is **grandpa's brother's house next door**. He spent all of Saturday clearing their things and taking them to a hotel by truck. **In the hotel: grandpa's brother, his grandma, and her sister (the brother's wife). All fine (his word, 00:53 27 Sep).** He waded **waist-deep** to go out for food. Body: "great" (00:53).
