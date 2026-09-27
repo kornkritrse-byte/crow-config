@@ -27,9 +27,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🌙 **AWAY (Sun 27 Sep, 01:55), day end** ("ok bet save everything goodnight"). Off to: hanging out with his cousin, then sleep. The nightly quote has been given (Seneca, Letter 6); don't repeat it today.
-  - ⏳ **ASK ON RETURN:** (1) **which "ux ui skills" did he mention months ago?** Not found anywhere on the Mac; get the name, vet it, then install · (2) first real use of the Crow Room: anything broken or annoying? · (3) BA202 on paper yet (print shop or by hand)? · (4) when he's unhurried: the racing question for grandpa
-
+- 🟢 **Here (Sun 27 Sep, 14:24).** Back after the cousin hangout; asked for the big build (Road to Chombueng).
+  - ⏳ **ASKED 14:24, not yet answered:** (1) Sunday long run / Thursday quality swap: does it fit? · (2) the "ux ui skills" name · (3) Crow Room first use: anything broken? · (4) BA202 sheet on paper yet? · (5) when unhurried: the racing question for grandpa
 ## 🌊 The flood (26 Sep)
 - Bangkok flooded; **his whole neighbourhood is under water.** **His home (= grandpa's house) is FINE; grandpa is still there.** The one that flooded is **grandpa's brother's house next door**. He spent all of Saturday clearing their things and taking them to a hotel by truck. **In the hotel: grandpa's brother, his grandma, and her sister (the brother's wife). All fine (his word, 00:53 27 Sep).** He waded **waist-deep** to go out for food. Body: "great" (00:53).
 - ⚕️ Waist-deep floodwater = **leptospirosis risk**; told him 27 Sep: fever, muscle pain (calves) or red eyes within ~2–14 days means a doctor, and say "flood water". Raise it again only if he mentions feeling ill.
