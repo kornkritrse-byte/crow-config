@@ -12,7 +12,7 @@
 <body>
   <div class="room">
     <nav class="crew" aria-label="Crew">
-      <div class="crew-mark" title="Crow Room"><img src="crow.svg" alt=""></div>
+      <div class="crew-mark" title="Crow Room"><canvas id="crow-mark" aria-hidden="true"></canvas></div>
       <ul id="crew"></ul>
       <button id="new-session" class="quiet" title="Start a fresh session (runs the session-start hook again)">New</button>
     </nav>
@@ -37,10 +37,13 @@
         <button id="send" type="submit">Send</button>
         <button id="stop" type="button" class="stop" hidden>Stop</button>
       </form>
+      <div class="gutter left" aria-label="Book pile"><div class="pile-cap">On the pile<span>rotates each session</span></div><div class="pile" id="pile"></div></div>
+      <div class="gutter right" aria-hidden="true"><canvas id="guitars" title="The classical, the Strat, the bass in front"></canvas></div>
     </main>
 
     <aside class="board" aria-label="Board">
       <div class="board-scroll">
+        <section class="mini" id="mini-section"><canvas id="mini" aria-hidden="true"></canvas><span class="cap" id="mini-cap"><i></i><span></span></span></section>
         <section class="clock">
           <div id="time" class="time">--:--</div>
           <div id="date" class="date"></div>
@@ -56,7 +59,7 @@
         </section>
         <section id="ghost-section">
           <h2>Ghost card</h2>
-          <div id="ghost" class="ghost"></div>
+          <div class="ghost-row"><div id="ghost" class="ghost"></div><canvas id="ghost-flower" aria-hidden="true"></canvas></div>
         </section>
       </div>
       <footer class="board-foot">
@@ -71,6 +74,10 @@
       </footer>
     </aside>
   </div>
+  <script src="pixel/px.js"></script>
+  <script src="pixel/sprites.js"></script>
+  <script src="pixel/scene.js"></script>
+  <script src="pixel/room.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

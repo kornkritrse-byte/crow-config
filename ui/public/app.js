@@ -2,11 +2,11 @@
 // Claude Code session, this file only draws it.
 
 const CREW = [
-  { key: 'sol',   name: 'Sol',   role: 'The long game: direction, meaning' },
-  { key: 'persi', name: 'Persi', role: 'The executor: what are we doing today' },
-  { key: 'artis', name: 'Artis', role: 'Taste: music, writing, content' },
-  { key: 'vera',  name: 'Vera',  role: 'The mirror: what you are actually doing' },
-  { key: 'vex',   name: 'Vex',   role: 'Devil’s advocate: beat the plan up' },
+  { key: 'sol',   name: 'Sol',   tag: 'long game',    role: 'The long game: direction, meaning' },
+  { key: 'persi', name: 'Persi', tag: 'executor',     role: 'The executor: what are we doing today' },
+  { key: 'artis', name: 'Artis', tag: 'taste',        role: 'Taste: music, writing, content' },
+  { key: 'vera',  name: 'Vera',  tag: 'mirror',       role: 'The mirror: what you are actually doing' },
+  { key: 'vex',   name: 'Vex',   tag: 'devil’s adv.', role: 'Devil’s advocate: beat the plan up' },
 ];
 
 // Shown when the room is empty, so the common openers are one click away.
@@ -44,7 +44,7 @@ for (const c of CREW) {
   const li = document.createElement('li');
   li.dataset.voice = c.key;
   li.style.setProperty('--c', `var(--${c.key})`);
-  li.innerHTML = `<button type="button" title="${c.role}"><span class="dot"></span>${c.name}</button>`;
+  li.innerHTML = `<button type="button" title="${c.role}">${c.name}<small>${c.tag}</small></button>`;
   li.querySelector('button').onclick = () => callCrew(c.name);
   crewList.append(li);
 }
@@ -70,7 +70,7 @@ function atBottom() { return stream.scrollHeight - stream.scrollTop - stream.cli
 function toBottom() { stream.scrollTop = stream.scrollHeight; }
 function add(el) {
   const stick = atBottom();
-  stream.querySelector('.empty')?.remove();
+  if (stream.querySelector('.empty')) { stream.querySelector('.empty').remove(); Room.setEmpty(false); }
   stream.append(el);
   if (stick) toBottom();
   else jump.hidden = false;
@@ -250,7 +250,7 @@ function finishStep(ev) {
 function handle(ev, live = true) {
   switch (ev.type) {
     case 'session':
-      if (ev.state === 'new' && live) { stream.innerHTML = ''; showEmpty(); }
+      if (ev.state === 'new' && live) { stream.innerHTML = ''; Room.newSession(); showEmpty(); }
       break;
     case 'user':
       endReply(); endSteps(); clearThinking();
@@ -293,6 +293,7 @@ function handle(ev, live = true) {
     case 'permission':
       endReply(); endSteps(); clearThinking();
       add(permissionCard(ev, live));
+      if (live) Room.setMode('waiting');
       break;
     case 'permission_done': {
       const el = stream.querySelector(`.permission[data-id="${ev.id}"]`);
@@ -300,6 +301,7 @@ function handle(ev, live = true) {
         el.classList.add('done');
         el.querySelector('.ask').textContent += ev.allow ? (ev.always ? ': always allowed' : ': allowed') : ': declined';
       }
+      Room.setMode(busy ? 'thinking' : 'idle');
       break;
     }
     case 'rewind_preview':
@@ -398,17 +400,23 @@ function setBusy(b, live = true) {
   busy = b;
   sendBtn.hidden = b;
   stopBtn.hidden = !b;
+  Room.setMode(b ? (stream.querySelector('.permission:not(.done)') ? 'waiting' : 'thinking') : 'idle');
   if (!b) { if (reply && live) paintReply(false); clearThinking(); }
   else if (live) showThinking();
 }
 
+// An empty room shows the room itself: Korn's desk at night, drawn in pixels.
 function showEmpty() {
-  if (stream.children.length) return;
-  const box = div('empty', 'The room is quiet. Say something, or start with one of these.');
-  const row = div('starters');
-  for (const s of STARTERS) row.append(button(s, '', () => sendMessage(s, [])));
-  box.append(row);
-  stream.append(box);
+  if (stream.children.length) { Room.setEmpty(false); return; }
+  stream.append(Room.emptyScene({
+    starters: STARTERS,
+    onStarter: s => sendMessage(s, []),
+    onLamp: () => Room.toggleDim(),
+    onFlower: () => sendMessage('Serve me the ghost card', []),
+    onMonitor: () => $('new-session').click(),
+    onCrew: name => callCrew(name),
+  }));
+  Room.setEmpty(true);
 }
 
 // ---------------------------------------------------------------- task list
@@ -484,6 +492,7 @@ function paintBoard(board) {
     $('status-more').hidden = !overflows;
   });
 
+  Room.setGhost(board.ghost);
   const g = board.ghost, ghost = $('ghost');
   if (!g?.next) { $('ghost-section').hidden = true; return; }
   $('ghost-section').hidden = false;
@@ -703,6 +712,7 @@ function connect() {
   };
   ws.onclose = () => setTimeout(connect, 1500);
 }
+Room.init();
 connect();
 setInterval(() => ws?.readyState === 1 && ws.send(JSON.stringify({ type: 'board' })), 5 * 60000);
 input.focus();

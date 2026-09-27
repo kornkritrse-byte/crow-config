@@ -19,7 +19,7 @@
   --vera: #c4ccd8;
   --vex: #5fa8d3;
 
-  --measure: 680px;           /* one column width for every row in the conversation */
+  --measure: 660px;           /* one column width for every row in the conversation; leaves room for the gutters */
   --serif: "Helvetica Neue", Helvetica, Arial, sans-serif;   /* Helvetica everywhere (his call, 27 Sep) */
   --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color-scheme: dark;
@@ -52,7 +52,7 @@ button { font: inherit; cursor: pointer; }
   padding: 18px 0;
   border-right: 1px solid var(--line);
 }
-.crew-mark img { width: 34px; height: 34px; display: block; }
+.crew-mark canvas { width: 48px; height: 42px; display: block; image-rendering: pixelated; }
 .crew ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; flex: 1; }
 .crew li button {
   width: 60px;
@@ -453,3 +453,83 @@ button { font: inherit; cursor: pointer; }
 body.planning .segmented button.on { background: var(--maroon); }
 body.planning .composer .box { border-color: var(--artis); }
 body.planning #input::placeholder { color: var(--artis); }
+
+/* ================================================================ Korn's room (pixel art, 27 Sep)
+   The room is the empty state; in a conversation it shrinks to the edges and goes still. */
+canvas { image-rendering: pixelated; image-rendering: crisp-edges; }
+
+/* crew as pinned sticky notes, like the note wall by his desk */
+.crew { gap: 16px; background: linear-gradient(180deg, #111923, var(--night)); }
+.crew ul { gap: 9px; }
+.crew li button {
+  width: 58px; padding: 6px 0 6px; gap: 1px;
+  background: #e8e2d4; color: #2a2620; border-radius: 3px;
+  border-top: 5px solid var(--c);
+  font-size: 11.5px; font-weight: 700;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, .35);
+  transition: transform .2s, box-shadow .2s;
+}
+.crew li button small { font-size: 9.5px; font-weight: 400; color: #6a6254; }
+.crew li:nth-child(1) button { transform: rotate(-2deg); }
+.crew li:nth-child(2) button { transform: rotate(1.5deg); }
+.crew li:nth-child(3) button { transform: rotate(-1deg); }
+.crew li:nth-child(4) button { transform: rotate(2deg); }
+.crew li:nth-child(5) button { transform: rotate(-1.5deg); }
+.crew li button:hover { background: #f2ece0; color: #2a2620; transform: rotate(0) translateY(-1px); }
+.crew li.speaking button { outline: 2px solid var(--c); outline-offset: 2px; color: #2a2620; }
+
+/* the empty state: the room itself */
+.empty.room-idle {
+  font-family: var(--sans); font-style: normal; margin: 0 auto; max-width: none;
+  display: flex; flex-direction: column; align-items: center; gap: 14px; padding-top: 4px;
+}
+.room-idle .dateline { color: var(--mist); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; font-weight: 700; display: flex; gap: 14px; align-items: center; }
+.room-idle .dateline i { width: 4px; height: 4px; background: var(--faint); border-radius: 50%; }
+.room-idle .scene {
+  position: relative; border-radius: 14px; overflow: hidden; max-width: 100%;
+  box-shadow: 0 0 0 1px var(--line), 0 30px 60px -30px rgba(0, 0, 0, .8), 0 0 80px -20px rgba(240, 166, 74, .18);
+}
+.room-idle .scene canvas { width: 100%; height: 100%; display: block; }
+.room-idle .hot { position: absolute; border: 0; padding: 0; background: none; border-radius: 6px; }
+button.hot { cursor: pointer; }
+.room-idle .hot:hover, .room-idle .hot:focus-visible { outline: none; box-shadow: 0 0 0 1.5px rgba(240, 166, 74, .85), 0 0 18px rgba(240, 166, 74, .35); }
+.room-idle .hot.crew:hover, .room-idle .hot.crew:focus-visible { box-shadow: 0 0 0 1.5px var(--c), 0 0 14px var(--c); }
+.room-idle .tip {
+  position: absolute; transform: translate(-50%, calc(-100% - 10px)); z-index: 3; pointer-events: none;
+  background: rgba(10, 14, 22, .94); border: 1px solid rgba(240, 166, 74, .5); border-radius: 9px;
+  padding: 8px 11px; font-size: 12.5px; line-height: 1.4; white-space: nowrap; color: var(--paper);
+}
+.room-idle .tip b { display: block; color: #f0a64a; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; }
+.room-idle .quiet { margin: 0; color: var(--mist); font-size: 15px; }
+.room-idle .starters { margin-top: 0; }
+
+/* the board's corner: a still crop of the room, the lamp says what Crow is doing */
+.mini { position: relative; border-radius: 10px; overflow: hidden; box-shadow: 0 0 0 1px var(--line), 0 0 40px -10px rgba(240, 166, 74, .35); }
+.mini canvas { width: 264px; max-width: 100%; display: block; }
+.mini .cap { position: absolute; left: 10px; bottom: 8px; font-size: 11.5px; color: var(--paper); background: rgba(10, 14, 22, .8); padding: 3px 8px; border-radius: 6px; display: flex; align-items: center; gap: 6px; }
+.mini .cap i { width: 7px; height: 7px; border-radius: 50%; background: #f0a64a; }
+.mini .cap.thinking i { box-shadow: 0 0 8px #f0a64a; animation: pulse 1.2s ease-in-out infinite; }
+.mini .cap.waiting i { background: var(--sol); }
+body.room-empty #mini-section { display: none; }
+.ghost-row { display: flex; gap: 10px; align-items: flex-start; }
+.ghost-row .ghost { flex: 1; min-width: 0; }
+#ghost-flower { width: 36px; height: 87px; flex: none; margin-top: 2px; }
+
+/* gutters beside the chat box: the book pile left, the guitars leaning on the sidebar right */
+.gutter { position: absolute; bottom: 18px; display: none; }
+body.gutters:not(.room-empty) .gutter { display: block; }
+.gutter.left { left: 22px; }
+.gutter.right { right: 0; bottom: 6px; }
+.gutter.right canvas { width: 198px; height: 330px; display: block; filter: drop-shadow(0 10px 18px rgba(0, 0, 0, .5)); }
+.pile { position: relative; margin-top: 8px; filter: drop-shadow(0 8px 14px rgba(0, 0, 0, .45)); }
+.pile canvas { width: 100%; height: 100%; display: block; }
+.spine { position: absolute; display: flex; align-items: center; justify-content: center; font: 700 8px/1 var(--sans); letter-spacing: .04em; text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.spine.now::after { content: ""; position: absolute; right: -16px; width: 6px; height: 6px; border-radius: 50%; background: #f0a64a; box-shadow: 0 0 8px #f0a64a; }
+.pile-cap { font-size: 10.5px; color: var(--mist); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.pile-cap span { display: block; color: var(--faint); font-weight: 400; letter-spacing: 0; text-transform: none; font-size: 11px; margin-top: 2px; }
+
+/* the lamp switch: focus mode dims everything but the conversation */
+.crew, .board, .gutter { transition: opacity .4s; }
+body.dim .crew, body.dim .board, body.dim .gutter { opacity: .38; }
+body.dim .crew:hover, body.dim .board:hover { opacity: 1; }
+body.dim .room-idle .scene canvas { filter: brightness(.72); }

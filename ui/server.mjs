@@ -500,7 +500,7 @@ function sitrepStatus() {
 function ghostCards() {
   return new Promise(resolve => {
     execFile('python3', [path.join(REPO, 'bin/ghost.py'), 'list'], { timeout: 5000 }, (err, out) => {
-      if (err) return resolve({ due: 0, next: null });
+      if (err) return resolve({ due: 0, next: null, passed: 0, deckTotal: 0 });
       const today = bangkokToday();
       const cards = out.split('\n')
         .map(l => l.match(/^\s*(\d+)\s+(\d{4}-\d{2}-\d{2})\s+box (\d)\s+\[([^\]]+)\]\s+(.+)$/))
@@ -508,7 +508,10 @@ function ghostCards() {
         .map(([, line, date, box, subject, q]) => ({ line: +line, date, box: +box, subject, q }));
       const due = cards.filter(c => c.date <= today);
       const upcoming = cards.filter(c => c.date > today).sort((a, b) => a.date.localeCompare(b.date));
-      resolve({ due: due.length, total: cards.length, next: due[0] || upcoming[0] || null });
+      // for the plum blossom: how much of the whole deck (retired cards included) has been passed at least once
+      const deck = readSafe(path.join(MEMORY, 'ghost_deck.md')).split('\n').map(l => l.match(/^- \d{4}-\d{2}-\d{2} \| box (\d) \|/)).filter(Boolean);
+      const passed = deck.filter(([, box]) => +box >= 2).length;
+      resolve({ due: due.length, total: cards.length, next: due[0] || upcoming[0] || null, passed, deckTotal: deck.length });
     });
   });
 }

@@ -1,0 +1,197 @@
+// Room: glues Korn's pixel room to the Crow Room's state.
+//   empty chat   → the full scene (animated rain, the crow blinks, hover labels)
+//   conversation → the scene shrinks to the board's corner, the book pile and the
+//                  guitars stand in the gutters beside the chat box, and nothing moves
+// The lamp brightens while Crow is thinking; the crow's pose follows the turn.
+(function (root) {
+  "use strict";
+  const { PX, C } = root.PXL, R = root.ROOM, S = root.SCENE;
+  const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const store = { get: (k) => { try { return localStorage.getItem("room:" + k); } catch { return null; } }, set: (k, v) => { try { localStorage.setItem("room:" + k, v); } catch { /* private window */ } } };
+
+  let mode = "idle";        // idle | thinking | waiting
+  let blooms = 0, bloomNote = "";
+  let idle = null;          // { info, canvas, timer, t }
+  const bkkHour = () => +new Date().toLocaleString("en-GB", { timeZone: "Asia/Bangkok", hour: "2-digit", hour12: false }) % 24;
+  let hour = bkkHour();
+  const pose = () => (mode === "thinking" ? "think" : mode === "waiting" ? "wait" : "idle");
+  const lampState = () => (mode === "thinking" ? "bright" : "on");
+
+  // integer scale so pixels stay square: ×3 on a big screen, ×2 or ×1 when tight
+  function fitScale(el, w, h, maxW, maxH) {
+    const k = Math.max(1, Math.min(3, Math.floor(maxW / w), Math.floor(maxH / h)));
+    el.style.width = w * k + "px"; el.style.height = h * k + "px";
+    return k;
+  }
+
+  // ---------------------------------------------------------------- the empty-state scene
+  function emptyScene({ starters, onStarter, onLamp, onFlower, onMonitor, onCrew }) {
+    const box = document.createElement("div");
+    box.className = "empty room-idle";
+    const now = new Date();
+    const day = now.toLocaleDateString("en-GB", { timeZone: "Asia/Bangkok", weekday: "long", day: "numeric", month: "long" });
+    const time = now.toLocaleTimeString("en-GB", { timeZone: "Asia/Bangkok", hour: "2-digit", minute: "2-digit" });
+    box.innerHTML = `<div class="dateline"><span>${day}</span><i></i><span>${time} Bangkok</span></div>
+      <div class="scene"><canvas></canvas><div class="tip" hidden></div></div>
+      <p class="quiet">The room is quiet. Say something, or start with one of these.</p><div class="starters"></div>`;
+    const scene = box.querySelector(".scene"), canvas = scene.querySelector("canvas"), tip = scene.querySelector(".tip");
+    for (const s of starters) {
+      const b = document.createElement("button"); b.type = "button"; b.textContent = s; b.onclick = () => onStarter(s);
+      box.querySelector(".starters").append(b);
+    }
+    stopIdle();
+    idle = { info: S.base({ hour, blooms, lamp: lampState() }), canvas, t: 0, timer: null, box };
+    const frame = new PX(S.W, S.H);
+    const draw = () => {
+      if (!canvas.isConnected) return stopIdle();
+      frame.copy(idle.info.b); S.anim(frame, idle.info, idle.t, { pose: pose(), still: reduceMotion });
+      frame.toCanvas(canvas);
+    };
+    idle.draw = draw;
+    draw();
+    if (!reduceMotion) idle.timer = setInterval(() => { if (!document.hidden) { idle.t++; draw(); } }, 90);
+    // hover labels + the few objects that do something when clicked
+    const pct = (v, of) => (v / of) * 100 + "%";
+    const act = { lamp: onLamp, flower: onFlower, monitor: onMonitor };
+    for (const h of idle.info.hotspots) {
+      const d = document.createElement(h.crew || act[h.id] ? "button" : "div");
+      d.className = "hot"; if (d.tagName === "BUTTON") d.type = "button";
+      Object.assign(d.style, { left: pct(h.x, S.W), top: pct(h.y, S.H), width: pct(h.w, S.W), height: pct(h.h, S.H) });
+      if (h.crew) d.style.setProperty("--c", `var(--${h.crew})`), d.classList.add("crew");
+      d.setAttribute("aria-label", `${h.label}: ${h.id === "flower" && bloomNote ? bloomNote : h.note}`);
+      d.onmouseenter = d.onfocus = () => {
+        tip.innerHTML = `<b></b><span></span>`;
+        tip.querySelector("b").textContent = h.label;
+        tip.querySelector("span").textContent = h.id === "flower" && bloomNote ? `${bloomNote}. Click for today's card.` : h.note;
+        Object.assign(tip.style, { left: pct(h.x + h.w / 2, S.W), top: pct(h.y, S.H) });
+        tip.hidden = false;
+      };
+      d.onmouseleave = d.onblur = () => { tip.hidden = true; };
+      if (h.crew) d.onclick = () => onCrew(h.label);
+      else if (act[h.id]) d.onclick = act[h.id];
+      scene.append(d);
+    }
+    requestAnimationFrame(() => sizeIdle());
+    return box;
+  }
+  function sizeIdle() {
+    if (!idle?.canvas.isConnected) return;
+    const stream = idle.box.parentElement;
+    const scene = idle.canvas.parentElement;
+    fitScale(scene, S.W, S.H, stream.clientWidth - 48, stream.clientHeight - 190);
+  }
+  function stopIdle() { if (idle?.timer) clearInterval(idle.timer); if (idle) idle.timer = null; }
+  function rebuildIdle() {
+    if (!idle?.canvas.isConnected) return;
+    idle.info = S.base({ hour, blooms, lamp: lampState() });
+    idle.draw();
+  }
+
+  // ---------------------------------------------------------------- board corner + rail crow
+  function paintMini() {
+    const cv = document.getElementById("mini"); if (!cv) return;
+    const info = S.base({ hour, blooms, lamp: lampState() });
+    const b = new PX(S.W, S.H).copy(info.b); S.anim(b, info, 0, { pose: pose(), still: true });
+    const full = b.toCanvas(document.createElement("canvas"));
+    const m = info.mini;
+    cv.width = m.w; cv.height = m.h;
+    cv.getContext("2d").drawImage(full, m.x, m.y, m.w, m.h, 0, 0, m.w, m.h);
+    const cap = document.getElementById("mini-cap");
+    cap.className = "cap " + mode;
+    cap.lastChild.textContent = mode === "thinking" ? "Crow is thinking" : mode === "waiting" ? "Waiting on you" : "Lamp on";
+  }
+  function paintMark() {
+    const cv = document.getElementById("crow-mark"); if (!cv) return;
+    const b = new PX(16, 14); R.crow(b, 6, 13, pose()); b.toCanvas(cv);
+  }
+
+  // ---------------------------------------------------------------- gutters: the book pile + the guitars
+  // Spine colours from his shelf photos. Siddhartha, Karamazov, Ivan Ilyich, Man's
+  // Search, Meditations and Letters to Milena weren't visible, so theirs are guesses (he's fine with them).
+  const BOOKS = [
+    { t: "Siddhartha", a: "Hermann Hesse", s: "reading", c: "#cdb68a", ink: "#2a2418", pin: 1 },
+    { t: "The Brothers Karamazov", short: "Karamazov", a: "Dostoevsky", s: "reading, the heavy one", c: "#2c3e34", ink: "#e8e0cc", pin: 2 },
+    { t: "The Courage to Be Disliked", short: "Be Disliked", a: "Kishimi & Koga", s: "read", c: "#efece4", ink: "#1a1a1a" },
+    { t: "Kafka on the Shore", a: "Haruki Murakami", s: "read, where Crow's name comes from", c: "#18181c", ink: "#e8e4dc" },
+    { t: "Never Let Me Go", a: "Kazuo Ishiguro", s: "read", c: "#e8e4dc", ink: "#1a1a1a" },
+    { t: "Kokoro", a: "Natsume Soseki", s: "read", c: "#1c1c22", ink: "#e8e4dc" },
+    { t: "Discourses", a: "Epictetus", s: "read", c: "#141418", ink: "#e8e4dc", band: "#b89040" },
+    { t: "The Stranger", a: "Albert Camus", s: "read", c: "#ece8e0", ink: "#1a1a1a" },
+    { t: "The Alchemist", a: "Paulo Coelho", s: "read", c: "#c83a2a", ink: "#f4e8d8" },
+    { t: "Norwegian Wood", a: "Haruki Murakami", s: "read", c: "#1c1c22", ink: "#e8e4dc" },
+    { t: "The Death of Ivan Ilyich", short: "Ivan Ilyich", a: "Leo Tolstoy", s: "read", c: "#6a2a2a", ink: "#f0e0cc" },
+    { t: "Man's Search for Meaning", short: "Man's Search", a: "Viktor Frankl", s: "read, still marinating", c: "#e8d8b8", ink: "#2a2418" },
+    { t: "Meditations", a: "Marcus Aurelius", s: "the one you keep going back to", c: "#3a2a4a", ink: "#e8dcc8" },
+    { t: "One Hundred Years of Solitude", short: "100 Years", a: "García Márquez", s: "on the shelf", c: "#c8402c", ink: "#f4e8d8" },
+    { t: "Letters to Milena", a: "Franz Kafka", s: "on the shelf", c: "#8a8a7a", ink: "#141414" },
+    { t: "War and Peace", a: "Leo Tolstoy", s: "on the shelf", c: "#16161a", ink: "#e8e4dc", band: "#b82a2a" },
+  ];
+  function pileSeed() {
+    const doy = Math.floor((Date.now() - Date.UTC(new Date().getUTCFullYear(), 0, 1)) / 864e5);
+    return doy + (+store.get("sessions") || 0);
+  }
+  function paintPile() {
+    const el = document.getElementById("pile"); if (!el) return;
+    const seed = pileSeed();
+    const pool = BOOKS.filter((b) => !b.pin), picks = [];
+    for (let i = 0; picks.length < 4 && i < 40; i++) { const b = pool[(seed * 3 + i * 5) % pool.length]; if (!picks.includes(b)) picks.push(b); }
+    const stack = [...BOOKS.filter((b) => b.pin).sort((a, b) => a.pin - b.pin), ...picks];
+    const T = 7, Wd = 46, offs = [3, 1, 0, 2, 0, 1];
+    const lenFor = (bk) => Math.max(30, Math.min(43, Math.ceil((bk.short || bk.t).length * 1.75) + 8));
+    const pb = new PX(Wd, stack.length * T + 2);
+    const rows = stack.map((bk, i) => { const y = i * T + 1, len = lenFor(bk), x = offs[i]; R.slab(pb, x, y, len, T - 1, C(bk.c), bk.band ? C(bk.band) : 0); return { bk, x, y, len }; });
+    el.innerHTML = "";
+    const cv = pb.toCanvas(document.createElement("canvas"));
+    el.style.width = Wd * 3 + "px"; el.style.height = pb.h * 3 + "px";
+    el.append(cv);
+    for (const { bk, x, y, len } of rows) {
+      const l = document.createElement("span");
+      l.className = "spine" + (bk.pin === 1 ? " now" : "");
+      l.textContent = bk.short || bk.t;
+      l.title = `${bk.t} · ${bk.a} · ${bk.s}`;
+      Object.assign(l.style, { left: x * 3 + 7 + "px", top: y * 3 + 2 + "px", width: len * 3 - 14 + "px", height: (T - 1) * 3 - 4 + "px", color: bk.ink });
+      el.append(l);
+    }
+  }
+  function paintGuitars() {
+    const cv = document.getElementById("guitars"); if (!cv) return;
+    const b = new PX(66, 110);
+    b.blit(R.acousticSprite(), 0, 14, 0.13); b.blit(R.electricSprite(), 11, 8, 0.12); b.blit(R.bassSprite(), 20, 4, 0.11);
+    b.toCanvas(cv);
+  }
+  // the gutters only show when there's real room beside the chat box
+  function layout() {
+    const talk = document.querySelector(".talk"), box = document.getElementById("composer");
+    if (!talk || !box) return;
+    const gutter = (talk.clientWidth - box.querySelector(".box").getBoundingClientRect().width) / 2 - 40;
+    document.body.classList.toggle("gutters", gutter >= 200 && talk.clientHeight >= 560);
+    sizeIdle();
+  }
+
+  // ---------------------------------------------------------------- public
+  function setMode(m) {
+    if (m === mode) return;
+    mode = m;
+    paintMark(); paintMini(); rebuildIdle();
+  }
+  function setGhost(g) {
+    const total = g?.deckTotal || 0, passed = g?.passed || 0;
+    const next = total ? Math.round((6 * passed) / total) : 0;
+    bloomNote = total ? `${passed} of ${total} ghost cards passed at least once` : "";
+    if (next !== blooms) { blooms = next; paintMini(); rebuildIdle(); }
+    const ic = document.getElementById("ghost-flower");
+    if (ic) { const b = new PX(24, 58); R.flower(b, 12, 57, { blooms }); b.toCanvas(ic); ic.title = bloomNote; }
+  }
+  function setEmpty(empty) { document.body.classList.toggle("room-empty", empty); if (!empty) stopIdle(); }
+  function newSession() { store.set("sessions", (+store.get("sessions") || 0) + 1); paintPile(); }
+  function toggleDim() { const on = document.body.classList.toggle("dim"); store.set("dim", on ? "1" : ""); }
+
+  function init() {
+    if (store.get("dim")) document.body.classList.add("dim");
+    paintMark(); paintMini(); paintPile(); paintGuitars(); layout();
+    addEventListener("resize", layout);
+    // the window follows the Bangkok hour
+    setInterval(() => { const h = bkkHour(); if (h !== hour) { hour = h; paintMini(); rebuildIdle(); } }, 10 * 60000);
+  }
+  root.Room = { init, emptyScene, setMode, setGhost, setEmpty, newSession, toggleDim, layout };
+})(window);
