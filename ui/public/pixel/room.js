@@ -30,7 +30,7 @@
       <div class="starters"></div>`;
     const scene = box.querySelector(".scene"), canvas = scene.querySelector("canvas"), tip = scene.querySelector(".tip");
     const T = root.ROOM_TITLE, title = box.querySelector(".room-title");
-    if (T) title.src = T[T.use].src; else title.remove();
+    if (T) { title.src = T[T.use].src; title.classList.toggle("smooth", !!T[T.use].smooth); } else title.remove();
     for (const s of starters) {
       const b = document.createElement("button"); b.type = "button"; b.textContent = s; b.onclick = () => onStarter(s);
       box.querySelector(".starters").append(b);
