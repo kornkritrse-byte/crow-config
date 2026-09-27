@@ -22,4 +22,4 @@ metadata:
 - ⚠️ Don't let this turn into performing for the ledger. If he starts making fewer commitments so the % looks better, say it (Vera).
 
 ## Ledger
-- [ ] Back to studying two days before BA202 → 2026-10-02 | "ill be back two days before ba202" (27 Sep 14:36; ⚠️ 2 Oct is the AC311 exam itself, flagged to him in the same turn)
+- [ ] Back to studying two days before BA202 → 2026-09-30 | "ill be back two days before ba202" (27 Sep 14:36; BA202 is Fri 2 Oct per the official notice)
