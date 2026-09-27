@@ -70,8 +70,8 @@
     requestAnimationFrame(() => sizeIdle());
     return box;
   }
-  // The room fills the space it's given: past 3× it may take a fractional scale
-  // (uneven pixels don't show at that size), below 3× it stays on whole pixels so
+  // The room fills the space it's given: from 2.5× up it may take a fractional scale
+  // (uneven pixels don't show at that size), below that it stays on whole pixels so
   // it stays crisp. The title keeps whole pixels, ×3 when it fits, else a step down.
   function sizeIdle() {
     if (!idle?.canvas.isConnected) return;
@@ -85,7 +85,7 @@
     let k = 1, kt = 1;
     for (const t of [3, 2, 1]) {
       const fit = Math.min(availW / S.W, (availH - th * t) / S.H, 4);
-      if (fit >= 3 || t === 1) { kt = t; k = fit >= 3 ? Math.floor(fit * 20) / 20 : Math.max(1, Math.floor(fit)); break; }
+      if (fit >= 2.5 || t === 1) { kt = t; k = fit >= 2.5 ? Math.floor(fit * 20) / 20 : Math.max(1, Math.floor(fit)); break; }
     }
     scene.style.width = Math.round(S.W * k) + "px"; scene.style.height = Math.round(S.H * k) + "px";
     if (title && T) { title.style.width = T.w * kt + "px"; title.style.height = T.h * kt + "px"; }
