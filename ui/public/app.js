@@ -90,15 +90,21 @@ function button(label, cls, onclick) {
   return b;
 }
 
-// Following = the view stays pinned to the newest line. Only scrolling UP lets go
-// (growing content never moves scrollTop up); getting back near the bottom re-pins.
-let follow = true, lastTop = 0;
+// Following = the view stays pinned to the newest line. Any move UP lets go at once
+// (wheel, keys, touch, scrollbar); getting back near the bottom re-pins.
+let follow = true, lastTop = 0, touchY = 0;
+const letGo = () => { follow = false; };
+stream.addEventListener('wheel', e => { if (e.deltaY < 0) letGo(); }, { passive: true });
+stream.addEventListener('touchstart', e => { touchY = e.touches[0].clientY; }, { passive: true });
+stream.addEventListener('touchmove', e => { if (e.touches[0].clientY > touchY) letGo(); }, { passive: true });
+stream.addEventListener('keydown', e => { if (['ArrowUp', 'PageUp', 'Home'].includes(e.key)) letGo(); });
 stream.addEventListener('scroll', () => {
-  const top = stream.scrollTop;
-  if (top < lastTop - 2) follow = atBottom();
+  const top = stream.scrollTop, gap = stream.scrollHeight - top - stream.clientHeight;
+  if (top < lastTop - 2 && gap > 2) letGo();        // dragged up (a shrink that clamps at the bottom isn't)
   else if (atBottom()) follow = true;
   lastTop = top;
   if (follow) jump.hidden = true;
+  else if (gap > 80) jump.hidden = false;
 });
 // Anything that grows the stream (text, steps, outputs, the final paint) keeps it pinned.
 let pinQueued = false;
