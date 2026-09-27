@@ -36,6 +36,7 @@ metadata:
 - Bangkok flooded; **his whole neighbourhood is under water.** **His home (= grandpa's house) is FINE; grandpa is still there.** The one that flooded is **grandpa's brother's house next door**. He spent all of Saturday clearing their things and taking them to a hotel by truck. **In the hotel: grandpa's brother, his grandma, and her sister (the brother's wife). All fine (his word, 00:53 27 Sep).** He waded **waist-deep** to go out for food. Body: "great" (00:53).
 - ⚕️ Waist-deep floodwater = **leptospirosis risk**; told him 27 Sep: fever, muscle pain (calves) or red eyes within ~2–14 days means a doctor, and say "flood water". Raise it again only if he mentions feeling ill.
 - Exams moved by the flood (see below). Expect more disruption: commute, gym (Jetts Phayathai), running routes.
+- 💧 27 Sep 21:23: water "creeping down, really slowly", then rain resets it. Little change. He popped in mid-break to chat, not to work.
 
 ## 🎓 Midterms — 4 of 6 SAT, 2 left → [[project-midterms]]
 - ✅ MK201 · AC313 · FN201 (went badly, cohort-wide, **don't reopen**) · EL221 (finished early).
