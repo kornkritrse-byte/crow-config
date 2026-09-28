@@ -22,7 +22,7 @@ metadata:
 
 ## Cards
 - 2026-09-30 | box 1 | AC311 | Q: A purchase commitment was provisioned last year. On delivery day, write the four lines of the entry. | A: Dr Inventory (at lower of cost/NRV, i.e. market) · Dr Provision (the FULL balance) · Cr Cash (the contract price) · the difference = Loss (Dr) or Recovery (Cr). Never use the Provision as a plug.
-- 2026-09-28 | box 1 | AC311 | Q: Inventory write-down → Allowance. Purchase-commitment loss → Provision. Why the different account? | A: Own it → allowance (contra-asset against inventory you hold). Owe it → provision (liability for a contract you're bound to).
+- 2026-10-05 | box 2 | AC311 | Q: Inventory write-down → Allowance. Purchase-commitment loss → Provision. Why the different account? | A: Own it → allowance (contra-asset against inventory you hold). Owe it → provision (liability for a contract you're bound to).
 - 2026-09-29 | box 1 | AC311 | Q: On the SOCI, where does "Recovery of Loss from Decline in Inventory Value" sit, and is it added or subtracted? | A: Inside the COGS build, LESS (subtracted): after COGAS − Ending Inv, then + Loss from Decline, − Recovery → COGS.
 - 2026-09-29 | box 1 | AC311 | Q: Allowance b/f is 60. Required allowance at year end is 20. What's the entry amount? | A: 40 (Recovery). The entry is the MOVEMENT, not the closing balance: required → b/f → the gap is the entry.
 - 2026-09-30 | box 1 | AC311 | Q: Goods shipped DDP are still in transit on 31 Dec. Whose inventory? And FOB / CIF? | A: DDP = SELLER's until delivered. FOB and CIF = BUYER's once loaded (her rule has no shipping-point/destination split).
