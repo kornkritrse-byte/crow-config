@@ -22,4 +22,5 @@ metadata:
 - ⚠️ Don't let this turn into performing for the ledger. If he starts making fewer commitments so the % looks better, say it (Vera).
 
 ## Ledger
-- [ ] 2026-09-27 → 2026-09-30 | "ill be back two days before ba202": back to studying (said 14:36; BA202 is Fri 2 Oct per the official notice)
+- [~] 2026-09-27 → 2026-09-30 | "ill be back two days before ba202": back to studying (said 14:36; BA202 is Fri 2 Oct per the official notice) → moved UP a day on 28 Sep (his call, see next line)
+- [ ] 2026-09-28 → 2026-09-29 | "lets start ba202 revision tmr hola day of locking in tmr": full BA202 lock-in day, Tue 29 Sep (said 13:59 Mon; resting Mon)

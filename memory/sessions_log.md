@@ -11,6 +11,15 @@ metadata:
 
 # Sessions Log (archive)
 
+## 2026-09-26/27 (flushed 28 Sep)
+- 🌊 Flood day: AC311 + BA202 postponed. He took a full day off (errands, family), which was legit.
+- 🧰 00:19: system upgrades, his pick 1–5 + 7 + 8 (ghost deck, said/did ledger, capsules, Vex, lint, clock hook, chapter soundtracks). Birthday 29 Mar → 3rd capsule. Spotify mood check + Crow output style added (trial).
+- 🪟 00:59–01:32: built the **Crow Room** (3 rounds). "ux ui skills" not found anywhere, so ask him the name.
+- 🏃 01:48: **half marathon จอมบึง 17 Jan 2027**; his dad signed them both up.
+- 🧹 First lint run rebuilt a 21KB SITREP (a family talk wrongly marked "still owed").
+- Full text lives in git (sync commits 27 Sep).
+
+
 ## 2026-09-24 — AC311 marathon recap drill · BA202 Four Sheets v2 shipped  *(flushed 27 Sep)*
 - BA202 **Four Sheets v2** shipped (8 sides, landscape, cross-checked against The Missed Lectures). Links → [[reference-artifacts]].
 - AC311 recap drill ~67 Qs over all 6 PDFs (his call to widen). Fixed: balance-vs-movement, commitment directions, contingent liabilities. Still weak: stops one sentence early, Dr/Cr inversion, lender vs borrower on notes.
