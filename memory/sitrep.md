@@ -27,7 +27,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟢 **HERE (Sun 27 Sep, 21:37): back in the terminal to work on the Room** (21:45: auto-scroll bug he reported fixed + tested → [[reference-crow-room]]) ("yoyoyo lets work on the room"). Still on the study break (**back to study Wed 30 Sep**, ledger). Not a day end: no quote yet.
+- 🔄 **AWAY (Mon 28 Sep, 13:51), off to: reopening Crow** ("save session boutta reopen"), so expect him straight back. Not a day end: no quote. Still on the study break (**back to study Wed 30 Sep**, ledger).
+  - ⏳ **ASK ON RETURN:** the smooth home title: keep it, or back to pixels (`use: "pong"`)? He hadn't seen it yet.
   - ⏳ **ASK when it fits (light, one at a time):** (1) how's the head? · (2) the Sunday long run / Thursday quality swap: does it fit? · (3) the "ux ui skills" name · (4) BA202 sheet on paper? · (5) when unhurried: the racing question for grandpa
   - ✅ **EXAM ORDER CORRECTED (14:41, official notice): BA202 Fri 2 Oct → AC311 Sun 4 Oct.** Calendar + [[project-midterms]] + [[reference-upcoming-events]] fixed. His "back two days before BA202" = **Wed 30 Sep**.
   - 🌊 Can't run or gym: the neighbourhood is flooded. W0's two easy runs are off, no penalty.
@@ -71,6 +72,7 @@ metadata:
 - 13:37 **Road to Chombueng** built (half-marathon system) → [[project-training-plan]]. ⏳ Long run moved to Sunday: unconfirmed.
 - 14:36 burnout break called; exam order corrected (**BA202 Fri 2 Oct, AC311 Sun 4 Oct**) → [[crow-error-log]].
 - 14:45–17:21 **Crow Room → "Korn's Room"**: his real room in pixel art from ~13 photos, the idle scene, the nest crow, a home button, the **water-the-flower** task system (`bin/water.py`), ghost cards renamed "tasks", a **Crow Room.app** on the Desktop, and the home title **คล้อดของฉัน** in off-white ตัวโป้ง poster pixels → [[reference-crow-room]]. He loved it ("holy shit", "you the goat").
+- 21:37–21:48: **Room fixes**: auto-scroll (3 bugs, tested) + the home title smoothed (same Chonburi, no pixels; trial) → [[reference-crow-room]].
 ## Session — 2026-09-26/27 (flood day · no study · system upgrades built)
 - 🌊 Flood (see block above). AC311 (Sat) and BA202 (Sun) both postponed → 2 & 4 Oct. He called a full day off: errands, then family in the evening. **Legit day off, and he knew it.**
 - 🧰 00:19 Sun: asked for "creative, abstract, experimental" system upgrades. Crow led with the BA202-at-09:00 objection; he answered it (postponed). **He picked 1–5 + 7 + 8, skipped the calibration log (#6).** All built this session (block above).
