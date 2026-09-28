@@ -28,7 +28,7 @@ metadata:
 
 ## 🚪 Current status
 - 🔄 **AWAY (Mon 28 Sep, 14:11), off to: VS Code to tweak (likely the Room).** Not a day end: no quote.
-  - ⏳ **ASK ON RETURN:** what did he tweak, and does anything need checking on this side?
+  - ✅ 14:12–14:15: tested his tweak live: **the jump-to-bottom button** (appears when he scrolls up mid-reply) + auto-scroll through long text/tables/code: "works great". Nothing open on the Room.
   - 😴 **Resting today (his call).** 🔒 **BA202 lock-in: TUE 29 Sep, a full day** (ledger; he moved it up from Wed 30).
   - ⏳ **ASK when it fits (light, one at a time):** (1) how's the head? · (2) did he ask Klao for the practice recordings ("ill tell him for sure")? · (3) the Sunday long run / Thursday quality swap: does it fit? · (4) the "ux ui skills" name · (5) BA202 sheet on paper? · (6) when unhurried: the racing question for grandpa
   - ✅ **EXAM ORDER CORRECTED (14:41, official notice): BA202 Fri 2 Oct → AC311 Sun 4 Oct.** Calendar + [[project-midterms]] + [[reference-upcoming-events]] fixed. His "back two days before BA202" = **Wed 30 Sep**.
