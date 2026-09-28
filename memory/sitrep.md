@@ -27,7 +27,9 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟢 **Here (Mon 28 Sep, 13:53)**, back from reopening Crow. **Resting today (his call).** 🔒 **BA202 lock-in: TUE 29 Sep, a full day** (ledger; he moved it up from Wed 30).
+- 🔄 **AWAY (Mon 28 Sep, 14:11), off to: VS Code to tweak (likely the Room).** Not a day end: no quote.
+  - ⏳ **ASK ON RETURN:** what did he tweak, and does anything need checking on this side?
+  - 😴 **Resting today (his call).** 🔒 **BA202 lock-in: TUE 29 Sep, a full day** (ledger; he moved it up from Wed 30).
   - ⏳ **ASK when it fits (light, one at a time):** (1) how's the head? · (2) did he ask Klao for the practice recordings ("ill tell him for sure")? · (3) the Sunday long run / Thursday quality swap: does it fit? · (4) the "ux ui skills" name · (5) BA202 sheet on paper? · (6) when unhurried: the racing question for grandpa
   - ✅ **EXAM ORDER CORRECTED (14:41, official notice): BA202 Fri 2 Oct → AC311 Sun 4 Oct.** Calendar + [[project-midterms]] + [[reference-upcoming-events]] fixed. His "back two days before BA202" = **Wed 30 Sep**.
   - 🌊 Can't run or gym: the neighbourhood is flooded. W0's two easy runs are off, no penalty.
