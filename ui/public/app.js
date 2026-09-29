@@ -152,7 +152,98 @@ function paintReply(live) {
   if (!reply) return;
   reply.el.innerHTML = renderMarkdown(reply.md);
   markVoices(reply.el, live);
+  mountMcq(reply.el, live && busy);
   reply.el.classList.toggle('cursor', live && busy);
+}
+
+// ---------------------------------------------------------------- MCQ cards
+
+// Crow writes a ```mcq fence holding {"q", "options", "multi"?}; it becomes a card
+// he ticks, adds a note to, and locks in. The pick goes back as an ordinary message,
+// so Crow grades it in the conversation. Locked picks are kept per question in
+// localStorage so a reload shows them locked (Korn's ask, 29 Sep).
+const LETTERS = 'ABCDEFGHIJ';
+function mcqKey(data) {
+  let h = 0;
+  for (const ch of data.q + '|' + data.options.join('|')) h = (h * 31 + ch.charCodeAt(0)) | 0;
+  return 'mcq:' + (h >>> 0).toString(36);
+}
+function mcqSaved(key) { try { return JSON.parse(localStorage.getItem(key)); } catch { return null; } }
+function mcqSave(key, v) { try { localStorage.setItem(key, JSON.stringify(v)); } catch {} }
+const inlineMd = s => DOMPurify.sanitize(marked.parseInline(String(s)));
+
+function mountMcq(root, streaming) {
+  for (const code of root.querySelectorAll('pre > code.language-mcq')) {
+    const pre = code.parentElement;
+    let data = null;
+    try { data = JSON.parse(code.textContent); } catch {}
+    if (data && (typeof data.q !== 'string' || !Array.isArray(data.options) || data.options.length < 2)) data = null;
+    if (!data) {
+      // Half-streamed JSON: a placeholder. Broken JSON in a finished reply stays as code.
+      if (streaming) pre.replaceWith(div('mcq pending', 'question coming…'));
+      continue;
+    }
+    pre.replaceWith(streaming ? div('mcq pending', 'question coming…') : mcqCard(data));
+  }
+}
+
+function mcqCard(data) {
+  const key = mcqKey(data), saved = mcqSaved(key);
+  const el = div('mcq');
+  const q = div('q'); q.innerHTML = renderMarkdown(data.q); el.append(q);
+  if (data.multi) el.append(div('hint', 'Tick every one that applies'));
+  const opts = document.createElement('div');
+  opts.className = 'opts';
+  const picked = new Set(saved?.picks || []);
+  const rows = data.options.map((text, i) => {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'opt';
+    b.innerHTML = `<span class="box"></span><span class="letter">${LETTERS[i]}</span><span class="text">${inlineMd(text)}</span>`;
+    b.onclick = () => {
+      if (el.classList.contains('locked')) return;
+      if (!data.multi) picked.clear();
+      picked.has(i) ? picked.delete(i) : picked.add(i);
+      paint();
+    };
+    opts.append(b);
+    return b;
+  });
+  el.append(opts);
+  const note = document.createElement('textarea');
+  note.className = 'note';
+  note.rows = 2;
+  note.placeholder = 'Why this one? (optional, but it’s where the learning is)';
+  note.value = saved?.note || '';
+  const submit = button('Lock it in', 'submit', () => {
+    if (!picked.size || ws?.readyState !== 1) return;
+    const picks = [...picked].sort((a, b) => a - b);
+    const lines = picks.map(i => `${LETTERS[i]}) ${data.options[i]}`);
+    let text = `[MCQ] ${data.q.replace(/\s+/g, ' ').slice(0, 90)}${data.q.length > 90 ? '…' : ''}\nMy pick: ${lines.join(' · ')}`;
+    if (note.value.trim()) text += `\nMy reasoning: ${note.value.trim()}`;
+    if (!sendMessage(text, [])) return;
+    mcqSave(key, { picks, note: note.value.trim() });
+    lock();
+  });
+  const foot = div('foot');
+  foot.append(note, submit);
+  el.append(foot);
+
+  function paint() {
+    rows.forEach((b, i) => b.classList.toggle('on', picked.has(i)));
+    submit.disabled = !picked.size;
+  }
+  function lock() {
+    el.classList.add('locked');
+    note.readOnly = true;
+    submit.textContent = 'Locked in';
+    submit.disabled = true;
+    rows.forEach(b => { b.disabled = true; });
+    if (!note.value.trim()) note.hidden = true;
+  }
+  paint();
+  if (saved) lock();
+  return el;
 }
 
 let paintQueued = false;
