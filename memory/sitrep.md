@@ -72,7 +72,7 @@ metadata:
 - 12:12 back. Task #26 (Recovery on the SOCI): **pass** after a nudge on *where*.
 - Said he'd get the Four Sheets onto paper "right away" → [[ledger-said-did]].
 - 12:17–12:25 built **MCQ cards in the Room** (tick, note, lock in, Crow grades) → [[reference-crow-room]]. Built while he ate, before the lock-in.
-- 12:47 detoured to AC311 "to get it off my mind": Q1 classification labels 4/5, reasons 2/5 (petty cash reason = size ✗, postdated cheque = notes rec ✗, both ghosted). SOCI from memory: **all correct**. 13:1x opened Four Strings paper III. BA202 MCQ demo card still unanswered.
+- 12:47 detoured to AC311 "to get it off my mind": Q1 classification labels 4/5, reasons 2/5 (petty cash reason = size ✗, postdated cheque = notes rec ✗, both ghosted). SOCI from memory: **all correct**. 13:1x opened Four Strings paper III → worked parts 1–2 (unit-cost miss: spread freight over 150 not 190, skipped the 380 row; walked through the sales commitment + 20X2 LCNRV split). **14:34 parked mid-paper → BA202.** Finish Four Strings (SOCI numbers + SOFP vs checkpoints) before Sun 4 Oct. Ghost #27 (allowance movement) NOT served — contaminated by the Method 2 walkthrough, serve next session.
 ## Session — 2026-09-28 (rest day called · BA202 lock-in set for Tue)
 - 13:53 back after reopening. Task #25 (allowance vs provision): **pass**, own it vs owe it.
 - Smooth home title **kept** ("I fuck with it") → [[reference-crow-room]].
