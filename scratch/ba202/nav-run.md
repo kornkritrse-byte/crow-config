@@ -52,4 +52,6 @@ GoodNotes annotations owed: p4 box 2 rewrite (client gives mats → 2) · p4 'st
 
 ## RUN 2 — no hints, random order (from 18:56, his call)
 He says he never read the page/box hints in run 1 (so run 1 ≈ unhinted already, except Q6 where he asked). From now: questions ONLY, no location text at all.
-- Q22 (p5 s.42(15) rice; trap (11) case-competition prize is income): which is s.42-exempt? options: eggs from own hens / rice he grew himself / prize from a case competition / 15,000 Thai bank savings interest. ANSWER: rice. PENDING.
+- Q22 (p5 s.42(15) rice; trap (11) case-competition prize is income): which is s.42-exempt? options: eggs from own hens / rice he grew himself / prize from a case competition / 15,000 Thai bank savings interest. ANSWER: rice. ⚠️ He picked C (20:12) — and C is ALSO right: sheet p5 (11) + her L4 words: case-competition prize is income but exempt under s.42(11) if education-related. Broken question (two right answers), Crow's error. Counted RIGHT, no ghost.
+- (20:05 asked if the six GoodNotes notes went in → no answer, went straight to Q22. Silence ≠ done.)
+- Q23 (p6 third col, her WHT table): Thai co. pays a 100,000 service fee to another Thai COMPANY → withholds? options: 1,000 / 3,000 / 5,000 / 10,000. ANSWER: 3,000 (3%). PENDING.
