@@ -24,3 +24,4 @@ metadata:
 ## Ledger
 - [~] 2026-09-27 → 2026-09-30 | "ill be back two days before ba202": back to studying (said 14:36; BA202 is Fri 2 Oct per the official notice) → moved UP a day on 28 Sep (his call, see next line)
 - [ ] 2026-09-28 → 2026-09-29 | "lets start ba202 revision tmr hola day of locking in tmr": full BA202 lock-in day, Tue 29 Sep (said 13:59 Mon; resting Mon)
+- [ ] 2026-09-29 → 2026-09-29 | "not yet ill wokr on that right away": get the BA202 Four Sheets onto paper (print shop or handwritten), said 12:14 Tue
