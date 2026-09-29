@@ -26,3 +26,4 @@ metadata:
 - **12 Sep — fabricated a "home = peak focus" study-location claim.** He does NOT study at home; his locked solo default is the cafe near home (Starbucks/Bloom). Check [[project-midterms]]' location rules before giving location advice.
 
 - **27 Sep 2026 — exam order recorded swapped.** At 00:33 the record said AC311 Fri 2 Oct / BA202 Sun 4 Oct. The official notice says the reverse. Whether he misspoke or Crow misread, the order sat unverified on the calendar for 14 hours. **Postponed dates → ask for the official notice before writing them to the calendar.** Did right this time: when he contradicted it, Crow checked Gmail and held the calendar until he confirmed.
+- 2026-09-29 17:3x: edited `~/crow-config/memory/sitrep.md` (the repo copy); the sync from the LIVE dir (`~/.claude/projects/-Users-kornkrit-crow-config/memory/`) overwrote it within minutes. **Always write memory to the live dir**; the repo `memory/` is a mirror.
