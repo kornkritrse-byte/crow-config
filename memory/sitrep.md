@@ -27,7 +27,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟢 **Here (Tue 29 Sep, 12:12): BA202 lock-in day.** The Mon 14:21 Room-tweak session never got past "what tweak?" (he went quiet), so nothing was changed.
+- 🟢 **Here (Tue 29 Sep, 17:22): restarting the Room mid-drill.** ON RETURN: resend the map + Q1 from `scratch/ba202/nav-run.md` (he asked for it); continue the sheet navigation run page by page, one MCQ at a time, logging progress in that file. He makes GoodNotes notes as he navigates.
+- 🟢 (earlier) **Here (Tue 29 Sep, 12:12): BA202 lock-in day.** The Mon 14:21 Room-tweak session never got past "what tweak?" (he went quiet), so nothing was changed.
   - ✅ 14:12–14:15: tested his tweak live: **the jump-to-bottom button** (appears when he scrolls up mid-reply) + auto-scroll through long text/tables/code: "works great". Nothing open on the Room.
   - 😴 **Resting today (his call).** 🔒 **BA202 lock-in: TUE 29 Sep, a full day** (ledger; he moved it up from Wed 30).
   - ⏳ **ASK when it fits (light, one at a time):** (1) how's the head? · (2) did he ask Klao for the practice recordings ("ill tell him for sure")? · (3) the Sunday long run / Thursday quality swap: does it fit? · (4) the "ux ui skills" name · (5) BA202 sheet on paper? · (6) when unhurried: the racing question for grandpa
