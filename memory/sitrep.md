@@ -59,6 +59,7 @@ metadata:
 - 🎵 Chapter soundtracks on Spotify (Artis): one playlist per chapter in [[chapters]].
 
 ## 🔕 Standing — raise only if it comes up
+- 🌸 **Daily goals idea (his, 29 Sep 20:37):** session start → "goals today?", he lists them + standing ones (wake early, bed by 23:30, run/gym); each done = a blossom; "logging off for the day" → petals fall. Crow's pushback: fixed 7 → petals = however many he lists (max 7); sleep checked next session; build AFTER exams (VS Code). Awaiting his call on timing.
 - **Morning person:** #1 landed 14 Sep; #2 not seen yet → [[project-morning-person]].
 - **Race 13 Dec:** venue unknown · bib pickup race-morning or in advance? (his dad likely knows) → [[project-training-plan]]. Training resumes after exams, and the flood may affect it.
 - 📖 **Siddhartha: he's at Kamala. ⛔ No spoilers past Kamala.** Karamazov: safe through Book 12 ch. 2, **no Epilogue**.
