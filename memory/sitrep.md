@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-09-28 14:2x (live). Window holds 28 + 27 (afternoon); 26/27 flushed to [[sessions-log]] on 28 Sep. Next to flush: 27. Midterms 5+6 postponed by the Bangkok flood → BA202 2 Oct, AC311 4 Oct.*
+*Last updated: 2026-09-29 12:2x (live). Window holds 29 + 28; 27 afternoon flushed to [[sessions-log]] on 29 Sep. Next to flush: 28. Midterms 5+6 postponed by the Bangkok flood → BA202 2 Oct, AC311 4 Oct.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -68,13 +68,12 @@ metadata:
 - 📌 After midterms: "make Obsidian cool" → [[reference-obsidian]].
 - ⚠️ **My own error log moved to [[crow-error-log]]. The shape keeps repeating: check the record before asserting.**
 
+## Session — 2026-09-29 (BA202 lock-in day)
+- 12:12 back. Task #26 (Recovery on the SOCI): **pass** after a nudge on *where*.
+- Said he'd get the Four Sheets onto paper "right away" → [[ledger-said-did]].
+- 12:17–12:25 built **MCQ cards in the Room** (tick, note, lock in, Crow grades) → [[reference-crow-room]]. Built while he ate, before the lock-in.
 ## Session — 2026-09-28 (rest day called · BA202 lock-in set for Tue)
 - 13:53 back after reopening. Task #25 (allowance vs provision): **pass**, own it vs owe it.
 - Smooth home title **kept** ("I fuck with it") → [[reference-crow-room]].
 - Called a rest day. **BA202 lock-in Tue 29 Sep, full day** → [[ledger-said-did]].
 - "In case I find the fire": built **AC311 practice paper III, Four Strings Co.** (2 years, Method 1, delivery-day entry, contract-units NRV trap, onerous sales commitment, Method 2 bonus) → `~/Desktop/ปีศาจ/AC311-Four-Strings-Paper.html` → [[reference-artifacts]]. Checkpoints: Y1 COGS 5,930 / NOI 2,290 · Y2 COGS 6,450 / NOI 4,010.
-## Session — 2026-09-27 afternoon (Road to Chombueng + Korn's Room)
-- 13:37 **Road to Chombueng** built (half-marathon system) → [[project-training-plan]]. ⏳ Long run moved to Sunday: unconfirmed.
-- 14:36 burnout break called; exam order corrected (**BA202 Fri 2 Oct, AC311 Sun 4 Oct**) → [[crow-error-log]].
-- 14:45–17:21 **Crow Room → "Korn's Room"**: his real room in pixel art from ~13 photos, the idle scene, the nest crow, a home button, the **water-the-flower** task system (`bin/water.py`), ghost cards renamed "tasks", a **Crow Room.app** on the Desktop, and the home title **คล้อดของฉัน** in off-white ตัวโป้ง poster pixels → [[reference-crow-room]]. He loved it ("holy shit", "you the goat").
-- 21:37–21:48: **Room fixes**: auto-scroll (3 bugs, tested) + the home title smoothed (same Chonburi, no pixels; trial) → [[reference-crow-room]].

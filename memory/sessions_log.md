@@ -11,6 +11,12 @@ metadata:
 
 # Sessions Log (archive)
 
+## 2026-09-27 afternoon: Road to Chombueng + Korn's Room (flushed 29 Sep)
+- 13:37 **Road to Chombueng** built (half-marathon system) → [[project-training-plan]]. ⏳ Long run moved to Sunday: unconfirmed.
+- 14:36 burnout break called; exam order corrected (**BA202 Fri 2 Oct, AC311 Sun 4 Oct**) → [[crow-error-log]].
+- 14:45–17:21 **Crow Room → "Korn's Room"**: his real room in pixel art from ~13 photos, the idle scene, the nest crow, a home button, the **water-the-flower** task system (`bin/water.py`), ghost cards renamed "tasks", a **Crow Room.app** on the Desktop, and the home title **คล้อดของฉัน** in off-white ตัวโป้ง poster pixels → [[reference-crow-room]]. He loved it ("holy shit", "you the goat").
+- 21:37–21:48: **Room fixes**: auto-scroll (3 bugs, tested) + the home title smoothed (same Chonburi, no pixels; trial) → [[reference-crow-room]].
+
 ## 2026-09-26/27 (flushed 28 Sep)
 - 🌊 Flood day: AC311 + BA202 postponed. He took a full day off (errands, family), which was legit.
 - 🧰 00:19: system upgrades, his pick 1–5 + 7 + 8 (ghost deck, said/did ledger, capsules, Vex, lint, clock hook, chapter soundtracks). Birthday 29 Mar → 3rd capsule. Spotify mood check + Crow output style added (trial).
