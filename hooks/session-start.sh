@@ -40,8 +40,8 @@ fi
 # --- Extras: each prints ONLY when it has something (capsule due, ghost card
 # due, said/did items to check, SITREP rule breaks). Silent otherwise.
 # Order = delivery order: a capsule outranks everything, then the cold card.
-for s in capsules.py ghost.py ledger.py lint-sitrep.py; do
-  python3 "$repoDir/bin/$s" 2>/dev/null
+for s in capsules.py ghost.py ledger.py "goals.py check" lint-sitrep.py; do
+  python3 "$repoDir/bin/"$s 2>/dev/null     # unquoted on purpose: "goals.py check" splits into script + arg
 done
 
 # Late night (21:00–04:59): his standing ask (27 Sep) — one Spotify now-playing

@@ -55,6 +55,8 @@ Multiple-choice cards: AskUserQuestion is off in the Room. When you want Korn to
 \`\`\`
 The Room turns it into a card: lettered options A, B, C… (do not put letters in the option text), tick boxes, a note box for his reasoning, and a "Lock it in" button. Set "multi": true only when more than one option can be right. Rules: one card per message, never batch; put the card last and never reveal or hint at the answer in that message. His answer arrives as a message starting "[MCQ]" with "My pick:" and maybe "My reasoning:". Grade it in the first line (right or wrong, then the right answer), then say why, and read his reasoning: a right pick with wrong reasoning is a miss worth naming. A miss becomes a ghost card that turn, as usual. MCQ trains recognition, and his gap is recall ([[feedback-drill-format]]), so use cards where the exam itself is MCQ (BA202) or for quick checks, and keep open questions for everything else.
 
+Today's goals (the plum blossom): the flower on the board has one blossom per goal he lists for the day. When the session-start hook prints 🌸 GOALS, ask "goals today?" (max 7 of his own) and record them with python3 bin/goals.py set "<goal>" … (Wake early, Bed by 23:30 and a scheduled training session are added on their own). When he says a goal is done, run goals.py done <n> that turn (it waters the flower). He can also press Done on the board. Ask "Bed by 23:30" about the previous night at the next session. When he logs off for the day the stop hook runs goals.py close and the petals fall.
+
 When what he's asking for is clearly better done in VS Code, open your reply with one line saying so and why ("This one's better in VS Code: ..."), then still do whatever part the Room can do. Don't flag small edits, study work, drills or conversation: those belong here. Say it once per task, not on every message.`;
 
 // ---------------------------------------------------------------- session
@@ -556,7 +558,21 @@ function water(ghost) {
   const t = trainingToday(today);
   if (t) tasks.push({ kind: 'training', id: today, text: t.title, done: rows.some(r => r.kind === 'training' && r.date === today) });
   tasks.push(...ledgerDue(today));
-  return { week: rows.filter(r => r.date >= from).length, tasks, last: rows.at(-1) || null };
+  return { week: rows.filter(r => r.date >= from).length, tasks, last: rows.at(-1) || null, goals: goals() };
+}
+// Today's goals (bin/goals.py → goals_today.md): one blossom slot per goal on the
+// flower. "Bed by 23:30" is settled at the next session, so it gets no slot today.
+// A day runs 05:00 → 05:00 Bangkok, like goals.py.
+const GOALS_LOG = path.join(MEMORY, 'goals_today.md');
+function goalDay() {
+  return new Date(Date.now() + (7 - 5) * 3600e3).toISOString().slice(0, 10);
+}
+function goals() {
+  const day = goalDay(), rows = readSafe(GOALS_LOG).split('\n')
+    .map(l => l.match(/^- (\d{4}-\d{2}-\d{2}) \| (.+?) \| (open|done|missed|closed)$/)).filter(m => m && m[1] === day);
+  const list = rows.filter(m => m[3] !== 'closed').map((m, i) => ({ n: i + 1, text: m[2], status: m[3], slot: m[2] !== 'Bed by 23:30' }));
+  const slots = list.filter(g => g.slot);
+  return { day, list, closed: rows.some(m => m[3] === 'closed'), total: slots.length, done: slots.filter(g => g.status === 'done').length };
 }
 function addWater(kind, what) {
   return new Promise(resolve => execFile('python3', [path.join(REPO, 'bin/water.py'), 'add', kind, what], { timeout: 5000 }, () => resolve()));
@@ -564,6 +580,12 @@ function addWater(kind, what) {
 // A Done button on the board: training for today, or a said/did line kept.
 async function markDone(m) {
   const today = bangkokToday();
+  if (m.kind === 'goal' && Number.isInteger(m.id)) {
+    const g = goals();
+    if (g.closed || g.list[m.id - 1]?.status !== 'open') return false;
+    await new Promise(resolve => execFile('python3', [path.join(REPO, 'bin/goals.py'), 'done', String(m.id)], { timeout: 5000 }, () => resolve()));
+    return true;
+  }
   if (m.kind === 'training') {
     const t = trainingToday(today);
     if (!t || m.id !== today || waterRows().some(r => r.kind === 'training' && r.date === today)) return false;

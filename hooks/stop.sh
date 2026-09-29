@@ -40,6 +40,8 @@ fi
 
 if [ -f "$marker" ]; then
   # Phase 1: Korn signalled end of day. Block once for the wrap-up.
+  # The day's goals close here, so the Room's plum blossom drops its petals.
+  python3 "$repoDir/bin/goals.py" close >/dev/null 2>&1 || true
   cat <<'EOF'
 {"decision": "block", "reason": "Korn is logging off for the day. Before the session closes: (1) rewrite memory/sitrep.md per the REWRITE RULE at its top — rolling 2-session window, flush the falling-out note to sessions_log.md, push durable facts to project files; a trivial day is a one-line note + date bump. (2) Give the nightly quote (feedback_artis_quote) if not already given tonight. Then stop."}
 EOF

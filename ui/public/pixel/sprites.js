@@ -80,10 +80,12 @@
     b.ellipse(x + 0.5, y + 0.5, 3.2, 3.2, (X, Y, u, v) => (u + v < -0.6 ? P.petalHi : u + v > 0.9 ? P.petalD : P.petal));
     b.set(x, y, P.stamen); b.set(x + 1, y - 1, P.stamen); b.set(x - 1, y - 1, P.stamen);
   }
-  // where the six blossoms open, in order
-  const flowerSpots = (cx, by) => [[cx, by - 18], [cx - 6, by - 31], [cx + 6, by - 38], [cx + 3, by - 27], [cx + 1, by - 44], [cx + 8, by - 22]];
+  // where the blossoms open, in order: the six main ones, then seven more for a long goal list
+  const flowerSpots = (cx, by) => [[cx, by - 18], [cx - 6, by - 31], [cx + 6, by - 38], [cx + 3, by - 27], [cx + 1, by - 44], [cx + 8, by - 22],
+    [cx - 5, by - 54], [cx - 3, by - 50], [cx - 9, by - 27], [cx + 10, by - 24], [cx + 8, by - 40], [cx - 2, by - 40], [cx + 4, by - 33]];
+  // o.slots: one bud per goal today (o.blooms of them open); without it, the old six + seven buds
   function flower(b, cx, by, o = {}) {
-    const blooms = o.blooms ?? 5;
+    const blooms = o.blooms ?? 5, slots = o.slots;
     b.rect(cx - 6, by - 2, 13, 2, P.stand); b.hline(cx - 5, cx + 5, by - 3, P.stand2); b.set(cx - 6, by - 1, P.branch); b.set(cx + 6, by - 1, P.branch);
     b.rect(cx - 5, by - 9, 11, 6, P.pot); b.vline(cx - 4, by - 9, by - 4, P.potHi); b.vline(cx + 5, by - 9, by - 4, P.potD); b.hline(cx - 5, cx + 5, by - 5, P.potGold);
     b.rect(cx - 3, by - 13, 7, 4, P.pot); b.vline(cx - 2, by - 13, by - 10, P.potHi); b.hline(cx - 3, cx + 3, by - 13, P.potD);
@@ -92,8 +94,9 @@
       [cx + 1, by - 22, cx + 7, by - 20], [cx + 7, by - 20, cx + 9, by - 23], [cx - 1, by - 28, cx - 7, by - 30], [cx - 7, by - 30, cx - 8, by - 26], [cx + 2, by - 36, cx + 7, by - 39]];
     br.forEach(([a, c, d, e], i) => b.line(a, c, d, e, i % 3 ? P.branch : P.branch2));
     const spots = flowerSpots(cx, by);
-    spots.forEach(([x, y], i) => blossom(b, x, y, i < blooms));
-    [[cx - 5, by - 54], [cx - 3, by - 50], [cx - 9, by - 27], [cx + 10, by - 24], [cx + 8, by - 40], [cx - 2, by - 40], [cx + 4, by - 33]].forEach(([x, y]) => blossom(b, x, y, false));
+    if (slots != null) return spots.slice(0, slots).forEach(([x, y], i) => blossom(b, x, y, i < blooms));
+    spots.slice(0, 6).forEach(([x, y], i) => blossom(b, x, y, i < blooms));
+    spots.slice(6).forEach(([x, y]) => blossom(b, x, y, false));
   }
 
   // ---------------------------------------------------------------- relic sunburst J-bass with the yak sticker

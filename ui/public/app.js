@@ -642,7 +642,8 @@ function paintBoard(board) {
 function paintWater(board) {
   const w = board.water || { week: 0, tasks: [] }, g = board.ghost;
   Room.setWater(w);
-  $('water-count').textContent = `${w.week} this week`;
+  const gl = w.goals;
+  $('water-count').textContent = !gl ? `${w.week} this week` : gl.closed ? 'day closed' : gl.total ? `${gl.done} of ${gl.total} today` : 'no goals yet';
   const box = $('water-tasks');
   box.innerHTML = '';
   const card = (label, text, action) => {
@@ -651,6 +652,16 @@ function paintWater(board) {
     if (action) el.append(action);
     box.append(el);
   };
+  // today's goals first: one blossom each
+  if (gl && !gl.closed) {
+    for (const goal of gl.list) {
+      const done = goal.status === 'done', missed = goal.status === 'missed';
+      const label = goal.slot ? 'Goal · today' : 'Goal · checked tomorrow';
+      const b = button(done ? 'Done ✓' : missed ? 'Missed' : 'Done', done || missed ? 'quiet done' : 'quiet', () => { b.disabled = true; ws.send(JSON.stringify({ type: 'water', kind: 'goal', id: goal.n })); });
+      b.disabled = done || missed || !goal.slot;
+      card(label, goal.text, goal.slot || done || missed ? b : null);
+    }
+  }
   for (const t of w.tasks) {
     if (t.kind === 'ghost' && g?.next) {
       card(`Task · ${g.next.subject}`, g.next.q, button('Answer it', 'quiet', () => {

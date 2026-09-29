@@ -10,7 +10,7 @@
   const store = { get: (k) => { try { return localStorage.getItem("room:" + k); } catch { return null; } }, set: (k, v) => { try { localStorage.setItem("room:" + k, v); } catch { /* private window */ } } };
 
   let mode = "idle";        // idle | thinking | waiting
-  let blooms = 0, bloomNote = "";
+  let blooms = 0, slots = null, bloomNote = "";   // slots: one per goal today (null = no goals data yet)
   let idle = null;          // { info, canvas, timer, t }
   const bkkHour = () => +new Date().toLocaleString("en-GB", { timeZone: "Asia/Bangkok", hour: "2-digit", hour12: false }) % 24;
   let hour = bkkHour();
@@ -39,7 +39,7 @@
     }
     stopIdle();
     for (const k in furniture) furniture[k] = false;
-    idle = { info: S.base({ hour, blooms, lamp: lampState(), ...furniture }), canvas, t: 0, timer: null, box };
+    idle = { info: S.base({ hour, blooms, slots, lamp: lampState(), ...furniture }), canvas, t: 0, timer: null, box };
     const frame = new PX(S.W, S.H);
     const draw = () => {
       if (!canvas.isConnected) return stopIdle();
@@ -61,7 +61,7 @@
       d.onmouseenter = d.onfocus = () => {
         tip.innerHTML = `<b></b><span></span>`;
         tip.querySelector("b").textContent = h.label;
-        tip.querySelector("span").textContent = h.id === "flower" && bloomNote ? `${bloomNote}. Finish a task to water it.` : h.note;
+        tip.querySelector("span").textContent = h.id === "flower" && bloomNote ? bloomNote : h.note;
         Object.assign(tip.style, { left: pct(h.x + h.w / 2, S.W), top: pct(h.y, S.H) });
         tip.hidden = false;
       };
@@ -96,7 +96,7 @@
   function stopIdle() { if (idle?.timer) clearInterval(idle.timer); if (idle) idle.timer = null; }
   function rebuildIdle() {
     if (!idle?.canvas.isConnected) return;
-    idle.info = S.base({ hour, blooms, lamp: lampState(), ...furniture });
+    idle.info = S.base({ hour, blooms, slots, lamp: lampState(), ...furniture });
     idle.draw();
   }
 
@@ -151,7 +151,7 @@
   // ---------------------------------------------------------------- board corner
   function paintMini() {
     const cv = document.getElementById("mini"); if (!cv) return;
-    const info = S.base({ hour, blooms, lamp: lampState() });
+    const info = S.base({ hour, blooms, slots, lamp: lampState() });
     const b = new PX(S.W, S.H).copy(info.b); S.anim(b, info, 0, { pose: pose(), still: true });
     const full = b.toCanvas(document.createElement("canvas"));
     const m = info.mini;
@@ -233,12 +233,13 @@
     paintMini(); rebuildIdle();
   }
   // ---------------------------------------------------------------- the plum blossom: one bloom per watering this week
-  let waterWeek = null, anim = null;
+  let lastGoals = null, anim = null;
   const WF = { w: 28, h: 64, cx: 14, by: 63 };
   function paintWaterFlower(n, fx = {}) {
     const cv = document.getElementById("water-flower"); if (!cv) return;
     const b = new PX(WF.w, WF.h);
-    R.flower(b, WF.cx, WF.by, { blooms: n });
+    R.flower(b, WF.cx, WF.by, { blooms: n, slots: fx.slots ?? slots });
+    for (const [x, y, c] of fx.petals || []) b.set(x, y, c);
     const drop = C("#7ac8ff"), dropHi = C("#e8f6ff"), gold = C("#fff0a8");
     for (const d of fx.drops || []) { b.set(d.x, d.y, dropHi); b.set(d.x, d.y + 1, drop); b.set(d.x - 1, d.y + 2, drop); b.set(d.x, d.y + 2, drop); b.set(d.x + 1, d.y + 2, drop); b.set(d.x, d.y + 3, drop); }
     for (const [x, y] of fx.splash || []) { b.set(x - 2, y, drop); b.set(x + 2, y, drop); b.set(x - 1, y - 1, dropHi); b.set(x + 1, y - 1, dropHi); }
@@ -249,8 +250,8 @@
   function animateWater(n) {
     if (anim) clearInterval(anim);
     const spots = R.flowerSpots(WF.cx, WF.by);
-    const at = spots[Math.min(n, 6) - 1] || [WF.cx, WF.by - 50];
-    if (reduceMotion) return paintWaterFlower(Math.min(n, 6));
+    const at = spots[Math.min(n, 13) - 1] || [WF.cx, WF.by - 50];
+    if (reduceMotion) return paintWaterFlower(Math.min(n, 13));
     let t = 0;
     anim = setInterval(() => {
       const drops = [], splash = [];
@@ -260,19 +261,51 @@
         else if (y >= at[1] - 4 && y < at[1] + 2) splash.push([at[0] + (i - 1), at[1] - 2]);
       }
       const opened = t >= 22;
-      paintWaterFlower(opened ? Math.min(n, 6) : Math.min(n, 6) - 1, { drops, splash, pop: opened && t < 36 ? { at, t: t - 22 } : null });
-      if (++t > 38) { clearInterval(anim); anim = null; paintWaterFlower(Math.min(n, 6)); }
+      paintWaterFlower(opened ? Math.min(n, 13) : Math.min(n, 13) - 1, { drops, splash, pop: opened && t < 36 ? { at, t: t - 22 } : null });
+      if (++t > 38) { clearInterval(anim); anim = null; paintWaterFlower(Math.min(n, 13)); }
     }, 70);
   }
-  function setWater(w) {
-    const week = w?.week || 0, next = Math.min(6, week);
-    bloomNote = `${week} task${week === 1 ? "" : "s"} done this week${week >= 6 ? ", in full bloom" : ""}`;
-    const grew = waterWeek !== null && week > waterWeek;
-    waterWeek = week;
-    if (grew) animateWater(week); else if (!anim) paintWaterFlower(next);
-    const cv = document.getElementById("water-flower"); if (cv) cv.title = bloomNote;
-    if (next !== blooms) { blooms = next; paintMini(); rebuildIdle(); }
+  // the day is over: every open blossom lets go, the petals drift down past the pot and fade
+  function animateFall(had) {
+    if (anim) clearInterval(anim);
+    if (reduceMotion || !had) return paintWaterFlower(0, { slots: 0 });
+    const spots = R.flowerSpots(WF.cx, WF.by).slice(0, had);
+    const tones = [R.P.petal, R.P.petalHi, R.P.petalD];
+    let t = 0;
+    anim = setInterval(() => {
+      const petals = [];
+      spots.forEach(([x, y], i) => {
+        for (let k = 0; k < 5; k++) {                       // five petals a blossom, let go one by one
+          const s = t - i * 3 - k * 3, c = tones[k % 3];
+          const ox = [-1, 1, 0, -2, 2][k], oy = [-1, -1, 1, 0, 0][k];
+          if (s < 0) { petals.push([x + ox, y + oy, c]); continue; }
+          const py = Math.round(y + oy + s * 1.2), px = x + ox + Math.round(Math.sin(s * 0.45 + k * 1.7 + i) * 2.5);
+          if (py < WF.h) petals.push([px, py, c], [px + 1, py, c]);
+        }
+      });
+      paintWaterFlower(0, { slots: 0, petals });
+      if (++t > 80) { clearInterval(anim); anim = null; paintWaterFlower(0, { slots: 0 }); }
+    }, 70);
   }
+  // the flower shows today's goals: one bud per goal, one blossom per goal done
+  function setWater(w) {
+    const g = w?.goals;
+    if (!g) return;
+    const was = lastGoals;
+    lastGoals = g;
+    const nextSlots = g.closed ? 0 : g.total, next = g.closed ? 0 : Math.min(g.done, g.total);
+    bloomNote = g.closed ? "The day's done, the petals fell. New goals tomorrow"
+      : !g.total ? "No goals yet today. Tell Crow what they are"
+      : `${g.done} of ${g.total} goal${g.total === 1 ? "" : "s"} done today${g.done >= g.total ? ", in full bloom" : ""}`;
+    const cv = document.getElementById("water-flower"); if (cv) cv.title = bloomNote;
+    const sameDay = was && was.day === g.day;
+    slots = nextSlots;
+    if (sameDay && !was.closed && g.closed) animateFall(Math.min(was.done, was.total));
+    else if (sameDay && !g.closed && g.done > was.done) animateWater(next);
+    else if (!anim) paintWaterFlower(next);
+    if (next !== blooms || !sameDay || g.closed !== was?.closed || g.total !== was?.total) { blooms = next; paintMini(); rebuildIdle(); }
+  }
+
   function setEmpty(empty) { document.body.classList.toggle("room-empty", empty); if (!empty) stopIdle(); }
   function newSession() { store.set("sessions", (+store.get("sessions") || 0) + 1); paintPile(); }
   function toggleDim() { const on = document.body.classList.toggle("dim"); store.set("dim", on ? "1" : ""); }
