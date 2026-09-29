@@ -32,3 +32,4 @@ metadata:
 - 2026-10-01 | box 1 | AC311 | Q: A law change means staff must be retrained next year. Provision now? | A: No. It's a future operating cost with no present obligation from a past event.
 - 2026-10-01 | box 1 | AC311 | Q: A provision has a reimbursement (e.g. insurance) that's virtually certain. How is it shown? | A: As a SEPARATE asset, not netted against the provision. (Not in her deck.)
 - 2026-10-02 | box 1 | BA202 | Q: A taxpayer dies mid-year. Is she still a natural person for PIT, and is she still liable? | A: Not a natural person (personality ends at death), but STILL liable as "a deceased person who died during the tax year".
+- 2026-10-02 | box 1 | AC311 | Q: The office keeps ฿5,000 petty cash. Classification AND the reason? | A: Cash (inside Cash & Cash Equivalents). Reason: on hand, unrestricted, available for immediate use. NOT because it's small; size never decides classification.
