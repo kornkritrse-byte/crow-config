@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟡 **AWAY (Tue 29 Sep, ~19:07) — off to: dinner break (he agreed to come back tonight).**
+- 🟢 **Back from dinner (~19:42, Room side-builds in VS Code till 19:55), now working IN THE ROOM.** The ASK items below are still open.
   - **ASK ON RETURN:** (1) the 30-min block for the six GoodNotes notes (the list is at the bottom of `scratch/ba202/nav-run.md`, RESULT section) · (2) then Q22 is waiting (run 2, no hints; the rice/eggs s.42 question, logged in nav-run). Run 1 = 15/21 is CLOSED, don't re-ask.
   - (earlier) Nav run 1 done 18:54, 15/21.
 - 🟢 (earlier) **Here (Tue 29 Sep, 12:12): BA202 lock-in day.** 19:42 he's also in VS Code with Crow on Room side-builds (drawer/cabinet).
