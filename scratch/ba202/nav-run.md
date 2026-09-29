@@ -18,4 +18,5 @@ Pages 3–6 follow the 9 PIT steps in order, so the step tells you the page.
 Page 1 layout: left = reflex answers added in the 29 Sep audit + 3 background boxes · middle = what she said she'd ask, tagged L1–L8 in lecture order, ★ = she said it outright · right = quick Q→A pairs + Silent Killers box.
 
 ## Progress
-- Q1 (p1): "Which is NOT collected by a tax authority?" options: Petroleum IT / Excise / Land & building / Customs. ANSWER (Crow only): Land & building (Ministry of Interior, collected for MoF). Found at p1 middle L2★ and p2 "Who collects" box. PENDING.
+- Q1 (p1): "Which is NOT collected by a tax authority?" options: Petroleum IT / Excise / Land & building / Customs. ANSWER (Crow only): Land & building (Ministry of Interior, collected for MoF). Found at p1 middle L2★ and p2 "Who collects" box. ✅ RIGHT (17:28), found via p1 L2. Taught: signboard also MoI; Petroleum IT = outside the Code but still Revenue Dept.
+- Q2 (p1 left, reflex answers): non-listed Thai co. holds 30% voting, no cross-holding, 4m before + 4m after a Thai dividend → how much exempt? options: None / Half / Full / 10% final. ANSWER: Full (≥25% + no cross-holding + 3m/3m). Trap = the row's headline says HALF (that's the 10% holder). PENDING.
