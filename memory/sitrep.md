@@ -27,7 +27,9 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟢 **Here (Tue 29 Sep, 18:54): BA202 sheet navigation run DONE (15/21)** (exam-style MCQs page 1→8, one at a time; he notes in GoodNotes). State, map, and every Q → `~/crow-config/scratch/ba202/nav-run.md`. On a restart: resend the map + the pending Q from there.
+- 🟡 **AWAY (Tue 29 Sep, ~19:07) — off to: dinner break (he agreed to come back tonight).**
+  - **ASK ON RETURN:** (1) the 30-min block for the six GoodNotes notes (the list is at the bottom of `scratch/ba202/nav-run.md`, RESULT section) · (2) then Q22 is waiting (run 2, no hints; the rice/eggs s.42 question, logged in nav-run). Run 1 = 15/21 is CLOSED, don't re-ask.
+  - (earlier) Nav run 1 done 18:54, 15/21.
 - 🟢 (earlier) **Here (Tue 29 Sep, 12:12): BA202 lock-in day.** The Mon 14:21 Room-tweak session never got past "what tweak?" (he went quiet), so nothing was changed.
   - ✅ 14:12–14:15: tested his tweak live: **the jump-to-bottom button** (appears when he scrolls up mid-reply) + auto-scroll through long text/tables/code: "works great". Nothing open on the Room.
   - 😴 **Resting today (his call).** 🔒 **BA202 lock-in: TUE 29 Sep, a full day** (ledger; he moved it up from Wed 30).
