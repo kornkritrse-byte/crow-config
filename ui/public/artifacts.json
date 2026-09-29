@@ -1,0 +1,52 @@
+{
+  "_note": "The desk drawer's contents: every artifact Crow has built for Korn. Crow adds a line here whenever he publishes a new one (newest first inside a group). Links from the claude.ai artifact list, 29 Sep 2026.",
+  "groups": [
+    {
+      "name": "Start here",
+      "items": [
+        { "title": "Term 2.1", "what": "The hub: all six midterms, each subject's doc", "url": "https://claude.ai/artifact/1Bf7hFnUqUtxVrH2n7yXLy" }
+      ]
+    },
+    {
+      "name": "BA202 · Fri 2 Oct",
+      "items": [
+        { "title": "Four Sheets", "what": "The cheat sheet, landscape v2 (v3 is a PDF on your Desktop)", "url": "https://claude.ai/artifact/VzcChc2z7DhoD59wRXGp8L" },
+        { "title": "The Missed Lectures", "what": "L1–L7 rebuilt from the recordings", "url": "https://claude.ai/artifact/6UzU5v6Bch52t7e1TPUPEa" },
+        { "title": "Four Sheets (portrait)", "what": "The first backup version", "url": "https://claude.ai/artifact/R19h14RJNNcnxUHrPSj8zY" }
+      ]
+    },
+    {
+      "name": "AC311 · Sun 4 Oct",
+      "items": [
+        { "title": "The Two-Year Ledger", "what": "Practice paper, the demo problem's shape", "url": "https://claude.ai/artifact/CJzqWMCVttg53vcVhzq3H3" },
+        { "title": "The December 31 Paper", "what": "Mock midterm", "url": "https://claude.ai/artifact/LWkvPy6iH4WK73op6DDcLL" },
+        { "title": "Assets Before the Cut-Off", "what": "The subject doc", "url": "https://claude.ai/artifact/D8E9rT954pSH4wkfpqb1Z5" }
+      ]
+    },
+    {
+      "name": "Life",
+      "items": [
+        { "title": "Road to Chombueng", "what": "10K in Dec, the half in Jan", "url": "https://claude.ai/artifact/GBJnc3PqNDccbE3t1ebQgK" }
+      ]
+    },
+    {
+      "name": "Sat, done",
+      "items": [
+        { "title": "Where the Marks Die", "what": "FN201 pre-exam triage", "url": "https://claude.ai/artifact/WKDw55u5vaYgpFM8jxERNo" },
+        { "title": "Kotler by Sight", "what": "MK201", "url": "https://claude.ai/artifact/3ReduzSqMBMyKjnpSJAcM6" },
+        { "title": "From Raw to Sold", "what": "AC313", "url": "https://claude.ai/artifact/NKKRXEkabTrkWCzP4qgF82" },
+        { "title": "Ground Covered", "what": "The three-subject topic map", "url": "https://claude.ai/artifact/6JjhXkjoRgg3rVs1prBQ2h" },
+        { "title": "Obrom's Playbook", "what": "FN201, all five topics", "url": "https://claude.ai/artifact/EqKaXGx33Zw2KFSvXB6vWo" },
+        { "title": "After the Business Eats", "what": "FN201 free cash flow drill", "url": "https://claude.ai/artifact/7KKNWGzMJc7SiShPLnEQEJ" }
+      ]
+    },
+    {
+      "name": "Other",
+      "items": [
+        { "title": "The Ratio Ledger", "what": "", "url": "https://claude.ai/artifact/KomgKQrHsNM8m3SxWJrVC9" },
+        { "title": "Brewed, Not Milked", "what": "IS201 deck, for a friend", "url": "https://claude.ai/artifact/6aQXz1Mpmw7GXZ2uh7TCLb" },
+        { "title": "Hiding in the Noise", "what": "", "url": "https://claude.ai/artifact/WEkt9tyQtzWfePaFdgGQru" }
+      ]
+    }
+  ]
+}

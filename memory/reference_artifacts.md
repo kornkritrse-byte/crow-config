@@ -11,6 +11,8 @@ metadata:
 
 # Study Artifacts — Term 2.1
 
+> 🗄️ **The Room's desk drawer lists these** from `~/crow-config/ui/public/artifacts.json`. **Publish a new artifact → add it to that file the same turn** → [[reference-crow-room]].
+
 ## 🗓️ THE HUB — start here
 **Term 2.1** — https://claude.ai/code/artifact/017ced5a-48b7-4101-a4a9-e18b38b4de3e
 Built 27 Aug 2026. The board for all six midterms: live day-count to the first paper, the 8-day exam run (20–27 Sep) showing where the two free days fall, and the six subjects **ranked by study order, deliberately not exam order**. Each card links out to that subject's own document.

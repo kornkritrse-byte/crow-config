@@ -17,6 +17,7 @@
   let raining = store.get("raining") === "1";  // last known Bangkok weather, refreshed from Open-Meteo
   const pose = () => (mode === "thinking" ? "think" : mode === "waiting" ? "wait" : "idle");
   const lampState = () => (mode === "thinking" ? "bright" : "on");
+  const furniture = { drawer: false, cabinet: false };   // open or shut, in the idle scene only
 
   // ---------------------------------------------------------------- the empty-state scene
   function emptyScene({ starters, onStarter, onLamp, onFlower, onMonitor, onCrew }) {
@@ -37,7 +38,8 @@
       box.querySelector(".starters").append(b);
     }
     stopIdle();
-    idle = { info: S.base({ hour, blooms, lamp: lampState() }), canvas, t: 0, timer: null, box };
+    furniture.drawer = furniture.cabinet = false;
+    idle = { info: S.base({ hour, blooms, lamp: lampState(), ...furniture }), canvas, t: 0, timer: null, box };
     const frame = new PX(S.W, S.H);
     const draw = () => {
       if (!canvas.isConnected) return stopIdle();
@@ -49,7 +51,7 @@
     if (!reduceMotion) idle.timer = setInterval(() => { if (!document.hidden) { idle.t++; draw(); } }, 90);
     // hover labels + the few objects that do something when clicked
     const pct = (v, of) => (v / of) * 100 + "%";
-    const act = { lamp: onLamp, flower: onFlower, monitor: onMonitor };
+    const act = { lamp: onLamp, flower: onFlower, monitor: onMonitor, drawer: () => toggleDrawer(scene), cabinet: toggleCabinet };
     for (const h of idle.info.hotspots) {
       const d = document.createElement(h.crew || act[h.id] ? "button" : "div");
       d.className = "hot"; if (d.tagName === "BUTTON") d.type = "button";
@@ -94,8 +96,56 @@
   function stopIdle() { if (idle?.timer) clearInterval(idle.timer); if (idle) idle.timer = null; }
   function rebuildIdle() {
     if (!idle?.canvas.isConnected) return;
-    idle.info = S.base({ hour, blooms, lamp: lampState() });
+    idle.info = S.base({ hour, blooms, lamp: lampState(), ...furniture });
     idle.draw();
+  }
+
+  // ---------------------------------------------------------------- the desk drawer: the artifact box
+  // Opening the drawer lays a box of everything Crow has built over the room
+  // (public/artifacts.json, which Crow keeps up to date). The cabinet just opens.
+  function toggleCabinet() { furniture.cabinet = !furniture.cabinet; rebuildIdle(); }
+  function toggleDrawer(scene) {
+    furniture.drawer = !furniture.drawer;
+    rebuildIdle();
+    if (furniture.drawer) openBox(scene); else closeBox();
+  }
+  let boxEl = null;
+  const onBoxKey = (e) => {
+    if (e.key !== "Escape") return;
+    if (!boxEl?.isConnected) { closeBox(); furniture.drawer = false; return; }   // the room went away under it
+    e.stopImmediatePropagation(); toggleDrawer();
+  };
+  function closeBox() {
+    boxEl?.remove(); boxEl = null;
+    document.removeEventListener("keydown", onBoxKey, true);
+  }
+  async function openBox(scene) {
+    closeBox();
+    boxEl = document.createElement("div");
+    boxEl.className = "artifact-box";
+    boxEl.innerHTML = `<header><b>The drawer</b><span>Everything Crow has built you</span><button type="button" class="shut" aria-label="Close the drawer">×</button></header><div class="groups"><p class="loading">Opening…</p></div>`;
+    boxEl.querySelector(".shut").onclick = () => toggleDrawer();
+    scene.append(boxEl);
+    document.addEventListener("keydown", onBoxKey, true);
+    const el = boxEl, groups = el.querySelector(".groups");
+    try {
+      const data = await (await fetch("/artifacts.json", { cache: "no-store" })).json();
+      if (el !== boxEl) return;
+      groups.innerHTML = "";
+      for (const g of data.groups || []) {
+        const sec = document.createElement("section");
+        const h = document.createElement("h4"); h.textContent = g.name; sec.append(h);
+        for (const it of g.items || []) {
+          const a = document.createElement("a");
+          a.href = it.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+          a.innerHTML = "<b></b><span></span>";
+          a.querySelector("b").textContent = it.title;
+          a.querySelector("span").textContent = it.what || "";
+          sec.append(a);
+        }
+        groups.append(sec);
+      }
+    } catch { if (el === boxEl) groups.innerHTML = `<p class="loading">The drawer's stuck (couldn't read artifacts.json).</p>`; }
   }
 
   // ---------------------------------------------------------------- board corner

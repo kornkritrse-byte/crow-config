@@ -606,3 +606,30 @@ body.dim .room-idle .scene canvas { filter: brightness(.72); }
 .task-empty { color: var(--faint); font-size: 13px; padding-top: 6px; }
 body.room-empty .stream { padding: 22px 12px 20px; }
 .empty.room-idle { gap: 12px; }
+
+/* the desk drawer, opened: a wooden box of every artifact Crow has built */
+.artifact-box {
+  position: absolute; z-index: 4; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  width: min(560px, 86%); max-height: 84%; display: flex; flex-direction: column;
+  background: #2a1b14; border: 3px solid #43291e; outline: 1px solid #1d110c; border-radius: 10px;
+  box-shadow: 0 20px 50px -10px rgba(0, 0, 0, .8), inset 0 1px 0 #5e3b2a;
+  color: var(--paper); font-family: var(--sans); text-align: left;
+}
+.artifact-box header { display: flex; align-items: baseline; gap: 10px; padding: 12px 14px 10px; border-bottom: 2px solid #1d110c; }
+.artifact-box header b { color: #e8c66a; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; }
+.artifact-box header span { color: #b89a80; font-size: 12.5px; flex: 1; }
+.artifact-box .shut { background: none; border: 0; color: #b89a80; font-size: 20px; line-height: 1; padding: 0 4px; }
+.artifact-box .shut:hover { color: var(--paper); }
+.artifact-box .groups { overflow: auto; padding: 6px 14px 14px; display: grid; grid-template-columns: 1fr 1fr; gap: 4px 16px; }
+.artifact-box section { min-width: 0; }
+.artifact-box h4 { margin: 10px 0 4px; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: #c9a877; font-weight: 700; }
+.artifact-box a {
+  display: block; text-decoration: none; color: var(--paper); padding: 6px 9px; margin-bottom: 4px;
+  background: #e8e2d4; color: #2a2016; border-radius: 3px; box-shadow: 0 2px 0 #1d110c;
+}
+.artifact-box a:hover, .artifact-box a:focus-visible { background: #f0d890; outline: none; transform: translateY(-1px); }
+.artifact-box a b { display: block; font-size: 13px; font-weight: 700; }
+.artifact-box a span { display: block; font-size: 11.5px; color: #6a5a48; line-height: 1.35; }
+.artifact-box a span:empty { display: none; }
+.artifact-box .loading { color: #b89a80; font-size: 13px; grid-column: 1 / -1; }
+@media (max-width: 700px) { .artifact-box .groups { grid-template-columns: 1fr; } }
