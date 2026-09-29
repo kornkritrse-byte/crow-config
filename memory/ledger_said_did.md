@@ -27,4 +27,4 @@ metadata:
 - [ ] 2026-09-29 → 2026-09-29 | "not yet ill wokr on that right away": get the BA202 Four Sheets onto paper (print shop or handwritten), said 12:14 Tue
 - [ ] 2026-09-29 → 2026-10-01 | "Thursday revise… stay wired in" at the Thonglor cafe: BA202 revision day, the one full day before the 2 Oct paper, said 17:03 Tue
 - [ ] 2026-09-29 → 2026-10-03 | "first half of the day will be revision": AC311 Sat morning before the afternoon show (maybe a morning run), said 17:03 Tue
-- [ ] 2026-09-29 → 2026-09-29 | "ok ill be back then": after a dinner break, one 30-min block tonight writing the six GoodNotes notes from the nav run onto the sheet (said 19:07 Tue)
+- [x] 2026-09-29 → 2026-09-29 | "ok ill be back then": after a dinner break, one 30-min block tonight writing the six GoodNotes notes from the nav run onto the sheet (said 19:07 Tue)
