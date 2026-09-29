@@ -17,7 +17,7 @@
   let raining = store.get("raining") === "1";  // last known Bangkok weather, refreshed from Open-Meteo
   const pose = () => (mode === "thinking" ? "think" : mode === "waiting" ? "wait" : "idle");
   const lampState = () => (mode === "thinking" ? "bright" : "on");
-  const furniture = { drawer: false, cabinet: false };   // open or shut, in the idle scene only
+  const furniture = { drawer: false, drawerL: false, drawerR: false, cabinet: false };   // open or shut, in the idle scene only
 
   // ---------------------------------------------------------------- the empty-state scene
   function emptyScene({ starters, onStarter, onLamp, onFlower, onMonitor, onCrew }) {
@@ -38,7 +38,7 @@
       box.querySelector(".starters").append(b);
     }
     stopIdle();
-    furniture.drawer = furniture.cabinet = false;
+    for (const k in furniture) furniture[k] = false;
     idle = { info: S.base({ hour, blooms, lamp: lampState(), ...furniture }), canvas, t: 0, timer: null, box };
     const frame = new PX(S.W, S.H);
     const draw = () => {
@@ -51,7 +51,7 @@
     if (!reduceMotion) idle.timer = setInterval(() => { if (!document.hidden) { idle.t++; draw(); } }, 90);
     // hover labels + the few objects that do something when clicked
     const pct = (v, of) => (v / of) * 100 + "%";
-    const act = { lamp: onLamp, flower: onFlower, monitor: onMonitor, drawer: () => toggleDrawer(scene), cabinet: toggleCabinet };
+    const act = { lamp: onLamp, flower: onFlower, monitor: onMonitor, drawer: () => toggleDrawer(scene), drawerL: () => toggle("drawerL"), drawerR: () => toggle("drawerR"), cabinet: () => toggle("cabinet") };
     for (const h of idle.info.hotspots) {
       const d = document.createElement(h.crew || act[h.id] ? "button" : "div");
       d.className = "hot"; if (d.tagName === "BUTTON") d.type = "button";
@@ -102,8 +102,8 @@
 
   // ---------------------------------------------------------------- the desk drawer: the artifact box
   // Opening the drawer lays a box of everything Crow has built over the room
-  // (public/artifacts.json, which Crow keeps up to date). The cabinet just opens.
-  function toggleCabinet() { furniture.cabinet = !furniture.cabinet; rebuildIdle(); }
+  // (public/artifacts.json, which Crow keeps up to date). The side drawers and the cabinet just open.
+  function toggle(k) { furniture[k] = !furniture[k]; rebuildIdle(); }
   function toggleDrawer(scene) {
     furniture.drawer = !furniture.drawer;
     rebuildIdle();

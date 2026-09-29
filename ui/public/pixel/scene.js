@@ -7,18 +7,19 @@
   const { PX, C, mix, bayer, pack, unpack } = root.PXL;
   const R = root.ROOM, P = R.P;
   const W = 320, H = 200, DESK = 124, FLOOR = 176;   // 200 tall since 29 Sep: room under the desk for the legs, the drawer and the amp
-  const DRAWER = { x: 168, y: DESK + 10, w: 54, h: 12 }, CABINET = { x: 2, y: 156, w: 66, h: FLOOR - 156 };
+  // three drawers under the desk: the middle one is the artifact box, the side ones are empty for now
+  const DRAWERS = { drawerL: { x: 90, y: DESK + 10, w: 50, h: 12 }, drawer: { x: 142, y: DESK + 10, w: 50, h: 12 }, drawerR: { x: 194, y: DESK + 10, w: 50, h: 12 } };
+  const CABINET = { x: 2, y: 156, w: 66, h: FLOOR - 156 };
   const LAMP = [228, 102];
 
-  // the drawer under the desk: open, it drops forward and shows the papers inside (the artifact box)
-  function drawer(b, open) {
-    const { x, y, w, h } = DRAWER, brass = C("#c8a24a"), brassHi = C("#e8c66a");
+  // a drawer under the desk: open, it drops forward and shows what's inside
+  function drawer(b, D, open, papers) {
+    const { x, y, w, h } = D, brass = C("#c8a24a"), brassHi = C("#e8c66a");
     b.rect(x, y, w, 2, P.deskDark);                                   // runners under the desk top
-    const fy = open ? y + 6 : y + 1;
+    const fy = open ? y + 5 : y + 1;
     if (open) {
       b.rect(x + 2, y + 1, w - 4, 6, C("#140c08"));                   // inside the drawer
-      const papers = ["#e8e2d4", "#f0d890", "#e8a8b8", "#a8c8e0", "#e8e2d4", "#c8e0b0", "#f0d890"];
-      papers.forEach((c, i) => { const px = x + 5 + i * 7, ph = 3 + (i % 3); b.rect(px, y + 7 - ph, 5, ph, C(c)); b.hline(px, px + 4, y + 7 - ph, mix(C(c), C("#ffffff"), 0.4)); });
+      if (papers) ["#e8e2d4", "#f0d890", "#e8a8b8", "#a8c8e0", "#e8e2d4", "#c8e0b0"].forEach((c, i) => { const px = x + 5 + i * 7, ph = 3 + (i % 3); b.rect(px, y + 7 - ph, 5, ph, C(c)); b.hline(px, px + 4, y + 7 - ph, mix(C(c), C("#ffffff"), 0.4)); });
     }
     b.rect(x, fy, w, h - 1, P.desk);
     b.hline(x, x + w - 1, fy, P.deskHi); b.hline(x, x + w - 1, fy + h - 2, P.deskDark);
@@ -50,19 +51,20 @@
     }
   }
 
-  // state: { hour, blooms, lamp: 'on' | 'bright', drawer, cabinet }; paintView fills the window glass
+  // state: { hour, blooms, lamp: 'on' | 'bright', drawer, drawerL, drawerR, cabinet }; paintView fills the window glass
   function build(state, paintView) {
     const b = new PX(W, H);
     for (let y = 0; y < FLOOR; y++) for (let x = 0; x < W; x++) b.set(x, y, bayer(x, y) < 0.06 ? P.wallHi : x % 23 === 0 ? P.wall2 : P.wall);
     for (let y = FLOOR; y < H; y++) for (let x = 0; x < W; x++) b.set(x, y, (y - FLOOR) % 6 === 0 ? P.floorLine : (x + Math.floor((y - FLOOR) / 6) * 37) % 53 === 0 ? P.floorLine : bayer(x, y) < 0.15 ? P.floor2 : P.floor);
     b.hline(0, W - 1, FLOOR, P.deskDark);
     // window, the sky for this hour, curtains
-    const win = { x: 88, y: 14, w: 126, h: 80 };
+    const win = { x: 6, y: 14, w: 252, h: 80 };                     // the whole wall (his room, 29 Sep)
     b.rect(win.x - 3, win.y - 3, win.w + 6, win.h + 6, P.frame);
     paintView(b, win);
-    b.vline(win.x + 63, win.y, win.y + win.h - 1, P.frame); b.hline(win.x, win.x + win.w - 1, win.y + 40, P.frame);
+    for (let i = 1; i < 4; i++) b.vline(win.x + 63 * i, win.y, win.y + win.h - 1, P.frame);
+    b.hline(win.x, win.x + win.w - 1, win.y + 40, P.frame);
     b.rect(win.x - 5, win.y + win.h + 2, win.w + 10, 3, P.frame);
-    R.curtains(b, 80, 11, 142, 104, 131, 171);
+    R.curtains(b, 2, 11, 260, 104, 131, 171);
     R.bookcase(b, 2, 42, 66, 114);
     cabinet(b, !!state.cabinet);
     const crew = R.noteWall(b, 264, 0, 56, FLOOR);
@@ -70,7 +72,7 @@
     b.rect(70, DESK, 194, 4, P.deskTop); b.hline(70, 263, DESK, P.deskHi);
     b.rect(70, DESK + 4, 194, 6, P.desk); b.hline(70, 263, DESK + 9, P.deskDark);
     [[74, 5], [256, 5]].forEach(([x, w]) => { b.rect(x, DESK + 10, w, FLOOR - DESK - 10, P.desk); b.vline(x, DESK + 10, FLOOR - 1, P.deskHi); });
-    drawer(b, !!state.drawer);
+    for (const id in DRAWERS) drawer(b, DRAWERS[id], !!state[id], id === "drawer");
     b.tint(70, FLOOR - 3, 194, 3, C("#000000"), 0.35);
     R.amp(b, 104, FLOOR, { lit: true });
     R.owala(b, 82, DESK);
@@ -106,9 +108,11 @@
         { id: "guitar", x: 246, y: FLOOR - 96, w: 16, h: 96, label: "Classical guitar", note: "Nylon strings, slotted head." },
         { id: "amp", x: 90, y: FLOOR - 26, w: 28, h: 26, label: "Orange amp", note: "Crush, under the desk." },
         { id: "owala", x: 76, y: 90, w: 14, h: 34, label: "Owala", note: "Drink some water." },
-        { id: "window", x: 131, y: 14, w: 40, h: 80, label: "Window", note: "The view from your room. The tree moves with the wind; the sky follows the hour, the rain the weather." },
+        { id: "window", x: 131, y: 14, w: 40, h: 56, label: "Window", note: "The view from your room. The tree moves with the wind; the sky follows the hour, the rain the weather." },
         { id: "books", x: 2, y: 42, w: 66, h: 114, label: "Bookcase", note: "Reading: Siddhartha and Karamazov." },
-        { id: "drawer", ...DRAWER, label: "Desk drawer", note: "Everything Crow has built you. Click to open." },
+        { id: "drawer", ...DRAWERS.drawer, label: "Desk drawer", note: "Everything Crow has built you. Click to open." },
+        { id: "drawerL", ...DRAWERS.drawerL, label: "Left drawer", note: "Empty for now." },
+        { id: "drawerR", ...DRAWERS.drawerR, label: "Right drawer", note: "Empty for now." },
         { id: "cabinet", ...CABINET, label: "Cabinet", note: "Two doors, empty for now. You'll find a use." },
         ...crew.map((c) => ({ id: "crew-" + c.key, x: c.x, y: c.y, w: c.w, h: c.h, label: cap(c.key), note: "Call " + cap(c.key) + " in.", crew: c.key })),
       ],
