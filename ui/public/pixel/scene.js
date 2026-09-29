@@ -63,16 +63,16 @@
         { id: "guitar", x: 246, y: 60, w: 16, h: 96, label: "Classical guitar", note: "Nylon strings, slotted head." },
         { id: "amp", x: 90, y: 130, w: 28, h: 26, label: "Orange amp", note: "Crush, under the desk." },
         { id: "owala", x: 76, y: 90, w: 14, h: 34, label: "Owala", note: "Drink some water." },
-        { id: "window", x: 131, y: 14, w: 40, h: 80, label: "Window", note: "Bangkok. The sky follows the hour." },
+        { id: "window", x: 131, y: 14, w: 40, h: 80, label: "Window", note: "Bangkok. The sky follows the hour; the rain follows the weather." },
         { id: "books", x: 2, y: 42, w: 66, h: 114, label: "Bookcase", note: "Reading: Siddhartha and Karamazov." },
         ...crew.map((c) => ({ id: "crew-" + c.key, x: c.x, y: c.y, w: c.w, h: c.h, label: cap(c.key), note: "Call " + cap(c.key) + " in.", crew: c.key })),
       ],
       mini: { x: 186, y: 50, w: 132, h: 76 },
     };
   }
-  // per-frame: rain in the window gap and the crow on the monitor
+  // per-frame: rain in the window gap (only when it's raining) and the crow on the monitor
   function anim(f, info, t, state = {}) {
-    if (!state.still) R.rain(f, info.win, t);
+    if (!state.still && state.rain) R.rain(f, info.win, t);
     const blink = state.pose === "idle" && Math.floor(t / 10) % 9 === 0;
     R.crow(f, info.crowAt[0], info.crowAt[1], blink ? "blink" : state.pose || "idle");
   }

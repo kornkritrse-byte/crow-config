@@ -1,5 +1,5 @@
 // Room: glues Korn's pixel room to the Crow Room's state.
-//   empty chat   → the full scene (animated rain, the crow blinks, hover labels)
+//   empty chat   → the full scene (rain only when it's really raining in Bangkok, the crow blinks, hover labels)
 //   conversation → the scene shrinks to the board's corner, the book pile and the
 //                  guitars stand in the gutters beside the chat box, and nothing moves
 // The lamp brightens while Crow is thinking; the crow's pose follows the turn.
@@ -14,6 +14,7 @@
   let idle = null;          // { info, canvas, timer, t }
   const bkkHour = () => +new Date().toLocaleString("en-GB", { timeZone: "Asia/Bangkok", hour: "2-digit", hour12: false }) % 24;
   let hour = bkkHour();
+  let raining = store.get("raining") === "1";  // last known Bangkok weather, refreshed from Open-Meteo
   const pose = () => (mode === "thinking" ? "think" : mode === "waiting" ? "wait" : "idle");
   const lampState = () => (mode === "thinking" ? "bright" : "on");
 
@@ -40,7 +41,7 @@
     const frame = new PX(S.W, S.H);
     const draw = () => {
       if (!canvas.isConnected) return stopIdle();
-      frame.copy(idle.info.b); S.anim(frame, idle.info, idle.t, { pose: pose(), still: reduceMotion });
+      frame.copy(idle.info.b); S.anim(frame, idle.info, idle.t, { pose: pose(), still: reduceMotion, rain: raining });
       frame.toCanvas(canvas);
     };
     idle.draw = draw;
@@ -226,6 +227,17 @@
   function newSession() { store.set("sessions", (+store.get("sessions") || 0) + 1); paintPile(); }
   function toggleDim() { const on = document.body.classList.toggle("dim"); store.set("dim", on ? "1" : ""); }
 
+  // real weather: WMO drizzle/rain/showers/thunder codes, or any precipitation this quarter-hour
+  async function checkRain() {
+    try {
+      const r = await fetch("https://api.open-meteo.com/v1/forecast?latitude=13.75&longitude=100.52&current=precipitation,weather_code&timezone=Asia%2FBangkok");
+      const { current: c } = await r.json();
+      const code = c.weather_code;
+      const wet = c.precipitation > 0 || (code >= 51 && code <= 67) || (code >= 80 && code <= 82) || code >= 95;
+      if (wet !== raining) { raining = wet; store.set("raining", wet ? "1" : ""); idle?.draw?.(); }
+    } catch { /* offline: keep the last known sky */ }
+  }
+
   function init() {
     if (store.get("dim")) document.body.classList.add("dim");
     paintMini(); paintPile(); paintGuitars(); layout();
@@ -233,6 +245,8 @@
     addEventListener("resize", layout);
     // the window follows the Bangkok hour
     setInterval(() => { const h = bkkHour(); if (h !== hour) { hour = h; paintMini(); rebuildIdle(); } }, 10 * 60000);
+    // and the rain follows the real Bangkok weather
+    checkRain(); setInterval(checkRain, 15 * 60000);
   }
   root.Room = { init, emptyScene, setMode, setWater, setEmpty, newSession, toggleDim, layout, animateWater };
 })(window);
