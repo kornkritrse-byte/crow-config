@@ -49,3 +49,7 @@ Page 1 layout: left = reflex answers added in the 29 Sep audit + 3 background bo
 Misses: Q2 + Q6 stopped reading early · Q9 2 vs 7 (sheet wording ambiguous, then inverted) · Q14 + Q19 progressive slices · Q15 dividend credit (elect = no credit). All 6 ghosted, due Thu 1 Oct.
 Caveat: every Q came WITH a page+box hint. The exam gives none → next run = NO hints, random order, he names the page himself.
 GoodNotes annotations owed: p4 box 2 rewrite (client gives mats → 2) · p4 'step 5 lives here' · p6 'cumulative from row ABOVE + excess × rate' · p6 dividend 'Elect = 10% done no credit / Include ×0.25 add on → brackets → subtract' · p8 SME 'rate applies to slice only; 405k at 3m' · p7 cat 2 'payer withholds, tax is the foreigner's'.
+
+## RUN 2 — no hints, random order (from 18:56, his call)
+He says he never read the page/box hints in run 1 (so run 1 ≈ unhinted already, except Q6 where he asked). From now: questions ONLY, no location text at all.
+- Q22 (p5 s.42(15) rice; trap (11) case-competition prize is income): which is s.42-exempt? options: eggs from own hens / rice he grew himself / prize from a case competition / 15,000 Thai bank savings interest. ANSWER: rice. PENDING.
