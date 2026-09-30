@@ -28,7 +28,7 @@ metadata:
 
 ## 🚪 Current status
 - 🟢 **Here (Wed 30 Sep, 09:01): "good morning", back 3 min after the 08:58 save-and-close. Today: boat out of the flooded area → cousin's in Thonglor, afternoon band practice.**
-  - **ASK ON RETURN:** (1) **goals today?** (first session of the day; goals.py set — not asked yet) · (2) condo printer in Thonglor, or did he send the sheet to the friend? (ledger: printed + in hand by Thu night) · (3) ghost #27 (AC311 allowance movement) still due, skipped twice.
+  - **ASK ON RETURN:** (1) **goals today?** (first session of the day; goals.py set — not asked yet) · (2) condo printer in Thonglor, or did he send the sheet to the friend? (ledger: printed + in hand by Thu night) · ~~(3) ghost #27~~ PASSED 09:06 (Recovery 40, number given on a nudge).
 - 🟢 (earlier) **Here (Tue 29 Sep, 12:12): BA202 lock-in day.** 19:42 he's also in VS Code with Crow on Room side-builds (drawer/cabinet).
   - ⏳ **ASK when it fits (light, one at a time):** (1) how's the head? · (2) did he ask Klao for the practice recordings ("ill tell him for sure")? · (3) the Sunday long run / Thursday quality swap: does it fit? · (4) the "ux ui skills" name · (5) BA202 sheet on paper? · (6) when unhurried: the racing question for grandpa
 ## 🌊 The flood (26 Sep)
