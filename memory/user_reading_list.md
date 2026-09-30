@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: user
   originSessionId: 16dd81ab-664a-4f0c-bc5f-a96e0788e0e6
-  modified: 2026-09-05T15:32:38.870Z
+  modified: 2026-09-30T02:13:20.537Z
 ---
 
 All read by age 19, most within 2025-2026.
@@ -63,5 +63,6 @@ Physical books he already has. Recommend from HERE before suggesting new purchas
 - **Pride and Prejudice** (Austen) — few chapters in, stopped for a more fun read. Not abandoned on principle, just deprioritized.
 - **The Three Theban Plays** (Sophocles) — dropped (wasn't into plays then). **Wants to revisit BECAUSE of รับน้อง** — the camp warmed him to drama/performance. Live re-entry candidate.
 - **Letters to Milena** (Kafka) — **STILL unread as of 23 Aug** (was slated as the next before-sleep book; Siddhartha took the slot instead). Bought it to get into Kafka "but no crazy ideas" — wanted his *letters*, "to see how he showed love." ← On the love thread he was circling.
+- **The Winter of Our Discontent** (Steinbeck) — thrifted a while back, unread. 30 Sep 2026 he asked if it's an easy read. Crow's take: the sentences are easy, the book isn't (ironic, slippery narrator), so it's a sit-down book and not for the calm slot. Pitched as the **first read after midterms**, because it's about a decent, contented man and money, which is his mission and his contentment-as-cover struggle.
 
 **How to apply:** When discussing ideas or recommending books, reference this list. He learns through examples, not principles — his reading history shows he pulls specific threads rather than broad themes. Books that "didn't land" often did more than he realizes.
