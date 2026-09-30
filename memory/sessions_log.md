@@ -401,3 +401,9 @@ metadata:
 - 📦 Problem 4 (a)–(e): NOI-effect misses; (f) + totals left. Her Demonstration key has 3 errors → [[project-midterms]].
 - 📒 Built the Obsidian note + The Two-Year Ledger; he sat it and it all checked out. Sales commitment built Socratically at his request.
 - ⚠️ BA202 sheet familiarisation didn't happen.
+
+## Session — 2026-09-28 (rest day called · BA202 lock-in set for Tue)
+- 13:53 back after reopening. Task #25 (allowance vs provision): **pass**, own it vs owe it.
+- Smooth home title **kept** ("I fuck with it") → [[reference-crow-room]].
+- Called a rest day. **BA202 lock-in Tue 29 Sep, full day** → [[ledger-said-did]].
+- "In case I find the fire": built **AC311 practice paper III, Four Strings Co.** (2 years, Method 1, delivery-day entry, contract-units NRV trap, onerous sales commitment, Method 2 bonus) → `~/Desktop/ปีศาจ/AC311-Four-Strings-Paper.html` → [[reference-artifacts]]. Checkpoints: Y1 COGS 5,930 / NOI 2,290 · Y2 COGS 6,450 / NOI 4,010.

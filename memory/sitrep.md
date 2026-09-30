@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-09-29 12:2x (live). Window holds 29 + 28; 27 afternoon flushed to [[sessions-log]] on 29 Sep. Next to flush: 28. Midterms 5+6 postponed by the Bangkok flood → BA202 2 Oct, AC311 4 Oct.*
+*Last updated: 2026-09-30 08:59 (live). Window holds 29 (+ 30 when he's back); 28 flushed to [[sessions-log]] on 30 Sep. Next to flush: 29. BA202 Fri 2 Oct, AC311 Sun 4 Oct.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,8 +27,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🔄 **AWAY (Wed 30 Sep, 08:58): closed the VS Code session ("save and close"). Not a day-end, no quote.** Today's plan (his, 29 Sep): boat out of the flooded area → cousin's apartment in Thonglor, band practice in the afternoon.
-  - **ASK ON RETURN:** (1) **goals today?** (the first ask of 30 Sep, not done yet; goals.py) · (2) did last night's GoodNotes block + Q22 happen? (the record stops at 19:55; the Room didn't log after that) · (3) bed by 23:30 last night? (not tracked, since no goals were set on 29 Sep; ask only as part of (1))
+- 🟡 **AWAY (Wed 30 Sep, ~08:58) — off to: the boat out of the flooded area → cousin's apartment in Thonglor, afternoon band practice.** He opened the Room only to "save and close".
+  - **ASK ON RETURN:** (1) **goals today?** (first session of the day; goals.py set — not asked yet) · (2) condo printer in Thonglor, or did he send the sheet to the friend? (ledger: printed + in hand by Thu night) · (3) ghost #27 (AC311 allowance movement) still due, skipped twice.
 - 🟢 (earlier) **Here (Tue 29 Sep, 12:12): BA202 lock-in day.** 19:42 he's also in VS Code with Crow on Room side-builds (drawer/cabinet).
   - ⏳ **ASK when it fits (light, one at a time):** (1) how's the head? · (2) did he ask Klao for the practice recordings ("ill tell him for sure")? · (3) the Sunday long run / Thursday quality swap: does it fit? · (4) the "ux ui skills" name · (5) BA202 sheet on paper? · (6) when unhurried: the racing question for grandpa
 ## 🌊 The flood (26 Sep)
@@ -68,13 +68,8 @@ metadata:
 
 ## Session — 2026-09-29 (BA202 lock-in day)
 - 12:12 back. Task #26 (Recovery on the SOCI): **pass** after a nudge on *where*.
-- Said he'd get the Four Sheets onto paper "right away" → [[ledger-said-did]].
+- 17:19–20:44 **BA202 sheet navigation runs** (MCQ cards, page by page) → `scratch/ba202/nav-run.md`. Run 1 (page hints he says he didn't read): **15/21**. Run 2 (no hints): **3/6**, stopped on the agreed guess rule. His 3 miss types: stops reading mid-row · wrong row of a grid · guessing. Also progressive slices ×2. **10 BA202 ghost cards due Thu 1 Oct.** GoodNotes notes done 20:30. Print: friend or condo printer, in hand by Thu night → [[ledger-said-did]]. 20:37 his daily-goals flower idea → built same night in VS Code.
 - 12:47 detoured to AC311 "to get it off my mind": Q1 classification labels 4/5, reasons 2/5 (petty cash reason = size ✗, postdated cheque = notes rec ✗, both ghosted). SOCI from memory: **all correct**. 13:1x opened Four Strings paper III → worked parts 1–2 (unit-cost miss: spread freight over 150 not 190, skipped the 380 row; walked through the sales commitment + 20X2 LCNRV split). **14:34 parked mid-paper → BA202.** Finish Four Strings (SOCI numbers + SOFP vs checkpoints) before Sun 4 Oct. Ghost #27 (allowance movement) NOT served — contaminated by the Method 2 walkthrough, serve next session.
 - 15:23–16:1x **BA202 sheet → v3** on his ask ("go over all the courses… take out the how-to-read, stems, she-said stuff"): full deck + transcript audit, P1 left column replaced, 4 BOI groups, her WHT table, lots of CIT/regime additions → `~/Desktop/BA202/BA202-cheatsheet-v3-29Sep.pdf` → [[reference-artifacts]]. Next: he reviews it, then GoodNotes + drawing. Still unprinted.
 - 17:03 final check of v3 vs her decks: allowances, deduction rates, brackets, right-to-elect, dividend credit all match → **no changes, sheet final**. His plan: **Wed 30** boat out of the flooded area → cousin's apartment in Thonglor, afternoon band practice · **Thu 1** BA202 revision at the cafe · **Fri 2** BA202 + practice · **Sat 3** AM AC311 revision (+ run if conditions ok), PM show · **Sun 4** AC311 → free. Sheet must be PRINTED by Thu night. · 17:19 **sheet navigation run** started → `scratch/ba202/nav-run.md`; **Finished 18:54: 15/21 (71%), all 8 pages.** Misses = stopped reading early ×2, 40(2) vs 40(7), progressive slices ×2 (PIT + SME), elect-means-no-dividend-credit; all 6 ghosted for Thu 1 Oct. Every Q had a page hint → next run: NO hints, random order. **Run 2 (no hints, 20:05–20:44): 3/6**, stopped on the agreed guess rule (Q27 wagered). Misses: WHT guess, Koala No-DTA row (a 'grid miss', his own read), 4 elements. GoodNotes notes DONE (20:30). Thu ghost load is heavy: ~9 BA202 cards due 1 Oct. Ghost #27 skipped again, still due.
 - Room side-builds (VS Code): MCQ cards · real window view (whole wall, animated) · 3 desk drawers (middle = artifact box) · cabinet · **goals flower** → [[reference-crow-room]].
-## Session — 2026-09-28 (rest day called · BA202 lock-in set for Tue)
-- 13:53 back after reopening. Task #25 (allowance vs provision): **pass**, own it vs owe it.
-- Smooth home title **kept** ("I fuck with it") → [[reference-crow-room]].
-- Called a rest day. **BA202 lock-in Tue 29 Sep, full day** → [[ledger-said-did]].
-- "In case I find the fire": built **AC311 practice paper III, Four Strings Co.** (2 years, Method 1, delivery-day entry, contract-units NRV trap, onerous sales commitment, Method 2 bonus) → `~/Desktop/ปีศาจ/AC311-Four-Strings-Paper.html` → [[reference-artifacts]]. Checkpoints: Y1 COGS 5,930 / NOI 2,290 · Y2 COGS 6,450 / NOI 4,010.
