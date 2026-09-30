@@ -27,8 +27,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟢 **Here (Wed 30 Sep, 09:01): "good morning", back 3 min after the 08:58 save-and-close. Today (changed 09:09): a TRUCK picks him up (not the boat) → staying with a FRIEND NEAR SIAM (not the cousin in Thonglor); afternoon band practice.**
-  - **ASK ON RETURN:** ~~(1) goals~~ SET 09:08: BA202 run-through · band practice · print the sheet · power nap (+ wake early, bed 23:30) · (2) printing: now near Siam (print shops everywhere), or did he send the sheet to the friend? (ledger: printed + in hand by Thu night) · ~~(3) ghost #27~~ PASSED 09:06 (Recovery 40, number given on a nudge).
+- 🟡 **AWAY (Wed 30 Sep, ~09:15) — off to: truck out of the flooded area → staying with a FRIEND NEAR SIAM; afternoon band practice. "ill ping you when im free to do some work."**
+  - **ASK ON RETURN:** (1) printed yet? (print shops around Siam; ledger: in hand by Thu night) · (2) which book came, Siddhartha or Winter? · then the goals still open (BA202 run-through · print · power nap · band practice).
 - 🟢 (earlier) **Here (Tue 29 Sep, 12:12): BA202 lock-in day.** 19:42 he's also in VS Code with Crow on Room side-builds (drawer/cabinet).
   - ⏳ **ASK when it fits (light, one at a time):** (1) how's the head? · (2) did he ask Klao for the practice recordings ("ill tell him for sure")? · (3) the Sunday long run / Thursday quality swap: does it fit? · (4) the "ux ui skills" name · (5) BA202 sheet on paper? · (6) when unhurried: the racing question for grandpa
 ## 🌊 The flood (26 Sep)
@@ -66,10 +66,16 @@ metadata:
 - 📌 After midterms: "make Obsidian cool" → [[reference-obsidian]].
 - ⚠️ **My own error log moved to [[crow-error-log]]. The shape keeps repeating: check the record before asserting.**
 
+## Session — 2026-09-30 (flood exit day)
+- 09:01 morning pop-in. Ghost #27 (allowance movement) **pass**: said "Recovery", gave the 40 on a nudge → box 2, next 7 Oct.
+- Goals set: BA202 run-through · band practice · print the sheet · power nap (his add: "I kinda skip those") + wake early, bed 23:30.
+- Plan changed: truck instead of boat, friend near Siam instead of cousin in Thonglor. Exam kit + bass packed ("all checked").
+- Asked about The Winter of Our Discontent → steered to Siddhartha for this week, Winter first after midterms ([[user-reading-list]]). "Haven't been reading lately" because of the flood/exams.
+
 ## Session — 2026-09-29 (BA202 lock-in day)
 - 12:12 back. Task #26 (Recovery on the SOCI): **pass** after a nudge on *where*.
 - 17:19–20:44 **BA202 sheet navigation runs** (MCQ cards, page by page) → `scratch/ba202/nav-run.md`. Run 1 (page hints he says he didn't read): **15/21**. Run 2 (no hints): **3/6**, stopped on the agreed guess rule. His 3 miss types: stops reading mid-row · wrong row of a grid · guessing. Also progressive slices ×2. **10 BA202 ghost cards due Thu 1 Oct.** GoodNotes notes done 20:30. Print: friend or condo printer, in hand by Thu night → [[ledger-said-did]]. 20:37 his daily-goals flower idea → built same night in VS Code.
 - 12:47 detoured to AC311 "to get it off my mind": Q1 classification labels 4/5, reasons 2/5 (petty cash reason = size ✗, postdated cheque = notes rec ✗, both ghosted). SOCI from memory: **all correct**. 13:1x opened Four Strings paper III → worked parts 1–2 (unit-cost miss: spread freight over 150 not 190, skipped the 380 row; walked through the sales commitment + 20X2 LCNRV split). **14:34 parked mid-paper → BA202.** Finish Four Strings (SOCI numbers + SOFP vs checkpoints) before Sun 4 Oct. Ghost #27 (allowance movement) NOT served — contaminated by the Method 2 walkthrough, serve next session.
 - 15:23–16:1x **BA202 sheet → v3** on his ask ("go over all the courses… take out the how-to-read, stems, she-said stuff"): full deck + transcript audit, P1 left column replaced, 4 BOI groups, her WHT table, lots of CIT/regime additions → `~/Desktop/BA202/BA202-cheatsheet-v3-29Sep.pdf` → [[reference-artifacts]]. Next: he reviews it, then GoodNotes + drawing. Still unprinted.
-- 17:03 final check of v3 vs her decks: allowances, deduction rates, brackets, right-to-elect, dividend credit all match → **no changes, sheet final**. His plan: **Wed 30** boat out of the flooded area → cousin's apartment in Thonglor, afternoon band practice · **Thu 1** BA202 revision at the cafe · **Fri 2** BA202 + practice · **Sat 3** AM AC311 revision (+ run if conditions ok), PM show · **Sun 4** AC311 → free. Sheet must be PRINTED by Thu night. · 17:19 **sheet navigation run** started → `scratch/ba202/nav-run.md`; **Finished 18:54: 15/21 (71%), all 8 pages.** Misses = stopped reading early ×2, 40(2) vs 40(7), progressive slices ×2 (PIT + SME), elect-means-no-dividend-credit; all 6 ghosted for Thu 1 Oct. Every Q had a page hint → next run: NO hints, random order. **Run 2 (no hints, 20:05–20:44): 3/6**, stopped on the agreed guess rule (Q27 wagered). Misses: WHT guess, Koala No-DTA row (a 'grid miss', his own read), 4 elements. GoodNotes notes DONE (20:30). Thu ghost load is heavy: ~9 BA202 cards due 1 Oct. Ghost #27 skipped again, still due.
+- 17:03 final check of v3 vs her decks → **no changes, sheet final**. His plan: **Wed 30** out of the flood area + band practice · **Thu 1** BA202 revision at a cafe · **Fri 2** BA202 + practice · **Sat 3** AM AC311 (+ run if ok), PM show · **Sun 4** AC311 → free. Sheet PRINTED by Thu night. Nav-run details are in the bullet above + `scratch/ba202/nav-run.md`.
 - Room side-builds (VS Code): MCQ cards · real window view (whole wall, animated) · 3 desk drawers (middle = artifact box) · cabinet · **goals flower** → [[reference-crow-room]].
