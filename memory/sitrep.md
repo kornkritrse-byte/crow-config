@@ -29,7 +29,6 @@ metadata:
 ## 🚪 Current status
 - 🔄 **AWAY (Wed 30 Sep, 08:58): closed the VS Code session ("save and close"). Not a day-end, no quote.** Today's plan (his, 29 Sep): boat out of the flooded area → cousin's apartment in Thonglor, band practice in the afternoon.
   - **ASK ON RETURN:** (1) **goals today?** (the first ask of 30 Sep, not done yet; goals.py) · (2) did last night's GoodNotes block + Q22 happen? (the record stops at 19:55; the Room didn't log after that) · (3) bed by 23:30 last night? (not tracked, since no goals were set on 29 Sep; ask only as part of (1))
-  - (29 Sep) Nav run 1 = 15/21, CLOSED.
 - 🟢 (earlier) **Here (Tue 29 Sep, 12:12): BA202 lock-in day.** 19:42 he's also in VS Code with Crow on Room side-builds (drawer/cabinet).
   - ⏳ **ASK when it fits (light, one at a time):** (1) how's the head? · (2) did he ask Klao for the practice recordings ("ill tell him for sure")? · (3) the Sunday long run / Thursday quality swap: does it fit? · (4) the "ux ui skills" name · (5) BA202 sheet on paper? · (6) when unhurried: the racing question for grandpa
   - 🌊 Can't run or gym: the neighbourhood is flooded. W0's two easy runs are off, no penalty.
