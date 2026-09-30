@@ -27,9 +27,9 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟢 **Back from dinner (~19:42, Room side-builds in VS Code till 19:55), now working IN THE ROOM.** The ASK items below are still open.
-  - **ASK ON RETURN:** (1) the 30-min block for the six GoodNotes notes (the list is at the bottom of `scratch/ba202/nav-run.md`, RESULT section) · (2) then Q22 is waiting (run 2, no hints; the rice/eggs s.42 question, logged in nav-run). Run 1 = 15/21 is CLOSED, don't re-ask.
-  - (earlier) Nav run 1 done 18:54, 15/21.
+- 🔄 **AWAY (Wed 30 Sep, 08:58): closed the VS Code session ("save and close"). Not a day-end, no quote.** Today's plan (his, 29 Sep): boat out of the flooded area → cousin's apartment in Thonglor, band practice in the afternoon.
+  - **ASK ON RETURN:** (1) **goals today?** (the first ask of 30 Sep, not done yet; goals.py) · (2) did last night's GoodNotes block + Q22 happen? (the record stops at 19:55; the Room didn't log after that) · (3) bed by 23:30 last night? (not tracked, since no goals were set on 29 Sep; ask only as part of (1))
+  - (29 Sep) Nav run 1 = 15/21, CLOSED.
 - 🟢 (earlier) **Here (Tue 29 Sep, 12:12): BA202 lock-in day.** 19:42 he's also in VS Code with Crow on Room side-builds (drawer/cabinet).
   - ⏳ **ASK when it fits (light, one at a time):** (1) how's the head? · (2) did he ask Klao for the practice recordings ("ill tell him for sure")? · (3) the Sunday long run / Thursday quality swap: does it fit? · (4) the "ux ui skills" name · (5) BA202 sheet on paper? · (6) when unhurried: the racing question for grandpa
   - 🌊 Can't run or gym: the neighbourhood is flooded. W0's two easy runs are off, no penalty.
