@@ -29,3 +29,4 @@ metadata:
 - [ ] 2026-09-29 → 2026-10-03 | "first half of the day will be revision": AC311 Sat morning before the afternoon show (maybe a morning run), said 17:03 Tue
 - [x] 2026-09-29 → 2026-09-29 | "ok ill be back then": after a dinner break, one 30-min block tonight writing the six GoodNotes notes from the nav run onto the sheet (said 19:07 Tue)
 - [ ] 2026-09-29 → 2026-10-01 | "ill tell you when its printed": v3 sheet (GoodNotes export WITH his notes) printed A4 double-sided, 4 sheets, 100% scale, IN HAND by Thu night. Condo printer in Thonglor if there is one, else a friend prints it. Backup if not in hand by Thu 20:00: Thonglor print shop or handwrite. Said 20:47 Tue
+- [ ] 2026-09-30 → 2026-09-30 | "then we can work on ba… ill ping you when that's done with": BA202 work (skeleton drill, starting with Q1, the 9 PIT steps) after family time + a 20-min nap; realistically after band practice (17:00) tonight. Said 15:17 Wed
