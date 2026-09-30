@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟢 **Here (Wed 30 Sep, 10:25): truck hasn't come yet → BA202 drill while he waits.**
+- 🟢 **Here (Wed 30 Sep, 15:15): OUT of the flood, "in thong lor now" (plan flipped back from Siam → Thonglor). BA202 skeleton drill Q1 (name the 9 PIT steps) asked 10:27, unanswered.**
   - **ASK ON RETURN:** (1) printed yet? (print shops around Siam; ledger: in hand by Thu night) · (2) which book came, Siddhartha or Winter? · then the goals still open (BA202 run-through · print · power nap · band practice).
 - 🟢 (earlier) **Here (Tue 29 Sep, 12:12): BA202 lock-in day.** 19:42 he's also in VS Code with Crow on Room side-builds (drawer/cabinet).
   - ⏳ **ASK when it fits (light, one at a time):** (1) how's the head? · (2) did he ask Klao for the practice recordings ("ill tell him for sure")? · (3) the Sunday long run / Thursday quality swap: does it fit? · (4) the "ux ui skills" name · (5) BA202 sheet on paper? · (6) when unhurried: the racing question for grandpa
