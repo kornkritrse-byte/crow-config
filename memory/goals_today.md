@@ -12,4 +12,4 @@ metadata:
 - 2026-09-30 | Print the BA202 sheet | open
 - 2026-09-30 | Wake early | open
 - 2026-09-30 | Bed by 23:30 | open
-- 2026-09-30 | Power nap | open
+- 2026-09-30 | Power nap | done

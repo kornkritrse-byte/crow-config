@@ -27,8 +27,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟡 **AWAY (Wed 30 Sep, ~15:17) — in Thonglor, out of the flood. Off to: time with family → 20-min power nap → "then we can work on ba". Friends pick him up for band practice at 17:00.**
-  - **ASK ON RETURN:** (1) nap happened? (goals.py done 6) · (2) BA202 skeleton Q1 still open: name the 9 PIT steps from memory · (3) printed yet? (ledger: in hand by Thu night) · (4) which book came, Siddhartha or Winter?
+- 🟢 **Here (Wed 30 Sep, 16:27): napped ✓ (goal 6 done), waiting for friends (band 17:00) → BA202 skeleton drill while he waits.**
+  - **ASK when it fits:** printed yet? (ledger: in hand by Thu night) · which book came, Siddhartha or Winter?
 - 🟢 (earlier) **Here (Tue 29 Sep, 12:12): BA202 lock-in day.** 19:42 he's also in VS Code with Crow on Room side-builds (drawer/cabinet).
   - ⏳ **ASK when it fits (light, one at a time):** (1) how's the head? · (2) did he ask Klao for the practice recordings ("ill tell him for sure")? · (3) the Sunday long run / Thursday quality swap: does it fit? · (4) the "ux ui skills" name · (5) BA202 sheet on paper? · (6) when unhurried: the racing question for grandpa
 ## 🌊 The flood (26 Sep)

@@ -14,3 +14,4 @@ metadata:
 - 2026-09-29 20:31 | ledger | GoodNotes sheet notes from the nav run, done tonight as said
 - 2026-09-29 20:31 | task | BA202 sheet navigation run 1: 21 Qs, all 8 pages
 - 2026-09-30 09:06 | ghost | AC311: Allowance b/f is 60. Required allowance at year end is 20. W
+- 2026-09-30 16:29 | goal | Power nap
