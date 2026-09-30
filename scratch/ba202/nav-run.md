@@ -62,3 +62,7 @@ Run 2 so far (20:28): Q22 ✅(broken Q) · Q23 ❌ guess · Q24 ✅ · Q25 ✅ u
 - Q26 (p8 'Koala Co. (DTA)' PUT ON SHEET): Koala (Aus co., no presence in TH) gets Thai interest 100; WITH the DTA, Thailand withholds? options: 15 / 10 / 0 / 20. ANSWER: 0 (Australia, the residence, gets the right; without a DTA TH would take 15). 20:37 detour: daily-goals flower idea → build Sun 4 Oct. ❌ picked 15 (20:39) = the No-DTA row → ghost. 20:41 he named it himself: read the no-DTA row = 'grid miss' (same as Q23).
 - Q27 (p1 middle FIRST row L1★ + p2 '4 elements'): NOT an element of tax? ANSWER: D voluntary payment for a specific service. ❌ picked C (20:44), reasoning "read the first page and wagered each answer" = a guess → ghost. STOP RULE TRIGGERED, run 2 ended.
 ## RUN 2 RESULT (20:05–20:44): 3/6. Misses: Q23 guess (WHT) · Q26 grid miss (No-DTA row) · Q27 wagered (the ★ first row of page 1). Fatigue signs from ~20:25. Resume Thursday at the cafe with the ghost cards.
+
+## RUN 3: no hints, random order (Wed 30 Sep, from 10:25, waiting for the truck out of the flood)
+Same rules: no guessing (find it, or skip and come back) · note box = page + the exact phrase that proves it.
+- Q28 (p4 s.40 table cat 5 DED column): rents out AGRICULTURAL land for 200,000 → deduction? options: 60,000 / 40,000 / 30,000 / 100,000. ANSWER: 40,000 (20% agricultural land). Traps: 60k = 30% building, 30k = 15% other land, 100k = 50% cat 1–3.
