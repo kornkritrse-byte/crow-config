@@ -1,5 +1,5 @@
 // Room: glues Korn's pixel room to the Crow Room's state.
-//   empty chat   → the full scene (rain only when it's really raining in Bangkok, the crow blinks, hover labels)
+//   empty chat   → the full scene (no rain, his call 1 Oct; the crow blinks, hover labels)
 //   conversation → the scene shrinks to the board's corner, the book pile and the
 //                  guitars stand in the gutters beside the chat box, and nothing moves
 // The lamp brightens while Crow is thinking; the crow's pose follows the turn.
@@ -14,7 +14,7 @@
   let idle = null;          // { info, canvas, timer, t }
   const bkkHour = () => +new Date().toLocaleString("en-GB", { timeZone: "Asia/Bangkok", hour: "2-digit", hour12: false }) % 24;
   let hour = bkkHour();
-  let raining = store.get("raining") === "1";  // last known Bangkok weather, refreshed from Open-Meteo
+  const raining = false;   // rain switched off, his call 1 Oct ("just dont make it rain"); checkRain() is kept, unwired
   const pose = () => (mode === "thinking" ? "think" : mode === "waiting" ? "wait" : "idle");
   const lampState = () => (mode === "thinking" ? "bright" : "on");
   const furniture = { drawer: false, drawerL: false, drawerR: false, cabinet: false };   // open or shut, in the idle scene only
@@ -317,7 +317,7 @@
       const { current: c } = await r.json();
       const code = c.weather_code;
       const wet = c.precipitation > 0 || (code >= 51 && code <= 67) || (code >= 80 && code <= 82) || code >= 95;
-      if (wet !== raining) { raining = wet; store.set("raining", wet ? "1" : ""); idle?.draw?.(); }
+      return wet;
     } catch { /* offline: keep the last known sky */ }
   }
 
@@ -328,8 +328,6 @@
     addEventListener("resize", layout);
     // the window follows the Bangkok hour
     setInterval(() => { const h = bkkHour(); if (h !== hour) { hour = h; paintMini(); rebuildIdle(); } }, 10 * 60000);
-    // and the rain follows the real Bangkok weather
-    checkRain(); setInterval(checkRain, 15 * 60000);
   }
   root.Room = { init, emptyScene, setMode, setWater, setEmpty, newSession, toggleDim, layout, animateWater };
 })(window);
