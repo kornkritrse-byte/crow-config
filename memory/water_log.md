@@ -19,3 +19,5 @@ metadata:
 - 2026-10-01 09:41 | ghost | AC311: A purchase commitment was provisioned last year. On delivery
 - 2026-10-01 09:43 | goal | Bed by 23:30
 - 2026-10-01 09:43 | ledger | BA202 skeleton block before band, Wed 30 Sep (small)
+- 2026-10-01 09:45 | goal | Morning run
+- 2026-10-01 09:45 | goal | Wake early
