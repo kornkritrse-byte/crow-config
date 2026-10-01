@@ -407,3 +407,10 @@ metadata:
 - Smooth home title **kept** ("I fuck with it") → [[reference-crow-room]].
 - Called a rest day. **BA202 lock-in Tue 29 Sep, full day** → [[ledger-said-did]].
 - "In case I find the fire": built **AC311 practice paper III, Four Strings Co.** (2 years, Method 1, delivery-day entry, contract-units NRV trap, onerous sales commitment, Method 2 bonus) → `~/Desktop/ปีศาจ/AC311-Four-Strings-Paper.html` → [[reference-artifacts]]. Checkpoints: Y1 COGS 5,930 / NOI 2,290 · Y2 COGS 6,450 / NOI 4,010.
+
+## Session — 2026-09-29 (BA202 lock-in day · flushed 1 Oct)
+- Task #26 pass. AC311 detour: Q1 labels 4/5, reasons 2/5 (2 ghosted); SOCI from memory all correct; Four Strings paper III parts 1–2 (freight-over-190 unit-cost miss), parked 14:34.
+- BA202 sheet → v3 (full deck + transcript audit, her WHT table, CIT/regime additions), final-checked 17:03 → `~/Desktop/BA202/BA202-cheatsheet-v3-29Sep.pdf`.
+- Nav runs (MCQ cards): run 1 15/21, run 2 3/6 (stopped on the guess rule). Miss types: stops mid-row · wrong grid row · guessing → `scratch/ba202/nav-run.md`. 10 BA202 cards seeded for 1 Oct.
+- Room side-builds in VS Code: MCQ cards, window view, drawers, cabinet, goals flower.
+

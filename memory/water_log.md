@@ -30,3 +30,4 @@ metadata:
 - 2026-10-01 14:28 | ghost | BA202: Which is NOT an element of tax: compulsory by law / collecte
 - 2026-10-01 14:28 | goal | BA202 ghost cards
 - 2026-10-01 21:18 | goal | Gym session
+- 2026-10-01 21:20 | ledger | "Thursday revise… stay wired in" at the Thonglor cafe: BA202 revision day, the o

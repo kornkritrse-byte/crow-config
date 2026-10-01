@@ -25,7 +25,7 @@ metadata:
 - [~] 2026-09-27 → 2026-09-30 | "ill be back two days before ba202": back to studying (said 14:36; BA202 is Fri 2 Oct per the official notice) → moved UP a day on 28 Sep (his call, see next line)
 - [x] 2026-09-28 → 2026-09-29 | "lets start ba202 revision tmr hola day of locking in tmr": full BA202 lock-in day, Tue 29 Sep (said 13:59 Mon; resting Mon)
 - [~] 2026-09-29 → 2026-09-29 | "not yet ill wokr on that right away": get the BA202 Four Sheets onto paper (print shop or handwritten), said 12:14 Tue → replaced 20:47 by the line below (plan changed: friend or condo printer, deadline Thu)
-- [ ] 2026-09-29 → 2026-10-01 | "Thursday revise… stay wired in" at the Thonglor cafe: BA202 revision day, the one full day before the 2 Oct paper, said 17:03 Tue
+- [x] 2026-09-29 → 2026-10-01 | "Thursday revise… stay wired in" at the Thonglor cafe: BA202 revision day, the one full day before the 2 Oct paper, said 17:03 Tue
 - [ ] 2026-09-29 → 2026-10-03 | "first half of the day will be revision": AC311 Sat morning before the afternoon show (maybe a morning run), said 17:03 Tue
 - [x] 2026-09-29 → 2026-09-29 | "ok ill be back then": after a dinner break, one 30-min block tonight writing the six GoodNotes notes from the nav run onto the sheet (said 19:07 Tue)
 - [ ] 2026-09-29 → 2026-10-01 | "ill tell you when its printed": v3 sheet (GoodNotes export WITH his notes) printed A4 double-sided, 4 sheets, 100% scale, IN HAND by Thu night. Condo printer in Thonglor if there is one, else a friend prints it. Backup if not in hand by Thu 20:00: Thonglor print shop or handwrite. Said 20:47 Tue

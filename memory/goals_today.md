@@ -19,3 +19,4 @@ metadata:
 - 2026-10-01 | Gym session | done
 - 2026-10-01 | Wake early | done
 - 2026-10-01 | Bed by 23:30 | open
+- 2026-10-01 | — | closed

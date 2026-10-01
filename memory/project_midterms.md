@@ -13,7 +13,13 @@ Opened 2026-08-23. **TOP PRIORITY.** Korn's stated order: midterms first, fitnes
 
 ## 📅 EXAM SCHEDULE (given by Korn 23 Aug) — 6 subjects, Sun 20 → Sun 27 Sep 2026
 
-> ⏰ **TIME CORRECTED 1 Oct 21:20 (Korn): BA202 Fri 2 Oct starts 13:00, NOT 09:00.** The 27 Sep correction fixed the DAYS only; 09:00 was carried over from the original slots. AC311 Sun 4 Oct time = UNVERIFIED (still says 09:00) → ask. Google Calendar event still shows 09:00 → fix (no calendar tool in the Room).
+> 🎯 **BA202 EXAM-DAY HABITS (from the 1 Oct drill day, his actual miss shapes):**
+> 1. **Half-answering** a 2-part question (who files · which method · the deduction) → count the question marks.
+> 2. **Answering with the visible number/phrase** in the row (25% = a CONDITION, 60k spouse needs 2 conditions, "180 days", "brought into Thailand") → condition or result? For s.41: **Q2 (resident?) before Q4 (remitted?)**. The Melbourne-student card was missed TWICE.
+> 3. **Number slips**: ×0.05 for 0.5%, copied 3m for 2m, wrote "M2" before reasoning to M1 → givens first, final answer last.
+> His own cat 2 vs 7 rule (keep his words): "cat 2 = you come with your skills + tools to work on THEIR stuff; cat 7 = your own mats, your own tools, you deliver it."
+> Sheet map he now holds: PIT steps → pp. 3–6 in order · WHT table = p6 col 3 · CIT categories = p7 top-left tree · SME/petroleum/BOI/DTA = p8.
+> ⏰ **TIME CORRECTED 1 Oct 21:20 (Korn): BA202 Fri 2 Oct starts 13:00, NOT 09:00.** The 27 Sep correction fixed the DAYS only; 09:00 was carried over from the original slots. AC311 Sun 4 Oct **09:00 VERIFIED by Korn 21:22 1 Oct ("for sure")**. His plan: Sat night after the show, sleep at a friend's place nearer uni. Google Calendar event still shows 09:00 → fix (no calendar tool in the Room).
 > 🚨 **CORRECTED 27 Sep 14:41 from the OFFICIAL notice (Korn): BA202 → Fri 2 Oct · AC311 → Sun 4 Oct**, both 09:00–12:00. The line below had them swapped (recorded from his 00:33 message). Calendar fixed.
 
 > 🌊 **27 Sep: BANGKOK FLOOD. AC311 (Sat 26) and BA202 (Sun 27) POSTPONED to Fri 2 Oct + Sun 4 Oct** (Korn, 00:2x 27 Sep). **Confirmed by Korn 00:33 27 Sep: AC311 → Fri 2 Oct, BA202 → Sun 4 Oct**, both 09:00–12:00. Calendar events moved. Rows 5–6 below are the ORIGINAL dates.

@@ -337,3 +337,8 @@ He set his own stop time at 16:4x when the night was still theoretical, pushed b
 > — **Seneca**, *Letters to Lucilius*, VI
 **Why:** A night of building (the Crow Room, three rounds, maroon and Helvetica), but the thing that mattered came last and almost by accident: the half marathon. Vera first filed it as "you pushed for this", and he corrected her. He never proposed a race; he just talked about running, and his dad came back to running because of it, then signed them both up. No argument, no pitch: an example. Seneca again, on purpose. On 27 Aug the Seneca quote was about direction arriving from outside him, when his dad entered him in the 10K without asking. Tonight the current ran the other way. It also fits how he learns (examples over principles, his own CLAUDE.md), which it turns out is how he teaches too.
 
+
+## 2026-10-01 — Marcus Aurelius, *Meditations* III.11
+> "Make for thyself a definition or description of the thing which is presented to thee, so as to see distinctly what kind of a thing it is in its substance… and tell thyself its proper name."
+> — **Marcus Aurelius**, *Meditations*, III.11 (George Long trans.)
+**Why:** The BA202 eve. Nearly every miss today had the same shape: he grabbed the most visible thing in a row (25%, 60k, "brought into Thailand", "Before:") and answered from it, before naming what it actually was: a condition or a result, Q2 or Q4. Marcus's exercise is the fix in his own reading list: see the thing for what it is and name it before you react. Tomorrow's paper rewards exactly that.
