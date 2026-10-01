@@ -11,6 +11,7 @@
   const DRAWERS = { drawerL: { x: 90, y: DESK + 10, w: 50, h: 12 }, drawer: { x: 142, y: DESK + 10, w: 50, h: 12 }, drawerR: { x: 194, y: DESK + 10, w: 50, h: 12 } };
   const CABINET = { x: 2, y: 156, w: 66, h: FLOOR - 156 };
   const LAMP = [228, 102];
+  const RAIN_DAY = C("#d4dde8");   // pale streaks read against a day sky; the night rain stays P.rain
 
   // a drawer under the desk: open, it drops forward and shows what's inside
   function drawer(b, D, open, papers) {
@@ -136,11 +137,13 @@
     info.view = { hour, B, S, open, buf: new PX(g.w, g.h) };
     return info;
   }
-  // per-frame: the view, rain in the window gap (only when it's raining), the crow on the monitor
+  // per-frame: the view (+ rain across the whole glass when it's raining), the crow on the monitor.
+  // The rain is painted into the view itself, so it sits behind the frame, the curtains, the bookcase and the desk.
   function anim(f, info, t, state = {}) {
     if (!state.still && info.view) {
       const g = info.glass, v = info.view;
       R.view(v.buf, 0, 0, g.w, g.h, v.hour, t);
+      if (state.rain) R.rain(v.buf, { x: 0, y: 0, w: g.w, h: g.h }, t, R.skyFor(v.hour) === "day" ? RAIN_DAY : P.rain);
       for (let j = 0; j < g.h; j++) for (let i = 0; i < g.w; i++) {
         const k = j * g.w + i;
         if (!v.open[k]) continue;
@@ -148,7 +151,6 @@
         f.d[(g.y + j) * f.w + g.x + i] = pack(v.B[o] + (v.S[o] * p[0]) / 255, v.B[o + 1] + (v.S[o + 1] * p[1]) / 255, v.B[o + 2] + (v.S[o + 2] * p[2]) / 255);
       }
     }
-    if (!state.still && state.rain) R.rain(f, info.win, t);
     const blink = state.pose === "idle" && Math.floor(t / 10) % 9 === 0;
     R.crow(f, info.crowAt[0], info.crowAt[1], blink ? "blink" : state.pose || "idle");
   }

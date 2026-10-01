@@ -365,12 +365,12 @@
     }
     return { x, y, w, h };
   }
-  function rain(b, win, t) {
-    const r = rng(11);
-    for (let k = 0; k < 42; k++) {
+  function rain(b, win, t, col = P.rain) {
+    const r = rng(11), n = Math.round(win.w * 0.7);   // same feel at any width (0.7 drops per column)
+    for (let k = 0; k < n; k++) {
       const rx = Math.floor(r() * win.w), speed = 2 + r() * 2, len = 2 + Math.floor(r() * 3);
       const ry = Math.floor((r() * win.h + t * speed) % (win.h + 6)) - 4;
-      for (let l = 0; l < len; l++) { const X = win.x + ((rx - Math.floor((ry + l) / 3) + win.w * 4) % win.w), Y = win.y + ry + l; if (Y >= win.y && Y < win.y + win.h) b.set(X, Y, P.rain); }
+      for (let l = 0; l < len; l++) { const X = win.x + ((rx - Math.floor((ry + l) / 3) + win.w * 4) % win.w), Y = win.y + ry + l; if (Y >= win.y && Y < win.y + win.h) b.set(X, Y, col); }
     }
   }
   function curtains(b, x, y, w, h, gapL, gapR) {
