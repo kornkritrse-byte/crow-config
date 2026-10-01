@@ -15,7 +15,7 @@ metadata:
 - 2026-09-30 | Power nap | done
 - 2026-10-01 | Morning run | done
 - 2026-10-01 | BA202 skeleton + branches | done
-- 2026-10-01 | BA202 ghost cards | open
+- 2026-10-01 | BA202 ghost cards | done
 - 2026-10-01 | Gym session | open
 - 2026-10-01 | Wake early | done
 - 2026-10-01 | Bed by 23:30 | open

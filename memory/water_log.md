@@ -27,3 +27,5 @@ metadata:
 - 2026-10-01 14:12 | ghost | BA202: Thai dividend 80,000 from a 20%-CIT co. He ELECTS the 10% fi
 - 2026-10-01 14:20 | ghost | BA202: Thai co. pays a 100,000 SERVICE fee to another Thai company.
 - 2026-10-01 14:25 | ghost | BA202: Koala Co. (Aus, no presence in TH) earns Thai INTEREST 100.
+- 2026-10-01 14:28 | ghost | BA202: Which is NOT an element of tax: compulsory by law / collecte
+- 2026-10-01 14:28 | goal | BA202 ghost cards
