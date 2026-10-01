@@ -23,3 +23,4 @@ metadata:
 - 2026-10-01 09:45 | goal | Wake early
 - 2026-10-01 13:57 | goal | BA202 skeleton + branches
 - 2026-10-01 14:03 | ghost | BA202: Which is SUBORDINATE law: Revenue Code / Emergency Decree /
+- 2026-10-01 14:11 | ghost | BA202: Net income 800,000. Tax under Method 1? (use the brackets ta
