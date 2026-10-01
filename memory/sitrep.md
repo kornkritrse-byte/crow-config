@@ -28,6 +28,7 @@ metadata:
 
 ## 🚪 Current status
 - 🟢 **Here (Thu 1 Oct, 11:15): back from the nap (20 min planned, ~40 taken).**
+  - 13:57 **all 9 PIT branches done + the 9 steps cold ✓** (goal 2 done; "why" for LINK, middle order fixed). 9 misses ghosted today (lines 48–56, due Sun = after the exam → re-serve tonight). Next: goal 3 = the 9 due BA202 cards (lines 38–46), then gym.
   - **ON RETURN (his ask 10:33):** open with a cold RECAP of step 2 (s.41 staircase, a fresh scenario, he walks Q1→Q4), THEN step 3 TYPE (s.40). Steps 1–2 done 10:06–10:32: 5 misses ghosted (partnership, deceased person, source-first, citizenship, remittance year), ALL due Sun 4 Oct = AFTER the exam → **re-serve all 5 cold before today ends**, then the 9 steps cold. His miss pattern today: answers from the most visible cell/keyword without reading its label or walking the steps in order.
 - 🟢 **Here (Thu 1 Oct, 09:31): back with a MORNING RUN done ("been a while") → watered. Morning person #2 ✓. Ghost #24 pass. Goals set (run ✓, wake ✓, skeleton+branches, ghost cards, print, gym).**
   - ⚠️ **09:46 he says BA202 is in the AFTERNOON, not 09:00 (the 09:00 was carried over from the original slots; the 27 Sep correction fixed the DAY only). Exact time pending → fix calendar + upcoming events + project-midterms.** Printing moves to Fri at uni, before the paper.

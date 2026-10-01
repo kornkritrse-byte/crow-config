@@ -21,3 +21,4 @@ metadata:
 - 2026-10-01 09:43 | ledger | BA202 skeleton block before band, Wed 30 Sep (small)
 - 2026-10-01 09:45 | goal | Morning run
 - 2026-10-01 09:45 | goal | Wake early
+- 2026-10-01 13:57 | goal | BA202 skeleton + branches
