@@ -26,3 +26,4 @@ metadata:
 - 2026-10-01 14:11 | ghost | BA202: Net income 800,000. Tax under Method 1? (use the brackets ta
 - 2026-10-01 14:12 | ghost | BA202: Thai dividend 80,000 from a 20%-CIT co. He ELECTS the 10% fi
 - 2026-10-01 14:20 | ghost | BA202: Thai co. pays a 100,000 SERVICE fee to another Thai company.
+- 2026-10-01 14:25 | ghost | BA202: Koala Co. (Aus, no presence in TH) earns Thai INTEREST 100.
