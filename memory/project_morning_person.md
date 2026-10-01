@@ -48,3 +48,8 @@ This is a **deliberate attempt to reverse an established pattern**, not a prefer
 - ⚠️ **So it is weak evidence about the HABIT.** A deadline can get anyone out of bed; the habit question is whether mornings survive once the exams stop. **Don't score this as a win for morning-person — score it as a win for AC313.**
 - ✅ Also note the collision resolved itself tonight: he chose to END a productive session early to protect the wake-up. That is the trade the midnight–1am pattern has always refused. **Worth watching whether it repeats.**
 - ▶️ **ASK ON RETURN: did it actually happen, and what time.** Not whether he still wants it.
+
+## 🏃 THU 1 OCT 2026: morning run (reported 09:31)
+- *"had a good morning run. its been a while since I had one."* First run since the flood (26 Sep), the day before BA202, staying at a friend's near Siam.
+- ✅ **Counts for the HABIT**: no 09:00 exam pulling him out of bed today. Unlike 21 Sep.
+- ▶️ Don't ask time/distance unless he brings it up. Watch whether the Sat 3 Oct morning run happens.

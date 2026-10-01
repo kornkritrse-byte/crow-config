@@ -27,6 +27,9 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
+- 🟢 **Here (Thu 1 Oct, 09:31): back with a MORNING RUN done ("been a while") → watered. Morning person #2 ✓. Ghost #24 pass. Goals set (run ✓, wake ✓, skeleton+branches, ghost cards, print, gym).**
+  - ⚠️ **09:46 he says BA202 is in the AFTERNOON, not 09:00 (the 09:00 was carried over from the original slots; the 27 Sep correction fixed the DAY only). Exact time pending → fix calendar + upcoming events + project-midterms.** Printing moves to Fri at uni, before the paper.
+  - still open: Siddhartha or Winter?
 - 🟢 **Here (Wed 30 Sep, 16:27): napped ✓ (goal 6 done), waiting for friends (band 17:00) → BA202 skeleton drill while he waits.**
   - **ASK when it fits:** printed yet? (ledger: in hand by Thu night) · which book came, Siddhartha or Winter?
 - 🟢 (earlier) **Here (Tue 29 Sep, 12:12): BA202 lock-in day.** 19:42 he's also in VS Code with Crow on Room side-builds (drawer/cabinet).
