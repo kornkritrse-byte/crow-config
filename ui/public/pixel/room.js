@@ -27,7 +27,7 @@
     const day = now.toLocaleDateString("en-GB", { timeZone: "Asia/Bangkok", weekday: "long", day: "numeric", month: "long" });
     const time = now.toLocaleTimeString("en-GB", { timeZone: "Asia/Bangkok", hour: "2-digit", minute: "2-digit" });
     box.innerHTML = `<div class="dateline"><span>${day}</span><i></i><span>${time} Bangkok</span></div>
-      <img class="room-title" alt="คล้อดของฉัน" draggable="false">
+      <img class="room-title" alt="perge movere" draggable="false">
       <div class="scene"><canvas></canvas><div class="tip" hidden></div></div>
       <div class="starters"></div>`;
     const scene = box.querySelector(".scene"), canvas = scene.querySelector("canvas"), tip = scene.querySelector(".tip");
