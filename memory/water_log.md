@@ -17,3 +17,5 @@ metadata:
 - 2026-09-30 16:29 | goal | Power nap
 - 2026-10-01 09:33 | training | Morning run, Thu 1 Oct (first in a while)
 - 2026-10-01 09:41 | ghost | AC311: A purchase commitment was provisioned last year. On delivery
+- 2026-10-01 09:43 | goal | Bed by 23:30
+- 2026-10-01 09:43 | ledger | BA202 skeleton block before band, Wed 30 Sep (small)
