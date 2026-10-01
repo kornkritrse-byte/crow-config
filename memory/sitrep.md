@@ -27,6 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
+- 🏠 **Thu 1 Oct 15:06 — CLI side-quest done, he's continuing in the Room.** Room rain fixed (was stuck in the old 40px gap) then **switched OFF at his call** ("just dont make it rain"; see reference-crow-room). Ghost card 28 (DDP/FOB/CIF) served here, **unanswered, still due**. Room-Crow: pick up the 14:59 ON RETURN below (card 1/12 cold → the 12 → gym).
 - 🚶 **AWAY (Thu 1 Oct, 14:59) — off to: a cafe a few minutes down the road, "will ping you when there".** (14:53 back from the break on time.)
   - **ON RETURN:** re-serve card 1/12 (merch partnership) cold → the rest of the 12, then gym.
 - 🟢 **Here (Thu 1 Oct, 11:15): back from the nap (20 min planned, ~40 taken).**
