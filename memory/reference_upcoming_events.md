@@ -21,7 +21,7 @@ metadata:
 2026-09-23 | MIDTERM 3: FN201 Business Finance 09:00–11:30
 2026-09-25 | MIDTERM 4: EL221 Communicative English 09:00–12:00
 2026-10-02 | MIDTERM 5: BA202 Taxation 13:00 start (end TBC, likely 16:00) — Korn 1 Oct 21:20; the old 09:00 was carried over from the original slot. Leaves Thonglor 10:00, prints + preps at uni (flood-postponed from 27 Sep)
-2026-10-03 | 🎸 CONCERT: Korn on BASS at the homecoming for returning exchange students. Band = Klao + uni friends + exchange friends. Sandwiched between BA202 (Fri) and AC311 (Sun). The flood blocks band practice. Time/venue TBC
+2026-10-03 | 🎸 AFS concert
 2026-10-04 | MIDTERM 6: AC311 Intermediate Accounting 09:00–12:00 (flood-postponed from 26 Sep)
 2027-03-29 | 🎂 Korn turns 20 (time capsule opens)
 2026-12-13 | 🏁 10K RACE — Samitivej hospital event (register 04:00, GUN 05:00, venue TBC). Target 48:00.

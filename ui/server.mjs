@@ -497,7 +497,7 @@ function upcomingEvents() {
     .map(([, date, title]) => ({ date, title, days: Math.round((Date.parse(date) - t0) / 86400000) }))
     .filter(e => e.days >= 0)
     .sort((a, b) => a.date.localeCompare(b.date))
-    .slice(0, 4);
+    .slice(0, 5);
 }
 
 function sitrepStatus() {
