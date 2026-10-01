@@ -28,7 +28,7 @@ metadata:
 
 ## 🚪 Current status
 - 🏠 **Thu 1 Oct 15:06 — CLI side-quest done, he's continuing in the Room.** Room rain fixed (was stuck in the old 40px gap) then **switched OFF at his call** ("just dont make it rain"; see reference-crow-room). Ghost card 28 (DDP/FOB/CIF) served here, **unanswered, still due**. Room-Crow: pick up the 14:59 ON RETURN below (card 1/12 cold → the 12 → gym).
-- 🟢 **Here (Thu 1 Oct, 15:24): at the cafe.** → 12-card re-run cold, then gym.
+- 🟢 **Here (Thu 1 Oct, 15:43): at the cafe. 12-card re-run DONE: 9.5/12** (deck untouched; Sunday's serving = the real spaced check). ✗ #4 citizenship AGAIN (jumped to "money entered a Thai account" = Q4, skipped Q2) → walked it, fixed. ½s = answering half a 2-part card ×3 (who files · method · deduction) → his fix: count the question marks. Next: gym (goal 5). Card 34 due Fri → serve at Friday's first session, before the paper.
 - 🟢 **Here (Thu 1 Oct, 11:15): back from the nap (20 min planned, ~40 taken).**
   - 13:57 **all 9 PIT branches done + the 9 steps cold ✓** (goal 2 done; "why" for LINK, middle order fixed). 9 misses ghosted today (lines 48–56, due Sun = after the exam → re-serve tonight). Next: goal 3 = the 9 due BA202 cards (lines 38–46), then gym.
   - 14:27 **goal 3 done: 9 due cards served, 6/9 pass** (39 41 42 44 45 46). Failed 38 (25% = condition read as result), 40 (cat 2 vs 7 backwards → he fixed his own rule: "2 = your skills + tools on THEIR stuff, 7 = your mats, your tools, you deliver"), 43 (method right, copied 3m for 2m). **TONIGHT RE-RUN LIST (all due Sun = after exam): 38 40 43 + 48–56 = 12 cards, cold.** Card 34 due Fri. His slips: number-in-the-row as answer · copying numbers wrong (×0.05, 3m) · didn't know "WHT" = withholding tax (p6 col 3).
