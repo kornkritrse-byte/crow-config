@@ -27,6 +27,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
+- ☕ **AWAY (Thu 1 Oct, 14:29) — off to: a break, "one YouTube vid"; Crow said 20 min, back ~14:50.**
+  - **ON RETURN:** the 12-card re-run cold (38 40 43 + 48–56), then gym.
 - 🟢 **Here (Thu 1 Oct, 11:15): back from the nap (20 min planned, ~40 taken).**
   - 13:57 **all 9 PIT branches done + the 9 steps cold ✓** (goal 2 done; "why" for LINK, middle order fixed). 9 misses ghosted today (lines 48–56, due Sun = after the exam → re-serve tonight). Next: goal 3 = the 9 due BA202 cards (lines 38–46), then gym.
   - 14:27 **goal 3 done: 9 due cards served, 6/9 pass** (39 41 42 44 45 46). Failed 38 (25% = condition read as result), 40 (cat 2 vs 7 backwards → he fixed his own rule: "2 = your skills + tools on THEIR stuff, 7 = your mats, your tools, you deliver"), 43 (method right, copied 3m for 2m). **TONIGHT RE-RUN LIST (all due Sun = after exam): 38 40 43 + 48–56 = 12 cards, cold.** Card 34 due Fri. His slips: number-in-the-row as answer · copying numbers wrong (×0.05, 3m) · didn't know "WHT" = withholding tax (p6 col 3).
