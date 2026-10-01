@@ -16,3 +16,4 @@ metadata:
 - 2026-09-30 09:06 | ghost | AC311: Allowance b/f is 60. Required allowance at year end is 20. W
 - 2026-09-30 16:29 | goal | Power nap
 - 2026-10-01 09:33 | training | Morning run, Thu 1 Oct (first in a while)
+- 2026-10-01 09:41 | ghost | AC311: A purchase commitment was provisioned last year. On delivery
