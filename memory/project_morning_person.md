@@ -53,3 +53,5 @@ This is a **deliberate attempt to reverse an established pattern**, not a prefer
 - *"had a good morning run. its been a while since I had one."* First run since the flood (26 Sep), the day before BA202, staying at a friend's near Siam.
 - ✅ **Counts for the HABIT**: no 09:00 exam pulling him out of bed today. Unlike 21 Sep.
 - ▶️ Don't ask time/distance unless he brings it up. Watch whether the Sat 3 Oct morning run happens.
+
+- **2 Oct 2026:** overslept on BA202 day. His own diagnosis: "should have worn my watch, I don't think phone alarms do the magic." **The watch (wrist vibration) wakes him; the phone alarm doesn't.** If a morning gets missed, first ask whether the watch was on.

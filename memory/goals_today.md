@@ -24,5 +24,5 @@ metadata:
 - 2026-10-02 | Birthday surprise for my friend | open
 - 2026-10-02 | Band practice | open
 - 2026-10-02 | Print the BA202 sheet | open
-- 2026-10-02 | Wake early | open
+- 2026-10-02 | Wake early | missed
 - 2026-10-02 | Bed by 23:30 | open
