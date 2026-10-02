@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- ☕ **AWAY (Fri 2 Oct, 17:10), 10-min break** (frustrated: 3 of 4 AC311 classification misses after the BA202 paper). BA202 done, 5 of 6; no post-mortem (his ask). Goal 7 SOCI ✓ (missed COGAS). **ASK ON RETURN:** the receivership-bank question (pending) → ~20 min more classification → food → band 19:00 → birthday.
+- ✅ **Here (Fri 2 Oct, 17:20), back from the 10-min break** (frustrated: 3 of 4 AC311 classification misses after the BA202 paper). BA202 done, 5 of 6; no post-mortem (his ask). Goal 7 SOCI ✓ (missed COGAS). **ASK ON RETURN:** the receivership-bank question (pending) → ~20 min more classification → food → band 19:00 → birthday.
   - **ASK ON RETURN:** AC311 30-min SOCI layout tonight, on the flower or not? → then MCQ cards on sheet pp. 1–2 until 10:00.
   - (was) 🌙 **AWAY (Thu 1 Oct, 21:22) — day closed: off to stretch, journal, chill YouTube, bed.**
   - 📝 **His note to self, 21:28 — hand it back to him first thing Fri:** *"tmr back to work. keep the discipline."*
