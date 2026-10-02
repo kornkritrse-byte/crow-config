@@ -69,6 +69,12 @@ metadata:
 - 📌 After midterms: "make Obsidian cool" → [[reference-obsidian]].
 - ⚠️ **My own error log moved to [[crow-error-log]]. The shape keeps repeating: check the record before asserting.**
 
+## Session — 2026-10-02 (BA202 day)
+- 08:19 morning. Overslept: wake early ✗; his read is that phone alarms don't work and the watch does (→ [[project-morning-person]]). Bed 1 Oct ✓. Ghost #28 (DDP/FOB/CIF) **pass**.
+- Goals: BA202 · birthday surprise · band practice · print the sheet (+ wake/bed). Offered: AC311 SOCI layout 30 min tonight, **unanswered**.
+- 09:01–09:27 MCQ/recall on sheet pp. 1–2 + residence: **11/13**. ✗ petroleum co → CIT (her ★ trap) · ✗ Toyota Thailand → "foreign" (her ★ L6 decoy). Both ghosted (due 5 Oct). Small slip: "Special" Business Tax → Specific. Both misses were habit #2 (answering with the visible feature).
+- Checked: v3 sheet carries her WHT table (slide 50). 🔴 flag closed.
+
 ## Session — 2026-10-01 (BA202 eve: the full skeleton day)
 - 09:31 **morning run** ("been a while"); counts for the habit ([[project-morning-person]]). Ghost #24 pass. Flower: **5/6** (run, wake, skeleton, cards, gym), bed pending.
 - 10:03–13:57 **9 PIT steps + every branch**, sheet open, question-first. Steps cold: 8 in the wrong order → **9 in order** by 13:57. 9 misses ghosted (lines 48–56). Nap 10:32 (20 planned, ~40 taken; Vera: a reason, not an excuse, if decided out loud).
