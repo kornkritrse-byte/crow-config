@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- ✅ **Here (Fri 2 Oct, 17:46), back.** (17:31) kept working (his call: studio is close, small food to go); Crow calls time 18:45 MAX (his number).** Then band 19:00 → birthday. ASK ON RETURN: band ✓? (goal 3) · birthday ✓? (goal 2) · bed by 23:30 tonight (watch on for the alarm) · Sat: AC311 in the AM (Problem 4 (f) + totals, the Monday cards early), pack the AC311 kit, then the show.
+- 🎸 **AWAY (Fri 2 Oct, 18:25), off to eat → band practice 19:00 → friend's birthday surprise.** AC311 Problem 4 DONE (94,050 · NOI understated 31k). His SOCI calc mistakes saved to [[project-midterms]] (his ask). **ASK ON RETURN:** band ✓? (goal 3) · birthday ✓? (goal 2) · bed 23:30 + watch on · **Sat AM: serve the 8 SOCI calc mistakes first**, then pack the AC311 kit → the show.
   - **ASK ON RETURN:** AC311 30-min SOCI layout tonight, on the flower or not? → then MCQ cards on sheet pp. 1–2 until 10:00.
   - (was) 🌙 **AWAY (Thu 1 Oct, 21:22) — day closed: off to stretch, journal, chill YouTube, bed.**
   - 📝 **His note to self, 21:28 — hand it back to him first thing Fri:** *"tmr back to work. keep the discipline."*

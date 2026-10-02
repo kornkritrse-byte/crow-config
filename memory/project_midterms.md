@@ -1177,3 +1177,14 @@ Scope was widened mid-session on HIS catch: Crow had scoped to Part I only; a fu
 - Unit-cost rule: with multiple batches, load (Transport-in − Discount) ÷ units purchased onto the leftover batch's invoice price. Net purchases ÷ units only works with a single batch.
 - **The Two-Year Ledger** (Crow-built practice paper, same structure as the demo) — he sat it 25 Sep and it all checked out → [[reference-artifacts]].
 - Teaching that worked: **Socratic questioning at his request** (one question per turn until he produces the answer), and it built the whole sales-commitment method → [[feedback-drill-format]].
+
+## 🧮 AC311: his SOCI / inventory CALCULATION mistakes (his ask, 2 Oct 18:23: "remember my biggest fuck ups with the calculating numbers")
+Serve these first on Sat 3 Oct AM, before the Sun 09:00 paper. Each one has a ghost card.
+1. **Recovery sign**: added it; it is SUBTRACTED inside COGS (25 Sep). Card: "where does Recovery sit".
+2. **Write-down = cost − NRV**, not cost − selling price.
+3. **The entry is the MOVEMENT**: b/f 60, required 20 → Recovery 40 (not 20). Recovery is capped at the earlier loss.
+4. **Unit-cost loading**: (Transport-in − Discount) ÷ ALL units purchased, not only the units left.
+5. **Missing lines on the blank sheet**: Sales/GP + S&A (25 Sep), COGAS (2 Oct), Beg Inv written twice (25 Sep). Fix = a last pass for every subtotal.
+6. **NOI effect: count ≠ recording** (2 Oct, Problem 4): EI error and the purchases-recorded-in-wrong-year error are SEPARATE (18 − 27 + 40 = understated 31k). Write "understated / overstated by X", never "goes down".
+7. **Cut-off reading**: misread "included" vs "not included" (2 Oct (a)); consignor vs consignee ("shipped TO X" = ours, "held FOR X" = not ours).
+8. **Cross-subject number slips (BA202 2 Oct)**: 400k typed as 40k · 60 days called "a month" · 180 days called "within 3 months" · ×0.05 for 0.5% (1 Oct). Convert days → months before applying a rule.
