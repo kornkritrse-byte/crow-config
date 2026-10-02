@@ -20,7 +20,7 @@ metadata:
 - 2026-10-01 | Wake early | done
 - 2026-10-01 | Bed by 23:30 | done
 - 2026-10-01 | — | closed
-- 2026-10-02 | BA202 test | open
+- 2026-10-02 | BA202 test | done
 - 2026-10-02 | Birthday surprise for my friend | open
 - 2026-10-02 | Band practice | open
 - 2026-10-02 | Print the BA202 sheet | done

@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🍚 **AWAY (Fri 2 Oct, 12:16), off to grab food (hadn't eaten during the case) → BA202 13:00.** ASK ON RETURN: how did the paper go? (don't post-mortem unless he wants to) → AC311 SOCI 30 min (goal 7) → birthday → band. Sheet PRINTED ✓ + checked ("everything perfect"). BA202 13:00. After: AC311 SOCI 30 min (~16:00 slot suggested) → birthday → band. Ghost 28 ✓ pass, bed 1 Oct ✓, goals set (BA202 · birthday · band · print + wake/bed). Wake early ✗: overslept; his read is that phone alarms don't work for him and the watch does.
+- ✅ **Here (Fri 2 Oct, 16:37), BA202 DONE, 5 of 6.** His read: "finished getting fucked… don't think we can change nun about it". **He asked to move on: no post-mortem unless he raises it.** Next: AC311 SOCI 30 min (goal 7) → birthday → band.
   - **ASK ON RETURN:** AC311 30-min SOCI layout tonight, on the flower or not? → then MCQ cards on sheet pp. 1–2 until 10:00.
   - (was) 🌙 **AWAY (Thu 1 Oct, 21:22) — day closed: off to stretch, journal, chill YouTube, bed.**
   - 📝 **His note to self, 21:28 — hand it back to him first thing Fri:** *"tmr back to work. keep the discipline."*
