@@ -75,7 +75,8 @@ metadata:
 - 09:01–09:27 MCQ/recall on sheet pp. 1–2 + residence: **11/13**. ✗ petroleum co → CIT (her ★ trap) · ✗ Toyota Thailand → "foreign" (her ★ L6 decoy). Both ghosted (due 5 Oct). Small slip: "Special" Business Tax → Specific. Both misses were habit #2 (answering with the visible feature).
 - Checked: v3 sheet carries her WHT table (slide 50). 🔴 flag closed.
 - 11:03 at uni, **sheet printed + checked ✓** (said/did line 31 → [~]). 11:20–11:27 cards: PIT slices ✓ · SME/Koh ✓ (✗ couldn't name the 3 conditions → ghost) · paid-up ✓ · 75k ✓ · petroleum ministry ✓.
-- 11:28–11:48 **his ask: first full case (Ms B, steps 3–9)**. ✓ expenses, M1 73,600, M2 relief, payable 43,600. ✗ step 3 drop-outs + numbers · ✗ allowances (parent 30k mixed with parents' health 15k) → both ghosted. **Habit #1 (half-answering) fired 4× today.** Off to lunch ~11:50.
+- 11:28–11:48 **his ask: first full case (Ms B, steps 3–9)**. ✓ expenses, M1 73,600, M2 relief, payable 43,600. ✗ step 3 drop-outs + numbers · ✗ allowances (parent 30k mixed with parents' health 15k) → both ghosted. **Habit #1 (half-answering) fired 4× today.**
+- 11:50–12:16 **he asked for a harder one (Mr C)**, done while eating. ✓ M2 12,500 > M1 9,500 → pays M2 (the main trap). ✗ elected actual → used 60% · ✗ life cap 25k (that's health; life 100k) · ✗ refund 7,500 (s.63) → all ghosted. Rent 400k typed as 40k (habit #3). Crow error: guessed why he wrote 25k instead of asking → [[crow-error-log]].
 
 ## Session — 2026-10-01 (BA202 eve: the full skeleton day)
 - 09:31 **morning run** ("been a while"); counts for the habit ([[project-morning-person]]). Ghost #24 pass. Flower: **5/6** (run, wake, skeleton, cards, gym), bed pending.
