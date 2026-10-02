@@ -27,7 +27,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🌙 **AWAY (Thu 1 Oct, 21:22) — day closed: off to stretch, journal, chill YouTube, bed.**
+- ✅ **Here (Fri 2 Oct, 08:19) — BA202 day.** Note handed back; ghost 28 served.
+  - (was) 🌙 **AWAY (Thu 1 Oct, 21:22) — day closed: off to stretch, journal, chill YouTube, bed.**
   - 📝 **His note to self, 21:28 — hand it back to him first thing Fri:** *"tmr back to work. keep the discipline."*
   - **ASK ON RETURN (Fri AM):** bed by 23:30? (`goals.py done|miss 6 2026-10-01`) · did he text his friend happy birthday? · then the **06:30 block (~30 min)**: ghost card 34 → the Lion Pte cat-2 goods card (due Sun, serve early) → MCQ cards on sheet pages 1–2 (tax basics, the only pages untouched). Then leave Thonglor 10:00 → print at uni → **BA202 13:00**. After the paper: the friend's birthday surprise (moved from Thu, [[ledger-said-did]]).
   - Also still due/open: ghost card 28 (DDP/FOB/CIF, served in the CLI 1 Oct, unanswered) · Siddhartha or Winter? · Klao practice recordings · Sunday long run / Thursday quality swap · the racing question for grandpa (unhurried).
