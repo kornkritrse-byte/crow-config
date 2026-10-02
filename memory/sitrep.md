@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- ✅ **Here (Fri 2 Oct, 11:20), cards before lunch.** Sheet PRINTED ✓ + checked ("everything perfect"). BA202 13:00. After: AC311 SOCI 30 min (~16:00 slot suggested) → birthday → band. Ghost 28 ✓ pass, bed 1 Oct ✓, goals set (BA202 · birthday · band · print + wake/bed). Wake early ✗: overslept; his read is that phone alarms don't work for him and the watch does.
+- 🍚 **AWAY (Fri 2 Oct, 11:50), lunch → BA202 13:00.** ASK ON RETURN: how did the paper go? (don't post-mortem unless he wants to) → AC311 SOCI 30 min (goal 7) → birthday → band. Sheet PRINTED ✓ + checked ("everything perfect"). BA202 13:00. After: AC311 SOCI 30 min (~16:00 slot suggested) → birthday → band. Ghost 28 ✓ pass, bed 1 Oct ✓, goals set (BA202 · birthday · band · print + wake/bed). Wake early ✗: overslept; his read is that phone alarms don't work for him and the watch does.
   - **ASK ON RETURN:** AC311 30-min SOCI layout tonight, on the flower or not? → then MCQ cards on sheet pp. 1–2 until 10:00.
   - (was) 🌙 **AWAY (Thu 1 Oct, 21:22) — day closed: off to stretch, journal, chill YouTube, bed.**
   - 📝 **His note to self, 21:28 — hand it back to him first thing Fri:** *"tmr back to work. keep the discipline."*
@@ -74,6 +74,8 @@ metadata:
 - Goals: BA202 · birthday surprise · band practice · print the sheet (+ wake/bed). AC311 SOCI layout 30 min tonight added at 09:28 (his words: "possibly doing it is better than a no").
 - 09:01–09:27 MCQ/recall on sheet pp. 1–2 + residence: **11/13**. ✗ petroleum co → CIT (her ★ trap) · ✗ Toyota Thailand → "foreign" (her ★ L6 decoy). Both ghosted (due 5 Oct). Small slip: "Special" Business Tax → Specific. Both misses were habit #2 (answering with the visible feature).
 - Checked: v3 sheet carries her WHT table (slide 50). 🔴 flag closed.
+- 11:03 at uni, **sheet printed + checked ✓** (said/did line 31 → [~]). 11:20–11:27 cards: PIT slices ✓ · SME/Koh ✓ (✗ couldn't name the 3 conditions → ghost) · paid-up ✓ · 75k ✓ · petroleum ministry ✓.
+- 11:28–11:48 **his ask: first full case (Ms B, steps 3–9)**. ✓ expenses, M1 73,600, M2 relief, payable 43,600. ✗ step 3 drop-outs + numbers · ✗ allowances (parent 30k mixed with parents' health 15k) → both ghosted. **Habit #1 (half-answering) fired 4× today.** Off to lunch ~11:50.
 
 ## Session — 2026-10-01 (BA202 eve: the full skeleton day)
 - 09:31 **morning run** ("been a while"); counts for the habit ([[project-morning-person]]). Ghost #24 pass. Flower: **5/6** (run, wake, skeleton, cards, gym), bed pending.
