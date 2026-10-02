@@ -35,3 +35,5 @@ metadata:
 - 2026-10-02 08:21 | goal | Bed by 23:30
 - 2026-10-02 11:03 | goal | Print the BA202 sheet
 - 2026-10-02 16:38 | goal | BA202 test
+- 2026-10-02 16:41 | ledger | "ba will be in the afternoon so ill go print the paper in uni": prints the v3 sh
+- 2026-10-02 16:55 | goal | AC311: SOCI layout cold, 30 min
