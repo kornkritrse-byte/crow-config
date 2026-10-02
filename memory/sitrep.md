@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🎸 **AWAY (Fri 2 Oct, 17:31), off to food → band practice 19:00 → friend's birthday surprise.** ASK ON RETURN: band ✓? (goal 3) · birthday ✓? (goal 2) · bed by 23:30 tonight (watch on for the alarm) · Sat: AC311 in the AM (Problem 4 (f) + totals, the Monday cards early), pack the AC311 kit, then the show.
+- ✅ **Here (Fri 2 Oct, 17:31), kept working (his call: studio is close, small food to go); Crow calls time ~18:15.** Then band 19:00 → birthday. ASK ON RETURN: band ✓? (goal 3) · birthday ✓? (goal 2) · bed by 23:30 tonight (watch on for the alarm) · Sat: AC311 in the AM (Problem 4 (f) + totals, the Monday cards early), pack the AC311 kit, then the show.
   - **ASK ON RETURN:** AC311 30-min SOCI layout tonight, on the flower or not? → then MCQ cards on sheet pp. 1–2 until 10:00.
   - (was) 🌙 **AWAY (Thu 1 Oct, 21:22) — day closed: off to stretch, journal, chill YouTube, bed.**
   - 📝 **His note to self, 21:28 — hand it back to him first thing Fri:** *"tmr back to work. keep the discipline."*
