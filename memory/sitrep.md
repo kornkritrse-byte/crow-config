@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- ✅ **Here (Fri 2 Oct, 17:20), back from the 10-min break** (frustrated: 3 of 4 AC311 classification misses after the BA202 paper). BA202 done, 5 of 6; no post-mortem (his ask). Goal 7 SOCI ✓ (missed COGAS). **ASK ON RETURN:** the receivership-bank question (pending) → ~20 min more classification → food → band 19:00 → birthday.
+- 🎸 **AWAY (Fri 2 Oct, 17:31), off to food → band practice 19:00 → friend's birthday surprise.** ASK ON RETURN: band ✓? (goal 3) · birthday ✓? (goal 2) · bed by 23:30 tonight (watch on for the alarm) · Sat: AC311 in the AM (Problem 4 (f) + totals, the Monday cards early), pack the AC311 kit, then the show.
   - **ASK ON RETURN:** AC311 30-min SOCI layout tonight, on the flower or not? → then MCQ cards on sheet pp. 1–2 until 10:00.
   - (was) 🌙 **AWAY (Thu 1 Oct, 21:22) — day closed: off to stretch, journal, chill YouTube, bed.**
   - 📝 **His note to self, 21:28 — hand it back to him first thing Fri:** *"tmr back to work. keep the discipline."*
@@ -77,6 +77,7 @@ metadata:
 - 11:03 at uni, **sheet printed + checked ✓** (said/did line 31 → [~]). 11:20–11:27 cards: PIT slices ✓ · SME/Koh ✓ (✗ couldn't name the 3 conditions → ghost) · paid-up ✓ · 75k ✓ · petroleum ministry ✓.
 - 11:28–11:48 **his ask: first full case (Ms B, steps 3–9)**. ✓ expenses, M1 73,600, M2 relief, payable 43,600. ✗ step 3 drop-outs + numbers · ✗ allowances (parent 30k mixed with parents' health 15k) → both ghosted. **Habit #1 (half-answering) fired 4× today.**
 - 11:50–12:16 **he asked for a harder one (Mr C)**, done while eating. ✓ M2 12,500 > M1 9,500 → pays M2 (the main trap). ✗ elected actual → used 60% · ✗ life cap 25k (that's health; life 100k) · ✗ refund 7,500 (s.63) → all ghosted. Rent 400k typed as 40k (habit #3). Crow error: guessed why he wrote 25k instead of asking → [[crow-error-log]].
+- 16:37 **BA202 done**: "finished getting fucked", moved on at his ask (no post-mortem). 16:45–17:30 AC311: SOCI cold ✓ (missed COGAS), goal 7 ✓. Classification: ✗ petty cash reason (card 35 failed) · ✗ travel advance (branch = reimbursed?, not timing) · ✗ compensating balance (stays cash + note) · ~ receivership (receivable, hinted) · ✗ foreign deposit (branch = spendable THERE) · ✓ overdraft both ways (self-corrected 390→290k). 7 AC311 cards due Mon 5 Oct. Frustrated at 17:10 ("less retarded"); 10-min break reset it.
 
 ## Session — 2026-10-01 (BA202 eve: the full skeleton day)
 - 09:31 **morning run** ("been a while"); counts for the habit ([[project-morning-person]]). Ghost #24 pass. Flower: **5/6** (run, wake, skeleton, cards, gym), bed pending.
