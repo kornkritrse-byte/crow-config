@@ -71,7 +71,7 @@ metadata:
 
 ## Session — 2026-10-02 (BA202 day)
 - 08:19 morning. Overslept: wake early ✗; his read is that phone alarms don't work and the watch does (→ [[project-morning-person]]). Bed 1 Oct ✓. Ghost #28 (DDP/FOB/CIF) **pass**.
-- Goals: BA202 · birthday surprise · band practice · print the sheet (+ wake/bed). Offered: AC311 SOCI layout 30 min tonight, **unanswered**.
+- Goals: BA202 · birthday surprise · band practice · print the sheet (+ wake/bed). AC311 SOCI layout 30 min tonight added at 09:28 (his words: "possibly doing it is better than a no").
 - 09:01–09:27 MCQ/recall on sheet pp. 1–2 + residence: **11/13**. ✗ petroleum co → CIT (her ★ trap) · ✗ Toyota Thailand → "foreign" (her ★ L6 decoy). Both ghosted (due 5 Oct). Small slip: "Special" Business Tax → Specific. Both misses were habit #2 (answering with the visible feature).
 - Checked: v3 sheet carries her WHT table (slide 50). 🔴 flag closed.
 
