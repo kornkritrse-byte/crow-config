@@ -32,3 +32,4 @@ metadata:
 - 2026-10-01 21:18 | goal | Gym session
 - 2026-10-01 21:20 | ledger | "Thursday revise… stay wired in" at the Thonglor cafe: BA202 revision day, the o
 - 2026-10-02 08:20 | ghost | AC311: Goods shipped DDP are still in transit on 31 Dec. Whose inve
+- 2026-10-02 08:21 | goal | Bed by 23:30

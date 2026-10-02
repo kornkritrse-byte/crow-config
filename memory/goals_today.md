@@ -18,5 +18,11 @@ metadata:
 - 2026-10-01 | BA202 ghost cards | done
 - 2026-10-01 | Gym session | done
 - 2026-10-01 | Wake early | done
-- 2026-10-01 | Bed by 23:30 | open
+- 2026-10-01 | Bed by 23:30 | done
 - 2026-10-01 | — | closed
+- 2026-10-02 | BA202 test | open
+- 2026-10-02 | Birthday surprise for my friend | open
+- 2026-10-02 | Band practice | open
+- 2026-10-02 | Print the BA202 sheet | open
+- 2026-10-02 | Wake early | open
+- 2026-10-02 | Bed by 23:30 | open
