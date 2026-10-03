@@ -27,7 +27,7 @@ metadata:
 - 2026-10-07 | box 2 | AC311 | Q: Allowance b/f is 60. Required allowance at year end is 20. What's the entry amount? | A: 40 (Recovery). The entry is the MOVEMENT, not the closing balance: required → b/f → the gap is the entry.
 - 2026-10-09 | box 2 | AC311 | Q: Goods shipped DDP are still in transit on 31 Dec. Whose inventory? And FOB / CIF? | A: DDP = SELLER's until delivered. FOB and CIF = BUYER's once loaded (her rule has no shipping-point/destination split).
 - 2026-10-04 | box 2 | AC311 | Q: The inventory write-down loss equals cost minus what? | A: Cost − NRV. Not cost − selling price.
-- 2026-10-01 | box 1 | AC311 | Q: Can a recovery on an inventory write-down be bigger than the original loss? | A: No. The recovery is capped at the loss previously recognised, so inventory never goes back above its original cost (the cost ceiling).
+- 2026-10-10 | box 2 | AC311 | Q: Can a recovery on an inventory write-down be bigger than the original loss? | A: No. The recovery is capped at the loss previously recognised, so inventory never goes back above its original cost (the cost ceiling).
 - 2026-10-01 | box 1 | AC311 | Q: You HOLD a note receivable. What interest accounts do you use at year end? | A: Interest Receivable / Interest Revenue (lender). Payable/expense is the borrower's side. He flipped this twice.
 - 2026-10-01 | box 1 | AC311 | Q: A law change means staff must be retrained next year. Provision now? | A: No. It's a future operating cost with no present obligation from a past event.
 - 2026-10-01 | box 1 | AC311 | Q: A provision has a reimbursement (e.g. insurance) that's virtually certain. How is it shown? | A: As a SEPARATE asset, not netted against the provision. (Not in her deck.)
