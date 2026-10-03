@@ -25,5 +25,5 @@ metadata:
 - 2026-10-02 | Band practice | open
 - 2026-10-02 | Print the BA202 sheet | done
 - 2026-10-02 | Wake early | missed
-- 2026-10-02 | Bed by 23:30 | open
+- 2026-10-02 | Bed by 23:30 | missed
 - 2026-10-02 | AC311: SOCI layout cold, 30 min | done
