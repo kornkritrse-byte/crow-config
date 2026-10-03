@@ -39,3 +39,4 @@ metadata:
 - 2026-10-02 16:55 | goal | AC311: SOCI layout cold, 30 min
 - 2026-10-03 10:14 | ghost | AC311: Can a recovery on an inventory write-down be bigger than the
 - 2026-10-03 11:44 | goal | AC311 SOCI walkthrough (the whole statement)
+- 2026-10-03 12:00 | goal | AC311 cash classification drill

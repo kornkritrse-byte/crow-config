@@ -27,11 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🎸 **AWAY (Fri 2 Oct, 18:25), off to eat → band practice 19:00 → friend's birthday surprise.** AC311 Problem 4 DONE (94,050 · NOI understated 31k). His SOCI calc mistakes saved to [[project-midterms]] (his ask). **ASK ON RETURN:** band ✓? (goal 3) · birthday ✓? (goal 2) · bed 23:30 + watch on · **Sat AM: serve the 8 SOCI calc mistakes first**, then pack the AC311 kit → the show.
-  - **ASK ON RETURN:** AC311 30-min SOCI layout tonight, on the flower or not? → then MCQ cards on sheet pp. 1–2 until 10:00.
-  - (was) 🌙 **AWAY (Thu 1 Oct, 21:22) — day closed: off to stretch, journal, chill YouTube, bed.**
-  - 📝 **His note to self, 21:28 — hand it back to him first thing Fri:** *"tmr back to work. keep the discipline."*
-  - **ASK ON RETURN (Fri AM):** bed by 23:30? (`goals.py done|miss 6 2026-10-01`) · did he text his friend happy birthday? · then the **06:30 block (~30 min)**: ghost card 34 → the Lion Pte cat-2 goods card (due Sun, serve early) → MCQ cards on sheet pages 1–2 (tax basics, the only pages untouched). Then leave Thonglor 10:00 → print at uni → **BA202 13:00**. After the paper: the friend's birthday surprise (moved from Thu, [[ledger-said-did]]).
+- 🟢 **Here (Sat 3 Oct, 12:00), AC311 day before the paper.** Ledger: birthday ✓, BA202 morning ✓ (but woke ~08:00, not 06:00); bed 23:30 Fri MISSED. Goals: 1 SOCI walkthrough ✓ (Pao Co.: one miss, plugged the b/f 8k allowance as this year's loss → mistake #9 in [[project-midterms]]) · 2 cash classification ✓ (7 items; misses: IOUs in petty cash, cashier's cheque = cash (the 14 Sep "cheque isn't money yet" rule came back), cross-bank overdraft netting; all carded for 6 Oct). Skipped the online AC311 session 8 for study, check it's recorded. Offered goal 3 Provisions 20 min + goal 4 pack the kit, not yet accepted. Friend picks him up for the show this afternoon → sleeps near uni → **AC311 Sun 09:00**.
   - Also still due/open: ghost card 28 (DDP/FOB/CIF, served in the CLI 1 Oct, unanswered) · Siddhartha or Winter? · Klao practice recordings · Sunday long run / Thursday quality swap · the racing question for grandpa (unhurried).
 - 🎒 **Sat 3 Oct:** AM AC311 (+ run if ok), PM the show → sleeps at a friend's near uni → **AC311 Sun 09:00 (verified)**. Told him: pack the AC311 kit Saturday morning and carry it to the show.
 ## 🌊 The flood (26 Sep)
