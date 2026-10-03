@@ -27,7 +27,7 @@ metadata:
 - 2026-10-02 | Wake early | missed
 - 2026-10-02 | Bed by 23:30 | missed
 - 2026-10-02 | AC311: SOCI layout cold, 30 min | done
-- 2026-10-03 | AC311 SOCI walkthrough (the whole statement) | open
+- 2026-10-03 | AC311 SOCI walkthrough (the whole statement) | done
 - 2026-10-03 | AC311 cash classification drill | open
 - 2026-10-03 | Wake early | open
 - 2026-10-03 | Bed by 23:30 | open

@@ -38,3 +38,4 @@ metadata:
 - 2026-10-02 16:41 | ledger | "ba will be in the afternoon so ill go print the paper in uni": prints the v3 sh
 - 2026-10-02 16:55 | goal | AC311: SOCI layout cold, 30 min
 - 2026-10-03 10:14 | ghost | AC311: Can a recovery on an inventory write-down be bigger than the
+- 2026-10-03 11:44 | goal | AC311 SOCI walkthrough (the whole statement)
