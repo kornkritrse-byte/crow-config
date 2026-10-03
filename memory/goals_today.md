@@ -31,4 +31,4 @@ metadata:
 - 2026-10-03 | AC311 cash classification drill | done
 - 2026-10-03 | Wake early | open
 - 2026-10-03 | Bed by 23:30 | open
-- 2026-10-03 | AC311 Provisions round (20 min) | open
+- 2026-10-03 | AC311 Provisions round (20 min) | done
