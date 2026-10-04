@@ -9,7 +9,7 @@
 - [Midterms](project_midterms.md) — **4 of 6 SAT; flood postponed the last two → **BA202 Fri 2 Oct · AC311 Sun 4 Oct**, 09:00 (official, corrected 27 Sep 14:41).** ✅ MK201 · AC313 · FN201 (badly, cohort-wide) · EL221. Left: **AC311 · BA202 (MCQ, open 4-A4 sheet, NOT printed, shaky).** Holds the valuation pre-flight, the AC313 teaching keys, and the LN3/LN5 findings. 🚨 He has attended ZERO BA202 classes (the 45% paper) — transcripts L1–L7 are on disk, scope confirmed PIT-dominant.
 
 ## 🟢 Active — other
-- [MK201 A2](project_mk201_a2.md) — STP group assignment, **due Tue 13 Oct 09:00**, Le Labo; Crow builds a minimal Canva deck shell (spec inside) in a NEW session (connector loads at session start)
+- [MK201 A2](project_mk201_a2.md) — STP group assignment, **due Tue 13 Oct 09:00**, Le Labo; WRITTEN REPORT (no slides, his call 16:06); new product not picked yet
 - [Ghost Deck](ghost_deck.md) — spaced-repetition deck of his drill MISSES; hook serves one cold at session start; every miss → `bin/ghost.py add` that turn
 - 💧 Water log (`water_log.md`, `bin/water.py`): one line per finished task (ghost pass auto, training, said/did kept); feeds the Crow Room's plum blossom (blooms per week). **When he reports finishing training/a task in chat, water it that turn.**
 - [Said/Did Ledger](ledger_said_did.md) — his dated "I'll do X"s, checked next session; weekly follow-through % on Sundays (Vera's evidence, not a guilt list)
