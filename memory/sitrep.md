@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟢 **Here (Sun 4 Oct, 14:55), at a café, first afternoon after midterms.** Today: run + light gym (said, ledger). Open/ask when it fits: how AC311 went (once, don't push) · bed 3 Oct · ghost #31 still due.
+- 🟡 **AWAY (Sun 4 Oct, ~14:51) — off to: treadmill zone 2, 30′ + light gym** (his words "ill hit that on the treadmill zone 2"). ASK ON RETURN: did the run + gym happen → goals.py done 1/2, ledger line. Open/ask when it fits: how AC311 went (once, don't push) · bed 3 Oct · ghost #31 still due.
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book (parked, his "later").
 ## 🌊 The flood (26 Sep)
 - Bangkok flooded; **his whole neighbourhood is under water.** **His home (= grandpa's house) is FINE; grandpa is still there.** The one that flooded is **grandpa's brother's house next door**. He spent all of Saturday clearing their things and taking them to a hotel by truck. **In the hotel: grandpa's brother, his grandma, and her sister (the brother's wife). All fine (his word, 00:53 27 Sep).** He waded **waist-deep** to go out for food. Body: "great" (00:53).
