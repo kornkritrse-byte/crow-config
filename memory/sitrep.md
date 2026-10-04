@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-10-01 21:25 (day closed). Window holds 1 Oct + 30 Sep; 29 Sep flushed to [[sessions-log]] on 1 Oct. Next to flush: 30 Sep. BA202 Fri 2 Oct 13:00, AC311 Sun 4 Oct 09:00.*
+*Last updated: 2026-10-04 14:55 (live). Window holds 4 Oct + 2 Oct; 1 Oct + 30 Sep flushed to [[sessions-log]] on 4 Oct. Next to flush: 2 Oct. Midterms DONE (AC311 sat Sun 4 Oct 09:00).*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,9 +27,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟢 **Here (Sat 3 Oct, 12:00), AC311 day before the paper.** Ledger: birthday ✓, BA202 morning ✓ (but woke ~08:00, not 06:00); bed 23:30 Fri MISSED. Goals: 1 SOCI walkthrough ✓ (Pao Co.: one miss, plugged the b/f 8k allowance as this year's loss → mistake #9 in [[project-midterms]]) · 2 cash classification ✓ (7 items; misses: IOUs in petty cash, cashier's cheque = cash (the 14 Sep "cheque isn't money yet" rule came back), cross-bank overdraft netting; all carded for 6 Oct). Skipped the online AC311 session 8 for study, check it's recorded. Goal 5 Provisions round ✓ (P1–P8, 12:00–12:15): conditions ✓ but said 'certainly estimated' (it's RELIABLE); misses carded: constructive obligation (then retrieved cold in P7b ✓), contingent liability = note only, contingent asset + prudence, future operating losses (right call, wrong reason), reimbursement = separate ASSET not revenue (card 33 failed). PATTERN AGAIN: right conclusion, wrong/missing reason (P2, P6, cheque), same as 14 Sep. Kit-packing goal not taken. Friend picks him up for the show this afternoon → sleeps near uni → **AC311 Sun 09:00**.
-  - Also still due/open: ghost card 28 (DDP/FOB/CIF, served in the CLI 1 Oct, unanswered) · Siddhartha or Winter? · Klao practice recordings · Sunday long run / Thursday quality swap · the racing question for grandpa (unhurried).
-- 🎒 **Sat 3 Oct:** AM AC311 (+ run if ok), PM the show → sleeps at a friend's near uni → **AC311 Sun 09:00 (verified)**. Told him: pack the AC311 kit Saturday morning and carry it to the show.
+- 🟢 **Here (Sun 4 Oct, 14:55), at a café, first afternoon after midterms.** Today: run + light gym (said, ledger). Open/ask when it fits: how AC311 went (once, don't push) · bed 3 Oct · ghost #31 still due.
+  - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book (parked, his "later").
 ## 🌊 The flood (26 Sep)
 - Bangkok flooded; **his whole neighbourhood is under water.** **His home (= grandpa's house) is FINE; grandpa is still there.** The one that flooded is **grandpa's brother's house next door**. He spent all of Saturday clearing their things and taking them to a hotel by truck. **In the hotel: grandpa's brother, his grandma, and her sister (the brother's wife). All fine (his word, 00:53 27 Sep).** He waded **waist-deep** to go out for food. Body: "great" (00:53).
 - ⚕️ Waist-deep floodwater = **leptospirosis risk**; told him 27 Sep: fever, muscle pain (calves) or red eyes within ~2–14 days means a doctor, and say "flood water". Raise it again only if he mentions feeling ill.
@@ -37,7 +36,8 @@ metadata:
 - 💧 27 Sep 21:23: water "creeping down, really slowly", then rain resets it. Little change. He popped in mid-break to chat, not to work.
 - 🎸 **NEW 21:28: he plays a CONCERT Sat 3 Oct**, between BA202 and AC311. The flood blocks band practice. On bass, homecoming for returning exchange students, band with Klao + uni + exchange friends. "Not that hyped", thinks it'll be great WITH practice, which he has no time for. The band practises without him; he's stuck until the water drops → [[reference-upcoming-events]].
 
-## 🎓 Midterms — 4 of 6 SAT, 2 left → [[project-midterms]]
+## 🎓 Midterms — ALL 6 SAT (AC311 last, 4 Oct) → [[project-midterms]]
+- ⏭️ Section kept until the next flush for the finals carry-over; AC311 result/feel unknown.
 - ✅ MK201 · AC313 · FN201 (went badly, cohort-wide, **don't reopen**) · EL221 (finished early).
 - 🗓️ **BA202 → Fri 2 Oct 13:00** (Korn, 1 Oct; the 09:00 was carried over and wrong; Google Calendar still says 09:00, he said leave it) · **AC311 → Sun 4 Oct 09:00** (verified).
 - **AC311 — what's left:** Problem 4 (f) + totals · cold SOCI/SOFP layouts (on 25 Sep he added Recovery, skipped GP + S&A) · the NOI-effect family (Purchases cancelling EI; DDP buyer/seller) · **The December 31 Paper** mock, unsat. His AC311 misses are seeded in [[ghost-deck]] for 28 Sep – 1 Oct.
@@ -65,25 +65,16 @@ metadata:
 - 📌 After midterms: "make Obsidian cool" → [[reference-obsidian]].
 - ⚠️ **My own error log moved to [[crow-error-log]]. The shape keeps repeating: check the record before asserting.**
 
+## Session — 2026-10-04 (midterms over: AC311 09:00–12:00)
+- 14:27 at a café, laptop, asked for "something productive". How AC311 went: not said, not asked yet. Ghost #31 (note receivable, AC311) served, ignored → still due.
+- Goals set: Run · Light gym (his "for sure… today", ledger line) + wake/bed. Bed 3 Oct (goals.py 4 2026-10-03) not asked yet.
+- Pitched the commonplace book (Obsidian) → he chose the run plan instead, "keep the previous idea" → parked in [[reference-obsidian]]. **Coldesthoops: "that's done"** → CLOSED.
+- **Run plan re-dayed, his design:** Mon+Sat gym + easy · Wed quality · Fri long at 05:30 before EL · W1 slow rebuild ("haven't ran in a bit"). TTs Wed 14 Oct + 4 Nov. On the Life calendar to 13 Dec; `ui/road-plan.json` rewritten → [[project-training-plan]].
+
 ## Session — 2026-10-02 (BA202 day)
 - 08:19 morning. Overslept: wake early ✗; his read is that phone alarms don't work and the watch does (→ [[project-morning-person]]). Bed 1 Oct ✓. Ghost #28 (DDP/FOB/CIF) **pass**.
 - Goals: BA202 · birthday surprise · band practice · print the sheet (+ wake/bed). AC311 SOCI layout 30 min tonight added at 09:28 (his words: "possibly doing it is better than a no").
-- 09:01–09:27 MCQ/recall on sheet pp. 1–2 + residence: **11/13**. ✗ petroleum co → CIT (her ★ trap) · ✗ Toyota Thailand → "foreign" (her ★ L6 decoy). Both ghosted (due 5 Oct). Small slip: "Special" Business Tax → Specific. Both misses were habit #2 (answering with the visible feature).
-- Checked: v3 sheet carries her WHT table (slide 50). 🔴 flag closed.
-- 11:03 at uni, **sheet printed + checked ✓** (said/did line 31 → [~]). 11:20–11:27 cards: PIT slices ✓ · SME/Koh ✓ (✗ couldn't name the 3 conditions → ghost) · paid-up ✓ · 75k ✓ · petroleum ministry ✓.
-- 11:28–11:48 **his ask: first full case (Ms B, steps 3–9)**. ✓ expenses, M1 73,600, M2 relief, payable 43,600. ✗ step 3 drop-outs + numbers · ✗ allowances (parent 30k mixed with parents' health 15k) → both ghosted. **Habit #1 (half-answering) fired 4× today.**
+- 09:01–09:27 MCQ/recall on sheet pp. 1–2 + residence: **11/13**. ✗ petroleum co → CIT (her ★ trap) · ✗ Toyota Thailand → "foreign" (her ★ L6 decoy). Both ghosted (due 5 Oct). Small slip: "Special" Business Tax → Specific. Both misses were habit #2 (answering with the visible feature). Checked: v3 sheet carries her WHT table (slide 50). 🔴 flag closed.
+- 11:03 at uni, **sheet printed + checked ✓** (said/did line 31 → [~]). 11:20–11:27 cards: PIT slices ✓ · SME/Koh ✓ (✗ couldn't name the 3 conditions → ghost) · paid-up ✓ · 75k ✓ · petroleum ministry ✓. 11:28–11:48 **his ask: first full case (Ms B, steps 3–9)**. ✓ expenses, M1 73,600, M2 relief, payable 43,600. ✗ step 3 drop-outs + numbers · ✗ allowances (parent 30k mixed with parents' health 15k) → both ghosted. **Habit #1 (half-answering) fired 4× today.**
 - 11:50–12:16 **he asked for a harder one (Mr C)**, done while eating. ✓ M2 12,500 > M1 9,500 → pays M2 (the main trap). ✗ elected actual → used 60% · ✗ life cap 25k (that's health; life 100k) · ✗ refund 7,500 (s.63) → all ghosted. Rent 400k typed as 40k (habit #3). Crow error: guessed why he wrote 25k instead of asking → [[crow-error-log]].
 - 16:37 **BA202 done**: "finished getting fucked", moved on at his ask (no post-mortem). 16:45–17:30 AC311: SOCI cold ✓ (missed COGAS), goal 7 ✓. Classification: ✗ petty cash reason (card 35 failed) · ✗ travel advance (branch = reimbursed?, not timing) · ✗ compensating balance (stays cash + note) · ~ receivership (receivable, hinted) · ✗ foreign deposit (branch = spendable THERE) · ✓ overdraft both ways (self-corrected 390→290k). 7 AC311 cards due Mon 5 Oct. Frustrated at 17:10 ("less retarded"); 10-min break reset it.
-
-## Session — 2026-10-01 (BA202 eve: the full skeleton day)
-- 09:31 **morning run** ("been a while"); counts for the habit ([[project-morning-person]]). Ghost #24 pass. Flower: **5/6** (run, wake, skeleton, cards, gym), bed pending.
-- 10:03–13:57 **9 PIT steps + every branch**, sheet open, question-first. Steps cold: 8 in the wrong order → **9 in order** by 13:57. 9 misses ghosted (lines 48–56). Nap 10:32 (20 planned, ~40 taken; Vera: a reason, not an excuse, if decided out loud).
-- 14:00–14:27 the 9 due BA202 cards: **6/9**. 15:24–15:43 re-run of all 12 misses cold: **9.5/12**. 15:52–16:21 first MCQ cards on pp. 7–8 + p2: **8/9** (✗ Lion Pte goods sale, ghosted).
-- **His 3 exam habits** (pushed to [[project-midterms]]): half-answering 2-part questions · answering with the visible number/phrase (condition ≠ result; Q2 before Q4) · number slips (×0.05, 3m for 2m, conclusion written before the reasoning).
-- BA202 time corrected to **13:00**. Gym ✓ after the rain. Skipped the 20:00 birthday surprise → Fri. Two Crow errors: wrote memory to the repo copy again · asserted 09:00 from an unverified record → [[crow-error-log]].
-
-## Session — 2026-09-30 (flood exit day)
-- 09:01 morning pop-in. Ghost #27 (allowance movement) **pass**: said "Recovery", gave the 40 on a nudge → box 2, next 7 Oct.
-- Goals set: BA202 run-through · band practice · print the sheet · power nap (his add: "I kinda skip those") + wake early, bed 23:30.
-- Plan changed: truck instead of boat, friend near Siam instead of cousin in Thonglor. Exam kit + bass packed ("all checked").
-- Asked about The Winter of Our Discontent → steered to Siddhartha for this week, Winter first after midterms ([[user-reading-list]]). "Haven't been reading lately" because of the flood/exams.

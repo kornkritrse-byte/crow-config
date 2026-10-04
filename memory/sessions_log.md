@@ -11,6 +11,20 @@ metadata:
 
 # Sessions Log (archive)
 
+## 2026-10-01 (BA202 eve: the full skeleton day)
+- 09:31 **morning run** ("been a while"); counts for the habit ([[project-morning-person]]). Ghost #24 pass. Flower: **5/6** (run, wake, skeleton, cards, gym), bed pending.
+- 10:03–13:57 **9 PIT steps + every branch**, sheet open, question-first. Steps cold: 8 in the wrong order → **9 in order** by 13:57. 9 misses ghosted (lines 48–56). Nap 10:32 (20 planned, ~40 taken; Vera: a reason, not an excuse, if decided out loud).
+- 14:00–14:27 the 9 due BA202 cards: **6/9**. 15:24–15:43 re-run of all 12 misses cold: **9.5/12**. 15:52–16:21 first MCQ cards on pp. 7–8 + p2: **8/9** (✗ Lion Pte goods sale, ghosted).
+- **His 3 exam habits** (pushed to [[project-midterms]]): half-answering 2-part questions · answering with the visible number/phrase (condition ≠ result; Q2 before Q4) · number slips (×0.05, 3m for 2m, conclusion written before the reasoning).
+- BA202 time corrected to **13:00**. Gym ✓ after the rain. Skipped the 20:00 birthday surprise → Fri. Two Crow errors: wrote memory to the repo copy again · asserted 09:00 from an unverified record → [[crow-error-log]].  *(flushed 4 Oct)*
+
+## 2026-09-30 (flood exit day)
+- 09:01 morning pop-in. Ghost #27 (allowance movement) **pass**: said "Recovery", gave the 40 on a nudge → box 2, next 7 Oct.
+- Goals set: BA202 run-through · band practice · print the sheet · power nap (his add: "I kinda skip those") + wake early, bed 23:30.
+- Plan changed: truck instead of boat, friend near Siam instead of cousin in Thonglor. Exam kit + bass packed ("all checked").
+- Asked about The Winter of Our Discontent → steered to Siddhartha for this week, Winter first after midterms ([[user-reading-list]]). "Haven't been reading lately" because of the flood/exams.  *(flushed 4 Oct)*
+
+
 ## 2026-09-27 afternoon: Road to Chombueng + Korn's Room (flushed 29 Sep)
 - 13:37 **Road to Chombueng** built (half-marathon system) → [[project-training-plan]]. ⏳ Long run moved to Sunday: unconfirmed.
 - 14:36 burnout break called; exam order corrected (**BA202 Fri 2 Oct, AC311 Sun 4 Oct**) → [[crow-error-log]].

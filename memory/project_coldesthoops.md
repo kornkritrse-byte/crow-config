@@ -1,14 +1,16 @@
 ---
 name: project-coldesthoops
 aliases: ["project-coldesthoops"]
-description: "PAUSED 2026-07-02 — YouTube Shorts channel coldesthoops; pipeline built and working, on hold while รับน้อง takes priority"
+description: "DONE 2026-10-04 (was PAUSED 2026-07-02) — YouTube Shorts channel coldesthoops; pipeline built and working, on hold while รับน้อง takes priority"
 metadata: 
   node_type: memory
   type: project
   originSessionId: 820c277a-b34b-4f73-b380-c98c3ffa5010
 ---
 
-> **⏸️ STATUS: PAUSED as of 2026-07-02 — Korn's call. รับน้อง camp (through late July) takes priority. Don't surface coldesthoops threads or nag about publishing until he unpauses. On unpause, the open items are: publish #9 (Chase-Down Blocks — built, on Drive), then wire the "tease #1 up front" intro into `build_video.ps1` (see bottom of this file). Pipeline is Windows-only, not ported to the Mac.**
+> **✅ STATUS: DONE as of 2026-10-04, Korn's words: "fuck coldest hoops thats done." Archive only; don't pitch it or its open items again.**
+
+> *(Old status:)* **⏸️ PAUSED as of 2026-07-02 — Korn's call. รับน้อง camp (through late July) takes priority. Don't surface coldesthoops threads or nag about publishing until he unpauses. On unpause, the open items are: publish #9 (Chase-Down Blocks — built, on Drive), then wire the "tease #1 up front" intro into `build_video.ps1` (see bottom of this file). Pipeline is Windows-only, not ported to the Mac.**
 
 YouTube Shorts channel named **coldesthoops** — basketball ranking videos, faceless format.
 

@@ -16,7 +16,7 @@
 - Vex subagent (`crow-config/.claude/agents/vex.md`) — cold, context-free devil's advocate; brief with the plan + facts only
 - Crow UI (27 Sep, his pick): **output style `Crow`** (`crow-config/output-styles/crow.md`, symlinked into ~/.claude/output-styles; replaces the SWE system prompt, `/output-style default` for heavy builds) · crew **spinnerVerbs** + **spinner tips** from `crow-config/crow-tips.json` (label "Crow") in ~/.claude/settings.json. "Let's see first" = trial; ask how it feels after a few sessions
 - [Morning Person](project_morning_person.md) — his own call 13 Sep 2026: actively trying to become one and "make use of the time in my days"; first attempt Mon 14 Sep (gym before class). ⚠️ Collides with the midnight–1am study pattern — track whether mornings HAPPEN, not whether he still wants them
-- [Training Plan](project_training_plan.md) — 🛣️ **full plan LIVE 27 Sep: "Road to Chombueng" artifact https://claude.ai/artifact/GBJnc3PqNDccbE3t1ebQgK — his run logs sync there (ArtifactData `runs`); long run moved to SUNDAY (unconfirmed by him)** · 🏁 10K 13 Dec + 🏃 HALF MARATHON จอมบึง 17 Jan 2027 (added 27 Sep; needs a long-run build after midterms) · ⚠️ goal changed 23 Aug to LEANER ONLY (climber shaping dropped, weight work now full-body retention); 4 days/wk = 2 gym (1hr weights + 1hr cardio) + 2 runs; run structure pending his running stats; 5k-in-20:00 is the horizon goal
+- [Training Plan](project_training_plan.md) — 🛣️ **re-dayed 4 Oct by Korn: Mon+Sat gym + easy · Wed quality · Fri long (05:30, before EL) · W1 = slow rebuild; TTs Wed 14 Oct + Wed 4 Nov.** Sessions on the Life calendar to 13 Dec; `ui/road-plan.json` is the source of truth (the Road to Chombueng artifact is stale on weekdays) · 🏁 10K 13 Dec (48:00) + 🏃 HALF จอมบึง 17 Jan 2027 (sub-2:00) · leaner-only goal, no deliberate dieting; 5k-in-20:00 is the horizon goal
 - [Crow Room](reference_crow_room.md) — his custom browser interface for Crow (built 27 Sep 01:00, Agent SDK); `bin/crow-room.sh` → localhost:4711 · **27 Sep 16:05: redesigned as "Korn's Room", his real room in pixel art (`ui/public/pixel/`), built from his photos**
 - [Obsidian](reference_obsidian.md) — installed 24 Sep; opens this memory folder as a vault (graph view); new memory files need an `aliases` line
 - [Google Docs MCP](project_google_docs_mcp.md) — working on the Mac via bin/gdocs-launcher.cjs; credentials at ~/.google/ (outside git)
@@ -28,14 +28,12 @@
 - [Upcoming Events](reference_upcoming_events.md) — feeds the session-start banner; MUST be updated whenever calendar events change in-session
 
 ## ✅ Closed
+- [Coldesthoops](project_coldesthoops.md) + [videos log](coldesthoops_videos.md) — **DONE, 4 Oct 2026, his words: "fuck coldest hoops thats done".** Not paused. Never pitch it again.
 - [Rubnong Tracker](project_rubnong_tracker.md) + [Flow Sheet](rubnong-flow-sheet.md) + [Scene 5 Flashback Video](project_scene5_flashback.md) — camp ran 25–27 Jul 2026 and CLOSED. Korn satisfied; the flashback film landed hard (people cried). Archive — don't surface unless he raises it.
 
 ## ⏸️ Paused
 - [Bass Trainer](project_bass_trainer.md) — PAUSED 23 Aug by Korn: bass is for fun now, no end goal, Module 3 shelved. Don't push it. (Has his OWN bass at home now, 27 Sep; the lent one was a different instrument.)
 
-## ⏸️ Paused (2026-07-02)
-- [Coldesthoops Pipeline](project_coldesthoops.md) — PAUSED. Shorts pipeline (Windows-only); #9 built-not-published + teaser-test wiring are the first moves on unpause
-- [Coldesthoops Videos](coldesthoops_videos.md) — published-topics log — check before suggesting new ones to avoid repeats
 
 ## 📏 Operating Rules (feedback)
 - [Crow's Error Log](crow_error_log.md) — my own mistakes with Korn; recurring shape = asserting before checking the record
