@@ -34,5 +34,5 @@ metadata:
 - 2026-10-03 | AC311 Provisions round (20 min) | done
 - 2026-10-04 | Run | open
 - 2026-10-04 | Light gym | open
-- 2026-10-04 | Wake early | open
+- 2026-10-04 | Wake early | done
 - 2026-10-04 | Bed by 23:30 | open

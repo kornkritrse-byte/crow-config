@@ -41,3 +41,4 @@ metadata:
 - 2026-10-03 11:44 | goal | AC311 SOCI walkthrough (the whole statement)
 - 2026-10-03 12:00 | goal | AC311 cash classification drill
 - 2026-10-03 12:16 | goal | AC311 Provisions round (20 min)
+- 2026-10-04 14:31 | goal | Wake early
