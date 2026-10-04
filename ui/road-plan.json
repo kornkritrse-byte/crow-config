@@ -1,5 +1,5 @@
 {
- "source": "Road to Chombueng (claude.ai/artifact/GBJnc3PqNDccbE3t1ebQgK), re-dayed 4 Oct 2026 by Korn: Mon/Sat gym + easy, Wed quality, Fri long (05:30, before EL). This file is the source of truth; the artifact is stale.",
+ "source": "Road to Chombueng (claude.ai/artifact/GBJnc3PqNDccbE3t1ebQgK), re-dayed 4 Oct 2026 by Korn: Mon/Sat gym + easy, Wed quality, Sun long (moved from Fri same day, his call: keep Friday energy for class). This file is the source of truth; the artifact is stale.",
  "sessions": [
   {
    "date": "2026-09-28",
@@ -37,18 +37,18 @@
    "title": "Easy 30′ + 4 strides"
   },
   {
-   "date": "2026-10-09",
-   "week": 1,
-   "phase": "Rebuild",
-   "kind": "long",
-   "title": "Long 8 km (05:30, before EL)"
-  },
-  {
    "date": "2026-10-10",
    "week": 1,
    "phase": "Rebuild",
    "kind": "gym",
    "title": "Lift + easy 30′"
+  },
+  {
+   "date": "2026-10-11",
+   "week": 1,
+   "phase": "Rebuild",
+   "kind": "long",
+   "title": "Long 8 km"
   },
   {
    "date": "2026-10-12",
@@ -65,18 +65,18 @@
    "title": "5K time trial (negative split)"
   },
   {
-   "date": "2026-10-16",
-   "week": 2,
-   "phase": "Base",
-   "kind": "long",
-   "title": "Long 10 km"
-  },
-  {
    "date": "2026-10-17",
    "week": 2,
    "phase": "Base",
    "kind": "gym",
    "title": "Lift + easy 35′"
+  },
+  {
+   "date": "2026-10-18",
+   "week": 2,
+   "phase": "Base",
+   "kind": "long",
+   "title": "Long 10 km"
   },
   {
    "date": "2026-10-19",
@@ -93,18 +93,18 @@
    "title": "Cruise 3 × 8′ @ T"
   },
   {
-   "date": "2026-10-23",
-   "week": 3,
-   "phase": "Base",
-   "kind": "long",
-   "title": "Long 12 km"
-  },
-  {
    "date": "2026-10-24",
    "week": 3,
    "phase": "Base",
    "kind": "gym",
    "title": "Lift + easy 35′"
+  },
+  {
+   "date": "2026-10-25",
+   "week": 3,
+   "phase": "Base",
+   "kind": "long",
+   "title": "Long 12 km"
   },
   {
    "date": "2026-10-26",
@@ -121,18 +121,18 @@
    "title": "5 × 3′ @ I"
   },
   {
-   "date": "2026-10-30",
-   "week": 4,
-   "phase": "Base",
-   "kind": "long",
-   "title": "Long 13 km"
-  },
-  {
    "date": "2026-10-31",
    "week": 4,
    "phase": "Base",
    "kind": "gym",
    "title": "Lift + easy 35′"
+  },
+  {
+   "date": "2026-11-01",
+   "week": 4,
+   "phase": "Base",
+   "kind": "long",
+   "title": "Long 13 km"
   },
   {
    "date": "2026-11-02",
@@ -149,18 +149,18 @@
    "title": "5K time trial · milestone sub-24:00"
   },
   {
-   "date": "2026-11-06",
-   "week": 5,
-   "phase": "Base",
-   "kind": "long",
-   "title": "Long 10 km (cutback)"
-  },
-  {
    "date": "2026-11-07",
    "week": 5,
    "phase": "Base",
    "kind": "gym",
    "title": "Lift + easy 30′"
+  },
+  {
+   "date": "2026-11-08",
+   "week": 5,
+   "phase": "Base",
+   "kind": "long",
+   "title": "Long 10 km (cutback)"
   },
   {
    "date": "2026-11-09",
@@ -177,18 +177,18 @@
    "title": "5 × 1 km @ I"
   },
   {
-   "date": "2026-11-13",
-   "week": 6,
-   "phase": "Build",
-   "kind": "long",
-   "title": "Long 14 km"
-  },
-  {
    "date": "2026-11-14",
    "week": 6,
    "phase": "Build",
    "kind": "gym",
    "title": "Lift + easy 40′"
+  },
+  {
+   "date": "2026-11-15",
+   "week": 6,
+   "phase": "Build",
+   "kind": "long",
+   "title": "Long 14 km"
   },
   {
    "date": "2026-11-16",
@@ -205,18 +205,18 @@
    "title": "2 × 15′ @ T"
   },
   {
-   "date": "2026-11-20",
-   "week": 7,
-   "phase": "Build",
-   "kind": "long",
-   "title": "Long 15 km"
-  },
-  {
    "date": "2026-11-21",
    "week": 7,
    "phase": "Build",
    "kind": "gym",
    "title": "Lift + easy 40′"
+  },
+  {
+   "date": "2026-11-22",
+   "week": 7,
+   "phase": "Build",
+   "kind": "long",
+   "title": "Long 15 km"
   },
   {
    "date": "2026-11-23",
@@ -233,18 +233,18 @@
    "title": "20′ continuous @ T + strides"
   },
   {
-   "date": "2026-11-27",
-   "week": 8,
-   "phase": "Build",
-   "kind": "long",
-   "title": "Long 16 km · race-time rehearsal (eat 03:30, run 05:00)"
-  },
-  {
    "date": "2026-11-28",
    "week": 8,
    "phase": "Build",
    "kind": "gym",
    "title": "Lift + easy 30′"
+  },
+  {
+   "date": "2026-11-29",
+   "week": 8,
+   "phase": "Build",
+   "kind": "long",
+   "title": "Long 16 km · race-time rehearsal (eat 03:30, run 05:00)"
   },
   {
    "date": "2026-11-30",
@@ -261,18 +261,18 @@
    "title": "3 × 2 km @ 10K goal"
   },
   {
-   "date": "2026-12-04",
-   "week": 9,
-   "phase": "Sharpen",
-   "kind": "long",
-   "title": "Long 12 km · race-time rehearsal #2"
-  },
-  {
    "date": "2026-12-05",
    "week": 9,
    "phase": "Sharpen",
    "kind": "gym",
    "title": "Lift + easy 25′"
+  },
+  {
+   "date": "2026-12-06",
+   "week": 9,
+   "phase": "Sharpen",
+   "kind": "long",
+   "title": "Long 12 km · race-time rehearsal #2"
   },
   {
    "date": "2026-12-07",
@@ -317,18 +317,18 @@
    "title": "Fartlek 8 × (1′ on / 2′ off)"
   },
   {
-   "date": "2026-12-18",
-   "week": 11,
-   "phase": "Bridge",
-   "kind": "long",
-   "title": "Long 14 km"
-  },
-  {
    "date": "2026-12-19",
    "week": 11,
    "phase": "Bridge",
    "kind": "gym",
    "title": "Lift + easy 30′"
+  },
+  {
+   "date": "2026-12-20",
+   "week": 11,
+   "phase": "Bridge",
+   "kind": "long",
+   "title": "Long 14 km"
   },
   {
    "date": "2026-12-21",
@@ -345,18 +345,18 @@
    "title": "3 × 3 km @ half goal"
   },
   {
-   "date": "2026-12-25",
-   "week": 12,
-   "phase": "Specific",
-   "kind": "long",
-   "title": "Long 18 km"
-  },
-  {
    "date": "2026-12-26",
    "week": 12,
    "phase": "Specific",
    "kind": "gym",
    "title": "Lift + easy 40′"
+  },
+  {
+   "date": "2026-12-27",
+   "week": 12,
+   "phase": "Specific",
+   "kind": "long",
+   "title": "Long 18 km"
   },
   {
    "date": "2026-12-28",
@@ -373,18 +373,18 @@
    "title": "2 × 15′ @ T"
   },
   {
-   "date": "2027-01-01",
-   "week": 13,
-   "phase": "Specific",
-   "kind": "long",
-   "title": "Long 19 km · last 6 @ half pace"
-  },
-  {
    "date": "2027-01-02",
    "week": 13,
    "phase": "Specific",
    "kind": "gym",
    "title": "Lift + easy 40′"
+  },
+  {
+   "date": "2027-01-03",
+   "week": 13,
+   "phase": "Specific",
+   "kind": "long",
+   "title": "Long 19 km · last 6 @ half pace"
   },
   {
    "date": "2027-01-04",
@@ -401,18 +401,18 @@
    "title": "2 × 3 km @ half goal"
   },
   {
-   "date": "2027-01-08",
-   "week": 14,
-   "phase": "Taper",
-   "kind": "long",
-   "title": "Long 13 km"
-  },
-  {
    "date": "2027-01-09",
    "week": 14,
    "phase": "Taper",
    "kind": "gym",
    "title": "Lift + easy 35′"
+  },
+  {
+   "date": "2027-01-10",
+   "week": 14,
+   "phase": "Taper",
+   "kind": "long",
+   "title": "Long 13 km"
   },
   {
    "date": "2027-01-11",

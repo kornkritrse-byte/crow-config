@@ -10,13 +10,13 @@ metadata:
 ---
 
 ## 🗓️ 2026-10-04 — RE-DAYED BY KORN + slow rebuild (CURRENT STRUCTURE, supersedes the Sun-long/Thu-quality layout below)
-- **His week:** **Mon + Sat** gym + easy treadmill (uni days) · **Wed** quality · **Fri** long run. Four runs/wk. Chosen by him 14:40–14:42 Sun 4 Oct, the first day after midterms.
-- **Friday = dawn long run, 05:30, BEFORE EL class.** He offered to skip/go late to EL ("fuck el"); Crow's line: no need, 05:30 finishes even 16 km before 08:00, and it doubles as race-time practice. Watch whether Friday class starts getting skipped for it.
-- **W1 (5–10 Oct) = rebuild, his ask:** "take it slow… haven't ran in a bit" (last run 1 Oct). No TT that week: easy 25′/30′ on gym days, Wed easy 30′ + strides, Fri 8 km.
+- **His week:** **Mon + Sat** gym + easy treadmill (uni days) · **Wed** quality · **SUN** long run. Four runs/wk. Chosen by him 14:40–14:49 Sun 4 Oct, the first day after midterms.
+- **Long run = SUNDAY, 05:30** (05:00 on rehearsals). He first picked Friday (would skip/go late to EL), then at 14:49 moved it to Sunday himself: "so if I do go to class I can have energy". Matches both races' weekday. Friday is now free of training except race-week easy runs.
+- **W1 (5–10 Oct) = rebuild, his ask:** "take it slow… haven't ran in a bit" (last run 1 Oct). No TT that week: easy 25′/30′ on gym days, Wed easy 30′ + strides, Sun 11 Oct 8 km.
 - **TTs:** Wed 14 Oct (re-baseline; re-set all paces from it) · Wed 4 Nov (sub-24:00 milestone, cutback week).
-- **Long runs (Fri):** 8 → 10 → 12 → 13 → 10 cutback → 14 → 15 → **16 (27 Nov, race-time rehearsal #1)** → 12 (4 Dec, rehearsal #2) → race week easy 20′ (11 Dec), Sat 12 rest, **Sun 13 Dec race**.
-- **Source of truth = `crow-config/ui/road-plan.json`** (feeds goals.py's training blossom). The Road to Chombueng ARTIFACT is now STALE on weekdays; don't trust its calendar view. The half block (W11–W15) was shifted mechanically to the same weekdays, content unchanged: review it after the 10K. ⚠️ Fri 1 Jan = 19 km long run (New Year; BBA camp may collide if he makes the cut).
-- **On the Life calendar (4 Oct):** recurring "🏋️ Gym + easy treadmill" Mon+Sat 17:30 (placeholder time, per-week minutes in the description; until 7 Dec), Wed quality 18:00, Fri long 05:30 (05:00 on rehearsals), TTs red. Event ids: recurring gym `uma9du18pgcevek9u6khhgt9n0`.
+- **Long runs (Sun):** 8 (11 Oct) → 10 → 12 → 13 → 10 cutback → 14 → 15 → **16 (29 Nov, race-time rehearsal #1)** → 12 (6 Dec, rehearsal #2) → race week: Fri 11 Dec easy 20′, Sat 12 rest, **Sun 13 Dec race**.
+- **Source of truth = `crow-config/ui/road-plan.json`** (feeds goals.py's training blossom). The Road to Chombueng ARTIFACT is now STALE on weekdays; don't trust its calendar view. The half block (W11–W15) was shifted mechanically to the same weekdays, content unchanged: review it after the 10K. Half long runs back on the original Sundays (20 Dec, 27 Dec, 3 Jan 19 km, 10 Jan).
+- **On the Life calendar (4 Oct):** recurring "🏋️ Gym + easy treadmill" Mon+Sat 17:30 (placeholder time, per-week minutes in the description; until 7 Dec), Wed quality 18:00, Sun long 05:30 (05:00 on rehearsals), TTs red. Event ids: recurring gym `uma9du18pgcevek9u6khhgt9n0`.
 
 ## 🏃 2026-09-27: HALF MARATHON ADDED (Sun 17 Jan 2027, จอมบึง / Chombueng, Ratchaburi)
 **How it happened (his correction, 27 Sep 01:50):** Korn talked about running a lot with his dad and never proposed a race. **His dad got back into running because of it**, signed up for races himself, then called one afternoon: "hey, sign up too", and signed Korn up. So Korn's influence was indirect: **he got his dad running again.** The race itself was his dad's invitation, which Korn accepted. (Crow first read "with me nudging him" as "Korn pushed for it". Wrong, see [[crow-error-log]].)

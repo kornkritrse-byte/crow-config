@@ -69,7 +69,7 @@ metadata:
 - 14:27 at a café, laptop, asked for "something productive". How AC311 went: not said, not asked yet. Ghost #31 (note receivable, AC311) served, ignored → still due.
 - Goals set: Run · Light gym (his "for sure… today", ledger line) + wake/bed. Bed 3 Oct (goals.py 4 2026-10-03) not asked yet.
 - Pitched the commonplace book (Obsidian) → he chose the run plan instead, "keep the previous idea" → parked in [[reference-obsidian]]. **Coldesthoops: "that's done"** → CLOSED.
-- **Run plan re-dayed, his design:** Mon+Sat gym + easy · Wed quality · Fri long at 05:30 before EL · W1 slow rebuild ("haven't ran in a bit"). TTs Wed 14 Oct + 4 Nov. On the Life calendar to 13 Dec; `ui/road-plan.json` rewritten → [[project-training-plan]].
+- **Run plan re-dayed, his design:** Mon+Sat gym + easy · Wed quality · Sun long 05:30 (he moved it off Friday to keep energy for class) · W1 slow rebuild ("haven't ran in a bit"). TTs Wed 14 Oct + 4 Nov. On the Life calendar to 13 Dec; `ui/road-plan.json` rewritten → [[project-training-plan]].
 
 ## Session — 2026-10-02 (BA202 day)
 - 08:19 morning. Overslept: wake early ✗; his read is that phone alarms don't work and the watch does (→ [[project-morning-person]]). Bed 1 Oct ✓. Ghost #28 (DDP/FOB/CIF) **pass**.
