@@ -770,10 +770,16 @@ function ripple(el) {
 }
 
 // Disintegrate: the card is cut into ~3px grains spread over a stack of masked
-// copies; each copy drifts off on the wind a beat after the last, left side first.
-function disintegrate(el) {
-  if (calm()) return Promise.resolve();
-  const rect = el.getBoundingClientRect(), W = Math.ceil(rect.width), H = Math.ceil(rect.height);
+// copies; each copy crumbles a beat after the last, left side first. The grains
+// stay inside the card's own box (clipped), so nothing drifts over the rest of the Room.
+async function disintegrate(el) {
+  if (calm()) return;
+  if (el.style.transform) {   // slide home from the drag first, then crumble where it lived
+    await el.animate([{ transform: el.style.transform }, { transform: 'translateX(0)' }], { duration: 160, easing: 'ease-out' }).finished;
+    el.style.transform = '';
+  }
+  const wrap = el.parentElement, rect = el.getBoundingClientRect(), home = wrap.getBoundingClientRect();
+  const W = Math.ceil(rect.width), H = Math.ceil(rect.height);
   const LAYERS = 28, GRAIN = 3;
   const masks = Array.from({ length: LAYERS }, () => { const c = document.createElement('canvas'); c.width = W; c.height = H; return c; });
   const ctx = masks.map(c => c.getContext('2d'));
@@ -781,24 +787,25 @@ function disintegrate(el) {
     const t = Math.min(0.999, (x / W) * 0.65 + Math.random() * 0.35);
     ctx[Math.floor(t * LAYERS)].fillRect(x, y, GRAIN, GRAIN);
   }
+  const dust = div('dust');
+  wrap.append(dust);
   const anims = masks.map((c, i) => {
     const copy = el.cloneNode(true), url = `url(${c.toDataURL()})`;
     Object.assign(copy.style, {
-      position: 'fixed', left: `${rect.left}px`, top: `${rect.top}px`, width: `${W}px`, height: `${H}px`,
-      margin: 0, transform: 'none', pointerEvents: 'none', zIndex: 1000,
+      position: 'absolute', left: `${rect.left - home.left}px`, top: `${rect.top - home.top}px`, width: `${W}px`, height: `${H}px`,
+      margin: 0, transform: 'none', pointerEvents: 'none',
       maskImage: url, webkitMaskImage: url, maskSize: `${W}px ${H}px`, webkitMaskSize: `${W}px ${H}px`,
     });
-    document.body.append(copy);
-    const a = (Math.random() - 0.3) * Math.PI / 2.5;   // mostly up and to the right
-    const dist = 60 + Math.random() * 90;
+    dust.append(copy);
+    const dx = 6 + Math.random() * 22, dy = -(4 + Math.random() * 14);
     return copy.animate([
-      { transform: 'translate(0,0) rotate(0)', opacity: 1, filter: 'blur(0)' },
-      { transform: `translate(${Math.cos(a) * dist}px, ${-Math.abs(Math.sin(a)) * dist - 20}px) rotate(${(Math.random() - 0.5) * 30}deg)`, opacity: 0, filter: 'blur(1.5px)' },
-    ], { duration: 900 + Math.random() * 500, delay: i * 38, easing: 'cubic-bezier(.45,0,.75,.6)', fill: 'forwards' })
-      .finished.finally(() => copy.remove());
+      { transform: 'translate(0,0) scale(1)', opacity: 1, filter: 'blur(0)' },
+      { transform: `translate(${dx}px, ${dy}px) scale(.97)`, opacity: 0, filter: 'blur(1.2px)' },
+    ], { duration: 700 + Math.random() * 400, delay: i * 32, easing: 'cubic-bezier(.45,0,.75,.6)', fill: 'forwards' })
+      .finished;
   });
   el.style.visibility = 'hidden';
-  return Promise.all(anims);
+  return Promise.all(anims).finally(() => dust.remove());
 }
 
 // Unknown: no drama, it just fogs over.

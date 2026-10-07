@@ -629,6 +629,7 @@ body.dim .room-idle .scene canvas { filter: brightness(.72); }
 .grip:hover { background: var(--faint); }
 .task-swipe.held .grip { cursor: grabbing; background: var(--faint); }
 .task-swipe.held .task.goal { box-shadow: 0 6px 18px rgba(0, 0, 0, .35); scale: 1.015; cursor: grabbing; }
+.dust { position: absolute; inset: 0; overflow: hidden; border-radius: 9px; pointer-events: none; z-index: 2; }
 .ripple {
   position: absolute; border-radius: 50%; pointer-events: none;
   background: radial-gradient(circle, color-mix(in srgb, var(--vex) 70%, transparent) 0%, color-mix(in srgb, var(--vex) 25%, transparent) 45%, transparent 70%);
