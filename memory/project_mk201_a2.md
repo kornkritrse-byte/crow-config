@@ -15,3 +15,5 @@ metadata:
 **Brand: Le Labo** (Korn, 4 Oct 15:58). New product: NOT named yet. Group number and his part: not said yet (asked twice).
 
 **16:06: it's a WRITTEN REPORT, no slides** (his call, "its just writing"). The Canva deck idea is dropped; the deck spec was deleted (it's in git if ever needed). The report still needs a **perceptual map** image: Crow can make it as a clean PNG.
+
+**7 Oct 21:27 — he asked for a product idea.** Crow pitched a **Bangkok City Exclusive, "Pandan 21 Bangkok"** (new fragrance in the City Exclusives line). Flagged weakness: it is a line extension, so the "how it differs" section is thin unless the group frames it hard. His call pending. Le Labo facts were from Crow's memory, so verify before citing.
