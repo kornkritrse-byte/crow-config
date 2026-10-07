@@ -620,20 +620,14 @@ body.dim .room-idle .scene canvas { filter: brightness(.72); }
   touch-action: pan-y; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none;
   transition: box-shadow .15s, scale .15s;
 }
-/* the grip: the right edge of an open goal card, drags without a hold */
-.task.goal:has(.grip) { padding-right: 52px; }
+/* the grip: a thin strip on the right edge of an open goal card, drags without a hold */
+.task.goal:has(.grip) { padding-right: 22px; }
 .grip {
-  position: absolute; top: 0; right: 0; bottom: 0; width: 44px; cursor: grab;
-  border-left: 1px solid var(--line); background: color-mix(in srgb, var(--raised) 60%, transparent);
-  display: grid; place-items: center; transition: background .15s;
+  position: absolute; top: 0; right: 0; bottom: 0; width: 12px; cursor: grab;
+  background: color-mix(in srgb, var(--line) 70%, transparent); transition: background .15s;
 }
-.grip::before {
-  content: ""; width: 8px; height: 18px; opacity: .55;
-  background: radial-gradient(circle, var(--mist) 1.4px, transparent 1.6px) 0 0 / 4px 6px;
-}
-.grip:hover { background: var(--raised); }
-.grip:hover::before { opacity: .9; }
-.task-swipe.held .grip { cursor: grabbing; background: var(--raised); }
+.grip:hover { background: var(--faint); }
+.task-swipe.held .grip { cursor: grabbing; background: var(--faint); }
 .task-swipe.held .task.goal { box-shadow: 0 6px 18px rgba(0, 0, 0, .35); scale: 1.015; cursor: grabbing; }
 .ripple {
   position: absolute; border-radius: 50%; pointer-events: none;
