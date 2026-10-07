@@ -642,6 +642,7 @@ function paintBoard(board) {
 // Water the flower: today's tasks. A ghost card passed, a training session done, a
 // said/did kept: each one waters the plum blossom (server + bin/water.py).
 function paintWater(board) {
+  if (goalAnims) { heldBoard = board; return; }   // a goal card is mid-animation: repaint after
   const w = board.water || { week: 0, tasks: [] }, g = board.ghost;
   Room.setWater(w);
   const gl = w.goals;
@@ -655,15 +656,7 @@ function paintWater(board) {
     box.append(el);
   };
   // today's goals first: one blossom each
-  if (gl && !gl.closed) {
-    for (const goal of gl.list) {
-      const done = goal.status === 'done', missed = goal.status === 'missed';
-      const label = goal.slot ? 'Goal · today' : 'Goal · checked tomorrow';
-      const b = button(done ? 'Done ✓' : missed ? 'Missed' : 'Done', done || missed ? 'quiet done' : 'quiet', () => { b.disabled = true; ws.send(JSON.stringify({ type: 'water', kind: 'goal', id: goal.n })); });
-      b.disabled = done || missed || !goal.slot;
-      card(label, goal.text, goal.slot || done || missed ? b : null);
-    }
-  }
+  if (gl && !gl.closed) for (const goal of gl.list) box.append(goalCard(goal));
   for (const t of w.tasks) {
     if (t.kind === 'ghost' && g?.next) {
       card(`Task · ${g.next.subject}`, g.next.q, button('Answer it', 'quiet', () => {
@@ -682,6 +675,136 @@ function paintWater(board) {
     const next = g?.next ? `Next task: ${shortDay(g.next.date)}.` : '';
     box.append(div('task-empty', `Nothing due right now. ${next}`.trim()));
   }
+}
+
+// Goal cards. Tap Done: a water ripple from the middle, then it completes.
+// Hold, then swipe: left = dismissed (the card disintegrates), right = unknown (it
+// fogs over). Both stay on the board for the day as a quiet remnant. Never "failed":
+// his call, 7 Oct, no negative reinforcement.
+let goalAnims = 0, heldBoard = null;
+const calm = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
+const GOAL_END = { done: 'Done ✓', missed: 'Dismissed', unknown: 'Unknown' };
+
+function goalCard(goal) {
+  const wrap = div('task-swipe'), el = div('task goal');
+  wrap.append(div('swipe-hint unknown', 'Unknown'), div('swipe-hint dismiss', 'Dismiss'), el);
+  el.append(div('task-label', goal.slot ? 'Goal · today' : 'Goal · checked tomorrow'), div('task-text', goal.text));
+  if (goal.status !== 'open') { settleLook(el, goal.status); return wrap; }
+  if (!goal.slot) return wrap;   // Bed by 23:30 is settled at the next session
+  const b = button('Done', 'quiet', () => {
+    b.disabled = true;
+    ws.send(JSON.stringify({ type: 'water', kind: 'goal', id: goal.n }));
+    animateGoal(ripple(el), el, 'done');
+  });
+  el.append(b);
+  swipeable(wrap, el, status => {
+    ws.send(JSON.stringify({ type: 'goal', id: goal.n, status }));
+    animateGoal(status === 'missed' ? disintegrate(el) : fog(el), el, status);
+  });
+  return wrap;
+}
+
+function settleLook(el, status) {
+  el.classList.add(`is-${status}`);
+  el.style.transform = '';
+  el.querySelector('.task-label').textContent = GOAL_END[status];
+  el.querySelector('button')?.remove();
+  if (status === 'done') el.append(Object.assign(button('Done ✓', 'quiet done'), { disabled: true }));
+}
+
+// Hold the board still while a card animates, then land the card and let any repaint through.
+async function animateGoal(anim, el, status) {
+  goalAnims++;
+  try { await anim; } catch {}
+  settleLook(el, status);
+  el.style.visibility = '';
+  if (status !== 'done' && !calm()) el.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 400, easing: 'ease-out' });
+  if (--goalAnims === 0 && heldBoard) { const b = heldBoard; heldBoard = null; paintWater(b); }
+}
+
+function swipeable(wrap, el, commit) {
+  let id = null, x0 = 0, y0 = 0, dx = 0, armed = false, timer;
+  const limit = () => Math.min(110, el.offsetWidth * 0.35);
+  const reset = () => { clearTimeout(timer); id = null; armed = false; wrap.classList.remove('held', 'past'); delete wrap.dataset.dir; };
+  el.addEventListener('pointerdown', e => {
+    if (e.button !== 0 || e.target.closest('button') || el.classList.contains('settling')) return;
+    id = e.pointerId; x0 = e.clientX; y0 = e.clientY; dx = 0;
+    timer = setTimeout(() => { armed = true; el.setPointerCapture(id); wrap.classList.add('held'); }, 220);
+  });
+  el.addEventListener('pointermove', e => {
+    if (e.pointerId !== id) return;
+    if (!armed) { if (Math.hypot(e.clientX - x0, e.clientY - y0) > 8) reset(); return; }
+    dx = e.clientX - x0;
+    el.style.transform = `translateX(${dx}px)`;
+    wrap.dataset.dir = dx < -12 ? 'left' : dx > 12 ? 'right' : '';
+    wrap.classList.toggle('past', Math.abs(dx) > limit());
+  });
+  const end = e => {
+    if (e.pointerId !== id) return;
+    const go = armed && e.type === 'pointerup' && Math.abs(dx) > limit();
+    reset();
+    if (go) { el.classList.add('settling'); commit(dx < 0 ? 'missed' : 'unknown'); return; }
+    if (dx && !calm()) el.animate([{ transform: el.style.transform }, { transform: 'translateX(0)' }], { duration: 220, easing: 'cubic-bezier(.3,1.4,.5,1)' });
+    el.style.transform = '';
+  };
+  el.addEventListener('pointerup', end);
+  el.addEventListener('pointercancel', end);
+}
+
+// Water ripple: rings out from the middle of the card.
+function ripple(el) {
+  if (calm()) return Promise.resolve();
+  const r = Math.hypot(el.offsetWidth, el.offsetHeight);
+  const rings = [0, 140, 280].map((delay, i) => {
+    const ring = div(i ? 'ripple ring' : 'ripple');
+    Object.assign(ring.style, { width: `${r}px`, height: `${r}px`, left: `${(el.offsetWidth - r) / 2}px`, top: `${(el.offsetHeight - r) / 2}px` });
+    el.append(ring);
+    return ring.animate(
+      [{ transform: 'scale(0)', opacity: 1 }, { transform: 'scale(1.05)', opacity: 0 }],
+      { duration: 1000, delay, easing: 'cubic-bezier(.2,.6,.3,1)' }).finished.finally(() => ring.remove());
+  });
+  return Promise.all(rings);
+}
+
+// Disintegrate: the card is cut into ~3px grains spread over a stack of masked
+// copies; each copy drifts off on the wind a beat after the last, left side first.
+function disintegrate(el) {
+  if (calm()) return Promise.resolve();
+  const rect = el.getBoundingClientRect(), W = Math.ceil(rect.width), H = Math.ceil(rect.height);
+  const LAYERS = 28, GRAIN = 3;
+  const masks = Array.from({ length: LAYERS }, () => { const c = document.createElement('canvas'); c.width = W; c.height = H; return c; });
+  const ctx = masks.map(c => c.getContext('2d'));
+  for (let x = 0; x < W; x += GRAIN) for (let y = 0; y < H; y += GRAIN) {
+    const t = Math.min(0.999, (x / W) * 0.65 + Math.random() * 0.35);
+    ctx[Math.floor(t * LAYERS)].fillRect(x, y, GRAIN, GRAIN);
+  }
+  const anims = masks.map((c, i) => {
+    const copy = el.cloneNode(true), url = `url(${c.toDataURL()})`;
+    Object.assign(copy.style, {
+      position: 'fixed', left: `${rect.left}px`, top: `${rect.top}px`, width: `${W}px`, height: `${H}px`,
+      margin: 0, transform: 'none', pointerEvents: 'none', zIndex: 1000,
+      maskImage: url, webkitMaskImage: url, maskSize: `${W}px ${H}px`, webkitMaskSize: `${W}px ${H}px`,
+    });
+    document.body.append(copy);
+    const a = (Math.random() - 0.3) * Math.PI / 2.5;   // mostly up and to the right
+    const dist = 60 + Math.random() * 90;
+    return copy.animate([
+      { transform: 'translate(0,0) rotate(0)', opacity: 1, filter: 'blur(0)' },
+      { transform: `translate(${Math.cos(a) * dist}px, ${-Math.abs(Math.sin(a)) * dist - 20}px) rotate(${(Math.random() - 0.5) * 30}deg)`, opacity: 0, filter: 'blur(1.5px)' },
+    ], { duration: 900 + Math.random() * 500, delay: i * 38, easing: 'cubic-bezier(.45,0,.75,.6)', fill: 'forwards' })
+      .finished.finally(() => copy.remove());
+  });
+  el.style.visibility = 'hidden';
+  return Promise.all(anims);
+}
+
+// Unknown: no drama, it just fogs over.
+function fog(el) {
+  if (calm()) return Promise.resolve();
+  return el.animate([
+    { transform: el.style.transform, filter: 'blur(0)', opacity: 1 },
+    { transform: 'translateX(0)', filter: 'blur(4px)', opacity: 0 },
+  ], { duration: 650, easing: 'ease-in' }).finished.then(() => { el.style.visibility = 'hidden'; });
 }
 
 $('status-more').onclick = () => {

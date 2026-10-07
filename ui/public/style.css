@@ -603,6 +603,33 @@ body.dim .room-idle .scene canvas { filter: brightness(.72); }
 .task-text { font-size: 14px; line-height: 1.45; color: var(--paper); }
 .task .quiet { align-self: flex-start; }
 .task .quiet.done, .task .quiet:disabled { color: var(--artis); border-color: color-mix(in srgb, var(--artis) 40%, transparent); cursor: default; }
+/* goal cards: tap Done = ripple; hold + swipe left = dismissed, right = unknown */
+.task-swipe { position: relative; border-radius: 9px; overflow-x: clip; overflow-clip-margin: 0; }
+.swipe-hint {
+  position: absolute; inset: 0; display: flex; align-items: center; padding: 0 14px;
+  font-size: 12.5px; color: var(--mist); border-radius: 9px; opacity: 0; transition: opacity .15s, color .15s;
+}
+.swipe-hint.dismiss { justify-content: flex-end; }
+.task-swipe[data-dir="left"] .swipe-hint.dismiss,
+.task-swipe[data-dir="right"] .swipe-hint.unknown { opacity: 1; }
+.task-swipe.past .swipe-hint { color: var(--paper); }
+.task-swipe.past[data-dir="left"] .swipe-hint.dismiss { background: color-mix(in srgb, var(--maroon) 35%, transparent); }
+.task-swipe.past[data-dir="right"] .swipe-hint.unknown { background: color-mix(in srgb, var(--faint) 30%, transparent); }
+.task.goal {
+  position: relative; overflow: hidden; z-index: 1;
+  touch-action: pan-y; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none;
+  transition: box-shadow .15s, scale .15s;
+}
+.task-swipe.held .task.goal { box-shadow: 0 6px 18px rgba(0, 0, 0, .35); scale: 1.015; cursor: grabbing; }
+.ripple {
+  position: absolute; border-radius: 50%; pointer-events: none;
+  background: radial-gradient(circle, color-mix(in srgb, var(--vex) 70%, transparent) 0%, color-mix(in srgb, var(--vex) 25%, transparent) 45%, transparent 70%);
+}
+.ripple.ring { background: none; border: 2px solid var(--vex); box-shadow: 0 0 10px color-mix(in srgb, var(--vex) 50%, transparent); }
+.task.goal.is-done .task-label { color: var(--artis); }
+.task.goal.is-missed, .task.goal.is-unknown { padding: 6px 11px; gap: 2px; background: none; border-style: dashed; }
+.task.goal.is-missed .task-label, .task.goal.is-unknown .task-label { color: var(--faint); }
+.task.goal.is-missed .task-text, .task.goal.is-unknown .task-text { color: var(--faint); font-size: 13px; }
 .task-empty { color: var(--faint); font-size: 13px; padding-top: 6px; }
 body.room-empty .stream { padding: 22px 12px 20px; }
 .empty.room-idle { gap: 12px; }

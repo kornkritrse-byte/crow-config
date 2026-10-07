@@ -577,6 +577,13 @@ function goals() {
 function addWater(kind, what) {
   return new Promise(resolve => execFile('python3', [path.join(REPO, 'bin/water.py'), 'add', kind, what], { timeout: 5000 }, () => resolve()));
 }
+// A swipe on a goal card: dismissed (goals.py miss) or unknown. No blossom either way.
+async function settleGoal(m) {
+  const cmd = { missed: 'miss', unknown: 'unknown' }[m.status], g = goals();
+  if (!cmd || !Number.isInteger(m.id) || g.closed || g.list[m.id - 1]?.status !== 'open') return false;
+  await new Promise(resolve => execFile('python3', [path.join(REPO, 'bin/goals.py'), cmd, String(m.id)], { timeout: 5000 }, () => resolve()));
+  return true;
+}
 // A Done button on the board: training for today, or a said/did line kept.
 async function markDone(m) {
   const today = bangkokToday();
@@ -654,6 +661,9 @@ wss.on('connection', ws => {
       case 'board': refreshBoard(); break;
       case 'water':
         if (await markDone(m)) refreshBoard();
+        break;
+      case 'goal':
+        if (await settleGoal(m)) refreshBoard();
         break;
       case 'model': setModel(m.value); break;
       case 'mode': setMode(m.value); break;
