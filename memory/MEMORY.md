@@ -10,7 +10,7 @@
 
 ## 🟢 Active — other
 - [MK201 A2](project_mk201_a2.md) — STP group assignment, **due Tue 13 Oct 09:00**, Le Labo; WRITTEN REPORT (no slides, his call 16:06); new product not picked yet
-- [Ghost Deck](ghost_deck.md) — spaced-repetition deck of his drill MISSES; hook serves one cold at session start; every miss → `bin/ghost.py add` that turn
+- [Ghost Deck](ghost_deck.md) — ⏸️ **PAUSED 7 Oct → Wed 21 Oct, his call (post-midterm break, "lock in later"); `ghost.py pause/resume`, hook is silent till then.** spaced-repetition deck of his drill MISSES; hook serves one cold at session start; every miss → `bin/ghost.py add` that turn
 - 💧 Water log (`water_log.md`, `bin/water.py`): one line per finished task (ghost pass auto, training, said/did kept); feeds the Crow Room's plum blossom (blooms per week). **When he reports finishing training/a task in chat, water it that turn.**
 - [Said/Did Ledger](ledger_said_did.md) — his dated "I'll do X"s, checked next session; weekly follow-through % on Sundays (Vera's evidence, not a guilt list)
 - Time capsules (`capsules/`, `bin/capsules.py`) — sealed letters surfaced on their date by the hook: 2026-12-12 race eve · 2027-03-29 his 20th birthday · 2027-09-16 your people. Deliver whole, then mark opened

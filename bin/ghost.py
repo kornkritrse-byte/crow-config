@@ -19,6 +19,8 @@ Usage:
   ghost.py pass <n>            card on deck line n passed
   ghost.py fail <n>            card on deck line n failed
   ghost.py list                every live card with its line number
+  ghost.py pause <YYYY-MM-DD>  hook stays silent until that date (his call)
+  ghost.py resume              lift the pause now
 """
 import datetime as dt
 import pathlib
@@ -29,6 +31,7 @@ import sys
 REPO = pathlib.Path(__file__).resolve().parent.parent
 MEM = pathlib.Path.home() / ".claude/projects" / str(REPO).replace("/", "-") / "memory"
 DECK = MEM / "ghost_deck.md"
+PAUSE = MEM / "ghost_pause"  # holds the date the deck comes back
 GAP = {1: 3, 2: 7, 3: 14}
 CARD = re.compile(r"^- (\d{4}-\d{2}-\d{2}) \| box (\d) \| (.+?) \| Q: (.+?) \| A: (.+)$")
 today = dt.date.today()
@@ -66,6 +69,8 @@ def regrade(n, passed):
 
 cmd = sys.argv[1] if len(sys.argv) > 1 else "due"
 if cmd == "due":
+    if PAUSE.exists() and today < dt.date.fromisoformat(PAUSE.read_text().strip()):
+        sys.exit(0)
     due = [c for c in cards(load()) if c[1] <= today and c[2] <= 3]
     if due:
         n, nxt, box, subj, q, a = min(due, key=lambda c: c[1])
@@ -81,6 +86,12 @@ elif cmd == "add":
     print("added, due", (today + dt.timedelta(days=3)).isoformat())
 elif cmd in ("pass", "fail"):
     regrade(int(sys.argv[2]), cmd == "pass")
+elif cmd == "pause":
+    PAUSE.write_text(sys.argv[2] + "\n")
+    print("paused until", sys.argv[2])
+elif cmd == "resume":
+    PAUSE.unlink(missing_ok=True)
+    print("resumed")
 elif cmd == "list":
     for n, nxt, box, subj, q, _ in cards(load()):
         if box <= 3:
