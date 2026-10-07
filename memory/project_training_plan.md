@@ -256,3 +256,4 @@ No gym, no quality work **17–27 Sep**. Two easy 30min runs only: **Mon 21 + Th
 - ✅ Also a data point for [[project-morning-person]] — another morning session that happened without being forced.
 
 - 💊 **Supplements (7 Oct 2026):** takes magnesium + fish oil daily, plus good protein. **Dropped vitamin C** after Crow flagged that high daily doses may blunt training adaptation (evidence mixed, told him so; dose unknown). He thinks only magnesium really works. Recovery priorities given: carbs after runs (Thai rice dishes), fluids + salt in the heat, eat enough (watch easy pace drifting slower), sleep.
+- 🍌 **Pre-run fueling (7 Oct):** his usual = 2 slices bread + banana + White Monster + lots of water. Crow advice: easy <45′ → banana/1 slice only, no Monster; Monster 30–45′ before TT/long/hard only (keep caffeine special); water 1–2 h before then sip; electrolytes after for <1 h, also before for >1 h or very sweaty mornings. TT day = nothing new.
