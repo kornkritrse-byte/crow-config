@@ -26,6 +26,7 @@ metadata:
 2027-03-29 | 🎂 Korn turns 20 (time capsule opens)
 2026-10-13 | 📌 MK201 Assignment 2 (STP, group, 5%) DUE 09:00, electronic (class 10 = holiday, online makeup)
 2026-10-10 | 🏖️ Pattaya trip Sat 10 – Tue 13 Oct ("most likely", said 7 Oct). 5K TT moved Wed 14 → Tue 13 Oct AM, his straight there
+2026-10-22 | 💳 Claude subscription ENDS (said 7 Oct). Decide before: renew through finals (2 months) vs switch the Room to ChatGPT → [[reference-crow-room]]
 2026-12-13 | 🏁 10K RACE — Samitivej hospital event (register 04:00, GUN 05:00, venue TBC). Target 48:00.
 2027-01-17 | 🏃 HALF MARATHON: จอมบึง (Chombueng), Ratchaburi. Dad signed him up: Korn's running talk got his dad back into running, and his dad invited him. 21.1 km
 
