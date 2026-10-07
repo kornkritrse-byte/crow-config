@@ -678,7 +678,7 @@ function paintWater(board) {
 }
 
 // Goal cards. Tap Done: a water ripple from the middle, then it completes.
-// Hold, then swipe: left = dismissed (the card disintegrates), right = unknown (it
+// Drag the grip on the right edge (or hold anywhere, then swipe): left = dismissed (the card disintegrates), right = unknown (it
 // fogs over). Both stay on the board for the day as a quiet remnant. Never "failed":
 // his call, 7 Oct, no negative reinforcement.
 let goalAnims = 0, heldBoard = null;
@@ -696,7 +696,7 @@ function goalCard(goal) {
     ws.send(JSON.stringify({ type: 'water', kind: 'goal', id: goal.n }));
     animateGoal(ripple(el), el, 'done');
   });
-  el.append(b);
+  el.append(b, Object.assign(div('grip'), { title: 'Drag: ← dismiss · unknown →' }));
   swipeable(wrap, el, status => {
     ws.send(JSON.stringify({ type: 'goal', id: goal.n, status }));
     animateGoal(status === 'missed' ? disintegrate(el) : fog(el), el, status);
@@ -709,6 +709,7 @@ function settleLook(el, status) {
   el.style.transform = '';
   el.querySelector('.task-label').textContent = GOAL_END[status];
   el.querySelector('button')?.remove();
+  el.querySelector('.grip')?.remove();
   if (status === 'done') el.append(Object.assign(button('Done ✓', 'quiet done'), { disabled: true }));
 }
 
@@ -729,7 +730,9 @@ function swipeable(wrap, el, commit) {
   el.addEventListener('pointerdown', e => {
     if (e.button !== 0 || e.target.closest('button') || el.classList.contains('settling')) return;
     id = e.pointerId; x0 = e.clientX; y0 = e.clientY; dx = 0;
-    timer = setTimeout(() => { armed = true; el.setPointerCapture(id); wrap.classList.add('held'); }, 220);
+    const arm = () => { armed = true; el.setPointerCapture(id); wrap.classList.add('held'); };
+    if (e.target.closest('.grip')) arm();   // the grip drags at once; the rest of the card needs a hold
+    else timer = setTimeout(arm, 220);
   });
   el.addEventListener('pointermove', e => {
     if (e.pointerId !== id) return;
