@@ -569,7 +569,7 @@ function goalDay() {
 }
 function goals() {
   const day = goalDay(), rows = readSafe(GOALS_LOG).split('\n')
-    .map(l => l.match(/^- (\d{4}-\d{2}-\d{2}) \| (.+?) \| (open|done|missed|closed)$/)).filter(m => m && m[1] === day);
+    .map(l => l.match(/^- (\d{4}-\d{2}-\d{2}) \| (.+?) \| (open|done|missed|unknown|closed)$/)).filter(m => m && m[1] === day);
   const list = rows.filter(m => m[3] !== 'closed').map((m, i) => ({ n: i + 1, text: m[2], status: m[3], slot: m[2] !== 'Bed by 23:30' }));
   const slots = list.filter(g => g.slot);
   return { day, list, closed: rows.some(m => m[3] === 'closed'), total: slots.length, done: slots.filter(g => g.status === 'done').length };

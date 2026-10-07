@@ -22,6 +22,7 @@ Usage:
   goals.py set <goal> [<goal> …]   today's own goals (max 7) + the standing ones
   goals.py done <n> [YYYY-MM-DD]   goal n done (waters the flower too)
   goals.py miss <n> [YYYY-MM-DD]   goal n missed
+  goals.py unknown <n> [YYYY-MM-DD] he doesn't remember: stops the ask, no blossom either way
   goals.py today [YYYY-MM-DD]      the list, numbered
   goals.py close                   the day is over: the petals fall
   goals.py check                   what Crow should ask right now (for the session-start hook)
@@ -36,7 +37,7 @@ import sys
 REPO = pathlib.Path(__file__).resolve().parent.parent
 MEM = pathlib.Path.home() / ".claude/projects" / str(REPO).replace("/", "-") / "memory"
 LOG = MEM / "goals_today.md"
-ROW = re.compile(r"^- (\d{4}-\d{2}-\d{2}) \| (.+?) \| (open|done|missed|closed)$")
+ROW = re.compile(r"^- (\d{4}-\d{2}-\d{2}) \| (.+?) \| (open|done|missed|unknown|closed)$")
 BKK = dt.timezone(dt.timedelta(hours=7))
 DAY = (dt.datetime.now(BKK) - dt.timedelta(hours=5)).date().isoformat()
 MAX_OWN = 7
@@ -97,7 +98,7 @@ def show(day):
     if not g:
         print(f"no goals for {day}")
     for n, (_, goal, status) in enumerate(g, 1):
-        print(f"{n}. [{ {'open': ' ', 'done': 'x', 'missed': '-'}[status] }] {goal}")
+        print(f"{n}. [{ {'open': ' ', 'done': 'x', 'missed': '-', 'unknown': '?'}[status] }] {goal}")
     if closed(day):
         print("(day closed, the petals fell)")
 
@@ -137,8 +138,8 @@ if cmd == "set":
         rows.append(f"- {DAY} | {BED} | open")
     append(rows)
     show(DAY)
-elif cmd in ("done", "miss"):
-    mark("done" if cmd == "done" else "missed", args)
+elif cmd in ("done", "miss", "unknown"):
+    mark({"done": "done", "miss": "missed"}.get(cmd, cmd), args)
 elif cmd == "today":
     show(args[0] if args else DAY)
 elif cmd == "close":

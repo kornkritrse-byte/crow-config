@@ -35,7 +35,7 @@ metadata:
 - 2026-10-04 | Run | open
 - 2026-10-04 | Light gym | open
 - 2026-10-04 | Wake early | done
-- 2026-10-04 | Bed by 23:30 | open
+- 2026-10-04 | Bed by 23:30 | unknown
 - 2026-10-07 | Karamazov: back in, one sitting | done
 - 2026-10-07 | Make something | open
 - 2026-10-07 | Wake early | done
