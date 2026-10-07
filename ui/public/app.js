@@ -719,7 +719,7 @@ async function animateGoal(anim, el, status) {
   try { await anim; } catch {}
   settleLook(el, status);
   el.style.visibility = '';
-  if (status !== 'done' && !calm()) el.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 400, easing: 'ease-out' });
+  if (status !== 'done' && !calm()) el.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 400, easing: 'steps(4, end)' });
   if (--goalAnims === 0 && heldBoard) { const b = heldBoard; heldBoard = null; paintWater(b); }
 }
 
@@ -754,25 +754,57 @@ function swipeable(wrap, el, commit) {
   el.addEventListener('pointercancel', end);
 }
 
-// Water ripple: rings out from the middle of the card.
+// The effects are pixel art, like the rest of the Room: everything moves on a
+// PX grid, in stepped frames, with no blur.
+const PX = 4;
+
+// Water ripple: pixel rings out from the middle of the card, drawn on a canvas at
+// 1/PX scale and blown up with image-rendering: pixelated.
 function ripple(el) {
   if (calm()) return Promise.resolve();
-  const r = Math.hypot(el.offsetWidth, el.offsetHeight);
-  const rings = [0, 140, 280].map((delay, i) => {
-    const ring = div(i ? 'ripple ring' : 'ripple');
-    Object.assign(ring.style, { width: `${r}px`, height: `${r}px`, left: `${(el.offsetWidth - r) / 2}px`, top: `${(el.offsetHeight - r) / 2}px` });
-    el.append(ring);
-    return ring.animate(
-      [{ transform: 'scale(0)', opacity: 1 }, { transform: 'scale(1.05)', opacity: 0 }],
-      { duration: 1000, delay, easing: 'cubic-bezier(.2,.6,.3,1)' }).finished.finally(() => ring.remove());
+  const W = Math.ceil(el.offsetWidth / PX), H = Math.ceil(el.offsetHeight / PX);
+  const c = document.createElement('canvas');
+  c.className = 'ripple';
+  c.width = W; c.height = H;
+  el.append(c);
+  const g = c.getContext('2d'), cx = (W - 1) / 2, cy = (H - 1) / 2, R = Math.hypot(cx, cy) + 2;
+  const [r0, g0, b0] = [95, 168, 211];   // --vex
+  const RINGS = [0, 160, 320], LIFE = 900, FRAME = 1000 / 24;   // 24fps, sprite-like
+  return new Promise(resolve => {
+    const t0 = performance.now();
+    let last = -1;
+    const tick = now => {
+      const t = now - t0, frame = Math.floor(t / FRAME);
+      if (frame !== last) {
+        last = frame;
+        const img = g.createImageData(W, H);
+        for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) {
+          const d = Math.hypot(x - cx, y - cy);
+          let a = 0;
+          RINGS.forEach((delay, i) => {
+            const p = (frame * FRAME - delay) / LIFE;
+            if (p < 0 || p > 1) return;
+            const r = p * R, fade = 1 - p;
+            if (Math.abs(d - r) < 0.75) a = Math.max(a, fade);                  // the ring
+            else if (i === 0 && d < r) a = Math.max(a, fade * 0.3);           // the wash inside the first
+          });
+          a = Math.round(a * 4) / 4;   // four alpha steps, no smooth gradients
+          if (a) { const o = (y * W + x) * 4; img.data.set([r0, g0, b0, a * 200], o); }
+        }
+        g.putImageData(img, 0, 0);
+      }
+      if (t < RINGS.at(-1) + LIFE) requestAnimationFrame(tick);
+      else { c.remove(); resolve(); }
+    };
+    requestAnimationFrame(tick);
   });
-  return Promise.all(rings);
 }
 
-// Disintegrate: the card is cut into ~3px grains spread over a stack of masked
-// copies; each copy crumbles a beat after the last, left side first. The grains
-// stay inside the card's own box (clipped), so nothing drifts over the rest of the Room.
-async function disintegrate(el) {
+// Disintegrate: the card is cut into PX-sized pixels spread over a stack of masked
+// copies; each copy crumbles a beat after the last, left side first, in stepped
+// frames. The pixels stay inside the card's own box (clipped), so nothing drifts
+// over the rest of the Room. drift: false = a dither fade in place (Unknown).
+async function disintegrate(el, drift = true) {
   if (calm()) return;
   if (el.style.transform) {   // slide home from the drag first, then crumble where it lived
     await el.animate([{ transform: el.style.transform }, { transform: 'translateX(0)' }], { duration: 160, easing: 'ease-out' }).finished;
@@ -780,12 +812,12 @@ async function disintegrate(el) {
   }
   const wrap = el.parentElement, rect = el.getBoundingClientRect(), home = wrap.getBoundingClientRect();
   const W = Math.ceil(rect.width), H = Math.ceil(rect.height);
-  const LAYERS = 28, GRAIN = 3;
+  const LAYERS = drift ? 20 : 12;
   const masks = Array.from({ length: LAYERS }, () => { const c = document.createElement('canvas'); c.width = W; c.height = H; return c; });
   const ctx = masks.map(c => c.getContext('2d'));
-  for (let x = 0; x < W; x += GRAIN) for (let y = 0; y < H; y += GRAIN) {
-    const t = Math.min(0.999, (x / W) * 0.65 + Math.random() * 0.35);
-    ctx[Math.floor(t * LAYERS)].fillRect(x, y, GRAIN, GRAIN);
+  for (let x = 0; x < W; x += PX) for (let y = 0; y < H; y += PX) {
+    const t = Math.min(0.999, drift ? (x / W) * 0.65 + Math.random() * 0.35 : Math.random());
+    ctx[Math.floor(t * LAYERS)].fillRect(x, y, PX, PX);
   }
   const dust = div('dust');
   wrap.append(dust);
@@ -797,25 +829,19 @@ async function disintegrate(el) {
       maskImage: url, webkitMaskImage: url, maskSize: `${W}px ${H}px`, webkitMaskSize: `${W}px ${H}px`,
     });
     dust.append(copy);
-    const dx = 6 + Math.random() * 22, dy = -(4 + Math.random() * 14);
+    if (!drift) return copy.animate([{ opacity: 1 }, { opacity: 0 }], { duration: 1, delay: 60 + i * 45, fill: 'forwards' }).finished;
+    const dx = PX * (2 + Math.floor(Math.random() * 5)), dy = -PX * (1 + Math.floor(Math.random() * 4));
     return copy.animate([
-      { transform: 'translate(0,0) scale(1)', opacity: 1, filter: 'blur(0)' },
-      { transform: `translate(${dx}px, ${dy}px) scale(.97)`, opacity: 0, filter: 'blur(1.2px)' },
-    ], { duration: 700 + Math.random() * 400, delay: i * 32, easing: 'cubic-bezier(.45,0,.75,.6)', fill: 'forwards' })
-      .finished;
+      { transform: 'translate(0,0)', opacity: 1 },
+      { transform: `translate(${dx}px, ${dy}px)`, opacity: 0 },
+    ], { duration: 600 + Math.random() * 300, delay: i * 40, easing: 'steps(5, end)', fill: 'forwards' }).finished;
   });
   el.style.visibility = 'hidden';
   return Promise.all(anims).finally(() => dust.remove());
 }
 
-// Unknown: no drama, it just fogs over.
-function fog(el) {
-  if (calm()) return Promise.resolve();
-  return el.animate([
-    { transform: el.style.transform, filter: 'blur(0)', opacity: 1 },
-    { transform: 'translateX(0)', filter: 'blur(4px)', opacity: 0 },
-  ], { duration: 650, easing: 'ease-in' }).finished.then(() => { el.style.visibility = 'hidden'; });
-}
+// Unknown: no drama, it dithers away in place.
+const fog = el => disintegrate(el, false);
 
 $('status-more').onclick = () => {
   const open = $('status').classList.toggle('clamped');

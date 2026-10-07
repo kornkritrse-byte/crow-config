@@ -630,11 +630,7 @@ body.dim .room-idle .scene canvas { filter: brightness(.72); }
 .task-swipe.held .grip { cursor: grabbing; background: var(--faint); }
 .task-swipe.held .task.goal { box-shadow: 0 6px 18px rgba(0, 0, 0, .35); scale: 1.015; cursor: grabbing; }
 .dust { position: absolute; inset: 0; overflow: hidden; border-radius: 9px; pointer-events: none; z-index: 2; }
-.ripple {
-  position: absolute; border-radius: 50%; pointer-events: none;
-  background: radial-gradient(circle, color-mix(in srgb, var(--vex) 70%, transparent) 0%, color-mix(in srgb, var(--vex) 25%, transparent) 45%, transparent 70%);
-}
-.ripple.ring { background: none; border: 2px solid var(--vex); box-shadow: 0 0 10px color-mix(in srgb, var(--vex) 50%, transparent); }
+.ripple { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; image-rendering: pixelated; }
 .task.goal.is-done .task-label { color: var(--artis); }
 .task.goal.is-missed, .task.goal.is-unknown { padding: 6px 11px; gap: 2px; background: none; border-style: dashed; }
 .task.goal.is-missed .task-label, .task.goal.is-unknown .task-label { color: var(--faint); }
