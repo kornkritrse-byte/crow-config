@@ -45,3 +45,4 @@ metadata:
 - 2026-10-07 13:31 | training | 10K chill run, Tue 6 Oct evening (subbed for Mon lift + easy 25′)
 - 2026-10-07 13:41 | training | 6K run Sun 4 Oct, apartment → park → dinner
 - 2026-10-07 14:02 | goal | Wake early
+- 2026-10-07 16:13 | goal | Karamazov: back in, one sitting
