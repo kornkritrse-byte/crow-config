@@ -6,11 +6,15 @@ The flower in the Crow Room gets one blossom slot per goal; each goal done opens
 one. When Korn logs off for the day (the ~/.crow-session-ending flow) the day is
 closed, the petals fall, and the next day starts bare.
 
-Standing goals are added on their own when the day's list is first set:
+Standing goals are seeded at the first session of the day (Korn's list, 7 Oct):
   - "Wake early"     checked at the first session of the day
+  - "Morning creative writing"
+  - "Moving"         skipped on days the plan has a training session (that IS the moving)
+  - "Daily journal"
   - "Bed by 23:30"   checked at the NEXT session; it counts toward the day it
                      belongs to, so it has no blossom on the live flower
   - training         only on days the Road to Chombueng plan has a session
+His own goals (max 7) go on top of these.
 
 A "day" runs 05:00 → 05:00 Bangkok, so a 1am log-off still closes the day it belongs to.
 
@@ -19,13 +23,13 @@ Log file: memory/goals_today.md, one line per goal:
   - <YYYY-MM-DD> | — | closed          (the day is over, the petals fell)
 
 Usage:
-  goals.py set <goal> [<goal> …]   today's own goals (max 7) + the standing ones
+  goals.py set <goal> [<goal> …]   today's own goals (max 7), on top of the standing ones
   goals.py done <n> [YYYY-MM-DD]   goal n done (waters the flower too)
   goals.py miss <n> [YYYY-MM-DD]   goal n missed
   goals.py unknown <n> [YYYY-MM-DD] he doesn't remember: stops the ask, no blossom either way
   goals.py today [YYYY-MM-DD]      the list, numbered
   goals.py close                   the day is over: the petals fall
-  goals.py check                   what Crow should ask right now (for the session-start hook)
+  goals.py check                   seeds today's standing goals, then says what Crow should ask (session-start hook)
 """
 import datetime as dt
 import json
@@ -42,6 +46,8 @@ BKK = dt.timezone(dt.timedelta(hours=7))
 DAY = (dt.datetime.now(BKK) - dt.timedelta(hours=5)).date().isoformat()
 MAX_OWN = 7
 WAKE, BED = "Wake early", "Bed by 23:30"
+WRITING, MOVING, JOURNAL = "Morning creative writing", "Moving", "Daily journal"
+STANDING = (WAKE, WRITING, MOVING, JOURNAL, BED)
 TRAINING_FROM = "2026-10-05"   # training is paused until the Monday after the last midterm
 
 HEADER = """---
@@ -93,6 +99,19 @@ def training(day):
         return None
 
 
+def standing(g):
+    return g in STANDING or g.startswith("Training: ")
+
+
+def seed(day):
+    """The standing goals, once per day, before anything else."""
+    if goals(day) or closed(day):
+        return
+    t = training(day)
+    rows = [WAKE, WRITING, f"Training: {t}" if t else MOVING, JOURNAL, BED]
+    append([f"- {day} | {g} | open" for g in rows])
+
+
 def show(day):
     g = goals(day)
     if not g:
@@ -125,18 +144,11 @@ if cmd == "set":
         sys.exit("usage: goals.py set <goal> [<goal> …]")
     if closed(DAY):
         sys.exit(f"{DAY} is already closed")
-    have = goals(DAY)
-    have_own = [g for _, g, _ in have if g not in (WAKE, BED) and not g.startswith("Training: ")]
+    seed(DAY)
+    have_own = [g for _, g, _ in goals(DAY) if not standing(g)]
     if len(have_own) + len(own) > MAX_OWN:
         sys.exit(f"max {MAX_OWN} goals a day ({len(have_own)} already set)")
-    rows = [f"- {DAY} | {g} | open" for g in own]
-    if not have:   # first list of the day: the standing goals come with it
-        rows.append(f"- {DAY} | {WAKE} | open")
-        t = training(DAY)
-        if t:
-            rows.append(f"- {DAY} | Training: {t} | open")
-        rows.append(f"- {DAY} | {BED} | open")
-    append(rows)
+    append([f"- {DAY} | {g} | open" for g in own])
     show(DAY)
 elif cmd in ("done", "miss", "unknown"):
     mark({"done": "done", "miss": "missed"}.get(cmd, cmd), args)
@@ -150,12 +162,12 @@ elif cmd == "close":
         print(f"nothing to close for {DAY}")
 elif cmd == "check":
     asks = []
-    if not goals(DAY):
-        asks.append('Ask "goals today?" (max 7), then: goals.py set "<goal>" …')
-    else:
-        for n, (_, g, s) in enumerate(goals(DAY), 1):
-            if g == WAKE and s == "open":
-                asks.append(f"Did he wake early? goals.py done|miss {n}")
+    seed(DAY)
+    if not any(not standing(g) for _, g, _ in goals(DAY)):
+        asks.append('Ask "goals today?" (max 7 of his own; the standing ones are already on the flower), then: goals.py set "<goal>" …')
+    for n, (_, g, s) in enumerate(goals(DAY), 1):
+        if g == WAKE and s == "open":
+            asks.append(f"Did he wake early? goals.py done|miss {n}")
     prev = sorted({m[1] for l in lines() if (m := ROW.match(l)) and m[1] < DAY})
     if prev:
         for n, (_, g, s) in enumerate(goals(prev[-1]), 1):

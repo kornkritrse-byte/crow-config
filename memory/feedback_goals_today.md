@@ -14,3 +14,5 @@ metadata:
 
 **Why:** his idea (29 Sep 20:37, agreed in the Room: "ok bet"), built the same night. Directionlessness is his named struggle, and the fix he trusts is *intention, not discipline* ([[user-korn-struggles]]). One small daily list, made visible on the flower, is that intention.
 **How to apply:** first session of the day → ask once, one question. Never re-ask the same day. The rest of the day: mark done as he reports. Details → [[reference-crow-room]].
+
+**Standing goals (his ask, 7 Oct 2026 21:13):** every day gets Wake early · Morning creative writing · Moving · Daily journal · Bed by 23:30, seeded automatically by `goals.py check` at session start. On days with a training session in the plan, the training goal replaces "Moving" (Crow's call, so the same movement doesn't count twice; flip it if he wants both). His own goals (max 7) go on top. "goals today?" now means his OWN goals only.
