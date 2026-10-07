@@ -428,3 +428,9 @@ metadata:
 - Nav runs (MCQ cards): run 1 15/21, run 2 3/6 (stopped on the guess rule). Miss types: stops mid-row · wrong grid row · guessing → `scratch/ba202/nav-run.md`. 10 BA202 cards seeded for 1 Oct.
 - Room side-builds in VS Code: MCQ cards, window view, drawers, cabinet, goals flower.
 
+
+## Session — 2026-10-02 (BA202 day · flushed 7 Oct)
+- Overslept (phone alarms fail, watch works → [[project-morning-person]]). Ghost #28 pass.
+- MCQ/recall pp. 1–2 + residence 11/13 (✗ petroleum co → CIT · ✗ Toyota Thailand "foreign"; both habit #2). Sheet printed at uni ✓.
+- Cases Ms B + Mr C: M2 > M1 trap ✓; ✗ step-3 drop-outs, allowances, elected actual, life cap, s.63 refund → all ghosted. Habit #1 fired 4×.
+- 16:37 BA202 done ("finished getting fucked"), no post-mortem at his ask. AC311 classification 17:00: 4 ✗ (petty cash, travel advance, compensating balance, foreign deposit) → 7 cards.

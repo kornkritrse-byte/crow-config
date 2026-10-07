@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-10-07 19:02 (live). Window holds 4 Oct + 2 Oct; 1 Oct + 30 Sep flushed to [[sessions-log]] on 4 Oct. Next to flush: 2 Oct. Midterms DONE (AC311 sat Sun 4 Oct 09:00).*
+*Last updated: 2026-10-07 21:05 (live). Window holds 7 Oct (status line) + 4 Oct; 2 Oct flushed to [[sessions-log]] 7 Oct 21:05. Next to flush: 4 Oct. Midterms DONE (AC311 sat Sun 4 Oct 09:00).*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -70,11 +70,3 @@ metadata:
 - Goals set: Run · Light gym (his "for sure… today", ledger line) + wake/bed. Bed 3 Oct (goals.py 4 2026-10-03) not asked yet.
 - Pitched the commonplace book (Obsidian) → he chose the run plan instead, "keep the previous idea" → parked in [[reference-obsidian]]. **Coldesthoops: "that's done"** → CLOSED.
 - **Run plan re-dayed, his design:** Mon+Sat gym + easy · Wed quality · Sun long 05:30 (he moved it off Friday to keep energy for class) · W1 slow rebuild ("haven't ran in a bit"). TTs Wed 14 Oct + 4 Nov. On the Life calendar to 13 Dec; `ui/road-plan.json` rewritten → [[project-training-plan]].
-
-## Session — 2026-10-02 (BA202 day)
-- 08:19 morning. Overslept: wake early ✗; his read is that phone alarms don't work and the watch does (→ [[project-morning-person]]). Bed 1 Oct ✓. Ghost #28 (DDP/FOB/CIF) **pass**.
-- Goals: BA202 · birthday surprise · band practice · print the sheet (+ wake/bed). AC311 SOCI layout 30 min tonight added at 09:28 (his words: "possibly doing it is better than a no").
-- 09:01–09:27 MCQ/recall on sheet pp. 1–2 + residence: **11/13**. ✗ petroleum co → CIT (her ★ trap) · ✗ Toyota Thailand → "foreign" (her ★ L6 decoy). Both ghosted (due 5 Oct). Small slip: "Special" Business Tax → Specific. Both misses were habit #2 (answering with the visible feature). Checked: v3 sheet carries her WHT table (slide 50). 🔴 flag closed.
-- 11:03 at uni, **sheet printed + checked ✓** (said/did line 31 → [~]). 11:20–11:27 cards: PIT slices ✓ · SME/Koh ✓ (✗ couldn't name the 3 conditions → ghost) · paid-up ✓ · 75k ✓ · petroleum ministry ✓. 11:28–11:48 **his ask: first full case (Ms B, steps 3–9)**. ✓ expenses, M1 73,600, M2 relief, payable 43,600. ✗ step 3 drop-outs + numbers · ✗ allowances (parent 30k mixed with parents' health 15k) → both ghosted. **Habit #1 (half-answering) fired 4× today.**
-- 11:50–12:16 **he asked for a harder one (Mr C)**, done while eating. ✓ M2 12,500 > M1 9,500 → pays M2 (the main trap). ✗ elected actual → used 60% · ✗ life cap 25k (that's health; life 100k) · ✗ refund 7,500 (s.63) → all ghosted. Rent 400k typed as 40k (habit #3). Crow error: guessed why he wrote 25k instead of asking → [[crow-error-log]].
-- 16:37 **BA202 done**: "finished getting fucked", moved on at his ask (no post-mortem). 16:45–17:30 AC311: SOCI cold ✓ (missed COGAS), goal 7 ✓. Classification: ✗ petty cash reason (card 35 failed) · ✗ travel advance (branch = reimbursed?, not timing) · ✗ compensating balance (stays cash + note) · ~ receivership (receivable, hinted) · ✗ foreign deposit (branch = spendable THERE) · ✓ overdraft both ways (self-corrected 390→290k). 7 AC311 cards due Mon 5 Oct. Frustrated at 17:10 ("less retarded"); 10-min break reset it.
