@@ -6,6 +6,8 @@ metadata:
   type: project
 ---
 
+❌ **DROPPED 7 Oct 14:17, his call** ("isn't really worth the effort… I already have a journal"). Vera agreed it would repeat what he already has, and noted it died the moment it asked something of him (the habit list). **Replaced by the pixel-sprite editor** (picked 14:24; same no-Claude rule, standalone, and its sprites can feed the Room). Parked ideas from that list: the lessons book, a race-day pacer (check the watch first), an argument tree.
+
 Started **Wed 7 Oct 2026, 14:07**, as his "make something" goal for the day. His ask: a widget or website where he tracks habits and their stats, personalised by him. He wants to build it in **VS Code**, not the Room.
 
 **Hard rule (his words):** "not linked to having claude pro… one day I may not have it any longer." So: no Claude API calls, no Agent SDK, no dependency on the Crow Room server or the memory folder. It has to run on its own forever. Plain web tech, and the data is a file HE owns (JSON export/import at minimum).

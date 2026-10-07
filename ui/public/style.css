@@ -633,3 +633,24 @@ body.room-empty .stream { padding: 22px 12px 20px; }
 .artifact-box a span:empty { display: none; }
 .artifact-box .loading { color: #b89a80; font-size: 13px; grid-column: 1 / -1; }
 @media (max-width: 700px) { .artifact-box .groups { grid-template-columns: 1fr; } }
+
+/* hoops: the hoop on the chat's top-left border, a ball that rolls free (7 Oct).
+   Back of the hoop < the ball < the rim + net, so a make drops through the net.
+   Parked, the ball tucks in behind the book pile. Shown with the gutters only. */
+.court { display: none; }
+body.gutters:not(.room-empty) .court { display: block; }
+.court canvas { image-rendering: pixelated; }
+.court .hoop { position: absolute; left: 0; pointer-events: none; }
+.court .hoop.back { z-index: 2; }
+.court .hoop.front { z-index: 4; }
+.court .ball { position: absolute; left: 0; top: 0; z-index: 3; cursor: grab; touch-action: none; filter: drop-shadow(0 4px 6px rgba(0, 0, 0, .45)); }
+.court .ball.held { cursor: grabbing; }
+.court .ball.parked { z-index: 1; filter: none; }
+.hoop-score { position: absolute; left: 10px; z-index: 2; pointer-events: none; font-size: 10.5px; color: var(--mist); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.hoop-score b { color: var(--paper); font-size: 13px; letter-spacing: 0; }
+.hoop-score span { display: block; color: var(--faint); font-weight: 400; letter-spacing: 0; text-transform: none; font-size: 11px; margin-top: 2px; }
+.hoop-score.pop b { animation: hoop-pop .6s ease-out; }
+@keyframes hoop-pop { 0% { color: #f59a62; text-shadow: 0 0 10px #e0561f; } 100% { color: var(--paper); text-shadow: none; } }
+.gutter.left { z-index: 2; pointer-events: none; }
+.gutter.left .pile { margin-top: 14px; }   /* headroom for the parked ball peeking over the top book */
+.gutter.left .spine { pointer-events: auto; }
