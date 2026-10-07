@@ -10,7 +10,7 @@
   const store = { get: (k) => { try { return localStorage.getItem("hoops:" + k); } catch { return null; } }, set: (k, v) => { try { localStorage.setItem("hoops:" + k, v); } catch { /* private window */ } } };
 
   // ---------------------------------------------------------------- the hoop (side view, a touch of 3/4 on the rim)
-  const HW = 30, HH = 36, TOP = 24;              // sprite size; px from the top of the chat
+  const HW = 30, HH = 36, TOP = 60;              // sprite size; px from the top of the chat
   const RIM = { x0: 6, x1: 26, y: 18 };          // sprite coords
   const P = { board: C("#e4ded2"), boardD: C("#a9a397"), steel: C("#5f6f80"), steelD: C("#3c4a58"),
     rimBack: C("#8a3412"), rim: C("#e0561f"), rimHi: C("#f59a62"), net: C("#e4ded2"), netD: C("#8c9baa") };
@@ -53,7 +53,10 @@
   }
 
   // ---------------------------------------------------------------- state
-  const G = 2200, AIR = 0.12;
+  // tuned 7 Oct 15:12 (his ask: slower, more consistent bounces): softer gravity, one bounce
+  // number for every surface, a fixed physics step so each throw plays out the same way
+  const G = 1300, AIR = 0.25, E = 0.68, E_RIM = 0.6, STEP = 1 / 240;
+  let acc = 0;
   const ball = { x: 0, y: 0, vx: 0, vy: 0, spin: 0, parked: store.get("parked") !== "0", drag: null, asleep: false, still: 0, grounded: false, scored: false };
   let talk, back, front, cv, score, raf = 0, last = 0, swish = 0, made = 0, allTime = +store.get("made") || 0;
 
@@ -78,7 +81,7 @@
   const rimEnds = () => [{ x: (RIM.x1 + 0.5) * S, y: TOP + (RIM.y + 0.5) * S, r: 1.2 * S }];
 
   // ---------------------------------------------------------------- physics
-  function bounce(nx, ny, e, fr = 0.12) {
+  function bounce(nx, ny, e, fr = 0.04) {
     const vn = ball.vx * nx + ball.vy * ny;
     if (vn >= 0) return;
     ball.vx -= (1 + e) * vn * nx; ball.vy -= (1 + e) * vn * ny;
@@ -108,13 +111,13 @@
     ball.vy += G * dt;
     ball.vx *= 1 - AIR * dt; ball.vy *= 1 - AIR * dt;
     ball.x += ball.vx * dt; ball.y += ball.vy * dt;
-    if (ball.x < R) { ball.x = R; bounce(1, 0, 0.7); }
-    if (ball.x > W - R) { ball.x = W - R; bounce(-1, 0, 0.7); }
-    if (ball.y < R) { ball.y = R; bounce(0, 1, 0.7); }
-    if (ball.y > H - R) { ball.y = H - R; bounce(0, -1, 0.62); }
-    for (const o of walls) hitRect(o, 0.58);
-    for (const p of rimEnds()) hitDot(p, 0.5);
-    if (ball.grounded) { ball.vx *= 1 - 1.6 * dt; if (Math.abs(ball.vy) < 40) ball.vy = 0; ball.spin += (ball.vx * dt) / R; }
+    if (ball.x < R) { ball.x = R; bounce(1, 0, E); }
+    if (ball.x > W - R) { ball.x = W - R; bounce(-1, 0, E); }
+    if (ball.y < R) { ball.y = R; bounce(0, 1, E); }
+    if (ball.y > H - R) { ball.y = H - R; bounce(0, -1, E); }
+    for (const o of walls) hitRect(o, E);
+    for (const p of rimEnds()) hitDot(p, E_RIM);
+    if (ball.grounded) { ball.vx *= 1 - 1.2 * dt; if (Math.abs(ball.vy) < 60) ball.vy = 0; ball.spin += (ball.vx * dt) / R; }
     else ball.spin += ball.vx * dt * 0.012;
     // a make: the centre drops through the rim's opening, moving down
     const rimY = TOP + RIM.y * S, inside = ball.x > (RIM.x0 + 1) * S && ball.x < RIM.x1 * S;
@@ -141,8 +144,8 @@
     const dt = Math.min(0.033, last ? (now - last) / 1000 : 0.016);
     last = now;
     if (!ball.drag) {
-      const W = talk.clientWidth, H = talk.clientHeight, walls = solids(), n = 4;
-      for (let i = 0; i < n; i++) step(dt / n, W, H, walls);
+      const W = talk.clientWidth, H = talk.clientHeight, walls = solids();
+      for (acc += dt; acc >= STEP; acc -= STEP) step(STEP, W, H, walls);
       const slow = ball.grounded && Math.hypot(ball.vx, ball.vy) < 10;
       ball.still = slow ? ball.still + dt : 0;
       if (ball.still > 0.5) { ball.vx = ball.vy = 0; ball.asleep = true; }
@@ -151,7 +154,7 @@
     place();
     if (!ball.asleep || ball.drag || swish) raf = requestAnimationFrame(tick);
   }
-  function wake() { ball.asleep = false; ball.still = 0; if (!raf) { last = 0; raf = requestAnimationFrame(tick); } }
+  function wake() { ball.asleep = false; ball.still = 0; if (!raf) { last = 0; acc = 0; raf = requestAnimationFrame(tick); } }
 
   // ---------------------------------------------------------------- park behind the books / pull it back out
   function park(on) {
@@ -189,13 +192,14 @@
     ball.drag = null; cv.classList.remove("held");
     const moved = Math.hypot(e.clientX - d.x0, e.clientY - d.y0), quick = performance.now() - d.t0 < 260;
     if (moved < 5 && quick) {                    // a tap: a little hop (out of the pile, if it was in there)
-      ball.vx = (Math.random() - 0.5) * 300 + (d.wasParked ? 260 : 0); ball.vy = -900;
+      ball.vx = d.wasParked ? 220 : 0; ball.vy = -650;
       return wake();
     }
     if (overPile()) return park(true);
-    const tr = d.trail, a = tr[0], z = tr[tr.length - 1];
+    const now = performance.now(), tr = d.trail.filter((q) => now - q.t < 90);   // held still before letting go = a dead drop
+    const a = tr[0], z = tr[tr.length - 1];
     const span = a && z && z.t - a.t > 8 ? (z.t - a.t) / 1000 : 0;
-    const cap = 3200, vx = span ? (z.x - a.x) / span : 0, vy = span ? (z.y - a.y) / span : 0, sp = Math.hypot(vx, vy);
+    const cap = 1800, vx = span ? ((z.x - a.x) / span) * 0.7 : 0, vy = span ? ((z.y - a.y) / span) * 0.7 : 0, sp = Math.hypot(vx, vy);
     const k = sp > cap ? cap / sp : 1;
     ball.vx = vx * k; ball.vy = vy * k;
     wake();
