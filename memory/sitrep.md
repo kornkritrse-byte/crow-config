@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-10-04 14:55 (live). Window holds 4 Oct + 2 Oct; 1 Oct + 30 Sep flushed to [[sessions-log]] on 4 Oct. Next to flush: 2 Oct. Midterms DONE (AC311 sat Sun 4 Oct 09:00).*
+*Last updated: 2026-10-07 13:34 (live). Window holds 4 Oct + 2 Oct; 1 Oct + 30 Sep flushed to [[sessions-log]] on 4 Oct. Next to flush: 2 Oct. Midterms DONE (AC311 sat Sun 4 Oct 09:00).*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🟡 **AWAY (Sun 4 Oct, ~14:51) — off to: treadmill zone 2, 30′ + light gym** (his words "ill hit that on the treadmill zone 2"). ASK ON RETURN: did the run + gym happen → goals.py done 1/2, ledger line. Commonplace book: vault `~/Korn/` built + format set (Raw/Distilled), first entry (Marcus Aurelius) deferred at 15:29, then DONE at 15:39 (rain): Marcus entry (6.29 soul gives up first · 5.1 getting out of bed). Next: Karamazov/Siddhartha entry, Midterms lesson entry. **15:50 PAUSED by him for new work: MK201 A2 (STP), due Tue 13 Oct 09:00** (on the Life calendar + upcoming events). Le Labo, written report (no slides, 16:06) → [[project-mk201-a2]]. Open: the Marcus 6.29 "soul in charge vs giving up" question went unanswered. Open/ask when it fits: how AC311 went (once, don't push) · bed 3 Oct · ghost #31 still due.
+- 🟢 **Here (Wed 7 Oct, 13:00).** First session since 4 Oct (Mon/Tue he didn't log on; says routine held). **Ghost deck + all drills PAUSED to Wed 21 Oct, his call** (`ghost.py pause`). Tue 6 Oct: 10K chill run (subbed for Mon lift; Mon = hanging with the boys) → watered. Tonight: easy 30′ + 4 strides (ledger). Told him: keep W1 easy, the dropped lift goes to Sat 10 Oct. ⚠️ **Sun 4 Oct run + gym: asked TWICE, dodged twice** (ledger line still [ ]). Talked AI-risk (Kurzgesagt video), his read: AI = catapult not crutch, evidence = routine held without Crow. MK201 A2 still due Tue 13 Oct (not paused).
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book (parked, his "later").
 ## 🌊 The flood (26 Sep)
 - Bangkok flooded; **his whole neighbourhood is under water.** **His home (= grandpa's house) is FINE; grandpa is still there.** The one that flooded is **grandpa's brother's house next door**. He spent all of Saturday clearing their things and taking them to a hotel by truck. **In the hotel: grandpa's brother, his grandma, and her sister (the brother's wife). All fine (his word, 00:53 27 Sep).** He waded **waist-deep** to go out for food. Body: "great" (00:53).
