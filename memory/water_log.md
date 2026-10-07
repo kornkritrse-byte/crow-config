@@ -43,3 +43,4 @@ metadata:
 - 2026-10-03 12:16 | goal | AC311 Provisions round (20 min)
 - 2026-10-04 14:31 | goal | Wake early
 - 2026-10-07 13:31 | training | 10K chill run, Tue 6 Oct evening (subbed for Mon lift + easy 25′)
+- 2026-10-07 13:41 | training | 6K run Sun 4 Oct, apartment → park → dinner

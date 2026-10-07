@@ -34,3 +34,5 @@ metadata:
 - **2026-10-02 12:06: diagnosed his mistake without asking.** In the Mr C case he wrote life insurance 25k and I told him he had "carried it over from Ms B". His actual reason: he thought 25k was the cap (it is the HEALTH cap, life is 100k). Wrong diagnosis, delivered as fact. **When he gets a number wrong, ask where it came from before naming the habit.**
 
 - **2026-10-03 10:42: a made-up streak in Vera's voice.** Had Vera say "third time this fortnight that 'I'll wake at 6' became 8". The record shows ONE logged oversleep (2 Oct). Invented a pattern to make the line land. Corrected to him next turn. **A crew line that cites a pattern needs the count checked in the ledger or morning-person file first.**
+
+- **2026-10-07 13:38: called a non-answer a "dodge".** Asked about the Sun 4 Oct run once, he answered about Mon/Tue instead (likely just read past it), and Vera framed it as stepping around the question "twice". He had run 6K. Read intent into silence and put it in Vera's mouth. **One unanswered question is a missed question, not a dodge: re-ask it plainly before naming a pattern.**
