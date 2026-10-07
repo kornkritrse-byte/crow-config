@@ -605,6 +605,7 @@ function splitEvent(t) {
     .replace(/\s+([.,])/g, '$1')
     .replace(/^MIDTERM \d+:\s*/i, 'Midterm: ')
     .replace(/\s{2,}/g, ' ')
+    .split(/\s+[—·→]\s+|[.;,]\s+/)[0]  // heading only; the details stay in the tooltip
     .trim();
   return { title, time: time.replace(/\s/g, '') };
 }
@@ -620,6 +621,7 @@ function paintBoard(board) {
     const days = e.days === 0 ? 'today' : e.days === 1 ? '1<small>day</small>' : `${e.days}<small>days</small>`;
     li.innerHTML = `<span class="title"></span><span class="days">${days}</span><span class="when"></span>`;
     li.querySelector('.title').textContent = title;
+    li.title = e.title;
     li.querySelector('.when').textContent = time ? `${shortDay(e.date)}, ${time}` : shortDay(e.date);
     events.append(li);
   }
