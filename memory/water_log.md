@@ -46,3 +46,4 @@ metadata:
 - 2026-10-07 13:41 | training | 6K run Sun 4 Oct, apartment → park → dinner
 - 2026-10-07 14:02 | goal | Wake early
 - 2026-10-07 16:13 | goal | Karamazov: back in, one sitting
+- 2026-10-07 18:44 | goal | Training: Easy 30′ + 4 strides

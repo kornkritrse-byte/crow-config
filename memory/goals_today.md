@@ -39,5 +39,5 @@ metadata:
 - 2026-10-07 | Karamazov: back in, one sitting | done
 - 2026-10-07 | Make something | open
 - 2026-10-07 | Wake early | done
-- 2026-10-07 | Training: Easy 30′ + 4 strides | open
+- 2026-10-07 | Training: Easy 30′ + 4 strides | done
 - 2026-10-07 | Bed by 23:30 | open
