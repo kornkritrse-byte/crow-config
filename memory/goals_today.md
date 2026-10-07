@@ -41,4 +41,5 @@ metadata:
 - 2026-10-07 | Wake early | done
 - 2026-10-07 | Training: Easy 30′ + 4 strides | done
 - 2026-10-07 | Bed by 23:30 | open
-- 2026-10-07 | Try the ripple | done
+- 2026-10-07 | Test: tap Done (ripple) | open
+- 2026-10-07 | Test: drag to dismiss | open
