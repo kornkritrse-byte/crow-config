@@ -49,3 +49,4 @@ metadata:
 - 2026-10-07 18:44 | goal | Training: Easy 30′ + 4 strides
 - 2026-10-07 21:09 | ledger | AC311 revision Sat 3 Oct morning, kept
 - 2026-10-07 21:41 | goal | Test: tap Done (ripple)
+- 2026-10-08 14:00 | training | Easy 25′ (Benchakitti, AM)
