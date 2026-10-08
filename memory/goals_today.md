@@ -49,4 +49,4 @@ metadata:
 - 2026-10-08 | Daily journal | open
 - 2026-10-08 | Reading | done
 - 2026-10-08 | Bed by 23:30 | open
-- 2026-10-08 | Finish my MK201 A2 part | open
+- 2026-10-08 | Finish my MK201 A2 part | done
