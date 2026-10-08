@@ -11,6 +11,7 @@ Standing goals are seeded at the first session of the day (Korn's list, 7 Oct):
   - "Morning creative writing"
   - "Moving"         skipped on days the plan has a training session (that IS the moving)
   - "Daily journal"
+  - "Reading"        (his ask, 8 Oct)
   - "Bed by 23:30"   checked at the NEXT session; it counts toward the day it
                      belongs to, so it has no blossom on the live flower
   - training         only on days the Road to Chombueng plan has a session
@@ -46,8 +47,8 @@ BKK = dt.timezone(dt.timedelta(hours=7))
 DAY = (dt.datetime.now(BKK) - dt.timedelta(hours=5)).date().isoformat()
 MAX_OWN = 7
 WAKE, BED = "Wake early", "Bed by 23:30"
-WRITING, MOVING, JOURNAL = "Morning creative writing", "Moving", "Daily journal"
-STANDING = (WAKE, WRITING, MOVING, JOURNAL, BED)
+WRITING, MOVING, JOURNAL, READING = "Morning creative writing", "Moving", "Daily journal", "Reading"
+STANDING = (WAKE, WRITING, MOVING, JOURNAL, READING, BED)
 TRAINING_FROM = "2026-10-05"   # training is paused until the Monday after the last midterm
 
 HEADER = """---
@@ -108,7 +109,7 @@ def seed(day):
     if goals(day) or closed(day):
         return
     t = training(day)
-    rows = [WAKE, WRITING, f"Training: {t}" if t else MOVING, JOURNAL, BED]
+    rows = [WAKE, WRITING, f"Training: {t}" if t else MOVING, JOURNAL, READING, BED]
     append([f"- {day} | {g} | open" for g in rows])
 
 

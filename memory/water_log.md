@@ -50,3 +50,6 @@ metadata:
 - 2026-10-07 21:09 | ledger | AC311 revision Sat 3 Oct morning, kept
 - 2026-10-07 21:41 | goal | Test: tap Done (ripple)
 - 2026-10-08 14:00 | training | Easy 25′ (Benchakitti, AM)
+- 2026-10-08 14:00 | goal | Wake early
+- 2026-10-08 14:00 | goal | Morning creative writing
+- 2026-10-08 14:00 | goal | Training: Easy 25′ (Benchakitti, AM)

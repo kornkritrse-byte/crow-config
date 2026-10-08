@@ -43,8 +43,9 @@ metadata:
 - 2026-10-07 | Bed by 23:30 | open
 - 2026-10-07 | Test: tap Done (ripple) | done
 - 2026-10-07 | Test: drag to dismiss | missed
-- 2026-10-08 | Wake early | open
-- 2026-10-08 | Morning creative writing | open
-- 2026-10-08 | Training: Easy 25′ (Benchakitti, AM) | open
+- 2026-10-08 | Wake early | done
+- 2026-10-08 | Morning creative writing | done
+- 2026-10-08 | Training: Easy 25′ (Benchakitti, AM) | done
 - 2026-10-08 | Daily journal | open
+- 2026-10-08 | Reading | open
 - 2026-10-08 | Bed by 23:30 | open
