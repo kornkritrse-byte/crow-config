@@ -53,3 +53,4 @@ metadata:
 - 2026-10-08 14:00 | goal | Wake early
 - 2026-10-08 14:00 | goal | Morning creative writing
 - 2026-10-08 14:00 | goal | Training: Easy 25′ (Benchakitti, AM)
+- 2026-10-08 14:02 | goal | Reading
