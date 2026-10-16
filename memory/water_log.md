@@ -58,3 +58,4 @@ metadata:
 - 2026-10-16 14:40 | ledger | 8 Oct Benjakitti run kept (confirmed 16 Oct)
 - 2026-10-16 14:47 | goal | Wake early
 - 2026-10-16 14:47 | goal | Morning creative writing
+- 2026-10-16 21:29 | goal | Moving
