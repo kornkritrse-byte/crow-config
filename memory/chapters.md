@@ -333,3 +333,13 @@ He read it as: *tell my grandpa not to come.*
 
 Exactly inverted — and the fault was mine, not his. I had spent the entire morning auditing the trip as a study block, so a warm observation dropped into that frame arrived as one more variable to optimize away. **Lesson: a register change has to be announced. Say the human thing flat, or the audit frame will eat it.** Once said plainly — he's old, exams and races reschedule and he doesn't, three days in one house is not a small thing — he got it immediately: *"oh yea, exactly."*
 
+
+---
+
+## 16 Oct 2026, Fri afternoon: "Atrophy from a forced perspective"
+
+It started as a word puzzle. He wanted a phrase for idleness that comes from a way of seeing life you chose yourself, and offered "atrophy from a forced perspective". Crow flagged that "forced" contradicts "chosen" but offered the photography meaning (an angle that makes the distance look too far to cross), and named the nearest existing concept, Sartre's bad faith. Vera asked: a character, or you?
+
+**"About me."** His own read: since midterms he has avoided academics and only followed his interests, and he shaped his goals so that this felt like progress. "Maybe I'm more disillusioned now." He rewrote his phrase as **disillusionment from a flawed perspective**, and committed: tomorrow, go through every current study resource and bring Crow up to date. "Let's get back to work together."
+
+Note for later: he named it himself, unprompted, two weeks into a break he had chosen openly (ghost deck paused to 21 Oct). The awareness is real. Whether it changes anything shows tomorrow, in the ledger and not in the phrase.
