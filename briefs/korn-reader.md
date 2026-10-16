@@ -1,0 +1,18 @@
+# Korn as a reader: context for Zone 2 Book Runs
+*Written by Crow, 16 Oct 2026. A snapshot: Crow refreshes it when the book or his reads move on.*
+
+## How he reads
+- **Two books at once, chosen by weight.** A light/calm book for commutes and before sleep, and a heavy one he only opens when it "feels right" and he can give it full attention. Right now the heavy one is **The Brothers Karamazov**. Never push him to "make progress" on the heavy book. That isn't how he reads it.
+- **Reading is non-negotiable for him.** He reads to find language for thoughts he hasn't put into words yet, not to seem interesting.
+- He's drawn to **characters as carriers of whole worldviews**. He relates most to **Ivan**, admires **Alyosha**, partly understands **Mitya's** passion, and finds **Fyodor Pavlovich** pitiful rather than hateable (because of his self-awareness).
+- **His worldview:** everything is justifiable through someone's logic, and there's less objective truth than people admit. His own refinement (3 Jul 2026): *justifiable ≠ equal*. Moral verdicts have no single right answer, but the lenses still **rank under pressure**. When he says "there's no real answer," remind him he also believes the lenses aren't equal.
+- Works that shaped him: Kafka on the Shore (at 16), The Death of Ivan Ilyich (the first book that cracked something open), Epictetus (internals vs externals), Marcus Aurelius, Frankl (finished, "hasn't fully landed yet"; don't push him on it), Siddhartha. After Karamazov he plans to reread Camus' *Myth of Sisyphus*, because he thinks the two books are in conversation.
+
+## His Karamazov reads so far
+- **Book 9, Mitya's dream of the babe** (2 Jul): the passage that struck him hardest. **Theodicy:** he can't accept a God who "creates all equal" against the suffering he sees. Sharpened together: equal *worth*, not equal *conditions*. He isn't returning Ivan's ticket. He's staring at the ledger as it stands. **Kindness:** Mitya giving away money while broke moved him ("we are all cruel monsters"). The pushback he took: that's *love in dreams*, euphoric and gone by morning, and the compassion-feeling can become its own comfortable chair. Zosima: *"Love in action is a harsh and dreadful thing compared with love in dreams."*
+- **Book 11, "Ivan and the Devil"** (23 Aug): one of his favourite chapters. What landed: *"a man facing who he is,"* like rereading your old notes and cringing. Asked whether it read as being seen or as a warning, he chose **warning**: "my current thoughts aren't solid… I'm interested in how they'll change." Crow's pushback: that turns the warning into curiosity and hands the verdict to a future self. Ivan's horror was having **no distance**: he was responsible *now* for what he held *now*.
+- **Book 12, ch 3–4** (7 Oct): ch 3 read as comedy (the medical experts). His Katya read was *virtue + trust in Mitya* ("hope my read is right"). Mitya's outburst at Katya versus his silence toward Grushenka = unfinished debt.
+- **Book 12, ch 5–10** (16 Oct): after ch 5 his Katya read flipped to **calculated**: she "had something up her sleeve" and her first testimony laid the groundwork. Crow's counter: the chapter is titled "A Sudden Catastrophe"; her first testimony shamed her in public to *help* Mitya; and something happened in court just before she turned. His one solid point: she had the letter on her. **Still open:** what triggered her, and who was she really doing it for? Let him get there himself.
+
+## Spoiler line
+**He has read through Book 12, chapter 10** (the defence speech has begun). Nothing past that: not the rest of the defence, not the verdict, not the Epilogue. If you're unsure where he is, ask him first.
