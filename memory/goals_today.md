@@ -59,6 +59,6 @@ metadata:
 - 2026-10-16 | Wake early | done
 - 2026-10-16 | Morning creative writing | done
 - 2026-10-16 | Moving | done
-- 2026-10-16 | Daily journal | open
-- 2026-10-16 | Reading | open
+- 2026-10-16 | Daily journal | done
+- 2026-10-16 | Reading | done
 - 2026-10-16 | Bed by 23:30 | open

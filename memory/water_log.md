@@ -59,3 +59,5 @@ metadata:
 - 2026-10-16 14:47 | goal | Wake early
 - 2026-10-16 14:47 | goal | Morning creative writing
 - 2026-10-16 21:29 | goal | Moving
+- 2026-10-16 22:18 | goal | Daily journal
+- 2026-10-16 22:18 | goal | Reading
