@@ -9,6 +9,11 @@ metadata:
   modified: 2026-09-13T01:30:25.289Z
 ---
 
+## ⏱️ 2026-10-13/14 — 5K TT: BLEW UP, NO CLEAN BASELINE (reported 16 Oct 14:39)
+- His words: went out at **4:12/km**, "couldn't finish", **stopped at ~3.6 km** (~15:07 if pace held). 4:12 = **21:00 5K pace**, ~55 s/km faster than the 27 Aug TT (25:30) and faster than the 4 Nov milestone (sub-24:00 = 4:48). Probably anchored on the 7 Oct strides @ 4:00. Was planned for Tue 13 AM in Pattaya (heat), date not re-confirmed.
+- **Read (guess):** a pacing failure, not a fitness one. Holding 4:12 for 3.6 km means fitness moved a lot since August; true 5K now maybe **~22:30–23:30**. If so, the 10K 48:00 target (4:48) is on track. Re-set paces only off a CLEAN effort → the **4 Nov TT** with a pace cap on the first 3 km.
+- ⌚ **Watch: Garmin Forerunner 165** (new, Oct 2026) replaces the Suunto. Use pace alerts / workouts to cap TT starts; HRV status needs ~3 weeks of sleep wear to baseline.
+
 ## 🗓️ 2026-10-04 — RE-DAYED BY KORN + slow rebuild (CURRENT STRUCTURE, supersedes the Sun-long/Thu-quality layout below)
 - **His week:** **Mon + Sat** gym + easy treadmill (uni days) · **Wed** quality · **SUN** long run. Four runs/wk. Chosen by him 14:40–14:49 Sun 4 Oct, the first day after midterms.
 - **Long run = SUNDAY, 05:30** (05:00 on rehearsals). He first picked Friday (would skip/go late to EL), then at 14:49 moved it to Sunday himself: "so if I do go to class I can have energy". Matches both races' weekday. Friday is now free of training except race-week easy runs.
