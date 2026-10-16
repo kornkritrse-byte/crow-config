@@ -61,3 +61,5 @@ metadata:
 - 2026-10-16 21:29 | goal | Moving
 - 2026-10-16 22:18 | goal | Daily journal
 - 2026-10-16 22:18 | goal | Reading
+- 2026-10-16 22:25 | goal | Daily journal
+- 2026-10-16 22:25 | goal | Reading
