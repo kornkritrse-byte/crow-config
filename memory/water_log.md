@@ -56,3 +56,5 @@ metadata:
 - 2026-10-08 14:02 | goal | Reading
 - 2026-10-08 14:30 | goal | Finish my MK201 A2 part
 - 2026-10-16 14:40 | ledger | 8 Oct Benjakitti run kept (confirmed 16 Oct)
+- 2026-10-16 14:47 | goal | Wake early
+- 2026-10-16 14:47 | goal | Morning creative writing
