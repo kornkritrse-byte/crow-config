@@ -342,3 +342,8 @@ He set his own stop time at 16:4x when the night was still theoretical, pushed b
 > "Make for thyself a definition or description of the thing which is presented to thee, so as to see distinctly what kind of a thing it is in its substance… and tell thyself its proper name."
 > — **Marcus Aurelius**, *Meditations*, III.11 (George Long trans.)
 **Why:** The BA202 eve. Nearly every miss today had the same shape: he grabbed the most visible thing in a row (25%, 60k, "brought into Thailand", "Before:") and answered from it, before naming what it actually was: a condition or a result, Q2 or Q4. Marcus's exercise is the fix in his own reading list: see the thing for what it is and name it before you react. Tomorrow's paper rewards exactly that.
+
+## 2026-10-16 — Dostoevsky, *The Brothers Karamazov*, Book 2 ch. 2
+> "Above all, don't lie to yourself. The man who lies to himself and listens to his own lie comes to a point that he cannot distinguish the truth within him, or around him, and so loses all respect for himself and for others."
+> — **Fyodor Dostoevsky**, *The Brothers Karamazov* (Zosima to Fyodor Pavlovich; Garnett trans.)
+**Why:** The day he named it himself: two weeks of interests dressed up as progress, "disillusionment from a flawed perspective." Zosima said it in the first hundred pages of the book he's now finishing. The illusion is a lie you tell yourself and then believe; today he stopped believing it.

@@ -11,6 +11,16 @@ metadata:
 
 # Sessions Log (archive)
 
+## 2026-10-07 (Wed; first since 4 Oct)
+- Ghost deck + drills PAUSED to 21 Oct (his call). Runs: 6 Oct 10K chill; 7 Oct Z2 35′ @ ~8:00 + 4×1′ @ 4:00 (strides overcooked). Karamazov Bk 12 ch 3–4 (Katya = virtue + trust; later flipped, see 16 Oct). AI-risk talk: "catapult not crutch". MK201 A2: Armoire pitch (group later went another way). Standing daily goals added. Pattaya trip planned (didn't happen). I called something a dodge before he answered → [[crow-error-log]].
+
+## 2026-10-04 (Sun; midterms over)
+- Café, "something productive". Coldesthoops CLOSED ("that's done"). Run plan re-dayed by him (Mon+Sat gym+easy · Wed quality · Sun long 05:30) → [[project-training-plan]]. Commonplace book pitched → he chose the run plan; first entry (Marcus) done 15:39.
+
+## Flushed sections (16 Oct): the flood (26 Sep) + Midterms 1
+- Flood: neighbourhood under water, his home fine; grandpa's brother's family moved to a hotel; leptospirosis warning given 27 Sep. Concert Sat 3 Oct (bass). Midterms: all 6 sat by 4 Oct; BA202 on Fri 2 Oct 13:00 with the v3 sheet; details → [[project-midterms]].
+
+
 ## 2026-10-01 (BA202 eve: the full skeleton day)
 - 09:31 **morning run** ("been a while"); counts for the habit ([[project-morning-person]]). Ghost #24 pass. Flower: **5/6** (run, wake, skeleton, cards, gym), bed pending.
 - 10:03–13:57 **9 PIT steps + every branch**, sheet open, question-first. Steps cold: 8 in the wrong order → **9 in order** by 13:57. 9 misses ghosted (lines 48–56). Nap 10:32 (20 planned, ~40 taken; Vera: a reason, not an excuse, if decided out loud).
