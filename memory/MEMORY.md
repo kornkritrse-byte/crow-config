@@ -42,6 +42,7 @@
 - [Spotify Mood Check](feedback_spotify_mood.md) — late-night sessions (21:00–05:00): check now-playing ONCE on his first message, one-line guess, log it; his standing ask 27 Sep
 - [Recall First](feedback_recall_first.md) — Korn mentions a name/event/decision not in loaded context → `bash ~/crow-config/bin/recall.sh "<term>"` (live memory + git history) BEFORE saying "I don't remember" or asking him to re-explain
 - [Design for the Room](feedback_design_for_the_room.md) — build live-run systems for how fast they can be EXPLAINED, not how airtight they are; the รับน้อง game failed on complexity, not on cheating
+- [Crew Voices](feedback_crew_voices.md) — he welcomed the crew speaking again (16 Oct); let the fitting member talk in their own line when the moment matches their lane, no roll calls
 - [Critical Assessment](feedback_critical_assessment.md) — default: steelman objections before agreeing, never flatter, follow logic over comfort
 - [Transparency Preference](feedback_transparency.md) — call out when something sounds off, blatantly — Vera's role, no permission needed
 - [Confirm Before Sending](feedback_confirm_before_sending.md) — always confirm before sending calendar invites or emails to other people — no exceptions
