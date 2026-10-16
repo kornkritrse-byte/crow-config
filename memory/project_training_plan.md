@@ -10,7 +10,7 @@ metadata:
 ---
 
 ## ⏱️ 2026-10-13/14 — 5K TT: BLEW UP, NO CLEAN BASELINE (reported 16 Oct 14:39)
-- His words: went out at **4:12/km**, "couldn't finish", **stopped at ~3.6 km** (~15:07 if pace held). 4:12 = **21:00 5K pace**, ~55 s/km faster than the 27 Aug TT (25:30) and faster than the 4 Nov milestone (sub-24:00 = 4:48). Probably anchored on the 7 Oct strides @ 4:00. Was planned for Tue 13 AM in Pattaya (heat), date not re-confirmed.
+- **Strava: 3.51 km @ 4:15/km (~14:55), then stopped.** Run in Bangkok: the Pattaya trip didn't happen. He logs runs on **Strava**. Volume: **30+ km week 5–11 Oct, ~30 again 12–18 Oct** (his words), which is roughly plan level for W1–W2. 4:12 = **21:00 5K pace**, ~55 s/km faster than the 27 Aug TT (25:30) and faster than the 4 Nov milestone (sub-24:00 = 4:48). Probably anchored on the 7 Oct strides @ 4:00. Exact date not given (Pattaya trip cancelled).
 - **Read (guess):** a pacing failure, not a fitness one. Holding 4:12 for 3.6 km means fitness moved a lot since August; true 5K now maybe **~22:30–23:30**. If so, the 10K 48:00 target (4:48) is on track. Re-set paces only off a CLEAN effort → the **4 Nov TT** with a pace cap on the first 3 km.
 - ⌚ **Watch: Garmin Forerunner 165** (new, Oct 2026) replaces the Suunto. Use pace alerts / workouts to cap TT starts; HRV status needs ~3 weeks of sleep wear to baseline.
 
