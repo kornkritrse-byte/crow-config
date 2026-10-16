@@ -50,3 +50,15 @@ metadata:
 - 2026-10-08 | Reading | done
 - 2026-10-08 | Bed by 23:30 | open
 - 2026-10-08 | Finish my MK201 A2 part | done
+- 2026-10-09 | Wake early | open
+- 2026-10-09 | Morning creative writing | open
+- 2026-10-09 | Moving | open
+- 2026-10-09 | Daily journal | open
+- 2026-10-09 | Reading | open
+- 2026-10-09 | Bed by 23:30 | open
+- 2026-10-16 | Wake early | open
+- 2026-10-16 | Morning creative writing | open
+- 2026-10-16 | Moving | open
+- 2026-10-16 | Daily journal | open
+- 2026-10-16 | Reading | open
+- 2026-10-16 | Bed by 23:30 | open
