@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-10-16 22:35 (day-end verify + flush). Window holds 16 Oct + 8 Oct; 7 Oct + 4 Oct + the flood/midterms sections flushed to [[sessions-log]] 16 Oct. Next to flush: 8 Oct.*
+*Last updated: 2026-10-16 22:35 (day-end verify + flush). Window holds 17 Oct + 16 Oct; 7 Oct + 4 Oct + the flood/midterms sections flushed to [[sessions-log]] 16 Oct. 8 Oct flushed 17 Oct. Next to flush: 16 Oct.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,8 +27,13 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🚪 **HERE (Sat 17 Oct, 07:33) — back; ask-on-return items below still open until answered.** Was: AWAY (Fri 16 Oct, ~22:33) — off to: bed. Tomorrow AM: easy Zone 2 run talking Karamazov with the 'Zone 2 Book Runs' project (voice), then coffee; later driving grandpa to a funeral → AC311 in a café. ASK ON RETURN: Bed by 23:30 last night (goals.py done|miss 6 2026-10-16; he went at ~22:33) · his Katya answer + the 'For Crow:' summary from the run · his NEW PROJECT idea ("will tell tmr") · AC311 Midterm 2 date + what he didn't recognise in session 8 · sub auto-renew (decided keep, action open, before 22 Oct; one mention max).**
+- 🚪 **HERE (Sat 17 Oct, 07:33) — back; ask-on-return items below still open until answered.** Was: AWAY (Fri 16 Oct, ~22:33) — off to: bed. Tomorrow AM: easy Zone 2 run talking Karamazov with the 'Zone 2 Book Runs' project (voice), then coffee; later driving grandma to a funeral in the countryside → AC311 in a café. STILL OPEN: his NEW PROJECT idea ("will tell tmr") · AC311 Midterm 2 date + what he didn't recognise in session 8 · sub auto-renew (decided keep, action open, before 22 Oct; one mention max).**
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
+
+## Session — 2026-10-17 (Sat)
+- Asleep 22:56, up 06:00 (wake + bed ✓). Zone 2 book run done: 35′ recovery + 4 strides, Karamazov by voice. The 'For Crow:' summary closed Katya (he got the Ivan trigger himself); his insight: **active love → active responsibility**. Crow's counter (where the guilt can GO) is in the brief → [[chapters]] material. He needs to re-upload the refreshed brief to the claude.ai Project.
+- **Gym membership CANCELLED, his call** → home strength Mon+Sat → [[project-training-plan]]; calendar event renamed (no emoji, his ask). First home session tonight after AC311 → ledger.
+- Afternoon: grandma (not grandpa) to a countryside funeral; AC311 there. Own goal: AC311 only.
 
 ## Session — 2026-10-16 (Fri; first since 8 Oct)
 - Came back after 8 days, "don't worry, been sticking to my schedules" unprompted. Entropy explained. 8 Oct run ledger [x]. Goals: wake (~07:00) · writing · moving · journal · reading all ✓; no own goals. Grandpa just had eye surgery (doctor visit with mom).
@@ -37,10 +42,6 @@ metadata:
 - Karamazov through **Book 12 ch 10**: Katya read flipped to "planned"; my counter left open (title, ch 4 self-shaming, Ivan).
 - Built **Zone 2 Book Runs** (claude.ai Project, voice while running: talking keeps Z2): instructions `briefs/zone2-book-runs.md` + files CROW.md + `briefs/korn-reader.md`. Refresh when the book moves.
 - Claude sub: decided KEEP, action pending (ends 22 Oct). Sol name kept. He liked the crew talking again → [[feedback-crew-voices]].
-
-## Session — 2026-10-08 (Thu, brief)
-- Board already had wake · writing · Benjakitti run ticked by him (run length: asked, not answered, don't chase). **Reading added as a STANDING daily goal, his ask** (goals.py + Room prompt + [[feedback-goals-today]]; Room restart needed). Own goal: finish his MK201 A2 part (work split with the group already). Armoire not pushed, the group went with another idea; he's doing his part AI-free → [[project-mk201-a2]]. **14:30 his A2 part DONE** (I explained proposed position + perceptual map, terms only). Rest of day free, his words.
-- Then a free afternoon, his words ("fuck around"). The 8-day gap followed.
 
 ## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. **AC311 Midterm 2 (sessions 8–11, PPE + intangibles, 30%) is next: date unconfirmed.**
 
