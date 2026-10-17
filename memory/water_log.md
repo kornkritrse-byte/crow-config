@@ -68,3 +68,4 @@ metadata:
 - 2026-10-17 07:36 | training | Sat 17 Oct easy recovery run + strides (Zone 2 book run, Karamazov)
 - 2026-10-17 15:19 | goal | AC311 study (café, during the funeral)
 - 2026-10-17 15:19 | ledger | AC311 study re-entry kept (17 Oct)
+- 2026-10-17 15:20 | goal | Morning creative writing
