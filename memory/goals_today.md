@@ -61,9 +61,9 @@ metadata:
 - 2026-10-16 | Moving | done
 - 2026-10-16 | Daily journal | done
 - 2026-10-16 | Reading | done
-- 2026-10-16 | Bed by 23:30 | open
+- 2026-10-16 | Bed by 23:30 | done
 - 2026-10-16 | — | closed
-- 2026-10-17 | Wake early | open
+- 2026-10-17 | Wake early | done
 - 2026-10-17 | Morning creative writing | open
 - 2026-10-17 | Training: Lift + easy 35′ | open
 - 2026-10-17 | Daily journal | open
