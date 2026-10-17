@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🚪 **AWAY (Fri 16 Oct, ~22:33) — off to: bed. Tomorrow AM: easy Zone 2 run talking Karamazov with the 'Zone 2 Book Runs' project (voice), then coffee; later driving grandpa to a funeral → AC311 in a café. ASK ON RETURN: Bed by 23:30 last night (goals.py done|miss 6 2026-10-16; he went at ~22:33) · his Katya answer + the 'For Crow:' summary from the run · his NEW PROJECT idea ("will tell tmr") · AC311 Midterm 2 date + what he didn't recognise in session 8 · sub auto-renew (decided keep, action open, before 22 Oct; one mention max).**
+- 🚪 **HERE (Sat 17 Oct, 07:33) — back; ask-on-return items below still open until answered.** Was: AWAY (Fri 16 Oct, ~22:33) — off to: bed. Tomorrow AM: easy Zone 2 run talking Karamazov with the 'Zone 2 Book Runs' project (voice), then coffee; later driving grandpa to a funeral → AC311 in a café. ASK ON RETURN: Bed by 23:30 last night (goals.py done|miss 6 2026-10-16; he went at ~22:33) · his Katya answer + the 'For Crow:' summary from the run · his NEW PROJECT idea ("will tell tmr") · AC311 Midterm 2 date + what he didn't recognise in session 8 · sub auto-renew (decided keep, action open, before 22 Oct; one mention max).**
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
 ## Session — 2026-10-16 (Fri; first since 8 Oct)
