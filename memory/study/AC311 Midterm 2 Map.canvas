@@ -278,11 +278,12 @@
   {
    "id": "n7",
    "type": "text",
-   "text": "Deferred payment\ncash price; the rest is interest · s20–21",
+   "text": "Deferred payment\ncash price; the rest is interest · s20–21\n⚠ said cost = 280,000 (total payments); it's the CASH price 250,000, the rest is interest (ghost card)",
    "x": 2800,
    "y": 615,
    "width": 360,
-   "height": 150
+   "height": 150,
+   "color": "2"
   },
   {
    "id": "n8",
