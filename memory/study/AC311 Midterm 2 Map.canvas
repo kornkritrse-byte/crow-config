@@ -3,95 +3,22 @@
   {
    "id": "n3",
    "type": "text",
-   "text": "**1. What it is** ✓\nWhy is it held?\nUSE → PPE · EARN (rent/value) → Investment property · SELL → Inventory\nTAS 40 = land & buildings only; rented-out cars = PPE",
+   "text": "**1. What it is** ✓\nWhy is it held?\nUSE → PPE · EARN (rent/value) → Investment property · SELL → Inventory\nTAS 40 = land & buildings only; rented-out cars = PPE\n⚠ shaky: put a rented-out building and rental cars in the wrong bucket (2 ghost cards). Car dealer split = right.",
    "x": 880,
    "y": 0,
    "width": 380,
-   "height": 150,
-   "color": "4"
+   "height": 170,
+   "color": "2"
   },
   {
    "id": "n4",
    "type": "text",
-   "text": "**2. Recognition** ✓\n① PROBABLE future benefits flow to the entity\n② cost MEASURED RELIABLY\n(never 'certain')",
+   "text": "**2. Recognition** ✓\n① PROBABLE future benefits flow to the entity\n② cost MEASURED RELIABLY\n(never 'certain')\nsolid: built both conditions himself",
    "x": 880,
    "y": 180,
    "width": 380,
-   "height": 150,
+   "height": 170,
    "color": "4"
-  },
-  {
-   "id": "n6",
-   "type": "text",
-   "text": "Basket purchase\nsplit by fair value · s18–19",
-   "x": 1380,
-   "y": 360,
-   "width": 360,
-   "height": 150
-  },
-  {
-   "id": "n7",
-   "type": "text",
-   "text": "Deferred payment\ncash price; the rest is interest · s20–21",
-   "x": 1380,
-   "y": 540,
-   "width": 360,
-   "height": 150
-  },
-  {
-   "id": "n8",
-   "type": "text",
-   "text": "Issue shares for it\nFV of the shares · s22",
-   "x": 1380,
-   "y": 720,
-   "width": 360,
-   "height": 150
-  },
-  {
-   "id": "n9",
-   "type": "text",
-   "text": "Exchange\nFV given up + cash · s23–24\n⚠ commercial substance: not in deck",
-   "x": 1380,
-   "y": 900,
-   "width": 360,
-   "height": 150
-  },
-  {
-   "id": "n10",
-   "type": "text",
-   "text": "Donation\nFV · Cr capital or other income · s25",
-   "x": 1380,
-   "y": 1080,
-   "width": 360,
-   "height": 150
-  },
-  {
-   "id": "n11",
-   "type": "text",
-   "text": "Self-construction + borrowing costs (TAS 23)\nqualifying asset · capitalisation period · lesser of actual vs avoidable · s26–31",
-   "x": 1380,
-   "y": 1260,
-   "width": 360,
-   "height": 150
-  },
-  {
-   "id": "n12",
-   "type": "text",
-   "text": "Dismantling cost (ARO)\nPV into cost, unwind as interest · s36–41",
-   "x": 1380,
-   "y": 1440,
-   "width": 360,
-   "height": 150
-  },
-  {
-   "id": "n5",
-   "type": "text",
-   "text": "**3. Cost at acquisition** ← now\nprice − trade discounts + directly attributable + dismantling (ARO)\nNOT: opening, ads, training, admin  · s15–42",
-   "x": 880,
-   "y": 900,
-   "width": 380,
-   "height": 150,
-   "color": "3"
   },
   {
    "id": "n13",
@@ -181,15 +108,6 @@
    "x": 880,
    "y": 2880,
    "width": 380,
-   "height": 150
-  },
-  {
-   "id": "n2",
-   "type": "text",
-   "text": "## PPE (TAS 16, 23)\nSessions 8–9 · 101-slide deck",
-   "x": 420,
-   "y": 1440,
-   "width": 340,
    "height": 150
   },
   {
@@ -296,11 +214,93 @@
   {
    "id": "legend",
    "type": "text",
+   "text": "**Legend**\n🟩 done · 🟨 now · ⬜ not yet · 🟥 not taught · 🟪 parked\nCrow updates the colours as blocks close.\n🟧 shaky (see the ⚠ line)",
    "x": 0,
    "y": -260,
    "width": 420,
-   "height": 170,
-   "text": "**Legend**\n🟩 done · 🟨 now · ⬜ not yet · 🟥 not taught · 🟪 parked\nCrow updates the colours as blocks close."
+   "height": 170
+  },
+  {
+   "id": "n2",
+   "type": "text",
+   "text": "## PPE (TAS 16, 23)\nSessions 8–9 · 101-slide deck",
+   "x": 360,
+   "y": 1800,
+   "width": 340,
+   "height": 150
+  },
+  {
+   "id": "n9",
+   "type": "text",
+   "text": "Exchange\nFV given up + cash · s23–24\n⚠ commercial substance: not in deck",
+   "x": 2800,
+   "y": 975,
+   "width": 360,
+   "height": 150
+  },
+  {
+   "id": "n10",
+   "type": "text",
+   "text": "Donation\nFV · Cr capital or other income · s25",
+   "x": 2800,
+   "y": 1155,
+   "width": 360,
+   "height": 150
+  },
+  {
+   "id": "n11",
+   "type": "text",
+   "text": "Self-construction + borrowing costs (TAS 23)\nqualifying asset · capitalisation period · lesser of actual vs avoidable · s26–31",
+   "x": 2800,
+   "y": 1335,
+   "width": 360,
+   "height": 150
+  },
+  {
+   "id": "n12",
+   "type": "text",
+   "text": "Dismantling cost (ARO)\nPV into cost, unwind as interest · s36–41",
+   "x": 2800,
+   "y": 1515,
+   "width": 360,
+   "height": 150
+  },
+  {
+   "id": "n6",
+   "type": "text",
+   "text": "Basket purchase\nsplit by fair value · s18–19",
+   "x": 2800,
+   "y": 435,
+   "width": 360,
+   "height": 150
+  },
+  {
+   "id": "n7",
+   "type": "text",
+   "text": "Deferred payment\ncash price; the rest is interest · s20–21",
+   "x": 2800,
+   "y": 615,
+   "width": 360,
+   "height": 150
+  },
+  {
+   "id": "n8",
+   "type": "text",
+   "text": "Issue shares for it\nFV of the shares · s22",
+   "x": 2800,
+   "y": 795,
+   "width": 360,
+   "height": 150
+  },
+  {
+   "id": "n5",
+   "type": "text",
+   "text": "**3. Cost at acquisition** ← now\nprice − trade discounts + directly attributable + dismantling (ARO)\nNOT: opening, ads, training, admin  · s15–42",
+   "x": 880,
+   "y": 945,
+   "width": 380,
+   "height": 150,
+   "color": "3"
   }
  ],
  "edges": [
