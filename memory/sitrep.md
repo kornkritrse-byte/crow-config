@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🚪 **AWAY-ish (Sat 17 Oct, ~15:12) — off to: pick grandma up from the funeral, then home strength this evening (ledger). AC311 session 1 done 14:41–15:12 at a café: PPE blocks 1–3 up to deferred payment, stopped mid deferred payment (next: the 1 Jan entry: Dr Equipment 250,000 / Cr Cash 50,000, Payable 200,000). Map = study/AC311 Midterm 2 Map.canvas. ASK ON RETURN: home strength done? · M2 date.** STILL OPEN: his NEW PROJECT idea ("will tell tmr") · AC311 Midterm 2 date + what he didn't recognise in session 8 · sub auto-renew (decided keep, action open, before 22 Oct; one mention max).**
+- 🚪 **AWAY (Sat 17 Oct, ~15:19) — off to: pick grandma up from the funeral, then home strength this evening (ledger). AC311 session 1 DONE 14:41–15:19 at a café: PPE blocks 1–3 through deferred payment (4 ghost cards from today). Next session starts at 'issue shares for an asset'. Map = study/AC311 Midterm 2 Map.canvas. ASK ON RETURN: home strength done? · M2 date.**
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
 ## Session — 2026-10-17 (Sat)

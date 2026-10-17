@@ -69,4 +69,4 @@ metadata:
 - 2026-10-17 | Daily journal | open
 - 2026-10-17 | Reading | open
 - 2026-10-17 | Bed by 23:30 | open
-- 2026-10-17 | AC311 study (café, during the funeral) | open
+- 2026-10-17 | AC311 study (café, during the funeral) | done

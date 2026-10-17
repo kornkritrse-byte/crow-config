@@ -288,11 +288,12 @@
   {
    "id": "n8",
    "type": "text",
-   "text": "Issue shares for it\nFV of the shares · s22",
+   "text": "Issue shares for it\nFV of the shares · s22\n← next session starts here",
    "x": 2800,
    "y": 795,
    "width": 360,
-   "height": 150
+   "height": 150,
+   "color": "3"
   },
   {
    "id": "n5",
