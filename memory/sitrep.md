@@ -27,11 +27,11 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🚪 **Here (Sun 18 Oct, 13:16).** Open: bed by 23:30 on 17 Oct? · goals today · AC311 M2 date · today is Long 10 km on the plan, he called it a rest day.
+- 🚪 **Here (Sun 18 Oct, 13:16).** Open: goals today · AC311 M2 date. Long 10 km moved to Mon 19 AM (ledger).
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
 ## Session — 2026-10-18 (Sun)
-- 13:16: strength skipped last night (ledger [-]), ran 30′ @ 5:30. Called today a rest day, but the plan has Long 10 km today.
+- 13:16: strength skipped last night (ledger [-]), ran 30′ @ 5:30. Called today a rest day, but the plan had Long 10 km today → he MOVED it to Mon 19 AM (lift Mon PM, easy 35′ dropped). Bed 17 Oct ✓.
 - MK201 10% group presentation (วิ่งแลกแว่น, 8 slides/10 min): Crow critiqued the outline (slide 5 → name Kotler Ch 3/5/7/8, slide 7 needs evidence). **His part: slide 4 "Why did eyewear brands join the trend?"** → sketched.
 
 ## Session — 2026-10-17 (Sat)
