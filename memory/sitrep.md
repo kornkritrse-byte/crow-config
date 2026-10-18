@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🚪 **Here (Sun 18 Oct, 13:16).** Open: goals today · AC311 M2 date. Long 10 km moved to Mon 19 AM (ledger).
+- 🚪 **AWAY (Sun 18 Oct, ~17:53) — off to: food. Then back to the clothing brand (core v0 done, map at `brand/Brand Map.canvas`). ASK ON RETURN: did the core go to Patrick yet? · AC311 M2 date. Long 10 km Mon 19, 05:30 → asleep ~22:30 tonight.** (Goals today: asked once, unanswered; don't re-push.)
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
 ## Session — 2026-10-18 (Sun)
