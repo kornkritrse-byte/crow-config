@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-10-16 22:35 (day-end verify + flush). Window holds 17 Oct + 16 Oct; 7 Oct + 4 Oct + the flood/midterms sections flushed to [[sessions-log]] 16 Oct. 8 Oct flushed 17 Oct. Next to flush: 16 Oct.*
+*Last updated: 2026-10-16 22:35 (day-end verify + flush). Window holds 17 Oct + 16 Oct; 7 Oct + 4 Oct + the flood/midterms sections flushed to [[sessions-log]] 16 Oct. 8 Oct flushed 17 Oct. 16 Oct flushed 18 Oct. Next to flush: 17 Oct.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,21 +27,17 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🚪 **AWAY (Sat 17 Oct, ~18:26) — back home from the funeral, then off to: a light evening run with a friend + calisthenics at the park (this replaces tonight's home strength session). AC311 session 1 done 14:41–15:19 (PPE blocks 1–3); next starts at 'issue shares'. Tomorrow: Long 10 km, Sun 05:30. ASK ON RETURN: what did the park session actually cover (pull/push)? · bed by 23:30 · M2 date.**
+- 🚪 **Here (Sun 18 Oct, 13:16).** Open: bed by 23:30 on 17 Oct? · goals today · AC311 M2 date · today is Long 10 km on the plan, he called it a rest day.
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
+
+## Session — 2026-10-18 (Sun)
+- 13:16: strength skipped last night (ledger [-]), ran 30′ @ 5:30. Called today a rest day, but the plan has Long 10 km today.
+- MK201 10% group presentation (วิ่งแลกแว่น, 8 slides/10 min): Crow critiqued the outline (slide 5 → name Kotler Ch 3/5/7/8, slide 7 needs evidence). **His part: slide 4 "Why did eyewear brands join the trend?"** → sketched.
 
 ## Session — 2026-10-17 (Sat)
 - Asleep 22:56, up 06:00 (wake + bed ✓). Zone 2 book run done: 35′ recovery + 4 strides, Karamazov by voice. The 'For Crow:' summary closed Katya (he got the Ivan trigger himself); his insight: **active love → active responsibility**. Crow's counter (where the guilt can GO) is in the brief → [[chapters]] material. He needs to re-upload the refreshed brief to the claude.ai Project.
 - **Gym membership CANCELLED, his call** → home strength Mon+Sat → [[project-training-plan]]; calendar event renamed (no emoji, his ask). First home session tonight after AC311 → ledger.
 - Afternoon: grandma (not grandpa) to a countryside funeral; AC311 there. Own goal: AC311 only.
-
-## Session — 2026-10-16 (Fri; first since 8 Oct)
-- Came back after 8 days, "don't worry, been sticking to my schedules" unprompted. Entropy explained. 8 Oct run ledger [x]. Goals: wake (~07:00) · writing · moving · journal · reading all ✓; no own goals. Grandpa just had eye surgery (doctor visit with mom).
-- **5K TT: 3.51 km @ 4:15 then stopped** (Bangkok, Pattaya didn't happen) = pacing failure; 30+ km weeks ×2; **new Garmin FR165**, VO2max 55 not trusted; ran Garmin's 30′ @ 5:30 on a plan off-day → plan decides the day → [[project-training-plan]].
-- **17:25 named his pattern himself:** interests dressed up as progress since midterms → "disillusionment from a flawed perspective" → [[chapters]]. Study re-entry Sat 17 (AC311 first, M2 30% date unconfirmed) → ledger.
-- Karamazov through **Book 12 ch 10**: Katya read flipped to "planned"; my counter left open (title, ch 4 self-shaming, Ivan).
-- Built **Zone 2 Book Runs** (claude.ai Project, voice while running: talking keeps Z2): instructions `briefs/zone2-book-runs.md` + files CROW.md + `briefs/korn-reader.md`. Refresh when the book moves.
-- Claude sub: decided KEEP, action pending (ends 22 Oct). Sol name kept. He liked the crew talking again → [[feedback-crew-voices]].
 
 ## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. **AC311 Midterm 2 (sessions 8–11, PPE + intangibles, 30%) is next: date unconfirmed.**
 

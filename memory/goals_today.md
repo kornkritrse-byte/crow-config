@@ -70,9 +70,9 @@ metadata:
 - 2026-10-17 | Reading | open
 - 2026-10-17 | Bed by 23:30 | open
 - 2026-10-17 | AC311 study (café, during the funeral) | done
-- 2026-10-18 | Wake early | open
+- 2026-10-18 | Wake early | done
 - 2026-10-18 | Morning creative writing | open
-- 2026-10-18 | Training: Long 10 km | open
+- 2026-10-18 | Training: Long 10 km | missed
 - 2026-10-18 | Daily journal | open
 - 2026-10-18 | Reading | open
 - 2026-10-18 | Bed by 23:30 | open

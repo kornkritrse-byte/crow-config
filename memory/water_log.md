@@ -69,3 +69,5 @@ metadata:
 - 2026-10-17 15:19 | goal | AC311 study (café, during the funeral)
 - 2026-10-17 15:19 | ledger | AC311 study re-entry kept (17 Oct)
 - 2026-10-17 15:20 | goal | Morning creative writing
+- 2026-10-18 13:16 | training | Easy run 30′ @ 5:30 (17 Oct evening)
+- 2026-10-18 13:17 | goal | Wake early

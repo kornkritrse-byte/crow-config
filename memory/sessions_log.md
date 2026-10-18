@@ -11,6 +11,10 @@ metadata:
 
 # Sessions Log (archive)
 
+## 2026-10-16 (Fri; first since 8 Oct)
+- Back after 8 days, on schedule. Goals: wake · writing · moving · journal · reading ✓. Grandpa had eye surgery. 5K TT: 3.51 km @ 4:15, then stopped (pacing failure); new Garmin FR165; "the plan decides the day" → [[project-training-plan]].
+- Named his own pattern: interests dressed up as progress since midterms → [[chapters]]. Karamazov through Bk 12 ch 10. Built Zone 2 Book Runs. Claude sub: KEEP (action pending, ends 22 Oct). Liked the crew talking again → [[feedback-crew-voices]].
+
 ## 2026-10-08 (Thu, brief)
 - Board ticked by him: wake · writing · Benjakitti run. Reading made a STANDING daily goal (his ask). MK201 A2: his part DONE 14:30, AI-free (group went with another idea than Armoire) → [[project-mk201-a2]]. Free afternoon, then an 8-day gap.
 
