@@ -24,6 +24,17 @@ Started **Sun 18 Oct 2026, 17:07**, his words: "a new important project, a longt
 **🪞 Image (17:41):** the brand he'd hate to be mistaken for = **Urban Revivo**, not from dislike (he loves some of their pieces) but because he'd feel like a copy. Crow: the proxy IS a UR Henley, so that risk is real; UR = fast fashion, lots of trend pieces, no fit philosophy, and the difference has to be nameable in one sentence side by side.
 **Crow's push:** price is a condition, not a claim; small batches can't match Uniqlo's scale, so the ≤1,000 ceiling sets the fabric budget. Get a real sample quote before locking it. Next step = flat-measure the proxy (first spec sheet).
 
+
+## 🧭 CORE v0 (built with Crow, 18 Oct 17:20–17:50, his words tidied)
+- **Belief:** most clothes are made to fit, not to work with the proportions of the man wearing them.
+- **Who:** the guy who's never wearing something "normal"; cares how a garment drapes, how much it weighs, how it changes the way he looks.
+- **Promise:** that cut and fabric at a price he can pay (≤1,000 ฿ target, unverified).
+- **Rule 1:** soft, weighted, drapes; never stiff, coarse or shiny.
+- **Rule 2:** every piece cut for proportion; nothing boxy that just hangs.
+- **Rule 3:** no trend-hopping; a trend only gets in with their own take, and only if it serves proportion.
+- **Image (17:48):** unconventional stitching / panels of different fabrics (from UR, "turns heads") · washed, distressed, looks worn but feels clean. Crow's link: seams + contrast panels are the PROPORTION TOOL (yoke widens the back, side panels taper), and garment washing is what makes heavy fabric soft (Rule 1). Cost risk: panels + washes add sewing operations and processes.
+- **Next:** send the core to Patrick, ask him to cross out one line he wouldn't sign.
+
 **Crow's opening read (18 Oct):** "quality + our style" is taste, not a core. Every small label says it, and Uniqlo sells a cheap Henley. The core has to answer: who exactly, and why this Henley over the one already on the rail. Bangkok's garment ecosystem (small cut-and-sew shops, low minimums) means a physical sample is cheap: the risk is a brand deck that never becomes a garment.
 
 **Why:** it lands two days after he named his own pattern (16 Oct: interests dressed up as progress) and alongside an open AC311 Midterm 2 + 10K training. Not a reason to kill it; a reason to watch whether it produces a garment.
