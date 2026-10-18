@@ -12,6 +12,10 @@ Started **Sun 18 Oct 2026, 17:07**, his words: "a new important project, a longt
 - **First product they both have in mind:** a **Henley**.
 - **What's missing (his words):** structure, target customer, image: "a core for the business that can hold the whole thing together."
 
+**Proxy garment (18 Oct 17:12):** a Henley Korn bought at **Urban Revivo** and cut himself to fit better (cropped); Patrick saw it and loves it. **Material tag lost in the cropping**, so fabric unknown. Patrick couldn't find one he liked at a reasonable price.
+**Their three offerings (his words):** unique garments · a good fit ("vague, talk more later") · a reasonable price, Uniqlo range, **≤1,000 THB**.
+**Crow's push:** price is a condition, not a claim; small batches can't match Uniqlo's scale, so the ≤1,000 ceiling sets the fabric budget. Get a real sample quote before locking it. Next step = flat-measure the proxy (first spec sheet).
+
 **Crow's opening read (18 Oct):** "quality + our style" is taste, not a core. Every small label says it, and Uniqlo sells a cheap Henley. The core has to answer: who exactly, and why this Henley over the one already on the rail. Bangkok's garment ecosystem (small cut-and-sew shops, low minimums) means a physical sample is cheap: the risk is a brand deck that never becomes a garment.
 
 **Why:** it lands two days after he named his own pattern (16 Oct: interests dressed up as progress) and alongside an open AC311 Midterm 2 + 10K training. Not a reason to kill it; a reason to watch whether it produces a garment.
