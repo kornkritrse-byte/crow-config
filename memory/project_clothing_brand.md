@@ -25,6 +25,8 @@ Started **Sun 18 Oct 2026, 17:07**, his words: "a new important project, a longt
 **Crow's push:** price is a condition, not a claim; small batches can't match Uniqlo's scale, so the ≤1,000 ceiling sets the fabric budget. Get a real sample quote before locking it. Next step = flat-measure the proxy (first spec sheet).
 
 
+🗺️ **Map:** `brand/Brand Map.canvas` in the Obsidian vault (core · rules · image · Henley · risks · next). Keep it in sync when the core changes.
+
 ## 🧭 CORE v0 (built with Crow, 18 Oct 17:20–17:50, his words tidied)
 - **Belief:** most clothes are made to fit, not to work with the proportions of the man wearing them.
 - **Who:** the guy who's never wearing something "normal"; cares how a garment drapes, how much it weighs, how it changes the way he looks.
