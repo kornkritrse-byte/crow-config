@@ -7,7 +7,7 @@
    "x": -1540,
    "y": -250,
    "width": 440,
-   "height": 432,
+   "height": 458,
    "color": "3"
   },
   {
@@ -293,11 +293,11 @@
   {
    "id": "next0",
    "type": "text",
-   "text": "- [ ] Send the core to Patrick: he crosses out one line\n- [ ] Put the cropped proxy on Patrick\n- [ ] Measure the proxy flat + photo the fabric\n- [ ] Uniqlo TH + UR size charts side by side\n- [ ] Get a sample quote (Bangkok cut-and-sew)\n- [ ] Find a wider-guy fit model\n- [ ] What did the UR Henley cost?\n- [ ] Brand name",
+   "text": "- [ ] Patrick does the blind ChatGPT interview → his core\n- [ ] Compare both cores side by side\n- [ ] Put the cropped proxy on Patrick\n- [ ] Measure the proxy flat + photo the fabric\n- [ ] Uniqlo TH + UR size charts side by side\n- [ ] Get a sample quote (Bangkok cut-and-sew)\n- [ ] Find a wider-guy fit model\n- [ ] What did the UR Henley cost?\n- [ ] Brand name",
    "x": -1520,
    "y": -190,
    "width": 400,
-   "height": 352,
+   "height": 378,
    "color": "3"
   }
  ],
