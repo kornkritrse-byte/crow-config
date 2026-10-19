@@ -232,11 +232,11 @@
   {
    "id": "n9",
    "type": "text",
-   "text": "Exchange\nFV given up + cash · s23–24\n⚠ commercial substance: not in deck",
+   "text": "Exchange ← now\nFV given up + cash · s23–24\n⚠ summed every number (200+120+90 = 410k): didn't know carrying amount = cost − acc dep (ghost card)\n⚠ commercial substance: not in deck",
    "x": 2800,
    "y": 1015,
    "width": 360,
-   "height": 150
+   "height": 170
   },
   {
    "id": "n10",
@@ -288,12 +288,12 @@
   {
    "id": "n8",
    "type": "text",
-   "text": "Issue shares for it ← now\nFV of the shares ON THE DATE · s22\nDr asset / Cr share capital (par) / Cr share premium (rest)\n⚠ used par (100k), reasoning 'the price moves up and down', but cost is locked on the day (ghost card)",
+   "text": "Issue shares for it ✓\nFV of the shares ON THE DATE · s22\nDr asset / Cr share capital (par) / Cr share premium (rest)\n⚠ first used par (100k), 'the price moves': cost is locked on the day (ghost card)\nsolid after: own words 'lock in on the date, only revaluation changes it' (fix: COST not worth; par = label)",
    "x": 2800,
    "y": 795,
    "width": 360,
    "height": 190,
-   "color": "3"
+   "color": "4"
   },
   {
    "id": "n5",
