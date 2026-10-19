@@ -11,6 +11,9 @@ metadata:
 
 # Sessions Log (archive)
 
+## 2026-10-17 (Sat)
+- Asleep 22:56, up 06:00 ✓. Zone 2 book run 35′ + 4 strides, Karamazov by voice; his insight: active love → active responsibility → [[chapters]]. Gym membership CANCELLED (his call) → home strength Mon+Sat → [[project-training-plan]]. Grandma to a countryside funeral; AC311 session 1 in a café (PPE blocks 1–3). Evening home strength became a park run plan; strength never happened (ledger [-]).
+
 ## 2026-10-16 (Fri; first since 8 Oct)
 - Back after 8 days, on schedule. Goals: wake · writing · moving · journal · reading ✓. Grandpa had eye surgery. 5K TT: 3.51 km @ 4:15, then stopped (pacing failure); new Garmin FR165; "the plan decides the day" → [[project-training-plan]].
 - Named his own pattern: interests dressed up as progress since midterms → [[chapters]]. Karamazov through Bk 12 ch 10. Built Zone 2 Book Runs. Claude sub: KEEP (action pending, ends 22 Oct). Liked the crew talking again → [[feedback-crew-voices]].

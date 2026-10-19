@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-10-16 22:35 (day-end verify + flush). Window holds 17 Oct + 16 Oct; 7 Oct + 4 Oct + the flood/midterms sections flushed to [[sessions-log]] 16 Oct. 8 Oct flushed 17 Oct. 16 Oct flushed 18 Oct. Next to flush: 17 Oct.*
+*Last updated: 2026-10-19 07:58 (live). Window holds 19 Oct + 18 Oct; 17 Oct flushed to [[sessions-log]] 19 Oct. Next to flush: 18 Oct.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,17 +27,16 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🚪 **AWAY (Sun 18 Oct, ~17:53) — off to: food. Then back to the clothing brand (core v0 done, map at `brand/Brand Map.canvas`). ASK ON RETURN: did the core go to Patrick yet? · AC311 M2 date. Long 10 km Mon 19, 05:30 → asleep ~22:30 tonight.** (Goals today: asked once, unanswered; don't re-push.)
+- 🚪 **AWAY (Mon 19 Oct, ~07:57) — off to: morning stuff, then AC311 session 2 (from 'issue shares'). ASK ON RETURN: AC311 M2 date · bed by 23:30 on 18 Oct.** Tonight: home strength (long run rained out, dropped this week). Patrick interview prompt ready (`brand/Core interview prompt.md`), not sent yet.
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
+
+## Session — 2026-10-19 (Mon)
+- 05:30 long run rained out (ledger [~]); up at 05:30 ✓. Crow: drop it this week, home strength tonight.
+- Brand: blind ChatGPT interview prompt for Patrick (15 Qs, v3) → `brand/Core interview prompt.md`; explained how a clothing site works (sample → photos → IG/LINE → website). Goal: AC311 study (ledger).
 
 ## Session — 2026-10-18 (Sun)
 - 13:16: strength skipped last night (ledger [-]), ran 30′ @ 5:30. Called today a rest day, but the plan had Long 10 km today → he MOVED it to Mon 19 AM (lift Mon PM, easy 35′ dropped). Bed 17 Oct ✓.
 - MK201 10% group presentation (วิ่งแลกแว่น, 8 slides/10 min): Crow critiqued the outline (slide 5 → name Kotler Ch 3/5/7/8, slide 7 needs evidence). **His part: slide 4 "Why did eyewear brands join the trend?"** → sketched.
-
-## Session — 2026-10-17 (Sat)
-- Asleep 22:56, up 06:00 (wake + bed ✓). Zone 2 book run done: 35′ recovery + 4 strides, Karamazov by voice. The 'For Crow:' summary closed Katya (he got the Ivan trigger himself); his insight: **active love → active responsibility**. Crow's counter (where the guilt can GO) is in the brief → [[chapters]] material. He needs to re-upload the refreshed brief to the claude.ai Project.
-- **Gym membership CANCELLED, his call** → home strength Mon+Sat → [[project-training-plan]]; calendar event renamed (no emoji, his ask). First home session tonight after AC311 → ledger.
-- Afternoon: grandma (not grandpa) to a countryside funeral; AC311 there. Own goal: AC311 only.
 
 ## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. **AC311 Midterm 2 (sessions 8–11, PPE + intangibles, 30%) is next: date unconfirmed.**
 
