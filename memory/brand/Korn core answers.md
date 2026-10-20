@@ -25,3 +25,6 @@ Answered with Crow, one question at a time, same rules as Patrick's ChatGPT inte
 - Follow-up (before seeing numbers, most you'd put in?): "10k gradually I'm down to, but I don't know the cost or anything yet so...."
   - Crow's note: start-in = up to 10,000 ฿, GRADUALLY (staged, not upfront) = the same as his "fine to lose" line. Revisit once a sample quote exists.
 
+## Q12. If one of us wants to quit: brand, leftover stock, money?
+"I mean if one quits I'm quitting."
+  - = the brand ends if either leaves (no buy-out, no solo carry-on).
