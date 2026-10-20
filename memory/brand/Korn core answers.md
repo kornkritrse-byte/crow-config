@@ -39,3 +39,6 @@ Answered with Crow, one question at a time, same rules as Patrick's ChatGPT inte
 ## Q14. One year from now, what has to be true to say it's working? (checkable)
 "Happy with what we created and not losing money. No need to get rich, I just wanna try something new. And also that the product comes out like we envisioned and represents our core values and goals."
   - Checkable: not losing money (break-even or better). Not yet checkable: "happy", "like we envisioned".
+- Follow-up (how would you check "like we envisioned"?): "How it fits, how it feels and waves around as we move, and also if the stitching is good and feels durable."
+  - = a 4-point sample check: fit · hand-feel · drape in motion · stitching/durability. Usable as the sample-approval checklist.
+
