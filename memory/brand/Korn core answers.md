@@ -10,3 +10,5 @@ Answered with Crow, one question at a time, same rules as Patrick's ChatGPT inte
 "1000"
   - Crow's note: so 1,000 ฿ itself is already "too expensive" for him; the real ceiling sits BELOW 1,000 (CORE v0 said ≤1,000).
 
+## Q9. Which part do you want to be responsible for and have the final say on?
+"I want to be close to the fabrics used, the stitching and the designing stuff, the marketing ideas or how to build the Instagram layout, the shooting designs and that stuff. Honestly I'm down to do anything. Kinda don't wanna do the numbers tho."
