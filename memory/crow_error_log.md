@@ -36,3 +36,5 @@ metadata:
 - **2026-10-03 10:42: a made-up streak in Vera's voice.** Had Vera say "third time this fortnight that 'I'll wake at 6' became 8". The record shows ONE logged oversleep (2 Oct). Invented a pattern to make the line land. Corrected to him next turn. **A crew line that cites a pattern needs the count checked in the ledger or morning-person file first.**
 
 - **2026-10-07 13:38: called a non-answer a "dodge".** Asked about the Sun 4 Oct run once, he answered about Mon/Tue instead (likely just read past it), and Vera framed it as stepping around the question "twice". He had run 6K. Read intent into silence and put it in Vera's mouth. **One unanswered question is a missed question, not a dodge: re-ask it plainly before naming a pattern.**
+
+- **2026-10-20 14:56: the wrong memory folder AGAIN (repeat of 1 Oct).** Wrote the Brand HQ notes to `~/crow-config/memory/` because the shell happened to be sitting there; the sync overwrote them. Caught it myself at 15:05 when an edit failed its check. **Before any memory write, cd to `~/.claude/projects/-Users-kornkrit-crow-config/memory/`. The live path is the ONLY one to write to.**
