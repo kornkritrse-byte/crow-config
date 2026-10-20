@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-10-19 07:58 (live). Window holds 19 Oct + 18 Oct; 17 Oct flushed to [[sessions-log]] 19 Oct. Next to flush: 18 Oct.*
+*Last updated: 2026-10-20 11:33 (live). Window holds 20 Oct + 19 Oct; 18 Oct flushed to [[sessions-log]] 20 Oct. Next to flush: 19 Oct.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🚪 **AWAY (Mon 19 Oct, ~07:57) — off to: morning stuff, then AC311 session 2 (from 'issue shares'). ASK ON RETURN: AC311 M2 date · bed by 23:30 on 18 Oct.** Tonight: home strength (long run rained out, dropped this week). Patrick interview prompt ready (`brand/Core interview prompt.md`), not sent yet.
+- 🚪 **AWAY (Tue 20 Oct, ~11:32) — off to: uni / MK201 presentation, Patrick brand call (early afternoon), evening run w/ school kid, finish Karamazov. ASK ON RETURN: how the Patrick call went (owner per area? who owns numbers? exit money?) · MK201 presentation / did the class questions land · evening run · Karamazov finished?** Home strength: 2 misses in a row (17, 19 Oct), no fixed slot yet.
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
 ## Session — 2026-10-20 (Tue)
@@ -37,10 +37,6 @@ metadata:
 - 05:30 long run rained out (ledger [~]); up at 05:30 ✓. Crow: drop it this week, home strength tonight.
 - Brand: blind ChatGPT interview prompt for Patrick (15 Qs, v3) → `brand/Core interview prompt.md`; explained how a clothing site works (sample → photos → IG/LINE → website). Goal: AC311 study (ledger).
 - 14:47: he named it himself, drifted into procrastination; AC311 not started. Crow started it in the Room (issue shares, s22). Home strength tonight → ledger.
-
-## Session — 2026-10-18 (Sun)
-- 13:16: strength skipped last night (ledger [-]), ran 30′ @ 5:30. Called today a rest day, but the plan had Long 10 km today → he MOVED it to Mon 19 AM (lift Mon PM, easy 35′ dropped). Bed 17 Oct ✓.
-- MK201 10% group presentation (วิ่งแลกแว่น, 8 slides/10 min): Crow critiqued the outline (slide 5 → name Kotler Ch 3/5/7/8, slide 7 needs evidence). **His part: slide 4 "Why did eyewear brands join the trend?"** → sketched.
 
 ## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. **AC311 Midterm 2 (sessions 8–11, PPE + intangibles, 30%) is next: **Fri 13 Nov** (Korn, 20 Oct; time TBC). Session 11 (31 Oct, impairment TAS 36) falls before it, so assume impairment is IN scope. Final 28 Nov.**
 

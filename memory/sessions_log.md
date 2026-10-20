@@ -11,6 +11,9 @@ metadata:
 
 # Sessions Log (archive)
 
+## 2026-10-18 (Sun)
+- Strength skipped 17 Oct (ledger [-]), ran 30′ @ 5:30; Long 10 km moved to Mon 19 AM (later rained out). Bed 17 Oct ✓. MK201 วิ่งแลกแว่น presentation: Crow critiqued the outline; his part = slide 4 "Why did eyewear brands join the trend?". Clothing brand with Patrick started (CORE v0) → [[project-clothing-brand]].
+
 ## 2026-10-17 (Sat)
 - Asleep 22:56, up 06:00 ✓. Zone 2 book run 35′ + 4 strides, Karamazov by voice; his insight: active love → active responsibility → [[chapters]]. Gym membership CANCELLED (his call) → home strength Mon+Sat → [[project-training-plan]]. Grandma to a countryside funeral; AC311 session 1 in a café (PPE blocks 1–3). Evening home strength became a park run plan; strength never happened (ledger [-]).
 
