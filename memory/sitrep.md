@@ -27,11 +27,11 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🚪 **AWAY (Tue 20 Oct, ~11:32) — off to: uni / MK201 presentation, Patrick brand call (early afternoon), evening run w/ school kid, finish Karamazov. ASK ON RETURN: how the Patrick call went (owner per area? who owns numbers? exit money?) · MK201 presentation / did the class questions land · evening run · Karamazov finished?** Home strength: 2 misses in a row (17, 19 Oct), no fixed slot yet.
+- 🚪 **AWAY (Tue 20 Oct, ~11:32) — off to: Patrick brand call (early afternoon), evening run w/ school kid, finish Karamazov. ASK ON RETURN: how the Patrick call went (owner per area? who owns numbers? exit money?) · evening run · Karamazov finished?** Home strength: 2 misses in a row (17, 19 Oct), no fixed slot yet.
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
 ## Session — 2026-10-20 (Tue)
-- 07:42, driving to uni: Crow wrote 10 hard class questions for the MK201 วิ่งแลกแว่น presentation; his own pick: "can a small brand sustain this as long as a big one?" (sharpened + model answer ready). 10:31 goals set (AC313 quiz · Patrick brand talk · evening run w/ school kid · finish Karamazov). 19 Oct: AC311 s2 partial [~], home strength MISSED [-] (2nd in a row), bed ✓. AC311 M2 = Fri 13 Nov. AC313 quiz ✓ (11:31). Brand: answered Q4+Q8–15 with Crow → `brand/Korn core answers.md`; compares with Patrick early afternoon (flags: owner per area, numbers, exit money).
+- 07:42, driving to uni: Crow wrote 10 hard class questions for the MK201 วิ่งแลกแว่น presentation; his own pick: "can a small brand sustain this as long as a big one?" (sharpened + model answer ready). 10:31 goals set (AC313 quiz · Patrick brand talk · evening run w/ school kid · finish Karamazov). 19 Oct: AC311 s2 partial [~], home strength MISSED [-] (2nd in a row), bed ✓. AC311 M2 = Fri 13 Nov. AC313 quiz ✓ (11:31). Brand: answered Q4+Q8–15 with Crow → `brand/Korn core answers.md`; compares with Patrick early afternoon (flags: owner per area, numbers, exit money). MK201 presentation DONE (11:35). Obsidian: Brand Map got a 🤝 PARTNERSHIP group + Why us/motivation nodes; AC311 M2 map shows 13 Nov.
 
 ## Session — 2026-10-19 (Mon)
 - 05:30 long run rained out (ledger [~]); up at 05:30 ✓. Crow: drop it this week, home strength tonight.
