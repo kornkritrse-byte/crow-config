@@ -28,3 +28,6 @@ Answered with Crow, one question at a time, same rules as Patrick's ChatGPT inte
 ## Q12. If one of us wants to quit: brand, leftover stock, money?
 "I mean if one quits I'm quitting."
   - = the brand ends if either leaves (no buy-out, no solo carry-on).
+- Follow-up (stock + money when it ends?): "Give it away to friends lol"
+  - Stock → given to friends. ⚠️ The MONEY half is still unanswered (follow-up used); open for the Patrick comparison.
+
