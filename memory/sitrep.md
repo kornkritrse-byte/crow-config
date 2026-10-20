@@ -30,6 +30,9 @@ metadata:
 - 🚪 **AWAY (Mon 19 Oct, ~07:57) — off to: morning stuff, then AC311 session 2 (from 'issue shares'). ASK ON RETURN: AC311 M2 date · bed by 23:30 on 18 Oct.** Tonight: home strength (long run rained out, dropped this week). Patrick interview prompt ready (`brand/Core interview prompt.md`), not sent yet.
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
+## Session — 2026-10-20 (Tue)
+- 07:42, driving to uni: Crow wrote 10 hard class questions for the MK201 วิ่งแลกแว่น presentation; his own pick: "can a small brand sustain this as long as a big one?" (sharpened + model answer ready). Goals / AC311 s2 / home strength 19 Oct: not asked yet (he was driving).
+
 ## Session — 2026-10-19 (Mon)
 - 05:30 long run rained out (ledger [~]); up at 05:30 ✓. Crow: drop it this week, home strength tonight.
 - Brand: blind ChatGPT interview prompt for Patrick (15 Qs, v3) → `brand/Core interview prompt.md`; explained how a clothing site works (sample → photos → IG/LINE → website). Goal: AC311 study (ledger).
