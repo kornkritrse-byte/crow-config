@@ -31,3 +31,5 @@ Answered with Crow, one question at a time, same rules as Patrick's ChatGPT inte
 - Follow-up (stock + money when it ends?): "Give it away to friends lol"
   - Stock → given to friends. ⚠️ The MONEY half is still unanswered (follow-up used); open for the Patrick comparison.
 
+## Q13. A year from now the brand has failed. Most likely reason?
+"Someone lost their motivation. For sure."
