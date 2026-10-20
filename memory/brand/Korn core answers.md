@@ -12,3 +12,6 @@ Answered with Crow, one question at a time, same rules as Patrick's ChatGPT inte
 
 ## Q9. Which part do you want to be responsible for and have the final say on?
 "I want to be close to the fabrics used, the stitching and the designing stuff, the marketing ideas or how to build the Instagram layout, the shooting designs and that stuff. Honestly I'm down to do anything. Kinda don't wanna do the numbers tho."
+- Follow-up (if Patrick wants final say on the same areas, which one do you keep?): "Honestly we are good friends and I don't want anyone to have final say like that. If both disagree we talk and compromise."
+  - ⚠️ Crow flag (to raise AFTER the interview, not during): no tiebreaker + nobody owns the numbers. Compare with Patrick's Q9/Q12.
+
