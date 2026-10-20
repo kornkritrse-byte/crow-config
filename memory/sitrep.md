@@ -31,7 +31,7 @@ metadata:
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
 ## Session — 2026-10-20 (Tue)
-- 07:42, driving to uni: Crow wrote 10 hard class questions for the MK201 วิ่งแลกแว่น presentation; his own pick: "can a small brand sustain this as long as a big one?" (sharpened + model answer ready). 10:31 goals set (AC313 quiz · Patrick brand talk · evening run w/ school kid · finish Karamazov). 19 Oct: AC311 s2 partial [~], home strength MISSED [-] (2nd in a row), bed ✓.
+- 07:42, driving to uni: Crow wrote 10 hard class questions for the MK201 วิ่งแลกแว่น presentation; his own pick: "can a small brand sustain this as long as a big one?" (sharpened + model answer ready). 10:31 goals set (AC313 quiz · Patrick brand talk · evening run w/ school kid · finish Karamazov). 19 Oct: AC311 s2 partial [~], home strength MISSED [-] (2nd in a row), bed ✓. AC311 M2 = Fri 13 Nov. AC313 quiz due today.
 
 ## Session — 2026-10-19 (Mon)
 - 05:30 long run rained out (ledger [~]); up at 05:30 ✓. Crow: drop it this week, home strength tonight.
@@ -42,7 +42,7 @@ metadata:
 - 13:16: strength skipped last night (ledger [-]), ran 30′ @ 5:30. Called today a rest day, but the plan had Long 10 km today → he MOVED it to Mon 19 AM (lift Mon PM, easy 35′ dropped). Bed 17 Oct ✓.
 - MK201 10% group presentation (วิ่งแลกแว่น, 8 slides/10 min): Crow critiqued the outline (slide 5 → name Kotler Ch 3/5/7/8, slide 7 needs evidence). **His part: slide 4 "Why did eyewear brands join the trend?"** → sketched.
 
-## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. **AC311 Midterm 2 (sessions 8–11, PPE + intangibles, 30%) is next: date unconfirmed.**
+## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. **AC311 Midterm 2 (sessions 8–11, PPE + intangibles, 30%) is next: **Fri 13 Nov** (Korn, 20 Oct; time TBC). Session 11 (31 Oct, impairment TAS 36) falls before it, so assume impairment is IN scope. Final 28 Nov.**
 
 ## 🧰 New system pieces (built 27 Sep, his pick from 8 ideas) — all fire from the session-start hook, silent unless due
 - 🕐 `hooks/prompt-time.sh` stamps `[clock]` on every prompt → **use it for any time reference.**

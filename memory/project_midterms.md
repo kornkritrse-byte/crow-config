@@ -1192,6 +1192,7 @@ Serve these first on Sat 3 Oct AM, before the Sun 09:00 paper. Each one has a gh
 
 ## 📒 AC311 MIDTERM 2 — MATERIAL CHECK (17 Oct 2026)
 Decks in `~/Desktop/AC311/` (added by Korn 17 Oct): `Property Plant and Equipment_SepOct_2026.pptx` (101 slides, sessions 8–9), `Intangible Assets_October_2026.pptx` (+ .pdf in the zip; 40 slides, session 10 = Sat 17 Oct, funeral day, so probably missed: unconfirmed), `Investment property_October 2026 (1).pptx` (33 slides, sessions 12–13 = **FINAL scope, park it**).
+- ✅ **M2 DATE: Fri 13 Nov 2026** (Korn, 20 Oct 10:35; time TBC). → session 11 impairment (31 Oct) is before it, so treat TAS 36 as IN scope.
 - **Syllabus:** M2 = 30%, sessions 8–11, date TBA. Session 11 (31 Oct) = **Impairment (TAS 36)**, no deck yet (PPE deck slide 97: "save for later class"). The table lists M2 *before* the 31 Oct row, so whether impairment is in M2 hangs on the date. Final = 28 Nov 09:00, sessions 12–15.
 - **PPE deck: enough to teach from.** Gaps: exchanges with/without commercial substance (syllabus lists similar vs dissimilar; the deck has one FV example), no worked disposal entry, slides 52–53 are images only. **Slide errors:** s57 says depreciation 200,000 (should be 20,000); s54 says accum dep restated to "24,000 (increase 4,000)" but the s55 entry is right (48,000, +8,000).
 - **Intangibles deck: concepts only, zero numbers** (one goodwill example). Fine for MCQ; journal-entry practice has to be built from TAS 38 by Crow, labelled as not hers.
