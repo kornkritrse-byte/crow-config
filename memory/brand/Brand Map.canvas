@@ -1,355 +1,43 @@
 {
- "nodes": [
-  {
-   "id": "next",
-   "type": "group",
-   "label": "➡️ NEXT",
-   "x": -1540,
-   "y": -250,
-   "width": 440,
-   "height": 458,
-   "color": "3"
-  },
-  {
-   "id": "risks",
-   "type": "group",
-   "label": "⚠️ RISKS",
-   "x": -1000,
-   "y": 450,
-   "width": 440,
-   "height": 836,
-   "color": "1"
-  },
-  {
-   "id": "henley",
-   "type": "group",
-   "label": "👕 PRODUCT 1 · HENLEY",
-   "x": 560,
-   "y": 450,
-   "width": 440,
-   "height": 1096,
-   "color": "5"
-  },
-  {
-   "id": "image",
-   "type": "group",
-   "label": "🎨 IMAGE",
-   "x": 1100,
-   "y": -250,
-   "width": 440,
-   "height": 630,
-   "color": "6"
-  },
-  {
-   "id": "rules",
-   "type": "group",
-   "label": "📏 RULES",
-   "x": 560,
-   "y": -1150,
-   "width": 440,
-   "height": 552,
-   "color": "2"
-  },
-  {
-   "id": "core",
-   "type": "group",
-   "label": "🧭 CORE",
-   "x": -1000,
-   "y": -1150,
-   "width": 440,
-   "height": 716,
-   "color": "4"
-  },
-  {
-   "id": "c",
-   "type": "text",
-   "x": -230,
-   "y": -110,
-   "width": 460,
-   "height": 220,
-   "color": "4",
-   "text": "# 🧵 THE BRAND\n*name TBD · Korn + Patrick · started 18 Oct 2026*\n\nClothes cut for **proportion**, not just to fit.\nFull log → [[project-clothing-brand]]"
-  },
-  {
-   "id": "core0",
-   "type": "text",
-   "text": "**Belief**\nMost clothes are made to fit, not to work with the proportions of the man wearing them.",
-   "x": -980,
-   "y": -1090,
-   "width": 400,
-   "height": 144,
-   "color": "4"
-  },
-  {
-   "id": "core1",
-   "type": "text",
-   "text": "**Who**\nThe guy who's never wearing something \"normal\": drape, weight, how it changes the way he looks.\n(= Korn + Patrick)",
-   "x": -980,
-   "y": -926,
-   "width": 400,
-   "height": 170,
-   "color": "4"
-  },
-  {
-   "id": "core2",
-   "type": "text",
-   "text": "**Promise**\nThat cut and fabric, at a price he can actually pay.\nTarget ≤ 1,000 ฿ (unverified)",
-   "x": -980,
-   "y": -736,
-   "width": 400,
-   "height": 144,
-   "color": "4"
-  },
-  {
-   "id": "core3",
-   "type": "text",
-   "text": "**The say-no test**\nA real core can reject a product.\nBoxy oversized tee that hides the body → ✗",
-   "x": -980,
-   "y": -572,
-   "width": 400,
-   "height": 118,
-   "color": "4"
-  },
-  {
-   "id": "rules0",
-   "type": "text",
-   "text": "**Rule 1 · Fabric**\nSoft, weighted, drapes.\nNever stiff, coarse or shiny.\nStructure from the CUT, flow from the FABRIC. Must breathe (Bangkok heat).",
-   "x": 580,
-   "y": -1090,
-   "width": 400,
-   "height": 170,
-   "color": "2"
-  },
-  {
-   "id": "rules1",
-   "type": "text",
-   "text": "**Rule 2 · Cut**\nEvery piece cut for proportion.\nNothing boxy that just hangs.",
-   "x": 580,
-   "y": -900,
-   "width": 400,
-   "height": 118,
-   "color": "2"
-  },
-  {
-   "id": "rules2",
-   "type": "text",
-   "text": "**Rule 3 · Trends**\nNo trend-hopping. A trend gets in only with our own take, and only if it serves proportion.",
-   "x": 580,
-   "y": -762,
-   "width": 400,
-   "height": 144,
-   "color": "2"
-  },
-  {
-   "id": "image0",
-   "type": "text",
-   "text": "**Seams & panels**\nUnconventional stitching, mixed-fabric panels (\"turns heads\").\n= the proportion tool: yoke widens the back · side panels taper · vertical lines add height",
-   "x": 1120,
-   "y": -190,
-   "width": 400,
-   "height": 196,
-   "color": "6"
-  },
-  {
-   "id": "image1",
-   "type": "text",
-   "text": "**Washed / worn**\nLooks worn, feels clean.\nA garment wash makes heavy fabric soft → Rule 1",
-   "x": 1120,
-   "y": 26,
-   "width": 400,
-   "height": 144,
-   "color": "6"
-  },
-  {
-   "id": "image2",
-   "type": "text",
-   "text": "**Mirror: Urban Revivo**\nLove it, don't want to be a copy.\nThey sell variety. We sell the cut.\nTest: side by side, can a stranger name the difference in one sentence?",
-   "x": 1120,
-   "y": 190,
-   "width": 400,
-   "height": 170,
-   "color": "6"
-  },
-  {
-   "id": "henley0",
-   "type": "text",
-   "text": "**The proxy**\nUrban Revivo Henley, cut by Korn: cropped body + shorter sleeves. Patrick loves it. Material tag lost in the crop.",
-   "x": 580,
-   "y": 510,
-   "width": 400,
-   "height": 144,
-   "color": "5"
-  },
-  {
-   "id": "henley1",
-   "type": "text",
-   "text": "**Fit idea**\nStructured top · wider back · slight taper at the waist",
-   "x": 580,
-   "y": 674,
-   "width": 400,
-   "height": 118,
-   "color": "5"
-  },
-  {
-   "id": "henley2",
-   "type": "text",
-   "text": "**Sizing v1**\nSame top + taper in every size. Small = more cropped, length grows with size.\n⚠ misses tall-skinny + wider types → \"long\" option later",
-   "x": 580,
-   "y": 812,
-   "width": 400,
-   "height": 170,
-   "color": "5"
-  },
-  {
-   "id": "henley3",
-   "type": "text",
-   "text": "**Body types**\nSkinny tall → add width, break the length\nShort skinny → crop, clean shoulders\nWider average → structure up top, taper",
-   "x": 580,
-   "y": 1002,
-   "width": 400,
-   "height": 144,
-   "color": "5"
-  },
-  {
-   "id": "henley4",
-   "type": "text",
-   "text": "**Fit models**\nKorn 168 cm, normal shoulders\nPatrick ~175 cm, skinny\n❓ need a wider guy\nBase = averages (size charts) · friends = stress test",
-   "x": 580,
-   "y": 1166,
-   "width": 400,
-   "height": 196,
-   "color": "5"
-  },
-  {
-   "id": "henley5",
-   "type": "text",
-   "text": "**To measure (flat)**\nchest pit-to-pit · body length · shoulder · sleeve + opening · placket + buttons · photo of the fabric",
-   "x": 580,
-   "y": 1382,
-   "width": 400,
-   "height": 144,
-   "color": "5"
-  },
-  {
-   "id": "risks0",
-   "type": "text",
-   "text": "**Price**\nSmall batches can't match Uniqlo's scale. Need ~300–400 ฿ unit cost (a guess). Weight, panels and washes all push it up.\n→ get a real sample quote",
-   "x": -980,
-   "y": 510,
-   "width": 400,
-   "height": 170,
-   "color": "1"
-  },
-  {
-   "id": "risks1",
-   "type": "text",
-   "text": "**Copy risk**\nThe proxy IS an Urban Revivo shirt.",
-   "x": -980,
-   "y": 700,
-   "width": 400,
-   "height": 92,
-   "color": "1"
-  },
-  {
-   "id": "risks2",
-   "type": "text",
-   "text": "**Too many patterns**\nBody types × sizes = 9 patterns. Keep S/M/L; design each size for a body.",
-   "x": -980,
-   "y": 812,
-   "width": 400,
-   "height": 118,
-   "color": "1"
-  },
-  {
-   "id": "risks3",
-   "type": "text",
-   "text": "**Climate**\nHeavy fabric in 35°C humidity.",
-   "x": -980,
-   "y": 950,
-   "width": 400,
-   "height": 92,
-   "color": "1"
-  },
-  {
-   "id": "risks4",
-   "type": "text",
-   "text": "**Wording**\n\"Balance\", never \"fix your flaws\".",
-   "x": -980,
-   "y": 1062,
-   "width": 400,
-   "height": 92,
-   "color": "1"
-  },
-  {
-   "id": "risks5",
-   "type": "text",
-   "text": "**Vera's check**\nDoes this become a garment, or a deck?",
-   "x": -980,
-   "y": 1174,
-   "width": 400,
-   "height": 92,
-   "color": "1"
-  },
-  {
-   "id": "next0",
-   "type": "text",
-   "text": "- [ ] Patrick does the blind ChatGPT interview → his core\n- [ ] Compare both cores side by side\n- [ ] Put the cropped proxy on Patrick\n- [ ] Measure the proxy flat + photo the fabric\n- [ ] Uniqlo TH + UR size charts side by side\n- [ ] Get a sample quote (Bangkok cut-and-sew)\n- [ ] Find a wider-guy fit model\n- [ ] What did the UR Henley cost?\n- [ ] Brand name",
-   "x": -1520,
-   "y": -190,
-   "width": 400,
-   "height": 378,
-   "color": "3"
-  }
- ],
- "edges": [
-  {
-   "id": "eccore",
-   "fromNode": "c",
-   "fromSide": "top",
-   "toNode": "core",
-   "toSide": "bottom"
-  },
-  {
-   "id": "ecrules",
-   "fromNode": "c",
-   "fromSide": "top",
-   "toNode": "rules",
-   "toSide": "bottom"
-  },
-  {
-   "id": "ecimage",
-   "fromNode": "c",
-   "fromSide": "right",
-   "toNode": "image",
-   "toSide": "left"
-  },
-  {
-   "id": "echenley",
-   "fromNode": "c",
-   "fromSide": "bottom",
-   "toNode": "henley",
-   "toSide": "top"
-  },
-  {
-   "id": "ecrisks",
-   "fromNode": "c",
-   "fromSide": "bottom",
-   "toNode": "risks",
-   "toSide": "top"
-  },
-  {
-   "id": "ecnext",
-   "fromNode": "c",
-   "fromSide": "left",
-   "toNode": "next",
-   "toSide": "right"
-  },
-  {
-   "id": "eimage0rules1",
-   "fromNode": "image0",
-   "fromSide": "top",
-   "toNode": "rules1",
-   "toSide": "bottom"
-  }
- ]
+	"nodes":[
+		{"id":"risks","type":"group","x":-1000,"y":450,"width":440,"height":836,"color":"1","label":"⚠️ RISKS"},
+		{"id":"core","type":"group","x":-1000,"y":-1150,"width":440,"height":716,"color":"4","label":"🧭 CORE"},
+		{"id":"next","type":"group","x":-1540,"y":-250,"width":440,"height":458,"color":"3","label":"➡️ NEXT"},
+		{"id":"henley","type":"group","x":560,"y":450,"width":440,"height":1096,"color":"5","label":"👕 PRODUCT 1 · HENLEY"},
+		{"id":"image","type":"group","x":1100,"y":-250,"width":440,"height":630,"color":"6","label":"🎨 IMAGE"},
+		{"id":"rules","type":"group","x":560,"y":-1150,"width":440,"height":552,"color":"2","label":"📏 RULES"},
+		{"id":"c","type":"text","text":"# 🧵 THE BRAND\n*name TBD · Korn + Patrick · started 18 Oct 2026*\n\nClothes cut for **proportion**, not just to fit.\nFull log → [[project-clothing-brand]]","x":-230,"y":-110,"width":460,"height":220,"color":"4"},
+		{"id":"core0","type":"text","text":"**Belief**\nMost clothes are made to fit, not to work with the proportions of the man wearing them.","x":-980,"y":-1090,"width":400,"height":144,"color":"4"},
+		{"id":"core1","type":"text","text":"**Who**\nThe guy who's never wearing something \"normal\": drape, weight, how it changes the way he looks.\n(= Korn + Patrick)","x":-980,"y":-926,"width":400,"height":170,"color":"4"},
+		{"id":"core2","type":"text","text":"**Promise**\nThat cut and fabric, at a price he can actually pay.\nTarget ≤ 1,000 ฿ (unverified)","x":-980,"y":-736,"width":400,"height":144,"color":"4"},
+		{"id":"core3","type":"text","text":"**The say-no test**\nA real core can reject a product.\nBoxy oversized tee that hides the body → ✗","x":-980,"y":-572,"width":400,"height":118,"color":"4"},
+		{"id":"rules0","type":"text","text":"**Rule 1 · Fabric**\nSoft, weighted, drapes.\nNever stiff, coarse or shiny.\nStructure from the CUT, flow from the FABRIC. Must breathe (Bangkok heat).","x":580,"y":-1090,"width":400,"height":170,"color":"2"},
+		{"id":"rules1","type":"text","text":"**Rule 2 · Cut**\nEvery piece cut for proportion.\nNothing boxy that just hangs.","x":580,"y":-900,"width":400,"height":118,"color":"2"},
+		{"id":"rules2","type":"text","text":"**Rule 3 · Trends**\nNo trend-hopping. A trend gets in only with our own take, and only if it serves proportion.","x":580,"y":-762,"width":400,"height":144,"color":"2"},
+		{"id":"image0","type":"text","text":"**Seams & panels**\nUnconventional stitching, mixed-fabric panels (\"turns heads\").\n= the proportion tool: yoke widens the back · side panels taper · vertical lines add height","x":1120,"y":-190,"width":400,"height":196,"color":"6"},
+		{"id":"image1","type":"text","text":"**Washed / worn**\nLooks worn, feels clean.\nA garment wash makes heavy fabric soft → Rule 1","x":1120,"y":26,"width":400,"height":144,"color":"6"},
+		{"id":"image2","type":"text","text":"**Mirror: Urban Revivo**\nLove it, don't want to be a copy.\nThey sell variety. We sell the cut.\nTest: side by side, can a stranger name the difference in one sentence?","x":1120,"y":190,"width":400,"height":170,"color":"6"},
+		{"id":"henley0","type":"text","text":"**The proxy**\nUrban Revivo Henley, cut by Korn: cropped body + shorter sleeves. Patrick loves it. Material tag lost in the crop.","x":580,"y":510,"width":400,"height":144,"color":"5"},
+		{"id":"henley1","type":"text","text":"**Fit idea**\nStructured top · wider back · slight taper at the waist","x":580,"y":674,"width":400,"height":118,"color":"5"},
+		{"id":"henley2","type":"text","text":"**Sizing v1**\nSame top + taper in every size. Small = more cropped, length grows with size.\n⚠ misses tall-skinny + wider types → \"long\" option later","x":580,"y":812,"width":400,"height":170,"color":"5"},
+		{"id":"henley3","type":"text","text":"**Body types**\nSkinny tall → add width, break the length\nShort skinny → crop, clean shoulders\nWider average → structure up top, taper","x":580,"y":1002,"width":400,"height":144,"color":"5"},
+		{"id":"henley4","type":"text","text":"**Fit models**\nKorn 168 cm, normal shoulders\nPatrick ~175 cm, skinny\n❓ need a wider guy\nBase = averages (size charts) · friends = stress test","x":580,"y":1166,"width":400,"height":196,"color":"5"},
+		{"id":"henley5","type":"text","text":"**To measure (flat)**\nchest pit-to-pit · body length · shoulder · sleeve + opening · placket + buttons · photo of the fabric","x":580,"y":1382,"width":400,"height":144,"color":"5"},
+		{"id":"risks0","type":"text","text":"**Price**\nSmall batches can't match Uniqlo's scale. Need ~300–400 ฿ unit cost (a guess). Weight, panels and washes all push it up.\n→ get a real sample quote","x":-980,"y":510,"width":400,"height":170,"color":"1"},
+		{"id":"risks1","type":"text","text":"**Copy risk**\nThe proxy IS an Urban Revivo shirt.","x":-980,"y":700,"width":400,"height":92,"color":"1"},
+		{"id":"risks2","type":"text","text":"**Too many patterns**\nBody types × sizes = 9 patterns. Keep S/M/L; design each size for a body.","x":-980,"y":812,"width":400,"height":118,"color":"1"},
+		{"id":"risks3","type":"text","text":"**Climate**\nHeavy fabric in 35°C humidity.","x":-980,"y":950,"width":400,"height":92,"color":"1"},
+		{"id":"risks4","type":"text","text":"**Wording**\n\"Balance\", never \"fix your flaws\".","x":-980,"y":1062,"width":400,"height":92,"color":"1"},
+		{"id":"risks5","type":"text","text":"**Vera's check**\nDoes this become a garment, or a deck?","x":-980,"y":1174,"width":400,"height":92,"color":"1"},
+		{"id":"next0","type":"text","text":"- [x] Patrick does the blind ChatGPT interview → his core\n- [ ] Compare both cores side by side\n- [ ] Put the cropped proxy on Patrick\n- [ ] Measure the proxy flat + photo the fabric\n- [ ] Uniqlo TH + UR size charts side by side\n- [ ] Get a sample quote (Bangkok cut-and-sew)\n- [ ] Find a wider-guy fit model\n- [ ] What did the UR Henley cost?\n- [ ] Brand name","x":-1520,"y":-190,"width":400,"height":378,"color":"3"}
+	],
+	"edges":[
+		{"id":"eccore","fromNode":"c","fromSide":"top","toNode":"core","toSide":"bottom"},
+		{"id":"ecrules","fromNode":"c","fromSide":"top","toNode":"rules","toSide":"bottom"},
+		{"id":"ecimage","fromNode":"c","fromSide":"right","toNode":"image","toSide":"left"},
+		{"id":"echenley","fromNode":"c","fromSide":"bottom","toNode":"henley","toSide":"top"},
+		{"id":"ecrisks","fromNode":"c","fromSide":"bottom","toNode":"risks","toSide":"top"},
+		{"id":"ecnext","fromNode":"c","fromSide":"left","toNode":"next","toSide":"right"},
+		{"id":"eimage0rules1","fromNode":"image0","fromSide":"top","toNode":"rules1","toSide":"bottom"}
+	]
 }
