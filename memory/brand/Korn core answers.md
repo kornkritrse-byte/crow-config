@@ -6,3 +6,7 @@ Answered with Crow, one question at a time, same rules as Patrick's ChatGPT inte
 - Follow-up (name one specific detail they get wrong): "For Pat he couldn't find the right fabric, maybe that's also a media problem in which they failed to display the quality. As for me it was the fit that led me to cut up my own shirt."
   - Crow's note: two concrete gaps, fabric (Patrick) and fit (Korn: cropped body + shortened sleeves on the UR Henley). NEW idea, his: shops may fail to SHOW fabric quality in their photos/media, so showing the fabric could be part of "why us".
 
+## Q8. At what price, in baht, would you look at our Henley and think "too expensive"?
+"1000"
+  - Crow's note: so 1,000 ฿ itself is already "too expensive" for him; the real ceiling sits BELOW 1,000 (CORE v0 said ≤1,000).
+
