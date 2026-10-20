@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-10-20 21:17 (live). Window holds 20 Oct + 19 Oct; 18 Oct flushed to [[sessions-log]] 20 Oct. Next to flush: 19 Oct.*
+*Last updated: 2026-10-20 21:20 (live). Window holds 20 Oct + 19 Oct; 18 Oct flushed to [[sessions-log]] 20 Oct. Next to flush: 19 Oct.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🚪 **Here (Tue 20 Oct, since 14:53; 21:10 back on the brand).** Patrick session happened (name Samneang, 50/50). **Still to ask at a natural break: evening run w/ school kid? Karamazov finished?** · did he invite Patrick to Brand HQ + assign owners on the cards?
+- 🚪 **Here (Tue 20 Oct, since 14:53; 21:10 back on the brand).** Patrick session happened (name Samneang, 50/50). Run ✓ (21:19). Karamazov moved to Wed 21. **Tomorrow at 'goals today?': offer (1) finish Karamazov (2) measure the proxy Henley, both in the ledger.** · did he invite Patrick to Brand HQ + assign owners on the cards?
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
 ## Session — 2026-10-20 (Tue)
