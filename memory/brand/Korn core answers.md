@@ -42,3 +42,26 @@ Answered with Crow, one question at a time, same rules as Patrick's ChatGPT inte
 - Follow-up (how would you check "like we envisioned"?): "How it fits, how it feels and waves around as we move, and also if the stitching is good and feels durable."
   - = a 4-point sample check: fit · hand-feel · drape in motion · stitching/durability. Usable as the sample-approval checklist.
 
+## Q15. What would make working on this something you look forward to, not a chore?
+"Inputting some part of me into it. Seeing that something represents a part of me and an artistic interest. Just making something that is 'mine', like this room for example." (= the Crow Room)
+
+---
+## KORN'S CORE (his words where possible; Q1–3, 5–7 from CORE v0, 18 Oct)
+- **Belief:** most clothes for guys like us are made to fit, not to work with the proportions of the person.
+- **Who:** the guy who's never wearing something "normal"; cares how a garment drapes, weighs, shapes to the body.
+- **Why us:** care on the small details (garment, stitching) at a great price. The gaps we saw ourselves: fabric (Pat couldn't find it; shops also fail to SHOW fabric quality) and fit (Korn cut his own shirt).
+- **Rules:** soft, weighted, drapes, never stiff/coarse/shiny · cut for proportion, nothing boxy · no trend-hopping without our own take.
+- **Image:** unconventional stitching, mixed-fabric panels; washed, worn-looking but clean. Not to be mistaken for Urban Revivo.
+- **Price:** 1,000 ฿ = already too expensive → under 1,000.
+- **My role:** fabric, stitching, design, marketing ideas, IG layout, shoots; "down to do anything", not the numbers. No final say for anyone: disagree → talk and compromise.
+- **Time:** ~2+ h/day normal (≈14 h/wk) with a goal in mind; ~1 h/morning in exam weeks.
+- **Money:** up to 10k ฿, gradually; loss 10k OK · 15k pushing it · 20k real regret. Needs real costs first.
+- **Exit:** if one quits, both quit; stock goes to friends; money: unanswered.
+- **Biggest risk:** someone loses motivation, because progress slows and nobody knows what to work on next.
+- **One-year goal:** not losing money + a product that passes: fit · feel · drape in motion · stitching/durability.
+- **Fun:** putting part of himself into it, something that's "mine", like the Crow Room.
+
+## ⚠️ Crow's flags for the comparison (held until the interview ended)
+1. No tiebreaker + nobody owns the numbers (Q9).
+2. Exit money unanswered (Q12).
+3. Q15 vs Q9: the fun is it being "mine", but the design is "no final say, compromise on everything". Both can't be fully true; see what Patrick wrote.
