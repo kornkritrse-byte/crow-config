@@ -33,3 +33,6 @@ Answered with Crow, one question at a time, same rules as Patrick's ChatGPT inte
 
 ## Q13. A year from now the brand has failed. Most likely reason?
 "Someone lost their motivation. For sure."
+- Follow-up (what would cause it?): "I honestly don't know. If progress slows down and we don't do much about it and there's no motivation, then that's how it ends."
+  - Crow's note: links to his Q10 risk ("not knowing what exactly we should be working on"): stalled progress → no next task → motivation drains. Same mechanism, named twice.
+
