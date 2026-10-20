@@ -78,3 +78,6 @@ metadata:
 - 2026-10-20 10:32 | goal | Bed by 23:30
 - 2026-10-20 11:31 | goal | AC313 quiz
 - 2026-10-20 11:31 | goal | AC313 quiz
+- 2026-10-20 21:18 | goal | Moving
+- 2026-10-20 21:18 | goal | Brand talk with Patrick
+- 2026-10-20 21:18 | goal | Evening run with the kid from school
