@@ -92,4 +92,4 @@ metadata:
 - 2026-10-20 | AC313 quiz | done
 - 2026-10-20 | Brand talk with Patrick | done
 - 2026-10-20 | Evening run with the kid from school | done
-- 2026-10-20 | Finish Karamazov | open
+- 2026-10-20 | Finish Karamazov | missed
