@@ -75,3 +75,4 @@ metadata:
 - 2026-10-19 06:58 | goal | Wake early
 - 2026-10-19 07:56 | goal | Morning creative writing
 - 2026-10-20 10:31 | goal | Wake early
+- 2026-10-20 10:32 | goal | Bed by 23:30

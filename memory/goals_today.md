@@ -81,7 +81,7 @@ metadata:
 - 2026-10-19 | Training: Long 10 km (AM, moved from Sun 18) + lift PM, no easy run | open
 - 2026-10-19 | Daily journal | open
 - 2026-10-19 | Reading | open
-- 2026-10-19 | Bed by 23:30 | open
+- 2026-10-19 | Bed by 23:30 | done
 - 2026-10-19 | AC311 study | open
 - 2026-10-20 | Wake early | done
 - 2026-10-20 | Morning creative writing | open
