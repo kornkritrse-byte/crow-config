@@ -15,3 +15,7 @@ Answered with Crow, one question at a time, same rules as Patrick's ChatGPT inte
 - Follow-up (if Patrick wants final say on the same areas, which one do you keep?): "Honestly we are good friends and I don't want anyone to have final say like that. If both disagree we talk and compromise."
   - ⚠️ Crow flag (to raise AFTER the interview, not during): no tiebreaker + nobody owns the numbers. Compare with Patrick's Q9/Q12.
 
+## Q10. How many hours a week, normal week and exam week?
+"Exam week maybe an hour in the morning a day, but during this time like 2 or more a day with a goal in mind. The biggest problem will be not knowing what exactly we should be working on."
+  - Crow's note: ≈ 14+ h/week normal, ≈ 7 h/week exam. His own named risk: not knowing WHAT to work on (hours without a next task). Note: "this time" = now, with AC311 M2 on 13 Nov and the final on 28 Nov.
+
