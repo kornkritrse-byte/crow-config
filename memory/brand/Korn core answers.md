@@ -19,3 +19,6 @@ Answered with Crow, one question at a time, same rules as Patrick's ChatGPT inte
 "Exam week maybe an hour in the morning a day, but during this time like 2 or more a day with a goal in mind. The biggest problem will be not knowing what exactly we should be working on."
   - Crow's note: ≈ 14+ h/week normal, ≈ 7 h/week exam. His own named risk: not knowing WHAT to work on (hours without a next task). Note: "this time" = now, with AC311 M2 on 13 Nov and the final on 28 Nov.
 
+## Q11. How much would you put in to start? How much could you lose without it hurting?
+"I don't really know, have to see the projected numbers first. But losing 10k I'd be OK, 15k pushing it, 20k I would really regret."
+  - Max loss: 10,000 ฿ fine · 15,000 ฿ stretch · 20,000 ฿ real regret.
