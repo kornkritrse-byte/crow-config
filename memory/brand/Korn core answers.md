@@ -3,3 +3,6 @@ Answered with Crow, one question at a time, same rules as Patrick's ChatGPT inte
 
 ## Q4. Why would that guy buy our shirt instead of one from a brand he already shops at?
 "Because we are able to produce something with care on the smaller details, the garments, the stitching, and with great price. Me and Patrick had this belief that we are people with 'good taste' and that there will for sure be others like us out there that we want to be able to reach."
+- Follow-up (name one specific detail they get wrong): "For Pat he couldn't find the right fabric, maybe that's also a media problem in which they failed to display the quality. As for me it was the fit that led me to cut up my own shirt."
+  - Crow's note: two concrete gaps, fabric (Patrick) and fit (Korn: cropped body + shortened sleeves on the UR Henley). NEW idea, his: shops may fail to SHOW fabric quality in their photos/media, so showing the fabric could be part of "why us".
+
