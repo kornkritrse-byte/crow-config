@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🚪 **Here (Wed 21 Oct, back from restart 13:17).** Still to ask: brand Q: "someone scrolls Samneang's IG for 3 seconds, what should they feel?" · did he invite Patrick to Brand HQ? · 💳 Claude sub ends TOMORROW 22 Oct ("ill take care of that", 14:55, no when).
+- 🚪 **Here (Wed 21 Oct, back from restart 13:17).** Still to ask: brand Q: "someone scrolls Samneang's IG for 3 seconds, what should they feel?" · 💳 Claude sub ends TOMORROW 22 Oct ("ill take care of that", 14:55, no when).
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
 ## Session — 2026-10-21 (Wed)
@@ -35,6 +35,7 @@ metadata:
 - 13:20 ghost #31 (AC311 N/R interest) FAIL: needed a hint, said Discount on N/R not Interest Receivable → back Sat 24. Goals: Karamazov + proxy Henley; wake early ✗ (sore legs), bed 20 Oct ✓.
 - Training re-dayed (his call): Tue 20 = 4×800 @ 4:00/km · today recovery easy · **long 12 km Thu 22 AM** (from Sun 25; Crow objected, legs sore) → [[project-training-plan]], ledger.
 - 14:55 Karamazov: finished Book 12 + Epilogue ch 1; the end of Book 12 "made my heart drop". He revised his truth belief himself: "there is always truth, just not much people care about" → [[chapters]]. Next read: Myth of Sisyphus (after the Epilogue).
+- 15:28 **Patrick invited to Brand HQ as a guest** (his own Share; permission level not confirmed yet).
 - ⏸️ **PAUSED at 15:24, his ask: "don't forget… we are going to revisit this later".** Thread: people who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Before that: Mitya = true surface, false conclusion; his outside cuts people who never get "the ride". Resume HERE.
 
 ## Session — 2026-10-20 (Tue)
