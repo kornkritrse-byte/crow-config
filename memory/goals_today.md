@@ -93,7 +93,7 @@ metadata:
 - 2026-10-20 | Brand talk with Patrick | done
 - 2026-10-20 | Evening run with the kid from school | done
 - 2026-10-20 | Finish Karamazov | missed
-- 2026-10-21 | Wake early | open
+- 2026-10-21 | Wake early | missed
 - 2026-10-21 | Morning creative writing | open
 - 2026-10-21 | Training: Cruise 3 × 8′ @ T | open
 - 2026-10-21 | Daily journal | open
