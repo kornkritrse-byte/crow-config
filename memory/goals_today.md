@@ -88,7 +88,7 @@ metadata:
 - 2026-10-20 | Moving | done
 - 2026-10-20 | Daily journal | open
 - 2026-10-20 | Reading | open
-- 2026-10-20 | Bed by 23:30 | open
+- 2026-10-20 | Bed by 23:30 | done
 - 2026-10-20 | AC313 quiz | done
 - 2026-10-20 | Brand talk with Patrick | done
 - 2026-10-20 | Evening run with the kid from school | done
