@@ -99,3 +99,5 @@ metadata:
 - 2026-10-21 | Daily journal | open
 - 2026-10-21 | Reading | open
 - 2026-10-21 | Bed by 23:30 | open
+- 2026-10-21 | Finish Karamazov | open
+- 2026-10-21 | Measure the proxy Henley | open
