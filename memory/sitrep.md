@@ -34,7 +34,7 @@ metadata:
 - 13:15 "save session boutta restart": session saved, Room restarting.
 - 13:20 ghost #31 (AC311 N/R interest) FAIL: needed a hint, said Discount on N/R not Interest Receivable → back Sat 24. Goals: Karamazov + proxy Henley; wake early ✗ (sore legs), bed 20 Oct ✓.
 - Training re-dayed (his call): Tue 20 = 4×800 @ 4:00/km · today recovery easy · **long 12 km Thu 22 AM** (from Sun 25; Crow objected, legs sore) → [[project-training-plan]], ledger.
-- 14:55 Karamazov: finished Book 12 + Epilogue ch 1; the end of Book 12 "made my heart drop".
+- 14:55 Karamazov: finished Book 12 + Epilogue ch 1; the end of Book 12 "made my heart drop". He revised his truth belief himself: "there is always truth, just not much people care about" → [[chapters]]. Next read: Myth of Sisyphus (after the Epilogue).
 
 ## Session — 2026-10-20 (Tue)
 - Morning: 10 hard class Qs for MK201 วิ่งแลกแว่น; presentation DONE 11:35. Goals: AC313 quiz ✓ · Patrick ✓ · evening run w/ school kid ✓ · Karamazov → moved to 21 Oct (ledger). AC311 M2 = Fri 13 Nov.

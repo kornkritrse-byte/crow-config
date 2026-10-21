@@ -343,3 +343,13 @@ It started as a word puzzle. He wanted a phrase for idleness that comes from a w
 **"About me."** His own read: since midterms he has avoided academics and only followed his interests, and he shaped his goals so that this felt like progress. "Maybe I'm more disillusioned now." He rewrote his phrase as **disillusionment from a flawed perspective**, and committed: tomorrow, go through every current study resource and bring Crow up to date. "Let's get back to work together."
 
 Note for later: he named it himself, unprompted, two weeks into a break he had chosen openly (ghost deck paused to 21 Oct). The awareness is real. Whether it changes anything shows tomorrow, in the ledger and not in the phrase.
+
+---
+
+## 21 Oct 2026, Wed afternoon: "There is always truth"
+
+He finished Book 12 of Karamazov (A Judicial Error) and Epilogue ch 1. "I haven't felt my heart drop like that in a while." Sol asked whether the drop was for Mitya or for his own belief ("less truth in the world than people admit") turning into a weapon in the courtroom. **Both.** Watching people settle for a narrative over the truth made him sad, and also "thats lowk how the public just is."
+
+Crow pushed back on "the better story wins": the dazzling story (Fetyukovich) lost, the jury convicted on the plain one, and the truth *was* spoken, by Ivan, and sounded like madness. Vera flagged "that's how the public is" as the line where sadness hardens into contempt.
+
+Then he revised the belief himself: **"there is always truth, just not much truth people care about. Whether or not people care to take that version of the story."** Second time Karamazov has moved this belief (first: 3 Jul, "justifiable ≠ equal"). Both times he moved it toward truth existing, never away. Next book: Myth of Sisyphus, which he picked because "all this absurdity" (warned: Camus's "Kirilov" section likely quotes Karamazov's last pages, so finish the Epilogue first).
