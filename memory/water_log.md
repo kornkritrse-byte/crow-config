@@ -82,3 +82,5 @@ metadata:
 - 2026-10-20 21:18 | goal | Brand talk with Patrick
 - 2026-10-20 21:18 | goal | Evening run with the kid from school
 - 2026-10-21 13:30 | goal | Bed by 23:30
+- 2026-10-21 14:55 | goal | Morning creative writing
+- 2026-10-21 14:55 | goal | Reading

@@ -27,11 +27,14 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🚪 **RESTARTING (Wed 21 Oct, 13:15) — "save session boutta restart" (not a day-end; no nightly quote). ASK ON RETURN: goals today? (first session of 21 Oct; offer finish Karamazov + measure the proxy Henley, both ledgered) · bed by 23:30 last night? · brand Q left hanging: "someone scrolls Samneang's IG for 3 seconds, what should they feel?" · did he invite Patrick to Brand HQ? · 💳 Claude subscription ends TOMORROW 22 Oct.** 20 Oct day was never closed (goals.py) since he didn't log off.
+- 🚪 **Here (Wed 21 Oct, back from restart 13:17).** Still to ask: brand Q: "someone scrolls Samneang's IG for 3 seconds, what should they feel?" · did he invite Patrick to Brand HQ? · 💳 Claude sub ends TOMORROW 22 Oct ("ill take care of that", 14:55, no when).
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
 ## Session — 2026-10-21 (Wed)
 - 13:15 "save session boutta restart": session saved, Room restarting.
+- 13:20 ghost #31 (AC311 N/R interest) FAIL: needed a hint, said Discount on N/R not Interest Receivable → back Sat 24. Goals: Karamazov + proxy Henley; wake early ✗ (sore legs), bed 20 Oct ✓.
+- Training re-dayed (his call): Tue 20 = 4×800 @ 4:00/km · today recovery easy · **long 12 km Thu 22 AM** (from Sun 25; Crow objected, legs sore) → [[project-training-plan]], ledger.
+- 14:55 Karamazov: finished Book 12 + Epilogue ch 1; the end of Book 12 "made my heart drop".
 
 ## Session — 2026-10-20 (Tue)
 - Morning: 10 hard class Qs for MK201 วิ่งแลกแว่น; presentation DONE 11:35. Goals: AC313 quiz ✓ · Patrick ✓ · evening run w/ school kid ✓ · Karamazov → moved to 21 Oct (ledger). AC311 M2 = Fri 13 Nov.
@@ -55,7 +58,7 @@ metadata:
 - 🌸 **Daily goals: BUILT 29 Sep 21:32–22:00** (he pulled it forward from Sun 4 Oct, with a hard stop at 23:00). The Room's flower = today's goals; the petals fall at log-off → [[reference-crow-room]] · rule [[feedback-goals-today]]. **Tomorrow's first session: ask "goals today?".**
 - **Morning person:** #1 landed 14 Sep; #2 not seen yet → [[project-morning-person]].
 - **Race 13 Dec:** venue unknown · bib pickup race-morning or in advance? (his dad likely knows) → [[project-training-plan]]. Training resumes after exams, and the flood may affect it.
-- 📖 **Siddhartha: he's at Kamala. ⛔ No spoilers past Kamala.** Karamazov: safe through **Book 12 ch 10**, **no verdict, no Epilogue**.
+- 📖 **Siddhartha: he's at Kamala. ⛔ No spoilers past Kamala.** Karamazov: safe through **Epilogue ch 1** (verdict + escape plan known). ⛔ **No Epilogue ch 2–3.**
 - Unanswered and low-stakes: BA202 cold-question numbers (2 Sep) · AC311 slide 9 cranes vs software · FCF drill ↔ hub link.
 - BBA camp (New Year, mountains): interviewed 25 Aug, he'll report if he makes the cut. Basketball: 2 more games, dates unknown.
 - 📌 After midterms: "make Obsidian cool" → [[reference-obsidian]].

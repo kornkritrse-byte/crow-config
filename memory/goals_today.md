@@ -94,10 +94,10 @@ metadata:
 - 2026-10-20 | Evening run with the kid from school | done
 - 2026-10-20 | Finish Karamazov | missed
 - 2026-10-21 | Wake early | missed
-- 2026-10-21 | Morning creative writing | open
+- 2026-10-21 | Morning creative writing | done
 - 2026-10-21 | Training: Cruise 3 × 8′ @ T | open
 - 2026-10-21 | Daily journal | open
-- 2026-10-21 | Reading | open
+- 2026-10-21 | Reading | done
 - 2026-10-21 | Bed by 23:30 | open
 - 2026-10-21 | Finish Karamazov | open
 - 2026-10-21 | Measure the proxy Henley | open
