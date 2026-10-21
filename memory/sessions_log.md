@@ -10,6 +10,8 @@ metadata:
 ---
 
 # Sessions Log (archive)
+## 2026-10-19 (Mon)
+- Long run rained out [~], up 05:30 ✓. Brand: blind 15-Q ChatGPT interview prompt for Patrick → `brand/Core interview prompt.md`; explained the sample → photos → IG/LINE → site flow. 14:47 he named drifting into procrastination; AC311 s2 started late (issue shares), partial. Home strength MISSED (2nd in a row).
 
 ## 2026-10-18 (Sun)
 - Strength skipped 17 Oct (ledger [-]), ran 30′ @ 5:30; Long 10 km moved to Mon 19 AM (later rained out). Bed 17 Oct ✓. MK201 วิ่งแลกแว่น presentation: Crow critiqued the outline; his part = slide 4 "Why did eyewear brands join the trend?". Clothing brand with Patrick started (CORE v0) → [[project-clothing-brand]].

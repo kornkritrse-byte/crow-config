@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-10-20 21:56 (live). Window holds 20 Oct + 19 Oct; 18 Oct flushed to [[sessions-log]] 20 Oct. Next to flush: 19 Oct.*
+*Last updated: 2026-10-21 13:16 (live). Window holds 21 Oct + 20 Oct; 19 Oct flushed to [[sessions-log]] 21 Oct. Next to flush: 20 Oct.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,16 +27,18 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🚪 **Here (Tue 20 Oct, since 14:53; 21:10 back on the brand).** Patrick session happened (name Samneang, 50/50). Run ✓ (21:19). Karamazov moved to Wed 21. **Tomorrow at 'goals today?': offer (1) finish Karamazov (2) measure the proxy Henley, both in the ledger.** · did he invite Patrick to Brand HQ + assign owners on the cards?
+- 🚪 **RESTARTING (Wed 21 Oct, 13:15) — "save session boutta restart" (not a day-end; no nightly quote). ASK ON RETURN: goals today? (first session of 21 Oct; offer finish Karamazov + measure the proxy Henley, both ledgered) · bed by 23:30 last night? · brand Q left hanging: "someone scrolls Samneang's IG for 3 seconds, what should they feel?" · did he invite Patrick to Brand HQ? · 💳 Claude subscription ends TOMORROW 22 Oct.** 20 Oct day was never closed (goals.py) since he didn't log off.
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
-## Session — 2026-10-20 (Tue)
-- 07:42, driving to uni: Crow wrote 10 hard class questions for the MK201 วิ่งแลกแว่น presentation; his own pick: "can a small brand sustain this as long as a big one?" (sharpened + model answer ready). 10:31 goals set (AC313 quiz · Patrick brand talk · evening run w/ school kid · finish Karamazov). 19 Oct: AC311 s2 partial [~], home strength MISSED [-] (2nd in a row), bed ✓. AC311 M2 = Fri 13 Nov. AC313 quiz ✓ (11:31). Brand: answered Q4+Q8–15 with Crow → `brand/Korn core answers.md`; compares with Patrick early afternoon (flags: owner per area, numbers, exit money). MK201 presentation DONE (11:35). Obsidian: Brand Map got a 🤝 PARTNERSHIP group + Why us/motivation nodes; AC311 M2 map shows 13 Nov. 13:53–13:56: brand name brainstorm (EN list → old Thai words), he and Patrick pick together tonight. 14:30 Notion app installed; 14:49 Notion connector connected → Brand HQ build waits on a fresh session (plan in [[project-clothing-brand]]). Names → `brand/Names longlist.md`. 14:55 ✅ **Brand HQ built in Notion** (private; he invites Patrick; Crow edits it live) → [[project-clothing-brand]]. 15:08 🏷️ **Name chosen: Samneang สำเนียง**; 50/50 on everything, numbers later; Thai-inspired identity added to the branding. Crow asking questions one at a time. 21:10–21:15: aesthetic = Songwat buildings' grunge, colours faded (page only); **product #1 set: grey faded washed Henley + offset button placket** (him + Patrick). @samneang taken → samneang.studio-type handle; buyers mostly Thai; launch = PREORDER. Sizes S/M/L. Maker = mom's close friend's factory; promo = friends incl. faculty camera guy + fabric video. Phase = FOUNDATION before any maker, target ≈ end Nov (tentative, lands in finals); his 3-point checklist → Crow drafted 'Brand Book (draft)' in HQ (decision test = the 50/50 tiebreaker). Tonight's Patrick session → ledger.
+## Session — 2026-10-21 (Wed)
+- 13:15 "save session boutta restart": session saved, Room restarting.
 
-## Session — 2026-10-19 (Mon)
-- 05:30 long run rained out (ledger [~]); up at 05:30 ✓. Crow: drop it this week, home strength tonight.
-- Brand: blind ChatGPT interview prompt for Patrick (15 Qs, v3) → `brand/Core interview prompt.md`; explained how a clothing site works (sample → photos → IG/LINE → website). Goal: AC311 study (ledger).
-- 14:47: he named it himself, drifted into procrastination; AC311 not started. Crow started it in the Room (issue shares, s22). Home strength tonight → ledger.
+## Session — 2026-10-20 (Tue)
+- Morning: 10 hard class Qs for MK201 วิ่งแลกแว่น; presentation DONE 11:35. Goals: AC313 quiz ✓ · Patrick ✓ · evening run w/ school kid ✓ · Karamazov → moved to 21 Oct (ledger). AC311 M2 = Fri 13 Nov.
+- Brand: answered Q4 + Q8–15 → `brand/Korn core answers.md`; name brainstorm → `brand/Names longlist.md`.
+- 14:55 **Brand HQ built in Notion**; Crow edits it live, logs every change → [[project-clothing-brand]]. Crow wrote memory to the repo copy AGAIN, caught + redone → [[crow-error-log]].
+- With Patrick: **name Samneang สำเนียง** · 50/50, numbers before launch · Thai = a hint (Songwat grunge, faded colour) · **product #1 grey faded Henley + offset button, S/M/L, PREORDER** · maker = mom's close friend's factory (specialty unknown). Proxy measuring → Wed 21 (ledger).
+- 21:51 phase = FOUNDATION before any maker, target ≈ end Nov (tentative; clashes with finals). Crow drafted **Brand Book** (decision test = the 50/50 tiebreaker; his rule: best justification wins). Logo = Thai script สำเนียง.
 
 ## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. **AC311 Midterm 2 (sessions 8–11, PPE + intangibles, 30%) is next: **Fri 13 Nov** (Korn, 20 Oct; time TBC). Session 11 (31 Oct, impairment TAS 36) falls before it, so assume impairment is IN scope. Final 28 Nov.**
 
