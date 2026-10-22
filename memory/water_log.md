@@ -85,3 +85,7 @@ metadata:
 - 2026-10-21 14:55 | goal | Morning creative writing
 - 2026-10-21 14:55 | goal | Reading
 - 2026-10-21 15:18 | goal | Morning creative writing
+- 2026-10-22 15:27 | goal | Wake early
+- 2026-10-22 15:27 | goal | Training: Long 12 km (AM, moved from Sun 25, his call)
+- 2026-10-22 15:27 | goal | Reading
+- 2026-10-22 15:30 | task | Samneang: brand Gmail + IG @samneang.studio created (with Patrick)
