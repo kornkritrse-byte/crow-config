@@ -30,6 +30,10 @@ metadata:
 - 🚪 **Here (Wed 21 Oct, back from restart 13:17).** Still to ask: brand Q: "someone scrolls Samneang's IG for 3 seconds, what should they feel?" · 💳 Claude sub ends TOMORROW 22 Oct ("ill take care of that", 14:55, no when).
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
+## Session — 2026-10-22 (Thu)
+- 11:59 proxy Henley flat-measured (ledger [~], a day late): chest 59 = hem 59 (boxy, NO taper vs his 18 Oct fit idea) · length 56 · shoulder 51 · sleeve 53 from seam · placket 17 · neck 23 · neck-to-shoulder 19 → **19 doesn't add up** (23+19+19=61 vs 51; seam likely ~14), re-measure the seam. Button count still missing. At a café with Patrick, 12:17.
+- 👻 ghost #32 (AC311 retraining provision) served, **held for later, his call** (12:17). Goals, the long run, the Claude sub (ends TODAY) not asked yet.
+
 ## Session — 2026-10-21 (Wed)
 - 13:15 "save session boutta restart": session saved, Room restarting.
 - 13:20 ghost #31 (AC311 N/R interest) FAIL: needed a hint, said Discount on N/R not Interest Receivable → back Sat 24. Goals: Karamazov + proxy Henley; wake early ✗ (sore legs), bed 20 Oct ✓.
