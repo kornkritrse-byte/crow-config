@@ -101,3 +101,9 @@ metadata:
 - 2026-10-21 | Bed by 23:30 | open
 - 2026-10-21 | Finish Karamazov | open
 - 2026-10-21 | Measure the proxy Henley | open
+- 2026-10-22 | Wake early | open
+- 2026-10-22 | Morning creative writing | open
+- 2026-10-22 | Training: Long 12 km (AM, moved from Sun 25, his call) | open
+- 2026-10-22 | Daily journal | open
+- 2026-10-22 | Reading | open
+- 2026-10-22 | Bed by 23:30 | open
