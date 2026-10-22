@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-10-21 13:16 (live). Window holds 21 Oct + 20 Oct; 19 Oct flushed to [[sessions-log]] 21 Oct. Next to flush: 20 Oct.*
+*Last updated: 2026-10-22 16:25 (live). Window holds 22 Oct + 21 Oct; 20 Oct flushed to [[sessions-log]] 22 Oct. Next to flush: 21 Oct.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🚪 **Here (Wed 21 Oct, back from restart 13:17).** Still to ask: brand Q: "someone scrolls Samneang's IG for 3 seconds, what should they feel?" · 💳 Claude sub ends TOMORROW 22 Oct ("ill take care of that", 14:55, no when).
+- 🚪 **Here (Thu 22 Oct, 16:25).** Still to ask: 💳 Claude sub ends TODAY · goals today · 12 km long run (moved to Thu 22 AM) · ghost #32 (held) · brand Q: "someone scrolls Samneang's IG for 3 seconds, what should they feel?" · ⏸️ the 21 Oct paused thread (resume when he's ready).
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
 ## Session — 2026-10-22 (Thu)
@@ -42,13 +42,6 @@ metadata:
 - 14:55 Karamazov: finished Book 12 + Epilogue ch 1; the end of Book 12 "made my heart drop". He revised his truth belief himself: "there is always truth, just not much people care about" → [[chapters]]. Next read: Myth of Sisyphus (after the Epilogue).
 - 15:28 **Patrick invited to Brand HQ as a guest** (his own Share; FULL ACCESS).
 - ⏸️ **PAUSED at 15:24, his ask: "don't forget… we are going to revisit this later".** Thread: people who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Before that: Mitya = true surface, false conclusion; his outside cuts people who never get "the ride". Resume HERE.
-
-## Session — 2026-10-20 (Tue)
-- Morning: 10 hard class Qs for MK201 วิ่งแลกแว่น; presentation DONE 11:35. Goals: AC313 quiz ✓ · Patrick ✓ · evening run w/ school kid ✓ · Karamazov → moved to 21 Oct (ledger). AC311 M2 = Fri 13 Nov.
-- Brand: answered Q4 + Q8–15 → `brand/Korn core answers.md`; name brainstorm → `brand/Names longlist.md`.
-- 14:55 **Brand HQ built in Notion**; Crow edits it live, logs every change → [[project-clothing-brand]]. Crow wrote memory to the repo copy AGAIN, caught + redone → [[crow-error-log]].
-- With Patrick: **name Samneang สำเนียง** · 50/50, numbers before launch · Thai = a hint (Songwat grunge, faded colour) · **product #1 grey faded Henley + offset button, S/M/L, PREORDER** · maker = mom's close friend's factory (specialty unknown). Proxy measuring → Wed 21 (ledger).
-- 21:51 phase = FOUNDATION before any maker, target ≈ end Nov (tentative; clashes with finals). Crow drafted **Brand Book** (decision test = the 50/50 tiebreaker; his rule: best justification wins). Logo = Thai script สำเนียง.
 
 ## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. **AC311 Midterm 2 (sessions 8–11, PPE + intangibles, 30%) is next: **Fri 13 Nov** (Korn, 20 Oct; time TBC). Session 11 (31 Oct, impairment TAS 36) falls before it, so assume impairment is IN scope. Final 28 Nov.**
 
