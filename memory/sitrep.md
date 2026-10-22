@@ -27,13 +27,14 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🚪 **Here (Thu 22 Oct, 16:25).** Still to ask: 💳 Claude sub ends TODAY · goals today · 12 km long run (moved to Thu 22 AM) · ghost #32 (held) · brand Q: "someone scrolls Samneang's IG for 3 seconds, what should they feel?" · ⏸️ the 21 Oct paused thread (resume when he's ready).
+- 🚪 **Here (Thu 22 Oct, 16:25).** Still to ask: goals today · 12 km long run (moved to Thu 22 AM) · ghost #32 (held) · brand Q: "someone scrolls Samneang's IG for 3 seconds, what should they feel?" · ⏸️ the 21 Oct paused thread (resume when he's ready).
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
 ## Session — 2026-10-22 (Thu)
 - 11:59 proxy Henley flat-measured (ledger [~], a day late): chest 59 = hem 59 (boxy, NO taper vs his 18 Oct fit idea) · length 56 · shoulder 51 · sleeve 53 from seam · placket 17 · neck 23 · neck-to-shoulder 19 → **19 doesn't add up** (23+19+19=61 vs 51; seam likely ~14), re-measure the seam. Button count still missing. At a café with Patrick, 12:17.
 - 13:00–15:38 brand at the café w/ Patrick: ChatGPT enabled as Notion MCP client (Patrick's write still unproven) · **IG + Gmail samneang.studio created** (no domain yet, buy before preorders) · built HQ **Session protocol + Decisions** + `samneang-log` skill → he audits → [[project-clothing-brand]].
-- 👻 ghost #32 (AC311 retraining provision) served, **held for later, his call** (12:17). Goals, the long run, the Claude sub (ends TODAY) not asked yet.
+- 👻 ghost #32 (AC311 retraining provision) served, **held for later, his call** (12:17). Goals, the long run not asked yet.
+- 16:27 💳 **Claude sub renewed — DONE** (his words: "all done").
 
 ## Session — 2026-10-21 (Wed)
 - 13:15 "save session boutta restart": session saved, Room restarting.
