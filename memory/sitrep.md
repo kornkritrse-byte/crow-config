@@ -34,7 +34,7 @@ metadata:
 - 11:59 proxy Henley flat-measured (ledger [~], a day late): chest 59 = hem 59 (boxy, NO taper vs his 18 Oct fit idea) · length 56 · shoulder 51 · sleeve 53 from seam · placket 17 · neck 23 · neck-to-shoulder 19 → **19 doesn't add up** (23+19+19=61 vs 51; seam likely ~14), re-measure the seam. Button count still missing. At a café with Patrick, 12:17.
 - 13:00–15:38 brand at the café w/ Patrick: ChatGPT enabled as Notion MCP client (Patrick's write still unproven) · **IG + Gmail samneang.studio created** (no domain yet, buy before preorders) · built HQ **Session protocol + Decisions** + `samneang-log` skill → he audits → [[project-clothing-brand]].
 - 👻 ghost #32 (AC311 retraining provision) served, **held for later, his call** (12:17). Goals, the long run not asked yet.
-- 21:50 Notion: Pending → inline DB 'Pending inputs' (checkboxes, grouped by Section), his ask.
+- 21:50 Pending → checkbox DB; 21:55 he changed his mind → back to TABLES; DB parked in Archive.
 - 21:39 Notion: 7 decisions both ✅ → Decided; Pending's Decisions + Partnership sections cleared (his word). Partnership: already agreed out loud with Patrick (his word, 21:41); **he'll fill the page in manually**, no when. Don't push.
 - 16:52 Notion: built **Pending** (top) + **Archive** (bottom) pages; protocol +3 fixes + archive rule → [[project-clothing-brand]].
 - 16:40 ⚠️ flag on Henley spec (agreed vs explorations). **His ask: keep replies SIMPLIFIED, eyes tired.** Back to protocol audit.
