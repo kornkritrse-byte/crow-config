@@ -10,6 +10,9 @@ metadata:
 ---
 
 # Sessions Log (archive)
+## 2026-10-21 (Wed)
+- Ghost #31 (AC311 N/R interest) FAIL → Sat 24. Goals: Karamazov + proxy Henley; wake early ✗, bed 20 Oct ✓. Training re-dayed: long 12 km → Thu 22 AM (Crow objected, sore legs) → [[project-training-plan]]. Karamazov: Book 12 + Epilogue ch 1 done; he revised his truth belief: "there is always truth, just not much people care about" → [[chapters]]. Patrick invited to Brand HQ (guest). Deep thread PAUSED 15:24 (surface vs deeper side), carried on the SITREP status line.
+
 ## 2026-10-20 (Tue)
 - MK201 วิ่งแลกแว่น presentation DONE 11:35. Goals: AC313 quiz ✓ · Patrick ✓ · evening run ✓ · Karamazov → 21 Oct. Brand: core answers + names longlist; **Brand HQ built in Notion** 14:55; with Patrick: name **Samneang สำเนียง**, 50/50, product #1 grey faded Henley (offset button, S/M/L, preorder), maker = mom's friend's factory; phase = FOUNDATION ≈ end Nov; Brand Book drafted → [[project-clothing-brand]]. Crow wrote memory to the repo copy again → [[crow-error-log]].
 
