@@ -1085,6 +1085,18 @@ const Voice = (() => {
   // the next 30 seconds') quietly uses the browser voice instead.
   let queue = [], playing = false, gen = 0, abort = new AbortController(), lastFetch = Promise.resolve();
   let audioEl = null, kokoroOffUntil = 0, lastEnd = 0;
+  // Safari only lets an audio element play outside a click if it already played
+  // inside one, and a reply arrives seconds after the mic click. So there is one
+  // element, unlocked on the mic click with a few ms of silence, and every
+  // sentence plays through it. (A fresh new Audio() per sentence was refused, and
+  // each refusal fell back to the robot browser voice. Chromium never minded.)
+  const player = new Audio();
+  const SILENCE = 'data:audio/wav;base64,UklGRsQAAABXQVZFZm10IBAAAAABAAEAQB8AAIA+AAACABAAZGF0YaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA';
+  function unlock() {
+    if (audioEl) return;
+    player.src = SILENCE;
+    player.play().catch(() => {});
+  }
   const timings = [];   // per sentence: ms from complete to sounding (idle = nothing was playing)
   const DEFAULT_KOKORO = 'bm_fable';   // his pick, 24 Oct
 
@@ -1150,14 +1162,25 @@ const Voice = (() => {
   }
   function playBlob(blob, item) {
     return new Promise(resolve => {
-      const url = URL.createObjectURL(blob), a = new Audio(url);
-      const done = () => { URL.revokeObjectURL(url); if (audioEl === a) audioEl = null; resolve(); };
+      const url = URL.createObjectURL(blob), a = player;
+      let over = false;
+      const done = () => {
+        if (over) return; over = true;
+        a.onplaying = a.onended = a.onerror = null;
+        URL.revokeObjectURL(url); if (audioEl === a) audioEl = null; resolve();
+      };
       a.done = done;
       a.onplaying = () => mark(item, 'kokoro');
       a.onended = done;
       a.onerror = done;
       audioEl = a;
-      a.play().catch(() => { URL.revokeObjectURL(url); audioEl = null; speakSynth(item).then(resolve); });
+      a.src = url;
+      a.play().catch(err => {
+        if (over) return; over = true;
+        a.onplaying = a.onended = a.onerror = null;
+        console.warn('Kokoro audio refused, using the browser voice:', err?.name);
+        URL.revokeObjectURL(url); audioEl = null; speakSynth(item).then(resolve);
+      });
     });
   }
   function speakSynth(item) {
@@ -1223,6 +1246,7 @@ const Voice = (() => {
 
   async function start() {
     hush();
+    unlock();   // still inside the click, so Safari counts it
     if (!navigator.mediaDevices?.getUserMedia || !window.MediaRecorder) return setHint('This browser can’t record audio.', 'error');
     try {
       micStream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true } });
