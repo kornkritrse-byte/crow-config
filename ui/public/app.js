@@ -1108,13 +1108,16 @@ const Voice = (() => {
     if (!t || !/[\p{L}\p{N}]/u.test(t)) return;
     const thai = /[฀-๿]/.test(t);
     const item = { text: t, thai, at: performance.now(), idle: !playing && !queue.length };
-    if (!thai && Date.now() >= kokoroOffUntil) item.audio = fetchAudio(t);
+    if (!thai && Date.now() >= kokoroOffUntil) item.audio = fetchAudio(t).then(b => { item.made = performance.now(); return b; });
     queue.push(item);
     if (!playing) play();
   }
   function mark(item, engine) {
     const now = performance.now();
-    timings.push({ text: item.text.slice(0, 40), engine, idle: item.idle, ms: Math.round(now - item.at), gap: item.idle ? null : Math.round(now - lastEnd) });
+    timings.push({
+      text: item.text.slice(0, 40), engine, idle: item.idle, ms: Math.round(now - item.at),
+      made: item.made ? Math.round(item.made - item.at) : null, gap: item.idle ? null : Math.round(now - lastEnd),
+    });
   }
   async function play() {
     playing = true;
@@ -1160,7 +1163,11 @@ const Voice = (() => {
   }
   // The first sentence of a reply is the one he waits for, and Kokoro's time grows
   // with length (~0.4 s for one word, ~1.5 s for twenty), so a long opener is cut
-  // at its first comma once it's at least three words in.
+  // at its first comma once it's at least three words in. The same goes for the
+  // next one while little audio is queued ahead of it: a 3-word opener plays for
+  // ~1 s, and a 17-word sentence after it takes ~1.5 s to make (a gap, measured).
+  const wordsOf = s => s.trim().split(/\s+/).length;
+  const queuedWords = () => queue.reduce((n, i) => n + wordsOf(i.text), 0);
   function leadCut(s) {
     if (s.trim().split(/\s+/).length <= 10) return -1;
     const from = s.match(/^\s*(\*\*)?Crow:(\*\*)?\s*/)?.[0].length || 0;
@@ -1188,7 +1195,7 @@ const Voice = (() => {
         continue;
       }
       if (end === -1) { if (final) { say(buf); buf = ''; } return; }
-      const lead = !playing && !queue.length ? leadCut(buf.slice(0, end)) : -1;
+      const lead = queuedWords() < 12 ? leadCut(buf.slice(0, end)) : -1;
       const cut = lead > 0 ? lead : end;
       say(buf.slice(0, cut));
       buf = buf.slice(cut);
