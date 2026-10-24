@@ -1092,7 +1092,18 @@ const Voice = (() => {
   // each refusal fell back to the robot browser voice. Chromium never minded.)
   const player = new Audio();
   const SILENCE = 'data:audio/wav;base64,UklGRsQAAABXQVZFZm10IBAAAAABAAEAQB8AAIA+AAACABAAZGF0YaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA';
+  // Gapless, his ask 24 Oct: with only 20 ms of silence left in the files the pause
+  // after a full stop still dragged, because the element takes a beat to switch
+  // clips. Web Audio schedules each sentence to start the instant the one before
+  // it ends. Its context is made and resumed on the mic click (Safari wants a
+  // click for that too); while it isn't running, sentences use the element.
+  let ctx = null, nextAt = 0, aheadWords = 0;
+  const sources = new Set();
   function unlock() {
+    try {
+      ctx ||= new (window.AudioContext || window.webkitAudioContext)();
+      ctx.resume().catch(() => {});
+    } catch { ctx = null; }
     if (audioEl) return;
     player.src = SILENCE;
     player.play().catch(() => {});
@@ -1168,13 +1179,48 @@ const Voice = (() => {
         }
       }
       if (g !== gen) return;
-      await (blob ? playBlob(blob, item) : speakSynth(item));
+      const scheduled = blob && ctx?.state === 'running' && await scheduleBlob(blob, item, g).then(() => true, () => false);
       if (g !== gen) return;
-      lastEnd = performance.now();
+      if (!scheduled) {
+        await untilQuiet(g);   // scheduled sentences finish before the element or the browser voice speaks
+        if (g !== gen) return;
+        await (blob ? playBlob(blob, item) : speakSynth(item));
+        if (g !== gen) return;
+        lastEnd = performance.now();
+      }
       queue.shift();
     }
+    await untilQuiet(g);
+    if (g !== gen) return;
     playing = false;
     showHush();
+  }
+  async function scheduleBlob(blob, item, g) {
+    const buffer = await ctx.decodeAudioData(await blob.arrayBuffer());
+    if (g !== gen) return;
+    const src = ctx.createBufferSource(), words = wordsOf(item.text);
+    src.buffer = buffer;
+    src.connect(ctx.destination);
+    const at = Math.max(ctx.currentTime + 0.01, nextAt);
+    src.start(at);
+    nextAt = at + buffer.duration;
+    sources.add(src); aheadWords += words;
+    src.onended = () => { if (sources.delete(src)) aheadWords -= words; };
+    setTimeout(() => {
+      if (g !== gen) return;
+      mark(item, 'kokoro');
+      lastEnd = performance.now() + buffer.duration * 1000;
+    }, (at - ctx.currentTime) * 1000);
+  }
+  // Resolves once everything scheduled has played (or the context stopped running).
+  function untilQuiet(g) {
+    return new Promise(resolve => {
+      const check = () => {
+        const left = ctx && ctx.state === 'running' ? nextAt - ctx.currentTime : 0;
+        if (g !== gen || left <= 0.005) resolve(); else setTimeout(check, Math.max(10, left * 1000));
+      };
+      check();
+    });
   }
   function playBlob(blob, item) {
     return new Promise(resolve => {
@@ -1218,7 +1264,7 @@ const Voice = (() => {
   // next one while little audio is queued ahead of it: a 3-word opener plays for
   // ~1 s, and a 17-word sentence after it takes ~1.5 s to make (a gap, measured).
   const wordsOf = s => s.trim().split(/\s+/).length;
-  const queuedWords = () => queue.reduce((n, i) => n + wordsOf(i.text), 0);
+  const queuedWords = () => aheadWords + queue.reduce((n, i) => n + wordsOf(i.text), 0);
   function leadCut(s) {
     if (s.trim().split(/\s+/).length <= 10) return -1;
     const from = s.match(/^\s*(\*\*)?Crow:(\*\*)?\s*/)?.[0].length || 0;
@@ -1257,6 +1303,8 @@ const Voice = (() => {
     gen++; queue = []; playing = false;
     abort.abort(); abort = new AbortController(); lastFetch = Promise.resolve();
     if (audioEl) { audioEl.pause(); audioEl.done(); }
+    for (const src of sources) { try { src.stop(); } catch {} }
+    sources.clear(); aheadWords = 0; nextAt = 0;
     synth?.cancel();
     showHush();
   }
