@@ -1033,8 +1033,8 @@ $('new-session').onclick = () => {
 // ---------------------------------------------------------------- voice
 // Say it instead of typing it. The mic records a clip, the server transcribes it
 // with whisper (offline, on this Mac) and sends it in tagged [voice]. A reply to a
-// spoken message is read aloud sentence by sentence while it streams: Thai with
-// the Thai voice (Kanya), everything else with an English one. Fenced blocks
+// spoken message is read aloud sentence by sentence while it streams: English by
+// Kokoro (a local neural voice), Thai by the browser's Kanya. Fenced blocks
 // (code, MCQ cards) are for the screen and are skipped.
 const Voice = (() => {
   const mic = $('mic'), hint = document.querySelector('.composer .hint'), hintText = hint.textContent;
@@ -1078,15 +1078,96 @@ const Voice = (() => {
       .replace(/\p{Extended_Pictographic}️?/gu, '')
       .replace(/\s+/g, ' ').replace(/^[\s,]+|[\s,]+$/g, '');
   }
+  // English goes to Kokoro (ui/tts.py, through POST /tts); Thai goes to the
+  // browser's Kanya, since Kokoro has no Thai. Sentences play in order, and each
+  // one's audio is fetched as soon as the one before it has arrived, so the next
+  // is ready while the current one plays. If Kokoro fails, that sentence (and
+  // the next minute's) quietly uses the browser voice instead.
+  let queue = [], playing = false, gen = 0, abort = new AbortController(), lastFetch = Promise.resolve();
+  let audioEl = null, kokoroOffUntil = 0, lastEnd = 0;
+  const timings = [];   // per sentence: ms from complete to sounding (idle = nothing was playing)
+  const DEFAULT_KOKORO = 'bm_fable';   // his pick, 24 Oct
+
+  // crow-voice in localStorage can hold a Kokoro voice ("am_onyx") or a browser voice name.
+  function kokoroVoice() {
+    let saved = null;
+    try { saved = localStorage.getItem('crow-voice'); } catch {}
+    return /^[a-z][fm]_[a-z]+$/.test(saved || '') ? saved : DEFAULT_KOKORO;
+  }
+  function fetchAudio(text) {
+    const g = gen, signal = abort.signal;
+    const p = lastFetch.catch(() => {}).then(() => {
+      if (g !== gen) throw new Error('hushed');
+      return fetch('/tts', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ text, voice: kokoroVoice() }), signal });
+    }).then(r => { if (!r.ok) throw new Error(`tts ${r.status}`); return r.blob(); });
+    lastFetch = p;
+    return p;
+  }
   function say(raw) {
     const t = clean(raw);
-    if (!t || !synth || !/[\p{L}\p{N}]/u.test(t)) return;
-    const u = new SpeechSynthesisUtterance(t);
-    const thai = /[฀-๿]/.test(t), v = thai ? voices.th : voices.en;
-    if (v) u.voice = v;
-    u.lang = v?.lang || (thai ? 'th-TH' : 'en-GB');
-    u.rate = 1.05;
-    synth.speak(u);
+    if (!t || !/[\p{L}\p{N}]/u.test(t)) return;
+    const thai = /[฀-๿]/.test(t);
+    const item = { text: t, thai, at: performance.now(), idle: !playing && !queue.length };
+    if (!thai && Date.now() >= kokoroOffUntil) item.audio = fetchAudio(t);
+    queue.push(item);
+    if (!playing) play();
+  }
+  function mark(item, engine) {
+    const now = performance.now();
+    timings.push({ text: item.text.slice(0, 40), engine, idle: item.idle, ms: Math.round(now - item.at), gap: item.idle ? null : Math.round(now - lastEnd) });
+  }
+  async function play() {
+    playing = true;
+    const g = gen;
+    while (queue.length && g === gen) {
+      const item = queue[0];
+      let blob = null;
+      if (item.audio) {
+        try { blob = await item.audio; } catch { if (g === gen) kokoroOffUntil = Date.now() + 60000; }
+      }
+      if (g !== gen) return;
+      await (blob ? playBlob(blob, item) : speakSynth(item));
+      if (g !== gen) return;
+      lastEnd = performance.now();
+      queue.shift();
+    }
+    playing = false;
+  }
+  function playBlob(blob, item) {
+    return new Promise(resolve => {
+      const url = URL.createObjectURL(blob), a = new Audio(url);
+      const done = () => { URL.revokeObjectURL(url); if (audioEl === a) audioEl = null; resolve(); };
+      a.done = done;
+      a.onplaying = () => mark(item, 'kokoro');
+      a.onended = done;
+      a.onerror = done;
+      audioEl = a;
+      a.play().catch(() => { URL.revokeObjectURL(url); audioEl = null; speakSynth(item).then(resolve); });
+    });
+  }
+  function speakSynth(item) {
+    return new Promise(resolve => {
+      if (!synth) return resolve();
+      const u = new SpeechSynthesisUtterance(item.text), v = item.thai ? voices.th : voices.en;
+      if (v) u.voice = v;
+      u.lang = v?.lang || (item.thai ? 'th-TH' : 'en-GB');
+      u.rate = 1.05;
+      const safety = setTimeout(resolve, 3000 + item.text.length * 150);   // onend doesn't always fire
+      u.onstart = () => mark(item, 'browser');
+      u.onend = u.onerror = () => { clearTimeout(safety); resolve(); };
+      synth.speak(u);
+    });
+  }
+  // The first sentence of a reply is the one he waits for, and Kokoro's time grows
+  // with length (~0.4 s for one word, ~1.5 s for twenty), so a long opener is cut
+  // at its first comma once it's at least three words in.
+  function leadCut(s) {
+    if (s.trim().split(/\s+/).length <= 10) return -1;
+    const from = s.match(/^\s*(\*\*)?Crow:(\*\*)?\s*/)?.[0].length || 0;
+    const re = /[,;:]\s/g;
+    re.lastIndex = from;
+    for (let m; (m = re.exec(s));) if (s.slice(from, m.index).trim().split(/\s+/).length >= 3) return m.index + m[0].length;
+    return -1;
   }
   // Where the next sentence ends: after . ! ? followed by a space, or at a line
   // break. Long Thai runs have no punctuation, so past ~220 characters a space will do.
@@ -1107,11 +1188,19 @@ const Voice = (() => {
         continue;
       }
       if (end === -1) { if (final) { say(buf); buf = ''; } return; }
-      say(buf.slice(0, end));
-      buf = buf.slice(end);
+      const lead = !playing && !queue.length ? leadCut(buf.slice(0, end)) : -1;
+      const cut = lead > 0 ? lead : end;
+      say(buf.slice(0, cut));
+      buf = buf.slice(cut);
     }
   }
-  function hush() { armed = false; buf = ''; synth?.cancel(); }
+  function hush() {
+    armed = false; buf = '';
+    gen++; queue = []; playing = false;
+    abort.abort(); abort = new AbortController(); lastFetch = Promise.resolve();
+    if (audioEl) { audioEl.pause(); audioEl.done(); }
+    synth?.cancel();
+  }
 
   async function start() {
     hush();
@@ -1164,7 +1253,7 @@ const Voice = (() => {
     if (rec && (e.key === 'Enter' || e.key === 'Escape')) {
       e.preventDefault(); e.stopPropagation();
       stop(e.key === 'Escape');
-    } else if (e.key === 'Escape' && synth?.speaking) hush();
+    } else if (e.key === 'Escape' && (playing || synth?.speaking)) hush();
   }, true);
 
   return {
@@ -1172,6 +1261,7 @@ const Voice = (() => {
     heard(text) { hush(); armed = !!text?.startsWith('[voice] '); },
     feed(t) { if (armed) { buf += t; drain(false); } },
     end() { if (armed) drain(true); armed = false; },
+    timings,   // for checking latency from the console: Voice.timings
     status(ev) {
       mic.classList.toggle('working', ev.state === 'transcribing');
       if (ev.state === 'transcribing') setHint('Transcribing…', 'voice');

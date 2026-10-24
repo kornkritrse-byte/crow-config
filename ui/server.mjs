@@ -464,31 +464,62 @@ const SHORT_CLIP_MS = 14000;
 const WHISPER_PROMPT = 'Crow, Korn. AC311, BA202, TAS 16, TAS 40, TAS 36, PPE, investment property, impairment, revaluation surplus, OCI, depreciation, carrying amount, fair value.';
 // What whisper "hears" in silence or a cough.
 const NOT_SPEECH = /^(\[.*\]|\(.*\)|thank you\.?|thanks for watching!?|you|ขอบคุณ(ครับ|ค่ะ)?)$/i;
-let whisper = null;   // { proc, ready }
-
-function startWhisper() {
-  if (whisper) return whisper.ready;
-  const url = `http://127.0.0.1:${WHISPER_PORT}/`;
-  const w = { proc: null };
-  w.ready = (async () => {
-    try { await fetch(url); return; } catch {}       // one left running from before: reuse it
-    w.proc = spawn('whisper-server', ['-m', WHISPER_MODEL, '--host', '127.0.0.1', '--port', String(WHISPER_PORT),
-      '-l', 'auto', '-nt', '--convert', '-bo', '1', '-ac', '768'], { cwd: os.tmpdir(), stdio: 'ignore' });
-    w.proc.on('exit', () => { if (whisper === w) whisper = null; });
-    for (let i = 0; i < 60; i++) {
-      if (w.proc.exitCode !== null) throw new Error('whisper-server stopped while starting');
-      try { await fetch(url); return; } catch {}
-      await new Promise(r => setTimeout(r, 500));
-    }
-    w.proc.kill();
-    throw new Error('whisper-server took too long to start');
-  })();
-  w.ready.catch(() => { if (whisper === w) whisper = null; });
-  whisper = w;
-  return w.ready;
+// A helper process on its own port (whisper for hearing, Kokoro for speaking):
+// started on first use, kept running so its model stays loaded, killed with the Room.
+// start() resolves once the port answers; if the process dies, the next start() respawns it.
+const services = [];
+function localService(name, port, cmd, args, opts = {}) {
+  const url = `http://127.0.0.1:${port}/`;
+  const svc = { name, url, proc: null, ready: null };
+  svc.start = () => {
+    if (svc.ready) return svc.ready;
+    const ready = svc.ready = (async () => {
+      try { await fetch(url); return; } catch {}       // one left running from before: reuse it
+      const proc = svc.proc = spawn(cmd, args, { stdio: 'ignore', ...opts });
+      proc.on('exit', () => { if (svc.ready === ready) svc.ready = null; });
+      for (let i = 0; i < 60; i++) {
+        if (proc.exitCode !== null) throw new Error(`${name} stopped while starting`);
+        try { await fetch(url); return; } catch {}
+        await new Promise(r => setTimeout(r, 500));
+      }
+      proc.kill();
+      throw new Error(`${name} took too long to start`);
+    })();
+    ready.catch(() => { if (svc.ready === ready) svc.ready = null; });
+    return ready;
+  };
+  services.push(svc);
+  return svc;
 }
-// whisper-server is a separate process; it must not outlive the Room.
-process.on('exit', () => whisper?.proc?.kill());
+const whisper = localService('whisper-server', WHISPER_PORT, 'whisper-server', ['-m', WHISPER_MODEL, '--host', '127.0.0.1',
+  '--port', String(WHISPER_PORT), '-l', 'auto', '-nt', '--convert', '-bo', '1', '-ac', '768'], { cwd: os.tmpdir() });
+const startWhisper = whisper.start;
+
+// The speaking voice: Kokoro (ui/tts.py, its own venv). A sentence of up to ~9
+// words comes back in under a second. If it can't run, /tts answers 503 and the
+// browser falls back to its built-in voice.
+const TTS_PORT = PORT + 2;
+const TTS_PYTHON = path.join(HOME, '.kokoro-venv/bin/python');
+const tts = localService('Kokoro', TTS_PORT, TTS_PYTHON, [path.join(HERE, 'tts.py'), String(TTS_PORT)]);
+
+async function speakProxy(req, res) {
+  const chunks = [];
+  let size = 0;
+  for await (const c of req) {
+    if ((size += c.length) > 64 * 1024) { res.writeHead(413).end(); return; }   // a sentence, not a book
+    chunks.push(c);
+  }
+  try {
+    await tts.start();
+    const r = await fetch(`${tts.url}tts`, { method: 'POST', body: Buffer.concat(chunks), headers: { 'content-type': 'application/json' } });
+    const buf = Buffer.from(await r.arrayBuffer());
+    res.writeHead(r.status, { 'content-type': r.headers.get('content-type') || 'audio/wav' }).end(buf);
+  } catch (err) {
+    res.writeHead(503, { 'content-type': 'text/plain' }).end(`voice unavailable: ${err.message}`);
+  }
+}
+// They're separate processes; they must not outlive the Room.
+process.on('exit', () => { for (const s of services) s.proc?.kill(); });
 // (Not SIGHUP: crow-room.sh starts the Room under nohup, and a handler would undo that.)
 for (const sig of ['SIGINT', 'SIGTERM']) process.on(sig, () => process.exit());
 
@@ -714,6 +745,12 @@ const VENDOR = {
 };
 const server = http.createServer((req, res) => {
   const url = new URL(req.url, 'http://x');
+  if (req.method === 'POST' && url.pathname === '/tts') {
+    // Same rule as the socket: only the Room's own page may use it.
+    if (!ALLOWED_ORIGINS.has(req.headers.origin)) { res.writeHead(403).end(); return; }
+    speakProxy(req, res);
+    return;
+  }
   const file = VENDOR[url.pathname] ? path.join(HERE, VENDOR[url.pathname])
     : path.join(HERE, 'public', url.pathname === '/' ? 'index.html' : url.pathname);
   if (!VENDOR[url.pathname] && !file.startsWith(path.join(HERE, 'public') + path.sep)) { res.writeHead(403).end(); return; }
@@ -757,7 +794,10 @@ wss.on('connection', ws => {
       case 'permission': answerPermission(m); break;
       case 'rewind': rewind(m); break;
       case 'voice': voice(m); break;
-      case 'voice_warm': startWhisper().catch(() => {}); break;   // the mic went live: load the model while he talks
+      case 'voice_warm':   // the mic went live: load both models while he talks
+        startWhisper().catch(() => {});
+        tts.start().catch(() => {});
+        break;
       case 'files':
         ws.send(JSON.stringify({ type: 'files', q: m.q, files: await findFiles(m.q) }));
         break;
