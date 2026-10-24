@@ -32,6 +32,7 @@ metadata:
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
 ## Session — 2026-10-24 (Sat)
+- 14:20–14:50 back. Ghost #25 ✗ (said inventory, then "meant investment"; sorting reason was the real gap) → re-drilled 4/4. Then **built VOICE into the Crow Room** (his call over AC311 first) → [[reference-crow-room]]. AC311 block still open.
 - 10:40 📖 **finished The Brothers Karamazov.** Nearly cried at Alyosha's speech. His call: NOT a petal/water, "too significant to be simplified into a task finished." The stone brought his childhood back: "these memories will be my truth." → [[chapters]] · [[user-reading-list]]
 - 10:58 goals: Afternoon study AC311 (goal #7).
 - 09:25 his ask: logo **V3** (blue wordmark, ํ merged into swash) → added to Notion Brand HQ (page + DB row + toggle + log). → [[project-clothing-brand]]
