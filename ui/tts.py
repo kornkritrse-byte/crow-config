@@ -51,8 +51,9 @@ def phonemes(text, lang):
 # ~120 ms after it, and the Room plays sentences back to back, so that silence
 # is the pause. Halve it, for full stops only: the Room also cuts long openers
 # at a comma, and those pauses stay as Kokoro makes them (his correction, 16:09).
+# Still "a little bit too long" at 80 ms (16:15): halved again.
 QUIET = 0.01                  # below this the fade of the last word is inaudible
-LEAD_KEEP, TAIL_KEEP = 0.01, 0.07   # seconds: 80 ms in all, from ~160
+LEAD_KEEP, TAIL_KEEP = 0.005, 0.035   # seconds: 40 ms in all, from ~160
 
 
 def tighten(audio, rate):
