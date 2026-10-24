@@ -1102,7 +1102,7 @@ const Voice = (() => {
   // Talking speed, his ask 24 Oct: "lets try 50% faster". Kokoro takes it natively
   // (0.5–2), so it's faster speech rather than sped-up audio. crow-voice-speed in
   // localStorage overrides it.
-  const DEFAULT_SPEED = 1.5;
+  const DEFAULT_SPEED = 1.2;   // tried 1.5 first, settled on 1.2 (his call, 16:02)
   function speed() {
     let s = NaN;
     try { s = parseFloat(localStorage.getItem('crow-voice-speed')); } catch {}
