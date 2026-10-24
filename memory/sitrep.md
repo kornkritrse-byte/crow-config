@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-10-23 14:26 (live). Window holds 23 Oct + 22 Oct; 21 Oct flushed to [[sessions-log]] 23 Oct. Next to flush: 22 Oct.*
+*Last updated: 2026-10-24 09:32 (live). Window holds 24 Oct + 23 Oct; 22 Oct flushed to [[sessions-log]] 24 Oct. Next to flush: 23 Oct.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -31,16 +31,12 @@ metadata:
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
+## Session — 2026-10-24 (Sat)
+- 09:25 his ask: logo **V3** (blue wordmark, ํ merged into swash) → added to Notion Brand HQ (page + DB row + toggle + log). → [[project-clothing-brand]]
+
 ## Session — 2026-10-23 (Fri)
 - 14:26 back; first ask: update the sitrep (done: 21 Oct flushed, 22 Oct condensed).
-
-## Session — 2026-10-22 (Thu)
-- 💳 Claude sub **renewed** (16:27). Ghost #32 deferred twice (12:17, 16:28), his call. No goals set all day; up past midnight on Notion.
-- Proxy Henley measured (11:59, re-measured later): **chest 59 = hem 59 → boxy**, clashes with Rule 2 "nothing boxy"; shoulder/neck sum still ~8 cm off → photo check. Henley talk PAUSED 16:32 (his call); parked Q: did Patrick love the crop or the shape?
-- Café w/ Patrick 13:00–15:38: **IG + Gmail samneang.studio** created (domain later) · ChatGPT enabled on Notion · Session protocol + Decisions + `samneang-log` skill built.
-- Notion evening (his asks): Henley spec moved inside Henley 001 (+ ⚠️ agreed-vs-exploration flag) · Bottoms 001 created · **Pending** (top) + **Archive** (bottom) pages · protocol +ticks/“log this”/archive rules · 7 decisions → Decided (both ✅) · logo **V2** wordmark added (page + database row). Tried a checkbox DB for Pending, he reverted + had it deleted. → [[project-clothing-brand]]
-- Partnership: agreed out loud with Patrick (his word); **he'll fill the page himself**, no when. Don't push.
-- 16:40 his ask: **keep replies SIMPLIFIED** (eyes tired).
+- 14:30–14:45 ribbon-lettering สำเนียง draft from his sheet photo; he picked ribbon blue → `brand/logo/`, kept LOCAL (his call). Ghost #32 asked 3×, unanswered → stopped asking for the day. → [[project-clothing-brand]]
 
 ## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. **AC311 Midterm 2 (sessions 8–11, PPE + intangibles, 30%) is next: **Fri 13 Nov** (Korn, 20 Oct; time TBC). Session 11 (31 Oct, impairment TAS 36) falls before it, so assume impairment is IN scope. Final 28 Nov.**
 

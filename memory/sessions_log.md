@@ -10,6 +10,9 @@ metadata:
 ---
 
 # Sessions Log (archive)
+## 2026-10-22 (Thu)
+- Claude sub renewed. No goals set; up past midnight on Notion. Ghost #32 deferred twice. Proxy Henley re-measured: chest 59 = hem 59 → boxy (clashes with "nothing boxy"); shoulder/neck ~8 cm off. Café w/ Patrick: IG + Gmail samneang.studio; Session protocol + Decisions + `samneang-log` skill. Evening Notion: Henley spec into Henley 001, Bottoms 001, Pending + Archive pages, 7 decisions → Decided, logo V2 added. Partnership agreed out loud; he fills the page himself. 16:40 his ask: keep replies simplified. → [[project-clothing-brand]]
+
 ## 2026-10-21 (Wed)
 - Ghost #31 (AC311 N/R interest) FAIL → Sat 24. Goals: Karamazov + proxy Henley; wake early ✗, bed 20 Oct ✓. Training re-dayed: long 12 km → Thu 22 AM (Crow objected, sore legs) → [[project-training-plan]]. Karamazov: Book 12 + Epilogue ch 1 done; he revised his truth belief: "there is always truth, just not much people care about" → [[chapters]]. Patrick invited to Brand HQ (guest). Deep thread PAUSED 15:24 (surface vs deeper side), carried on the SITREP status line.
 
