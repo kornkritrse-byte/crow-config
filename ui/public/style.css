@@ -468,6 +468,9 @@ button { font: inherit; cursor: pointer; }
   background: none; border: 0; color: var(--faint); padding: 12px 12px 12px 6px; border-radius: 0 12px 12px 0;
 }
 .composer .mic:hover { color: var(--paper); background: none; }
+.composer .hush { background: none; border: 0; color: var(--maroon-ink); padding: 12px 6px; }
+.composer .hush:hover { color: var(--paper); background: none; }
+.composer .hush[hidden] { display: none; }
 .composer .mic.live { color: var(--maroon-ink); animation: mic-live 1.2s ease-in-out infinite; }
 .composer .mic.working { color: var(--mist); cursor: progress; }
 @keyframes mic-live { 50% { color: var(--paper); } }

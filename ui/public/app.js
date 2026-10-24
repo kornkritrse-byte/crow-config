@@ -1099,6 +1099,19 @@ const Voice = (() => {
   }
   const timings = [];   // per sentence: ms from complete to sounding (idle = nothing was playing)
   const DEFAULT_KOKORO = 'bm_fable';   // his pick, 24 Oct
+  // Talking speed, his ask 24 Oct: "lets try 50% faster". Kokoro takes it natively
+  // (0.5–2), so it's faster speech rather than sped-up audio. crow-voice-speed in
+  // localStorage overrides it.
+  const DEFAULT_SPEED = 1.5;
+  function speed() {
+    let s = NaN;
+    try { s = parseFloat(localStorage.getItem('crow-voice-speed')); } catch {}
+    return s >= 0.5 && s <= 2 ? s : DEFAULT_SPEED;
+  }
+  // The stop-speaking button shows from a spoken message until its reply has
+  // finished playing, so it can also mute a reply before the first word.
+  const hushBtn = $('hush');
+  const showHush = () => { hushBtn.hidden = !(armed || playing); };
 
   // crow-voice in localStorage can hold a Kokoro voice ("am_onyx") or a browser voice name.
   function kokoroVoice() {
@@ -1112,7 +1125,7 @@ const Voice = (() => {
       if (g !== gen) throw new Error('hushed');
       // 3 s and it's not coming (Kokoro crashed and the server is restarting it, ~4 s):
       // this sentence goes to the browser voice instead.
-      return fetch('/tts', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ text, voice: kokoroVoice() }),
+      return fetch('/tts', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ text, voice: kokoroVoice(), speed: speed() }),
         signal: AbortSignal.any([signal, AbortSignal.timeout(3000)]) });
     }).then(r => { if (!r.ok) throw new Error(`tts ${r.status}`); return r.blob(); });
     lastFetch = p;
@@ -1139,6 +1152,7 @@ const Voice = (() => {
   }
   async function play() {
     playing = true;
+    showHush();
     const g = gen;
     while (queue.length && g === gen) {
       const item = queue[0];
@@ -1159,6 +1173,7 @@ const Voice = (() => {
       queue.shift();
     }
     playing = false;
+    showHush();
   }
   function playBlob(blob, item) {
     return new Promise(resolve => {
@@ -1189,7 +1204,7 @@ const Voice = (() => {
       const u = new SpeechSynthesisUtterance(item.text), v = item.thai ? voices.th : voices.en;
       if (v) u.voice = v;
       u.lang = v?.lang || (item.thai ? 'th-TH' : 'en-GB');
-      u.rate = 1.05;
+      u.rate = speed();
       const safety = setTimeout(resolve, 3000 + item.text.length * 150);   // onend doesn't always fire
       u.onstart = () => mark(item, 'browser');
       u.onend = u.onerror = () => { clearTimeout(safety); resolve(); };
@@ -1242,7 +1257,9 @@ const Voice = (() => {
     abort.abort(); abort = new AbortController(); lastFetch = Promise.resolve();
     if (audioEl) { audioEl.pause(); audioEl.done(); }
     synth?.cancel();
+    showHush();
   }
+  hushBtn.onclick = hush;
 
   async function start() {
     hush();
@@ -1301,9 +1318,9 @@ const Voice = (() => {
 
   return {
     // A spoken message arms the reply to be read aloud; a typed one silences it.
-    heard(text) { hush(); armed = !!text?.startsWith('[voice] '); },
+    heard(text) { hush(); armed = !!text?.startsWith('[voice] '); showHush(); },
     feed(t) { if (armed) { buf += t; drain(false); } },
-    end() { if (armed) drain(true); armed = false; },
+    end() { if (armed) drain(true); armed = false; showHush(); },
     timings,   // for checking latency from the console: Voice.timings
     status(ev) {
       mic.classList.toggle('working', ev.state === 'transcribing');
