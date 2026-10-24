@@ -33,7 +33,7 @@ metadata:
 
 ## Session — 2026-10-24 (Sat)
 - 14:46 first real voice test in the Room ✓. He finds Daniel robotic. No Premium voices are installed. Crow recommended **Kokoro** (local, free) → he's building it in VS Code from Crow's prompt. Ghost #26 ✗ (rental cars → said inventory; it's PPE). That's the 2nd PPE/inventory/IP sorting miss in 2 days.
-- 14:20–14:50 back. Ghost #25 ✗ (said inventory, then "meant investment"; sorting reason was the real gap) → re-drilled 4/4. Then **built VOICE into the Crow Room** (his call over AC311 first) → [[reference-crow-room]]. AC311 block still open.
+- 14:20–14:50 back. Ghost #25 ✗ (said inventory, then "meant investment"; sorting reason was the real gap) → re-drilled 4/4. Then **built VOICE into the Crow Room** (his call over AC311 first) → [[reference-crow-room]]. 14:57–15:30 swapped the robot voice for **Kokoro, voice bm_fable** (his pick). AC311 block still open.
 - 10:40 📖 **finished The Brothers Karamazov.** Nearly cried at Alyosha's speech. His call: NOT a petal/water, "too significant to be simplified into a task finished." The stone brought his childhood back: "these memories will be my truth." → [[chapters]] · [[user-reading-list]]
 - 10:58 goals: Afternoon study AC311 (goal #7).
 - 09:25 his ask: logo **V3** (blue wordmark, ํ merged into swash) → added to Notion Brand HQ (page + DB row + toggle + log). → [[project-clothing-brand]]

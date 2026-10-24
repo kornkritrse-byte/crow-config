@@ -1082,7 +1082,7 @@ const Voice = (() => {
   // browser's Kanya, since Kokoro has no Thai. Sentences play in order, and each
   // one's audio is fetched as soon as the one before it has arrived, so the next
   // is ready while the current one plays. If Kokoro fails, that sentence (and
-  // the next minute's) quietly uses the browser voice instead.
+  // the next 30 seconds') quietly uses the browser voice instead.
   let queue = [], playing = false, gen = 0, abort = new AbortController(), lastFetch = Promise.resolve();
   let audioEl = null, kokoroOffUntil = 0, lastEnd = 0;
   const timings = [];   // per sentence: ms from complete to sounding (idle = nothing was playing)
@@ -1098,7 +1098,10 @@ const Voice = (() => {
     const g = gen, signal = abort.signal;
     const p = lastFetch.catch(() => {}).then(() => {
       if (g !== gen) throw new Error('hushed');
-      return fetch('/tts', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ text, voice: kokoroVoice() }), signal });
+      // 3 s and it's not coming (Kokoro crashed and the server is restarting it, ~4 s):
+      // this sentence goes to the browser voice instead.
+      return fetch('/tts', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ text, voice: kokoroVoice() }),
+        signal: AbortSignal.any([signal, AbortSignal.timeout(3000)]) });
     }).then(r => { if (!r.ok) throw new Error(`tts ${r.status}`); return r.blob(); });
     lastFetch = p;
     return p;
@@ -1108,7 +1111,10 @@ const Voice = (() => {
     if (!t || !/[\p{L}\p{N}]/u.test(t)) return;
     const thai = /[฀-๿]/.test(t);
     const item = { text: t, thai, at: performance.now(), idle: !playing && !queue.length };
-    if (!thai && Date.now() >= kokoroOffUntil) item.audio = fetchAudio(t).then(b => { item.made = performance.now(); return b; });
+    if (!thai && Date.now() >= kokoroOffUntil) {
+      item.audio = fetchAudio(t).then(b => { item.made = performance.now(); return b; });
+      item.audio.catch(() => {});   // a hushed or failed fetch is handled in play(), not an error
+    }
     queue.push(item);
     if (!playing) play();
   }
@@ -1126,7 +1132,13 @@ const Voice = (() => {
       const item = queue[0];
       let blob = null;
       if (item.audio) {
-        try { blob = await item.audio; } catch { if (g === gen) kokoroOffUntil = Date.now() + 60000; }
+        try { blob = await item.audio; } catch {
+          if (g !== gen) return;
+          // Kokoro is down: everything still waiting on it switches to the browser voice now.
+          kokoroOffUntil = Date.now() + 30000;
+          abort.abort(); abort = new AbortController(); lastFetch = Promise.resolve();
+          for (const rest of queue) rest.audio = null;
+        }
       }
       if (g !== gen) return;
       await (blob ? playBlob(blob, item) : speakSynth(item));
