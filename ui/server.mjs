@@ -11,7 +11,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import os from 'node:os';
 import crypto from 'node:crypto';
-import { execFile } from 'node:child_process';
+import { execFile, spawn } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { WebSocketServer } from 'ws';
 import { query, getSessionMessages } from '@anthropic-ai/claude-agent-sdk';
@@ -56,6 +56,8 @@ Multiple-choice cards: AskUserQuestion is off in the Room. When you want Korn to
 The Room turns it into a card: lettered options A, B, C… (do not put letters in the option text), tick boxes, a note box for his reasoning, and a "Lock it in" button. Set "multi": true only when more than one option can be right. Rules: one card per message, never batch; put the card last and never reveal or hint at the answer in that message. His answer arrives as a message starting "[MCQ]" with "My pick:" and maybe "My reasoning:". Grade it in the first line (right or wrong, then the right answer), then say why, and read his reasoning: a right pick with wrong reasoning is a miss worth naming. A miss becomes a ghost card that turn, as usual. MCQ trains recognition, and his gap is recall ([[feedback-drill-format]]), so use cards where the exam itself is MCQ (BA202) or for quick checks, and keep open questions for everything else.
 
 Today's goals (the plum blossom): the flower on the board has one blossom per goal he lists for the day. When the session-start hook prints 🌸 GOALS, ask "goals today?" (max 7 of his own) and record them with python3 bin/goals.py set "<goal>" … (the standing ones are added on their own: Wake early, Morning creative writing, Moving (or the day's training session instead), Daily journal, Reading, Bed by 23:30). When he says a goal is done, run goals.py done <n> that turn (it waters the flower). He can also press Done on the board. Ask "Bed by 23:30" about the previous night at the next session. When he logs off for the day the stop hook runs goals.py close and the petals fall.
+
+Voice: a message starting "[voice]" was spoken into the Room's mic and transcribed by whisper (Thai/English mixed, so expect odd spellings of terms: "TAS40", "in way sat" = investment; read for meaning, don't correct his transcription). Your reply to it is read aloud by a speech voice, sentence by sentence. So for a voice message: still open with **Crow:** (the Room drops it before speaking), then talk like a person on a call. Two to five short spoken sentences. No tables, headings, bullet lists, code, emoji or arrows; say numbers the way you'd say them. One question at a time, and end on the question when there is one. Anything that truly needs to be seen (a journal entry, a table) can go on screen in a fenced block, which isn't read aloud; say "it's on screen". Drills by voice work as usual: grade, correct, ghost card on a miss.
 
 When what he's asking for is clearly better done in VS Code, open your reply with one line saying so and why ("This one's better in VS Code: ..."), then still do whatever part the Room can do. Don't flag small edits, study work, drills or conversation: those belong here. Say it once per task, not on every message.`;
 
@@ -448,6 +450,91 @@ async function rewind({ uuid, confirm }) {
   }
 }
 
+// ---------------------------------------------------------------- voice
+// The mic button records in the browser; the clip arrives here as base64 and
+// whisper (on this Mac, offline) turns it into text, which goes in as a normal
+// message tagged [voice]. whisper-server keeps the model loaded between clips,
+// and its short audio window (-ac 768, about 15 s) is what makes a clip take
+// ~2 s instead of ~5 s. A longer clip would be cut off there, so it goes
+// through whisper-cli with the full window instead.
+const WHISPER_MODEL = path.join(HOME, 'ggml-large-v3-turbo.bin');
+const WHISPER_PORT = PORT + 1;
+const SHORT_CLIP_MS = 14000;
+// The words whisper should expect, so "TAS 40" doesn't come out as "tasks forty".
+const WHISPER_PROMPT = 'Crow, Korn. AC311, BA202, TAS 16, TAS 40, TAS 36, PPE, investment property, impairment, revaluation surplus, OCI, depreciation, carrying amount, fair value.';
+// What whisper "hears" in silence or a cough.
+const NOT_SPEECH = /^(\[.*\]|\(.*\)|thank you\.?|thanks for watching!?|you|ขอบคุณ(ครับ|ค่ะ)?)$/i;
+let whisper = null;   // { proc, ready }
+
+function startWhisper() {
+  if (whisper) return whisper.ready;
+  const url = `http://127.0.0.1:${WHISPER_PORT}/`;
+  const w = { proc: null };
+  w.ready = (async () => {
+    try { await fetch(url); return; } catch {}       // one left running from before: reuse it
+    w.proc = spawn('whisper-server', ['-m', WHISPER_MODEL, '--host', '127.0.0.1', '--port', String(WHISPER_PORT),
+      '-l', 'auto', '-nt', '--convert', '-bo', '1', '-ac', '768'], { cwd: os.tmpdir(), stdio: 'ignore' });
+    w.proc.on('exit', () => { if (whisper === w) whisper = null; });
+    for (let i = 0; i < 60; i++) {
+      if (w.proc.exitCode !== null) throw new Error('whisper-server stopped while starting');
+      try { await fetch(url); return; } catch {}
+      await new Promise(r => setTimeout(r, 500));
+    }
+    w.proc.kill();
+    throw new Error('whisper-server took too long to start');
+  })();
+  w.ready.catch(() => { if (whisper === w) whisper = null; });
+  whisper = w;
+  return w.ready;
+}
+// whisper-server is a separate process; it must not outlive the Room.
+process.on('exit', () => whisper?.proc?.kill());
+// (Not SIGHUP: crow-room.sh starts the Room under nohup, and a handler would undo that.)
+for (const sig of ['SIGINT', 'SIGTERM']) process.on(sig, () => process.exit());
+
+function run(cmd, args) {
+  return new Promise((resolve, reject) => execFile(cmd, args, { timeout: 120000, maxBuffer: 8 << 20 },
+    (err, out) => (err ? reject(err) : resolve(out))));
+}
+
+async function transcribe(buf, mime, ms) {
+  const ext = mime.includes('mp4') ? 'mp4' : mime.includes('ogg') ? 'ogg' : 'webm';
+  if (ms <= SHORT_CLIP_MS) {
+    await startWhisper();
+    const form = new FormData();
+    form.append('file', new Blob([buf], { type: mime }), `clip.${ext}`);
+    form.append('response_format', 'json');
+    form.append('prompt', WHISPER_PROMPT);
+    const r = await fetch(`http://127.0.0.1:${WHISPER_PORT}/inference`, { method: 'POST', body: form });
+    if (!r.ok) throw new Error(`whisper answered ${r.status}`);
+    return (await r.json()).text || '';
+  }
+  const base = path.join(os.tmpdir(), `crow-voice-${crypto.randomUUID()}`);
+  fs.writeFileSync(`${base}.${ext}`, buf);
+  try {
+    await run('ffmpeg', ['-loglevel', 'error', '-y', '-i', `${base}.${ext}`, '-ac', '1', '-ar', '16000', '-c:a', 'pcm_s16le', `${base}.wav`]);
+    return await run('whisper-cli', ['-m', WHISPER_MODEL, '-f', `${base}.wav`, '-l', 'auto', '-nt', '-np', '--prompt', WHISPER_PROMPT]);
+  } finally {
+    for (const e of [ext, 'wav']) fs.rmSync(`${base}.${e}`, { force: true });
+  }
+}
+
+async function voice(m) {
+  if (typeof m.audio !== 'string' || !m.audio) return;
+  const ms = Number(m.ms) || 0, mime = typeof m.mime === 'string' ? m.mime : 'audio/webm';
+  if (ms < 400) return broadcast({ type: 'voice', state: 'empty' });
+  broadcast({ type: 'voice', state: 'transcribing' });
+  let text;
+  try {
+    text = (await transcribe(Buffer.from(m.audio, 'base64'), mime, ms)).replace(/\s+/g, ' ').trim();
+  } catch (err) {
+    return broadcast({ type: 'voice', state: 'error', text: `Couldn't transcribe that: ${err.message}` });
+  }
+  if (!text || NOT_SPEECH.test(text)) return broadcast({ type: 'voice', state: 'empty' });
+  broadcast({ type: 'voice', state: 'done' });
+  send({ text: `[voice] ${text}` });
+}
+
 // ---------------------------------------------------------------- @-mentions
 // The repo's tracked files (minus its memory mirror) plus the live memory folder.
 
@@ -669,6 +756,8 @@ wss.on('connection', ws => {
       case 'mode': setMode(m.value); break;
       case 'permission': answerPermission(m); break;
       case 'rewind': rewind(m); break;
+      case 'voice': voice(m); break;
+      case 'voice_warm': startWhisper().catch(() => {}); break;   // the mic went live: load the model while he talks
       case 'files':
         ws.send(JSON.stringify({ type: 'files', q: m.q, files: await findFiles(m.q) }));
         break;

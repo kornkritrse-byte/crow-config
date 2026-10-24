@@ -365,7 +365,7 @@ function handle(ev, live = true) {
     case 'user':
       endReply(); endSteps(); clearThinking();
       add(userMessage(ev));
-      if (live) { toBottom(); exitHome(); Nest.react(ev.text); cawed = false; }
+      if (live) { toBottom(); exitHome(); Nest.react(ev.text); cawed = false; Voice.heard(ev.text); }
       break;
     case 'busy':
       setBusy(ev.busy, live);
@@ -378,12 +378,13 @@ function handle(ev, live = true) {
       clearThinking(); endSteps();
       if (!reply) reply = { el: add(div('reply')), md: '' };
       else reply.md += '\n\n';
+      if (live) Voice.feed('\n\n');
       break;
     case 'text':
       clearThinking(); endSteps();
       if (!reply) reply = { el: add(div('reply')), md: '' };
       reply.md += ev.text;
-      if (live) schedulePaint();
+      if (live) { schedulePaint(); Voice.feed(ev.text); }
       break;
     case 'tool':
       endReply(); clearThinking();
@@ -421,6 +422,7 @@ function handle(ev, live = true) {
       add(rewindCard(ev));
       break;
     case 'result':
+      if (live) Voice.end();
       endReply(); endSteps(); clearThinking();
       for (const el of stream.querySelectorAll('.step.running')) el.classList.remove('running');
       if (ev.interrupted) add(div('meta', 'Stopped.'));
@@ -437,6 +439,7 @@ function handle(ev, live = true) {
     case 'todos': paintTodos(ev.todos); break;
     case 'commands': commands = ev.commands || []; break;
     case 'files': showFileMatches(ev); break;
+    case 'voice': Voice.status(ev); break;
   }
 }
 
@@ -451,7 +454,9 @@ function userMessage(ev) {
     }
     el.append(row);
   }
-  if (ev.text) el.append(document.createTextNode(ev.text));
+  const spoken = ev.text?.startsWith('[voice] ');
+  if (spoken) el.querySelector('.ts')?.append(' · said');
+  if (ev.text) el.append(document.createTextNode(spoken ? ev.text.slice(8) : ev.text));
   if (ev.uuid) {
     el.dataset.uuid = ev.uuid;
     el.append(button('Rewind files to here', 'rewind', () => ws.send(JSON.stringify({ type: 'rewind', uuid: ev.uuid }))));
@@ -1024,6 +1029,158 @@ $('new-session').onclick = () => {
     ws.send(JSON.stringify({ type: 'new' }));
   }
 };
+
+// ---------------------------------------------------------------- voice
+// Say it instead of typing it. The mic records a clip, the server transcribes it
+// with whisper (offline, on this Mac) and sends it in tagged [voice]. A reply to a
+// spoken message is read aloud sentence by sentence while it streams: Thai with
+// the Thai voice (Kanya), everything else with an English one. Fenced blocks
+// (code, MCQ cards) are for the screen and are skipped.
+const Voice = (() => {
+  const mic = $('mic'), hint = document.querySelector('.composer .hint'), hintText = hint.textContent;
+  const MAX_MS = 60000;
+  const synth = window.speechSynthesis;
+  let rec = null, micStream = null, chunks = [], started = 0, timer = null, cancelled = false;
+  let armed = false, buf = '', voices = {};
+
+  // The English voice: whatever name is saved under crow-voice in localStorage,
+  // else the best-sounding one installed (Premium/Enhanced downloads beat the defaults).
+  function pickVoices() {
+    const all = synth?.getVoices() || [];
+    let saved = null;
+    try { saved = localStorage.getItem('crow-voice'); } catch {}
+    const en = all.filter(v => v.lang.startsWith('en'));
+    voices = {
+      th: all.find(v => v.lang === 'th-TH'),
+      en: en.find(v => v.name === saved) || en.find(v => /premium/i.test(v.name)) || en.find(v => /enhanced/i.test(v.name))
+        || en.find(v => v.name === 'Daniel') || en.find(v => v.lang === 'en-GB') || en[0],
+    };
+  }
+  if (synth) { pickVoices(); synth.addEventListener('voiceschanged', pickVoices); }
+
+  function setHint(text, cls = '') {
+    hint.textContent = text || hintText;
+    hint.classList.toggle('voice', cls === 'voice');
+    hint.classList.toggle('voice-error', cls === 'error');
+  }
+
+  // Markdown → something a speech voice can read.
+  function clean(t) {
+    return t
+      .replace(/\*\*Crow:\*\*|^\s*Crow:/g, '')
+      .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
+      .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+      .replace(/`([^`]*)`/g, '$1')
+      .replace(/^\s{0,3}(#{1,6}|>|[-*+]|\d+\.)\s+/gm, '')
+      .replace(/[*_~]+/g, '')
+      .replace(/\s*[→⇒←]\s*/g, ', ')
+      .replace(/\s*[—–|]\s*/g, ', ')
+      .replace(/\p{Extended_Pictographic}️?/gu, '')
+      .replace(/\s+/g, ' ').replace(/^[\s,]+|[\s,]+$/g, '');
+  }
+  function say(raw) {
+    const t = clean(raw);
+    if (!t || !synth || !/[\p{L}\p{N}]/u.test(t)) return;
+    const u = new SpeechSynthesisUtterance(t);
+    const thai = /[฀-๿]/.test(t), v = thai ? voices.th : voices.en;
+    if (v) u.voice = v;
+    u.lang = v?.lang || (thai ? 'th-TH' : 'en-GB');
+    u.rate = 1.05;
+    synth.speak(u);
+  }
+  // Where the next sentence ends: after . ! ? followed by a space, or at a line
+  // break. Long Thai runs have no punctuation, so past ~220 characters a space will do.
+  function sentenceEnd(s) {
+    const m = s.match(/[.!?…]+["')\]]*\s|\n/);
+    if (m) return m.index + m[0].length;
+    if (s.length > 220) { const sp = s.lastIndexOf(' ', 220); if (sp > 40) return sp + 1; }
+    return -1;
+  }
+  function drain(final) {
+    for (;;) {
+      const fence = buf.indexOf('```'), end = sentenceEnd(buf);
+      if (fence !== -1 && (end === -1 || fence < end)) {
+        say(buf.slice(0, fence));
+        const close = buf.indexOf('```', fence + 3);
+        if (close === -1) { buf = final ? '' : buf.slice(fence); return; }   // wait for the block to close
+        buf = buf.slice(close + 3);
+        continue;
+      }
+      if (end === -1) { if (final) { say(buf); buf = ''; } return; }
+      say(buf.slice(0, end));
+      buf = buf.slice(end);
+    }
+  }
+  function hush() { armed = false; buf = ''; synth?.cancel(); }
+
+  async function start() {
+    hush();
+    if (!navigator.mediaDevices?.getUserMedia || !window.MediaRecorder) return setHint('This browser can’t record audio.', 'error');
+    try {
+      micStream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true } });
+    } catch (err) {
+      return setHint(`No mic: ${err.message}. Allow the microphone for localhost in the browser’s site settings.`, 'error');
+    }
+    if (ws?.readyState === 1) ws.send(JSON.stringify({ type: 'voice_warm' }));
+    const type = ['audio/webm;codecs=opus', 'audio/mp4', 'audio/ogg;codecs=opus'].find(t => MediaRecorder.isTypeSupported(t));
+    rec = new MediaRecorder(micStream, type ? { mimeType: type } : undefined);
+    chunks = []; cancelled = false; started = Date.now();
+    rec.ondataavailable = e => { if (e.data.size) chunks.push(e.data); };
+    rec.onstop = finish;
+    rec.start();
+    mic.classList.add('live'); mic.setAttribute('aria-pressed', 'true');
+    const tick = () => {
+      const s = Math.floor((Date.now() - started) / 1000);
+      setHint(`Listening ${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}. Click the mic or press Enter to send, Esc to cancel`, 'voice');
+      if (Date.now() - started >= MAX_MS) stop();
+    };
+    tick(); timer = setInterval(tick, 250);
+  }
+  function stop(cancel = false) {
+    if (!rec || rec.state === 'inactive') return;
+    cancelled = cancel;
+    rec.stop();
+  }
+  async function finish() {
+    clearInterval(timer);
+    micStream?.getTracks().forEach(t => t.stop());
+    const ms = Date.now() - started, mime = rec.mimeType || 'audio/webm';
+    rec = null; micStream = null;
+    mic.classList.remove('live'); mic.setAttribute('aria-pressed', 'false');
+    if (cancelled) return setHint();
+    if (ws?.readyState !== 1) return setHint('Not connected to the Room, so that clip was dropped.', 'error');
+    const audio = await new Promise(resolve => {
+      const r = new FileReader();
+      r.onload = () => resolve(String(r.result).split(',')[1] || '');
+      r.readAsDataURL(new Blob(chunks, { type: mime }));
+    });
+    ws.send(JSON.stringify({ type: 'voice', audio, mime, ms }));
+    mic.classList.add('working');
+    setHint('Transcribing…', 'voice');
+  }
+
+  mic.onclick = () => (rec ? stop() : start());
+  document.addEventListener('keydown', e => {
+    if (rec && (e.key === 'Enter' || e.key === 'Escape')) {
+      e.preventDefault(); e.stopPropagation();
+      stop(e.key === 'Escape');
+    } else if (e.key === 'Escape' && synth?.speaking) hush();
+  }, true);
+
+  return {
+    // A spoken message arms the reply to be read aloud; a typed one silences it.
+    heard(text) { hush(); armed = !!text?.startsWith('[voice] '); },
+    feed(t) { if (armed) { buf += t; drain(false); } },
+    end() { if (armed) drain(true); armed = false; },
+    status(ev) {
+      mic.classList.toggle('working', ev.state === 'transcribing');
+      if (ev.state === 'transcribing') setHint('Transcribing…', 'voice');
+      else if (ev.state === 'done') setHint();
+      else if (ev.state === 'empty') { setHint('Didn’t catch anything. Try again?', 'error'); setTimeout(() => setHint(), 3000); }
+      else if (ev.state === 'error') setHint(ev.text, 'error');
+    },
+  };
+})();
 
 // ---------------------------------------------------------------- connection
 
