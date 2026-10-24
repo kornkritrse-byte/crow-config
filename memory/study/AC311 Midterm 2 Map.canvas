@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"n3","type":"text","text":"**1. What it is** ✓\nWhy is it held?\nUSE → PPE · EARN (rent/value) → Investment property · SELL → Inventory\nTAS 40 = land & buildings only; rented-out cars = PPE\n⚠ shaky: put a rented-out building and rental cars in the wrong bucket (2 ghost cards). Car dealer split = right.","x":880,"y":0,"width":380,"height":170,"color":"2"},
+		{"id":"n3","type":"text","text":"**1. What it is** ✓\nWhy is it held?\nUSE → PPE · EARN (rent/value) → Investment property · SELL → Inventory\nTAS 40 = land & buildings only; rented-out cars = PPE\n⚠ shaky: put a rented-out building and rental cars in the wrong bucket (2 ghost cards). Car dealer split = right.","x":880,"y":-80,"width":400,"height":250,"color":"2"},
 		{"id":"n4","type":"text","text":"**2. Recognition** ✓\n① PROBABLE future benefits flow to the entity\n② cost MEASURED RELIABLY\n(never 'certain')\nsolid: built both conditions himself","x":880,"y":180,"width":380,"height":170,"color":"4"},
 		{"id":"n13","type":"text","text":"**4. Subsequent costs**\nrepairs → expense\nreplacement / major inspection → asset · s44","x":880,"y":1620,"width":380,"height":150},
 		{"id":"n15","type":"text","text":"Revaluation\nwhole class · method (a) proportional / (b) eliminate AD\n⚠ s54 + s57 have errors","x":1380,"y":1800,"width":360,"height":150},
