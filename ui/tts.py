@@ -53,7 +53,7 @@ def phonemes(text, lang):
 # at a comma, and those pauses stay as Kokoro makes them (his correction, 16:09).
 # Still "a little bit too long" at 80 ms (16:15): halved again.
 QUIET = 0.01                  # below this the fade of the last word is inaudible
-LEAD_KEEP, TAIL_KEEP = 0.005, 0.035   # seconds: 40 ms in all, from ~160
+LEAD_KEEP, TAIL_KEEP = 0.0, 0.02   # seconds: 20 ms in all, from ~160 (halved a third time, 16:17)
 
 
 def tighten(audio, rate):
