@@ -46,9 +46,25 @@ def phonemes(text, lang):
     return "".join(p for p in raw if p in kokoro.tokenizer.vocab).strip()
 
 
+# The pause after a full stop, his ask 24 Oct ("make the pause half shorter"):
+# Kokoro's own trim still leaves ~40 ms of silence before each sentence and
+# ~120 ms after it, and the Room plays sentences back to back, so that silence
+# is the pause. Keep only a sliver of each.
+QUIET = 0.01                  # below this the fade of the last word is inaudible
+LEAD_KEEP, TAIL_KEEP = 0.01, 0.04   # seconds
+
+
+def tighten(audio, rate):
+    loud = (abs(audio) > QUIET).nonzero()[0]
+    if not len(loud):
+        return audio
+    return audio[max(loud[0] - int(LEAD_KEEP * rate), 0):loud[-1] + int(TAIL_KEEP * rate)]
+
+
 def speak(text, voice, speed):
     lang = "en-gb" if voice[0] == "b" else "en-us"
-    return kokoro.create(phonemes(text, lang), voice=voice, speed=speed, is_phonemes=True)
+    audio, rate = kokoro.create(phonemes(text, lang), voice=voice, speed=speed, is_phonemes=True)
+    return tighten(audio, rate), rate
 
 
 speak("Ready.", DEFAULT_VOICE, 1.0)   # the first call is slow; pay it now
