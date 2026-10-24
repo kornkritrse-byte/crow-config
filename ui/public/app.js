@@ -1123,10 +1123,11 @@ const Voice = (() => {
     const g = gen, signal = abort.signal;
     const p = lastFetch.catch(() => {}).then(() => {
       if (g !== gen) throw new Error('hushed');
-      // 3 s and it's not coming (Kokoro crashed and the server is restarting it, ~4 s):
-      // this sentence goes to the browser voice instead.
+      // 6 s and it's not coming (Kokoro crashed and the server is restarting it, ~4 s):
+      // this sentence goes to the browser voice instead. (3 s was too tight: with the
+      // Mac busy a sentence took 2.6 s, and one miss sends 30 s to the robot, 24 Oct.)
       return fetch('/tts', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ text, voice: kokoroVoice(), speed: speed() }),
-        signal: AbortSignal.any([signal, AbortSignal.timeout(3000)]) });
+        signal: AbortSignal.any([signal, AbortSignal.timeout(6000)]) });
     }).then(r => { if (!r.ok) throw new Error(`tts ${r.status}`); return r.blob(); });
     lastFetch = p;
     return p;
