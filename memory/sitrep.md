@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-09-13T13:34:50.755Z
+  modified: 2026-10-24T07:53:47.074Z
 ---
 
 # Situation Report
@@ -32,6 +32,7 @@ metadata:
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
 ## Session — 2026-10-24 (Sat)
+- 14:46 first real voice test in the Room ✓. He finds Daniel robotic. No Premium voices are installed. Crow recommended **Kokoro** (local, free) → he's building it in VS Code from Crow's prompt. Ghost #26 ✗ (rental cars → said inventory; it's PPE). That's the 2nd PPE/inventory/IP sorting miss in 2 days.
 - 14:20–14:50 back. Ghost #25 ✗ (said inventory, then "meant investment"; sorting reason was the real gap) → re-drilled 4/4. Then **built VOICE into the Crow Room** (his call over AC311 first) → [[reference-crow-room]]. AC311 block still open.
 - 10:40 📖 **finished The Brothers Karamazov.** Nearly cried at Alyosha's speech. His call: NOT a petal/water, "too significant to be simplified into a task finished." The stone brought his childhood back: "these memories will be my truth." → [[chapters]] · [[user-reading-list]]
 - 10:58 goals: Afternoon study AC311 (goal #7).
