@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-10-24 09:32 (live). Window holds 24 Oct + 23 Oct; 22 Oct flushed to [[sessions-log]] 24 Oct. Next to flush: 23 Oct.*
+*Last updated: 2026-10-24 11:05 (live). Window holds 24 Oct + 23 Oct; 22 Oct flushed to [[sessions-log]] 24 Oct. Next to flush: 23 Oct.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,11 +27,13 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🚪 **Here (Fri 23 Oct, 14:26).** Still to ask: goals today · bed 22 Oct (he was on Notion with me till ~23:58 → likely ✗) · 12 km long run (was set for Thu 22 AM, never reported) · ghost #32 (deferred twice 22 Oct) · brand Q: "someone scrolls Samneang's IG for 3 seconds, what should they feel?"
+- 🚪 **Here (Fri 23 Oct, 14:26).** Still to ask: bed 22 Oct + 23 Oct (he was on Notion with me till ~23:58 → likely ✗) · 12 km long run (was set for Thu 22 AM, never reported) · ghost #32 (deferred twice 22 Oct) · brand Q: "someone scrolls Samneang's IG for 3 seconds, what should they feel?"
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
 ## Session — 2026-10-24 (Sat)
+- 10:40 📖 **finished The Brothers Karamazov.** Nearly cried at Alyosha's speech. His call: NOT a petal/water, "too significant to be simplified into a task finished." The stone brought his childhood back: "these memories will be my truth." → [[chapters]] · [[user-reading-list]]
+- 10:58 goals: Afternoon study AC311 (goal #7).
 - 09:25 his ask: logo **V3** (blue wordmark, ํ merged into swash) → added to Notion Brand HQ (page + DB row + toggle + log). → [[project-clothing-brand]]
 
 ## Session — 2026-10-23 (Fri)
@@ -53,7 +55,7 @@ metadata:
 - 🌸 **Daily goals: BUILT 29 Sep 21:32–22:00** (he pulled it forward from Sun 4 Oct, with a hard stop at 23:00). The Room's flower = today's goals; the petals fall at log-off → [[reference-crow-room]] · rule [[feedback-goals-today]]. **Tomorrow's first session: ask "goals today?".**
 - **Morning person:** #1 landed 14 Sep; #2 not seen yet → [[project-morning-person]].
 - **Race 13 Dec:** venue unknown · bib pickup race-morning or in advance? (his dad likely knows) → [[project-training-plan]]. Training resumes after exams, and the flood may affect it.
-- 📖 **Siddhartha: he's at Kamala. ⛔ No spoilers past Kamala.** Karamazov: safe through **Epilogue ch 1** (verdict + escape plan known). ⛔ **No Epilogue ch 2–3.**
+- 📖 **Siddhartha: he's at Kamala. ⛔ No spoilers past Kamala.** Karamazov: ✅ **FINISHED 24 Oct**, all fair game.
 - Unanswered and low-stakes: BA202 cold-question numbers (2 Sep) · AC311 slide 9 cranes vs software · FCF drill ↔ hub link.
 - BBA camp (New Year, mountains): interviewed 25 Aug, he'll report if he makes the cut. Basketball: 2 more games, dates unknown.
 - 📌 After midterms: "make Obsidian cool" → [[reference-obsidian]].

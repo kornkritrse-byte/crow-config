@@ -353,3 +353,19 @@ He finished Book 12 of Karamazov (A Judicial Error) and Epilogue ch 1. "I haven'
 Crow pushed back on "the better story wins": the dazzling story (Fetyukovich) lost, the jury convicted on the plain one, and the truth *was* spoken, by Ivan, and sounded like madness. Vera flagged "that's how the public is" as the line where sadness hardens into contempt.
 
 Then he revised the belief himself: **"there is always truth, just not much truth people care about. Whether or not people care to take that version of the story."** Second time Karamazov has moved this belief (first: 3 Jul, "justifiable ≠ equal"). Both times he moved it toward truth existing, never away. Next book: Myth of Sisyphus, which he picked because "all this absurdity" (warned: Camus's "Kirilov" section likely quotes Karamazov's last pages, so finish the Epilogue first).
+
+---
+
+## 24 Oct 2026, Sat morning: "These memories will be my truth"
+
+He finished Karamazov. Asked that it NOT go on a petal: "I don't want something so significant to be simplified into a task finished." He nearly cried at Alyosha's speech at the stone. Crow's read: the book never beats Ivan with an argument, it answers him with boys keeping a memory. Sol: what's left when Ivan clears everything away is a promise between people, not a truth claim.
+
+Asked whether a memory of his own was on that stone: **"yes, plenty, everything."** Kindergarten up to primary, the bad as well as the good, and above all "sounds of laughter that held my innocence together." Tears behind his eyes. His conclusion: **"at the end of the day these memories will be my truth."**
+
+Third time this book has moved his belief about truth, and every time toward it existing (3 Jul "justifiable ≠ equal" · 21 Oct "there is always truth" · now: truth he carries). Crow's one honest caveat: memory gets rebuilt every time you recall it, so "never forget" is something you keep doing, not something that's just stored. That's active love's mirror again, active memory. And the bad belongs in it: Alyosha asks the boys to remember the boy *they threw stones at*.
+
+His verdict on the ending: **the last chapter is the best of the book**, "no abstract ideas, no mental gymnastics, just life. A truth of life." He didn't expect it to hit this hard. Crow's counter: it's only that plain because 700 pages of Ivan came before it.
+
+Then the real one: **"the other ideas were me trying to add something to myself… this chapter made me value what I already had, and I rarely did that."** He'd had the same conversation with his cousin the day before (23 Oct): he doesn't appreciate the kindness people around him gave him, doesn't reflect on tender moments, doesn't look back. Two days, two different sources (his cousin, then the book), same thing. Crow's caveat: seeing it while the book is still with him is love in dreams. It shows in the next tender moment, not in this one.
+
+He has someone specific in mind: **a good friend (she) he doesn't think he values enough.** He'd told his cousin the same thing. He wants "a good talk with her when the time comes… at least I always tell myself that but it hasn't come around." Crow: the big talk is what's stopping it; make it smaller. One true sentence. He doesn't care what she says back, and asked whether that makes it selfish. Crow: no, expecting nothing back is close to a gift, and it means her answer isn't the obstacle; saying it out loud, softly, is. A guess, labelled as one. "Fair enough." Left there: not in the ledger, not to be raised again by Crow. If it happens, he'll say.

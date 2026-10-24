@@ -119,3 +119,4 @@ metadata:
 - 2026-10-24 | Daily journal | open
 - 2026-10-24 | Reading | open
 - 2026-10-24 | Bed by 23:30 | open
+- 2026-10-24 | Afternoon study: AC311 | open
