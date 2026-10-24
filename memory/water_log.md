@@ -90,3 +90,4 @@ metadata:
 - 2026-10-22 15:27 | goal | Reading
 - 2026-10-22 15:30 | task | Samneang: brand Gmail + IG @samneang.studio created (with Patrick)
 - 2026-10-22 16:27 | task | Claude subscription renewed
+- 2026-10-24 10:41 | ledger | "long run will be tmr not sunday": Long 12 km, Thu 22 Oct morning (moved from Su
