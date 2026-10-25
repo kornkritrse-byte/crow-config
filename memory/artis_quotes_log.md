@@ -347,3 +347,8 @@ He set his own stop time at 16:4x when the night was still theoretical, pushed b
 > "Above all, don't lie to yourself. The man who lies to himself and listens to his own lie comes to a point that he cannot distinguish the truth within him, or around him, and so loses all respect for himself and for others."
 > — **Fyodor Dostoevsky**, *The Brothers Karamazov* (Zosima to Fyodor Pavlovich; Garnett trans.)
 **Why:** The day he named it himself: two weeks of interests dressed up as progress, "disillusionment from a flawed perspective." Zosima said it in the first hundred pages of the book he's now finishing. The illusion is a lie you tell yourself and then believe; today he stopped believing it.
+
+## 2026-10-25 — Seneca, *Moral Letters to Lucilius*, Letter 1
+> "Hold every hour in your grasp. Lay hold of to-day's task, and you will not need to depend so much upon to-morrow's. While we are postponing, life speeds by."
+> — **Seneca**, *Moral Letters to Lucilius*, Letter 1 (Gummere trans.)
+**Why:** A real day on Samneang (IG logo, rough pants + Henley designs, deadlines), and AC311 left behind again; he named it himself and handed tomorrow to Crow: "no dilly dally." Seneca's first letter is about exactly that trade: the brand took today's hours, so tomorrow can't be another day that leans on the one after it.

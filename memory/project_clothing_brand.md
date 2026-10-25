@@ -68,3 +68,4 @@ Started **Sun 18 Oct 2026, 17:07**, his words: "a new important project, a longt
 
 **Why:** it lands two days after he named his own pattern (16 Oct: interests dressed up as progress) and alongside an open AC311 Midterm 2 + 10K training. Not a reason to kill it; a reason to watch whether it produces a garment.
 **How to apply:** push toward a physical sample early; check partner alignment with Patrick (roles, money, who decides) before money moves; hand the one-page version to Vex when it exists. Related: [[sitrep]] · [[user-project-approach]] · [[crew-vera]]
+- **25 Oct (his day-end, 22:58): "productive day on the Samneang side"** — an Instagram LOGO, a ROUGH DESIGN for the pants + the Henley, "good direction and deadlines." Details not given; Patrick's ChatGPT also added a Reference gallery to HQ (15:30). Next brand session: fetch HQ Update Log for what got written, and ask what the deadlines ARE (dates vs finals/AC311 13 Nov).

@@ -468,3 +468,7 @@ metadata:
 - MCQ/recall pp. 1–2 + residence 11/13 (✗ petroleum co → CIT · ✗ Toyota Thailand "foreign"; both habit #2). Sheet printed at uni ✓.
 - Cases Ms B + Mr C: M2 > M1 trap ✓; ✗ step-3 drop-outs, allowances, elected actual, life cap, s.63 refund → all ghosted. Habit #1 fired 4×.
 - 16:37 BA202 done ("finished getting fucked"), no post-mortem at his ask. AC311 classification 17:00: 4 ✗ (petty cash, travel advance, compensating balance, foreign deposit) → 7 cards.
+
+## Session — 2026-10-23 (Fri)
+- 14:26 back; first ask: update the sitrep (done: 21 Oct flushed, 22 Oct condensed).
+- 14:30–14:45 ribbon-lettering สำเนียง draft from his sheet photo; he picked ribbon blue → `brand/logo/`, kept LOCAL (his call). Ghost #32 asked 3×, unanswered → stopped asking for the day. → [[project-clothing-brand]]

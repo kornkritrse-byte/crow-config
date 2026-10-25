@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-10-24 11:05 (live). Window holds 24 Oct + 23 Oct; 22 Oct flushed to [[sessions-log]] 24 Oct. Next to flush: 23 Oct.*
+*Last updated: 2026-10-25 22:59 (day closed). Window holds 25 Oct + 24 Oct; 23 Oct flushed to [[sessions-log]] 25 Oct. Next to flush: 24 Oct.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,12 +27,13 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- 🚪 **AWAY (Sun 25 Oct, ~22:56) — off to: set up the ChatGPT project "Crow" ("talk to you on the other side").** ASK ON RETURN: did the setup work (instructions pasted, 3 files uploaded, Notion connected?) + any "For Crow:" summary to file. Still owed from before: ghost #27 ON SCREEN (6 due) · bed 22 Oct + 24 Oct · 12 km long run (Thu 22) · ghost #32 · brand Q: "someone scrolls Samneang's IG for 3 seconds, what should they feel?" · goals today not asked 25 Oct.
+- 🌙 **DAY CLOSED (Sun 25 Oct, 22:58) — asleep.** ASK ON RETURN (Mon 26): 🔒 **AC311 LOCK-IN DAY, his own ask: "tmr no dilly dally, keep me on track if I goof off"** → first message: goals with AC311 in them + a start time, then open with ghost #27 ON SCREEN (6 due). If he drifts to Samneang/Room/side builds before AC311 is started, CALL IT (he asked). Bed 25 Oct: in bed by ~23:00 likely ✓, confirm. Still owed: bed 22 + 24 Oct · 12 km long run (Thu 22) · ghost #32 · ChatGPT project: did samneang.md get uploaded? · brand: what ARE the deadlines (vs AC311 13 Nov / finals)?
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
 ## Session — 2026-10-25 (Sun)
-- 22:53 his ask: a ChatGPT project inside crow-config (he has ChatGPT now: Samneang photos + better voice convo → solves Zone 2 runs). Built `chatgpt/` (instructions.md · samneang.md · README.md) → [[reference-chatgpt-project]]. Zone 2 claude.ai brief marked RETIRED. Brand HQ checked first: Patrick's ChatGPT added a Reference gallery 25 Oct 15:30.
+- 22:53 his ask: a ChatGPT project inside crow-config (he has ChatGPT now: Samneang photos + better voice convo → solves Zone 2 runs). Built `chatgpt/` (instructions.md · samneang.md · README.md) → [[reference-chatgpt-project]]. Zone 2 claude.ai brief marked RETIRED. Brand HQ checked first: Patrick's ChatGPT added a Reference gallery 25 Oct 15:30. 22:56 he set it up himself ("plopped ChatGPT into crow.md").
+- 22:58 day close: Samneang day (IG logo, rough pants + Henley designs, direction + deadlines); AC311 still not touched → his call: lock in Mon 26, Crow keeps him on track (ledger). Quote: Seneca Letter 1.
 
 ## Session — 2026-10-24 (Sat)
 - 16:06–16:12 his ask: shorter pause after FULL STOPS only (his correction) → `ui/tts.py` trims sentence-final clips to 10 ms lead / 70 ms tail (~160 → 80 ms); comma cuts untouched. The robot voice he heard = Kokoro taking >3 s on a busy Mac → 30 s browser fallback; timeout now 6 s in `app.js`. Ghost #27 deferred to "when the session actually starts" (his call). 16:14 asked #27 by voice → he passed: numbers spoken as words with no pen is unworkable (fair). **Rule: a numeric card asked by voice goes ON SCREEN in a fenced block.** #27 still due. 16:16 pause still "a little too long" → halved again to 40 ms, then 16:17 to 20 ms (0 lead / 20 tail) in `ui/tts.py`. That is the floor: if it still drags, the gap is clip switching or synthesis wait (`Voice.timings` in the console shows it). 16:18 his call ("in case this comes up in the future"): **playback is now gapless** (Web Audio schedules each sentence at the previous one's end; element = fallback). Tested headless in Chromium + WebKit: gaps 0–33 ms, no errors. 16:27 his verdict: **"it's already perfect."** Voice thread CLOSED.
@@ -41,10 +42,6 @@ metadata:
 - 10:40 📖 **finished The Brothers Karamazov.** Nearly cried at Alyosha's speech. His call: NOT a petal/water, "too significant to be simplified into a task finished." The stone brought his childhood back: "these memories will be my truth." → [[chapters]] · [[user-reading-list]]
 - 10:58 goals: Afternoon study AC311 (goal #7).
 - 09:25 his ask: logo **V3** (blue wordmark, ํ merged into swash) → added to Notion Brand HQ (page + DB row + toggle + log). → [[project-clothing-brand]]
-
-## Session — 2026-10-23 (Fri)
-- 14:26 back; first ask: update the sitrep (done: 21 Oct flushed, 22 Oct condensed).
-- 14:30–14:45 ribbon-lettering สำเนียง draft from his sheet photo; he picked ribbon blue → `brand/logo/`, kept LOCAL (his call). Ghost #32 asked 3×, unanswered → stopped asking for the day. → [[project-clothing-brand]]
 
 ## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. **AC311 Midterm 2 (sessions 8–11, PPE + intangibles, 30%) is next: **Fri 13 Nov** (Korn, 20 Oct; time TBC). Session 11 (31 Oct, impairment TAS 36) falls before it, so assume impairment is IN scope. Final 28 Nov.**
 
