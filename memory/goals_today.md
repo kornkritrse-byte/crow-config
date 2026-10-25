@@ -120,3 +120,9 @@ metadata:
 - 2026-10-24 | Reading | open
 - 2026-10-24 | Bed by 23:30 | open
 - 2026-10-24 | Afternoon study: AC311 | open
+- 2026-10-25 | Wake early | open
+- 2026-10-25 | Morning creative writing | open
+- 2026-10-25 | Training: Easy 35′ (long moved to Thu 22, his call) | open
+- 2026-10-25 | Daily journal | open
+- 2026-10-25 | Reading | open
+- 2026-10-25 | Bed by 23:30 | open
