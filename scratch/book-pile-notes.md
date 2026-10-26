@@ -22,3 +22,5 @@ Pending:
 - NEW BOOK → The Three Theban Plays (Sophocles): SAME as Meditations/Discourses · pages not given (Penguin Fagles ≈ 430, estimate)
 - NEW BOOK → White Nights (Dostoevsky): SAME black/white-band design · ~100 pp
 - One Hundred Years of Solitude: WHITE spine, ORANGE letters · ~500 pp
+- Letters to Milena: RED spine, WHITE letters · pages not given, keep ~270
+- NEW BOOK → The Sound of Waves (Mishima): RED spine, WHITE letters · pages not given (Vintage ≈ 180, estimate)
