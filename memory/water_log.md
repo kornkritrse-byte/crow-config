@@ -97,3 +97,4 @@ metadata:
 - 2026-10-26 11:43 | ghost | AC311: Land acquired for 10,000 own shares, par ฿10, trading at ฿15
 - 2026-10-26 11:56 | ghost | AC311: Exchange: old machine cost 150k, acc dep 60k, FV 70k, plus 2
 - 2026-10-26 11:56 | goal | Morning creative writing
+- 2026-10-26 18:22 | goal | Reading

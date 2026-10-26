@@ -131,7 +131,7 @@ metadata:
 - 2026-10-26 | Morning creative writing | done
 - 2026-10-26 | Training: Lift + easy 35′ | open
 - 2026-10-26 | Daily journal | open
-- 2026-10-26 | Reading | open
+- 2026-10-26 | Reading | done
 - 2026-10-26 | Bed by 23:30 | open
 - 2026-10-26 | Creative writing before the café | open
 - 2026-10-26 | Start AC311 at 10:00 at the café | open
