@@ -60,7 +60,7 @@ He runs **two books in parallel by weight**, deliberately: a **light/calm book f
 
 ## 🔜 QUEUE (26 Oct 2026, 21:54, his call)
 - NOW: **Myth of Sisyphus** (heavy, reread) + **Winter of Our Discontent** (light).
-- NEXT: **The Master and Margarita** (Bulgakov), NOT on his shelf. Crow's framing: brilliant but not "another Karamazov" (satire + magic, the Devil in Soviet Moscow + Pilate); avoid the Ginsburg translation (censored text).
+- NEXT: **The Master and Margarita** (Bulgakov), NOT on his shelf. Crow's framing: brilliant but not "another Karamazov" (satire + magic, the Devil in Soviet Moscow + Pilate); avoid the Ginsburg translation (censored text). Buy: Penguin Classics P&V paperback ISBN 9780140455465 (black Penguin, matches his row); Glenny = OK backup (Kinokuniya TH stocked it in 2017); stock at Kinokuniya TH not verified.
 - LATER: another Dostoevsky, open question he's "sitting with": what held him in Karamazov, **Ivan (→ Crime and Punishment) or Alyosha (→ The Idiot)?** Don't re-ask soon; let him bring it back.
 - After that: **One Hundred Years of Solitude** retry as a HEAVY-track book (family tree + read the repetition as the point). He still plans to read it.
 
