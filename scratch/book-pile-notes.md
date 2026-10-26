@@ -19,3 +19,6 @@ Pending:
 - Man's Search for Meaning: BLACK spine, GOLD letters · ~150 pp
 - Meditations: SAME as Discourses (black, white letters, one white band 2/3 down) · ~250 pp
 - NEW BOOK → Nicomachean Ethics (Aristotle): SAME as Discourses · ~250 pp
+- NEW BOOK → The Three Theban Plays (Sophocles): SAME as Meditations/Discourses · pages not given (Penguin Fagles ≈ 430, estimate)
+- NEW BOOK → White Nights (Dostoevsky): SAME black/white-band design · ~100 pp
+- One Hundred Years of Solitude: WHITE spine, ORANGE letters · ~500 pp
