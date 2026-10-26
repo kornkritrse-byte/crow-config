@@ -100,3 +100,4 @@ metadata:
 - 2026-10-26 18:22 | goal | Reading
 - 2026-10-26 18:29 | training | Zone 2 easy run, Mon 26 Oct morning (lift not done)
 - 2026-10-26 18:29 | goal | Creative writing before the café
+- 2026-10-26 21:48 | goal | Daily journal
