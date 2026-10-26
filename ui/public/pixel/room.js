@@ -163,13 +163,13 @@
   }
 
   // ---------------------------------------------------------------- gutters: the book pile + the guitars
-  // Spine colours from his shelf photos. Siddhartha, Karamazov, Ivan Ilyich, Man's
+  // Spine colours from his shelf photos, then his own word book by book (26 Oct). Karamazov, Ivan Ilyich, Man's
   // Search, Meditations and Letters to Milena weren't visible, so theirs are guesses (he's fine with them).
   // pg = page count of a common English paperback (an estimate until he gives his edition).
   // Thickness follows it: cream paperback paper ≈ 0.0025″ (0.0635 mm) a page + ~1 mm of cover,
   // drawn at ~3.3 mm a pixel, never under 4 px so the spine label still fits (26 Oct).
   const BOOKS = [
-    { t: "Siddhartha", a: "Hermann Hesse", s: "reading", c: "#cdb68a", ink: "#2a2418", pin: 1, pg: 152 },
+    { t: "Siddhartha", a: "Hermann Hesse", s: "dropped: the writing bored him, his first real drop (26 Oct)", c: "#e0b830", ink: "#2a2418", pg: 150 },
     { t: "The Brothers Karamazov", short: "Karamazov", a: "Dostoevsky", s: "reading, the heavy one", c: "#2c3e34", ink: "#e8e0cc", pin: 2, pg: 796 },
     { t: "The Courage to Be Disliked", short: "Be Disliked", a: "Kishimi & Koga", s: "read", c: "#efece4", ink: "#1a1a1a", pg: 288 },
     { t: "Kafka on the Shore", a: "Haruki Murakami", s: "read, where Crow's name comes from", c: "#18181c", ink: "#e8e4dc", pg: 505 },
@@ -221,8 +221,10 @@
   function paintPile() {
     const el = document.getElementById("pile"); if (!el) return;
     const seed = pileSeed();
-    const pool = BOOKS.filter((b) => !b.pin), picks = [];
-    for (let i = 0; picks.length < 8 && i < 80; i++) { const b = pool[(seed * 3 + i * 5) % pool.length]; if (!picks.includes(b)) picks.push(b); }
+    // a seeded shuffle (a fixed stride skipped books whenever it shared a factor with the pool size)
+    const pool = BOOKS.filter((b) => !b.pin), rr = root.PXL.rng(seed + 1);
+    for (let i = pool.length - 1; i > 0; i--) { const j = Math.floor(rr() * (i + 1)); [pool[i], pool[j]] = [pool[j], pool[i]]; }
+    const picks = pool.slice(0, 9);
     picks.sort((a, b) => thickFor(a) - thickFor(b));   // the heavy ones settle to the bottom
     const stack = [...BOOKS.filter((b) => b.pin).sort((a, b) => a.pin - b.pin), ...picks];
     const Wd = 46, offs = [3, 1, 0, 2, 0, 1, 2, 0, 3, 1];

@@ -51,7 +51,7 @@ All read by age 19, most within 2025-2026.
 
 **Man's Search for Meaning** (Frankl) — ✅ **FINISHED (told me 2026-08-23).** He had DROPPED this in July ("not into war stuff") but went back and finished it. Calls it **"one of the best books I've read"** — but explicitly **hasn't fully landed yet**: "I'll need some time to think about it and revisit it, don't think I've fully let it marinate." Do NOT push him to articulate it; he'll come back to it. (Same category as Never Let Me Go — good books that haven't detonated yet.)
 
-**Siddhartha** (Hesse) — ✅ **CURRENTLY READING (as of 2026-08-23).** His "calm read" — commutes and before sleep. Replaced After Dark in the light slot.
+**Siddhartha** (Hesse) — ❌ **DROPPED (told 26 Oct 2026): "I found the writing too boring honestly, first legit drop."** His first real drop. Yellow spine, ~150 pp. *(Was: CURRENTLY READING as of 2026-08-23.)* His "calm read" — commutes and before sleep. Replaced After Dark in the light slot.
 
 ## 📖 HIS TWO-TRACK READING SYSTEM (confirmed 23 Aug)
 He runs **two books in parallel by weight**, deliberately: a **light/calm book for commutes and before sleep** (currently Siddhartha; previously After Dark), and a **heavy book he only opens when it feels right and he can give it full attention** (Karamazov). Don't suggest he "make progress" on the heavy one — that's not how he reads it.
