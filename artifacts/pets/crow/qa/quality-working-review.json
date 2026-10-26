@@ -1,0 +1,82 @@
+{
+  "ok": true,
+  "atlas": "/Users/kornkrit/crow-config/artifacts/pets/crow/assembled/crow-v2-working-review-headturn-final.png",
+  "encoded_bytes": 1761443,
+  "sha256": "88c6da4044a6e07407bbec5ce2c1711a59ba59caa043a41e48c6bd653ac70f52",
+  "jump": {
+    "idle_baseline": 201,
+    "jump_baselines": [
+      201,
+      184,
+      151,
+      185,
+      202
+    ],
+    "airborne_lift_pixels": 51,
+    "landing_delta_pixels": 1
+  },
+  "look_registration": {
+    "neutral_center_x": 97.0,
+    "look_centers_x": [
+      76.5,
+      76.0,
+      83.0,
+      87.5,
+      91.0,
+      94.5,
+      89.5,
+      86.5,
+      78.0,
+      78.5,
+      78.0,
+      77.5,
+      76.5,
+      77.0,
+      77.0,
+      76.0
+    ],
+    "look_widths": [
+      125,
+      120,
+      134,
+      141,
+      150,
+      153,
+      145,
+      137,
+      120,
+      123,
+      124,
+      125,
+      125,
+      124,
+      124,
+      124
+    ],
+    "maximum_center_drift_pixels": 21.0,
+    "maximum_width_ratio": 1.275
+  },
+  "errors": [],
+  "warnings": [
+    "000 has transparent interior hole rows (y=165, y=166, y=167, y=168, +26 more)",
+    "022.5 has transparent interior hole rows (y=166, y=167, y=168, y=169, +21 more)",
+    "045 has transparent interior hole rows (y=166, y=167, y=168, y=169, +21 more)",
+    "067.5 has transparent interior hole rows (y=166, y=167, y=168, y=169, +21 more)",
+    "090 has transparent interior hole rows (y=166, y=167, y=168, y=169, +21 more)",
+    "112.5 has transparent interior hole rows (y=80, y=81, y=166, y=167, +23 more)",
+    "135 has transparent interior hole rows (y=166, y=167, y=168, y=169, +21 more)",
+    "157.5 has transparent interior hole rows (y=166, y=167, y=168, y=169, +21 more)",
+    "180 has transparent interior hole rows (y=166, y=167, y=168, y=169, +21 more)",
+    "202.5 has transparent interior hole rows (y=167, y=168, y=169, y=170, +25 more)",
+    "225 has transparent interior hole rows (y=165, y=166, y=167, y=168, +26 more)",
+    "247.5 has transparent interior hole rows (y=166, y=167, y=168, y=169, +25 more)",
+    "270 has transparent interior hole rows (y=165, y=166, y=167, y=168, +26 more)",
+    "292.5 has transparent interior hole rows (y=165, y=166, y=167, y=168, +26 more)",
+    "315 has transparent interior hole rows (y=165, y=166, y=167, y=168, +26 more)",
+    "337.5 has transparent interior hole rows (y=166, y=167, y=168, y=169, +25 more)",
+    "022.5->045 center shift is high (8.9px)",
+    "090->112.5 diff is a local outlier (2945 pixels vs neighbor average 1948)",
+    "157.5->180 center shift is high (8.7px)",
+    "180->202.5 diff is a local outlier (4229 pixels vs neighbor average 1910)"
+  ]
+}
