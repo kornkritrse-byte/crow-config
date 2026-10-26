@@ -1,0 +1,112 @@
+{
+  "ok": true,
+  "frames_root": "/Users/kornkrit/crow-config/artifacts/pets/crow/qa/rows/waiting-crouch-turn/frames",
+  "states": [
+    "waiting"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/kornkrit/crow-config/artifacts/pets/crow/qa/rows/waiting-crouch-turn/frames/waiting/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10263,
+          "bbox": [
+            6,
+            35,
+            185,
+            175
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 159
+        },
+        {
+          "index": 1,
+          "file": "/Users/kornkrit/crow-config/artifacts/pets/crow/qa/rows/waiting-crouch-turn/frames/waiting/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9821,
+          "bbox": [
+            5,
+            48,
+            187,
+            175
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 151
+        },
+        {
+          "index": 2,
+          "file": "/Users/kornkrit/crow-config/artifacts/pets/crow/qa/rows/waiting-crouch-turn/frames/waiting/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10124,
+          "bbox": [
+            15,
+            32,
+            177,
+            175
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 152
+        },
+        {
+          "index": 3,
+          "file": "/Users/kornkrit/crow-config/artifacts/pets/crow/qa/rows/waiting-crouch-turn/frames/waiting/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9792,
+          "bbox": [
+            25,
+            32,
+            167,
+            175
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 117
+        },
+        {
+          "index": 4,
+          "file": "/Users/kornkrit/crow-config/artifacts/pets/crow/qa/rows/waiting-crouch-turn/frames/waiting/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10337,
+          "bbox": [
+            9,
+            32,
+            183,
+            175
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 158
+        },
+        {
+          "index": 5,
+          "file": "/Users/kornkrit/crow-config/artifacts/pets/crow/qa/rows/waiting-crouch-turn/frames/waiting/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10054,
+          "bbox": [
+            9,
+            37,
+            182,
+            175
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 174
+        }
+      ]
+    }
+  ]
+}
