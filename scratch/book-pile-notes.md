@@ -24,3 +24,4 @@ Pending:
 - One Hundred Years of Solitude: WHITE spine, ORANGE letters · ~500 pp
 - Letters to Milena: RED spine, WHITE letters · pages not given, keep ~270
 - NEW BOOK → The Sound of Waves (Mishima): RED spine, WHITE letters · pages not given (Vintage ≈ 180, estimate)
+- War and Peace: GREY spine with RED VINE-like texture, WHITE text (drop the red bands) · ~1,270 pp
