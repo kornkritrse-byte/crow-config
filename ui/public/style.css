@@ -104,7 +104,7 @@ button { font: inherit; cursor: pointer; }
   font-size: 16px;
   line-height: 1.6;
 }
-.reply p, .reply ul, .reply ol, .reply blockquote, .reply pre, .reply table { margin: 0 0 1.4em; }
+.reply p, .reply ul, .reply ol, .reply blockquote, .reply pre, .reply table { margin: 0 0 4.8em; } /* 3 lines (3 × line-height 1.6), his ask 26 Oct */
 .reply ul, .reply ol { padding-left: 1.3em; }
 .reply li { margin-bottom: .55em; }
 .reply strong { font-weight: 600; }
