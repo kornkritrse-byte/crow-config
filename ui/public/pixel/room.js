@@ -163,30 +163,117 @@
   }
 
   // ---------------------------------------------------------------- gutters: the book pile + the guitars
-  // Spine colours from his shelf photos, then his own word book by book (26 Oct). Karamazov, Ivan Ilyich, Man's
-  // Search, Meditations and Letters to Milena weren't visible, so theirs are guesses (he's fine with them).
-  // pg = page count of a common English paperback (an estimate until he gives his edition).
-  // Thickness follows it: cream paperback paper ≈ 0.0025″ (0.0635 mm) a page + ~1 mm of cover,
-  // drawn at ~3.3 mm a pixel, never under 4 px so the spine label still fits (26 Oct).
+  // Spine colours + designs: his own word, book by book (26 Oct 21:30); earlier ones from his shelf photos.
+  // pg = page count (his estimate where he gave one, else a common English edition's). Thickness
+  // follows it: cream paperback paper ≈ 0.0025″ (0.0635 mm) a page + ~1 mm of cover (mm overrides
+  // it for the hardcovers), drawn at ~3.3 mm a pixel, never under 4 px so the spine label still fits.
+  // deco = marks on the spine, u = 0 at the TOP of the spine (the left end, lying flat) to 1 at the bottom:
+  //   ["band", u, c] one line across · ["block", u0, u1, c] a solid section · ["dot", u, c] ·
+  //   ["tab", u, c] a small label · ["arcs", c] curved lines at both ends · ["vine", c] · ["frames", c] · ["leather"]
+  // lab = [u0, u1], the part of the spine the title sits in. split = the title goes either side of a dot.
+  const W_ = "#f4f0ea", K_ = "#141418", RED = "#b8282a", PINK = "#e893ab", GOLD = "#d8b45a";
+  const PENGUIN = { c: K_, ink: W_, deco: [["band", 2 / 3, W_]], lab: [0, 0.62] };   // the black classics, one white band 2/3 down
+  const CAMUS = { c: "#ece8e0", ink: K_, deco: [["block", 0.5, 1, K_]], lab: [0, 0.5] };   // white top half, black bottom half
+  const MURAKAMI = { c: "#18181c", ink: W_, deco: [["dot", 0.5, "#d0302a"]], split: true };
+  const BLACKTAB = { c: K_, ink: W_, deco: [["tab", 0.9, W_]], lab: [0, 0.84] };
+  const BERSERK = (n) => ({ t: `Berserk Deluxe Edition ${n}`, a: "Kentaro Miura", s: "on the shelf, the big leather hardcovers", c: "#121214", mm: 50, len: 43, deco: [["leather"]], parts: [{ text: String(n), u: [0.03, 0.2], ink: GOLD, fs: 11 }, { text: "Berserk", u: [0.2, 0.97], ink: "#c8402a", fs: 11 }] });
   const BOOKS = [
     { t: "Siddhartha", a: "Hermann Hesse", s: "dropped: the writing bored him, his first real drop (26 Oct)", c: "#e0b830", ink: "#2a2418", pg: 150 },
-    { t: "The Brothers Karamazov", short: "Karamazov", a: "Dostoevsky", s: "finished 24 Oct, Alyosha's speech nearly made him cry", c: "#5a3a24", ink: "#d8b45a", pin: 2, pg: 796 },
-    { t: "The Courage to Be Disliked", short: "Be Disliked", a: "Kishimi & Koga", s: "read", c: "#efece4", ink: "#1a1a1a", pg: 288, stripes: { c: "#c8302a", at: [2, 4, -3, -5] } },
-    { t: "Kafka on the Shore", a: "Haruki Murakami", s: "read, where Crow's name comes from", c: "#18181c", ink: "#e8e4dc", pg: 505 },
-    { t: "Never Let Me Go", a: "Kazuo Ishiguro", s: "read", c: "#e8e4dc", ink: "#1a1a1a", pg: 288 },
-    { t: "Kokoro", a: "Natsume Soseki", s: "read", c: "#1c1c22", ink: "#e8e4dc", pg: 248 },
-    { t: "Discourses", a: "Epictetus", s: "read", c: "#141418", ink: "#e8e4dc", band: "#b89040", pg: 288 },
-    { t: "The Stranger", a: "Albert Camus", s: "read", c: "#ece8e0", ink: "#1a1a1a", pg: 123 },
-    { t: "The Alchemist", a: "Paulo Coelho", s: "read", c: "#c83a2a", ink: "#f4e8d8", pg: 208 },
-    { t: "Norwegian Wood", a: "Haruki Murakami", s: "read", c: "#1c1c22", ink: "#e8e4dc", pg: 296 },
-    { t: "The Death of Ivan Ilyich", short: "Ivan Ilyich", a: "Leo Tolstoy", s: "read", c: "#6a2a2a", ink: "#f0e0cc", pg: 114 },
-    { t: "Man's Search for Meaning", short: "Man's Search", a: "Viktor Frankl", s: "read, still marinating", c: "#e8d8b8", ink: "#2a2418", pg: 165 },
-    { t: "Meditations", a: "Marcus Aurelius", s: "the one you keep going back to", c: "#3a2a4a", ink: "#e8dcc8", pg: 254 },
-    { t: "One Hundred Years of Solitude", short: "100 Years", a: "García Márquez", s: "on the shelf", c: "#c8402c", ink: "#f4e8d8", pg: 417 },
-    { t: "Letters to Milena", a: "Franz Kafka", s: "on the shelf", c: "#8a8a7a", ink: "#141414", pg: 271 },
-    { t: "War and Peace", a: "Leo Tolstoy", s: "on the shelf", c: "#16161a", ink: "#e8e4dc", band: "#b82a2a", pg: 1273 },
+    { t: "The Brothers Karamazov", short: "Karamazov", a: "Dostoevsky", s: "finished 24 Oct, Alyosha's speech nearly made him cry", c: "#5a3a24", ink: GOLD, pin: 2, pg: 796 },
+    { t: "The Courage to Be Disliked", short: "Be Disliked", a: "Kishimi & Koga", s: "read", c: "#efece4", ink: "#1a1a1a", pg: 288, deco: [["arcs", "#c8302a"]], lab: [0.14, 0.86] },
+    { t: "Kafka on the Shore", a: "Haruki Murakami", s: "read, where Crow's name comes from", pg: 500, ...MURAKAMI },
+    { t: "After Dark", a: "Haruki Murakami", s: "read (Jul), the before-sleep book", pg: 175, ...MURAKAMI },
+    { t: "A Wild Sheep Chase", a: "Haruki Murakami", s: "read, fun, vibes only", pg: 250, ...MURAKAMI },
+    { t: "Norwegian Wood", a: "Haruki Murakami", s: "read", c: RED, ink: W_, pg: 300 },
+    { t: "Never Let Me Go", a: "Kazuo Ishiguro", s: "read (thin paper)", c: "#e8e4dc", ink: "#1a1a1a", pg: 200 },
+    { t: "Klara and the Sun", a: "Kazuo Ishiguro", s: "on the shelf", c: RED, ink: K_, pg: 250 },
+    { t: "Kokoro", a: "Natsume Soseki", s: "read", c: "#2e1f3e", ink: "#b89ad8", pg: 300 },
+    { t: "Discourses", a: "Epictetus", s: "read", pg: 250, ...PENGUIN },
+    { t: "Meditations", a: "Marcus Aurelius", s: "the one you keep going back to", pg: 250, ...PENGUIN },
+    { t: "Nicomachean Ethics", a: "Aristotle", s: "unfinished", pg: 250, len: 43, ...PENGUIN },
+    { t: "The Three Theban Plays", short: "Theban Plays", a: "Sophocles", s: "dropped once, wants to go back to it (because of รับน้อง)", pg: 430, ...PENGUIN },
+    { t: "White Nights", a: "Dostoevsky", s: "read, a long time back", pg: 100, ...PENGUIN },
+    { t: "The Stranger", a: "Albert Camus", s: "read", pg: 120, len: 40, ...CAMUS },
+    { t: "The Myth of Sisyphus", short: "Myth of Sisyphus", a: "Albert Camus", s: "read, the planned reread after Karamazov", pg: 150, len: 43, ...CAMUS },
+    { t: "The Alchemist", a: "Paulo Coelho", s: "read", c: "#e07a26", ink: "#f8e06a", pg: 200 },
+    { t: "The Death of Ivan Ilyich", short: "Ivan Ilyich", a: "Leo Tolstoy", s: "read", c: "#f0ece4", ink: RED, pg: 115, deco: [["block", 0, 0.09, "#3a5aa8"]], lab: [0.1, 1] },
+    { t: "Man's Search for Meaning", short: "Man's Search", a: "Viktor Frankl", s: "read, still marinating", c: K_, ink: GOLD, pg: 150 },
+    { t: "One Hundred Years of Solitude", short: "100 Years", a: "García Márquez", s: "~100 pp in, dropped", c: "#f0ece4", ink: "#e07a26", pg: 500 },
+    { t: "Letters to Milena", a: "Franz Kafka", s: "unread", c: RED, ink: W_, pg: 270 },
+    { t: "The Sound of Waves", a: "Yukio Mishima", s: "on the shelf", c: RED, ink: W_, pg: 180 },
+    { t: "War and Peace", a: "Leo Tolstoy", s: "on the shelf", c: "#7e7c78", ink: W_, pg: 1273, deco: [["vine", "#a02a2a"]] },
+    { t: "What If?", a: "Randall Munroe", s: "on the shelf", c: RED, ink: W_, pg: 300 },
+    { t: "Lonely Castle in the Mirror", short: "Lonely Castle", a: "Mizuki Tsujimura", s: "on the shelf", c: PINK, ink: W_, pg: 380 },
+    { t: "Breasts and Eggs", a: "Mieko Kawakami", s: "on the shelf", c: "#e487a2", ink: W_, pg: 430 },
+    BERSERK(10), BERSERK(11), BERSERK(12),
+    { t: "The Picture of Dorian Gray", short: "Dorian Gray", a: "Oscar Wilde", s: "read", pg: 260, ...BLACKTAB },
+    { t: "Pride and Prejudice", a: "Jane Austen", s: "a few chapters in, paused for a more fun read", pg: 430, len: 40, ...BLACKTAB },
+    { t: "Cleopatra and Frankenstein", short: "Cleopatra & Frankenstein", a: "Coco Mellors", s: "on the shelf", c: "#f0ece4", ink: "#2a4ab0", pg: 370 },
+    { t: "Shakespeare's Sonnets", short: "Sonnets", a: "William Shakespeare", s: "on the shelf", c: "#f0ece4", ink: K_, pg: 100, deco: [["block", 0, 0.16, K_], ["block", 0.84, 1, K_]], lab: [0.17, 0.83] },
+    { t: "The Winter of Our Discontent", short: "Winter of Our Discontent", a: "John Steinbeck", s: "thrifted, unread", c: "#f0ece4", ink: K_, pg: 290, len: 43, deco: [["dot", 0.93, "#e8741c"]], lab: [0, 0.87] },
+    { t: "House of Leaves", a: "Mark Z. Danielewski", s: "on the shelf, thick as hell", c: "#ece8e0", ink: W_, pg: 700, len: 43, deco: [["frames", K_]], shadow: true },
   ];
-  const thickFor = (bk) => Math.max(4, Math.round(((bk.pg || 250) * 0.0635 + 1) / 3.3));
+  const thickFor = (bk) => Math.max(4, Math.round((bk.mm ?? (bk.pg || 250) * 0.0635 + 1) / 3.3));
+  // the marks on a spine (see deco above); drawn over the slab, inside its top/bottom edge lines
+  function paintDeco(b, bk, x, y, len, th) {
+    const at = (u) => x + Math.round(u * len), mid = y + th / 2;
+    const block = (x0, x1, c) => { b.rect(x0, y, x1 - x0, th, c); b.hline(x0, x1 - 1, y, PXL.mix(c, C("#ffffff"), 0.18)); b.hline(x0, x1 - 1, y + th - 1, PXL.mix(c, C("#000000"), 0.3)); };
+    for (const [kind, ...v] of bk.deco || []) {
+      if (kind === "band") b.vline(at(v[0]), y + 1, y + th - 2, C(v[1]));
+      else if (kind === "block") block(at(v[0]), at(v[1]), C(v[2]));
+      else if (kind === "dot") {   // a round dot
+        const c = C(v[1]), cx = at(v[0]), cy = Math.round(mid);
+        if (th >= 8) {   // 3×3, the corners half-blended into the cloth so it reads round, not as a plus
+          b.rect(cx - 1, cy - 1, 3, 3, c);
+          const soft = PXL.mix(c, C(bk.c), 0.55);
+          for (const [dx, dy] of [[-1, -1], [1, -1], [-1, 1], [1, 1]]) b.set(cx + dx, cy + dy, soft);
+        } else b.rect(cx - 1, cy - 1, 2, 2, c);
+      }
+      else if (kind === "tab") b.rect(at(v[0]), Math.round(mid) - 1, 2, 2, C(v[1]));
+      else if (kind === "arcs") {   // two curved lines at each end, bowing outward like ( ( title ) )
+        const c = C(v[0]), rows = th - 2;
+        for (let j = 0; j < rows; j++) {
+          const t = (j + 0.5) / rows * 2 - 1, d = Math.round(1.6 * (1 - Math.sqrt(1 - t * t)));
+          for (const off of [2, 5]) { b.set(x + off + d, y + 1 + j, c); b.set(x + len - 1 - off - d, y + 1 + j, c); }
+        }
+      } else if (kind === "vine") {   // two red vines winding along the grey cloth, joined pixel to pixel, with leaves
+        const c = C(v[0]), leaf = PXL.mix(C(v[0]), C("#000000"), 0.3), amp = Math.max(1, (th - 6) / 2);
+        for (const ph of [0, Math.PI]) {
+          let prev = null;
+          for (let i = 2; i < len - 2; i++) {
+            const yy = Math.round(mid - 0.5 + amp * Math.sin(i * 0.28 + ph));
+            if (prev === null) b.set(x + i, yy, c); else b.vline(x + i, prev, yy, c);
+            if (i % 7 === (ph ? 3 : 0)) { const up = Math.cos(i * 0.28 + ph) > 0 ? -1 : 1; b.set(x + i, yy + up, leaf); b.set(x + i + 1, yy + up, leaf); b.set(x + i + 1, yy + 2 * up, leaf); }
+            prev = yy;
+          }
+        }
+      } else if (kind === "frames") {   // five black panels framed in white along the spine
+        const c = C(v[0]), n = 5, step = (len - 1) / n;
+        for (let k = 0; k < n; k++) { const a = x + 1 + Math.round(k * step), z = x + Math.round((k + 1) * step); b.rect(a, y + 1, z - a, th - 2, c); }
+      } else if (kind === "leather") {   // black leather: a fine grain of slightly lighter specks
+        const r = PXL.rng(len * 31 + th), g = C("#232326");
+        for (let j = y + 1; j < y + th - 1; j++) for (let i = x; i < x + len; i++) if (r() < 0.16) b.set(i, j, g);
+        b.vline(x + 1, y + 1, y + th - 2, C("#2c2c30")); b.vline(x + len - 2, y + 1, y + th - 2, C("#2c2c30"));   // the boards' edges
+      }
+    }
+  }
+  // the title (or titles) on a spine: where it sits, in what colour, shrunk until it fits
+  const measure = document.createElement("canvas").getContext("2d");
+  function fitSize(text, width, fs) {
+    measure.font = `700 ${fs}px "Times New Roman", Times, serif`;
+    const w = measure.measureText(text.toUpperCase()).width + text.length * fs * 0.04;
+    return Math.max(5, Math.min(fs, Math.floor((fs * width / w) * 2) / 2));
+  }
+  function labelParts(bk) {
+    if (bk.parts) return bk.parts;
+    const text = bk.short || bk.t;
+    if (!bk.split) return [{ text, u: bk.lab || [0, 1], ink: bk.ink }];
+    const w = text.split(" ");   // either side of the dot, splitting the words as evenly as it can
+    let best = 1;
+    for (let i = 1; i < w.length; i++) if (Math.abs(w.slice(0, i).join(" ").length - w.slice(i).join(" ").length) < Math.abs(w.slice(0, best).join(" ").length - w.slice(best).join(" ").length)) best = i;
+    return w.length < 2 ? [{ text, u: [0, 0.44], ink: bk.ink }]
+      : [{ text: w.slice(0, best).join(" "), u: [0, 0.46], ink: bk.ink }, { text: w.slice(best).join(" "), u: [0.54, 1], ink: bk.ink }];
+  }
   // the nest on top of the pile: a twig bowl sitting on the top book. The middle of the back
   // rim is left open, so the parked ball (behind the canvas) shows through as the egg in it.
   const NEST = { w: 22, h: 8, rim: 3 };   // rim = the front rim's top row
@@ -224,18 +311,20 @@
     // a seeded shuffle (a fixed stride skipped books whenever it shared a factor with the pool size)
     const pool = BOOKS.filter((b) => !b.pin), rr = root.PXL.rng(seed + 1);
     for (let i = pool.length - 1; i > 0; i--) { const j = Math.floor(rr() * (i + 1)); [pool[i], pool[j]] = [pool[j], pool[i]]; }
-    const picks = pool.slice(0, 9);
+    // up to 9 books, as long as the pile stays short enough to clear the hoop above it
+    const pins = BOOKS.filter((b) => b.pin).sort((a, b) => a.pin - b.pin), picks = [];
+    let room = 88 - pins.reduce((n, b) => n + thickFor(b) + 1, 0);
+    for (const b of pool) { if (picks.length >= 9) break; if (thickFor(b) + 1 <= room) { picks.push(b); room -= thickFor(b) + 1; } }
     picks.sort((a, b) => thickFor(a) - thickFor(b));   // the heavy ones settle to the bottom
-    const stack = [...BOOKS.filter((b) => b.pin).sort((a, b) => a.pin - b.pin), ...picks];
+    const stack = [...pins, ...picks];
     const Wd = 46, offs = [3, 1, 0, 2, 0, 1, 2, 0, 3, 1];
-    const lenFor = (bk) => Math.max(30, Math.min(43, Math.ceil((bk.short || bk.t).length * 1.75) + 8));
+    const lenFor = (bk) => bk.len || Math.max(30, Math.min(43, Math.ceil((bk.short || bk.t).length * 1.75) + 8));
     let y = NEST.h;   // the nest sits right on the top book
     const rows = stack.map((bk, i) => { const r = { bk, x: offs[i % offs.length], y, len: lenFor(bk), th: thickFor(bk) }; y += r.th + 1; return r; });
     const pb = new PX(Wd, y + 1);
     for (const { bk, x, y, len, th } of rows) {
-      R.slab(pb, x, y, len, th, C(bk.c), bk.band ? C(bk.band) : 0);
-      // thin stripes across the spine; at = px from the left end, negative from the right
-      if (bk.stripes) for (const at of bk.stripes.at) pb.vline(at < 0 ? x + len + at : x + at, y + 1, y + th - 2, C(bk.stripes.c));
+      R.slab(pb, x, y, len, th, C(bk.c), 0);
+      paintDeco(pb, bk, x, y, len, th);
     }
     const nestX = rows[0].x + Math.round(rows[0].len / 2);
     paintNest(pb, nestX);
@@ -245,12 +334,16 @@
     el.dataset.parkX = nestX * 3; el.dataset.parkY = (NEST.rim - 1) * 3;   // hoops.js: the ball sits in the nest
     el.append(cv);
     for (const { bk, x, y, len, th } of rows) {
-      const l = document.createElement("span");
-      l.className = "spine" + (bk.pin === 1 ? " now" : "");
-      l.textContent = bk.short || bk.t;
-      l.title = `${bk.t} · ${bk.a} · ${bk.s}`;
-      Object.assign(l.style, { left: x * 3 + 7 + "px", top: y * 3 + 2 + "px", width: len * 3 - 14 + "px", height: th * 3 - 4 + "px", color: bk.ink });
-      el.append(l);
+      for (const [i, p] of labelParts(bk).entries()) {
+        const l = document.createElement("span"), pad = 4;
+        const left = (x + p.u[0] * len) * 3 + pad, width = (p.u[1] - p.u[0]) * len * 3 - pad * 2;
+        l.className = "spine" + (bk.pin === 1 && i === 0 ? " now" : "");
+        l.textContent = p.text;
+        l.title = `${bk.t} · ${bk.a} · ${bk.s}`;
+        Object.assign(l.style, { left: left + "px", top: y * 3 + 2 + "px", width: width + "px", height: th * 3 - 4 + "px", color: p.ink, fontSize: fitSize(p.text, width, p.fs || 8.5) + "px" });
+        if (bk.shadow) l.style.textShadow = "0 0 2px #000, 1px 1px 0 #000, -1px -1px 0 #000";   // reads over the white frame lines
+        el.append(l);
+      }
     }
   }
   function paintGuitars() {

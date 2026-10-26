@@ -25,3 +25,5 @@ Pending:
 - Letters to Milena: RED spine, WHITE letters · pages not given, keep ~270
 - NEW BOOK → The Sound of Waves (Mishima): RED spine, WHITE letters · pages not given (Vintage ≈ 180, estimate)
 - War and Peace: GREY spine with RED VINE-like texture, WHITE text (drop the red bands) · ~1,270 pp
+
+## ✅ APPLIED 21:30–21:45 (one go): all of the above + 13 more from his 21:30 list (Klara, What If?, Lonely Castle, Breasts and Eggs, Berserk 10–12, Dorian Gray, P&P, Cleopatra & Frankenstein, Sonnets, Winter of Our Discontent, House of Leaves). Kafka red dot ✓. 36 books. Open: which book is he reading NOW (gets pin 1 + the light)?
