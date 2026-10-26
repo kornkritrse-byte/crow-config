@@ -93,3 +93,4 @@ metadata:
 - 2026-10-24 10:41 | ledger | "long run will be tmr not sunday": Long 12 km, Thu 22 Oct morning (moved from Su
 - 2026-10-24 10:46 | goal | Wake early
 - 2026-10-24 11:28 | goal | Bed by 23:30
+- 2026-10-26 08:45 | goal | Wake early
