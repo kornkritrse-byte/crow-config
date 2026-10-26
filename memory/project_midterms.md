@@ -11,6 +11,12 @@ metadata:
 
 Opened 2026-08-23. **TOP PRIORITY.** Korn's stated order: midterms first, fitness second (fitness explicitly planned *around* studies).
 
+## 🏁 MIDTERM 1 RESULTS — told by Korn 26 Oct 2026, 13:25
+- **ALL subjects came back ABOVE THE MEAN**, including the ones he thought went badly (FN201, which he called bad 'cohort-wide'; BA202 + AC311 were the shaky ones going in).
+- **EL221 English: 59/60.**
+- Other scores not given yet (ask once, don't chase).
+- **Read for the future:** his post-exam self-read runs PESSIMISTIC. 'I did shit' ≠ data. Use the actual score, not his feeling after the paper.
+
 ## 📅 EXAM SCHEDULE (given by Korn 23 Aug) — 6 subjects, Sun 20 → Sun 27 Sep 2026
 
 > 🎯 **BA202 EXAM-DAY HABITS (from the 1 Oct drill day, his actual miss shapes):**
