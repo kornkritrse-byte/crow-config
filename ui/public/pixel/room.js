@@ -171,7 +171,7 @@
   const BOOKS = [
     { t: "Siddhartha", a: "Hermann Hesse", s: "dropped: the writing bored him, his first real drop (26 Oct)", c: "#e0b830", ink: "#2a2418", pg: 150 },
     { t: "The Brothers Karamazov", short: "Karamazov", a: "Dostoevsky", s: "finished 24 Oct, Alyosha's speech nearly made him cry", c: "#5a3a24", ink: "#d8b45a", pin: 2, pg: 796 },
-    { t: "The Courage to Be Disliked", short: "Be Disliked", a: "Kishimi & Koga", s: "read", c: "#efece4", ink: "#1a1a1a", pg: 288 },
+    { t: "The Courage to Be Disliked", short: "Be Disliked", a: "Kishimi & Koga", s: "read", c: "#efece4", ink: "#1a1a1a", pg: 288, stripes: { c: "#c8302a", at: [2, 4, -3, -5] } },
     { t: "Kafka on the Shore", a: "Haruki Murakami", s: "read, where Crow's name comes from", c: "#18181c", ink: "#e8e4dc", pg: 505 },
     { t: "Never Let Me Go", a: "Kazuo Ishiguro", s: "read", c: "#e8e4dc", ink: "#1a1a1a", pg: 288 },
     { t: "Kokoro", a: "Natsume Soseki", s: "read", c: "#1c1c22", ink: "#e8e4dc", pg: 248 },
@@ -232,7 +232,11 @@
     let y = NEST.h;   // the nest sits right on the top book
     const rows = stack.map((bk, i) => { const r = { bk, x: offs[i % offs.length], y, len: lenFor(bk), th: thickFor(bk) }; y += r.th + 1; return r; });
     const pb = new PX(Wd, y + 1);
-    for (const { bk, x, y, len, th } of rows) R.slab(pb, x, y, len, th, C(bk.c), bk.band ? C(bk.band) : 0);
+    for (const { bk, x, y, len, th } of rows) {
+      R.slab(pb, x, y, len, th, C(bk.c), bk.band ? C(bk.band) : 0);
+      // thin stripes across the spine; at = px from the left end, negative from the right
+      if (bk.stripes) for (const at of bk.stripes.at) pb.vline(at < 0 ? x + len + at : x + at, y + 1, y + th - 2, C(bk.stripes.c));
+    }
     const nestX = rows[0].x + Math.round(rows[0].len / 2);
     paintNest(pb, nestX);
     el.innerHTML = "";
