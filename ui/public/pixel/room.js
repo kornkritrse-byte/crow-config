@@ -194,7 +194,7 @@
     { t: "The Three Theban Plays", short: "Theban Plays", a: "Sophocles", s: "dropped once, wants to go back to it (because of รับน้อง)", pg: 430, ...PENGUIN },
     { t: "White Nights", a: "Dostoevsky", s: "read, a long time back", pg: 100, ...PENGUIN },
     { t: "The Stranger", a: "Albert Camus", s: "read", pg: 120, len: 40, ...CAMUS },
-    { t: "The Myth of Sisyphus", short: "Myth of Sisyphus", a: "Albert Camus", s: "read, the planned reread after Karamazov", pg: 150, len: 43, ...CAMUS },
+    { t: "The Myth of Sisyphus", short: "Myth of Sisyphus", a: "Albert Camus", s: "reading now, the reread after Karamazov (26 Oct)", pin: 1, pg: 150, len: 43, ...CAMUS },
     { t: "The Alchemist", a: "Paulo Coelho", s: "read", c: "#e07a26", ink: "#f8e06a", pg: 200 },
     { t: "The Death of Ivan Ilyich", short: "Ivan Ilyich", a: "Leo Tolstoy", s: "read", c: "#f0ece4", ink: RED, pg: 115, deco: [["block", 0, 0.09, "#3a5aa8"]], lab: [0.1, 1] },
     { t: "Man's Search for Meaning", short: "Man's Search", a: "Viktor Frankl", s: "read, still marinating", c: K_, ink: GOLD, pg: 150 },

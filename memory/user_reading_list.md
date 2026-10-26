@@ -21,7 +21,7 @@ All read by age 19, most within 2025-2026.
 
 **Meditations** (Marcus Aurelius) — Not on the numbered list above (predates it, or read piecemeal — unclear), but a live reference he returns to. **Book 5.1** (the "trouble getting out of bed" passage) is one he already knows well and recalls often — confirmed 5 Sep 2026 when Artis used it as the nightly quote and he said *"i love that quote actually one i do remember and recall often."* Worth leaning into more Aurelius for future quotes rather than reaching past him for something obscure.
 
-**The Stranger + Myth of Sisyphus** (Camus) — Too young to fully grasp. Plans to reread Myth of Sisyphus after finishing Karamazov — the two books have a conversation worth having.
+**The Stranger + Myth of Sisyphus** (Camus) — 📖 **SISYPHUS = CURRENTLY READING (reread, told 26 Oct 2026 21:40), right after Karamazov as planned.** Too young to fully grasp. Plans to reread Myth of Sisyphus after finishing Karamazov — the two books have a conversation worth having.
 
 **A Wild Sheep Chase** (Murakami) — Fun read, vibes only, nothing specific stuck.
 
