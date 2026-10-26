@@ -6,3 +6,4 @@ Pending:
 - Kafka on the Shore: black, white lettering, ~500 pp: as is ✓
 - Never Let Me Go: off-white, black lettering ✓ · ~250 pp but thin paper → draw as 200 pp
 - Kokoro: DARK PURPLE spine, PURPLE lettering (use a lighter lilac so it reads) · ~300 pp
+- Discourses: BLACK spine, WHITE letters, ONE WHITE band 2/3 down the spine (remove the gold bands; top of spine = left end lying flat) · pages not given, keep ~290
