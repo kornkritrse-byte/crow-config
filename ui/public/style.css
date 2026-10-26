@@ -94,8 +94,8 @@ button { font: inherit; cursor: pointer; }
   color: var(--mist);
   padding: 2px 0 2px 14px;
   border-left: 2px solid var(--maroon);
-  margin-top: 28px;
-  margin-bottom: 14px;
+  margin-top: 64px;    /* 2.5 lines between messages (2.5 × 16px × 1.6), his ask 26 Oct */
+  margin-bottom: 64px;
   white-space: pre-wrap;
 }
 
@@ -104,7 +104,7 @@ button { font: inherit; cursor: pointer; }
   font-size: 16px;
   line-height: 1.6;
 }
-.reply p, .reply ul, .reply ol, .reply blockquote, .reply pre, .reply table { margin: 0 0 4.8em; } /* 3 lines (3 × line-height 1.6), his ask 26 Oct */
+.reply p, .reply ul, .reply ol, .reply blockquote, .reply pre, .reply table { margin: 0 0 1.4em; }
 .reply ul, .reply ol { padding-left: 1.3em; }
 .reply li { margin-bottom: .55em; }
 .reply strong { font-weight: 600; }
