@@ -7,3 +7,5 @@ Pending:
 - Never Let Me Go: off-white, black lettering ✓ · ~250 pp but thin paper → draw as 200 pp
 - Kokoro: DARK PURPLE spine, PURPLE lettering (use a lighter lilac so it reads) · ~300 pp
 - Discourses: BLACK spine, WHITE letters, ONE WHITE band 2/3 down the spine (remove the gold bands; top of spine = left end lying flat) · pages not given, keep ~290
+- The Stranger: HALF WHITE / HALF BLACK spine, BLACK lettering (split direction: asked) · ~120 pp
+- NEW BOOK → The Myth of Sisyphus (Camus): same design as The Stranger · pages ~?
