@@ -165,24 +165,55 @@
   // ---------------------------------------------------------------- gutters: the book pile + the guitars
   // Spine colours from his shelf photos. Siddhartha, Karamazov, Ivan Ilyich, Man's
   // Search, Meditations and Letters to Milena weren't visible, so theirs are guesses (he's fine with them).
+  // pg = page count of a common English paperback (an estimate until he gives his edition).
+  // Thickness follows it: cream paperback paper ≈ 0.0025″ (0.0635 mm) a page + ~1 mm of cover,
+  // drawn at ~3.3 mm a pixel, never under 4 px so the spine label still fits (26 Oct).
   const BOOKS = [
-    { t: "Siddhartha", a: "Hermann Hesse", s: "reading", c: "#cdb68a", ink: "#2a2418", pin: 1 },
-    { t: "The Brothers Karamazov", short: "Karamazov", a: "Dostoevsky", s: "reading, the heavy one", c: "#2c3e34", ink: "#e8e0cc", pin: 2 },
-    { t: "The Courage to Be Disliked", short: "Be Disliked", a: "Kishimi & Koga", s: "read", c: "#efece4", ink: "#1a1a1a" },
-    { t: "Kafka on the Shore", a: "Haruki Murakami", s: "read, where Crow's name comes from", c: "#18181c", ink: "#e8e4dc" },
-    { t: "Never Let Me Go", a: "Kazuo Ishiguro", s: "read", c: "#e8e4dc", ink: "#1a1a1a" },
-    { t: "Kokoro", a: "Natsume Soseki", s: "read", c: "#1c1c22", ink: "#e8e4dc" },
-    { t: "Discourses", a: "Epictetus", s: "read", c: "#141418", ink: "#e8e4dc", band: "#b89040" },
-    { t: "The Stranger", a: "Albert Camus", s: "read", c: "#ece8e0", ink: "#1a1a1a" },
-    { t: "The Alchemist", a: "Paulo Coelho", s: "read", c: "#c83a2a", ink: "#f4e8d8" },
-    { t: "Norwegian Wood", a: "Haruki Murakami", s: "read", c: "#1c1c22", ink: "#e8e4dc" },
-    { t: "The Death of Ivan Ilyich", short: "Ivan Ilyich", a: "Leo Tolstoy", s: "read", c: "#6a2a2a", ink: "#f0e0cc" },
-    { t: "Man's Search for Meaning", short: "Man's Search", a: "Viktor Frankl", s: "read, still marinating", c: "#e8d8b8", ink: "#2a2418" },
-    { t: "Meditations", a: "Marcus Aurelius", s: "the one you keep going back to", c: "#3a2a4a", ink: "#e8dcc8" },
-    { t: "One Hundred Years of Solitude", short: "100 Years", a: "García Márquez", s: "on the shelf", c: "#c8402c", ink: "#f4e8d8" },
-    { t: "Letters to Milena", a: "Franz Kafka", s: "on the shelf", c: "#8a8a7a", ink: "#141414" },
-    { t: "War and Peace", a: "Leo Tolstoy", s: "on the shelf", c: "#16161a", ink: "#e8e4dc", band: "#b82a2a" },
+    { t: "Siddhartha", a: "Hermann Hesse", s: "reading", c: "#cdb68a", ink: "#2a2418", pin: 1, pg: 152 },
+    { t: "The Brothers Karamazov", short: "Karamazov", a: "Dostoevsky", s: "reading, the heavy one", c: "#2c3e34", ink: "#e8e0cc", pin: 2, pg: 796 },
+    { t: "The Courage to Be Disliked", short: "Be Disliked", a: "Kishimi & Koga", s: "read", c: "#efece4", ink: "#1a1a1a", pg: 288 },
+    { t: "Kafka on the Shore", a: "Haruki Murakami", s: "read, where Crow's name comes from", c: "#18181c", ink: "#e8e4dc", pg: 505 },
+    { t: "Never Let Me Go", a: "Kazuo Ishiguro", s: "read", c: "#e8e4dc", ink: "#1a1a1a", pg: 288 },
+    { t: "Kokoro", a: "Natsume Soseki", s: "read", c: "#1c1c22", ink: "#e8e4dc", pg: 248 },
+    { t: "Discourses", a: "Epictetus", s: "read", c: "#141418", ink: "#e8e4dc", band: "#b89040", pg: 288 },
+    { t: "The Stranger", a: "Albert Camus", s: "read", c: "#ece8e0", ink: "#1a1a1a", pg: 123 },
+    { t: "The Alchemist", a: "Paulo Coelho", s: "read", c: "#c83a2a", ink: "#f4e8d8", pg: 208 },
+    { t: "Norwegian Wood", a: "Haruki Murakami", s: "read", c: "#1c1c22", ink: "#e8e4dc", pg: 296 },
+    { t: "The Death of Ivan Ilyich", short: "Ivan Ilyich", a: "Leo Tolstoy", s: "read", c: "#6a2a2a", ink: "#f0e0cc", pg: 114 },
+    { t: "Man's Search for Meaning", short: "Man's Search", a: "Viktor Frankl", s: "read, still marinating", c: "#e8d8b8", ink: "#2a2418", pg: 165 },
+    { t: "Meditations", a: "Marcus Aurelius", s: "the one you keep going back to", c: "#3a2a4a", ink: "#e8dcc8", pg: 254 },
+    { t: "One Hundred Years of Solitude", short: "100 Years", a: "García Márquez", s: "on the shelf", c: "#c8402c", ink: "#f4e8d8", pg: 417 },
+    { t: "Letters to Milena", a: "Franz Kafka", s: "on the shelf", c: "#8a8a7a", ink: "#141414", pg: 271 },
+    { t: "War and Peace", a: "Leo Tolstoy", s: "on the shelf", c: "#16161a", ink: "#e8e4dc", band: "#b82a2a", pg: 1273 },
   ];
+  const thickFor = (bk) => Math.max(4, Math.round(((bk.pg || 250) * 0.0635 + 1) / 3.3));
+  // the nest on top of the pile: a twig bowl sitting on the top book. The middle of the back
+  // rim is left open, so the parked ball (behind the canvas) shows through as the egg in it.
+  const NEST = { w: 22, h: 8, rim: 3 };   // rim = the front rim's top row
+  function paintNest(b, cx) {
+    const twig = C("#5a3a22"), twig2 = C("#7a5230"), twigD = C("#3a2414"), hollow = C("#24160c");
+    const feather = C("#0b0c11"), sheen = C("#2a2440");
+    const x0 = cx - NEST.w / 2, r = root.PXL.rng(7), { h, rim } = NEST;
+    const tone = () => { const v = r(); return v < 0.45 ? twig : v < 0.8 ? twig2 : twigD; };
+    // the bowl: the lower half of an ellipse, flattened where it sits on the book
+    for (let y = rim; y < h; y++) {
+      const v = (y - rim + 0.5) / (h - rim), half = (NEST.w / 2) * Math.sqrt(Math.max(0, 1 - v * v * 0.55));
+      for (let x = Math.ceil(cx - half); x < cx + half; x++) b.set(x, y, tone());
+    }
+    // the front rim: a thicker woven band, light twigs on top, dark under
+    for (let x = x0; x < x0 + NEST.w; x++) { b.set(x, rim, r() < 0.6 ? twig2 : twig); b.set(x, rim + 1, r() < 0.5 ? twig : twigD); }
+    // the hollow just behind the front rim, and the two ends of the back rim rising either side
+    b.hline(x0 + 4, x0 + NEST.w - 5, rim - 1, hollow);
+    for (const [sx, dir] of [[x0, 1], [x0 + NEST.w - 1, -1]]) {
+      for (let k = 0; k < 4; k++) { b.set(sx + dir * k, rim - 1, tone()); if (k < 3) b.set(sx + dir * k, rim - 2, tone()); }
+      b.set(sx + dir, rim - 3, twig2);
+    }
+    // stray twigs poking out, and one crow feather tucked in on the left
+    for (const [sx, sy, dx, dy, n] of [[x0 - 1, rim + 1, -1, 1, 3], [x0 + NEST.w, rim, 1, -1, 3], [x0 + NEST.w, rim + 2, 1, 0, 2], [x0 + 2, rim - 3, -1, -1, 2]]) {
+      for (let k = 0; k < n; k++) b.set(sx + dx * k, sy + dy * k, k % 2 ? twigD : twig2);
+    }
+    for (let k = 0; k < 5; k++) { b.set(x0 + 3 - k, rim - 1 - k, feather); if (k < 4) b.set(x0 + 4 - k, rim - 1 - k, sheen); }
+  }
   function pileSeed() {
     const doy = Math.floor((Date.now() - Date.UTC(new Date().getUTCFullYear(), 0, 1)) / 864e5);
     return doy + (+store.get("sessions") || 0);
@@ -191,22 +222,28 @@
     const el = document.getElementById("pile"); if (!el) return;
     const seed = pileSeed();
     const pool = BOOKS.filter((b) => !b.pin), picks = [];
-    for (let i = 0; picks.length < 4 && i < 40; i++) { const b = pool[(seed * 3 + i * 5) % pool.length]; if (!picks.includes(b)) picks.push(b); }
+    for (let i = 0; picks.length < 8 && i < 80; i++) { const b = pool[(seed * 3 + i * 5) % pool.length]; if (!picks.includes(b)) picks.push(b); }
+    picks.sort((a, b) => thickFor(a) - thickFor(b));   // the heavy ones settle to the bottom
     const stack = [...BOOKS.filter((b) => b.pin).sort((a, b) => a.pin - b.pin), ...picks];
-    const T = 7, Wd = 46, offs = [3, 1, 0, 2, 0, 1];
+    const Wd = 46, offs = [3, 1, 0, 2, 0, 1, 2, 0, 3, 1];
     const lenFor = (bk) => Math.max(30, Math.min(43, Math.ceil((bk.short || bk.t).length * 1.75) + 8));
-    const pb = new PX(Wd, stack.length * T + 2);
-    const rows = stack.map((bk, i) => { const y = i * T + 1, len = lenFor(bk), x = offs[i]; R.slab(pb, x, y, len, T - 1, C(bk.c), bk.band ? C(bk.band) : 0); return { bk, x, y, len }; });
+    let y = NEST.h;   // the nest sits right on the top book
+    const rows = stack.map((bk, i) => { const r = { bk, x: offs[i % offs.length], y, len: lenFor(bk), th: thickFor(bk) }; y += r.th + 1; return r; });
+    const pb = new PX(Wd, y + 1);
+    for (const { bk, x, y, len, th } of rows) R.slab(pb, x, y, len, th, C(bk.c), bk.band ? C(bk.band) : 0);
+    const nestX = rows[0].x + Math.round(rows[0].len / 2);
+    paintNest(pb, nestX);
     el.innerHTML = "";
     const cv = pb.toCanvas(document.createElement("canvas"));
     el.style.width = Wd * 3 + "px"; el.style.height = pb.h * 3 + "px";
+    el.dataset.parkX = nestX * 3; el.dataset.parkY = (NEST.rim - 1) * 3;   // hoops.js: the ball sits in the nest
     el.append(cv);
-    for (const { bk, x, y, len } of rows) {
+    for (const { bk, x, y, len, th } of rows) {
       const l = document.createElement("span");
       l.className = "spine" + (bk.pin === 1 ? " now" : "");
       l.textContent = bk.short || bk.t;
       l.title = `${bk.t} · ${bk.a} · ${bk.s}`;
-      Object.assign(l.style, { left: x * 3 + 7 + "px", top: y * 3 + 2 + "px", width: len * 3 - 14 + "px", height: (T - 1) * 3 - 4 + "px", color: bk.ink });
+      Object.assign(l.style, { left: x * 3 + 7 + "px", top: y * 3 + 2 + "px", width: len * 3 - 14 + "px", height: th * 3 - 4 + "px", color: bk.ink });
       el.append(l);
     }
   }

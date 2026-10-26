@@ -63,8 +63,11 @@
   const visible = () => document.body.classList.contains("gutters") && !document.body.classList.contains("room-empty");
   const rel = (el) => { if (!el) return null; const t = talk.getBoundingClientRect(), r = el.getBoundingClientRect(); return { l: r.left - t.left, t: r.top - t.top, r: r.right - t.left, b: r.bottom - t.top }; };
   function pileBox() { const r = rel(document.getElementById("pile")); return r && r.r > r.l ? r : null; }
-  // parked: behind the top book (Siddhartha, always pinned on top), only the top of the ball showing
-  function parkSpot() { const p = pileBox(); return p ? { x: p.l + 54, y: p.t + 8 } : null; }
+  // parked: in the nest on top of the pile (room.js says where), only the top of the ball showing
+  function parkSpot() {
+    const p = pileBox(), d = document.getElementById("pile")?.dataset;
+    return p ? { x: p.l + (+d?.parkX || 54), y: p.t + (+d?.parkY || 8) } : null;
+  }
   // the solid things: the backboard, the bracket, and the composer (the ball sits on it or bounces off its sides)
   function solids() {
     const out = [
