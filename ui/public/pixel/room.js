@@ -170,7 +170,7 @@
   // drawn at ~3.3 mm a pixel, never under 4 px so the spine label still fits (26 Oct).
   const BOOKS = [
     { t: "Siddhartha", a: "Hermann Hesse", s: "dropped: the writing bored him, his first real drop (26 Oct)", c: "#e0b830", ink: "#2a2418", pg: 150 },
-    { t: "The Brothers Karamazov", short: "Karamazov", a: "Dostoevsky", s: "reading, the heavy one", c: "#2c3e34", ink: "#e8e0cc", pin: 2, pg: 796 },
+    { t: "The Brothers Karamazov", short: "Karamazov", a: "Dostoevsky", s: "finished 24 Oct, Alyosha's speech nearly made him cry", c: "#5a3a24", ink: "#d8b45a", pin: 2, pg: 796 },
     { t: "The Courage to Be Disliked", short: "Be Disliked", a: "Kishimi & Koga", s: "read", c: "#efece4", ink: "#1a1a1a", pg: 288 },
     { t: "Kafka on the Shore", a: "Haruki Murakami", s: "read, where Crow's name comes from", c: "#18181c", ink: "#e8e4dc", pg: 505 },
     { t: "Never Let Me Go", a: "Kazuo Ishiguro", s: "read", c: "#e8e4dc", ink: "#1a1a1a", pg: 288 },
