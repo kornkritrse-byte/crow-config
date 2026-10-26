@@ -4,3 +4,4 @@ Already applied: Siddhartha yellow ~150pp DROPPED (unpinned) · Karamazov brown 
 Pending:
 - Be Disliked: the red lines are CURVED, like semicircles (redo the straight stripes)
 - Kafka on the Shore: black, white lettering, ~500 pp: as is ✓
+- Never Let Me Go: off-white, black lettering ✓ · ~250 pp but thin paper → draw as 200 pp
