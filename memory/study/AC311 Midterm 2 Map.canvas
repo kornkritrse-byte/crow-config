@@ -33,39 +33,42 @@
 		{
 			"id": "n15",
 			"type": "text",
-			"text": "Revaluation\nwhole class · method (a) proportional / (b) eliminate AD\n⚠ s54 + s57 have errors",
+			"text": "Revaluation\nwhole class · method (a) proportional / (b) eliminate AD\n⚠ s54 + s57 have errors\n26 Oct: both methods ✓ (elimination step 2 slipped 50k→30k; skipped ratio/running balances on proportional). Surplus = FV − CA either way",
 			"x": 1380,
 			"y": 1800,
 			"width": 360,
-			"height": 150
+			"height": 150,
+			"color": "2"
 		},
 		{
 			"id": "n16",
 			"type": "text",
-			"text": "Up / down\nincrease → OCI surplus · decrease → P&L loss · reversals cross over · s61–65",
+			"text": "Up / down\nincrease → OCI surplus · decrease → P&L loss · reversals cross over · s61–65\n⚠ 26 Oct: first up → said 'gain' (it's OCI surplus) · cross-over excess → said OCI (it's P&L) · reversal of a P&L loss ✓",
 			"x": 1380,
 			"y": 1980,
 			"width": 360,
-			"height": 150
+			"height": 150,
+			"color": "2"
 		},
 		{
 			"id": "n17",
 			"type": "text",
-			"text": "Surplus → retained earnings\nnot through P&L · s66–67",
+			"text": "Surplus → retained earnings\nnot through P&L · s66–67\n⚠ 26 Oct: said surplus is 'recognised on sale' TWICE → fixed: excess-dep transfer 10k/yr + sale → Dr surplus / Cr RE ✓",
 			"x": 1380,
 			"y": 2160,
 			"width": 360,
-			"height": 150
+			"height": 150,
+			"color": "2"
 		},
 		{
 			"id": "n14",
 			"type": "text",
-			"text": "**5. After recognition** ← now\ncost model vs revaluation model · s46–67",
+			"text": "**5. After recognition**\ncost model vs revaluation model · s46–67\n26 Oct: done in the Room, all sub-branches drilled",
 			"x": 880,
 			"y": 1980,
 			"width": 380,
 			"height": 150,
-			"color": "3"
+			"color": "2"
 		},
 		{
 			"id": "n19",
@@ -97,11 +100,12 @@
 		{
 			"id": "n18",
 			"type": "text",
-			"text": "**6. Depreciation**\ncomponents · depreciable amount = cost − residual · s69–91",
+			"text": "**6. Depreciation** ← now\ncomponents · depreciable amount = cost − residual · s69–91",
 			"x": 880,
 			"y": 2520,
 			"width": 380,
-			"height": 150
+			"height": 150,
+			"color": "3"
 		},
 		{
 			"id": "n22",
