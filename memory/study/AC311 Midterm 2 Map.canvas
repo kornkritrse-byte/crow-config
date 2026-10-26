@@ -73,20 +73,22 @@
 		{
 			"id": "n19",
 			"type": "text",
-			"text": "Methods\nstraight-line · sum-of-years' digits · declining balance · units · hours",
+			"text": "Methods\nstraight-line · sum-of-years' digits · declining balance · units · hours\n⚠ 26 Oct: straight-line ✓ · SYD forgotten → example → ✓ (150k/120k) · double-declining forgotten → used the example's rate + took residual out first → fixed ✓ (rate 2/n, on CA, residual = floor) · units: method ✓, rounded 0.222 → 99,900 (go per unit: ฿5 × 20k = 100k)",
 			"x": 1380,
 			"y": 2340,
 			"width": 360,
-			"height": 150
+			"height": 150,
+			"color": "2"
 		},
 		{
 			"id": "n20",
 			"type": "text",
-			"text": "Start / stop · reviews\nchange = change in ESTIMATE",
+			"text": "Start / stop · reviews ← next\nchange = change in ESTIMATE\n26 Oct: depreciation starts when READY for use ✓ (warehouse Q). PAUSED here 13:22: next cold Q = change in estimate (500k, residual 50k, SL 5 yrs, after 2 yrs life revised to 4 MORE years → yr 3 = (320k − 50k) ÷ 4 = 67,500, prospective)",
 			"x": 1380,
 			"y": 2520,
 			"width": 360,
-			"height": 150
+			"height": 150,
+			"color": "3"
 		},
 		{
 			"id": "n21",
