@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-10-26 13:22 (live). Window holds 26 Oct + 25 Oct; 24 Oct flushed to [[sessions-log]] 26 Oct. Next to flush: 25 Oct.*
+*Last updated: 2026-10-26 13:24 (live). Window holds 26 Oct + 25 Oct; 24 Oct flushed to [[sessions-log]] 26 Oct. Next to flush: 25 Oct.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **PAUSED (Mon 26 Oct, 13:22)** — stopped mid-branch 6 ('stop there for now'). Hasn't eaten (skipped lunch at 12:57). ASK ON RETURN: resume AC311 with the change-in-estimate Q (canvas 'Start / stop' node) → finish branch 6 + 7 = PPE CLOSED today (his plan; Samneang tonight as the reward). Still owed: morning creative writing? · confirm bed 25 Oct · bed 22 + 24 Oct · did samneang.md get uploaded?
+- **AWAY (Mon 26 Oct, 13:24) — off to:** errands (and food, hadn't eaten). Unsure he'll have time this afternoon. Crow's pace read: coverage AHEAD (PPE ~¾ touched, 18 days to 13 Nov), recall BEHIND (13 cards today, Thu 29 Oct = heavy). ASK ON RETURN: resume AC311 at the change-in-estimate Q → finish branch 6 + 7 (PPE closed) BEFORE Samneang tonight · today's training (Lift + easy 35′) happening? · morning creative writing? · Still owed: confirm bed 25 Oct · bed 22 + 24 Oct · did samneang.md get uploaded?
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Siddhartha or Winter? · Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
