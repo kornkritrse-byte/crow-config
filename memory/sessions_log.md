@@ -472,3 +472,9 @@ metadata:
 ## Session — 2026-10-23 (Fri)
 - 14:26 back; first ask: update the sitrep (done: 21 Oct flushed, 22 Oct condensed).
 - 14:30–14:45 ribbon-lettering สำเนียง draft from his sheet photo; he picked ribbon blue → `brand/logo/`, kept LOCAL (his call). Ghost #32 asked 3×, unanswered → stopped asking for the day. → [[project-clothing-brand]]
+
+## Session — 2026-10-24 (Sat) — flushed from SITREP 26 Oct
+- 📖 **Finished The Brothers Karamazov.** Alyosha's speech nearly made him cry; the final chapter became his favourite because it held “no abstract ideas, no mental gymnastics, just life.” He explicitly refused to reduce the finish to a goal/petal. → [[chapters]] · [[user-reading-list]]
+- 🎙️ **Voice built into the Crow Room** and moved from robot fallback to local Kokoro (`bm_fable`); after sentence-tail trimming and Web Audio scheduling, his verdict was “already perfect.” → [[reference-crow-room]]
+- 👻 Ghost #25 and #26 exposed PPE/inventory/IP sorting misses; numeric ghost questions must appear ON SCREEN. #27 remained due.
+- 🎨 Samneang logo V3 added to Notion Brand HQ. AC311 remained untouched despite the day’s stated study goal. → [[project-clothing-brand]]
