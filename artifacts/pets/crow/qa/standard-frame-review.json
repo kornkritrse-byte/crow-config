@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "states": ["idle", "running-right", "running-left", "waving", "jumping", "failed", "waiting", "running", "review"],
+  "errors": [],
+  "warnings": [],
+  "evidence": "All nine generated standard rows passed extract_strip_frames.py and inspect_frames.py with required connected components and no warnings."
+}
