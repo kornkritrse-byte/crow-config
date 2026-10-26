@@ -66,6 +66,12 @@ Physical books he already has. Recommend from HERE before suggesting new purchas
 - **Letters to Milena** (Kafka) — **STILL unread as of 23 Aug** (was slated as the next before-sleep book; Siddhartha took the slot instead). Bought it to get into Kafka "but no crazy ideas" — wanted his *letters*, "to see how he showed love." ← On the love thread he was circling.
 - **The Winter of Our Discontent** (Steinbeck) — 📖 **PICKED 26 Oct 2026 21:42 as his LIGHT-track book**, alongside Sisyphus (the heavy one). Crow's pitch: an honest man bending his morals for money, justifying every step, i.e. his own "money is the floor" + "everything is justifiable through someone's logic" tested on a person. Thrifted a while back. 30 Sep 2026 he asked if it's an easy read. Crow's take: the sentences are easy, the book isn't (ironic, slippery narrator), so it's a sit-down book and not for the calm slot. Pitched as the **first read after midterms**, because it's about a decent, contented man and money, which is his mission and his contentment-as-cover struggle.
 
-- **Added 26 Oct 2026 (his shelf pass for the Room's book pile), read/unread NOT yet asked:** ✅ Klara and the Sun (Ishiguro, READ) · What If? (Munroe) · Lonely Castle in the Mirror (Tsujimura; he called it "lonely castle in the sky") · Breasts and Eggs (Kawakami) · **Berserk Deluxe Edition 10, 11, 12** (Miura, the big black leather hardcovers) · Cleopatra and Frankenstein (Mellors) · Shakespeare's Sonnets · House of Leaves (Danielewski, "thick as fuck") · ✅ The Sound of Waves (Mishima, READ) · War and Peace (Tolstoy). Spine looks for every book live in `ui/public/pixel/room.js` (BOOKS).
+- **Added 26 Oct 2026 (his shelf pass for the Room's book pile), statuses his own (21:49):**
+  - **Lonely Castle in the Mirror** (Tsujimura): ✅ read, **HIS VERY FIRST BOOK.** Worth asking about someday: what it was like, why that one.
+  - **What If?** (Munroe) ✅ read · **Berserk Deluxe 10–12** (Miura) ✅ read · **Shakespeare's Sonnets** ✅ read · **Klara and the Sun** (Ishiguro) ✅ read · **The Sound of Waves** (Mishima) ✅ read
+  - **Breasts and Eggs** (Kawakami) ❌ dropped · **Cleopatra and Frankenstein** (Mellors) ❌ dropped: "too horny and feels too modern idk"
+  - **House of Leaves** (Danielewski): owned as an object, "not even planning to read, it's just a really cool book"
+  - **War and Peace** (Tolstoy): unread ("nope")
+  - Spine looks for every book live in `ui/public/pixel/room.js` (BOOKS).
 
 **How to apply:** When discussing ideas or recommending books, reference this list. He learns through examples, not principles — his reading history shows he pulls specific threads rather than broad themes. Books that "didn't land" often did more than he realizes.

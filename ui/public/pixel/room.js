@@ -176,7 +176,7 @@
   const CAMUS = { c: "#ece8e0", ink: K_, deco: [["block", 0.5, 1, K_]], lab: [0, 0.5] };   // white top half, black bottom half
   const MURAKAMI = { c: "#18181c", ink: W_, deco: [["dot", 0.5, "#d0302a"]], split: true };
   const BLACKTAB = { c: K_, ink: W_, deco: [["tab", 0.9, W_]], lab: [0, 0.84] };
-  const BERSERK = (n) => ({ t: `Berserk Deluxe Edition ${n}`, a: "Kentaro Miura", s: "on the shelf, the big leather hardcovers", c: "#121214", mm: 50, len: 43, deco: [["leather"]], parts: [{ text: String(n), u: [0.03, 0.2], ink: GOLD, fs: 11 }, { text: "Berserk", u: [0.2, 0.97], ink: "#c8402a", fs: 11 }] });
+  const BERSERK = (n) => ({ t: `Berserk Deluxe Edition ${n}`, a: "Kentaro Miura", s: "read, the big leather hardcovers", c: "#121214", mm: 50, len: 43, deco: [["leather"]], parts: [{ text: String(n), u: [0.03, 0.2], ink: GOLD, fs: 11 }, { text: "Berserk", u: [0.2, 0.97], ink: "#c8402a", fs: 11 }] });
   const BOOKS = [
     { t: "Siddhartha", a: "Hermann Hesse", s: "dropped: the writing bored him, his first real drop (26 Oct)", c: "#e0b830", ink: "#2a2418", pg: 150 },
     { t: "The Brothers Karamazov", short: "Karamazov", a: "Dostoevsky", s: "finished 24 Oct, Alyosha's speech nearly made him cry", c: "#5a3a24", ink: GOLD, pin: 3, pg: 796 },
@@ -201,17 +201,17 @@
     { t: "One Hundred Years of Solitude", short: "100 Years", a: "García Márquez", s: "~100 pp in, dropped", c: "#f0ece4", ink: "#e07a26", pg: 500 },
     { t: "Letters to Milena", a: "Franz Kafka", s: "unread", c: RED, ink: W_, pg: 270 },
     { t: "The Sound of Waves", a: "Yukio Mishima", s: "read", c: RED, ink: W_, pg: 180 },
-    { t: "War and Peace", a: "Leo Tolstoy", s: "on the shelf", c: "#7e7c78", ink: W_, pg: 1273, deco: [["vine", "#a02a2a"]] },
-    { t: "What If?", a: "Randall Munroe", s: "on the shelf", c: RED, ink: W_, pg: 300 },
-    { t: "Lonely Castle in the Mirror", short: "Lonely Castle", a: "Mizuki Tsujimura", s: "on the shelf", c: PINK, ink: W_, pg: 380 },
-    { t: "Breasts and Eggs", a: "Mieko Kawakami", s: "on the shelf", c: "#e487a2", ink: W_, pg: 430 },
+    { t: "War and Peace", a: "Leo Tolstoy", s: "unread", c: "#7e7c78", ink: W_, pg: 1273, deco: [["vine", "#a02a2a"]] },
+    { t: "What If?", a: "Randall Munroe", s: "read", c: RED, ink: W_, pg: 300 },
+    { t: "Lonely Castle in the Mirror", short: "Lonely Castle", a: "Mizuki Tsujimura", s: "read, his very first book", c: PINK, ink: W_, pg: 380 },
+    { t: "Breasts and Eggs", a: "Mieko Kawakami", s: "dropped", c: "#e487a2", ink: W_, pg: 430 },
     BERSERK(10), BERSERK(11), BERSERK(12),
     { t: "The Picture of Dorian Gray", short: "Dorian Gray", a: "Oscar Wilde", s: "read", pg: 260, ...BLACKTAB },
     { t: "Pride and Prejudice", a: "Jane Austen", s: "a few chapters in, paused for a more fun read", pg: 430, len: 40, ...BLACKTAB },
-    { t: "Cleopatra and Frankenstein", short: "Cleopatra & Frankenstein", a: "Coco Mellors", s: "on the shelf", c: "#f0ece4", ink: "#2a4ab0", pg: 370 },
-    { t: "Shakespeare's Sonnets", short: "Sonnets", a: "William Shakespeare", s: "on the shelf", c: "#f0ece4", ink: K_, pg: 100, deco: [["block", 0, 0.16, K_], ["block", 0.84, 1, K_]], lab: [0.17, 0.83] },
+    { t: "Cleopatra and Frankenstein", short: "Cleopatra & Frankenstein", a: "Coco Mellors", s: "dropped: too horny, felt too modern", c: "#f0ece4", ink: "#2a4ab0", pg: 370 },
+    { t: "Shakespeare's Sonnets", short: "Sonnets", a: "William Shakespeare", s: "read", c: "#f0ece4", ink: K_, pg: 100, deco: [["block", 0, 0.16, K_], ["block", 0.84, 1, K_]], lab: [0.17, 0.83] },
     { t: "The Winter of Our Discontent", short: "Winter of Our Discontent", a: "John Steinbeck", s: "reading now (the light track), picked 26 Oct", pin: 2, now: true, c: "#f0ece4", ink: K_, pg: 290, len: 43, deco: [["dot", 0.93, "#e8741c"]], lab: [0, 0.87] },
-    { t: "House of Leaves", a: "Mark Z. Danielewski", s: "on the shelf, thick as hell", c: "#ece8e0", ink: W_, pg: 700, len: 43, deco: [["frames", K_]], shadow: true },
+    { t: "House of Leaves", a: "Mark Z. Danielewski", s: "not planning to read it, it's just a really cool book", c: "#ece8e0", ink: W_, pg: 700, len: 43, deco: [["frames", K_]], shadow: true },
   ];
   const thickFor = (bk) => Math.max(4, Math.round((bk.mm ?? (bk.pg || 250) * 0.0635 + 1) / 3.3));
   // the marks on a spine (see deco above); drawn over the slab, inside its top/bottom edge lines
