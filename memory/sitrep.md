@@ -37,6 +37,7 @@ metadata:
 - 📋 Built [Henley Manufacturer Meeting Checklist](https://app.notion.com/p/405bbafda36581c3b934f8ae8142097a) + [Henley Design Sheet V1](https://app.notion.com/p/405bbafda36581048c1cd91230a8b706); checklist now requires 3–5 labeled swatches (vendor/code/composition/GSM/stretch/price/MOQ/what to copy) and larger pieces for drape. Pants sheet paused: no proxy measurements.
 - 🧾 Brand HQ fully logged: Update Log, Pending, task notes, Decisions pending (Korn ✅ / Patrick ⬜), plus durable local record. Next product chain: Patrick approves → Korn re-measures proxy/revised targets → fabric swatches → maker-ready sheet → sample quote.
 - 👻 Ghost #27 **failed**: answered categories instead of relative-value allocation. Correct: appraisal total 400k; paid 360/400 = 90% → land 180k · building 144k · equipment 36k. Next due Thu 29 Oct.
+- 👻 08:49 (Room) Ghost #28 **failed**: said cost 25k (meant 250k ✓) but called the 30k 'acquisition cost'. It's INTEREST (paying later ≠ readying the asset). Follow-up: cash 250k + shipping 8k + install 5k: he named the 13k as acquisition cost but gave NO total (263,000). Pattern: labels without the number. Next due Thu 29 Oct. He's running today's goals + study in ChatGPT as a trial (his call 08:52).
 - ⚠️ **AC311 has still not started.** He returned to desk and asked what is next; Crow called the brand pause and redirected to the promised lock-in after this sitrep update.
 
 ## Session — 2026-10-25 (Sun)
