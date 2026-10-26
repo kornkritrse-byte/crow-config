@@ -369,3 +369,15 @@ His verdict on the ending: **the last chapter is the best of the book**, "no abs
 Then the real one: **"the other ideas were me trying to add something to myself… this chapter made me value what I already had, and I rarely did that."** He'd had the same conversation with his cousin the day before (23 Oct): he doesn't appreciate the kindness people around him gave him, doesn't reflect on tender moments, doesn't look back. Two days, two different sources (his cousin, then the book), same thing. Crow's caveat: seeing it while the book is still with him is love in dreams. It shows in the next tender moment, not in this one.
 
 He has someone specific in mind: **a good friend (she) he doesn't think he values enough.** He'd told his cousin the same thing. He wants "a good talk with her when the time comes… at least I always tell myself that but it hasn't come around." Crow: the big talk is what's stopping it; make it smaller. One true sentence. He doesn't care what she says back, and asked whether that makes it selfish. Crow: no, expecting nothing back is close to a gift, and it means her answer isn't the obstacle; saying it out loud, softly, is. A guess, labelled as one. "Fair enough." Left there: not in the ledger, not to be raised again by Crow. If it happens, he'll say.
+
+---
+
+## 26 Oct 2026, Mon: "What's your exit?"
+
+*Morning (from ChatGPT's summary; that session wasn't in the Room):* on the Zone 2 run he finished the Karamazov-to-absurdity thread. People can't be flattened into one moral version, and being fully seen means someone holding his blunt side and his sensitive side together before judging. He loves his friends without needing all of them to know him deeply. Vulnerability is narrowing toward a few people, not dying. He still wants to tell someone every part of how he feels, joy included.
+
+*Night (Room, 23:21), Sisyphus reread, early chapter.* He asked about the line "where I can no longer withdraw behind an objective point of view that I am merely representing…" (Crow first misread his "POV" as "poverty"). His own read: the hardest part is when you can't hide behind a logical, outside perspective anymore. You're "in the game", and most people are "eager to get out." Crow: mostly right. Two fixes: it isn't hard to grasp, it's impossible in principle (the collision of the mind's demand and the world's silence), and "coming to terms" is itself an exit.
+
+Sol asked: **what's your exit?** His answer: **"work, something to keep myself occupied, running, studying, the brand."** Crow's push: the activity isn't the exit, the *why* is (diversion vs eyes-open). Vera: on the empty days the real exit is the doomscroll, not the run. Left open, his to answer: does he run because it's his, or so he doesn't have to think?
+
+⚠️ Crow spoiled the final essay (Sisyphus happy, the rock) while answering. He called it: "don't spoil the thing for me man." → [[feedback-no-spoilers]]. When he reaches the ending himself, the exit question will be waiting there.

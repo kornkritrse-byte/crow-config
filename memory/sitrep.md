@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-10-26 22:56 (live). Window holds 26 Oct + 25 Oct; 24 Oct flushed to [[sessions-log]] 26 Oct. Next to flush: 25 Oct.*
+*Last updated: 2026-10-26 23:36 (live). Window holds 26 Oct + 25 Oct; 24 Oct flushed to [[sessions-log]] 26 Oct. Next to flush: 25 Oct.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **HERE (Mon 26 Oct, 22:56)**: evening free (his call 18:27); asked to save everything. Day not closed yet (no log-off said). NEXT AC311: change-in-estimate Q (canvas 'Start / stop') → rest of branch 6 → branch 7 = PPE closed. ⚠️ **Thu 29 Oct: 14 AC311 ghost cards due**, needs a real block. Still owed: AC311 Midterm 1 format (MCQ / entries / theory)? · bed 26 Oct (23:30)? · confirm bed 25 Oct · bed 22 + 24 Oct · samneang.md uploaded? · OpenAI API vs Canva for images (no decision).
+- **HERE (Mon 26 Oct, 23:36)**: sleeping late tonight (cousin crashing in his room, his AC broke); bed 23:30 likely missed, ask tomorrow, no lecture. Day not closed yet (no log-off said). NEXT AC311: change-in-estimate Q (canvas 'Start / stop') → rest of branch 6 → branch 7 = PPE closed. ⚠️ **Thu 29 Oct: 14 AC311 ghost cards due**, needs a real block. Still owed: AC311 Midterm 1 format (MCQ / entries / theory)? · bed 26 Oct (23:30)? · confirm bed 25 Oct · bed 22 + 24 Oct · samneang.md uploaded? · OpenAI API vs Canva for images (no decision).
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
@@ -36,6 +36,7 @@ metadata:
 - 📘 **AC311 lock-in PARTLY kept** (started late; GPT block + Room 11:35–13:22, ~3 h): branch 3 backfilled, branch 5 closed, branch 6 half (methods). 13 misses carded. Pattern: right label, wrong/no NUMBER (263k, share capital 10k, 50k for 30k) + WHICH STATEMENT (gain vs OCI surplus, surplus "recognised on sale" ×2). Positions on the canvas → [[AC311 Midterm 2 Map]]. Skipped lunch.
 - 🏁 **Midterm 1 results (13:25): every subject above the mean**, EL221 59/60, BA202 ~73–75% with zero classes, FN201 "more than half". His lessons: check what's ON the test before drilling; STQ practice is high-yield (FN final STQs out; AC311 has none) → [[project-midterms]].
 - 📚 **Evening build:** nest on the Room's book pile (the ball sits in it), pile 6→10 books centred, thickness from page counts, Times New Roman spines, **36 books with his own spine designs**. Reading now: **Myth of Sisyphus** (heavy) + **Winter of Our Discontent** (light). Siddhartha DROPPED (boring). Next: Master and Margarita → a Dostoevsky (Ivan → C&P or Alyosha → The Idiot, he's sitting with it) → 100 Years retry → [[user-reading-list]]. Also: Room spacing bumped, playlist named "It Gets Bigger".
+- 🌙 **23:21 Sisyphus (reread, early chapter):** the "objective point of view" line → Sol: "what's your exit?" → his: work, running, studying, the brand. Vera: the real one is the doomscroll on empty days. Open, his to answer. Crow spoiled the ending → [[feedback-no-spoilers]] · → [[chapters]]
 - 🌸 Goals: wake ✓ · creative writing ✓ · reading ✓ · journal ✓ · training ½ (run ✓, no lift) · AC311 at 10:00 ✗ (late) · bed 23:30 pending.
 
 ## Session — 2026-10-25 (Sun)
