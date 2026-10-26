@@ -14,3 +14,5 @@ Pending:
 - NEW BOOK → After Dark (Murakami): ~175 pp · like Kafka: BLACK, WHITE words + RED DOT in the middle of the spine
 - NEW BOOK → A Wild Sheep Chase (Murakami): ~250 pp · same (black, white words, red dot mid-spine)
   (asked: does Kafka on the Shore have the red dot too? the dot sits mid-spine, so the title may need to split around it)
+- The Death of Ivan Ilyich: WHITE spine, RED letters, BLUE stripe at the TOP of the spine (left end lying flat) · ~115 pp (not given)
+  (Kafka red dot: unanswered, re-ask at the end)
