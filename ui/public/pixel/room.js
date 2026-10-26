@@ -179,14 +179,14 @@
   const BERSERK = (n) => ({ t: `Berserk Deluxe Edition ${n}`, a: "Kentaro Miura", s: "on the shelf, the big leather hardcovers", c: "#121214", mm: 50, len: 43, deco: [["leather"]], parts: [{ text: String(n), u: [0.03, 0.2], ink: GOLD, fs: 11 }, { text: "Berserk", u: [0.2, 0.97], ink: "#c8402a", fs: 11 }] });
   const BOOKS = [
     { t: "Siddhartha", a: "Hermann Hesse", s: "dropped: the writing bored him, his first real drop (26 Oct)", c: "#e0b830", ink: "#2a2418", pg: 150 },
-    { t: "The Brothers Karamazov", short: "Karamazov", a: "Dostoevsky", s: "finished 24 Oct, Alyosha's speech nearly made him cry", c: "#5a3a24", ink: GOLD, pin: 2, pg: 796 },
+    { t: "The Brothers Karamazov", short: "Karamazov", a: "Dostoevsky", s: "finished 24 Oct, Alyosha's speech nearly made him cry", c: "#5a3a24", ink: GOLD, pin: 3, pg: 796 },
     { t: "The Courage to Be Disliked", short: "Be Disliked", a: "Kishimi & Koga", s: "read", c: "#efece4", ink: "#1a1a1a", pg: 288, deco: [["arcs", "#c8302a"]], lab: [0.14, 0.86] },
     { t: "Kafka on the Shore", a: "Haruki Murakami", s: "read, where Crow's name comes from", pg: 500, ...MURAKAMI },
     { t: "After Dark", a: "Haruki Murakami", s: "read (Jul), the before-sleep book", pg: 175, ...MURAKAMI },
     { t: "A Wild Sheep Chase", a: "Haruki Murakami", s: "read, fun, vibes only", pg: 250, ...MURAKAMI },
     { t: "Norwegian Wood", a: "Haruki Murakami", s: "read", c: RED, ink: W_, pg: 300 },
     { t: "Never Let Me Go", a: "Kazuo Ishiguro", s: "read (thin paper)", c: "#e8e4dc", ink: "#1a1a1a", pg: 200 },
-    { t: "Klara and the Sun", a: "Kazuo Ishiguro", s: "on the shelf", c: RED, ink: K_, pg: 250 },
+    { t: "Klara and the Sun", a: "Kazuo Ishiguro", s: "read", c: RED, ink: K_, pg: 250 },
     { t: "Kokoro", a: "Natsume Soseki", s: "read", c: "#2e1f3e", ink: "#b89ad8", pg: 300 },
     { t: "Discourses", a: "Epictetus", s: "read", pg: 250, ...PENGUIN },
     { t: "Meditations", a: "Marcus Aurelius", s: "the one you keep going back to", pg: 250, ...PENGUIN },
@@ -194,13 +194,13 @@
     { t: "The Three Theban Plays", short: "Theban Plays", a: "Sophocles", s: "dropped once, wants to go back to it (because of รับน้อง)", pg: 430, ...PENGUIN },
     { t: "White Nights", a: "Dostoevsky", s: "read, a long time back", pg: 100, ...PENGUIN },
     { t: "The Stranger", a: "Albert Camus", s: "read", pg: 120, len: 40, ...CAMUS },
-    { t: "The Myth of Sisyphus", short: "Myth of Sisyphus", a: "Albert Camus", s: "reading now, the reread after Karamazov (26 Oct)", pin: 1, pg: 150, len: 43, ...CAMUS },
+    { t: "The Myth of Sisyphus", short: "Myth of Sisyphus", a: "Albert Camus", s: "reading now (the heavy track), the reread after Karamazov (26 Oct)", pin: 1, now: true, pg: 150, len: 43, ...CAMUS },
     { t: "The Alchemist", a: "Paulo Coelho", s: "read", c: "#e07a26", ink: "#f8e06a", pg: 200 },
     { t: "The Death of Ivan Ilyich", short: "Ivan Ilyich", a: "Leo Tolstoy", s: "read", c: "#f0ece4", ink: RED, pg: 115, deco: [["block", 0, 0.09, "#3a5aa8"]], lab: [0.1, 1] },
     { t: "Man's Search for Meaning", short: "Man's Search", a: "Viktor Frankl", s: "read, still marinating", c: K_, ink: GOLD, pg: 150 },
     { t: "One Hundred Years of Solitude", short: "100 Years", a: "García Márquez", s: "~100 pp in, dropped", c: "#f0ece4", ink: "#e07a26", pg: 500 },
     { t: "Letters to Milena", a: "Franz Kafka", s: "unread", c: RED, ink: W_, pg: 270 },
-    { t: "The Sound of Waves", a: "Yukio Mishima", s: "on the shelf", c: RED, ink: W_, pg: 180 },
+    { t: "The Sound of Waves", a: "Yukio Mishima", s: "read", c: RED, ink: W_, pg: 180 },
     { t: "War and Peace", a: "Leo Tolstoy", s: "on the shelf", c: "#7e7c78", ink: W_, pg: 1273, deco: [["vine", "#a02a2a"]] },
     { t: "What If?", a: "Randall Munroe", s: "on the shelf", c: RED, ink: W_, pg: 300 },
     { t: "Lonely Castle in the Mirror", short: "Lonely Castle", a: "Mizuki Tsujimura", s: "on the shelf", c: PINK, ink: W_, pg: 380 },
@@ -210,7 +210,7 @@
     { t: "Pride and Prejudice", a: "Jane Austen", s: "a few chapters in, paused for a more fun read", pg: 430, len: 40, ...BLACKTAB },
     { t: "Cleopatra and Frankenstein", short: "Cleopatra & Frankenstein", a: "Coco Mellors", s: "on the shelf", c: "#f0ece4", ink: "#2a4ab0", pg: 370 },
     { t: "Shakespeare's Sonnets", short: "Sonnets", a: "William Shakespeare", s: "on the shelf", c: "#f0ece4", ink: K_, pg: 100, deco: [["block", 0, 0.16, K_], ["block", 0.84, 1, K_]], lab: [0.17, 0.83] },
-    { t: "The Winter of Our Discontent", short: "Winter of Our Discontent", a: "John Steinbeck", s: "thrifted, unread", c: "#f0ece4", ink: K_, pg: 290, len: 43, deco: [["dot", 0.93, "#e8741c"]], lab: [0, 0.87] },
+    { t: "The Winter of Our Discontent", short: "Winter of Our Discontent", a: "John Steinbeck", s: "reading now (the light track), picked 26 Oct", pin: 2, now: true, c: "#f0ece4", ink: K_, pg: 290, len: 43, deco: [["dot", 0.93, "#e8741c"]], lab: [0, 0.87] },
     { t: "House of Leaves", a: "Mark Z. Danielewski", s: "on the shelf, thick as hell", c: "#ece8e0", ink: W_, pg: 700, len: 43, deco: [["frames", K_]], shadow: true },
   ];
   const thickFor = (bk) => Math.max(4, Math.round((bk.mm ?? (bk.pg || 250) * 0.0635 + 1) / 3.3));
@@ -337,7 +337,7 @@
       for (const [i, p] of labelParts(bk).entries()) {
         const l = document.createElement("span"), pad = 4;
         const left = (x + p.u[0] * len) * 3 + pad, width = (p.u[1] - p.u[0]) * len * 3 - pad * 2;
-        l.className = "spine" + (bk.pin === 1 && i === 0 ? " now" : "");
+        l.className = "spine" + (bk.now && i === 0 ? " now" : "");   // the reading light: whatever he's reading now
         l.textContent = p.text;
         l.title = `${bk.t} · ${bk.a} · ${bk.s}`;
         Object.assign(l.style, { left: left + "px", top: y * 3 + 2 + "px", width: width + "px", height: th * 3 - 4 + "px", color: p.ink, fontSize: fitSize(p.text, width, p.fs || 8.5) + "px" });
