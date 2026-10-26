@@ -5,3 +5,4 @@ Pending:
 - Be Disliked: the red lines are CURVED, like semicircles (redo the straight stripes)
 - Kafka on the Shore: black, white lettering, ~500 pp: as is ✓
 - Never Let Me Go: off-white, black lettering ✓ · ~250 pp but thin paper → draw as 200 pp
+- Kokoro: DARK PURPLE spine, PURPLE lettering (use a lighter lilac so it reads) · ~300 pp
