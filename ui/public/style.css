@@ -582,7 +582,7 @@ body.gutters:not(.room-empty) .gutter { display: block; }
 .pile canvas { width: 100%; height: 100%; display: block; }
 .spine { position: absolute; display: flex; align-items: center; justify-content: center; font: 700 8.5px/1 "Times New Roman", Times, serif;   /* his call 26 Oct */
   letter-spacing: .04em; text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.spine.now::after { content: ""; position: absolute; right: -16px; width: 6px; height: 6px; border-radius: 50%; background: #f0a64a; box-shadow: 0 0 8px #f0a64a; }
+.pile .reading-light { position: absolute; width: 6px; height: 6px; border-radius: 50%; background: #f0a64a; box-shadow: 0 0 8px #f0a64a; pointer-events: auto; }
 .pile-cap { font-size: 10.5px; color: var(--mist); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
 .pile-cap span { display: block; color: var(--faint); font-weight: 400; letter-spacing: 0; text-transform: none; font-size: 11px; margin-top: 2px; }
 

@@ -317,10 +317,11 @@
     for (const b of pool) { if (picks.length >= 9) break; if (thickFor(b) + 1 <= room) { picks.push(b); room -= thickFor(b) + 1; } }
     picks.sort((a, b) => thickFor(a) - thickFor(b));   // the heavy ones settle to the bottom
     const stack = [...pins, ...picks];
-    const Wd = 46, offs = [3, 1, 0, 2, 0, 1, 2, 0, 3, 1];
+    const Wd = 46;
     const lenFor = (bk) => bk.len || Math.max(30, Math.min(43, Math.ceil((bk.short || bk.t).length * 1.75) + 8));
     let y = NEST.h;   // the nest sits right on the top book
-    const rows = stack.map((bk, i) => { const r = { bk, x: offs[i % offs.length], y, len: lenFor(bk), th: thickFor(bk) }; y += r.th + 1; return r; });
+    // every book centred on the one below (his ask 26 Oct); the +2 is the page edge past the cover
+    const rows = stack.map((bk) => { const len = lenFor(bk), r = { bk, x: Math.round((Wd - len - 2) / 2), y, len, th: thickFor(bk) }; y += r.th + 1; return r; });
     const pb = new PX(Wd, y + 1);
     for (const { bk, x, y, len, th } of rows) {
       R.slab(pb, x, y, len, th, C(bk.c), 0);
@@ -337,12 +338,18 @@
       for (const [i, p] of labelParts(bk).entries()) {
         const l = document.createElement("span"), pad = 4;
         const left = (x + p.u[0] * len) * 3 + pad, width = (p.u[1] - p.u[0]) * len * 3 - pad * 2;
-        l.className = "spine" + (bk.now && i === 0 ? " now" : "");   // the reading light: whatever he's reading now
+        l.className = "spine";
         l.textContent = p.text;
         l.title = `${bk.t} · ${bk.a} · ${bk.s}`;
         Object.assign(l.style, { left: left + "px", top: y * 3 + 2 + "px", width: width + "px", height: th * 3 - 4 + "px", color: p.ink, fontSize: fitSize(p.text, width, p.fs || 8.5) + "px" });
         if (bk.shadow) l.style.textShadow = "0 0 2px #000, 1px 1px 0 #000, -1px -1px 0 #000";   // reads over the white frame lines
         el.append(l);
+      }
+      if (bk.now) {   // the reading light, just past the page edge of whatever he's reading now
+        const dot = document.createElement("i");
+        dot.className = "reading-light"; dot.title = `Reading now: ${bk.t}`;
+        Object.assign(dot.style, { left: (x + len + 2) * 3 + 6 + "px", top: (y + th / 2) * 3 - 3 + "px" });
+        el.append(dot);
       }
     }
   }
