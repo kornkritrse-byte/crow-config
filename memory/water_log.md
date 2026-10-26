@@ -94,3 +94,4 @@ metadata:
 - 2026-10-24 10:46 | goal | Wake early
 - 2026-10-24 11:28 | goal | Bed by 23:30
 - 2026-10-26 08:45 | goal | Wake early
+- 2026-10-26 11:43 | ghost | AC311: Land acquired for 10,000 own shares, par ฿10, trading at ฿15
