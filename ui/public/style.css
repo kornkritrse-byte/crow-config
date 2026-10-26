@@ -104,9 +104,9 @@ button { font: inherit; cursor: pointer; }
   font-size: 16px;
   line-height: 1.6;
 }
-.reply p, .reply ul, .reply ol, .reply blockquote, .reply pre, .reply table { margin: 0 0 .85em; }
+.reply p, .reply ul, .reply ol, .reply blockquote, .reply pre, .reply table { margin: 0 0 1.4em; }
 .reply ul, .reply ol { padding-left: 1.3em; }
-.reply li { margin-bottom: .3em; }
+.reply li { margin-bottom: .55em; }
 .reply strong { font-weight: 600; }
 .reply a { color: var(--maroon-ink); text-underline-offset: 3px; }
 .reply code {
