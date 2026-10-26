@@ -16,3 +16,4 @@ Pending:
   (asked: does Kafka on the Shore have the red dot too? the dot sits mid-spine, so the title may need to split around it)
 - The Death of Ivan Ilyich: WHITE spine, RED letters, BLUE stripe at the TOP of the spine (left end lying flat) · ~115 pp (not given)
   (Kafka red dot: unanswered, re-ask at the end)
+- Man's Search for Meaning: BLACK spine, GOLD letters · ~150 pp
