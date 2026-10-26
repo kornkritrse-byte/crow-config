@@ -55,6 +55,7 @@
 - [Goals Today](feedback_goals_today.md) — first session of the day: ask "goals today?" once, record with `bin/goals.py set`, mark done that turn; one blossom per goal on the Room's flower, the petals fall at log-off
 - [Session Start Question](feedback_session_start.md) — don't repeat "what matters today" if already asked the same day; check last_asked date
 - [Artis Nightly Quote](feedback_artis_quote.md) — quote + SITREP wrap-up fire ONLY when Korn says he's logging off for the day (then `touch ~/.crow-session-ending`; the Stop hook handles the rest) — NEVER from a Stop-hook nudge alone; Stop hooks fire every turn, not at day's end
+- [No Spoilers](feedback_no_spoilers.md) — never explain a book past where he is, rereads included; ask the page first (26 Oct: spoiled Sisyphus's ending)
 - [MarkItDown Reminder](feedback_markitdown.md) — MarkItDown INSTALLED on Mac (use on any 10+ page PDF, don't ask); Playwright too (screenshot/verify web pages incl. phone viewports)
 
 ## 🧭 Who Korn Is
