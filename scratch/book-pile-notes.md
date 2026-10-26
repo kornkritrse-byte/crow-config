@@ -8,4 +8,5 @@ Pending:
 - Kokoro: DARK PURPLE spine, PURPLE lettering (use a lighter lilac so it reads) · ~300 pp
 - Discourses: BLACK spine, WHITE letters, ONE WHITE band 2/3 down the spine (remove the gold bands; top of spine = left end lying flat) · pages not given, keep ~290
 - The Stranger: HALF WHITE / HALF BLACK spine, BLACK lettering split END TO END: top half of the spine (LEFT when lying flat) WHITE, bottom half BLACK; black lettering sits on the white half (title must fit in the white half: shrink/clip) · ~120 pp
-- NEW BOOK → The Myth of Sisyphus (Camus): same design as The Stranger · ~210 pp (estimate)
+- NEW BOOK → The Myth of Sisyphus (Camus): same design as The Stranger · ~150 pp (his word)
+- The Alchemist: ORANGE spine, YELLOW letters · pages not given, keep ~200
