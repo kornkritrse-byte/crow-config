@@ -141,3 +141,4 @@ metadata:
 - 2026-10-27 | Daily journal | open
 - 2026-10-27 | Reading | open
 - 2026-10-27 | Bed by 23:30 | open
+- 2026-10-27 | AC311 PPE: finish branch 6 (depreciation) | open
