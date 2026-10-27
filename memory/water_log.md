@@ -102,3 +102,4 @@ metadata:
 - 2026-10-26 18:29 | goal | Creative writing before the café
 - 2026-10-26 21:48 | goal | Daily journal
 - 2026-10-26 21:57 | goal | Daily journal
+- 2026-10-27 09:53 | goal | Wake early

@@ -1,0 +1,325 @@
+{
+	"nodes": [
+		{
+			"id": "legend",
+			"type": "text",
+			"x": 0,
+			"y": -280,
+			"width": 460,
+			"height": 210,
+			"text": "**Legend**\n🟩 done · 🟨 now · ⬜ taught, not studied · 🟥 not taught yet · 🟪 midterm scope (in only if cumulative) · 🟧 shaky\nBuilt from the COURSE OUTLINE (27 Oct). Updated as material lands.\nH = Horngren 17e · M = Monvika 10e (Thai)"
+		},
+		{
+			"id": "ohs1",
+			"type": "text",
+			"text": "**Plantwide rate**\none rate for the whole factory",
+			"x": 900,
+			"y": 0,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "ohs2",
+			"type": "text",
+			"text": "**Departmental rates**\none rate per department, each on its own driver",
+			"x": 900,
+			"y": 200,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "ohs3",
+			"type": "text",
+			"text": "**Activity-based costing (ABC)**\ncost pools → drivers → products · who's under- or over-costed\nPast: 2021 final Q2 (undercosting)",
+			"x": 900,
+			"y": 400,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "oh",
+			"type": "text",
+			"text": "## Overhead allocation\nsessions 8–9 (28 Sep, 5 Oct) · H Ch 5 · M Ch 4",
+			"x": 400,
+			"y": 205,
+			"width": 380,
+			"height": 160
+		},
+		{
+			"id": "sds1",
+			"type": "text",
+			"text": "**Direct method**\nignore support-to-support services",
+			"x": 900,
+			"y": 720,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "sds2",
+			"type": "text",
+			"text": "**Step-down method**\nthe order you allocate in changes the answer",
+			"x": 900,
+			"y": 920,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "sds3",
+			"type": "text",
+			"text": "**Reciprocal method**\nsimultaneous equations: full support-to-support",
+			"x": 900,
+			"y": 1120,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "sd",
+			"type": "text",
+			"text": "## Support-department costs\nsession 10 (12 Oct) · H Ch 16 · M Ch 5",
+			"x": 400,
+			"y": 925,
+			"width": 380,
+			"height": 160
+		},
+		{
+			"id": "vas1",
+			"type": "text",
+			"text": "**What goes into product cost**\nthe whole difference = fixed MOH",
+			"x": 900,
+			"y": 1440,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "vas2",
+			"type": "text",
+			"text": "**Why the profits differ**\nchange in inventory × fixed MOH per unit · reconcile the two",
+			"x": 900,
+			"y": 1640,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "va",
+			"type": "text",
+			"text": "## Variable vs absorption costing\nsession 11 (19 Oct) · H Ch 9 · M Ch 8",
+			"x": 400,
+			"y": 1545,
+			"width": 380,
+			"height": 160
+		},
+		{
+			"id": "scs1",
+			"type": "text",
+			"text": "**Materials**\nprice · quantity (efficiency) · **mix & yield**\nPast: 2021 final Q3 (standard costing)",
+			"x": 900,
+			"y": 1960,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "scs2",
+			"type": "text",
+			"text": "**Labour**\nrate · efficiency",
+			"x": 900,
+			"y": 2160,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "scs3",
+			"type": "text",
+			"text": "**Manufacturing overhead**\nvariable: spending · efficiency\nfixed: spending (budget) · production-volume",
+			"x": 900,
+			"y": 2360,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "sc",
+			"type": "text",
+			"text": "## Standard costing & variances\nsessions 12–15 (26 Oct → 16 Nov) · BEING TAUGHT\nH Ch 7–8 · M Ch 7\n4 of the 8 sessions → probably the biggest share (guess)",
+			"x": 400,
+			"y": 2165,
+			"width": 380,
+			"height": 160,
+			"color": "3"
+		},
+		{
+			"id": "mt",
+			"type": "text",
+			"text": "## Midterm scope (sessions 1–7)\nfundamentals · job order · process costing · joint & byproducts\nin the final ONLY if it's cumulative → ask",
+			"x": 400,
+			"y": 2585,
+			"width": 380,
+			"height": 160,
+			"color": "6"
+		},
+		{
+			"id": "root",
+			"type": "text",
+			"x": -80,
+			"y": 1250,
+			"width": 400,
+			"height": 280,
+			"text": "# AC313 Final\n40% · **Mon 23 Nov, 09:00–12:00**\nTHE FIRST FINAL of the window (27 days)\nScope isn't stated in the outline: assume sessions 8–15 (guess, ask her)\nQuizzes & assignments = 20%"
+		},
+		{
+			"id": "res",
+			"type": "text",
+			"x": -80,
+			"y": 1570,
+			"width": 400,
+			"height": 260,
+			"text": "**Resources**\nDrive (a senior's, in `~/Desktop/pastpapers/AC313/`):\n· `AC313 Final2021.pdf` = 45 pages of screenshots of the 2021 ONLINE final (MCQ, 2 points each) + a worked copy\n  ⚠ no OCR on the Mac → Crow reads it page by page when we study\n· old AC203 midterm (AC203 = AC313's old code)\nOn disk: Course Package 1 only (midterm half). Package 2 = not yet",
+			"color": "5"
+		},
+		{
+			"id": "outline",
+			"type": "file",
+			"file": "study/outlines/AC313 Course Outline.pdf",
+			"x": -700,
+			"y": 1050,
+			"width": 520,
+			"height": 680
+		},
+		{
+			"id": "outlinecap",
+			"type": "text",
+			"text": "**Main course outline**\nwhat this map was built against · course plan pp. 2–3",
+			"x": -700,
+			"y": 940,
+			"width": 520,
+			"height": 90
+		}
+	],
+	"edges": [
+		{
+			"id": "eohohs1",
+			"fromNode": "oh",
+			"fromSide": "right",
+			"toNode": "ohs1",
+			"toSide": "left"
+		},
+		{
+			"id": "eohohs2",
+			"fromNode": "oh",
+			"fromSide": "right",
+			"toNode": "ohs2",
+			"toSide": "left"
+		},
+		{
+			"id": "eohohs3",
+			"fromNode": "oh",
+			"fromSide": "right",
+			"toNode": "ohs3",
+			"toSide": "left"
+		},
+		{
+			"id": "erootoh",
+			"fromNode": "root",
+			"fromSide": "right",
+			"toNode": "oh",
+			"toSide": "left"
+		},
+		{
+			"id": "esdsds1",
+			"fromNode": "sd",
+			"fromSide": "right",
+			"toNode": "sds1",
+			"toSide": "left"
+		},
+		{
+			"id": "esdsds2",
+			"fromNode": "sd",
+			"fromSide": "right",
+			"toNode": "sds2",
+			"toSide": "left"
+		},
+		{
+			"id": "esdsds3",
+			"fromNode": "sd",
+			"fromSide": "right",
+			"toNode": "sds3",
+			"toSide": "left"
+		},
+		{
+			"id": "erootsd",
+			"fromNode": "root",
+			"fromSide": "right",
+			"toNode": "sd",
+			"toSide": "left"
+		},
+		{
+			"id": "evavas1",
+			"fromNode": "va",
+			"fromSide": "right",
+			"toNode": "vas1",
+			"toSide": "left"
+		},
+		{
+			"id": "evavas2",
+			"fromNode": "va",
+			"fromSide": "right",
+			"toNode": "vas2",
+			"toSide": "left"
+		},
+		{
+			"id": "erootva",
+			"fromNode": "root",
+			"fromSide": "right",
+			"toNode": "va",
+			"toSide": "left"
+		},
+		{
+			"id": "escscs1",
+			"fromNode": "sc",
+			"fromSide": "right",
+			"toNode": "scs1",
+			"toSide": "left"
+		},
+		{
+			"id": "escscs2",
+			"fromNode": "sc",
+			"fromSide": "right",
+			"toNode": "scs2",
+			"toSide": "left"
+		},
+		{
+			"id": "escscs3",
+			"fromNode": "sc",
+			"fromSide": "right",
+			"toNode": "scs3",
+			"toSide": "left"
+		},
+		{
+			"id": "erootsc",
+			"fromNode": "root",
+			"fromSide": "right",
+			"toNode": "sc",
+			"toSide": "left"
+		},
+		{
+			"id": "erootmt",
+			"fromNode": "root",
+			"fromSide": "right",
+			"toNode": "mt",
+			"toSide": "left"
+		},
+		{
+			"id": "erootres",
+			"fromNode": "root",
+			"fromSide": "bottom",
+			"toNode": "res",
+			"toSide": "top"
+		},
+		{
+			"id": "eoutline",
+			"fromNode": "outline",
+			"fromSide": "right",
+			"toNode": "root",
+			"toSide": "left",
+			"label": "source"
+		}
+	]
+}

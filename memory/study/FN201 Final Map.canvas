@@ -37,7 +37,9 @@
 		{"id":"t10s4","type":"text","text":"**Stock splits & stock dividends**\nmechanics · why firms do them · effect on shareholder wealth\nPast: 2021 Q13, Q14 (3:2 split vs 50% stock dividend: equity lines)","x":900,"y":6280,"width":440,"height":170},
 		{"id":"t10","type":"text","text":"## 10. Distributions to Shareholders\nweeks 14–15 (11, 18 Nov) · NOT TAUGHT YET · no STQ10 yet\nPast finals: **7 of 26 (2021)** · A3 due 18 Nov (3%)","x":400,"y":5990,"width":380,"height":150,"color":"1"},
 		{"id":"root","type":"text","x":-80,"y":3170,"width":400,"height":260,"text":"# FN201 Final\n45% · **Wed 2 Dec, 09:00–12:00** (outline date; check the flood didn't move it)\n**All MCQ / T-F** (constructed = 0%) · non-cumulative · topics 6–10\nLecture hours: T6 3 · T7 0 · T8 7 · T9 7 · T10 6\nguess: topics 8 + 9 are most of the paper\nM1 tools still drive it: TVM + Du Pont"},
-		{"id":"past","type":"text","x":-80,"y":3470,"width":400,"height":300,"color":"5","text":"**Past finals (Obrom)** in `~/Desktop/pastpapers/FN201/`\n· 1st/2021 final, Dec 2021 (26 Qs) = `solution.pdf`\n· Summer/2019 final, Aug 2020 (32 Qs) = `solution copy c.pdf`\nBoth are a STUDENT's marked copies, NOT a key: some picks are ✗\nThey had written problems; ours is all MCQ, so the same problems come back as options\nTopic 4 ratio Qs on them = midterm scope now, skip"}
+		{"id":"past","type":"text","x":-80,"y":3470,"width":400,"height":300,"color":"5","text":"**Past finals (Obrom)** in `~/Desktop/pastpapers/FN201/`\n· 1st/2021 final, Dec 2021 (26 Qs) = `solution.pdf`\n· Summer/2019 final, Aug 2020 (32 Qs) = `solution copy c.pdf`\nBoth are a STUDENT's marked copies, NOT a key: some picks are ✗\nThey had written problems; ours is all MCQ, so the same problems come back as options\nTopic 4 ratio Qs on them = midterm scope now, skip"},
+		{"id":"outline","type":"file","file":"study/outlines/FN201 Course Outline.pdf","x":-700,"y":2970,"width":520,"height":680},
+		{"id":"outlinecap","type":"text","text":"**Main course outline**\nwhat this map was built against · teaching plan pp. 5–9 · grading p. 10","x":-700,"y":2860,"width":520,"height":90}
 	],
 	"edges":[
 		{"id":"et6t6s1","fromNode":"t6","fromSide":"right","toNode":"t6s1","toSide":"left"},
@@ -75,6 +77,7 @@
 		{"id":"et10t10s3","fromNode":"t10","fromSide":"right","toNode":"t10s3","toSide":"left"},
 		{"id":"et10t10s4","fromNode":"t10","fromSide":"right","toNode":"t10s4","toSide":"left"},
 		{"id":"eroott10","fromNode":"root","fromSide":"right","toNode":"t10","toSide":"left"},
-		{"id":"erootpast","fromNode":"root","fromSide":"bottom","toNode":"past","toSide":"top"}
+		{"id":"erootpast","fromNode":"root","fromSide":"bottom","toNode":"past","toSide":"top"},
+		{"id":"eoutline","fromNode":"outline","fromSide":"right","toNode":"root","toSide":"left","label":"source"}
 	]
 }
