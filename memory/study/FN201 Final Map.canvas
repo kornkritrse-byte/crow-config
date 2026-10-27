@@ -7,7 +7,7 @@
 			"y": -260,
 			"width": 440,
 			"height": 190,
-			"text": "**Legend**\n🟩 done · 🟨 now · ⬜ not yet · 🟥 not taught · 🟪 self-study · 🟧 shaky (see the ⚠ line)\n⚠ GAP = in the course outline, no STQ question on it\nS6 / S8 / S9 = STQ06 / 08 / 09 question numbers\nCrow updates the colours as blocks close."
+			"text": "**Legend**\n🟩 done · 🟨 now · ⬜ not yet · 🟥 not taught · 🟪 self-study · 🟧 shaky (see the ⚠ line)\n⚠ GAP = in the course outline, no STQ question on it\nS6 / S8 / S9 = STQ06 / 08 / 09 question numbers · files in `~/Desktop/fn/`\nCrow updates the colours as blocks close."
 		},
 		{
 			"id": "t6s1",
