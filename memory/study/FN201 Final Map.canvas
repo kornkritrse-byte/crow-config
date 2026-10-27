@@ -1,0 +1,555 @@
+{
+	"nodes": [
+		{
+			"id": "legend",
+			"type": "text",
+			"x": 0,
+			"y": -260,
+			"width": 440,
+			"height": 190,
+			"text": "**Legend**\n🟩 done · 🟨 now · ⬜ not yet · 🟥 not taught · 🟪 self-study · 🟧 shaky (see the ⚠ line)\n⚠ GAP = in the course outline, no STQ question on it\nS6 / S8 / S9 = STQ06 / 08 / 09 question numbers\nCrow updates the colours as blocks close."
+		},
+		{
+			"id": "t6s1",
+			"type": "text",
+			"text": "**Types of assets**\nworking capital vs non-current · permanent vs variable · spontaneous vs non-spontaneous\nS6: Q1, 2, 3, 11\n⚠ GAP: operating vs non-operating assets",
+			"x": 900,
+			"y": 0,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t6s2",
+			"type": "text",
+			"text": "**Reading the quarters (numbers)**\nWC = current assets · permanent WC = the LOWEST quarter · permanent assets = PWC + net non-CA\nS6: Q14–17",
+			"x": 900,
+			"y": 200,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t6s3",
+			"type": "text",
+			"text": "**Types of funds**\nshort vs long-term · spontaneous (AP, accruals) vs non-spontaneous (loans)\nS6: Q12\n⚠ GAP: operating vs non-operating ST funds · interest-bearing vs not",
+			"x": 900,
+			"y": 400,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t6s4",
+			"type": "text",
+			"text": "**Hedging / maturity matching / self-liquidating**\nmatch the fund's life to the asset's life · a gap can still exist (3-month loan vs 6-month AR)\nS6: Q4, 10, 13",
+			"x": 900,
+			"y": 600,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t6s5",
+			"type": "text",
+			"text": "**Conservative**\nLT funds cover the peaks too · excess cash → marketable securities · lowest return, most expensive\nS6: Q8, 9, 19",
+			"x": 900,
+			"y": 800,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t6s6",
+			"type": "text",
+			"text": "**Aggressive**\nST funds into permanent WC, even into non-CA · highest return, renewal risk\nS6: Q5, 6, 7, 18, 20",
+			"x": 900,
+			"y": 1000,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t6",
+			"type": "text",
+			"text": "## 6. Financing Policies\nweek 8 (30 Sep) · STQ06: 20 T/F\nanswer key is IN the PDF (pp. 3–5)",
+			"x": 400,
+			"y": 510,
+			"width": 380,
+			"height": 150
+		},
+		{
+			"id": "t7s1",
+			"type": "text",
+			"text": "**Short-term sources**\ntrade credit + its implicit cost · bank loans · commercial paper / BEs · loans secured by AR or inventory\nvia S8: Q10 (AP is NOT a WACC component), Q19, 21\n⚠ GAP: cost of trade credit (2/10 net 30), no STQ",
+			"x": 900,
+			"y": 1320,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t7s2",
+			"type": "text",
+			"text": "**Long-term sources**\nloans · debentures/bonds · leasing (buy vs lease) · preferred · common + pre-emptive rights · warrants · RE\n⚠ GAP: no STQ at all → one read of the lecture note + cold Qs from Crow",
+			"x": 900,
+			"y": 1520,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t7",
+			"type": "text",
+			"text": "## 7. Short- & Long-Term Sources of Funds\nSELF-STUDY · 'covered if time permits'\nno STQ07 · hits the paper through topic 8",
+			"x": 400,
+			"y": 1430,
+			"width": 380,
+			"height": 150,
+			"color": "6"
+		},
+		{
+			"id": "t8s1",
+			"type": "text",
+			"text": "**Component-cost theory**\nwhich costs get (1−T) and why · RE isn't free (opportunity cost) · marginal, not historical · flotation RAISES cost\nS8: Q1, 2, 4, 5, 6, 7, 9, 26",
+			"x": 900,
+			"y": 1840,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t8s2",
+			"type": "text",
+			"text": "**Cost of debt kd(1−T)**\nYTM on new debt, net of flotation · semiannual → annual\nS8: Q11 (bonds), 15, 16, 24, 33, 43\n← TVM from M1 runs this",
+			"x": 900,
+			"y": 2040,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t8s3",
+			"type": "text",
+			"text": "**Cost of preferred kp**\nDp ÷ net price · NO tax adjustment\nS8: Q14, 25, 27, 34",
+			"x": 900,
+			"y": 2240,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t8s4",
+			"type": "text",
+			"text": "**Growth rate g**\nhistorical (D0 vs D−n) · g = b × ROE · ROE via Du Pont\nS8: Q18, 41, 42, 45, 52\n← M1 topic 4 (Du Pont) comes back here",
+			"x": 900,
+			"y": 2440,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t8s5",
+			"type": "text",
+			"text": "**Cost of RE ks · new common ke**\nks = D1/P0 + g · ke = D1/[P0(1−F)] + g · so ks < ke\nS8: Q11, 13, 35, 44\n⚠ GAP: bond-yield-plus-risk-premium approach (in the outline, no STQ)",
+			"x": 900,
+			"y": 2640,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t8s6",
+			"type": "text",
+			"text": "**Short-term debt in the WACC**\nBEs sold at a discount + flotation · simple annual rate · after-tax\nS8: Q19, 21 · ST loans in the mix: Q20, 22",
+			"x": 900,
+			"y": 2840,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t8s7",
+			"type": "text",
+			"text": "**WACC & weights**\ntarget/optimal structure · market value over book · which funds count\nS8: Q3, 8, 10, 11, 23",
+			"x": 900,
+			"y": 3040,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t8s8",
+			"type": "text",
+			"text": "**MCC schedule & break points** ← the core\nBP = ΔRE ÷ w(equity), or cheap-tranche limit ÷ its weight · one step per BP · run it backwards: weights from an MCC\nS8: Q11, 12, 17, 20, 22, 23, 28, 29–32, 37, 39–40, 47–51",
+			"x": 900,
+			"y": 3240,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t8s9",
+			"type": "text",
+			"text": "**Risk-adjusted cost of capital**\none WACC for every project → accepts risky ones, rejects safe ones\nS8: Q3①, Q7③",
+			"x": 900,
+			"y": 3440,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t8s10",
+			"type": "text",
+			"text": "**Capital structure & firm value (trade-off model)**\nWACC U-curve · optimal = min WACC = max share price (NOT book value) · what lowers leverage\nS8: Q36, 38, 46",
+			"x": 900,
+			"y": 3640,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t8",
+			"type": "text",
+			"text": "## 8. Capital Structure & Cost of Capital\nweeks 9–11 (7, 14, 21 Oct) · STQ08: 52 Qs, the biggest set\nsolutions xlsx, one sheet per Q",
+			"x": 400,
+			"y": 2750,
+			"width": 380,
+			"height": 150
+		},
+		{
+			"id": "t9s1",
+			"type": "text",
+			"text": "**What makes a good criterion + each one's properties**\nNPV · IRR · MIRR · PI · PBP · DPP: risk, TVM, all cash flows, reinvestment rate, cut-off, value-additivity, multiple answers\nS9: Q1–6",
+			"x": 900,
+			"y": 3960,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t9s2",
+			"type": "text",
+			"text": "**Computing all six (+ EAA)**\none cash-flow table → every number → accept/reject\nS9: Q11(a), Q12 (two outlays), Q20 (X vs Y)",
+			"x": 900,
+			"y": 4160,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t9s3",
+			"type": "text",
+			"text": "**NPV = 0 → what follows**\nPI = 1 · IRR = WACC · DPP = the project's life\nS9: Q7",
+			"x": 900,
+			"y": 4360,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t9s4",
+			"type": "text",
+			"text": "**NPV profiles & conflicts**\nIRR = where it crosses zero · crossover rate · independent vs mutually exclusive · early vs late cash flows\nS9: Q13–19",
+			"x": 900,
+			"y": 4560,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t9s5",
+			"type": "text",
+			"text": "**Unequal lives**\nreplacement chain · EAA\nS9: Q9, 11(b)\n⚠ GAP: unequal SCALES only shows up in Q9's options",
+			"x": 900,
+			"y": 4760,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t9s6",
+			"type": "text",
+			"text": "**Optimal budget & capital rationing**\nPI ranks under a budget cap · max total NPV inside the cap\nS9: Q8, 10\n⚠ GAP: 'decisions used in practice', no STQ",
+			"x": 900,
+			"y": 4960,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t9",
+			"type": "text",
+			"text": "## 9. Capital Budgeting Techniques\nweeks 11–13 (21 Oct · 28 Oct · 4 Nov) · BEING TAUGHT\nSTQ09: 20 Qs, solutions xlsx",
+			"x": 400,
+			"y": 4470,
+			"width": 380,
+			"height": 150,
+			"color": "3"
+		},
+		{
+			"id": "t10s1",
+			"type": "text",
+			"text": "**Dividend policies**\nstable/predictable · constant payout · low-regular-plus-extras · residual\npreview via S8: Q39–40 (residual), Q41 (constant payout)",
+			"x": 900,
+			"y": 5280,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t10s2",
+			"type": "text",
+			"text": "**Procedures & firm value**\ndeclaration → ex-dividend → record → payment · do distributions change value?",
+			"x": 900,
+			"y": 5480,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t10s3",
+			"type": "text",
+			"text": "**Repurchases vs dividends**\nhow buybacks work · the comparison · other factors that shape payouts",
+			"x": 900,
+			"y": 5680,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t10s4",
+			"type": "text",
+			"text": "**Stock splits & stock dividends**\nmechanics · why firms do them · effect on shareholder wealth",
+			"x": 900,
+			"y": 5880,
+			"width": 440,
+			"height": 170
+		},
+		{
+			"id": "t10",
+			"type": "text",
+			"text": "## 10. Distributions to Shareholders\nweeks 14–15 (11, 18 Nov) · NOT TAUGHT YET\nno STQ10 yet · A3 due 18 Nov (3%)",
+			"x": 400,
+			"y": 5590,
+			"width": 380,
+			"height": 150,
+			"color": "1"
+		},
+		{
+			"id": "root",
+			"type": "text",
+			"x": -80,
+			"y": 2970,
+			"width": 400,
+			"height": 260,
+			"text": "# FN201 Final\n45% · **Wed 2 Dec, 09:00–12:00** (outline date; check the flood didn't move it)\n**All MCQ / T-F** (constructed = 0%) · non-cumulative · topics 6–10\nLecture hours: T6 3 · T7 0 · T8 7 · T9 7 · T10 6\nguess: topics 8 + 9 are most of the paper\nM1 tools still drive it: TVM + Du Pont"
+		}
+	],
+	"edges": [
+		{
+			"id": "et6t6s1",
+			"fromNode": "t6",
+			"fromSide": "right",
+			"toNode": "t6s1",
+			"toSide": "left"
+		},
+		{
+			"id": "et6t6s2",
+			"fromNode": "t6",
+			"fromSide": "right",
+			"toNode": "t6s2",
+			"toSide": "left"
+		},
+		{
+			"id": "et6t6s3",
+			"fromNode": "t6",
+			"fromSide": "right",
+			"toNode": "t6s3",
+			"toSide": "left"
+		},
+		{
+			"id": "et6t6s4",
+			"fromNode": "t6",
+			"fromSide": "right",
+			"toNode": "t6s4",
+			"toSide": "left"
+		},
+		{
+			"id": "et6t6s5",
+			"fromNode": "t6",
+			"fromSide": "right",
+			"toNode": "t6s5",
+			"toSide": "left"
+		},
+		{
+			"id": "et6t6s6",
+			"fromNode": "t6",
+			"fromSide": "right",
+			"toNode": "t6s6",
+			"toSide": "left"
+		},
+		{
+			"id": "eroott6",
+			"fromNode": "root",
+			"fromSide": "right",
+			"toNode": "t6",
+			"toSide": "left"
+		},
+		{
+			"id": "et7t7s1",
+			"fromNode": "t7",
+			"fromSide": "right",
+			"toNode": "t7s1",
+			"toSide": "left"
+		},
+		{
+			"id": "et7t7s2",
+			"fromNode": "t7",
+			"fromSide": "right",
+			"toNode": "t7s2",
+			"toSide": "left"
+		},
+		{
+			"id": "eroott7",
+			"fromNode": "root",
+			"fromSide": "right",
+			"toNode": "t7",
+			"toSide": "left"
+		},
+		{
+			"id": "et8t8s1",
+			"fromNode": "t8",
+			"fromSide": "right",
+			"toNode": "t8s1",
+			"toSide": "left"
+		},
+		{
+			"id": "et8t8s2",
+			"fromNode": "t8",
+			"fromSide": "right",
+			"toNode": "t8s2",
+			"toSide": "left"
+		},
+		{
+			"id": "et8t8s3",
+			"fromNode": "t8",
+			"fromSide": "right",
+			"toNode": "t8s3",
+			"toSide": "left"
+		},
+		{
+			"id": "et8t8s4",
+			"fromNode": "t8",
+			"fromSide": "right",
+			"toNode": "t8s4",
+			"toSide": "left"
+		},
+		{
+			"id": "et8t8s5",
+			"fromNode": "t8",
+			"fromSide": "right",
+			"toNode": "t8s5",
+			"toSide": "left"
+		},
+		{
+			"id": "et8t8s6",
+			"fromNode": "t8",
+			"fromSide": "right",
+			"toNode": "t8s6",
+			"toSide": "left"
+		},
+		{
+			"id": "et8t8s7",
+			"fromNode": "t8",
+			"fromSide": "right",
+			"toNode": "t8s7",
+			"toSide": "left"
+		},
+		{
+			"id": "et8t8s8",
+			"fromNode": "t8",
+			"fromSide": "right",
+			"toNode": "t8s8",
+			"toSide": "left"
+		},
+		{
+			"id": "et8t8s9",
+			"fromNode": "t8",
+			"fromSide": "right",
+			"toNode": "t8s9",
+			"toSide": "left"
+		},
+		{
+			"id": "et8t8s10",
+			"fromNode": "t8",
+			"fromSide": "right",
+			"toNode": "t8s10",
+			"toSide": "left"
+		},
+		{
+			"id": "eroott8",
+			"fromNode": "root",
+			"fromSide": "right",
+			"toNode": "t8",
+			"toSide": "left"
+		},
+		{
+			"id": "et9t9s1",
+			"fromNode": "t9",
+			"fromSide": "right",
+			"toNode": "t9s1",
+			"toSide": "left"
+		},
+		{
+			"id": "et9t9s2",
+			"fromNode": "t9",
+			"fromSide": "right",
+			"toNode": "t9s2",
+			"toSide": "left"
+		},
+		{
+			"id": "et9t9s3",
+			"fromNode": "t9",
+			"fromSide": "right",
+			"toNode": "t9s3",
+			"toSide": "left"
+		},
+		{
+			"id": "et9t9s4",
+			"fromNode": "t9",
+			"fromSide": "right",
+			"toNode": "t9s4",
+			"toSide": "left"
+		},
+		{
+			"id": "et9t9s5",
+			"fromNode": "t9",
+			"fromSide": "right",
+			"toNode": "t9s5",
+			"toSide": "left"
+		},
+		{
+			"id": "et9t9s6",
+			"fromNode": "t9",
+			"fromSide": "right",
+			"toNode": "t9s6",
+			"toSide": "left"
+		},
+		{
+			"id": "eroott9",
+			"fromNode": "root",
+			"fromSide": "right",
+			"toNode": "t9",
+			"toSide": "left"
+		},
+		{
+			"id": "et10t10s1",
+			"fromNode": "t10",
+			"fromSide": "right",
+			"toNode": "t10s1",
+			"toSide": "left"
+		},
+		{
+			"id": "et10t10s2",
+			"fromNode": "t10",
+			"fromSide": "right",
+			"toNode": "t10s2",
+			"toSide": "left"
+		},
+		{
+			"id": "et10t10s3",
+			"fromNode": "t10",
+			"fromSide": "right",
+			"toNode": "t10s3",
+			"toSide": "left"
+		},
+		{
+			"id": "et10t10s4",
+			"fromNode": "t10",
+			"fromSide": "right",
+			"toNode": "t10s4",
+			"toSide": "left"
+		},
+		{
+			"id": "eroott10",
+			"fromNode": "root",
+			"fromSide": "right",
+			"toNode": "t10",
+			"toSide": "left"
+		}
+	]
+}

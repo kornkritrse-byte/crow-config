@@ -1,540 +1,70 @@
 {
-	"nodes": [
-		{
-			"id": "n3",
-			"type": "text",
-			"text": "**1. What it is** ✓\nWhy is it held?\nUSE → PPE · EARN (rent/value) → Investment property · SELL → Inventory\nTAS 40 = land & buildings only; rented-out cars = PPE\n⚠ shaky: put a rented-out building and rental cars in the wrong bucket (2 ghost cards). Car dealer split = right.",
-			"x": 880,
-			"y": -80,
-			"width": 400,
-			"height": 250,
-			"color": "2"
-		},
-		{
-			"id": "n4",
-			"type": "text",
-			"text": "**2. Recognition** ✓\n① PROBABLE future benefits flow to the entity\n② cost MEASURED RELIABLY\n(never 'certain')\nsolid: built both conditions himself",
-			"x": 880,
-			"y": 180,
-			"width": 380,
-			"height": 170,
-			"color": "4"
-		},
-		{
-			"id": "n13",
-			"type": "text",
-			"text": "**4. Subsequent costs**\nrepairs → expense\nreplacement / major inspection → asset · s44\n26 Oct (GPT): covered · recheck: old component's CA is derecognised (not netted against the new cost) · major inspection = capitalise, routine cleaning = expense",
-			"x": 880,
-			"y": 1620,
-			"width": 380,
-			"height": 150,
-			"color": "2"
-		},
-		{
-			"id": "n15",
-			"type": "text",
-			"text": "Revaluation\nwhole class · method (a) proportional / (b) eliminate AD\n⚠ s54 + s57 have errors\n26 Oct: both methods ✓ (elimination step 2 slipped 50k→30k; skipped ratio/running balances on proportional). Surplus = FV − CA either way",
-			"x": 1380,
-			"y": 1800,
-			"width": 360,
-			"height": 150,
-			"color": "2"
-		},
-		{
-			"id": "n16",
-			"type": "text",
-			"text": "Up / down\nincrease → OCI surplus · decrease → P&L loss · reversals cross over · s61–65\n⚠ 26 Oct: first up → said 'gain' (it's OCI surplus) · cross-over excess → said OCI (it's P&L) · reversal of a P&L loss ✓",
-			"x": 1380,
-			"y": 1980,
-			"width": 360,
-			"height": 150,
-			"color": "2"
-		},
-		{
-			"id": "n17",
-			"type": "text",
-			"text": "Surplus → retained earnings\nnot through P&L · s66–67\n⚠ 26 Oct: said surplus is 'recognised on sale' TWICE → fixed: excess-dep transfer 10k/yr + sale → Dr surplus / Cr RE ✓",
-			"x": 1380,
-			"y": 2160,
-			"width": 360,
-			"height": 150,
-			"color": "2"
-		},
-		{
-			"id": "n14",
-			"type": "text",
-			"text": "**5. After recognition**\ncost model vs revaluation model · s46–67\n26 Oct: done in the Room, all sub-branches drilled",
-			"x": 880,
-			"y": 1980,
-			"width": 380,
-			"height": 150,
-			"color": "2"
-		},
-		{
-			"id": "n19",
-			"type": "text",
-			"text": "Methods\nstraight-line · sum-of-years' digits · declining balance · units · hours\n⚠ 26 Oct: straight-line ✓ · SYD forgotten → example → ✓ (150k/120k) · double-declining forgotten → used the example's rate + took residual out first → fixed ✓ (rate 2/n, on CA, residual = floor) · units: method ✓, rounded 0.222 → 99,900 (go per unit: ฿5 × 20k = 100k)",
-			"x": 1380,
-			"y": 2340,
-			"width": 360,
-			"height": 150,
-			"color": "2"
-		},
-		{
-			"id": "n20",
-			"type": "text",
-			"text": "Start / stop · reviews ← next\nchange = change in ESTIMATE\n26 Oct: depreciation starts when READY for use ✓ (warehouse Q). PAUSED here 13:22: next cold Q = change in estimate (500k, residual 50k, SL 5 yrs, after 2 yrs life revised to 4 MORE years → yr 3 = (320k − 50k) ÷ 4 = 67,500, prospective)",
-			"x": 1380,
-			"y": 2520,
-			"width": 360,
-			"height": 150,
-			"color": "3"
-		},
-		{
-			"id": "n21",
-			"type": "text",
-			"text": "Depletion\nnatural resources, per unit · s93–95",
-			"x": 1380,
-			"y": 2700,
-			"width": 360,
-			"height": 150
-		},
-		{
-			"id": "n18",
-			"type": "text",
-			"text": "**6. Depreciation** ← now\ncomponents · depreciable amount = cost − residual · s69–91",
-			"x": 880,
-			"y": 2520,
-			"width": 380,
-			"height": 150,
-			"color": "3"
-		},
-		{
-			"id": "n22",
-			"type": "text",
-			"text": "**7. Derecognition**\ngain/loss = proceeds − carrying amount\nnever revenue · s99–100",
-			"x": 880,
-			"y": 2880,
-			"width": 380,
-			"height": 150
-		},
-		{
-			"id": "n24",
-			"type": "text",
-			"text": "**Definition**\nidentifiable · no physical substance · non-monetary\n+ control + future benefits",
-			"x": 880,
-			"y": 3060,
-			"width": 380,
-			"height": 150
-		},
-		{
-			"id": "n26",
-			"type": "text",
-			"text": "R&D\nresearch → expense · development → capitalise once ALL 6 criteria met\nno reinstating old expenses",
-			"x": 1380,
-			"y": 3240,
-			"width": 360,
-			"height": 150
-		},
-		{
-			"id": "n27",
-			"type": "text",
-			"text": "Never an asset\ninternal goodwill · brands · mastheads · customer lists",
-			"x": 1380,
-			"y": 3420,
-			"width": 360,
-			"height": 150
-		},
-		{
-			"id": "n25",
-			"type": "text",
-			"text": "**Ways in**\npurchase · business combination · internal · gov grant · exchange",
-			"x": 880,
-			"y": 3330,
-			"width": 380,
-			"height": 150
-		},
-		{
-			"id": "n28",
-			"type": "text",
-			"text": "**After recognition**\ncost or revaluation (needs active market)",
-			"x": 880,
-			"y": 3600,
-			"width": 380,
-			"height": 150
-		},
-		{
-			"id": "n29",
-			"type": "text",
-			"text": "**Amortisation**\nfinite → amortise · indefinite → no, impairment test yearly",
-			"x": 880,
-			"y": 3780,
-			"width": 380,
-			"height": 150
-		},
-		{
-			"id": "n30",
-			"type": "text",
-			"text": "**Goodwill**\nprice − FV of net assets · not amortised",
-			"x": 880,
-			"y": 3960,
-			"width": 380,
-			"height": 150
-		},
-		{
-			"id": "n23",
-			"type": "text",
-			"text": "## Intangibles (TAS 38)\nSession 10 (17 Oct) · concepts only, Crow builds the numbers",
-			"x": 420,
-			"y": 3510,
-			"width": 340,
-			"height": 150
-		},
-		{
-			"id": "n31",
-			"type": "text",
-			"text": "## Impairment (TAS 36)\nSession 11 · 31 Oct · NOT TAUGHT YET\nin M2 only if the paper is after 31 Oct",
-			"x": 420,
-			"y": 4140,
-			"width": 340,
-			"height": 150,
-			"color": "1"
-		},
-		{
-			"id": "n32",
-			"type": "text",
-			"text": "## Investment property (TAS 40)\nSessions 12–13 → FINAL. Parked.",
-			"x": 420,
-			"y": 4320,
-			"width": 340,
-			"height": 150,
-			"color": "6"
-		},
-		{
-			"id": "n1",
-			"type": "text",
-			"text": "# AC311 Midterm 2\n30% · sessions 8–11 · **Fri 13 Nov** (time TBC)\nTheory → numbers, block by block\nImpairment (s11, 31 Oct) falls before it → assume IN",
-			"x": 0,
-			"y": 2880,
-			"width": 300,
-			"height": 150
-		},
-		{
-			"id": "legend",
-			"type": "text",
-			"text": "**Legend**\n🟩 done · 🟨 now · ⬜ not yet · 🟥 not taught · 🟪 parked\nCrow updates the colours as blocks close.\n🟧 shaky (see the ⚠ line)",
-			"x": 0,
-			"y": -260,
-			"width": 420,
-			"height": 170
-		},
-		{
-			"id": "n2",
-			"type": "text",
-			"text": "## PPE (TAS 16, 23)\nSessions 8–9 · 101-slide deck",
-			"x": 360,
-			"y": 1800,
-			"width": 340,
-			"height": 150
-		},
-		{
-			"id": "n9",
-			"type": "text",
-			"text": "Exchange\nFV given up + cash · s23–24\n⚠ summed every number (200+120+90 = 410k): didn't know carrying amount = cost − acc dep (ghost card)\n⚠ commercial substance: not in deck\n26 Oct: two-transaction frame (sell old at FV, buy new) clicked → #32 loss version ✓ · #31 ✗ before it",
-			"x": 2800,
-			"y": 1015,
-			"width": 360,
-			"height": 170,
-			"color": "2"
-		},
-		{
-			"id": "n10",
-			"type": "text",
-			"text": "Donation\nFV · Cr capital or other income · s25\n⚠ 26 Oct: flipped giver/receiver TWICE (misread). Receiver: Dr asset at FV, fees capitalised (800k + 15k = 815k). Giver: out at CARRYING AMOUNT → donation expense",
-			"x": 2800,
-			"y": 1195,
-			"width": 360,
-			"height": 150,
-			"color": "2"
-		},
-		{
-			"id": "n11",
-			"type": "text",
-			"text": "Self-construction + borrowing costs (TAS 23)\nqualifying asset · capitalisation period · lesser of actual vs avoidable · s26–31\n⚠ 26 Oct: left construction interest out (500k vs 540k); thought capitalisation runs past READY (it stops; post-ready interest = expense). Depreciation starts when ready ✓",
-			"x": 2800,
-			"y": 1375,
-			"width": 360,
-			"height": 150,
-			"color": "2"
-		},
-		{
-			"id": "n12",
-			"type": "text",
-			"text": "Dismantling cost (ARO)\nPV into cost, unwind as interest · s36–41\n26 Oct (GPT): covered, strong on the entries · recheck: PV = time value, not certainty",
-			"x": 2800,
-			"y": 1555,
-			"width": 360,
-			"height": 150,
-			"color": "2"
-		},
-		{
-			"id": "n6",
-			"type": "text",
-			"text": "Basket purchase\nsplit by fair value · s18–19\nsolid on WHY (land not depreciated, different lives, revaluation by class)\n⚠ method right, slipped equipment (30k, should be 36k): always check the split adds to the price (ghost card)\nsolid: entry (Dr land/building/equipment, Cr cash); knows there's no 'discount' entry",
-			"x": 2800,
-			"y": 435,
-			"width": 360,
-			"height": 170,
-			"color": "2"
-		},
-		{
-			"id": "n7",
-			"type": "text",
-			"text": "Deferred payment\ncash price; the rest is interest · s20–21\n⚠ read 'instalments' (paying in parts) as 'installation'; under that reading 280,000 was logical. Concept itself: cost = CASH price, the extra = interest (ghost card)\nsolid: 1 Jan entry · ⚠ 30 June interest: used 250k × full year and 'interest payable'; it's 200k × 10% × 6/12 = 10,000 interest EXPENSE (ghost card)",
-			"x": 2800,
-			"y": 615,
-			"width": 360,
-			"height": 150,
-			"color": "2"
-		},
-		{
-			"id": "n8",
-			"type": "text",
-			"text": "Issue shares for it ✓\nFV of the shares ON THE DATE · s22\nDr asset / Cr share capital (par) / Cr share premium (rest)\n⚠ first used par (100k), 'the price moves': cost is locked on the day (ghost card)\nsolid after: own words 'lock in on the date, only revaluation changes it' (fix: COST not worth; par = label)",
-			"x": 2800,
-			"y": 795,
-			"width": 360,
-			"height": 190,
-			"color": "4"
-		},
-		{
-			"id": "n5",
-			"type": "text",
-			"text": "**3. Cost at acquisition**\nprice − trade discounts + directly attributable + dismantling (ARO)\nNOT: opening, ads, training, admin  · s15–42\nsolid: machine = 497,000, training out. Watch: he starts from inventory's net-purchase logic; the PPE test is 'location + working condition'\n26 Oct: all sub-branches touched · ⚠ recheck cost totals as ONE number (250k + 13k = 263k, missed twice)",
-			"x": 880,
-			"y": 945,
-			"width": 380,
-			"height": 150,
-			"color": "2"
-		}
+	"nodes":[
+		{"id":"n3","type":"text","text":"**1. What it is** ✓\nWhy is it held?\nUSE → PPE · EARN (rent/value) → Investment property · SELL → Inventory\nTAS 40 = land & buildings only; rented-out cars = PPE\n⚠ shaky: put a rented-out building and rental cars in the wrong bucket (2 ghost cards). Car dealer split = right.","x":880,"y":-80,"width":400,"height":250,"color":"2"},
+		{"id":"n4","type":"text","text":"**2. Recognition** ✓\n① PROBABLE future benefits flow to the entity\n② cost MEASURED RELIABLY\n(never 'certain')\nsolid: built both conditions himself","x":880,"y":180,"width":380,"height":170,"color":"4"},
+		{"id":"n13","type":"text","text":"**4. Subsequent costs**\nrepairs → expense\nreplacement / major inspection → asset · s44\n26 Oct (GPT): covered · recheck: old component's CA is derecognised (not netted against the new cost) · major inspection = capitalise, routine cleaning = expense","x":880,"y":1620,"width":380,"height":150,"color":"2"},
+		{"id":"n15","type":"text","text":"Revaluation\nwhole class · method (a) proportional / (b) eliminate AD\n⚠ s54 + s57 have errors\n26 Oct: both methods ✓ (elimination step 2 slipped 50k→30k; skipped ratio/running balances on proportional). Surplus = FV − CA either way","x":1380,"y":1800,"width":360,"height":150,"color":"2"},
+		{"id":"n16","type":"text","text":"Up / down\nincrease → OCI surplus · decrease → P&L loss · reversals cross over · s61–65\n⚠ 26 Oct: first up → said 'gain' (it's OCI surplus) · cross-over excess → said OCI (it's P&L) · reversal of a P&L loss ✓","x":1380,"y":1980,"width":360,"height":150,"color":"2"},
+		{"id":"n17","type":"text","text":"Surplus → retained earnings\nnot through P&L · s66–67\n⚠ 26 Oct: said surplus is 'recognised on sale' TWICE → fixed: excess-dep transfer 10k/yr + sale → Dr surplus / Cr RE ✓","x":1380,"y":2160,"width":360,"height":150,"color":"2"},
+		{"id":"n14","type":"text","text":"**5. After recognition**\ncost model vs revaluation model · s46–67\n26 Oct: done in the Room, all sub-branches drilled","x":880,"y":1980,"width":380,"height":150,"color":"2"},
+		{"id":"n19","type":"text","text":"Methods\nstraight-line · sum-of-years' digits · declining balance · units · hours\n⚠ 26 Oct: straight-line ✓ · SYD forgotten → example → ✓ (150k/120k) · double-declining forgotten → used the example's rate + took residual out first → fixed ✓ (rate 2/n, on CA, residual = floor) · units: method ✓, rounded 0.222 → 99,900 (go per unit: ฿5 × 20k = 100k)","x":1380,"y":2340,"width":360,"height":150,"color":"2"},
+		{"id":"n20","type":"text","text":"Start / stop · reviews ← next\nchange = change in ESTIMATE\n26 Oct: depreciation starts when READY for use ✓ (warehouse Q). PAUSED here 13:22: next cold Q = change in estimate (500k, residual 50k, SL 5 yrs, after 2 yrs life revised to 4 MORE years → yr 3 = (320k − 50k) ÷ 4 = 67,500, prospective)","x":1380,"y":2520,"width":360,"height":150,"color":"3"},
+		{"id":"n21","type":"text","text":"Depletion\nnatural resources, per unit · s93–95","x":1380,"y":2700,"width":360,"height":150},
+		{"id":"n18","type":"text","text":"**6. Depreciation** ← now\ncomponents · depreciable amount = cost − residual · s69–91","x":880,"y":2520,"width":380,"height":150,"color":"3"},
+		{"id":"n22","type":"text","text":"**7. Derecognition**\ngain/loss = proceeds − carrying amount\nnever revenue · s99–100","x":880,"y":2880,"width":380,"height":150},
+		{"id":"n24","type":"text","text":"**Definition**\nidentifiable · no physical substance · non-monetary\n+ control + future benefits","x":880,"y":3060,"width":380,"height":150},
+		{"id":"n26","type":"text","text":"R&D\nresearch → expense · development → capitalise once ALL 6 criteria met\nno reinstating old expenses","x":1380,"y":3240,"width":360,"height":150},
+		{"id":"n27","type":"text","text":"Never an asset\ninternal goodwill · brands · mastheads · customer lists","x":1380,"y":3420,"width":360,"height":150},
+		{"id":"n25","type":"text","text":"**Ways in**\npurchase · business combination · internal · gov grant · exchange","x":880,"y":3330,"width":380,"height":150},
+		{"id":"n28","type":"text","text":"**After recognition**\ncost or revaluation (needs active market)","x":880,"y":3600,"width":380,"height":150},
+		{"id":"n29","type":"text","text":"**Amortisation**\nfinite → amortise · indefinite → no, impairment test yearly","x":880,"y":3780,"width":380,"height":150},
+		{"id":"n30","type":"text","text":"**Goodwill**\nprice − FV of net assets · not amortised","x":880,"y":3960,"width":380,"height":150},
+		{"id":"n23","type":"text","text":"## Intangibles (TAS 38)\nSession 10 (17 Oct) · concepts only, Crow builds the numbers","x":420,"y":3510,"width":340,"height":150},
+		{"id":"n31","type":"text","text":"## Impairment (TAS 36)\nSession 11 · 31 Oct · NOT TAUGHT YET\nin M2 only if the paper is after 31 Oct","x":420,"y":4140,"width":340,"height":150,"color":"1"},
+		{"id":"n32","type":"text","text":"## Investment property (TAS 40)\nSessions 12–13 → FINAL. Parked.","x":420,"y":4320,"width":340,"height":150,"color":"6"},
+		{"id":"n1","type":"text","text":"# AC311 Midterm 2\n30% · sessions 8–11 · **Fri 13 Nov** (time TBC)\nTheory → numbers, block by block\nImpairment (s11, 31 Oct) falls before it → assume IN","x":0,"y":2880,"width":300,"height":150},
+		{"id":"legend","type":"text","text":"**Legend**\n🟩 done · 🟨 now · ⬜ not yet · 🟥 not taught · 🟪 parked\nCrow updates the colours as blocks close.\n🟧 shaky (see the ⚠ line)","x":0,"y":-260,"width":420,"height":170},
+		{"id":"n2","type":"text","text":"## PPE (TAS 16, 23)\nSessions 8–9 · 101-slide deck","x":360,"y":1800,"width":340,"height":150},
+		{"id":"n9","type":"text","text":"Exchange\nFV given up + cash · s23–24\n⚠ summed every number (200+120+90 = 410k): didn't know carrying amount = cost − acc dep (ghost card)\n⚠ commercial substance: not in deck\n26 Oct: two-transaction frame (sell old at FV, buy new) clicked → #32 loss version ✓ · #31 ✗ before it","x":2800,"y":1015,"width":360,"height":170,"color":"2"},
+		{"id":"n10","type":"text","text":"Donation\nFV · Cr capital or other income · s25\n⚠ 26 Oct: flipped giver/receiver TWICE (misread). Receiver: Dr asset at FV, fees capitalised (800k + 15k = 815k). Giver: out at CARRYING AMOUNT → donation expense","x":2800,"y":1195,"width":360,"height":150,"color":"2"},
+		{"id":"n11","type":"text","text":"Self-construction + borrowing costs (TAS 23)\nqualifying asset · capitalisation period · lesser of actual vs avoidable · s26–31\n⚠ 26 Oct: left construction interest out (500k vs 540k); thought capitalisation runs past READY (it stops; post-ready interest = expense). Depreciation starts when ready ✓","x":2800,"y":1375,"width":360,"height":150,"color":"2"},
+		{"id":"n12","type":"text","text":"Dismantling cost (ARO)\nPV into cost, unwind as interest · s36–41\n26 Oct (GPT): covered, strong on the entries · recheck: PV = time value, not certainty","x":2800,"y":1555,"width":360,"height":150,"color":"2"},
+		{"id":"n6","type":"text","text":"Basket purchase\nsplit by fair value · s18–19\nsolid on WHY (land not depreciated, different lives, revaluation by class)\n⚠ method right, slipped equipment (30k, should be 36k): always check the split adds to the price (ghost card)\nsolid: entry (Dr land/building/equipment, Cr cash); knows there's no 'discount' entry","x":2800,"y":435,"width":360,"height":170,"color":"2"},
+		{"id":"n7","type":"text","text":"Deferred payment\ncash price; the rest is interest · s20–21\n⚠ read 'instalments' (paying in parts) as 'installation'; under that reading 280,000 was logical. Concept itself: cost = CASH price, the extra = interest (ghost card)\nsolid: 1 Jan entry · ⚠ 30 June interest: used 250k × full year and 'interest payable'; it's 200k × 10% × 6/12 = 10,000 interest EXPENSE (ghost card)","x":2800,"y":615,"width":360,"height":150,"color":"2"},
+		{"id":"n8","type":"text","text":"Issue shares for it ✓\nFV of the shares ON THE DATE · s22\nDr asset / Cr share capital (par) / Cr share premium (rest)\n⚠ first used par (100k), 'the price moves': cost is locked on the day (ghost card)\nsolid after: own words 'lock in on the date, only revaluation changes it' (fix: COST not worth; par = label)","x":2800,"y":795,"width":360,"height":190,"color":"4"},
+		{"id":"n5","type":"text","text":"**3. Cost at acquisition**\nprice − trade discounts + directly attributable + dismantling (ARO)\nNOT: opening, ads, training, admin  · s15–42\nsolid: machine = 497,000, training out. Watch: he starts from inventory's net-purchase logic; the PPE test is 'location + working condition'\n26 Oct: all sub-branches touched · ⚠ recheck cost totals as ONE number (250k + 13k = 263k, missed twice)","x":880,"y":945,"width":380,"height":150,"color":"2"}
 	],
-	"edges": [
-		{
-			"id": "en5n6",
-			"fromNode": "n5",
-			"fromSide": "right",
-			"toNode": "n6",
-			"toSide": "left"
-		},
-		{
-			"id": "en5n7",
-			"fromNode": "n5",
-			"fromSide": "right",
-			"toNode": "n7",
-			"toSide": "left"
-		},
-		{
-			"id": "en5n8",
-			"fromNode": "n5",
-			"fromSide": "right",
-			"toNode": "n8",
-			"toSide": "left"
-		},
-		{
-			"id": "en5n9",
-			"fromNode": "n5",
-			"fromSide": "right",
-			"toNode": "n9",
-			"toSide": "left"
-		},
-		{
-			"id": "en5n10",
-			"fromNode": "n5",
-			"fromSide": "right",
-			"toNode": "n10",
-			"toSide": "left"
-		},
-		{
-			"id": "en5n11",
-			"fromNode": "n5",
-			"fromSide": "right",
-			"toNode": "n11",
-			"toSide": "left"
-		},
-		{
-			"id": "en5n12",
-			"fromNode": "n5",
-			"fromSide": "right",
-			"toNode": "n12",
-			"toSide": "left"
-		},
-		{
-			"id": "en14n15",
-			"fromNode": "n14",
-			"fromSide": "right",
-			"toNode": "n15",
-			"toSide": "left"
-		},
-		{
-			"id": "en14n16",
-			"fromNode": "n14",
-			"fromSide": "right",
-			"toNode": "n16",
-			"toSide": "left"
-		},
-		{
-			"id": "en14n17",
-			"fromNode": "n14",
-			"fromSide": "right",
-			"toNode": "n17",
-			"toSide": "left"
-		},
-		{
-			"id": "en18n19",
-			"fromNode": "n18",
-			"fromSide": "right",
-			"toNode": "n19",
-			"toSide": "left"
-		},
-		{
-			"id": "en18n20",
-			"fromNode": "n18",
-			"fromSide": "right",
-			"toNode": "n20",
-			"toSide": "left"
-		},
-		{
-			"id": "en18n21",
-			"fromNode": "n18",
-			"fromSide": "right",
-			"toNode": "n21",
-			"toSide": "left"
-		},
-		{
-			"id": "en2n3",
-			"fromNode": "n2",
-			"fromSide": "right",
-			"toNode": "n3",
-			"toSide": "left"
-		},
-		{
-			"id": "en2n4",
-			"fromNode": "n2",
-			"fromSide": "right",
-			"toNode": "n4",
-			"toSide": "left"
-		},
-		{
-			"id": "en2n5",
-			"fromNode": "n2",
-			"fromSide": "right",
-			"toNode": "n5",
-			"toSide": "left"
-		},
-		{
-			"id": "en2n13",
-			"fromNode": "n2",
-			"fromSide": "right",
-			"toNode": "n13",
-			"toSide": "left"
-		},
-		{
-			"id": "en2n14",
-			"fromNode": "n2",
-			"fromSide": "right",
-			"toNode": "n14",
-			"toSide": "left"
-		},
-		{
-			"id": "en2n18",
-			"fromNode": "n2",
-			"fromSide": "right",
-			"toNode": "n18",
-			"toSide": "left"
-		},
-		{
-			"id": "en2n22",
-			"fromNode": "n2",
-			"fromSide": "right",
-			"toNode": "n22",
-			"toSide": "left"
-		},
-		{
-			"id": "en25n26",
-			"fromNode": "n25",
-			"fromSide": "right",
-			"toNode": "n26",
-			"toSide": "left"
-		},
-		{
-			"id": "en25n27",
-			"fromNode": "n25",
-			"fromSide": "right",
-			"toNode": "n27",
-			"toSide": "left"
-		},
-		{
-			"id": "en23n24",
-			"fromNode": "n23",
-			"fromSide": "right",
-			"toNode": "n24",
-			"toSide": "left"
-		},
-		{
-			"id": "en23n25",
-			"fromNode": "n23",
-			"fromSide": "right",
-			"toNode": "n25",
-			"toSide": "left"
-		},
-		{
-			"id": "en23n28",
-			"fromNode": "n23",
-			"fromSide": "right",
-			"toNode": "n28",
-			"toSide": "left"
-		},
-		{
-			"id": "en23n29",
-			"fromNode": "n23",
-			"fromSide": "right",
-			"toNode": "n29",
-			"toSide": "left"
-		},
-		{
-			"id": "en23n30",
-			"fromNode": "n23",
-			"fromSide": "right",
-			"toNode": "n30",
-			"toSide": "left"
-		},
-		{
-			"id": "en1n2",
-			"fromNode": "n1",
-			"fromSide": "right",
-			"toNode": "n2",
-			"toSide": "left"
-		},
-		{
-			"id": "en1n23",
-			"fromNode": "n1",
-			"fromSide": "right",
-			"toNode": "n23",
-			"toSide": "left"
-		},
-		{
-			"id": "en1n31",
-			"fromNode": "n1",
-			"fromSide": "right",
-			"toNode": "n31",
-			"toSide": "left"
-		},
-		{
-			"id": "en1n32",
-			"fromNode": "n1",
-			"fromSide": "right",
-			"toNode": "n32",
-			"toSide": "left"
-		}
+	"edges":[
+		{"id":"en5n6","fromNode":"n5","fromSide":"right","toNode":"n6","toSide":"left"},
+		{"id":"en5n7","fromNode":"n5","fromSide":"right","toNode":"n7","toSide":"left"},
+		{"id":"en5n8","fromNode":"n5","fromSide":"right","toNode":"n8","toSide":"left"},
+		{"id":"en5n9","fromNode":"n5","fromSide":"right","toNode":"n9","toSide":"left"},
+		{"id":"en5n10","fromNode":"n5","fromSide":"right","toNode":"n10","toSide":"left"},
+		{"id":"en5n11","fromNode":"n5","fromSide":"right","toNode":"n11","toSide":"left"},
+		{"id":"en5n12","fromNode":"n5","fromSide":"right","toNode":"n12","toSide":"left"},
+		{"id":"en14n15","fromNode":"n14","fromSide":"right","toNode":"n15","toSide":"left"},
+		{"id":"en14n16","fromNode":"n14","fromSide":"right","toNode":"n16","toSide":"left"},
+		{"id":"en14n17","fromNode":"n14","fromSide":"right","toNode":"n17","toSide":"left"},
+		{"id":"en18n19","fromNode":"n18","fromSide":"right","toNode":"n19","toSide":"left"},
+		{"id":"en18n20","fromNode":"n18","fromSide":"right","toNode":"n20","toSide":"left"},
+		{"id":"en18n21","fromNode":"n18","fromSide":"right","toNode":"n21","toSide":"left"},
+		{"id":"en2n3","fromNode":"n2","fromSide":"right","toNode":"n3","toSide":"left"},
+		{"id":"en2n4","fromNode":"n2","fromSide":"right","toNode":"n4","toSide":"left"},
+		{"id":"en2n5","fromNode":"n2","fromSide":"right","toNode":"n5","toSide":"left"},
+		{"id":"en2n13","fromNode":"n2","fromSide":"right","toNode":"n13","toSide":"left"},
+		{"id":"en2n14","fromNode":"n2","fromSide":"right","toNode":"n14","toSide":"left"},
+		{"id":"en2n18","fromNode":"n2","fromSide":"right","toNode":"n18","toSide":"left"},
+		{"id":"en2n22","fromNode":"n2","fromSide":"right","toNode":"n22","toSide":"left"},
+		{"id":"en25n26","fromNode":"n25","fromSide":"right","toNode":"n26","toSide":"left"},
+		{"id":"en25n27","fromNode":"n25","fromSide":"right","toNode":"n27","toSide":"left"},
+		{"id":"en23n24","fromNode":"n23","fromSide":"right","toNode":"n24","toSide":"left"},
+		{"id":"en23n25","fromNode":"n23","fromSide":"right","toNode":"n25","toSide":"left"},
+		{"id":"en23n28","fromNode":"n23","fromSide":"right","toNode":"n28","toSide":"left"},
+		{"id":"en23n29","fromNode":"n23","fromSide":"right","toNode":"n29","toSide":"left"},
+		{"id":"en23n30","fromNode":"n23","fromSide":"right","toNode":"n30","toSide":"left"},
+		{"id":"en1n2","fromNode":"n1","fromSide":"right","toNode":"n2","toSide":"left"},
+		{"id":"en1n23","fromNode":"n1","fromSide":"right","toNode":"n23","toSide":"left"},
+		{"id":"en1n31","fromNode":"n1","fromSide":"right","toNode":"n31","toSide":"left"},
+		{"id":"en1n32","fromNode":"n1","fromSide":"right","toNode":"n32","toSide":"left"}
 	]
 }

@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-10-26 23:36 (live). Window holds 26 Oct + 25 Oct; 24 Oct flushed to [[sessions-log]] 26 Oct. Next to flush: 25 Oct.*
+*Last updated: 2026-10-27 09:30 (live). Window holds 27 Oct + 26 Oct ; 25 Oct flushed 27 Oct. Next to flush: 26 Oct.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -31,6 +31,9 @@ metadata:
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
+## Session — 2026-10-27 (Tue, live)
+- 📗 09:28 **FN201 final map built** → [[FN201 Final Map]] (`study/FN201 Final Map.canvas`): STQ06/08/09 crossed with the outline, every Q placed under a subtopic. Final = **Wed 2 Dec 09:00–12:00, ALL MCQ/T-F, topics 6–10** (outline; flood shift unchecked). Gaps: topic 7 self-study with no STQ, topic 10 not taught + no STQ10, plus 6 outline items with no STQ. STQ08 = 52 Qs, the heavy one; MCC/break points is its core.
+
 ## Session — 2026-10-26 (Mon, live)
 - 🏃 **Morning (ChatGPT):** Zone 2 run + the Karamazov→absurdity talk (being fully seen = someone holding his blunt + sensitive sides together; vulnerability narrowing to the few, not dead) → [[chapters]]. Henley V1 + maker checklist built in Notion; next = Patrick ✅ → re-measure → swatches → [[project-clothing-brand]]. ChatGPT trial verdict (his): "really goofy", freestyled off the map → came back to the Room 11:35.
 - 📘 **AC311 lock-in PARTLY kept** (started late; GPT block + Room 11:35–13:22, ~3 h): branch 3 backfilled, branch 5 closed, branch 6 half (methods). 13 misses carded. Pattern: right label, wrong/no NUMBER (263k, share capital 10k, 50k for 30k) + WHICH STATEMENT (gain vs OCI surplus, surplus "recognised on sale" ×2). Positions on the canvas → [[AC311 Midterm 2 Map]]. Skipped lunch.
@@ -38,10 +41,6 @@ metadata:
 - 📚 **Evening build:** nest on the Room's book pile (the ball sits in it), pile 6→10 books centred, thickness from page counts, Times New Roman spines, **36 books with his own spine designs**. Reading now: **Myth of Sisyphus** (heavy) + **Winter of Our Discontent** (light). Siddhartha DROPPED (boring). Next: Master and Margarita → a Dostoevsky (Ivan → C&P or Alyosha → The Idiot, he's sitting with it) → 100 Years retry → [[user-reading-list]]. Also: Room spacing bumped, playlist named "It Gets Bigger".
 - 🌙 **23:21 Sisyphus (reread, early chapter):** the "objective point of view" line → Sol: "what's your exit?" → his: work, running, studying, the brand. Vera: the real one is the doomscroll on empty days. Open, his to answer. Crow spoiled the ending → [[feedback-no-spoilers]] · → [[chapters]]
 - 🌸 Goals: wake ✓ · creative writing ✓ · reading ✓ · journal ✓ · training ½ (run ✓, no lift) · AC311 at 10:00 ✗ (late) · bed 23:30 pending.
-
-## Session — 2026-10-25 (Sun)
-- 22:53 his ask: a ChatGPT project inside crow-config (he has ChatGPT now: Samneang photos + better voice convo → solves Zone 2 runs). Built `chatgpt/` (instructions.md · samneang.md · README.md) → [[reference-chatgpt-project]]. Zone 2 claude.ai brief marked RETIRED. Brand HQ checked first: Patrick's ChatGPT added a Reference gallery 25 Oct 15:30. 22:56 he set it up himself ("plopped ChatGPT into crow.md").
-- 22:58 day close: Samneang day (IG logo, rough pants + Henley designs, direction + deadlines); AC311 still not touched → his call: lock in Mon 26, Crow keeps him on track (ledger). Quote: Seneca Letter 1.
 
 ## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. **AC311 Midterm 2 (sessions 8–11, PPE + intangibles, 30%) is next: **Fri 13 Nov** (Korn, 20 Oct; time TBC). Session 11 (31 Oct, impairment TAS 36) falls before it, so assume impairment is IN scope. Final 28 Nov.**
 

@@ -10,6 +10,9 @@ metadata:
 ---
 
 # Sessions Log (archive)
+## 2026-10-25 (Sun)
+- Built `chatgpt/` ChatGPT project kit (instructions · samneang · README) → [[reference-chatgpt-project]]; Zone 2 claude.ai brief retired. Samneang day (logo, pants + Henley designs). AC311 untouched → locked in for Mon 26. Quote: Seneca Letter 1.
+
 ## 2026-10-22 (Thu)
 - Claude sub renewed. No goals set; up past midnight on Notion. Ghost #32 deferred twice. Proxy Henley re-measured: chest 59 = hem 59 → boxy (clashes with "nothing boxy"); shoulder/neck ~8 cm off. Café w/ Patrick: IG + Gmail samneang.studio; Session protocol + Decisions + `samneang-log` skill. Evening Notion: Henley spec into Henley 001, Bottoms 001, Pending + Archive pages, 7 decisions → Decided, logo V2 added. Partnership agreed out loud; he fills the page himself. 16:40 his ask: keep replies simplified. → [[project-clothing-brand]]
 

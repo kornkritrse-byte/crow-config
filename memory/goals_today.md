@@ -135,3 +135,9 @@ metadata:
 - 2026-10-26 | Bed by 23:30 | open
 - 2026-10-26 | Creative writing before the café | done
 - 2026-10-26 | Start AC311 at 10:00 at the café | missed
+- 2026-10-27 | Wake early | open
+- 2026-10-27 | Morning creative writing | open
+- 2026-10-27 | Moving | open
+- 2026-10-27 | Daily journal | open
+- 2026-10-27 | Reading | open
+- 2026-10-27 | Bed by 23:30 | open
