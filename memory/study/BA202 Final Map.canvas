@@ -1,456 +1,61 @@
 {
-	"nodes": [
-		{
-			"id": "legend",
-			"type": "text",
-			"x": 0,
-			"y": -280,
-			"width": 460,
-			"height": 210,
-			"text": "**Legend**\n🟩 done · 🟨 now · ⬜ taught, not studied · 🟥 not taught yet · 🟧 shaky (see the ⚠ line)\nBuilt from the COURSE OUTLINE only (27 Oct). Leaves fill in as Korn sends each lecture's slides.\n📥 Slides in: L8 · L9 (27 Oct) · 🎥 audio: L8–L11 downloading, transcripts pending\nFiles: `~/Desktop/BA202/final/`\nEvery tax answers 5 questions: who pays · on what · how much · who's exempt · when/how it's filed"
-		},
-		{
-			"id": "l8s1",
-			"type": "text",
-			"text": "**Who's in scope (s.11): three groups**\n① Thai nationality, incl. Thai juristic persons (registered in TH · >50% Thai shareholders · >50% Thai management)\n② non-Thai with a domicile in Thailand, wherever the asset is\n③ non-Thai receiving an asset SITUATED in Thailand\nthe RECIPIENT pays",
-			"x": 900,
-			"y": 0,
-			"width": 460,
-			"height": 230
-		},
-		{
-			"id": "l8s2",
-			"type": "text",
-			"text": "**What's taxed + how it's valued (s.12, s.15)**\nimmovable property · listed securities · deposits / money · registered vehicles · others by Royal Decree\nvalue ON THE DATE RECEIVED: land = Land Code appraisal − third-party rights · listed shares = SET closing price that day · foreign currency at the Revenue Dept rate\nthen minus the liabilities taken on with it",
-			"x": 900,
-			"y": 260,
-			"width": 460,
-			"height": 220
-		},
-		{
-			"id": "l8s3",
-			"type": "text",
-			"text": "**How much + procedure**\nonly the part ABOVE THB 100M is taxed (s.12)\n⬜ rates, reductions, exemptions, filing deadline = IMAGE slides → read in the study block\ntaxpayer: calculate → file → pay · authority: audit → collect (sanctions) → refund · appeals → Tax Court\nhistory: in 2476, repealed 2487, back via the 2015 Act",
-			"x": 900,
-			"y": 510,
-			"width": 460,
-			"height": 240
-		},
-		{
-			"id": "l8",
-			"type": "text",
-			"text": "## L8 · Inheritance Tax (IHT)\nWed 30 Sep · Inheritance Tax Act B.E. 2558 (2015), in force 2 Feb 2016\n📥 slides: main (81 pp) + examples (21 pp, image-only)",
-			"x": 400,
-			"y": 295,
-			"width": 380,
-			"height": 160
-		},
-		{
-			"id": "l9s1",
-			"type": "text",
-			"text": "**Land & Building Tax** (Act B.E. 2562 / 2019) · collected by the LOCAL government\ntax = pre-assessed (appraised) value × actual rate\nuse categories + ceilings: agriculture max 0.15% · residential · other max 1.2% · empty/unused max 1.2%, +0.3% every 3 vacant years, cap 3%\nmixed use → tax in proportion · taxpayer = owner OR possessor (น.ส.3)\nassessment form within FEB · pay within APRIL · refund claim within 3 years\n⬜ residential rates + exemptions = image slides",
-			"x": 900,
-			"y": 900,
-			"width": 460,
-			"height": 290
-		},
-		{
-			"id": "l9s2",
-			"type": "text",
-			"text": "**Signboard Tax** (Act B.E. 2510 / 1967, amended 2534 / 1991) · local authorities, Ministry of Interior\ntaxed: signs for running a business or advertising · 13 exemptions\n⬜ sign types, rates, the 13 exemptions = image slides + the example set",
-			"x": 900,
-			"y": 1220,
-			"width": 460,
-			"height": 170
-		},
-		{
-			"id": "l9",
-			"type": "text",
-			"text": "## L9 · Land & Building Tax + Signboard Tax\nWed 7 Oct · 📥 slides: L&B (74 pp) · signboard (55 pp) + example (14 pp, image-only)",
-			"x": 400,
-			"y": 1065,
-			"width": 380,
-			"height": 160
-		},
-		{
-			"id": "l10s1",
-			"type": "text",
-			"text": "**Indirect tax: the frame**\ncollected along the chain, borne by the customer · how it differs from direct tax",
-			"x": 900,
-			"y": 1540,
-			"width": 460,
-			"height": 170
-		},
-		{
-			"id": "l10s2",
-			"type": "text",
-			"text": "**VAT**\nsale of goods, services, imports · collected at every stage · output tax − input tax\n⬜ registration, rates, 0% vs exempt: waiting for the slides",
-			"x": 900,
-			"y": 1740,
-			"width": 460,
-			"height": 170
-		},
-		{
-			"id": "l10",
-			"type": "text",
-			"text": "## L10 · Indirect taxes overview + VAT\nWed 14 Oct · Revenue Code Ch. 4",
-			"x": 400,
-			"y": 1645,
-			"width": 380,
-			"height": 160
-		},
-		{
-			"id": "l11s1",
-			"type": "text",
-			"text": "**SBT**\nnamed businesses instead of VAT: banking/finance, selling immovable property…\n⬜ which businesses, rates, SBT vs VAT trap: waiting for the slides",
-			"x": 900,
-			"y": 2060,
-			"width": 460,
-			"height": 170
-		},
-		{
-			"id": "l11",
-			"type": "text",
-			"text": "## L11 · Specific Business Tax (SBT)\nWed 21 Oct · Revenue Code Ch. 5",
-			"x": 400,
-			"y": 2065,
-			"width": 380,
-			"height": 160
-		},
-		{
-			"id": "l12s1",
-			"type": "text",
-			"text": "**Excise**\ngoods/services with health, social or environmental harm (alcohol, tobacco, sugar drinks…)\n⬜ how it's calculated: after class",
-			"x": 900,
-			"y": 2380,
-			"width": 460,
-			"height": 170
-		},
-		{
-			"id": "l12",
-			"type": "text",
-			"text": "## L12 · Excise Duty\nWed 28 Oct (TOMORROW)",
-			"x": 400,
-			"y": 2385,
-			"width": 380,
-			"height": 160,
-			"color": "1"
-		},
-		{
-			"id": "l13s1",
-			"type": "text",
-			"text": "**Customs duty**\nimports and exports",
-			"x": 900,
-			"y": 2700,
-			"width": 460,
-			"height": 170
-		},
-		{
-			"id": "l13s2",
-			"type": "text",
-			"text": "**Special privileges (Part I)**\ninvestment laws (BOI) · GSP · FTAs · ASEAN · EU customs union",
-			"x": 900,
-			"y": 2900,
-			"width": 460,
-			"height": 170
-		},
-		{
-			"id": "l13",
-			"type": "text",
-			"text": "## L13 · Customs Duty + Special privileges I\nWed 4 Nov · Customs Act B.E. 2560 (2017)",
-			"x": 400,
-			"y": 2805,
-			"width": 380,
-			"height": 160,
-			"color": "1"
-		},
-		{
-			"id": "l14s1",
-			"type": "text",
-			"text": "**Special privileges (Part II)**",
-			"x": 900,
-			"y": 3220,
-			"width": 460,
-			"height": 170
-		},
-		{
-			"id": "l14s2",
-			"type": "text",
-			"text": "**Stamp duty (Part I)**\ntax on certain legal instruments (contracts, leases, cheques…)",
-			"x": 900,
-			"y": 3420,
-			"width": 460,
-			"height": 170
-		},
-		{
-			"id": "l14",
-			"type": "text",
-			"text": "## L14 · Special privileges II + Stamp Duty I\nWed 11 Nov · Revenue Code Ch. 6",
-			"x": 400,
-			"y": 3325,
-			"width": 380,
-			"height": 160,
-			"color": "1"
-		},
-		{
-			"id": "l15s1",
-			"type": "text",
-			"text": "**Stamp duty (Part II)**",
-			"x": 900,
-			"y": 3740,
-			"width": 460,
-			"height": 170
-		},
-		{
-			"id": "l15s2",
-			"type": "text",
-			"text": "**Wrap-up**\ntaxation over the business life cycle · tax ethics · current issues (if time allows)",
-			"x": 900,
-			"y": 3940,
-			"width": 460,
-			"height": 170
-		},
-		{
-			"id": "l15",
-			"type": "text",
-			"text": "## L15 · Stamp Duty II + wrap-up\nWed 18 Nov",
-			"x": 400,
-			"y": 3845,
-			"width": 380,
-			"height": 160,
-			"color": "1"
-		},
-		{
-			"id": "root",
-			"type": "text",
-			"x": -80,
-			"y": 1980,
-			"width": 400,
-			"height": 280,
-			"text": "# BA202 Final\n**55%** of the grade · **Tue 8 Dec, 09:00–12:00**\nLectures 8–15 · his section 026401 = Wednesdays 09–12\nMidterm style: MCQ with 'which is NOT' stems; A4 sheet allowed\nLesson from M1: find out what's ON the paper before drilling"
-		},
-		{
-			"id": "carry",
-			"type": "text",
-			"x": -80,
-			"y": 2300,
-			"width": 400,
-			"height": 260,
-			"text": "⚠ **Maybe carried over from the midterm**\npetroleum income tax · special regimes (SME, BOI, DTAs) = L6–L7\nshe ran ~1 session behind before the midterm\n→ were they ON the midterm? If not, they may land here. Ask Korn.",
-			"color": "2"
-		},
-		{
-			"id": "res",
-			"type": "text",
-			"x": -80,
-			"y": 2590,
-			"width": 400,
-			"height": 260,
-			"text": "**Resources**\nDrive (a senior's, in `~/Desktop/pastpapers/BA202/`):\n· `Tax_Final.pdf` = a senior's FINAL cheat sheet (IHT, L&B…)\n· `Taxation SheetCheat.pdf` = the indirect-tax half\nNo past final PAPER in the folder.\nHer slides: Google Classroom → Korn sends them",
-			"color": "5"
-		},
-		{
-			"id": "outline",
-			"type": "file",
-			"file": "study/outlines/BA202 Course Outline.pdf",
-			"x": -700,
-			"y": 1780,
-			"width": 520,
-			"height": 680
-		},
-		{
-			"id": "outlinecap",
-			"type": "text",
-			"text": "**Main course outline**\nwhat this map was built against",
-			"x": -700,
-			"y": 1670,
-			"width": 520,
-			"height": 90
-		}
+	"nodes":[
+		{"id":"legend","type":"text","x":0,"y":-280,"width":460,"height":210,"text":"**Legend**\n🟩 done · 🟨 now · ⬜ taught, not studied · 🟥 not taught yet · 🟧 shaky (see the ⚠ line)\nBuilt from the COURSE OUTLINE only (27 Oct). Leaves fill in as Korn sends each lecture's slides.\n📥 Slides in: L8 · L9 (27 Oct) · 🎥 audio: L8–L11 downloading, transcripts pending\nFiles: `~/Desktop/BA202/final/`\nEvery tax answers 5 questions: who pays · on what · how much · who's exempt · when/how it's filed"},
+		{"id":"l8s1","type":"text","text":"**Who's in scope (s.11): three groups**\n① Thai nationality, incl. Thai juristic persons (registered in TH · >50% Thai shareholders · >50% Thai management)\n② non-Thai with a domicile in Thailand, wherever the asset is\n③ non-Thai receiving an asset SITUATED in Thailand\nthe RECIPIENT pays","x":900,"y":0,"width":460,"height":230},
+		{"id":"l8s2","type":"text","text":"**What's taxed + how it's valued (s.12, s.15)**\nimmovable property · listed securities · deposits / money · registered vehicles · others by Royal Decree\nvalue ON THE DATE RECEIVED: land = Land Code appraisal − third-party rights · listed shares = SET closing price that day · foreign currency at the Revenue Dept rate\nthen minus the liabilities taken on with it","x":900,"y":260,"width":460,"height":220},
+		{"id":"l8s3","type":"text","text":"**How much + procedure**\nonly the part ABOVE THB 100M is taxed (s.12)\n⬜ rates, reductions, exemptions, filing deadline = IMAGE slides → read in the study block\ntaxpayer: calculate → file → pay · authority: audit → collect (sanctions) → refund · appeals → Tax Court\nhistory: in 2476, repealed 2487, back via the 2015 Act","x":900,"y":510,"width":460,"height":240},
+		{"id":"l8","type":"text","text":"## L8 · Inheritance Tax (IHT)\nWed 30 Sep · Inheritance Tax Act B.E. 2558 (2015), in force 2 Feb 2016\n📥 slides: main (81 pp) + examples (21 pp, image-only)","x":400,"y":295,"width":380,"height":160},
+		{"id":"l9s1","type":"text","text":"**Land & Building Tax** (Act B.E. 2562 / 2019) · collected by the LOCAL government\ntax = pre-assessed (appraised) value × actual rate\nuse categories + ceilings: agriculture max 0.15% · residential · other max 1.2% · empty/unused max 1.2%, +0.3% every 3 vacant years, cap 3%\nmixed use → tax in proportion · taxpayer = owner OR possessor (น.ส.3)\nassessment form within FEB · pay within APRIL · refund claim within 3 years\n⬜ residential rates + exemptions = image slides","x":900,"y":900,"width":460,"height":290},
+		{"id":"l9s2","type":"text","text":"**Signboard Tax** (Act B.E. 2510 / 1967, amended 2534 / 1991) · local authorities, Ministry of Interior\ntaxed: signs for running a business or advertising · 13 exemptions\n⬜ sign types, rates, the 13 exemptions = image slides + the example set","x":900,"y":1220,"width":460,"height":170},
+		{"id":"l9","type":"text","text":"## L9 · Land & Building Tax + Signboard Tax\nWed 7 Oct · 📥 slides: L&B (74 pp) · signboard (55 pp) + example (14 pp, image-only)","x":400,"y":1065,"width":380,"height":160},
+		{"id":"l10s1","type":"text","text":"**Indirect tax: the frame**\ncollected along the chain, borne by the customer · how it differs from direct tax","x":900,"y":1540,"width":460,"height":170},
+		{"id":"l10s2","type":"text","text":"**VAT**\nsale of goods, services, imports · collected at every stage · output tax − input tax\n⬜ registration, rates, 0% vs exempt: waiting for the slides","x":900,"y":1740,"width":460,"height":170},
+		{"id":"l10","type":"text","text":"## L10 · Indirect taxes overview + VAT\nWed 14 Oct · Revenue Code Ch. 4","x":400,"y":1645,"width":380,"height":160},
+		{"id":"l11s1","type":"text","text":"**SBT**\nnamed businesses instead of VAT: banking/finance, selling immovable property…\n⬜ which businesses, rates, SBT vs VAT trap: waiting for the slides","x":900,"y":2060,"width":460,"height":170},
+		{"id":"l11","type":"text","text":"## L11 · Specific Business Tax (SBT)\nWed 21 Oct · Revenue Code Ch. 5","x":400,"y":2065,"width":380,"height":160},
+		{"id":"l12s1","type":"text","text":"**Excise**\ngoods/services with health, social or environmental harm (alcohol, tobacco, sugar drinks…)\n⬜ how it's calculated: after class","x":900,"y":2380,"width":460,"height":170},
+		{"id":"l12","type":"text","text":"## L12 · Excise Duty\nWed 28 Oct (TOMORROW)","x":400,"y":2385,"width":380,"height":160,"color":"1"},
+		{"id":"l13s1","type":"text","text":"**Customs duty**\nimports and exports","x":900,"y":2700,"width":460,"height":170},
+		{"id":"l13s2","type":"text","text":"**Special privileges (Part I)**\ninvestment laws (BOI) · GSP · FTAs · ASEAN · EU customs union","x":900,"y":2900,"width":460,"height":170},
+		{"id":"l13","type":"text","text":"## L13 · Customs Duty + Special privileges I\nWed 4 Nov · Customs Act B.E. 2560 (2017)","x":400,"y":2805,"width":380,"height":160,"color":"1"},
+		{"id":"l14s1","type":"text","text":"**Special privileges (Part II)**","x":900,"y":3220,"width":460,"height":170},
+		{"id":"l14s2","type":"text","text":"**Stamp duty (Part I)**\ntax on certain legal instruments (contracts, leases, cheques…)","x":900,"y":3420,"width":460,"height":170},
+		{"id":"l14","type":"text","text":"## L14 · Special privileges II + Stamp Duty I\nWed 11 Nov · Revenue Code Ch. 6","x":400,"y":3325,"width":380,"height":160,"color":"1"},
+		{"id":"l15s1","type":"text","text":"**Stamp duty (Part II)**","x":900,"y":3740,"width":460,"height":170},
+		{"id":"l15s2","type":"text","text":"**Wrap-up**\ntaxation over the business life cycle · tax ethics · current issues (if time allows)","x":900,"y":3940,"width":460,"height":170},
+		{"id":"l15","type":"text","text":"## L15 · Stamp Duty II + wrap-up\nWed 18 Nov","x":400,"y":3845,"width":380,"height":160,"color":"1"},
+		{"id":"root","type":"text","x":-80,"y":1980,"width":400,"height":280,"text":"# BA202 Final\n**55%** of the grade · **Tue 8 Dec, 09:00–12:00**\nLectures 8–15 · his section 026401 = Wednesdays 09–12\nMidterm style: MCQ with 'which is NOT' stems; A4 sheet allowed\nLesson from M1: find out what's ON the paper before drilling"},
+		{"id":"carry","type":"text","x":-80,"y":2300,"width":400,"height":260,"text":"⚠ **Maybe carried over from the midterm**\npetroleum income tax · special regimes (SME, BOI, DTAs) = L6–L7\nshe ran ~1 session behind before the midterm\n→ were they ON the midterm? If not, they may land here. Ask Korn.","color":"2"},
+		{"id":"res","type":"text","x":-80,"y":2590,"width":400,"height":260,"text":"**Resources**\nDrive (a senior's, in `~/Desktop/pastpapers/BA202/`):\n· `Tax_Final.pdf` = a senior's FINAL cheat sheet (IHT, L&B…)\n· `Taxation SheetCheat.pdf` = the indirect-tax half\nNo past final PAPER in the folder.\nHer slides: Google Classroom → Korn sends them","color":"5"},
+		{"id":"outline","type":"file","file":"study/outlines/BA202 Course Outline.pdf","x":-700,"y":1780,"width":520,"height":680},
+		{"id":"outlinecap","type":"text","text":"**Main course outline**\nwhat this map was built against","x":-700,"y":1670,"width":520,"height":90}
 	],
-	"edges": [
-		{
-			"id": "el8l8s1",
-			"fromNode": "l8",
-			"fromSide": "right",
-			"toNode": "l8s1",
-			"toSide": "left"
-		},
-		{
-			"id": "el8l8s2",
-			"fromNode": "l8",
-			"fromSide": "right",
-			"toNode": "l8s2",
-			"toSide": "left"
-		},
-		{
-			"id": "el8l8s3",
-			"fromNode": "l8",
-			"fromSide": "right",
-			"toNode": "l8s3",
-			"toSide": "left"
-		},
-		{
-			"id": "erootl8",
-			"fromNode": "root",
-			"fromSide": "right",
-			"toNode": "l8",
-			"toSide": "left"
-		},
-		{
-			"id": "el9l9s1",
-			"fromNode": "l9",
-			"fromSide": "right",
-			"toNode": "l9s1",
-			"toSide": "left"
-		},
-		{
-			"id": "el9l9s2",
-			"fromNode": "l9",
-			"fromSide": "right",
-			"toNode": "l9s2",
-			"toSide": "left"
-		},
-		{
-			"id": "erootl9",
-			"fromNode": "root",
-			"fromSide": "right",
-			"toNode": "l9",
-			"toSide": "left"
-		},
-		{
-			"id": "el10l10s1",
-			"fromNode": "l10",
-			"fromSide": "right",
-			"toNode": "l10s1",
-			"toSide": "left"
-		},
-		{
-			"id": "el10l10s2",
-			"fromNode": "l10",
-			"fromSide": "right",
-			"toNode": "l10s2",
-			"toSide": "left"
-		},
-		{
-			"id": "erootl10",
-			"fromNode": "root",
-			"fromSide": "right",
-			"toNode": "l10",
-			"toSide": "left"
-		},
-		{
-			"id": "el11l11s1",
-			"fromNode": "l11",
-			"fromSide": "right",
-			"toNode": "l11s1",
-			"toSide": "left"
-		},
-		{
-			"id": "erootl11",
-			"fromNode": "root",
-			"fromSide": "right",
-			"toNode": "l11",
-			"toSide": "left"
-		},
-		{
-			"id": "el12l12s1",
-			"fromNode": "l12",
-			"fromSide": "right",
-			"toNode": "l12s1",
-			"toSide": "left"
-		},
-		{
-			"id": "erootl12",
-			"fromNode": "root",
-			"fromSide": "right",
-			"toNode": "l12",
-			"toSide": "left"
-		},
-		{
-			"id": "el13l13s1",
-			"fromNode": "l13",
-			"fromSide": "right",
-			"toNode": "l13s1",
-			"toSide": "left"
-		},
-		{
-			"id": "el13l13s2",
-			"fromNode": "l13",
-			"fromSide": "right",
-			"toNode": "l13s2",
-			"toSide": "left"
-		},
-		{
-			"id": "erootl13",
-			"fromNode": "root",
-			"fromSide": "right",
-			"toNode": "l13",
-			"toSide": "left"
-		},
-		{
-			"id": "el14l14s1",
-			"fromNode": "l14",
-			"fromSide": "right",
-			"toNode": "l14s1",
-			"toSide": "left"
-		},
-		{
-			"id": "el14l14s2",
-			"fromNode": "l14",
-			"fromSide": "right",
-			"toNode": "l14s2",
-			"toSide": "left"
-		},
-		{
-			"id": "erootl14",
-			"fromNode": "root",
-			"fromSide": "right",
-			"toNode": "l14",
-			"toSide": "left"
-		},
-		{
-			"id": "el15l15s1",
-			"fromNode": "l15",
-			"fromSide": "right",
-			"toNode": "l15s1",
-			"toSide": "left"
-		},
-		{
-			"id": "el15l15s2",
-			"fromNode": "l15",
-			"fromSide": "right",
-			"toNode": "l15s2",
-			"toSide": "left"
-		},
-		{
-			"id": "erootl15",
-			"fromNode": "root",
-			"fromSide": "right",
-			"toNode": "l15",
-			"toSide": "left"
-		},
-		{
-			"id": "erootcarry",
-			"fromNode": "root",
-			"fromSide": "bottom",
-			"toNode": "carry",
-			"toSide": "top"
-		},
-		{
-			"id": "erootres",
-			"fromNode": "carry",
-			"fromSide": "bottom",
-			"toNode": "res",
-			"toSide": "top"
-		},
-		{
-			"id": "eoutline",
-			"fromNode": "outline",
-			"fromSide": "right",
-			"toNode": "root",
-			"toSide": "left",
-			"label": "source"
-		}
+	"edges":[
+		{"id":"el8l8s1","fromNode":"l8","fromSide":"right","toNode":"l8s1","toSide":"left"},
+		{"id":"el8l8s2","fromNode":"l8","fromSide":"right","toNode":"l8s2","toSide":"left"},
+		{"id":"el8l8s3","fromNode":"l8","fromSide":"right","toNode":"l8s3","toSide":"left"},
+		{"id":"erootl8","fromNode":"root","fromSide":"right","toNode":"l8","toSide":"left"},
+		{"id":"el9l9s1","fromNode":"l9","fromSide":"right","toNode":"l9s1","toSide":"left"},
+		{"id":"el9l9s2","fromNode":"l9","fromSide":"right","toNode":"l9s2","toSide":"left"},
+		{"id":"erootl9","fromNode":"root","fromSide":"right","toNode":"l9","toSide":"left"},
+		{"id":"el10l10s1","fromNode":"l10","fromSide":"right","toNode":"l10s1","toSide":"left"},
+		{"id":"el10l10s2","fromNode":"l10","fromSide":"right","toNode":"l10s2","toSide":"left"},
+		{"id":"erootl10","fromNode":"root","fromSide":"right","toNode":"l10","toSide":"left"},
+		{"id":"el11l11s1","fromNode":"l11","fromSide":"right","toNode":"l11s1","toSide":"left"},
+		{"id":"erootl11","fromNode":"root","fromSide":"right","toNode":"l11","toSide":"left"},
+		{"id":"el12l12s1","fromNode":"l12","fromSide":"right","toNode":"l12s1","toSide":"left"},
+		{"id":"erootl12","fromNode":"root","fromSide":"right","toNode":"l12","toSide":"left"},
+		{"id":"el13l13s1","fromNode":"l13","fromSide":"right","toNode":"l13s1","toSide":"left"},
+		{"id":"el13l13s2","fromNode":"l13","fromSide":"right","toNode":"l13s2","toSide":"left"},
+		{"id":"erootl13","fromNode":"root","fromSide":"right","toNode":"l13","toSide":"left"},
+		{"id":"el14l14s1","fromNode":"l14","fromSide":"right","toNode":"l14s1","toSide":"left"},
+		{"id":"el14l14s2","fromNode":"l14","fromSide":"right","toNode":"l14s2","toSide":"left"},
+		{"id":"erootl14","fromNode":"root","fromSide":"right","toNode":"l14","toSide":"left"},
+		{"id":"el15l15s1","fromNode":"l15","fromSide":"right","toNode":"l15s1","toSide":"left"},
+		{"id":"el15l15s2","fromNode":"l15","fromSide":"right","toNode":"l15s2","toSide":"left"},
+		{"id":"erootl15","fromNode":"root","fromSide":"right","toNode":"l15","toSide":"left"},
+		{"id":"erootcarry","fromNode":"root","fromSide":"bottom","toNode":"carry","toSide":"top"},
+		{"id":"erootres","fromNode":"carry","fromSide":"bottom","toNode":"res","toSide":"top"},
+		{"id":"eoutline","fromNode":"outline","fromSide":"right","toNode":"root","toSide":"left","label":"source"}
 	]
 }
