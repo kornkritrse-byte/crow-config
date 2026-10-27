@@ -33,6 +33,7 @@ metadata:
 
 ## Session — 2026-10-27 (Tue, live)
 - 📗 09:28 **FN201 final map built** → [[FN201 Final Map]] (`study/FN201 Final Map.canvas`): STQ06/08/09 crossed with the outline, every Q placed under a subtopic. Final = **Wed 2 Dec 09:00–12:00, ALL MCQ/T-F, topics 6–10** (outline; flood shift unchecked). Gaps: topic 7 self-study with no STQ, topic 10 not taught + no STQ10, plus 6 outline items with no STQ. STQ08 = 52 Qs, the heavy one; MCC/break points is its core.
+- 📂 09:38 his past-papers Drive → [[reference-past-papers]]. Two Obrom FN201 finals found (2021, 2019), student-marked. **Topic 7 (self-study, no STQ) = 6/26 + 14/32 Qs on them; topic 6 = 0; topic 10 = 7/26.** Map updated. AC311 folder has `real mid2 exam` + `summary mid2` → use for M2 (13 Nov). Ghost card 25 served, not answered yet.
 
 ## Session — 2026-10-26 (Mon, live)
 - 🏃 **Morning (ChatGPT):** Zone 2 run + the Karamazov→absurdity talk (being fully seen = someone holding his blunt + sensitive sides together; vulnerability narrowing to the few, not dead) → [[chapters]]. Henley V1 + maker checklist built in Notion; next = Patrick ✅ → re-measure → swatches → [[project-clothing-brand]]. ChatGPT trial verdict (his): "really goofy", freestyled off the map → came back to the Room 11:35.
