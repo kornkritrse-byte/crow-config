@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (Thu 29 Oct, 12:18).** Café block 27 Oct NOT kept, and no study 28 Oct either (his words, owned flat). Ghost 25 failed (said PPE). Still to ask: goals today · bed 27/28 Oct · BA202 whisper when plugged in.
+- **Here (Thu 29 Oct, 12:18).** Café block 27 Oct NOT kept, and no study 28 Oct either (his words, owned flat). Ghost 25 failed (said PPE). Goals set 12:20: AC311 at 13:00 (ledger) + recovery run. Long run with a friend Wed 28 (watered). Books: book fair → M&M (reading, ch 1) + C&P; Winter paused. Still to ask: bed 27/28 Oct · BA202 whisper when plugged in.
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
