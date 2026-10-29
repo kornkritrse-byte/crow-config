@@ -107,3 +107,4 @@ metadata:
 - 2026-10-29 12:20 | training | Long run with a friend, Wed 28 Oct (reported 29 Oct)
 - 2026-10-29 13:41 | goal | AC311 block from 13:00 (finish PPE branch 6)
 - 2026-10-29 13:41 | ledger | AC311 13:00 block kept: PPE branch 6 closed
+- 2026-10-29 14:01 | ledger | AC311 branch 7 derecognition closed (before the break, his call)

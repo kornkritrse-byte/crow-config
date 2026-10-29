@@ -113,11 +113,12 @@
   {
    "id": "n22",
    "type": "text",
-   "text": "**7. Derecognition**\ngain/loss = proceeds − carrying amount\nnever revenue · s99–100",
+   "text": "**7. Derecognition** ✓ 29 Oct\ngain/loss = proceeds − carrying amount\nnever revenue · s99–100\n29 Oct: sale mid-year ✓ (half-yr dep, CA 275,000, gain 5,000) · ⚠ P&L not revenue ✓ but wobbled to OCI (carded) · revaluation surplus → retained earnings direct",
    "x": 880,
    "y": 2880,
    "width": 380,
-   "height": 150
+   "height": 150,
+   "color": "4"
   },
   {
    "id": "n24",
