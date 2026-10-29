@@ -35,6 +35,7 @@ metadata:
 - 📘 13:04–14:01 **AC311 BRANCH 6 + BRANCH 7 CLOSED** (goal #7 ✓, both ledger lines kept). 6 cards: estimate reasoning, held-for-sale, depletion ×2, DDB yr 2, P&L-vs-OCI wobble. Ghost 25 failed.
 - Café 27 + 28 Oct NOT kept · long run 28 Oct (watered) · bed 28 ✓ · M&M ch 2 → `~/Korn/Commonplace/Master and Margarita.md` · new rule [[feedback-numbers-as-digits]].
 - 📘 15:06–15:50 **AC311 intangibles, first pass, all blocks touched (voice)**. ✓ R&D, no reinstatement, active market. ⚠ definition, goodwill (called it a gain, then a loss), impairment yearly, home-built brand flipped, install cost subtracted, business-combination intangibles, gov grant. 8 cards (all due 1 Nov) + ghost 26 failed (rental cars = inventory, 3rd miss) → [[AC311 Midterm 2 Map]].
+- 🗓️ 16:02 **Sat 31 Oct: SKIPPING AC311 session 11 (impairment, untaught)** for a café entries block → Samneang with Patrick → church (friend's invite). Fri 30 = the boys. Crow flagged: impairment has no deck yet + class is where M2's time gets announced → get slides/notes/announcements from a friend.
 - 🔊 15:03 voice check: Room, whisper (4712) and Kokoro (4713) all up; Kokoro 0.33–0.40 s per sentence, whisper 1.9 s on a test clip, transcript clean.
 
 ## Session — 2026-10-27 (Tue, live)
