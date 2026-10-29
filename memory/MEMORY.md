@@ -50,6 +50,7 @@
 - [Transparency Preference](feedback_transparency.md) — call out when something sounds off, blatantly — Vera's role, no permission needed
 - [Confirm Before Sending](feedback_confirm_before_sending.md) — always confirm before sending calendar invites or emails to other people — no exceptions
 - [Drill Format](feedback_drill_format.md) — teach in SMALL BLOCKS, one open question at a time, correct as he goes — never a full structured explainer up front; question-first forces retrieval, which is where his recognition-not-recall gap actually gets fixed
+- [Numbers as Digits](feedback_numbers_as_digits.md) — in number drills write digits (10,000,000), never spelled out, even in voice replies; givens go in an on-screen block (his ask 29 Oct)
 - [Silent Misses](feedback_silent_misses.md) — Korn ignores suggestions that don't fit instead of saying so; silence ≠ agreement, a "nah, doesn't fit" is all it takes
 - [Session Cohesion](feedback_session_cohesion.md) — read memory at every session start to maintain continuity and consistent character
 - [Open Loop](feedback_open_loop.md) — Korn's sign-off words ("see you"/"good night"/"be back in a bit") trigger saving what he's off to onto the SITREP status line IN THAT TURN (even if Crow sent him); on return ask only about the open gap, never re-ask closed things
