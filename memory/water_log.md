@@ -103,3 +103,4 @@ metadata:
 - 2026-10-26 21:48 | goal | Daily journal
 - 2026-10-26 21:57 | goal | Daily journal
 - 2026-10-27 09:53 | goal | Wake early
+- 2026-10-29 12:17 | goal | Wake early
