@@ -142,3 +142,9 @@ metadata:
 - 2026-10-27 | Reading | open
 - 2026-10-27 | Bed by 23:30 | open
 - 2026-10-27 | AC311 PPE: finish branch 6 (depreciation) | open
+- 2026-10-29 | Wake early | open
+- 2026-10-29 | Morning creative writing | open
+- 2026-10-29 | Moving | open
+- 2026-10-29 | Daily journal | open
+- 2026-10-29 | Reading | open
+- 2026-10-29 | Bed by 23:30 | open
