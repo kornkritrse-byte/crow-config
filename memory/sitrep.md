@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (Tue 27 Oct, 12:31) — off to: the café for the AC311 block (≥2 h, close PPE branch 6; goal #7, ledger).** ASK ON RETURN: plugged in? (→ start BA202 L8–L11 whisper, audio ready in `~/Desktop/BA202/final/`) · then fire the change-in-estimate Q on 'go'. Still not asked: goals beyond #7 · ghost card 25 · bed 26 Oct.
+- **Here (Thu 29 Oct, 12:18).** Café block 27 Oct NOT kept, and no study 28 Oct either (his words, owned flat). Ghost 25 failed (said PPE). Still to ask: goals today · bed 27/28 Oct · BA202 whisper when plugged in.
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
