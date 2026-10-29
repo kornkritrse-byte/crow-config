@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-10-27 09:30 (live). Window holds 27 Oct + 26 Oct ; 25 Oct flushed 27 Oct. Next to flush: 26 Oct.*
+*Last updated: 2026-10-29 15:03 (live). Window holds 29 Oct + 27 Oct ; 26 Oct flushed 29 Oct. Next to flush: 27 Oct.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,22 +27,19 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (Thu 29 Oct, ~15:01) — off to: working out ([voice] "working out", 4 min after "lets keep it up" → AC311 round 2 never started).** ASK ON RETURN: was it the recovery run (goal #8, keep it easy after the 28 Oct long run) or a lift? → water + goals.py done 3/8 · AC311 round 2 still on? · serve ghost card 26 (skipped, he was walking out) · BA202 L8–L11 whisper when plugged in. Closed today: AC311 13:04–14:01 BRANCH 6 + BRANCH 7 CLOSED (goal #7 ✓, both ledger lines kept; 6 cards: estimate reasoning, held-for-sale, depletion ×2, DDB yr 2, P&L-vs-OCI wobble) · café 27 + 28 Oct NOT kept · ghost 25 failed · long run 28 Oct (watered) · bed 28 ✓ · M&M ch 2 → `~/Korn/Commonplace/Master and Margarita.md` · new rule [[feedback-numbers-as-digits]].
+- **Here (Thu 29 Oct, 15:03)** — back 2 min after the [voice] "working out" (maybe a mis-hear). Still open: did he train (recovery run = goal #8, or a lift)? → water + goals.py done · AC311 round 2 · ghost card 26 · BA202 L8–L11 whisper when plugged in.
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
+
+## Session — 2026-10-29 (Thu, live)
+- 📘 13:04–14:01 **AC311 BRANCH 6 + BRANCH 7 CLOSED** (goal #7 ✓, both ledger lines kept). 6 cards: estimate reasoning, held-for-sale, depletion ×2, DDB yr 2, P&L-vs-OCI wobble. Ghost 25 failed.
+- Café 27 + 28 Oct NOT kept · long run 28 Oct (watered) · bed 28 ✓ · M&M ch 2 → `~/Korn/Commonplace/Master and Margarita.md` · new rule [[feedback-numbers-as-digits]].
+- 🔊 15:03 voice check: Room, whisper (4712) and Kokoro (4713) all up; Kokoro 0.33–0.40 s per sentence, whisper 1.9 s on a test clip, transcript clean.
 
 ## Session — 2026-10-27 (Tue, live)
 - 📗 09:28 **FN201 final map built** → [[FN201 Final Map]] (`study/FN201 Final Map.canvas`): STQ06/08/09 crossed with the outline, every Q placed under a subtopic. Final = **Wed 2 Dec 09:00–12:00, ALL MCQ/T-F, topics 6–10** (outline; flood shift unchecked). Gaps: topic 7 self-study with no STQ, topic 10 not taught + no STQ10, plus 6 outline items with no STQ. STQ08 = 52 Qs, the heavy one; MCC/break points is its core.
 - 📂 09:38 his past-papers Drive → [[reference-past-papers]]. Two Obrom FN201 finals found (2021, 2019), student-marked. **Topic 7 (self-study, no STQ) = 6/26 + 14/32 Qs on them; topic 6 = 0; topic 10 = 7/26.** Map updated. AC311 folder has `real mid2 exam` + `summary mid2` → use for M2 (13 Nov). Ghost card 25 served, not answered yet.
 - 🗺️ 09:52 **BA202 + AC313 final maps built** from the outlines → [[BA202 Final Map]] · [[AC313 Final Map]]; every map (incl. AC311, FN201) now embeds its outline PDF (`study/outlines/`). **AC313 final = Mon 23 Nov 09:00** (first of the window; I wrongly called it TBA at 09:45). BA202: his slides + video Drive folders are the same as the midterm ones (saved in [[project-midterms]]); L8–L9 slides pulled, L8–L11 audio downloading to `~/Desktop/BA202/final/`, **whisper held until he's plugged in (64% at 10:12)**. Finals + AC311 M2 put on the Life calendar (red, no notifications). MK201: 'can suck my dick', so no map, don't pitch it. Drive: BA202 has 2 senior final cheat sheets, no paper; AC313 has the 2021 online final (screenshots, no OCR).
-
-## Session — 2026-10-26 (Mon, live)
-- 🏃 **Morning (ChatGPT):** Zone 2 run + the Karamazov→absurdity talk (being fully seen = someone holding his blunt + sensitive sides together; vulnerability narrowing to the few, not dead) → [[chapters]]. Henley V1 + maker checklist built in Notion; next = Patrick ✅ → re-measure → swatches → [[project-clothing-brand]]. ChatGPT trial verdict (his): "really goofy", freestyled off the map → came back to the Room 11:35.
-- 📘 **AC311 lock-in PARTLY kept** (started late; GPT block + Room 11:35–13:22, ~3 h): branch 3 backfilled, branch 5 closed, branch 6 half (methods). 13 misses carded. Pattern: right label, wrong/no NUMBER (263k, share capital 10k, 50k for 30k) + WHICH STATEMENT (gain vs OCI surplus, surplus "recognised on sale" ×2). Positions on the canvas → [[AC311 Midterm 2 Map]]. Skipped lunch.
-- 🏁 **Midterm 1 results (13:25): every subject above the mean**, EL221 59/60, BA202 ~73–75% with zero classes, FN201 "more than half". His lessons: check what's ON the test before drilling; STQ practice is high-yield (FN final STQs out; AC311 has none) → [[project-midterms]].
-- 📚 **Evening build:** nest on the Room's book pile (the ball sits in it), pile 6→10 books centred, thickness from page counts, Times New Roman spines, **36 books with his own spine designs**. Reading now: **Myth of Sisyphus** (heavy) + **Winter of Our Discontent** (light). Siddhartha DROPPED (boring). Next: Master and Margarita → a Dostoevsky (Ivan → C&P or Alyosha → The Idiot, he's sitting with it) → 100 Years retry → [[user-reading-list]]. Also: Room spacing bumped, playlist named "It Gets Bigger".
-- 🌙 **23:21 Sisyphus (reread, early chapter):** the "objective point of view" line → Sol: "what's your exit?" → his: work, running, studying, the brand. Vera: the real one is the doomscroll on empty days. Open, his to answer. Crow spoiled the ending → [[feedback-no-spoilers]] · → [[chapters]]
-- 🌸 Goals: wake ✓ · creative writing ✓ · reading ✓ · journal ✓ · training ½ (run ✓, no lift) · AC311 at 10:00 ✗ (late) · bed 23:30 pending.
 
 ## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. **AC311 Midterm 2 (sessions 8–11, PPE + intangibles, 30%) is next: **Fri 13 Nov** (Korn, 20 Oct; time TBC). Session 11 (31 Oct, impairment TAS 36) falls before it, so assume impairment is IN scope. Final 28 Nov.**
 
