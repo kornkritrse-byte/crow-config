@@ -103,12 +103,12 @@
   {
    "id": "n18",
    "type": "text",
-   "text": "**6. Depreciation** ✓ 29 Oct (DDB/SYD recheck left)\ncomponents · depreciable amount = cost − residual · s69–91\n29 Oct: components ✓ (plane 5,333,333)",
+   "text": "**6. Depreciation** ✓ CLOSED 29 Oct\ncomponents · depreciable amount = cost − residual · s69–91\n29 Oct: components ✓ (plane 5,333,333)\n29 Oct: ⚠ DDB yr 2 missed (112,500 vs 120,000), fixed on a fresh Q + floor ✓ (20,000) · SYD ✓ (n(n+1)/2, × cost − residual) · open: does the lecturer teach the DDB→SL switch? check summary mid2",
    "x": 880,
    "y": 2520,
    "width": 380,
    "height": 150,
-   "color": "3"
+   "color": "4"
   },
   {
    "id": "n22",
