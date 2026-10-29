@@ -153,11 +153,12 @@
 		{
 			"id": "n25",
 			"type": "text",
-			"text": "**Ways in**\npurchase · business combination · internal · gov grant · exchange",
+			"text": "**Ways in**\npurchase · business combination · internal · gov grant · exchange\n⚠ 29 Oct: purchase logic ✓ (training out) but SUBTRACTED install 50k → 950k vs 1,050,000 (carded) · business combination: lumped target's customer list into goodwill (carded) → numbers: goodwill 2M ✓ after calling it a 'loss' first · gov grant: said 'expense' (carded: FV + deferred income, or nominal)",
 			"x": 880,
 			"y": 3330,
 			"width": 380,
-			"height": 150
+			"height": 150,
+			"color": "2"
 		},
 		{
 			"id": "n28",
