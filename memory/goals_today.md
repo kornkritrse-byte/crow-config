@@ -154,7 +154,7 @@ metadata:
 - 2026-10-30 | Morning creative writing | open
 - 2026-10-30 | Moving | open
 - 2026-10-30 | Daily journal | open
-- 2026-10-30 | Reading | open
+- 2026-10-30 | Reading | done
 - 2026-10-30 | Bed by 23:30 | open
 - 2026-10-30 | Brand talk with Patrick | open
 - 2026-10-30 | Band strength work | open
