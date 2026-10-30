@@ -111,3 +111,4 @@ metadata:
 - 2026-10-30 13:14 | goal | Wake early
 - 2026-10-30 13:14 | goal | Recovery run (after Wed's long run)
 - 2026-10-30 13:14 | training | Thu 29 Oct run: 10K @ 5:23/km in the new Superblast 3 (planned as a short recovery run)
+- 2026-10-30 13:23 | ghost | AC311: Equipment cash price 250,000; you pay in instalments totalli
