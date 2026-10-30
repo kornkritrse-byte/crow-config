@@ -108,3 +108,6 @@ metadata:
 - 2026-10-29 13:41 | goal | AC311 block from 13:00 (finish PPE branch 6)
 - 2026-10-29 13:41 | ledger | AC311 13:00 block kept: PPE branch 6 closed
 - 2026-10-29 14:01 | ledger | AC311 branch 7 derecognition closed (before the break, his call)
+- 2026-10-30 13:14 | goal | Wake early
+- 2026-10-30 13:14 | goal | Recovery run (after Wed's long run)
+- 2026-10-30 13:14 | training | Thu 29 Oct run: 10K @ 5:23/km in the new Superblast 3 (planned as a short recovery run)

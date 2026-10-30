@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-10-29 15:50 (live). Window holds 29 Oct + 27 Oct ; 26 Oct flushed 29 Oct. Next to flush: 27 Oct.*
+*Last updated: 2026-10-30 13:13 (live). Window holds 29 Oct + 27 Oct ; 26 Oct flushed 29 Oct. Next to flush: 27 Oct.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,10 +27,12 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (Thu 29 Oct, ~16:16) — off to: chilling off-screen, then the short recovery run at end of day.** ASK ON RETURN: run done? → water + goals.py done (goal #8) + ledger line · **BA202 whisper RESUMED 16:16** (check it finished + spot-check topics, log `~/Desktop/BA202/final/_whisper_run.log`). Closed today: AC311 branch 6 + 7 + intangibles first pass (8 cards due 1 Nov) · ghost 26 failed · Sat 31 plan ledgered (skip class → café entries → Samneang → church; he's got friends for the impairment notes, ask on Sun what they held).
+- **Here (Fri 30 Oct, 13:13, at a café, laptop only).** Closed on return: run done (10K @ 5:23 in the new Superblast 3, meant as a short recovery run: ledger [~], watered) · BA202 whisper L8–L11 finished 29 Oct 18:56.
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
+## Session — 2026-10-30 (Fri, live)
+- 📝 10:05–11:04 EL221 Unit 9: B/C/G/H paraphrased from a classmate group's doc (the uni-account audio was unreachable, Crow flagged it as copying), E checked 8/8, mission-statement task (Nike/Patagonia/Spotify + Tesla, Patagonia = most creative). Ghost 27 served, unanswered.
 ## Session — 2026-10-29 (Thu, live)
 - 📘 13:04–14:01 **AC311 BRANCH 6 + BRANCH 7 CLOSED** (goal #7 ✓, both ledger lines kept). 6 cards: estimate reasoning, held-for-sale, depletion ×2, DDB yr 2, P&L-vs-OCI wobble. Ghost 25 failed.
 - Café 27 + 28 Oct NOT kept · long run 28 Oct (watered) · bed 28 ✓ · M&M ch 2 → `~/Korn/Commonplace/Master and Margarita.md` · new rule [[feedback-numbers-as-digits]].
