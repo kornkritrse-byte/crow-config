@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (Fri 30 Oct, 13:13, at a café, laptop only).** Closed on return: run done (10K @ 5:23 in the new Superblast 3, meant as a short recovery run: ledger [~], watered) · BA202 whisper L8–L11 finished 29 Oct 18:56.
+- **AWAY (Fri 30 Oct, ~13:54) — off to: reading Master and Margarita at the café, back to talk about the book.** ASK ON RETURN: which page/chapter did he reach (NO SPOILERS past it) → goals.py done 5 · bed by 23:30 on 29 Oct (goals.py done|miss 6 2026-10-29, still unasked). Closed today: run (10K, ledger [~]) · BA202 whisper finished · AC311 overdue concept cards (calc 39/41/42 held for Sat).
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
