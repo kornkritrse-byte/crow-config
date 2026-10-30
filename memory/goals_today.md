@@ -150,3 +150,9 @@ metadata:
 - 2026-10-29 | Bed by 23:30 | open
 - 2026-10-29 | AC311 block from 13:00 (finish PPE branch 6) | done
 - 2026-10-29 | Recovery run (after Wed's long run) | open
+- 2026-10-30 | Wake early | open
+- 2026-10-30 | Morning creative writing | open
+- 2026-10-30 | Moving | open
+- 2026-10-30 | Daily journal | open
+- 2026-10-30 | Reading | open
+- 2026-10-30 | Bed by 23:30 | open
