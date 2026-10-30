@@ -32,7 +32,9 @@ metadata:
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
 ## Session — 2026-10-30 (Fri, live)
-- 📝 10:05–11:04 EL221 Unit 9: B/C/G/H paraphrased from a classmate group's doc (the uni-account audio was unreachable, Crow flagged it as copying), E checked 8/8, mission-statement task (Nike/Patagonia/Spotify + Tesla, Patagonia = most creative). Ghost 27 served, unanswered.
+- 📝 10:05–11:04 EL221 Unit 9: B/C/G/H paraphrased from a classmate group's doc (the uni-account audio was unreachable, Crow flagged it as copying), E checked 8/8, mission-statement task (Nike/Patagonia/Spotify + Tesla, Patagonia = most creative). Ghost 27 failed 13:17.
+- 🏃 Run 29 Oct = 10K @ 5:23 in the new Superblast 3 (planned as an easy recovery run): ledger [~], watered, told him to rest/walk today. Goals set 13:15: brand talk with Patrick · band strength · recovery stretches + rolling.
+- 📘 13:17–13:53 **AC311 overdue cards at the café (laptop only, no paper)**. ✓ 28, 31, 36, 37 + basket/deferred variants. ✗ 27 (ratio), 29 (interest payable AGAIN), 33 (right answer, wrong reason), 34 (expensed fees AGAIN), 35 (construction interest), 38 (reval loss → OCI AGAIN), 40 (surplus "goes to the buyer"). +2 cards (57 premium basket, donated-equipment credits). Pattern: the credit side / where it lands (equity · P&L · OCI) slides. **Calc cards 39, 41, 42 held for Sat 31 café (paper).**
 ## Session — 2026-10-29 (Thu, live)
 - 📘 13:04–14:01 **AC311 BRANCH 6 + BRANCH 7 CLOSED** (goal #7 ✓, both ledger lines kept). 6 cards: estimate reasoning, held-for-sale, depletion ×2, DDB yr 2, P&L-vs-OCI wobble. Ghost 25 failed.
 - Café 27 + 28 Oct NOT kept · long run 28 Oct (watered) · bed 28 ✓ · M&M ch 2 → `~/Korn/Commonplace/Master and Margarita.md` · new rule [[feedback-numbers-as-digits]].
