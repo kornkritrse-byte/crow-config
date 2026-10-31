@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-10-30 13:13 (live). Window holds 29 Oct + 27 Oct ; 26 Oct flushed 29 Oct. Next to flush: 27 Oct.*
+*Last updated: 2026-10-31 10:26 (live). Window holds 31 Oct + 30 Oct ; 29 + 27 Oct flushed 31 Oct. Next to flush: 30 Oct.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -31,6 +31,11 @@ metadata:
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
+## Session — 2026-10-31 (Sat, live)
+- 🧵 10:11–10:25 **Samneang at the café with Patrick.** Relisted deadlines + missing cards. HQ cleanup (his ask): Mockup Archive = only the 3 folders + Bottoms; trashed V0 sheet, duplicate Henley-sheet card, 2 blank cards; proxy card → Done (measured 22 Oct; Crow wrongly said unmeasured). **His call: Henley Design Sheet V1 = current**, old spec marked outdated. Flagged: V1's thin jersey vs Core Rule 1 "weighted". → [[project-clothing-brand]]
+- 🌸 Goals: Samneang timeline · colour palette · 3 brand words. Wake early ✓. Training: hoops 18:00 replaces lift + easy 35′; Sun 1 Nov long 13 km ledgered.
+- 📘 AC311 café entries block NOT kept (ledger [-]); calc ghosts 39/41/42 unserved. After this: priest (friend's invite) → hoops 18:00.
+
 ## Session — 2026-10-30 (Fri, live)
 - 📝 10:05–11:04 EL221 Unit 9: B/C/G/H paraphrased from a classmate group's doc (the uni-account audio was unreachable, Crow flagged it as copying), E checked 8/8, mission-statement task (Nike/Patagonia/Spotify + Tesla, Patagonia = most creative). Ghost 27 failed 13:17.
 - 🏃 Run 29 Oct = 10K @ 5:23 in the new Superblast 3 (planned as an easy recovery run): ledger [~], watered, told him to rest/walk today. Goals set 13:15: brand talk with Patrick · band strength · recovery stretches + rolling.
@@ -38,18 +43,6 @@ metadata:
 - 📖 15:14–15:24 M&M chs 3–6 read (reading ✓). Theme talk by question: intellectuals' frameworks cloud the truth, it goes to the no-credibility poet, Ivan moves from borrowed beliefs to his own eyes → `~/Korn/Commonplace/Master and Margarita.md`. **New rule: ask him questions on books, don't hand readings over** → [[feedback-no-spoilers]].
 - 16:10 a friend called him with bad news (no details given); he dropped the borrowing-costs start (TAS 23 WAAE, the real mid2 paper's big Q) to sit with it, says he's ok. Don't pry; if he brings it up, listen first.
 - 🧵 16:13–16:23 rap recs (Spotify taste pull: Kendrick "Art of Peer Pressure" lead) · **Samneang: built HQ 🗓️ Timeline page** (calendar view of Tasks, exam weeks blocked) + undone list (17 + 10 suggested) for **Sat 31 with Patrick: owners first, then dates → send to Crow** (ledgered) → [[project-clothing-brand]]. Flagged IG password in plain text on HQ.
-## Session — 2026-10-29 (Thu, live)
-- 📘 13:04–14:01 **AC311 BRANCH 6 + BRANCH 7 CLOSED** (goal #7 ✓, both ledger lines kept). 6 cards: estimate reasoning, held-for-sale, depletion ×2, DDB yr 2, P&L-vs-OCI wobble. Ghost 25 failed.
-- Café 27 + 28 Oct NOT kept · long run 28 Oct (watered) · bed 28 ✓ · M&M ch 2 → `~/Korn/Commonplace/Master and Margarita.md` · new rule [[feedback-numbers-as-digits]].
-- 📘 15:06–15:50 **AC311 intangibles, first pass, all blocks touched (voice)**. ✓ R&D, no reinstatement, active market. ⚠ definition, goodwill (called it a gain, then a loss), impairment yearly, home-built brand flipped, install cost subtracted, business-combination intangibles, gov grant. 8 cards (all due 1 Nov) + ghost 26 failed (rental cars = inventory, 3rd miss) → [[AC311 Midterm 2 Map]].
-- 🗓️ 16:02 **Sat 31 Oct: SKIPPING AC311 session 11 (impairment, untaught)** for a café entries block → Samneang with Patrick → church (friend's invite). Fri 30 = the boys. Crow flagged: impairment has no deck yet + class is where M2's time gets announced → get slides/notes/announcements from a friend.
-- 🔊 15:03 voice check: Room, whisper (4712) and Kokoro (4713) all up; Kokoro 0.33–0.40 s per sentence, whisper 1.9 s on a test clip, transcript clean.
-
-## Session — 2026-10-27 (Tue, live)
-- 📗 09:28 **FN201 final map built** → [[FN201 Final Map]] (`study/FN201 Final Map.canvas`): STQ06/08/09 crossed with the outline, every Q placed under a subtopic. Final = **Wed 2 Dec 09:00–12:00, ALL MCQ/T-F, topics 6–10** (outline; flood shift unchecked). Gaps: topic 7 self-study with no STQ, topic 10 not taught + no STQ10, plus 6 outline items with no STQ. STQ08 = 52 Qs, the heavy one; MCC/break points is its core.
-- 📂 09:38 his past-papers Drive → [[reference-past-papers]]. Two Obrom FN201 finals found (2021, 2019), student-marked. **Topic 7 (self-study, no STQ) = 6/26 + 14/32 Qs on them; topic 6 = 0; topic 10 = 7/26.** Map updated. AC311 folder has `real mid2 exam` + `summary mid2` → use for M2 (13 Nov). Ghost card 25 served, not answered yet.
-- 🗺️ 09:52 **BA202 + AC313 final maps built** from the outlines → [[BA202 Final Map]] · [[AC313 Final Map]]; every map (incl. AC311, FN201) now embeds its outline PDF (`study/outlines/`). **AC313 final = Mon 23 Nov 09:00** (first of the window; I wrongly called it TBA at 09:45). BA202: his slides + video Drive folders are the same as the midterm ones (saved in [[project-midterms]]); L8–L9 slides pulled, L8–L11 audio downloading to `~/Desktop/BA202/final/`, **whisper held until he's plugged in (64% at 10:12)**. Finals + AC311 M2 put on the Life calendar (red, no notifications). MK201: 'can suck my dick', so no map, don't pitch it. Drive: BA202 has 2 senior final cheat sheets, no paper; AC313 has the 2021 online final (screenshots, no OCR).
-
 ## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. **AC311 Midterm 2 (sessions 8–11, PPE + intangibles, 30%) is next: **Fri 13 Nov** (Korn, 20 Oct; time TBC). Session 11 (31 Oct, impairment TAS 36) falls before it, so assume impairment is IN scope. Final 28 Nov.**
 
 ## 🧰 New system pieces (built 27 Sep, his pick from 8 ideas) — all fire from the session-start hook, silent unless due
