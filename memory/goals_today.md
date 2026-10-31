@@ -165,3 +165,6 @@ metadata:
 - 2026-10-31 | Daily journal | open
 - 2026-10-31 | Reading | open
 - 2026-10-31 | Bed by 23:30 | open
+- 2026-10-31 | Samneang timeline finished | open
+- 2026-10-31 | Colour palette decided | open
+- 2026-10-31 | 3 words that define the brand | open
