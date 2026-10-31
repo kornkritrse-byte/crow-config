@@ -159,3 +159,9 @@ metadata:
 - 2026-10-30 | Brand talk with Patrick | open
 - 2026-10-30 | Band strength work | open
 - 2026-10-30 | Recovery stretches + roll out legs | open
+- 2026-10-31 | Wake early | open
+- 2026-10-31 | Morning creative writing | open
+- 2026-10-31 | Training: Lift + easy 35′ | open
+- 2026-10-31 | Daily journal | open
+- 2026-10-31 | Reading | open
+- 2026-10-31 | Bed by 23:30 | open
