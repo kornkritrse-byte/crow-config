@@ -168,3 +168,9 @@ metadata:
 - 2026-10-31 | Samneang timeline finished | open
 - 2026-10-31 | Colour palette decided | open
 - 2026-10-31 | 3 words that define the brand | open
+- 2026-11-02 | Wake early | open
+- 2026-11-02 | Morning creative writing | open
+- 2026-11-02 | Training: Lift + easy 30′ | open
+- 2026-11-02 | Daily journal | open
+- 2026-11-02 | Reading | open
+- 2026-11-02 | Bed by 23:30 | open
