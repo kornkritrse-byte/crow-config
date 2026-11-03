@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-11-03 18:01 (live). Window holds 31 Oct + 30 Oct ; 29 + 27 Oct flushed 31 Oct. Next to flush: 30 Oct.*
+*Last updated: 2026-11-03 18:05 (live). Window holds 31 Oct + 30 Oct ; 29 + 27 Oct flushed 31 Oct. Next to flush: 30 Oct.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (Fri 30 Oct, ~15:24) — off to: more Master and Margarita at the café (finished ch 6 at 15:14).** ASK ON RETURN: how far past ch 6 (NO SPOILERS) + the open question "is seeing for yourself worth what it costs, in Bulgakov's Moscow?" — ASK, don't tell (his rule 30 Oct) · bed by 23:30 on 29 Oct (goals.py done|miss 6 2026-10-29, still unasked). Closed today: run · BA202 whisper · AC311 overdue concept cards · reading goal ✓.
+- **AWAY (Tue 3 Nov, ~18:05) — stopped for the day's study; big study block tomorrow (Wed 4 Nov).** ASK ON RETURN: did the block happen + finish impairment (CGUs, value in use) · his reply on the BA202 pre-chew offer if unanswered · Fri 6 Nov 12 km. His term plan (18:05): BA202 only in the 3–7 Dec gap; FN201 = STQs (+LN7); AC311 = finish impairment then refine; AC313 = past paper. Closed today: goals 1,3,7,8,9 · bed 2 Nov ✓ · Patrick ledger line 55 still unasked.
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
