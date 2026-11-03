@@ -173,7 +173,7 @@ metadata:
 - 2026-11-02 | Training: Lift + easy 30′ | open
 - 2026-11-02 | Daily journal | open
 - 2026-11-02 | Reading | open
-- 2026-11-02 | Bed by 23:30 | open
+- 2026-11-02 | Bed by 23:30 | done
 - 2026-11-03 | Wake early | done
 - 2026-11-03 | Morning creative writing | open
 - 2026-11-03 | Moving | done

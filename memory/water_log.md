@@ -119,3 +119,4 @@ metadata:
 - 2026-10-31 10:19 | goal | Wake early
 - 2026-11-03 09:56 | goal | Wake early
 - 2026-11-03 09:56 | goal | Moving
+- 2026-11-03 10:06 | goal | Bed by 23:30
