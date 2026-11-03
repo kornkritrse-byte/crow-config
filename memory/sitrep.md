@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-11-03 10:41 (live). Window holds 31 Oct + 30 Oct ; 29 + 27 Oct flushed 31 Oct. Next to flush: 30 Oct.*
+*Last updated: 2026-11-03 16:38 (live). Window holds 31 Oct + 30 Oct ; 29 + 27 Oct flushed 31 Oct. Next to flush: 30 Oct.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -35,7 +35,8 @@ metadata:
 - 📂 09:43 "missing files?" → Crow checked disk only (error-logged); BA202 Drive had L10 VAT slides + 28 Oct recording (transcribed: signboard + VAT/SBT, NOT excise). He added AC311 Impairment deck + AC313 Package 2 + Exercise 2. FN201: STQs + **LN7 only** (topic 7 heavy on past finals). SBT slides still not up.
 - 📘 AC311 revaluation drill: card 39 ✗ · cross-over + reversal missed then ✓ on retries · 3-year chain clean · skips step 1 + running balances · wrote "land" for building ×2 · 3 new cards. Paused at surplus → RE (map has the next Q).
 - 🏃 Sun 1 Nov long run ✗ (road trip) · ran Mon + Tue · **said: Fri 6 Nov 12 km with a friend** (ledger). Goals set: run club talk · study AC311 · lunch w/ family. Bed 2 Nov ✓.
-- 📣 10:40 MK work: pick 1 company + 1 product/brand, research 3 distribution channels online, group reads + presents.
+- 📣 10:40 MK work: pick 1 company + 1 product/brand, research 3 distribution channels online, group reads + presents. → Nike picked; Crow drafted the brief in chat (owned stores · digital · wholesale; FY26 wholesale $27.5B +6% vs Direct $17.7B −6%), Google Doc offered, not yet answered.
+- 🏠 16:38 back: run club talk ✓ · family lunch ✓ (goals 7, 9).
 
 ## Session — 2026-10-31 (Sat)
 - 🧵 10:11–10:25 **Samneang at the café with Patrick.** Relisted deadlines + missing cards. HQ cleanup (his ask): Mockup Archive = only the 3 folders + Bottoms; trashed V0 sheet, duplicate Henley-sheet card, 2 blank cards; proxy card → Done (measured 22 Oct; Crow wrongly said unmeasured). **His call: Henley Design Sheet V1 = current**, old spec marked outdated. Flagged: V1's thin jersey vs Core Rule 1 "weighted". → [[project-clothing-brand]]

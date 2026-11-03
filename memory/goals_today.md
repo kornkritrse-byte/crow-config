@@ -180,6 +180,6 @@ metadata:
 - 2026-11-03 | Daily journal | open
 - 2026-11-03 | Reading | open
 - 2026-11-03 | Bed by 23:30 | open
-- 2026-11-03 | Run club talk | open
+- 2026-11-03 | Run club talk | done
 - 2026-11-03 | Study AC311 | open
-- 2026-11-03 | Lunch with the family | open
+- 2026-11-03 | Lunch with the family | done

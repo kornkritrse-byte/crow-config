@@ -120,3 +120,5 @@ metadata:
 - 2026-11-03 09:56 | goal | Wake early
 - 2026-11-03 09:56 | goal | Moving
 - 2026-11-03 10:06 | goal | Bed by 23:30
+- 2026-11-03 16:38 | goal | Run club talk
+- 2026-11-03 16:38 | goal | Lunch with the family
