@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-11-03 16:38 (live). Window holds 31 Oct + 30 Oct ; 29 + 27 Oct flushed 31 Oct. Next to flush: 30 Oct.*
+*Last updated: 2026-11-03 18:01 (live). Window holds 31 Oct + 30 Oct ; 29 + 27 Oct flushed 31 Oct. Next to flush: 30 Oct.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -37,6 +37,7 @@ metadata:
 - 🏃 Sun 1 Nov long run ✗ (road trip) · ran Mon + Tue · **said: Fri 6 Nov 12 km with a friend** (ledger). Goals set: run club talk · study AC311 · lunch w/ family. Bed 2 Nov ✓.
 - 📣 10:40 MK work: pick 1 company + 1 product/brand, research 3 distribution channels online, group reads + presents. → Nike picked; Crow drafted the brief in chat (owned stores · digital · wholesale; FY26 wholesale $27.5B +6% vs Direct $17.7B −6%), Google Doc offered; 17:31 closed, "the group did their work".
 - 🏠 16:38 back: run club talk ✓ · family lunch ✓ (goals 7, 9).
+- 📘 17:32–18:01 AC311: revaluation CLOSED (surplus → RE + sale ✓) · impairment started from zero: pick-the-higher missed twice → step-by-step ✓ · reversal ceiling via "ghost machine" ✓ · goodwill no-reversal ✓ · revalued impairment ✓. 2 more cards. Study AC311 goal ✓. Left: CGUs, value in use.
 
 ## Session — 2026-10-31 (Sat)
 - 🧵 10:11–10:25 **Samneang at the café with Patrick.** Relisted deadlines + missing cards. HQ cleanup (his ask): Mockup Archive = only the 3 folders + Bottoms; trashed V0 sheet, duplicate Henley-sheet card, 2 blank cards; proxy card → Done (measured 22 Oct; Crow wrongly said unmeasured). **His call: Henley Design Sheet V1 = current**, old spec marked outdated. Flagged: V1's thin jersey vs Core Rule 1 "weighted". → [[project-clothing-brand]]
