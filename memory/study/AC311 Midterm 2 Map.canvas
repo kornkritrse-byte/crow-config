@@ -328,12 +328,12 @@
 		{
 			"id": "n31",
 			"type": "text",
-			"text": "## Impairment (TAS 36)\nSession 11 · 31 Oct · taught · 📥 deck on disk 3 Nov: `~/Desktop/AC311/Impairment of Assets_OctNov_ 2026.pdf`\nin M2 only if the paper is after 31 Oct",
+			"text": "## Impairment (TAS 36)\nSession 11 · 31 Oct · taught · 📥 deck on disk 3 Nov: `~/Desktop/AC311/Impairment of Assets_OctNov_ 2026.pdf`\nin M2 only if the paper is after 31 Oct\n3 Nov 🟨 started: concept via phone example · ⚠ first Q: added costs to sell (440 vs 420) + took RA as the DIFFERENCE 450−420=30k (it's the HIGHER one, 450k) → carded",
 			"x": 420,
 			"y": 4200,
 			"width": 340,
 			"height": 150,
-			"color": "1"
+			"color": "3"
 		}
 	],
 	"edges": [
