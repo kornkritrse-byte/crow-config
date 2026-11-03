@@ -117,3 +117,5 @@ metadata:
 - 2026-10-30 13:47 | ghost | AC311: Q: Land cost 1,000,000, revaluation model, FV at year-end 1,
 - 2026-10-30 15:14 | goal | Reading
 - 2026-10-31 10:19 | goal | Wake early
+- 2026-11-03 09:56 | goal | Wake early
+- 2026-11-03 09:56 | goal | Moving
