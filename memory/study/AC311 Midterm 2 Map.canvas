@@ -328,12 +328,12 @@
 		{
 			"id": "n31",
 			"type": "text",
-			"text": "## Impairment (TAS 36)\nSession 11 · 31 Oct · taught · 📥 deck on disk 3 Nov: `~/Desktop/AC311/Impairment of Assets_OctNov_ 2026.pdf`\nin M2 only if the paper is after 31 Oct\n3 Nov 🟨 started: concept via phone example · ⚠ first Q: added costs to sell (440 vs 420) + took RA as the DIFFERENCE 450−420=30k (it's the HIGHER one, 450k) → carded · retries ✓ (step by step: 680k/120k loss · 320k > 300k = not impaired) · ⚠ 'no write-up because not sold' = right pick, wrong reason (carded) · reversal: didn't get the ceiling cold → 'ghost machine' walkthrough (deck p.52–55 example: 37,500 → cap 60,000 = 22,500) → own Q ✓ (RA 55k → 17,500). goodwill no-reversal ✓ (gut, then linked to internal goodwill) · revalued asset impaired → surplus 30k first, 20k P&L ✓ · NOT YET: CGUs · value in use (PV) · revalued-asset reversal",
+			"text": "## Impairment (TAS 36)\nSession 11 · 31 Oct · taught · 📥 deck on disk 3 Nov: `~/Desktop/AC311/Impairment of Assets_OctNov_ 2026.pdf`\nin M2 only if the paper is after 31 Oct\n3 Nov 🟨 started: concept via phone example · ⚠ first Q: added costs to sell (440 vs 420) + took RA as the DIFFERENCE 450−420=30k (it's the HIGHER one, 450k) → carded · retries ✓ (step by step: 680k/120k loss · 320k > 300k = not impaired) · ⚠ 'no write-up because not sold' = right pick, wrong reason (carded) · reversal: didn't get the ceiling cold → 'ghost machine' walkthrough (deck p.52–55 example: 37,500 → cap 60,000 = 22,500) → own Q ✓ (RA 55k → 17,500). goodwill no-reversal ✓ (gut, then linked to internal goodwill) · revalued asset impaired → surplus 30k first, 20k P&L ✓ · NOT YET: CGUs · value in use (PV) · revalued-asset reversal\n4 Nov 🟩 CLOSED: review by question (RA pick had CA in it ✗→✓ · reversal entry Dr Machine ✗ → Dr Allowance / Cr Reversal (P&L) · revalued impairment surplus-first ✗ 3rd time → retry ✓ · goodwill reason = internally generated) · VALUE IN USE (s30–35): exclusions taught · ⚠ added op costs + SUBTRACTED disposal proceeds (cash in/out flips) → own loss calc ✓ 36,294 · CGU (s16–22): espresso machine ✗ → branch · condo unit ✓ · active-market farm ✓. Left: refine + past paper.",
 			"x": 420,
 			"y": 4200,
 			"width": 340,
 			"height": 150,
-			"color": "3"
+			"color": "4"
 		}
 	],
 	"edges": [

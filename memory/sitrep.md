@@ -33,7 +33,7 @@ metadata:
 
 ## Session — 2026-11-04 (Wed, live)
 - 13:21 back for the big study block. Ghost 41 ✓ (SYD; wrote 0.3 × 500k, flagged). Lint fixed (30 Oct flushed). Ledger 55 → [~]: Samneang = **inspiration phase till finals end** → Pinterest board → "what is Samneang at a glance" + logo motif.
-- 📘 13:34 review of 3 Nov by question: RA pick had CA in it ✗ → fixed · ceiling 150k ✓ · reversal entry ✗ (Dr Machine) · revalued impairment ✗ (surplus-first slipped, 3rd time) → retry ✓ · goodwill: right call, loose reason. +4 cards, due Sat 7. Next: value in use (queued Q), then CGUs.
+- 📘 13:34 review of 3 Nov by question: RA pick had CA in it ✗ → fixed · ceiling 150k ✓ · reversal entry ✗ (Dr Machine) · revalued impairment ✗ (surplus-first slipped, 3rd time) → retry ✓ · goodwill: right call, loose reason. +4 cards, due Sat 7. 14:12 **impairment CLOSED**: VIU (added op costs + subtracted proceeds = cash in/out flips, carded) → own loss 36,294 ✓ · CGU espresso ✗ → condo ✓ · active-market farm ✓. 7 new cards today. ⚠ Pocket Procedures NOT updated (no Notion tool in this session).
 - 🌸 Goals: study AC311 · run club 13 Nov route (afternoon, after the exam, no clash). 5K TT ✗ today → **Thu 5 Nov morning** (ledgered; 12 km Fri follows).
 
 ## Session — 2026-11-03 (Tue, live)

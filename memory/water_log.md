@@ -124,3 +124,4 @@ metadata:
 - 2026-11-03 16:38 | goal | Lunch with the family
 - 2026-11-03 18:01 | goal | Study AC311
 - 2026-11-04 13:28 | ghost | AC311: Q: Machine cost 500,000, residual 50,000, life 5 years. Sum-
+- 2026-11-04 14:12 | goal | Study AC311: impairment (value in use + CGUs)
