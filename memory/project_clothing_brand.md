@@ -25,7 +25,7 @@ Started **Sun 18 Oct 2026, 17:07**, his words: "a new important project, a longt
 **Crow's push:** price is a condition, not a claim; small batches can't match Uniqlo's scale, so the ≤1,000 ceiling sets the fabric budget. Get a real sample quote before locking it. Next step = flat-measure the proxy (first spec sheet).
 
 
-**⏸️ PHASE (agreed Sat 31 Oct with Patrick, told Crow 4 Nov): INSPIRATION-GATHERING until finals are done.** They talked direction, not owners/dates. Korn: "not my style but id rather my partner be ok in the long run… foot off the gas." Don't push deadlines/tasks in this window. Open: what the phase produces + its end date.
+**⏸️ PHASE (agreed Sat 31 Oct with Patrick, told Crow 4 Nov): INSPIRATION-GATHERING until finals are done.** They talked direction, not owners/dates. Korn: "not my style but id rather my partner be ok in the long run… foot off the gas." Don't push deadlines/tasks in this window. Output (his, 4 Nov 13:32): the shared **Pinterest board** → be able to define "what is Samneang" at a glance + a **logo motif**. End date = end of finals (exact date TBC).
 
 🗺️ **Map:** `brand/Brand Map.canvas` in the Obsidian vault (core · rules · image · Henley · risks · next). Keep it in sync when the core changes.
 
