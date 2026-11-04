@@ -31,6 +31,11 @@ metadata:
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
+## Session — 2026-11-04 (Wed, live)
+- 13:21 back for the big study block. Ghost 41 ✓ (SYD; wrote 0.3 × 500k, flagged). Lint fixed (30 Oct flushed). Ledger 55 → [~]: Samneang = **inspiration phase till finals end** → Pinterest board → "what is Samneang at a glance" + logo motif.
+- 📘 13:34 review of 3 Nov by question: RA pick had CA in it ✗ → fixed · ceiling 150k ✓ · reversal entry ✗ (Dr Machine) · revalued impairment ✗ (surplus-first slipped, 3rd time) → retry ✓ · goodwill: right call, loose reason. +4 cards, due Sat 7. Next: value in use (queued Q), then CGUs.
+- 🌸 Goals: study AC311 · run club 13 Nov route (afternoon, after the exam, no clash). 5K TT ✗ today → **Thu 5 Nov morning** (ledgered; 12 km Fri follows).
+
 ## Session — 2026-11-03 (Tue, live)
 - 📂 09:43 "missing files?" → Crow checked disk only (error-logged); BA202 Drive had L10 VAT slides + 28 Oct recording (transcribed: signboard + VAT/SBT, NOT excise). He added AC311 Impairment deck + AC313 Package 2 + Exercise 2. FN201: STQs + **LN7 only** (topic 7 heavy on past finals). SBT slides still not up.
 - 📘 AC311 revaluation drill: card 39 ✗ · cross-over + reversal missed then ✓ on retries · 3-year chain clean · skips step 1 + running balances · wrote "land" for building ×2 · 3 new cards. Paused at surplus → RE (map has the next Q).
@@ -38,11 +43,6 @@ metadata:
 - 📣 10:40 MK work: pick 1 company + 1 product/brand, research 3 distribution channels online, group reads + presents. → Nike picked; Crow drafted the brief in chat (owned stores · digital · wholesale; FY26 wholesale $27.5B +6% vs Direct $17.7B −6%), Google Doc offered; 17:31 closed, "the group did their work".
 - 🏠 16:38 back: run club talk ✓ · family lunch ✓ (goals 7, 9).
 - 📘 17:32–18:01 AC311: revaluation CLOSED (surplus → RE + sale ✓) · impairment started from zero: pick-the-higher missed twice → step-by-step ✓ · reversal ceiling via "ghost machine" ✓ · goodwill no-reversal ✓ · revalued impairment ✓. 2 more cards. Study AC311 goal ✓. Left: CGUs, value in use.
-
-## Session — 2026-10-31 (Sat)
-- 🧵 10:11–10:25 **Samneang at the café with Patrick.** Relisted deadlines + missing cards. HQ cleanup (his ask): Mockup Archive = only the 3 folders + Bottoms; trashed V0 sheet, duplicate Henley-sheet card, 2 blank cards; proxy card → Done (measured 22 Oct; Crow wrongly said unmeasured). **His call: Henley Design Sheet V1 = current**, old spec marked outdated. Flagged: V1's thin jersey vs Core Rule 1 "weighted". → [[project-clothing-brand]]
-- 🌸 Goals: Samneang timeline · colour palette · 3 brand words. Wake early ✓. Training: hoops 18:00 replaces lift + easy 35′; Sun 1 Nov long 13 km ledgered.
-- 📘 AC311 café entries block NOT kept (ledger [-]); calc ghosts 39/41/42 unserved. After this: priest (friend's invite) → hoops 18:00.
 
 ## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. **AC311 Midterm 2 (sessions 8–11, PPE + intangibles, 30%) is next: **Fri 13 Nov** (Korn, 20 Oct; time TBC). Session 11 (31 Oct, impairment TAS 36) falls before it, so assume impairment is IN scope. Final 28 Nov.**
 

@@ -10,6 +10,10 @@ metadata:
 ---
 
 # Sessions Log (archive)
+## 2026-10-31 (Sat)  *(flushed from SITREP 4 Nov)*
+- 🧵 10:11–10:25 **Samneang at the café with Patrick.** Relisted deadlines + missing cards. HQ cleanup (his ask): Mockup Archive = only the 3 folders + Bottoms; trashed V0 sheet, duplicate Henley-sheet card, 2 blank cards; proxy card → Done (measured 22 Oct; Crow wrongly said unmeasured). **His call: Henley Design Sheet V1 = current**, old spec marked outdated. Flagged: V1's thin jersey vs Core Rule 1 "weighted". → [[project-clothing-brand]]
+- 🌸 Goals: Samneang timeline · colour palette · 3 brand words. Wake early ✓. Training: hoops 18:00 replaces lift + easy 35′; Sun 1 Nov long 13 km ledgered.
+- 📘 AC311 café entries block NOT kept (ledger [-]); calc ghosts 39/41/42 unserved. After this: priest (friend's invite) → hoops 18:00.
 ## 2026-10-30 (Fri)  *(flushed from SITREP 4 Nov)*
 - 📝 10:05–11:04 EL221 Unit 9: B/C/G/H paraphrased from a classmate group's doc (the uni-account audio was unreachable, Crow flagged it as copying), E checked 8/8, mission-statement task (Nike/Patagonia/Spotify + Tesla, Patagonia = most creative). Ghost 27 failed 13:17.
 - 🏃 Run 29 Oct = 10K @ 5:23 in the new Superblast 3 (planned as an easy recovery run): ledger [~], watered, told him to rest/walk today. Goals set 13:15: brand talk with Patrick · band strength · recovery stretches + rolling.

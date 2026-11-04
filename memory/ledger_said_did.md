@@ -56,3 +56,4 @@ metadata:
 - [-] 2026-10-31 → 2026-11-01 | "tmr morning run will be happening tho": Sun 1 Nov morning run = plan's LONG 13 km (Sun long, 05:30). Today's lift + easy 35′ swapped for hoops 18:00 Sat (his call). Said 10:25 Sat → 3 Nov: [-] no long run, road trip with friends Sun; ran Mon 2 + Tue 3 Nov instead (his words)
 - [ ] 2026-11-03 → 2026-11-06 | "long run happening this Friday, 12k happening with a friend": Fri 6 Nov long run 12 km with a friend (replaces the missed Sun 1 Nov 13 km). Said 10:11 Tue
 - [ ] 2026-11-03 → 2026-11-04 | "there's a big study block coming up tmr": Wed 4 Nov big study block (AC311: finish impairment = CGUs + value in use, then refine details). Said 18:05 Tue
+- [ ] 2026-11-04 → 2026-11-05 | "time trial did not happen, lets have it tmr morning": 5K time trial (milestone sub-24:00) moved from Wed 4 Nov to Thu 5 Nov MORNING. Note: Fri 6 Nov 12 km with a friend follows the next day. Said 13:54 Wed
