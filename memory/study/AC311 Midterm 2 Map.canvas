@@ -249,12 +249,12 @@
 		{
 			"id": "n11",
 			"type": "text",
-			"text": "Self-construction + borrowing costs (TAS 23)\nqualifying asset · capitalisation period · lesser of actual vs avoidable · s26–31\n⚠ 26 Oct: left construction interest out (500k vs 540k); thought capitalisation runs past READY (it stops; post-ready interest = expense). Depreciation starts when ready ✓",
+			"text": "Self-construction + borrowing costs (TAS 23)\nqualifying asset · capitalisation period · lesser of actual vs avoidable · s26–31\n⚠ 26 Oct: left construction interest out (500k vs 540k); thought capitalisation runs past READY (it stops; post-ready interest = expense). Depreciation starts when ready ✓\n4 Nov 🟨 real 2021 mid2 P1 (20 pts) walked step by step: WAAE 8,700,000 (slipped 8/12 for 31 Mar → 9/12) · ⚠ read '5%' as over the loan's life (it's per YEAR) · general rate 435,000 / 8,250,000 = 5.27% ✓ · ⚠ applied it to 8.25M borrowed instead of the 5.7M WAAE left over · capitalise lesser: 510,390 vs actual 645,000. ⚠ senior's annotated answer (5.7% blended) is WRONG. NEXT: redo P1 from a blank page on paper.",
 			"x": 2800,
 			"y": 1375,
 			"width": 360,
 			"height": 150,
-			"color": "2"
+			"color": "3"
 		},
 		{
 			"id": "n12",
