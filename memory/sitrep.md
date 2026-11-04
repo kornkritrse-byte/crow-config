@@ -44,13 +44,6 @@ metadata:
 - 🌸 Goals: Samneang timeline · colour palette · 3 brand words. Wake early ✓. Training: hoops 18:00 replaces lift + easy 35′; Sun 1 Nov long 13 km ledgered.
 - 📘 AC311 café entries block NOT kept (ledger [-]); calc ghosts 39/41/42 unserved. After this: priest (friend's invite) → hoops 18:00.
 
-## Session — 2026-10-30 (Fri, live)
-- 📝 10:05–11:04 EL221 Unit 9: B/C/G/H paraphrased from a classmate group's doc (the uni-account audio was unreachable, Crow flagged it as copying), E checked 8/8, mission-statement task (Nike/Patagonia/Spotify + Tesla, Patagonia = most creative). Ghost 27 failed 13:17.
-- 🏃 Run 29 Oct = 10K @ 5:23 in the new Superblast 3 (planned as an easy recovery run): ledger [~], watered, told him to rest/walk today. Goals set 13:15: brand talk with Patrick · band strength · recovery stretches + rolling.
-- 📘 13:17–13:53 **AC311 overdue cards at the café (laptop only, no paper)**. ✓ 28, 31, 36, 37 + basket/deferred variants. ✗ 27 (ratio), 29 (interest payable AGAIN), 33 (right answer, wrong reason), 34 (expensed fees AGAIN), 35 (construction interest), 38 (reval loss → OCI AGAIN), 40 (surplus "goes to the buyer"). +2 cards (57 premium basket, donated-equipment credits). Pattern: the credit side / where it lands (equity · P&L · OCI) slides. **Calc cards 39, 41, 42 held for Sat 31 café (paper).**
-- 📖 15:14–15:24 M&M chs 3–6 read (reading ✓). Theme talk by question: intellectuals' frameworks cloud the truth, it goes to the no-credibility poet, Ivan moves from borrowed beliefs to his own eyes → `~/Korn/Commonplace/Master and Margarita.md`. **New rule: ask him questions on books, don't hand readings over** → [[feedback-no-spoilers]].
-- 16:10 a friend called him with bad news (no details given); he dropped the borrowing-costs start (TAS 23 WAAE, the real mid2 paper's big Q) to sit with it, says he's ok. Don't pry; if he brings it up, listen first.
-- 🧵 16:13–16:23 rap recs (Spotify taste pull: Kendrick "Art of Peer Pressure" lead) · **Samneang: built HQ 🗓️ Timeline page** (calendar view of Tasks, exam weeks blocked) + undone list (17 + 10 suggested) for **Sat 31 with Patrick: owners first, then dates → send to Crow** (ledgered) → [[project-clothing-brand]]. Flagged IG password in plain text on HQ.
 ## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. **AC311 Midterm 2 (sessions 8–11, PPE + intangibles, 30%) is next: **Fri 13 Nov** (Korn, 20 Oct; time TBC). Session 11 (31 Oct, impairment TAS 36) falls before it, so assume impairment is IN scope. Final 28 Nov.**
 
 ## 🧰 New system pieces (built 27 Sep, his pick from 8 ideas) — all fire from the session-start hook, silent unless due

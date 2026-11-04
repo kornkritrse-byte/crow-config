@@ -183,3 +183,9 @@ metadata:
 - 2026-11-03 | Run club talk | done
 - 2026-11-03 | Study AC311 | done
 - 2026-11-03 | Lunch with the family | done
+- 2026-11-04 | Wake early | open
+- 2026-11-04 | Morning creative writing | open
+- 2026-11-04 | Training: 5K time trial · milestone sub-24:00 | open
+- 2026-11-04 | Daily journal | open
+- 2026-11-04 | Reading | open
+- 2026-11-04 | Bed by 23:30 | open

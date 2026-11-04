@@ -10,6 +10,13 @@ metadata:
 ---
 
 # Sessions Log (archive)
+## 2026-10-30 (Fri)  *(flushed from SITREP 4 Nov)*
+- 📝 10:05–11:04 EL221 Unit 9: B/C/G/H paraphrased from a classmate group's doc (the uni-account audio was unreachable, Crow flagged it as copying), E checked 8/8, mission-statement task (Nike/Patagonia/Spotify + Tesla, Patagonia = most creative). Ghost 27 failed 13:17.
+- 🏃 Run 29 Oct = 10K @ 5:23 in the new Superblast 3 (planned as an easy recovery run): ledger [~], watered, told him to rest/walk today. Goals set 13:15: brand talk with Patrick · band strength · recovery stretches + rolling.
+- 📘 13:17–13:53 **AC311 overdue cards at the café (laptop only, no paper)**. ✓ 28, 31, 36, 37 + basket/deferred variants. ✗ 27 (ratio), 29 (interest payable AGAIN), 33 (right answer, wrong reason), 34 (expensed fees AGAIN), 35 (construction interest), 38 (reval loss → OCI AGAIN), 40 (surplus "goes to the buyer"). +2 cards (57 premium basket, donated-equipment credits). Pattern: the credit side / where it lands (equity · P&L · OCI) slides. **Calc cards 39, 41, 42 held for Sat 31 café (paper).**
+- 📖 15:14–15:24 M&M chs 3–6 read (reading ✓). Theme talk by question: intellectuals' frameworks cloud the truth, it goes to the no-credibility poet, Ivan moves from borrowed beliefs to his own eyes → `~/Korn/Commonplace/Master and Margarita.md`. **New rule: ask him questions on books, don't hand readings over** → [[feedback-no-spoilers]].
+- 16:10 a friend called him with bad news (no details given); he dropped the borrowing-costs start (TAS 23 WAAE, the real mid2 paper's big Q) to sit with it, says he's ok. Don't pry; if he brings it up, listen first.
+- 🧵 16:13–16:23 rap recs (Spotify taste pull: Kendrick "Art of Peer Pressure" lead) · **Samneang: built HQ 🗓️ Timeline page** (calendar view of Tasks, exam weeks blocked) + undone list (17 + 10 suggested) for **Sat 31 with Patrick: owners first, then dates → send to Crow** (ledgered) → [[project-clothing-brand]]. Flagged IG password in plain text on HQ.
 ## 2026-10-26 (Mon)
 - Zone 2 run + Karamazov→absurdity talk (ChatGPT) → [[chapters]]; Henley V1 + maker checklist in Notion. AC311 ~3 h, branch 3 backfilled, 5 closed, 6 half; 13 cards (right label, wrong NUMBER / wrong STATEMENT). Midterm 1 results: every subject above the mean (EL221 59/60, BA202 ~73–75%). Room book pile: nest + 36 spine designs. Reading Sisyphus + Winter of Our Discontent, Siddhartha dropped. 23:21 Sisyphus "what's your exit?" (open); Crow spoiled the ending → [[feedback-no-spoilers]].
 ## 2026-10-25 (Sun)
