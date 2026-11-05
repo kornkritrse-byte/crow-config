@@ -191,3 +191,9 @@ metadata:
 - 2026-11-04 | Bed by 23:30 | open
 - 2026-11-04 | Study AC311: impairment (value in use + CGUs) | done
 - 2026-11-04 | Run club: finalize the 13 Nov route | open
+- 2026-11-05 | Wake early | open
+- 2026-11-05 | Morning creative writing | open
+- 2026-11-05 | Moving | open
+- 2026-11-05 | Daily journal | open
+- 2026-11-05 | Reading | open
+- 2026-11-05 | Bed by 23:30 | open

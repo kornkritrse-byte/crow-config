@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-11-03 18:05 (live). Window holds 31 Oct + 30 Oct ; 29 + 27 Oct flushed 31 Oct. Next to flush: 30 Oct.*
+*Last updated: 2026-11-05 15:04 (live). Window holds 5 Nov + 4 Nov; 3 Nov flushed 5 Nov. Next to flush: 4 Nov.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,24 +27,19 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (Wed 4 Nov, 14:45).** ASK ON RETURN: **P1 (real 2021 mid2, borrowing costs) from a blank page ON PAPER**, Crow only checks numbers · his reply on the BA202 pre-chew offer if unanswered · TT Thu 5 Nov morning + Fri 6 Nov 12 km (ledgered). His term plan (3 Nov 18:05): BA202 only in the 3–7 Dec gap; FN201 = STQs (+LN7); AC311 = refine via past paper; AC313 = past paper.
+- **Here (Thu 5 Nov, 15:04).** ASK ON RETURN: **P1 (real 2021 mid2, borrowing costs) from a blank page ON PAPER**, Crow only checks numbers · his reply on the BA202 pre-chew offer if unanswered · TT Thu 5 Nov morning + Fri 6 Nov 12 km (ledgered). His term plan (3 Nov 18:05): BA202 only in the 3–7 Dec gap; FN201 = STQs (+LN7); AC311 = refine via past paper; AC313 = past paper.
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
-## Session — 2026-11-04 (Wed, live)
+## Session — 2026-11-05 (Thu, live)
+- 📘 15:04 "run through the entries on AC311" → ghost 42 (DDB) served first.
+
+## Session — 2026-11-04 (Wed)
 - 13:21 back for the big study block. Ghost 41 ✓ (SYD; wrote 0.3 × 500k, flagged). Lint fixed (30 Oct flushed). Ledger 55 → [~]: Samneang = **inspiration phase till finals end** → Pinterest board → "what is Samneang at a glance" + logo motif.
 - 📘 13:34 review of 3 Nov by question: RA pick had CA in it ✗ → fixed · ceiling 150k ✓ · reversal entry ✗ (Dr Machine) · revalued impairment ✗ (surplus-first slipped, 3rd time) → retry ✓ · goodwill: right call, loose reason. +4 cards, due Sat 7. 14:12 **impairment CLOSED**: VIU (added op costs + subtracted proceeds = cash in/out flips, carded) → own loss 36,294 ✓ · CGU espresso ✗ → condo ✓ · active-market farm ✓. 7 new cards today. ⚠ Pocket Procedures NOT updated (Notion = claude.ai connector, not loaded in the Room today).
 - 📄 14:16 "covered everything, now one piece" → real 2021 mid2 read: MCQ ×10 + **P1 borrowing costs (WAAE, 20 pts, never drilled)** + P2 reval chain (done 3 Nov). ⚠ Senior's annotated P1 is WRONG (blended 5.7% incl. the specific loan; deck s29–31 excludes it). P1 walked step by step: WAAE 8.2M ✗ (8/12 for 9/12) → 8.7M · read "3-year loan at 5%" as 5% over the life ✗ · bonds 135k ✓ · rate 5.27% ✓ · general part on 8.25M ✗ (borrowed, not spent) → 5.7M → 510,390 capitalised. Ended "im lost": Crow told the whole story + sent him on a break. +4 cards (11 today).
 - 📘 14:45 back, Notion connected → built **AC311 Midterm 2 — Study Page** in Notion (new page, his ask): rules + 48 toggle cards from the live ghost deck, ⚠ his miss on each, worked P1 → [[reference-pocket-procedures]]. 14:50 "you sure this covers everything?" → no: swept every PPE/intangibles/impairment slide, added land, hire purchase, lease, ARO worked example, incidental income, subsequent-cost examples, part-year dep, depletion base, intangible control/internal cost/R&D-can't-separate, held for sale, + the deck's 3 impairment examples. ⚠ Deck's reversal entry also credits Acc dep (Crow had taught 'one credit'): card 65 corrected. 14:54 'make sure + visualize': read the real 2021 paper (images) + the senior's summary → added section 10 (all 10 MCQs + P1/P2 worked; the senior's key is wrong on Q1, Q2, Q5, P2 sale) + mermaid flows (classification, exchange, borrowing costs, revaluation, impairment) + running-balance tables (WAAE bars, 5-yr SL/SYD/DDB, change in estimate, ARO liability, P2 chain, VIU, reversal two-track, goodwill bar) → [[reference-past-papers]].
 - 🌸 Goals: study AC311 · run club 13 Nov route (afternoon, after the exam, no clash). 5K TT ✗ today → **Thu 5 Nov morning** (ledgered; 12 km Fri follows).
-
-## Session — 2026-11-03 (Tue, live)
-- 📂 09:43 "missing files?" → Crow checked disk only (error-logged); BA202 Drive had L10 VAT slides + 28 Oct recording (transcribed: signboard + VAT/SBT, NOT excise). He added AC311 Impairment deck + AC313 Package 2 + Exercise 2. FN201: STQs + **LN7 only** (topic 7 heavy on past finals). SBT slides still not up.
-- 📘 AC311 revaluation drill: card 39 ✗ · cross-over + reversal missed then ✓ on retries · 3-year chain clean · skips step 1 + running balances · wrote "land" for building ×2 · 3 new cards. Paused at surplus → RE (map has the next Q).
-- 🏃 Sun 1 Nov long run ✗ (road trip) · ran Mon + Tue · **said: Fri 6 Nov 12 km with a friend** (ledger). Goals set: run club talk · study AC311 · lunch w/ family. Bed 2 Nov ✓.
-- 📣 10:40 MK work: pick 1 company + 1 product/brand, research 3 distribution channels online, group reads + presents. → Nike picked; Crow drafted the brief in chat (owned stores · digital · wholesale; FY26 wholesale $27.5B +6% vs Direct $17.7B −6%), Google Doc offered; 17:31 closed, "the group did their work".
-- 🏠 16:38 back: run club talk ✓ · family lunch ✓ (goals 7, 9).
-- 📘 17:32–18:01 AC311: revaluation CLOSED (surplus → RE + sale ✓) · impairment started from zero: pick-the-higher missed twice → step-by-step ✓ · reversal ceiling via "ghost machine" ✓ · goodwill no-reversal ✓ · revalued impairment ✓. 2 more cards. Study AC311 goal ✓. Left: CGUs, value in use.
 
 ## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. **AC311 Midterm 2 (sessions 8–11, PPE + intangibles, 30%) is next: **Fri 13 Nov** (Korn, 20 Oct; time TBC). Session 11 (31 Oct, impairment TAS 36) falls before it, so assume impairment is IN scope. Final 28 Nov.**
 

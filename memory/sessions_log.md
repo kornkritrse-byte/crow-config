@@ -10,6 +10,11 @@ metadata:
 ---
 
 # Sessions Log (archive)
+## 2026-11-03 (Tue)  *(flushed from SITREP 5 Nov)*
+- Missing-files check (disk only, error-logged); BA202 L10 VAT recording transcribed; FN201 = STQs + LN7 only.
+- AC311 revaluation drill → CLOSED (surplus → RE + sale ✓); impairment from zero: pick-the-higher, reversal ceiling, goodwill no-reversal, revalued impairment. +5 cards.
+- Long run Sun ✗ (road trip); said Fri 6 Nov 12 km (ledger). MK Nike channels brief done. Goals: run club talk ✓ · AC311 ✓ · family lunch ✓.
+
 ## 2026-10-31 (Sat)  *(flushed from SITREP 4 Nov)*
 - 🧵 10:11–10:25 **Samneang at the café with Patrick.** Relisted deadlines + missing cards. HQ cleanup (his ask): Mockup Archive = only the 3 folders + Bottoms; trashed V0 sheet, duplicate Henley-sheet card, 2 blank cards; proxy card → Done (measured 22 Oct; Crow wrongly said unmeasured). **His call: Henley Design Sheet V1 = current**, old spec marked outdated. Flagged: V1's thin jersey vs Core Rule 1 "weighted". → [[project-clothing-brand]]
 - 🌸 Goals: Samneang timeline · colour palette · 3 brand words. Wake early ✓. Training: hoops 18:00 replaces lift + easy 35′; Sun 1 Nov long 13 km ledgered.
