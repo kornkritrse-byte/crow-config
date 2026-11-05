@@ -197,3 +197,5 @@ metadata:
 - 2026-11-05 | Daily journal | open
 - 2026-11-05 | Reading | open
 - 2026-11-05 | Bed by 23:30 | open
+- 2026-11-05 | Study AC311 | open
+- 2026-11-05 | Calm Zone 2 run (before tomorrow's long run) | open

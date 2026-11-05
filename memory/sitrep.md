@@ -27,12 +27,13 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (Thu 5 Nov, 15:04).** ASK ON RETURN: **P1 (real 2021 mid2, borrowing costs) from a blank page ON PAPER**, Crow only checks numbers · his reply on the BA202 pre-chew offer if unanswered · TT Thu 5 Nov morning + Fri 6 Nov 12 km (ledgered). His term plan (3 Nov 18:05): BA202 only in the 3–7 Dec gap; FN201 = STQs (+LN7); AC311 = refine via past paper; AC313 = past paper.
+- **Here (Thu 5 Nov, 15:04).** ASK ON RETURN: **P1 (real 2021 mid2, borrowing costs) from a blank page ON PAPER**, Crow only checks numbers · his reply on the BA202 pre-chew offer if unanswered · TT skipped 5 Nov (no sleep), NEEDS A DATE · Fri 6 Nov 12 km (ledgered). His term plan (3 Nov 18:05): BA202 only in the 3–7 Dec gap; FN201 = STQs (+LN7); AC311 = refine via past paper; AC313 = past paper.
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
 ## Session — 2026-11-05 (Thu, live)
 - 📘 15:04 "run through the entries on AC311" → ghost 42 (DDB) served first.
+- 🌸 15:32 goals: study AC311 · calm Z2 run (12 km Fri follows). 5K TT ✗ again, his call: no sleep last night → rested run > bad TT. TT needs a new date (ledger 59 → [~]).
 
 ## Session — 2026-11-04 (Wed)
 - 13:21 back for the big study block. Ghost 41 ✓ (SYD; wrote 0.3 × 500k, flagged). Lint fixed (30 Oct flushed). Ledger 55 → [~]: Samneang = **inspiration phase till finals end** → Pinterest board → "what is Samneang at a glance" + logo motif.
