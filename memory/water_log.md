@@ -129,3 +129,5 @@ metadata:
 - 2026-11-04 14:45 | goal | Wake early
 - 2026-11-06 20:57 | training | Long run 13 km with a friend (Fri 6 Nov, planned 12)
 - 2026-11-06 20:57 | ledger | Kept: Fri 6 Nov long run with a friend (did 13 km)
+- 2026-11-06 20:58 | ghost | AC311: Q: Machine cost 500,000, residual 50,000, life 5 years. Doub
+- 2026-11-06 20:58 | goal | Moving
