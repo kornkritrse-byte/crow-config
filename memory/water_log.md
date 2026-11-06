@@ -127,3 +127,5 @@ metadata:
 - 2026-11-04 14:12 | goal | Study AC311: impairment (value in use + CGUs)
 - 2026-11-04 14:16 | goal | Morning creative writing
 - 2026-11-04 14:45 | goal | Wake early
+- 2026-11-06 20:57 | training | Long run 13 km with a friend (Fri 6 Nov, planned 12)
+- 2026-11-06 20:57 | ledger | Kept: Fri 6 Nov long run with a friend (did 13 km)
