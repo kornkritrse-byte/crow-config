@@ -11,7 +11,7 @@ metadata:
 
 ## 🔌 Strava connection — PARKED 6 Nov 2026 21:57 (his call: "I need a subscription for it...fuck it")
 - Creating a Strava API app asked him for a subscription → dropped. `bin/strava.py` (read-only: setup / recent / pbs, creds in ~/.strava/) is on disk and tested offline only, never connected. Don't re-pitch it; it works if he ever has a subscription.
-- Free path for PBs/runs: a **Garmin Connect screenshot** (Personal Records) dropped into the Room. PB record as of 6 Nov: only finished 5K = 25:30 (27 Aug); no 10K time ever given.
+- Free path for PBs/runs: a **Garmin Connect screenshot** (Personal Records) dropped into the Room. **PBs (his report, 6 Nov 21:58, from Garmin/Strava, dates not given): 5K 24:52 (4:58/km, "on a whim", soft) · 10K 54:12 (5:25/km).** 10K race target 48:00 = 4:48/km, so 6:12 off the PB in 5 weeks on paper; only realistic if his true 5K is ~23:00 (guess from the 4:09–4:15 starts), which no TT has proven yet.
 
 ## ⏱️ 2026-11-05 — 5K TT #2: BLEW UP THE SAME WAY (reported 6 Nov 21:50)
 - **2.5 km @ 4:09/km, then stopped** ("no way we finishing this without sacrificing something that could hurt" the Fri 6 Nov long run; he ran 13 km Fri). Bad sleep the night before.
@@ -163,6 +163,7 @@ He blew the pacing by going out hot. **Every run, easy or hard, starts slower th
 
 ### Milestones
 - **27 Aug 2026 — 25:30** (soft; positive-split). Baseline set.
+- **PB on record (reported 6 Nov): 5K 24:52 · 10K 54:12.** Both likely soft.
 - **Late Oct — sub-24:00.** The near milestone. Reachable on this structure once the post-midterm ramp starts.
 - **20:00 — 12–18 months**, and only on 4–6 runs/week sustained. Told to him 27 Aug. **He should not be carrying this as a near-term target.**
 
