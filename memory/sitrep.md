@@ -34,6 +34,7 @@ metadata:
 ## Session — 2026-11-05 (Thu, live)
 - 📘 15:04 "run through the entries on AC311" → ghost 42 (DDB) served first.
 - 🌸 15:32 goals: study AC311 · calm Z2 run (12 km Fri follows). 5K TT ✗ again, his call: no sleep last night → rested run > bad TT. TT needs a new date (ledger 59 → [~]).
+- 👻 6 Nov 20:53 back (answered the card ~29h later): ghost 42 ✗: Y1 200k ✓, Y2 80k ✗ (should be 40% × 300k CA = 120k). Back in box 1, due Mon 9 Nov. 5 Nov goals still unmarked.
 
 ## Session — 2026-11-04 (Wed)
 - 13:21 back for the big study block. Ghost 41 ✓ (SYD; wrote 0.3 × 500k, flagged). Lint fixed (30 Oct flushed). Ledger 55 → [~]: Samneang = **inspiration phase till finals end** → Pinterest board → "what is Samneang at a glance" + logo motif.
