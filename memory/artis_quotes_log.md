@@ -352,3 +352,8 @@ He set his own stop time at 16:4x when the night was still theoretical, pushed b
 > "Hold every hour in your grasp. Lay hold of to-day's task, and you will not need to depend so much upon to-morrow's. While we are postponing, life speeds by."
 > — **Seneca**, *Moral Letters to Lucilius*, Letter 1 (Gummere trans.)
 **Why:** A real day on Samneang (IG logo, rough pants + Henley designs, deadlines), and AC311 left behind again; he named it himself and handed tomorrow to Crow: "no dilly dally." Seneca's first letter is about exactly that trade: the brand took today's hours, so tomorrow can't be another day that leans on the one after it.
+
+## 2026-11-06 — Tolstoy, *War and Peace*, Book 10 ch. 16
+> "The strongest of all warriors are these two — Time and Patience."
+> — **Leo Tolstoy**, *War and Peace* (Kutuzov; Maude trans.)
+**Why:** Two 5K TTs blown up the same way: out at 4:09–4:15 when the goal needed 4:48, stopped at half distance. Sub-50 on 13 Dec is a pacing problem, not a fitness one. Same shape at the desk: six entries, one at a time, the misses written down to come back Monday. He kept the hour he set and went to bed on time.

@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-11-05 15:04 (live). Window holds 5 Nov + 4 Nov; 3 Nov flushed 5 Nov. Next to flush: 4 Nov.*
+*Last updated: 2026-11-06 22:01 (day close). Window holds 5 Nov + 4 Nov; 3 Nov flushed 5 Nov. Next to flush: 4 Nov.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,14 +27,17 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (Thu 5 Nov, 15:04).** ASK ON RETURN: **next AC311 block = borrowing costs → P1 (real 2021 mid2) from a blank page ON PAPER, then ARO + intangibles entries**, Crow only checks numbers · his reply on the BA202 pre-chew offer if unanswered · TT attempted 5 Nov (2.5 km @ 4:09/km, stopped; target 4:48), NEEDS A DATE · Fri 6 Nov long run ✓ 13 km. His term plan (3 Nov 18:05): BA202 only in the 3–7 Dec gap; FN201 = STQs (+LN7); AC311 = refine via past paper; AC313 = past paper.
+- **AWAY (Fri 6 Nov, 22:01) — off to: writing + reading, bed by 23:30.** ASK ON RETURN: bed by 23:30 ✓/✗ · writing + reading done? · **TT date** (with a Garmin pace cap: first 2 km no faster than 4:45) · **10K goal: 48:00 in the plan vs his "sub-50" hope** → decide · next AC311 block = borrowing costs → P1 (real 2021 mid2) from a blank page ON PAPER, then ARO + intangibles · his reply on the BA202 pre-chew offer if unanswered. His term plan (3 Nov 18:05): BA202 only in the 3–7 Dec gap; FN201 = STQs (+LN7); AC311 = refine via past paper; AC313 = past paper.
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
-## Session — 2026-11-05 (Thu, live)
-- 📘 15:04 "run through the entries on AC311" → ghost 42 (DDB) served first.
-- 🌸 15:32 goals: study AC311 · calm Z2 run (12 km Fri follows). 5K TT ✗ again, his call: no sleep last night → rested run > bad TT. TT needs a new date (ledger 59 → [~]).
-- 👻 6 Nov 20:53 back (answered the card ~29h later): ghost 42 ✗: Y1 200k ✓, Y2 80k ✗ (should be 40% × 300k CA = 120k). Back in box 1, due Mon 9 Nov. 5 Nov goals still unmarked. He says paper had 120k, typed the wrong number → one-line base check offered. 🏃 Fri long run ✓ **13 km** w/ friend (ledger 57 [x], watered). 20:58 base check "300k × 0.4" ✓ → ghost 42 flipped to pass (box 2, Fri 13 Nov). Moving ✓ (the 13 km). 21:00 entries block, his call: **1 hour, stop 22:00** to wind down (writing + reading + bed 23:30). Order: reval → impairment/reversal → disposal → exchange → borrowing costs → ARO → intangibles. E1 reval up: idea ✓, clearing entry ✗ (Dr Dep expense / Cr AD) → carded. E2 reval down: **surplus-first ✓ on paper** (self-graded; he writes, Crow gives the key). E3 impairment: RA 200k ✓ loss 40k ✓, entry ✗ (forgot it entirely) → carded. E4 reversal: ceiling confused (voice) → self-clicked ✓; entry ✗ again (2nd reversal miss after 4 Nov) → carded. E5 disposal: 2-step version, logic + numbers ✓, but "Cr Building" for a machine (wrong-asset slip, 3rd time) → carded. (he: typo; card kept, Vera named the typed-vs-paper gap, 2nd time tonight.) E6 exchange w/ commercial substance ✓. 21:48 block CLOSED on time, goal ✓. 4 new cards, all due Mon 9 Nov. LEFT for next block: borrowing costs (+ P1 2021 on paper), ARO, intangibles. Pocket Procedures updated in Notion (+4 toggles: impairment, reversal, disposal, exchange; elimination step-1 warning). 🏃 21:50 TT correction: he DID try it Thu: 2.5 km @ 4:09/km then stopped to protect the 13 km. Target pace 4:48 → went out ~40 s/km too fast. 21:54 "do the strava now" → Crow built bin/strava.py → API app needs a subscription → PARKED (his call). PBs via Garmin Connect screenshot instead. 21:58 he gave them: **5K 24:52 · 10K 54:12** (logged in the training plan).
+## Session — 2026-11-05/06 (Thu–Fri; one session, paused ~29h mid-card)
+- 🌸 Thu 15:32 goals: study AC311 · calm Z2. 5K TT attempt Thu: **2.5 km @ 4:09/km, stopped** (target 4:48; same blow-up shape as 14 Oct) → [[project-training-plan]]. Fri: **long run ✓ 13 km** w/ friend (ledger 57 [x]).
+- 👻 Ghost 42 (DDB): typed Y2 80k ✗, says paper had 120k → base check "300k × 0.4" ✓ → flipped to pass (box 2, Fri 13 Nov).
+- 📘 Fri 21:00–21:48 AC311 entries, his call 1 hour: reval up (clearing entry ✗: Dr Dep exp) · reval down **surplus-first ✓** · impairment (RA + loss ✓, entry ✗) · reversal (entry ✗, 2nd time) · disposal (2-step ✓, "Cr Building" for a machine ✗) · exchange ✓. 4 cards, due Mon 9 Nov. Pocket Procedures +4 toggles. Mode: he writes on paper, Crow gives the key, he self-grades.
+- 🪞 Vera named it: twice tonight the typed answer was wrong and "the paper was right" (Y2 80k, Building). Watch whether it recurs.
+- 🏃 PBs given: **5K 24:52 · 10K 54:12**. Prediction: ~51:00 ±1:30 now; sub-50 on 13 Dec = slight favourite IF a TT proves <24:00 AND he paces 5:03 → 4:57. Strava API needs a subscription → PARKED (bin/strava.py on disk).
+- 22:01 goodnight on time. Artis: Tolstoy, Time and Patience.
 
 ## Session — 2026-11-04 (Wed)
 - 13:21 back for the big study block. Ghost 41 ✓ (SYD; wrote 0.3 × 500k, flagged). Lint fixed (30 Oct flushed). Ledger 55 → [~]: Samneang = **inspiration phase till finals end** → Pinterest board → "what is Samneang at a glance" + logo motif.
