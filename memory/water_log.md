@@ -132,3 +132,4 @@ metadata:
 - 2026-11-06 20:58 | ghost | AC311: Q: Machine cost 500,000, residual 50,000, life 5 years. Doub
 - 2026-11-06 20:58 | goal | Moving
 - 2026-11-06 20:58 | goal | Wake early
+- 2026-11-06 21:48 | goal | Study AC311 entries

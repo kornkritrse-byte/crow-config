@@ -205,4 +205,4 @@ metadata:
 - 2026-11-06 | Daily journal | open
 - 2026-11-06 | Reading | open
 - 2026-11-06 | Bed by 23:30 | open
-- 2026-11-06 | Study AC311 entries | open
+- 2026-11-06 | Study AC311 entries | done
