@@ -9,6 +9,10 @@ metadata:
   modified: 2026-09-13T01:30:25.289Z
 ---
 
+## ⏱️ 2026-11-05 — 5K TT #2: BLEW UP THE SAME WAY (reported 6 Nov 21:50)
+- **2.5 km @ 4:09/km, then stopped** ("no way we finishing this without sacrificing something that could hurt" the Fri 6 Nov long run; he ran 13 km Fri). Bad sleep the night before.
+- **Same shape as 14 Oct** (3.51 km @ 4:15, stopped): a start ~40 s/km faster than the sub-24:00 target (4:48/km). Two TTs, zero clean baselines. Fix = a Garmin pace alert / capped first 2 km, not more fitness. Not re-dated yet.
+
 ## ⏱️ 2026-10-13/14 — 5K TT: BLEW UP, NO CLEAN BASELINE (reported 16 Oct 14:39)
 - **Strava: 3.51 km @ 4:15/km (~14:55), then stopped.** Run in Bangkok: the Pattaya trip didn't happen. He logs runs on **Strava**. Volume: **30+ km week 5–11 Oct, ~30 again 12–18 Oct** (his words), which is roughly plan level for W1–W2. 4:12 = **21:00 5K pace**, ~55 s/km faster than the 27 Aug TT (25:30) and faster than the 4 Nov milestone (sub-24:00 = 4:48). Probably anchored on the 7 Oct strides @ 4:00. Exact date not given (Pattaya trip cancelled).
 - **Read (guess):** a pacing failure, not a fitness one. Holding 4:12 for 3.6 km means fitness moved a lot since August; true 5K now maybe **~22:30–23:30**. If so, the 10K 48:00 target (4:48) is on track. Re-set paces only off a CLEAN effort → the **4 Nov TT** with a pace cap on the first 3 km.
