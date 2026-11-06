@@ -9,6 +9,10 @@ metadata:
   modified: 2026-09-13T01:30:25.289Z
 ---
 
+## 🔌 Strava connection — PARKED 6 Nov 2026 21:57 (his call: "I need a subscription for it...fuck it")
+- Creating a Strava API app asked him for a subscription → dropped. `bin/strava.py` (read-only: setup / recent / pbs, creds in ~/.strava/) is on disk and tested offline only, never connected. Don't re-pitch it; it works if he ever has a subscription.
+- Free path for PBs/runs: a **Garmin Connect screenshot** (Personal Records) dropped into the Room. PB record as of 6 Nov: only finished 5K = 25:30 (27 Aug); no 10K time ever given.
+
 ## ⏱️ 2026-11-05 — 5K TT #2: BLEW UP THE SAME WAY (reported 6 Nov 21:50)
 - **2.5 km @ 4:09/km, then stopped** ("no way we finishing this without sacrificing something that could hurt" the Fri 6 Nov long run; he ran 13 km Fri). Bad sleep the night before.
 - **Same shape as 14 Oct** (3.51 km @ 4:15, stopped): a start ~40 s/km faster than the sub-24:00 target (4:48/km). Two TTs, zero clean baselines. Fix = a Garmin pace alert / capped first 2 km, not more fitness. Not re-dated yet.
