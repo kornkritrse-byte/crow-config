@@ -135,3 +135,4 @@ metadata:
 - 2026-11-06 21:48 | goal | Study AC311 entries
 - 2026-11-06 21:50 | goal | Moving
 - 2026-11-06 21:50 | training | 5K TT attempt Thu 5 Nov: 2.5 km at 4:09/km, stopped (protecting Fri 13 km)
+- 2026-11-07 10:19 | goal | Morning creative writing
