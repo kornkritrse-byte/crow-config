@@ -10,6 +10,12 @@ metadata:
 ---
 
 # Sessions Log (archive)
+## 2026-11-04 (Wed)  *(flushed from SITREP 7 Nov)*
+- 📘 AC311: review of 3 Nov (RA, reversal entry ✗, surplus-first ✗ then ✓) → **impairment CLOSED** (VIU 36,294 ✓ after a cash-flow sign slip, CGU espresso ✗ → condo ✓). 11 cards.
+- 📄 Real 2021 mid2 read: P1 borrowing costs walked step by step (WAAE 8/12 slip, '5% over the life', general part on 8.25M borrowed instead of 5.7M spent) → 510,390; ended "im lost". Senior's key wrong on P1 rate + several MCQs.
+- 🧾 Built the **AC311 Midterm 2 Study Page** in Notion (48 toggle cards, full slide sweep, section 10 = the 2021 paper worked, mermaid flows) → [[reference-pocket-procedures]].
+- Ledger 55 [~]: Samneang = inspiration phase till finals end. 5K TT moved to Thu 5 Nov.
+
 ## 2026-11-03 (Tue)  *(flushed from SITREP 5 Nov)*
 - Missing-files check (disk only, error-logged); BA202 L10 VAT recording transcribed; FN201 = STQs + LN7 only.
 - AC311 revaluation drill → CLOSED (surplus → RE + sale ✓); impairment from zero: pick-the-higher, reversal ceiling, goodwill no-reversal, revalued impairment. +5 cards.

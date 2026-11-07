@@ -357,3 +357,8 @@ He set his own stop time at 16:4x when the night was still theoretical, pushed b
 > "The strongest of all warriors are these two — Time and Patience."
 > — **Leo Tolstoy**, *War and Peace* (Kutuzov; Maude trans.)
 **Why:** Two 5K TTs blown up the same way: out at 4:09–4:15 when the goal needed 4:48, stopped at half distance. Sub-50 on 13 Dec is a pacing problem, not a fitness one. Same shape at the desk: six entries, one at a time, the misses written down to come back Monday. He kept the hour he set and went to bed on time.
+
+## 2026-11-07 — Samuel Beckett, *Worstward Ho*
+> "Ever tried. Ever failed. No matter. Try again. Fail again. Fail better."
+> — **Samuel Beckett**, *Worstward Ho*
+**Why:** On P1 he got 434,775 again, the exact miss from 4 Nov to the baht, and the 20 cards split 10 right and 10 wrong. He failed the 2021 final's revaluation chain at 22:05, then by 23:06 had parts a, b and c of a fresh one right. His "we'll see" meant he might do more, not less. The misses didn't disappear, but each one was smaller than the last.
