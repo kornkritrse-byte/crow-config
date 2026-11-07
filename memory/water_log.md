@@ -137,3 +137,4 @@ metadata:
 - 2026-11-06 21:50 | training | 5K TT attempt Thu 5 Nov: 2.5 km at 4:09/km, stopped (protecting Fri 13 km)
 - 2026-11-07 10:19 | goal | Morning creative writing
 - 2026-11-07 10:19 | goal | Bed by 23:30
+- 2026-11-07 10:20 | ghost | AC311: A company OWNS an office block and rents it out to tenants.
