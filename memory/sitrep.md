@@ -34,7 +34,7 @@ metadata:
 ## Session — 2026-11-07 (Sat)
 - 10:06 morning writing ✓ (asked for "more scenic": Bangkok flood street, describe-only). Bed ✓ (22:00–07:30). 👻 25 (TAS 40) ✓ after a nudge on the sorting Q → box 2.
 - 🌸 Goals: AC311 · dinner with the boys (+ standing; training = Lift + easy 30′). Wake early not yet asked (woke 07:30).
-- 📘 "On pace?" → covered yes, recall unproven: P1 never cold, entries keep slipping, **46/53 AC311 cards due (24 since 1–2 Nov)**; hook serves 1/session → backlog is partly the system. Plan offered: 13:00 P1 on paper → 20 cards oldest-first, rest Sun. Ledgered 13:00. His reply: "we'll see" (not a yes).
+- 📘 "On pace?" → covered yes, recall unproven: P1 never cold, entries keep slipping, **46/53 AC311 cards due (24 since 1–2 Nov)**; hook serves 1/session → backlog is partly the system. Plan offered: 13:00 P1 on paper → 20 cards oldest-first, rest Sun. Ledgered 13:00. His "we'll see" = whether he can do MORE than that; less wasn't on the table (Crow misread it as hedging).
 
 ## Session — 2026-11-05/06 (Thu–Fri; one session, paused ~29h mid-card)
 - 🌸 Thu 15:32 goals: study AC311 · calm Z2. 5K TT attempt Thu: **2.5 km @ 4:09/km, stopped** (target 4:48; same blow-up shape as 14 Oct) → [[project-training-plan]]. Fri: **long run ✓ 13 km** w/ friend (ledger 57 [x]).
