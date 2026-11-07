@@ -145,3 +145,4 @@ metadata:
 - 2026-11-07 16:11 | ghost | AC311: Deferred payment: cash price 250,000, 50,000 down on 1 Jan,
 - 2026-11-07 16:13 | ghost | AC311: Land acquired for 10,000 own shares, par ฿10, trading at ฿15
 - 2026-11-07 16:18 | ghost | AC311: Q: A shareholder donates land (FV 500,000), the company pays
+- 2026-11-07 16:25 | ghost | AC311: Q: Self-built warehouse: materials 300k · labour 200k · inte
