@@ -140,3 +140,4 @@ metadata:
 - 2026-11-07 10:20 | ghost | AC311: A company OWNS an office block and rents it out to tenants.
 - 2026-11-07 15:29 | goal | Wake early
 - 2026-11-07 15:29 | goal | Reading
+- 2026-11-07 16:07 | ghost | AC311: A car-rental company owns 200 cars it rents out by the day.
