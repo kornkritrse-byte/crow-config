@@ -148,3 +148,4 @@ metadata:
 - 2026-11-07 16:25 | ghost | AC311: Q: Self-built warehouse: materials 300k · labour 200k · inte
 - 2026-11-07 16:26 | ghost | AC311: Q: Revalued land: surplus left 100,000, FV drops by 300,000.
 - 2026-11-07 16:35 | ghost | AC311: A mine costs 10,000,000 baht, holds an estimated 2,000,000 t
+- 2026-11-07 16:37 | ghost | AC311: Mine cost 10,000,000, depleted 1,500,000 (yr 1) + 2,250,000
