@@ -138,3 +138,5 @@ metadata:
 - 2026-11-07 10:19 | goal | Morning creative writing
 - 2026-11-07 10:19 | goal | Bed by 23:30
 - 2026-11-07 10:20 | ghost | AC311: A company OWNS an office block and rents it out to tenants.
+- 2026-11-07 15:29 | goal | Wake early
+- 2026-11-07 15:29 | goal | Reading
