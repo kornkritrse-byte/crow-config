@@ -147,3 +147,4 @@ metadata:
 - 2026-11-07 16:18 | ghost | AC311: Q: A shareholder donates land (FV 500,000), the company pays
 - 2026-11-07 16:25 | ghost | AC311: Q: Self-built warehouse: materials 300k · labour 200k · inte
 - 2026-11-07 16:26 | ghost | AC311: Q: Revalued land: surplus left 100,000, FV drops by 300,000.
+- 2026-11-07 16:35 | ghost | AC311: A mine costs 10,000,000 baht, holds an estimated 2,000,000 t
