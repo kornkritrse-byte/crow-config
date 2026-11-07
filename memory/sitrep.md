@@ -31,6 +31,11 @@ metadata:
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
+## Session — 2026-11-07 (Sat)
+- 10:06 morning writing ✓ (asked for "more scenic": Bangkok flood street, describe-only). Bed ✓ (22:00–07:30). 👻 25 (TAS 40) ✓ after a nudge on the sorting Q → box 2.
+- 🌸 Goals: AC311 · dinner with the boys (+ standing; training = Lift + easy 30′). Wake early not yet asked (woke 07:30).
+- 📘 "On pace?" → covered yes, recall unproven: P1 never cold, entries keep slipping, **46/53 AC311 cards due (24 since 1–2 Nov)**; hook serves 1/session → backlog is partly the system. Plan offered: 13:00 P1 on paper → 20 cards oldest-first, rest Sun. Ledgered 13:00. His reply: "we'll see" (not a yes).
+
 ## Session — 2026-11-05/06 (Thu–Fri; one session, paused ~29h mid-card)
 - 🌸 Thu 15:32 goals: study AC311 · calm Z2. 5K TT attempt Thu: **2.5 km @ 4:09/km, stopped** (target 4:48; same blow-up shape as 14 Oct) → [[project-training-plan]]. Fri: **long run ✓ 13 km** w/ friend (ledger 57 [x]).
 - 👻 Ghost 42 (DDB): typed Y2 80k ✗, says paper had 120k → base check "300k × 0.4" ✓ → flipped to pass (box 2, Fri 13 Nov).
