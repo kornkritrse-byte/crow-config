@@ -222,3 +222,4 @@ metadata:
 - 2026-11-08 | Daily journal | open
 - 2026-11-08 | Reading | open
 - 2026-11-08 | Bed by 23:30 | open
+- 2026-11-08 | AC311 session | open
