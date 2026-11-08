@@ -216,7 +216,7 @@ metadata:
 - 2026-11-07 | AC311 | done
 - 2026-11-07 | Dinner with the boys | done
 - 2026-11-07 | — | closed
-- 2026-11-08 | Wake early | open
+- 2026-11-08 | Wake early | missed
 - 2026-11-08 | Morning creative writing | open
 - 2026-11-08 | Training: Long 10 km (cutback) | done
 - 2026-11-08 | Daily journal | open
