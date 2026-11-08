@@ -153,3 +153,4 @@ metadata:
 - 2026-11-07 21:12 | goal | AC311
 - 2026-11-07 21:13 | goal | Dinner with the boys
 - 2026-11-08 20:37 | goal | Training: Long 10 km (cutback)
+- 2026-11-08 20:38 | ghost | AC311: Company A spends 4,000,000 on ads over 5 years building its
