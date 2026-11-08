@@ -218,7 +218,7 @@ metadata:
 - 2026-11-07 | — | closed
 - 2026-11-08 | Wake early | open
 - 2026-11-08 | Morning creative writing | open
-- 2026-11-08 | Training: Long 10 km (cutback) | open
+- 2026-11-08 | Training: Long 10 km (cutback) | done
 - 2026-11-08 | Daily journal | open
 - 2026-11-08 | Reading | open
 - 2026-11-08 | Bed by 23:30 | open

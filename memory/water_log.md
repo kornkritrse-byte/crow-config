@@ -152,3 +152,4 @@ metadata:
 - 2026-11-07 16:39 | ghost | AC311: Machine: cost 500,000, residual 50,000, life 5 yrs, DOUBLE-D
 - 2026-11-07 21:12 | goal | AC311
 - 2026-11-07 21:13 | goal | Dinner with the boys
+- 2026-11-08 20:37 | goal | Training: Long 10 km (cutback)
