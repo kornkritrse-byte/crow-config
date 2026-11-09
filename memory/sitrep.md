@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-10-24T07:53:47.074Z
+  modified: 2026-11-09T07:09:06.173Z
 ---
 
 # Situation Report
@@ -30,6 +30,12 @@ metadata:
 - **AWAY (Sun 8 Nov, 17:17) — off to: a run, then an AC311 session when he's back (his words).** ASK ON RETURN: how the run went (km/feel; plan = 10 km cutback EASY) · bed time Sat 7 Nov (he called the miss) · the clothes he cut up today (brand/Henley proportions or not?) · then AC311: ghost 53 cold → part (d) reversal → P1 cold redo → intangibles cards 53–58. Carried: what time was bed + did the 10 km happen (told: move it later rather than cut sleep) · journal done? · journal done? · tomorrow's plan = part (d) reversal on the equipment chain (RA after impairment) FIRST → P1 cold redo (blank page) → intangibles block (cards 53–58) · 10 km cutback EASY · **TT date** (with a Garmin pace cap: first 2 km no faster than 4:45) · **10K goal: 48:00 in the plan vs his "sub-50" hope** → decide · next AC311 block = borrowing costs → P1 (real 2021 mid2) from a blank page ON PAPER, then ARO + intangibles · his reply on the BA202 pre-chew offer if unanswered. His term plan (3 Nov 18:05): BA202 only in the 3–7 Dec gap; FN201 = STQs (+LN7); AC311 = refine via past paper; AC313 = past paper.
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
+
+## Session — 2026-11-09 (Mon, from 13:42)
+- 👻 Ghost 56 (gov-grant licence) ✗ with hint: got the fair-value Dr side, not nominal. Taught both + the amortisation/grant-release link. 2 new cards (grant → P&L not RE; nominal = no grant release), both due Thu 12 Nov.
+- 🩺 13:54 dull ache + sharp jabs on the LEFT outer eyebrow bone, tender to pressure. Read: local strain/tension/nerve (guess). Told: rash/tingling on that side → doctor same day; still there Mon 16 Nov → doctor. Ask how it is next session.
+- 📘 14:01–14:08 impairment → reversal chain on paper (1,000,000 / 10 yrs, RA 640k then 700k): 160k loss ✓ · CA 480k ✓ · ceiling 600k, reversal 120k ✓ · entry matched. Saturday's reversal miss, now clean. Next: P1 (real mid2) cold redo on paper.
+- 🪞 Said/did line 61 (AC311 after Sun run): asked 4×, no answer yet. Run/bed/journal from the status line also unanswered.
 
 ## Session — 2026-11-07 (Sat)
 - 🌸 10:06 writing ✓ (flood street, describe-only, his "more scenic" ask) · bed ✓ (22:00–07:30) · 👻 25 TAS 40 ✓ · goals: AC311 ✓ · dinner with the boys ✓ · training ✗ (studied instead).
