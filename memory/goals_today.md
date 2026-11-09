@@ -223,3 +223,9 @@ metadata:
 - 2026-11-08 | Reading | open
 - 2026-11-08 | Bed by 23:30 | open
 - 2026-11-08 | AC311 session | open
+- 2026-11-09 | Wake early | open
+- 2026-11-09 | Morning creative writing | open
+- 2026-11-09 | Training: Lift + easy 40′ | open
+- 2026-11-09 | Daily journal | open
+- 2026-11-09 | Reading | open
+- 2026-11-09 | Bed by 23:30 | open
