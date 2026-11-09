@@ -156,3 +156,6 @@ metadata:
 - 2026-11-08 20:38 | ghost | AC311: Company A spends 4,000,000 on ads over 5 years building its
 - 2026-11-08 20:45 | ghost | AC311: Software licence 1,000,000 + installing/testing 50,000 + sta
 - 2026-11-08 20:58 | ghost | AC311: You buy a whole competitor. Its home-built customer list was
+- 2026-11-09 13:45 | goal | Reading
+- 2026-11-09 13:45 | goal | Morning creative writing
+- 2026-11-09 13:45 | goal | Wake early
