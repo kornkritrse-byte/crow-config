@@ -194,7 +194,9 @@
     { t: "The Three Theban Plays", short: "Theban Plays", a: "Sophocles", s: "dropped once, wants to go back to it (because of รับน้อง)", pg: 430, ...PENGUIN },
     { t: "White Nights", a: "Dostoevsky", s: "read, a long time back", pg: 100, ...PENGUIN },
     { t: "The Stranger", a: "Albert Camus", s: "read", pg: 120, len: 40, ...CAMUS },
-    { t: "The Myth of Sisyphus", short: "Myth of Sisyphus", a: "Albert Camus", s: "reading now (the heavy track), the reread after Karamazov (26 Oct)", pin: 1, now: true, pg: 150, len: 43, ...CAMUS },
+    { t: "The Myth of Sisyphus", short: "Myth of Sisyphus", a: "Albert Camus", s: "the reread after Karamazov (26 Oct), set aside for The Master and Margarita", pg: 150, len: 43, ...CAMUS },
+    { t: "The Master and Margarita", short: "Master & Margarita", a: "Mikhail Bulgakov", s: "reading now, bought at the book fair (29 Oct), Pevear & Volokhonsky", pin: 1, now: true, pg: 400, len: 43, ...PENGUIN },
+    { t: "Crime and Punishment", short: "Crime & Punishment", a: "Dostoevsky", s: "reading now (his call 10 Nov), bought with M&M at the book fair", pin: 2, now: true, pg: 650, len: 43, ...PENGUIN },
     { t: "The Alchemist", a: "Paulo Coelho", s: "read", c: "#e07a26", ink: "#f8e06a", pg: 200 },
     { t: "The Death of Ivan Ilyich", short: "Ivan Ilyich", a: "Leo Tolstoy", s: "read", c: "#f0ece4", ink: RED, pg: 115, deco: [["block", 0, 0.09, "#3a5aa8"]], lab: [0.1, 1] },
     { t: "Man's Search for Meaning", short: "Man's Search", a: "Viktor Frankl", s: "read, still marinating", c: K_, ink: GOLD, pg: 150 },
@@ -210,7 +212,7 @@
     { t: "Pride and Prejudice", a: "Jane Austen", s: "a few chapters in, paused for a more fun read", pg: 430, len: 40, ...BLACKTAB },
     { t: "Cleopatra and Frankenstein", short: "Cleopatra & Frankenstein", a: "Coco Mellors", s: "dropped: too horny, felt too modern", c: "#f0ece4", ink: "#2a4ab0", pg: 370 },
     { t: "Shakespeare's Sonnets", short: "Sonnets", a: "William Shakespeare", s: "read", c: "#f0ece4", ink: K_, pg: 100, deco: [["block", 0, 0.16, K_], ["block", 0.84, 1, K_]], lab: [0.17, 0.83] },
-    { t: "The Winter of Our Discontent", short: "Winter of Our Discontent", a: "John Steinbeck", s: "reading now (the light track), picked 26 Oct", pin: 2, now: true, c: "#f0ece4", ink: K_, pg: 290, len: 43, deco: [["dot", 0.93, "#e8741c"]], lab: [0, 0.87] },
+    { t: "The Winter of Our Discontent", short: "Winter of Our Discontent", a: "John Steinbeck", s: "paused 29 Oct for The Master and Margarita, not dropped", c: "#f0ece4", ink: K_, pg: 290, len: 43, deco: [["dot", 0.93, "#e8741c"]], lab: [0, 0.87] },
     { t: "House of Leaves", a: "Mark Z. Danielewski", s: "not planning to read it, it's just a really cool book", c: "#ece8e0", ink: W_, pg: 700, len: 43, deco: [["frames", K_]], shadow: true },
   ];
   const thickFor = (bk) => Math.max(4, Math.round((bk.mm ?? (bk.pg || 250) * 0.0635 + 1) / 3.3));

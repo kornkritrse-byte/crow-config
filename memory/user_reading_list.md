@@ -59,6 +59,7 @@ He runs **two books in parallel by weight**, deliberately: a **light/calm book f
 **Reading is non-negotiable for him** — asked 23 Aug whether it would survive exam season: *"reading for sure stays, that's one hobby I will always have constant no matter what, period."* Never propose cutting it for time.
 
 ## 🔜 QUEUE (26 Oct 2026, 21:54, his call)
+- NOW (10 Nov, his words: "the two books reading rn are m&m and idk just put crime and punishment up there"): **M&M + Crime and Punishment** on the Room's shelf as reading-now. C&P's 'idk' = may not have started it; ask the page before any talk about it (⛔ no spoilers). Sisyphus + Winter off the now-pins.
 - NOW (29 Oct): **The Master and Margarita**: bought at a book fair along with **Crime and Punishment**; ch 1 "really got me going", so it took Winter's slot. Winter of Our Discontent is PAUSED, not dropped. Sisyphus status not restated. ⛔ No spoilers past ch 1. Both are Penguin Classics (his word, 29 Oct): M&M = Pevear & Volokhonsky, uncensored, so fine. C&P = McDuff or Ready, unchecked.
 - (was, 26 Oct): Myth of Sisyphus (heavy, reread) + Winter of Our Discontent (light).
 - (OWNED 29 Oct, now reading) **The Master and Margarita** (Bulgakov). Crow's framing: brilliant but not "another Karamazov" (satire + magic, the Devil in Soviet Moscow + Pilate); avoid the Ginsburg translation (censored text). Buy: Penguin Classics P&V paperback ISBN 9780140455465 (black Penguin, matches his row); Glenny = OK backup (Kinokuniya TH stocked it in 2017); stock at Kinokuniya TH not verified.

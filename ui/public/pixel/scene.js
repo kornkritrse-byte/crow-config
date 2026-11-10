@@ -110,7 +110,7 @@
         { id: "amp", x: 90, y: FLOOR - 26, w: 28, h: 26, label: "Orange amp", note: "Crush, under the desk." },
         { id: "owala", x: 76, y: 90, w: 14, h: 34, label: "Owala", note: "Drink some water." },
         { id: "window", x: 131, y: 14, w: 40, h: 56, label: "Window", note: "The view from your room. The tree moves with the wind; the sky follows the hour, the rain the weather." },
-        { id: "books", x: 2, y: 42, w: 66, h: 114, label: "Bookcase", note: "Reading: Siddhartha and Karamazov." },
+        { id: "books", x: 2, y: 42, w: 66, h: 114, label: "Bookcase", note: "Reading: The Master and Margarita and Crime and Punishment." },
         { id: "drawer", ...DRAWERS.drawer, label: "Desk drawer", note: "Everything Crow has built you. Click to open." },
         { id: "drawerL", ...DRAWERS.drawerL, label: "Left drawer", note: "Empty for now." },
         { id: "drawerR", ...DRAWERS.drawerR, label: "Right drawer", note: "Empty for now." },
