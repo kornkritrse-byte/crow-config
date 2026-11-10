@@ -10,6 +10,12 @@ metadata:
 ---
 
 # Sessions Log (archive)
+## 2026-11-07 (Sat)  *(flushed from SITREP 10 Nov)*
+- 🌸 writing ✓ · bed ✓ (22:00–07:30) · ghost 25 TAS 40 ✓ · AC311 ✓ · dinner with the boys ✓ · training ✗.
+- 📘 P1 borrowing costs redo ~8–10/20 (guess): general part 434,775 again (the 4 Nov miss). 20 cards 10 ✓ / 10 ✗; intangibles weakest.
+- 📄 2021 FINAL drill: MCQ 4/5 (VIU = present value ✗) · P1 impairment 3/4 · P2 reval chain re-taught; equipment chain a–c ✓ by 23:06.
+- 🪞 Vera ×3: method right on paper, wrong number handed in. Fix: reread the last line. Artis: Beckett, Fail better.
+
 ## 2026-11-05/06 (Thu–Fri)  *(flushed from SITREP 10 Nov)*
 - 5K TT Thu: 2.5 km @ 4:09/km, stopped (target 4:48; same blow-up as 14 Oct). Fri long run 13 km ✓ (ledger 57 [x]).
 - 📘 Fri AC311 entries hour: reval up clearing entry ✗ · surplus-first ✓ · impairment entry ✗ · reversal entry ✗ (2nd) · disposal ✓ but "Cr Building" for a machine ✗ · exchange ✓. 4 cards; Pocket Procedures +4.

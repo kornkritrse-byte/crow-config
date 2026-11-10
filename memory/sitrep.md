@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-11-10 11:40 (session open). Window holds 9 Nov + 7 Nov; 5/6 Nov flushed 10 Nov. Next to flush: 7 Nov.*
+*Last updated: 2026-11-10 11:40 (session open). Window holds 10 Nov + 9 Nov; 5/6 + 7 Nov flushed 10 Nov. Next to flush: 9 Nov.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -31,19 +31,15 @@ metadata:
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
+## Session — 2026-11-10 (Tue, from 11:40)
+- 👻 Ghost 57 (basket premium) ✗: asked for the answer → box 1, due Fri 13 Nov. Discount variant (240k/300k → building 96k) he says ✓ on paper, number not typed.
+- Yesterday's open card (identifiable): ✓ with a hint, "separable OR tied to law/contract". Card 92 already covers it, due Thu 12 Nov.
+
 ## Session — 2026-11-09 (Mon, from 13:42)
 - 👻 Ghost 56 (gov-grant licence) ✗ with hint: got the fair-value Dr side, not nominal. Taught both + the amortisation/grant-release link. 2 new cards (grant → P&L not RE; nominal = no grant release), both due Thu 12 Nov.
 - 🩺 13:54 dull ache + sharp jabs on the LEFT outer eyebrow bone, tender to pressure. Read: local strain/tension/nerve (guess). Told: rash/tingling on that side → doctor same day; still there Mon 16 Nov → doctor. Ask how it is next session.
 - 📘 14:01–14:08 impairment → reversal chain on paper (1,000,000 / 10 yrs, RA 640k then 700k): 160k loss ✓ · CA 480k ✓ · ceiling 600k, reversal 120k ✓ · entry matched. Saturday's reversal miss, now clean. Next: P1 (real mid2) cold redo on paper.
 - 🪞 Said/did line 61 (AC311 after Sun run): asked 4×, no answer yet. Run/bed/journal from the status line also unanswered.
-
-## Session — 2026-11-07 (Sat)
-- 🌸 10:06 writing ✓ (flood street, describe-only, his "more scenic" ask) · bed ✓ (22:00–07:30) · 👻 25 TAS 40 ✓ · goals: AC311 ✓ · dinner with the boys ✓ · training ✗ (studied instead).
-- 📘 15:20 café (1pm said → [~]): P1 borrowing costs redo **~8–10/20 (guess)**, general part = **434,775 again, the exact 4 Nov miss**; variant (actual < avoidable) ✓. 20 overdue cards: 10 ✓ / 10 ✗; **intangibles = weakest (48–52 all ✗)**; the surplus → RE rule missed twice.
-- 📄 21:18 his ask, past-paper drill → **2021 FINAL** (new find, see [[reference-past-papers]]): MCQ 4/5 (VIU = PRESENT value ✗; Q4 right pick but 'the lower' reasoning: borrowing-costs rule leaking into impairment). P1 impairment 3/4 (part 4 wrote a reversal; RA < CA). P2 reval chain 'kinda shit' (years 3 for 2, entries, surplus-first) → re-taught; new equipment chain a, b, c ✓ by 23:06.
-- 🪞 Vera's pattern ×3 today: method right on paper, wrong number/answer handed in (÷4M, CA for dep, 'reverse' wording). Exam fix: reread the last line before writing.
-- 🏃 Volume ~35 km/wk for a month = plan level (→ [[project-training-plan]]). ~16 cards due Tue 10 Nov.
-- 23:07 goodnight on time. Artis: Beckett, Fail better.
 
 ## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. **AC311 Midterm 2 (sessions 8–11, PPE + intangibles, 30%) is next: **Fri 13 Nov** (Korn, 20 Oct; time TBC). Session 11 (31 Oct, impairment TAS 36) falls before it, so assume impairment is IN scope. Final 28 Nov.**
 
