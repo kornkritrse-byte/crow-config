@@ -10,6 +10,11 @@ metadata:
 ---
 
 # Sessions Log (archive)
+## 2026-11-05/06 (Thu–Fri)  *(flushed from SITREP 10 Nov)*
+- 5K TT Thu: 2.5 km @ 4:09/km, stopped (target 4:48; same blow-up as 14 Oct). Fri long run 13 km ✓ (ledger 57 [x]).
+- 📘 Fri AC311 entries hour: reval up clearing entry ✗ · surplus-first ✓ · impairment entry ✗ · reversal entry ✗ (2nd) · disposal ✓ but "Cr Building" for a machine ✗ · exchange ✓. 4 cards; Pocket Procedures +4.
+- 🪞 Vera: typed answer wrong, "the paper was right" ×2. PBs 5K 24:52 · 10K 54:12; prediction ~51:00 ±1:30. Strava API parked.
+
 ## 2026-11-04 (Wed)  *(flushed from SITREP 7 Nov)*
 - 📘 AC311: review of 3 Nov (RA, reversal entry ✗, surplus-first ✗ then ✓) → **impairment CLOSED** (VIU 36,294 ✓ after a cash-flow sign slip, CGU espresso ✗ → condo ✓). 11 cards.
 - 📄 Real 2021 mid2 read: P1 borrowing costs walked step by step (WAAE 8/12 slip, '5% over the life', general part on 8.25M borrowed instead of 5.7M spent) → 510,390; ended "im lost". Senior's key wrong on P1 rate + several MCQs.

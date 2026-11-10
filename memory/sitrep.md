@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-11-07 23:07 (day close). Window holds 7 Nov + 5/6 Nov; 4 Nov flushed 7 Nov. Next to flush: 5/6 Nov.*
+*Last updated: 2026-11-10 11:40 (session open). Window holds 9 Nov + 7 Nov; 5/6 Nov flushed 10 Nov. Next to flush: 7 Nov.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -44,14 +44,6 @@ metadata:
 - 🪞 Vera's pattern ×3 today: method right on paper, wrong number/answer handed in (÷4M, CA for dep, 'reverse' wording). Exam fix: reread the last line before writing.
 - 🏃 Volume ~35 km/wk for a month = plan level (→ [[project-training-plan]]). ~16 cards due Tue 10 Nov.
 - 23:07 goodnight on time. Artis: Beckett, Fail better.
-
-## Session — 2026-11-05/06 (Thu–Fri; one session, paused ~29h mid-card)
-- 🌸 Thu 15:32 goals: study AC311 · calm Z2. 5K TT attempt Thu: **2.5 km @ 4:09/km, stopped** (target 4:48; same blow-up shape as 14 Oct) → [[project-training-plan]]. Fri: **long run ✓ 13 km** w/ friend (ledger 57 [x]).
-- 👻 Ghost 42 (DDB): typed Y2 80k ✗, says paper had 120k → base check "300k × 0.4" ✓ → flipped to pass (box 2, Fri 13 Nov).
-- 📘 Fri 21:00–21:48 AC311 entries, his call 1 hour: reval up (clearing entry ✗: Dr Dep exp) · reval down **surplus-first ✓** · impairment (RA + loss ✓, entry ✗) · reversal (entry ✗, 2nd time) · disposal (2-step ✓, "Cr Building" for a machine ✗) · exchange ✓. 4 cards, due Mon 9 Nov. Pocket Procedures +4 toggles. Mode: he writes on paper, Crow gives the key, he self-grades.
-- 🪞 Vera named it: twice tonight the typed answer was wrong and "the paper was right" (Y2 80k, Building). Watch whether it recurs.
-- 🏃 PBs given: **5K 24:52 · 10K 54:12**. Prediction: ~51:00 ±1:30 now; sub-50 on 13 Dec = slight favourite IF a TT proves <24:00 AND he paces 5:03 → 4:57. Strava API needs a subscription → PARKED (bin/strava.py on disk).
-- 22:01 goodnight on time. Artis: Tolstoy, Time and Patience.
 
 ## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. **AC311 Midterm 2 (sessions 8–11, PPE + intangibles, 30%) is next: **Fri 13 Nov** (Korn, 20 Oct; time TBC). Session 11 (31 Oct, impairment TAS 36) falls before it, so assume impairment is IN scope. Final 28 Nov.**
 

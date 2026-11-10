@@ -229,3 +229,9 @@ metadata:
 - 2026-11-09 | Daily journal | open
 - 2026-11-09 | Reading | done
 - 2026-11-09 | Bed by 23:30 | open
+- 2026-11-10 | Wake early | open
+- 2026-11-10 | Morning creative writing | open
+- 2026-11-10 | Moving | open
+- 2026-11-10 | Daily journal | open
+- 2026-11-10 | Reading | open
+- 2026-11-10 | Bed by 23:30 | open
