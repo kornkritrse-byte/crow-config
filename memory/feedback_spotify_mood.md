@@ -1,5 +1,6 @@
 ---
 name: feedback-spotify-mood
+aliases: ["feedback-spotify-mood"]
 description: "Late-night sessions (21:00–05:00) — check Spotify now-playing ONCE at the first message and read the mood lightly; his explicit standing ask, 27 Sep 2026"
 metadata:
   node_type: memory

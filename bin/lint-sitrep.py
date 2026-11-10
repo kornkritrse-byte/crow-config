@@ -95,8 +95,8 @@ for p in MEM.glob("*.md"):
     if p.name == "MEMORY.md":
         continue
     head = p.read_text()[:600]
-    if head.startswith("---") and "aliases:" not in head:
-        warn.append(f"{p.name} has no aliases line (shows unresolved in Obsidian graph)")
+    if head.startswith("---") and "\naliases:" not in head:
+        warn.append(f"{p.name} has no top-level aliases line (nested under metadata doesn't count; shows unresolved in Obsidian graph)")
 
 if warn:
     print("=== 🧹 SITREP LINT — fix these this session ===")

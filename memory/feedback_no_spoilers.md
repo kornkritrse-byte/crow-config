@@ -1,5 +1,6 @@
 ---
 name: feedback-no-spoilers
+aliases: ["feedback-no-spoilers"]
 description: "Don't explain or quote parts of a book beyond where Korn is, even on a reread; ask where he is first"
 metadata:
   node_type: memory

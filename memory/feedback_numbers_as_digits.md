@@ -1,5 +1,6 @@
 ---
 name: feedback-numbers-as-digits
+aliases: ["feedback-numbers-as-digits"]
 description: "In any number exercise, write numbers as DIGITS (10,000,000 / 67,500), never spelled out, including in voice replies; put the drill's figures in an on-screen block too"
 metadata:
   node_type: memory

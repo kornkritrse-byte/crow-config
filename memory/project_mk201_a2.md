@@ -1,5 +1,6 @@
 ---
 name: project-mk201-a2
+aliases: ["project-mk201-a2"]
 description: "MK201 Assignment 2 (STP, group, 5%), due Tue 13 Oct 2026 09:00 — Le Labo, written report"
 metadata:
   node_type: memory

@@ -1,5 +1,6 @@
 ---
 name: ghost-parked
+aliases: ["ghost-parked"]
 description: Ghost cards parked 24 Oct 2026 (midterm-1 topics, off the remaining tests); the hook ignores this file
 metadata:
   type: project

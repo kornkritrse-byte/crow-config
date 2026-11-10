@@ -1,5 +1,6 @@
 ---
 name: reference-pocket-procedures
+aliases: ["reference-pocket-procedures"]
 description: "Korn's Notion page 'Pocket Procedures' (built 3 Nov 2026): toggle Q→A study cards for phone review on commutes; Crow adds to it after every drill"
 metadata:
   node_type: memory

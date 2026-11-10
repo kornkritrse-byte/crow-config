@@ -1,5 +1,6 @@
 ---
 name: ledger-said-did
+aliases: ["ledger-said-did"]
 description: "The said/did ledger. Every dated \"I'll do X\" Korn says, checked the next session; weekly follow-through % surfaced Sundays by bin/ledger.py"
 metadata:
   node_type: memory

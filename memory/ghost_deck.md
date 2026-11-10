@@ -1,5 +1,6 @@
 ---
 name: ghost-deck
+aliases: ["ghost-deck"]
 description: Spaced-repetition deck of questions Korn MISSED in drills; session-start hook serves one due card cold via bin/ghost.py
 metadata:
   node_type: memory
