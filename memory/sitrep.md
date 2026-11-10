@@ -37,7 +37,8 @@ metadata:
 - 🌸 12:13 goals: Study AC311 · Dinner with the boys · Affinity: Samneang coming-soon ad mockup. Logo: 'we got a better grip on it' (him + Patrick; details not given yet).
 - 📘 13:03 tough Q (reval → excess-dep transfer → impairment): needed the excess-dep entry taught (ghost 40 ✗; 'bucket + scoop' landed, 20k ✓). Asked for the reveal before typing; says paper numbers all ✓ (100k to P&L), entries ✗: yearly dep written as acc dep/machine, Cr Machine on impairment. Cards 94 + 95, due 12/13 Nov.
 - 📘 13:16 borrowing costs (WAAE 5M, rate 9.5%, general base 3M → 285k + specific 200k = 485k): ALL ✓, stepwise with nudges. The repeat miss (multiplying by the loans, not WAAE − specific) didn't recur.
-- 13:24 ceiling variant ✗ (190k; card 96) → lunch 13:27–14:29 → rebuilt FROM ZERO in pieces: specific ✓ · general base typed 240k ✗ (says paper had 260k ✓; 4th paper≠typed in a week → card 73 fail) · 'why subtract' right pick wrong reason (card 97) · WAAE ✓ · weighted rate 7% ✓ · ceiling 350k ✓.
+- 13:24 ceiling variant ✗ (190k; card 96) → lunch 13:27–14:29 → rebuilt FROM ZERO in pieces: specific ✓ · general base typed 240k ✗ (says paper had 260k ✓; 4th paper≠typed in a week → card 73 fail) · 'why subtract' right pick wrong reason (card 97) · WAAE ✓ · weighted rate 7% ✓ · ceiling 350k ✓. Full 5-step solo: general 160k ✓ (cap caught himself), handed in 160k for TOTAL (250k) ✗ → card 98. Pocket Procedures +6 toggles. 🌸 Study AC311 ✓ 15:03.
+- 🩺 Eyebrow: 'cool now' (15:03). Closed.
 
 ## Session — 2026-11-09 (Mon, from 13:42)
 - 👻 Ghost 56 (gov-grant licence) ✗ with hint: got the fair-value Dr side, not nominal. Taught both + the amortisation/grant-release link. 2 new cards (grant → P&L not RE; nominal = no grant release), both due Thu 12 Nov.
