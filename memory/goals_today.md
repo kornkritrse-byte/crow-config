@@ -237,4 +237,4 @@ metadata:
 - 2026-11-10 | Bed by 23:30 | open
 - 2026-11-10 | Study AC311 | done
 - 2026-11-10 | Dinner with the boys | open
-- 2026-11-10 | Affinity: Samneang coming-soon ad mockup | open
+- 2026-11-10 | Affinity: Samneang coming-soon ad mockup | done

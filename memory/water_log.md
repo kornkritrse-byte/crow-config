@@ -164,3 +164,4 @@ metadata:
 - 2026-11-10 15:03 | goal | Study AC311
 - 2026-11-10 15:05 | training | 10 km cutback, Sun 8 Nov (reported 10 Nov)
 - 2026-11-10 18:01 | ghost | AC311: What three features define an intangible asset (TAS 38)?
+- 2026-11-10 20:30 | goal | Affinity: Samneang coming-soon ad mockup
