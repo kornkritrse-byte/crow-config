@@ -239,11 +239,11 @@
   {
    "id": "n10",
    "type": "text",
-   "text": "Donation\nFV · Cr capital or other income · s25\n⚠ 26 Oct: flipped giver/receiver TWICE (misread). Receiver: Dr asset at FV, fees capitalised (800k + 15k = 815k). Giver: out at CARRYING AMOUNT → donation expense\n7 Nov: land donation direction ✓ · building fees still as a separate Dr (not capitalised) ⚠.",
+   "text": "Donation\nFV · Cr capital or other income · s25\n⚠ 26 Oct: flipped giver/receiver TWICE (misread). Receiver: Dr asset at FV, fees capitalised (800k + 15k = 815k). Giver: out at CARRYING AMOUNT → donation expense\n7 Nov: land donation direction ✓ · building fees still as a separate Dr (not capitalised) ⚠.\n10 Nov 20:24: ghost 58 ✗ (fees as their own debit; credit side now ✓) · van: ⚠ capitalised fuel (625k → 620k) · insurance = expense ✓ but reason was a label → test is READY vs RUNNING (3 cards)",
    "x": 2800,
    "y": 1309,
    "width": 360,
-   "height": 150,
+   "height": 170,
    "color": "2"
   },
   {
