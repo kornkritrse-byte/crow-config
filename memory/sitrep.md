@@ -34,6 +34,7 @@ metadata:
 ## Session — 2026-11-10 (Tue, from 11:40)
 - 👻 Ghost 57 (basket premium) ✗: asked for the answer → box 1, due Fri 13 Nov. Discount variant (240k/300k → building 96k) he says ✓ on paper, number not typed.
 - Yesterday's open card (identifiable): ✓ with a hint, "separable OR tied to law/contract". Card 92 already covers it, due Thu 12 Nov.
+- 🌸 12:13 goals: Study AC311 · Dinner with the boys · Affinity: Samneang coming-soon ad mockup. Logo: 'we got a better grip on it' (him + Patrick; details not given yet).
 
 ## Session — 2026-11-09 (Mon, from 13:42)
 - 👻 Ghost 56 (gov-grant licence) ✗ with hint: got the fair-value Dr side, not nominal. Taught both + the amortisation/grant-release link. 2 new cards (grant → P&L not RE; nominal = no grant release), both due Thu 12 Nov.
