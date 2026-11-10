@@ -36,6 +36,7 @@ metadata:
 - Yesterday's open card (identifiable): ✓ with a hint, "separable OR tied to law/contract". Card 92 already covers it, due Thu 12 Nov.
 - 🌸 12:13 goals: Study AC311 · Dinner with the boys · Affinity: Samneang coming-soon ad mockup. Logo: 'we got a better grip on it' (him + Patrick; details not given yet).
 - 📘 13:03 tough Q (reval → excess-dep transfer → impairment): needed the excess-dep entry taught (ghost 40 ✗; 'bucket + scoop' landed, 20k ✓). Asked for the reveal before typing; says paper numbers all ✓ (100k to P&L), entries ✗: yearly dep written as acc dep/machine, Cr Machine on impairment. Cards 94 + 95, due 12/13 Nov.
+- 📘 13:16 borrowing costs (WAAE 5M, rate 9.5%, general base 3M → 285k + specific 200k = 485k): ALL ✓, stepwise with nudges. The repeat miss (multiplying by the loans, not WAAE − specific) didn't recur.
 
 ## Session — 2026-11-09 (Mon, from 13:42)
 - 👻 Ghost 56 (gov-grant licence) ✗ with hint: got the fair-value Dr side, not nominal. Taught both + the amortisation/grant-release link. 2 new cards (grant → P&L not RE; nominal = no grant release), both due Thu 12 Nov.
