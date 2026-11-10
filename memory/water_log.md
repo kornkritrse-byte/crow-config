@@ -162,3 +162,4 @@ metadata:
 - 2026-11-09 14:33 | ghost | AC311: Buyer pays 10,000,000 for a company whose net assets are wor
 - 2026-11-10 12:02 | goal | Wake early
 - 2026-11-10 15:03 | goal | Study AC311
+- 2026-11-10 15:05 | training | 10 km cutback, Sun 8 Nov (reported 10 Nov)
