@@ -33,6 +33,7 @@ metadata:
 
 ## Session — 2026-11-11 (Wed, from 15:09)
 - 👻 Ghost 59 (donated equipment) ✓ typed after pushback ("for fuck sake"): Dr Equip 212k / Cr Donated cap 200k / Cr Cash 12k → box 2, Wed 18 Nov.
+- 👻 15:44–16:32 deck run: 29 · 32 · 37 · 38 · 60 (misread Q) · 61 · 62 · 64 ✓; 63 (RA = higher, took FVLCTS) + 65 ("cost to sell" for FVLCTS) ✗. Variant RA typed 800k (=CA), paper 700k ✓. 16:33 HIS CALL: all 79 AC311 cards PARKED → [[ghost-parked]]; past papers only from here.
 - 🏃 Unplanned half this morning with a friend: 2:10, ~150 bpm, legs way better than 17 Sep (2:23). Replaced 5 × 1 km @ I → [[project-training-plan]]. 🌸 Training ✓ 15:33.
 
 ## Session — 2026-11-10 (Tue, from 11:40)
