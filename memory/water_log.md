@@ -174,3 +174,4 @@ metadata:
 - 2026-11-11 15:53 | ghost | AC311: Q: Land cost 1,000,000, revaluation model, FV at year-end 1,
 - 2026-11-11 16:08 | ghost | AC311: A building is revalued under the elimination method. Which a
 - 2026-11-11 16:10 | ghost | AC311: Revaluation surplus 30,000 in OCI from last year. This year
+- 2026-11-11 16:13 | ghost | AC311: Last year a revaluation LOSS of 25,000 hit P&L (no surplus).
