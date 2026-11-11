@@ -175,3 +175,4 @@ metadata:
 - 2026-11-11 16:08 | ghost | AC311: A building is revalued under the elimination method. Which a
 - 2026-11-11 16:10 | ghost | AC311: Revaluation surplus 30,000 in OCI from last year. This year
 - 2026-11-11 16:13 | ghost | AC311: Last year a revaluation LOSS of 25,000 hit P&L (no surplus).
+- 2026-11-11 16:27 | ghost | AC311: Machine under the COST model: CA 300,000, recoverable amount
