@@ -244,4 +244,4 @@ metadata:
 - 2026-11-11 | Daily journal | open
 - 2026-11-11 | Reading | missed
 - 2026-11-11 | Bed by 23:30 | open
-- 2026-11-11 | Study AC311 | open
+- 2026-11-11 | Study AC311 | done
