@@ -171,3 +171,4 @@ metadata:
 - 2026-11-11 15:45 | ghost | AC311: Equipment cash price 250,000; you pay in instalments totalli
 - 2026-11-11 15:49 | ghost | AC311: Exchange: old machine cost 200k, acc dep 120k, FV 90k, plus
 - 2026-11-11 15:51 | ghost | AC311: Q: Self-built warehouse finished (ready) 30 June, not used u
+- 2026-11-11 15:53 | ghost | AC311: Q: Land cost 1,000,000, revaluation model, FV at year-end 1,
