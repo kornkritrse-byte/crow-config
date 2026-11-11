@@ -238,7 +238,7 @@ metadata:
 - 2026-11-10 | Study AC311 | done
 - 2026-11-10 | Dinner with the boys | open
 - 2026-11-10 | Affinity: Samneang coming-soon ad mockup | done
-- 2026-11-11 | Wake early | open
+- 2026-11-11 | Wake early | done
 - 2026-11-11 | Morning creative writing | open
 - 2026-11-11 | Training: 5 × 1 km @ I | done
 - 2026-11-11 | Daily journal | open
