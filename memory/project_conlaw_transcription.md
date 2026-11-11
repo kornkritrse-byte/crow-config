@@ -24,3 +24,5 @@ metadata:
 - The full run needs the Mac plugged in with the lid open (it was on battery at 93% at 20:33).
 
 **Promised:** V1 ~Thu 12 Nov afternoon. V2 the same day as V1 (fast path).
+
+**21:50 MEASURED (on battery):** turbo = 600 s sample in 350 s (1.7×), Thai poor (ทฤษฎี→ธิศดี, กฎหมาย→กฎมารถ, เลือกตั้ง→เรื่องตั้ง). Thonburian = 35 min of tape 1 in 66 min (0.5×); first 12 min good Thai, then a 20+ min hallucination loop (no timestamps, 30 s blocks). Run KILLED, log in `bad/`. All 12 mp3s downloaded and complete. Local Mac can't do 'very accurate' in a day → options put to him: cloud Thai ASR vs slow local.
