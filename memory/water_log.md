@@ -168,3 +168,4 @@ metadata:
 - 2026-11-11 15:32 | ghost | AC311: A shareholder donates equipment (FV 200,000); the company pa
 - 2026-11-11 15:33 | goal | Training: 5 × 1 km @ I
 - 2026-11-11 15:43 | goal | Wake early
+- 2026-11-11 15:45 | ghost | AC311: Equipment cash price 250,000; you pay in instalments totalli
