@@ -240,7 +240,7 @@ metadata:
 - 2026-11-10 | Affinity: Samneang coming-soon ad mockup | done
 - 2026-11-11 | Wake early | open
 - 2026-11-11 | Morning creative writing | open
-- 2026-11-11 | Training: 5 × 1 km @ I | open
+- 2026-11-11 | Training: 5 × 1 km @ I | done
 - 2026-11-11 | Daily journal | open
 - 2026-11-11 | Reading | open
 - 2026-11-11 | Bed by 23:30 | open

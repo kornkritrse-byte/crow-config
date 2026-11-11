@@ -9,6 +9,10 @@ metadata:
   modified: 2026-09-13T01:30:25.289Z
 ---
 
+## 🏃 2026-11-11 (Wed) — UNPLANNED HALF #2 with a friend (reported 15:33)
+- **Half marathon in 2:10 (~6:10/km), ~150 bpm avg (his number), legs "way better than the last time".** Last half = 21.5 km @ 6:39 on 17 Sep (~2:23), so ~13 min faster at what reads as an easy HR (guess: max HR not confirmed on the Garmin).
+- It REPLACED the planned quality session (5 × 1 km @ I), the only interval day in W6. Second unplanned half (same shape as 17 Sep). Sun 15 Nov long 14 km still on the plan.
+
 ## 🔌 Strava connection — PARKED 6 Nov 2026 21:57 (his call: "I need a subscription for it...fuck it")
 - Creating a Strava API app asked him for a subscription → dropped. `bin/strava.py` (read-only: setup / recent / pbs, creds in ~/.strava/) is on disk and tested offline only, never connected. Don't re-pitch it; it works if he ever has a subscription.
 - Free path for PBs/runs: a **Garmin Connect screenshot** (Personal Records) dropped into the Room. **PBs (his report, 6 Nov 21:58, from Garmin/Strava, dates not given): 5K 24:52 (4:58/km, "on a whim", soft) · 10K 54:12 (5:25/km).** 10K race target 48:00 = 4:48/km, so 6:12 off the PB in 5 weeks on paper; only realistic if his true 5K is ~23:00 (guess from the 4:09–4:15 starts), which no TT has proven yet.

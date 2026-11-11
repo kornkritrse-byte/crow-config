@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-11-10 11:40 (session open). Window holds 10 Nov + 9 Nov; 5/6 + 7 Nov flushed 10 Nov. Next to flush: 9 Nov.*
+*Last updated: 2026-11-11 15:33. Window holds 11 Nov + 10 Nov; 9 Nov flushed 11 Nov. Next to flush: 10 Nov.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,9 +27,13 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (Tue 10 Nov, from 11:40).** Closed today: identifiable card · Sun run (10 km ✓, AC ✗) · eyebrow (fine). Still open, low-stakes: bed time Sat 7 Nov · the clothes he cut up Sun (brand/Henley?) · the logo 'better grip' (what changed?) · TT date (Garmin cap: first 2 km no faster than 4:45) · 10K goal 48:00 vs 'sub-50' → decide · BA202 pre-chew offer. AC311 left before Fri: cards 94–98 + 9 Nov misses (Thu/Fri) · P1 (real 2021 mid2) cold redo on paper · intangibles (48–58). His term plan (3 Nov 18:05): BA202 only in the 3–7 Dec gap; FN201 = STQs (+LN7); AC313 = past paper.
+- **Here (Wed 11 Nov, from 15:09).** Closed today: identifiable card · Sun run (10 km ✓, AC ✗) · eyebrow (fine). Still open, low-stakes: bed time Sat 7 Nov · the clothes he cut up Sun (brand/Henley?) · the logo 'better grip' (what changed?) · TT date (Garmin cap: first 2 km no faster than 4:45) · 10K goal 48:00 vs 'sub-50' → decide · BA202 pre-chew offer. AC311 left before Fri: cards 94–98 + 9 Nov misses (Thu/Fri) · P1 (real 2021 mid2) cold redo on paper · intangibles (48–58). His term plan (3 Nov 18:05): BA202 only in the 3–7 Dec gap; FN201 = STQs (+LN7); AC313 = past paper.
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
+
+## Session — 2026-11-11 (Wed, from 15:09)
+- 👻 Ghost 59 (donated equipment) ✓ typed after pushback ("for fuck sake"): Dr Equip 212k / Cr Donated cap 200k / Cr Cash 12k → box 2, Wed 18 Nov.
+- 🏃 Unplanned half this morning with a friend: 2:10, ~150 bpm, legs way better than 17 Sep (2:23). Replaced 5 × 1 km @ I → [[project-training-plan]]. 🌸 Training ✓ 15:33.
 
 ## Session — 2026-11-10 (Tue, from 11:40)
 - 👻 Ghost 57 (basket premium) ✗: asked for the answer → box 1, due Fri 13 Nov. Discount variant (building 96k) he says ✓ on paper, not typed. Identifiable card ✓ with hint (card 92, Thu).
@@ -38,12 +42,6 @@ metadata:
 - 📘 13:16 borrowing costs (WAAE 5M, rate 9.5%, general base 3M → 285k + specific 200k = 485k): ALL ✓, stepwise with nudges. The repeat miss (multiplying by the loans, not WAAE − specific) didn't recur.
 - 13:24 ceiling variant ✗ (190k; card 96) → lunch 13:27–14:29 → rebuilt FROM ZERO in pieces: specific ✓ · general base typed 240k ✗ (says paper had 260k ✓; 4th paper≠typed in a week → card 73 fail) · 'why subtract' right pick wrong reason (card 97) · WAAE ✓ · weighted rate 7% ✓ · ceiling 350k ✓. Full 5-step solo: general 160k ✓ (cap caught himself), handed in 160k for TOTAL (250k) ✗ → card 98. Pocket Procedures +6 toggles. 🌸 Study AC311 ✓ 15:03.
 - 🏷️ 15:06 logo = ํ (nikhahit) alone → [[project-clothing-brand]]. 15:38–17:30 Affinity: dashed ํ on blue ✓ (his: 'looks cool'), textures + pen-tool cutouts tried ('kinda goofed around'); mockup goal 9 left open. 17:30 intangibles block: research/dev 800k ✓ · no reinstating ✓ (skipped the 500k number) · indefinite brand: no amortise ✓, 'revaluate' ✗ → impairment yearly (card 99). Shelf: M&M + C&P now reading (Room updated). 18:00 'what needs most work': deck says intangibles (weakest) but 2021 paper puts the POINTS in borrowing costs + reval/impairment chains → told him so. Three features COLD ✓ (card 50 → box 2) · control ✓ · built brand right pick wrong reason (card 100) · patent part-year 300k ✗ → 225k (card 101), licence 30k ✓ · reval→sale: gain 1M P&L ✓, surplus → RE ✓, BOTH entries clean ✓. 18:15 mid-year sale chain on paper: 'got it right' (as journal entries; not typed). 18:46 REAL 2021 mid2 P1 cold on paper → key 510,390; he said 'perfect' (own number not typed, so cards 71/73/78–82/90/91 are the real check Thu–Fri). 🩺 Eyebrow: 'cool now' (15:03). Closed. 🪞 Ledger 61 [-]: Sun 10 km ✓ (watered), AC session after it ✗.
-
-## Session — 2026-11-09 (Mon, from 13:42)
-- 👻 Ghost 56 (gov-grant licence) ✗ with hint: got the fair-value Dr side, not nominal. Taught both + the amortisation/grant-release link. 2 new cards (grant → P&L not RE; nominal = no grant release), both due Thu 12 Nov.
-- 🩺 13:54 dull ache + sharp jabs on the LEFT outer eyebrow bone, tender to pressure. Read: local strain/tension/nerve (guess). Told: rash/tingling on that side → doctor same day; still there Mon 16 Nov → doctor. Ask how it is next session.
-- 📘 14:01–14:08 impairment → reversal chain on paper (1,000,000 / 10 yrs, RA 640k then 700k): 160k loss ✓ · CA 480k ✓ · ceiling 600k, reversal 120k ✓ · entry matched. Saturday's reversal miss, now clean. Next: P1 (real mid2) cold redo on paper.
-- 🪞 Said/did line 61 (AC311 after Sun run): asked 4×, no answer yet. Run/bed/journal from the status line also unanswered.
 
 ## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. **AC311 Midterm 2 (sessions 8–11, PPE + intangibles, 30%) is next: **Fri 13 Nov** (Korn, 20 Oct; time TBC). Session 11 (31 Oct, impairment TAS 36) falls before it, so assume impairment is IN scope. Final 28 Nov.**
 
