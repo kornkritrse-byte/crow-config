@@ -10,6 +10,7 @@
 
 ## 🟢 Active — other
 - [Clothing Brand](project_clothing_brand.md) — NEW 18 Oct 2026, long-term, with his friend **Patrick**: quality garments cut for proportion, first product a **Henley**. 20 Oct: Korn's interview answers → `brand/Korn core answers.md` · names → `brand/Names longlist.md` · **shared 'Brand HQ' in NOTION: BUILT 20 Oct 14:55, private until he invites Patrick (URL + DB ids in the file)** · next = name → claim handle → sample quote
+- [ConLaw Transcription](project_conlaw_transcription.md) — NEW 11 Nov: his friend's 12 Chula กฎหมายรัฐธรรมนูญ tapes → V1 verbatim + V2 book (Thai); `~/Desktop/conlaw/`; V2 via parallel agents (his call); needs Mac plugged in
 - [MK201 A2](project_mk201_a2.md) — STP group assignment, **due Tue 13 Oct 09:00**, Le Labo; WRITTEN REPORT (no slides, his call 16:06); new product not picked yet
 - [Ghost Deck](ghost_deck.md) — spaced-repetition deck of his drill MISSES; hook serves one cold at session start; every miss → `bin/ghost.py add` that turn. **24 Oct, his call: only topics still ahead on a test** · **11 Nov: ALL 79 AC311 M2 cards parked too, his call (past papers only) → deck EMPTY**; 60 midterm-1 cards parked in [[ghost-parked]] (`ghost_parked.md`, hook ignores it)
 - 💧 Water log (`water_log.md`, `bin/water.py`): one line per finished task (ghost pass auto, training, said/did kept); feeds the Crow Room's plum blossom (blooms per week). **When he reports finishing training/a task in chat, water it that turn.**
