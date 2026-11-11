@@ -16,7 +16,7 @@ metadata:
 
 **Source:** Drive folder "รวมเทป con" `1ic0fw1GB10EP-xYB_1aRhrAyggYq2QNE` (owner 6840004534@student.chula.ac.th), con 1 (6 Aug) … con 12 (5 Nov). Tape 1 = 2h22; total ~28–30 h (estimate). Slides for ภาค 1–3 were pasted into the Room 11 Nov (no ภาค 4 deck). On a slide: the exam is 4 questions × 25 points (อำนาจสถาปนา/แก้ไข · หลักการพื้นฐานของรธน.).
 
-**Setup:** `~/Desktop/conlaw/` (mp3s, dl.sh, prompt.txt = slide vocabulary for whisper --prompt, test/). Models: turbo (have) vs Thonburian large-v3 q5_0 (`~/thonburian-large-v3-q5_0.bin`, Thai-tuned, from Freitag621) vs ggml-large-v3-q5_0. Bake-off on 10 min of tape 1 from 30:00 picks the model for the full run.
+**Setup:** `~/Desktop/conlaw/` (mp3s, dl.sh, prompt.txt = slide vocabulary for whisper --prompt, test/). Models: turbo (have) vs Thonburian large-v3 q5_0 (`~/thonburian-large-v3-q5_0.bin`, Thai-tuned, from Freitag621) vs ggml-large-v3-q5_0. Bake-off SKIPPED (his call 20:38): full run on Thonburian, launched 20:38 via go.sh → run.sh (resumable; out/ holds .srt+.txt, progress.txt). If the battery dies, he plugs in and run.sh resumes.
 
 **Decisions:**
 - 20:36, his call: **V2 FAST = parallel agents, one per tape**, then a final consistency pass by Crow (he accepted the extra usage cost).
