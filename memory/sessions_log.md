@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: c38e29c0-da2f-4906-8e70-a7a356ec2563
-  modified: 2026-09-12T15:00:08.038Z
+  modified: 2026-11-12T15:19:17.189Z
 ---
 
 # Sessions Log (archive)
@@ -528,6 +528,13 @@ metadata:
 - 📗 09:28 **FN201 final map built** → [[study/FN201 Final Map.canvas]] (`study/FN201 Final Map.canvas`): STQ06/08/09 crossed with the outline, every Q placed under a subtopic. Final = **Wed 2 Dec 09:00–12:00, ALL MCQ/T-F, topics 6–10** (outline; flood shift unchecked). Gaps: topic 7 self-study with no STQ, topic 10 not taught + no STQ10, plus 6 outline items with no STQ. STQ08 = 52 Qs, the heavy one; MCC/break points is its core.
 - 📂 09:38 his past-papers Drive → [[reference-past-papers]]. Two Obrom FN201 finals found (2021, 2019), student-marked. **Topic 7 (self-study, no STQ) = 6/26 + 14/32 Qs on them; topic 6 = 0; topic 10 = 7/26.** Map updated. AC311 folder has `real mid2 exam` + `summary mid2` → use for M2 (13 Nov). Ghost card 25 served, not answered yet.
 - 🗺️ 09:52 **BA202 + AC313 final maps built** from the outlines → [[study/BA202 Final Map.canvas]] · [[study/AC313 Final Map.canvas]]; every map (incl. AC311, FN201) now embeds its outline PDF (`study/outlines/`). **AC313 final = Mon 23 Nov 09:00** (first of the window; I wrongly called it TBA at 09:45). BA202: his slides + video Drive folders are the same as the midterm ones (saved in [[project-midterms]]); L8–L9 slides pulled, L8–L11 audio downloading to `~/Desktop/BA202/final/`, **whisper held until he's plugged in (64% at 10:12)**. Finals + AC311 M2 put on the Life calendar (red, no notifications). MK201: 'can suck my dick', so no map, don't pitch it. Drive: BA202 has 2 senior final cheat sheets, no paper; AC313 has the 2021 online final (screenshots, no OCR).
+
+## 2026-11-10 (Tue) — flushed 12 Nov
+- Ghost 57 (basket premium) ✗; discount variant ✓ on paper not typed. 🌸 Study AC311 · Dinner with the boys · Samneang ad mockup.
+- Reval → excess-dep transfer → impairment taught (excess-dep entry, 'bucket + scoop'); borrowing costs WAAE+specific+general ALL ✓ stepwise, repeat miss didn't recur.
+- Ceiling variant rebuilt from zero after a miss: specific ✓, general base paper≠typed (4th time in a week), full 5-step solo mostly clean but TOTAL handed in wrong. Pocket Procedures +6 toggles.
+- Logo = ํ (nikhahit) alone; Affinity texture/pen-tool session. Intangibles block: R&D + no-reinstate ✓, indefinite-brand impairment-not-revalue ✗.
+- Three features cold ✓ · control ✓ · patent part-year ✗ → 225k, licence ✓ · reval→sale gain/surplus split both entries clean. REAL 2021 mid2 P1 done cold on paper, 'perfect' (not typed, so the real check was Thu–Fri). Eyebrow resolved.
 
 ## 2026-11-09 (Mon) — flushed 11 Nov
 - Ghost 56 (gov-grant licence) ✗ with hint → 2 new cards. Left eyebrow-bone ache (resolved "cool now" 10 Nov). Impairment → reversal chain clean on paper (160k loss, reversal 120k). Ledger 61 asked 4×, unanswered that day.

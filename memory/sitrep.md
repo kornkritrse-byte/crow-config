@@ -6,11 +6,11 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-09T07:39:52.426Z
+  modified: 2026-11-12T15:19:35.384Z
 ---
 
 # Situation Report
-*Last updated: 2026-11-12 10:19. Window holds 11 Nov + 10 Nov; 9 Nov flushed 11 Nov. Next to flush: 10 Nov.*
+*Last updated: 2026-11-12 22:18. Window holds 12 Nov + 11 Nov; 10 Nov flushed 12 Nov. Next to flush: 11 Nov.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,9 +27,17 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (Thu 12 Nov, ~10:19) — off to: breakfast, back after. ASK ON RETURN: goals today? · P2 redo (2021 final, 35 pts) — AC311 is TOMORROW.** Closed since last night: slept 23:00–09:00 (bed ✓, wake ✗) · Gemini key in (`~/.config/gemini/key`), conlaw running on gemini-3.5-transcribe.
+- **Here.** AC311 Midterm 2 is TOMORROW (Fri 13 Nov). P2 redo closed — done cold with Codex this morning ("fresh P2 variant" with help). **Goals-today ask was missed this session** — don't let it slide again tomorrow.
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
+
+## Session — 2026-11-12 (Thu, from 20:36)
+- ⚖️ Conlaw job: V2 consistency pass across all 12 chapters (no hallucination/dupes, terms normalized), V1+V2 uploaded to Drive folder (private, link given). V1's single 4.7MB file wouldn't preview in-browser → split into 12 per-tape files, uploaded too. Verified each tape's transcript end-time against real mp3 duration — all close except **con06, ~4 min short, worth a spot-check**.
+- 📘 AC311 Mid2 (tomorrow) study session, real gaps caught and fixed: basket/lump-sum purchase (was depreciating raw fair values instead of allocating the 12M price by FV ratio, 2021 Mid2 Q2) · specific-vs-general borrowings split (was pooling the "to finance construction" note into one blended rate instead of isolating it, real P1). Both corrected and redone clean.
+- Revaluation-decrease vs impairment-loss distinction drilled fresh (trigger = fair-value check vs recoverable-amount test) — he passed a cold test question on it, entry + reasoning both right.
+- Decommissioning/ARO (PV → capitalized cost → depreciation → accretion) drilled twice with fresh numbers — first run had digit-transposition typos (not math errors), second run clean.
+- MCQ score from this morning's Codex session is **unconfirmed** (it couldn't see his tapped answers) — flagged, left open, his call whether to spot-check tomorrow AM.
+- Ghost deck untouched (his 11 Nov call stands — past papers only); one card added in error mid-session then removed since AC311's parked and the review date would've landed after the exam anyway.
 
 ## Session — 2026-11-11 (Wed, from 15:09)
 - 👻 Ghost 59 (donated equipment) ✓ typed after pushback ("for fuck sake"): Dr Equip 212k / Cr Donated cap 200k / Cr Cash 12k → box 2, Wed 18 Nov.
