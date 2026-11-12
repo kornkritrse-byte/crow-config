@@ -177,3 +177,4 @@ metadata:
 - 2026-11-11 16:13 | ghost | AC311: Last year a revaluation LOSS of 25,000 hit P&L (no surplus).
 - 2026-11-11 16:27 | ghost | AC311: Machine under the COST model: CA 300,000, recoverable amount
 - 2026-11-11 20:42 | goal | Study AC311
+- 2026-11-12 10:13 | goal | Bed by 23:30
