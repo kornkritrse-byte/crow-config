@@ -247,9 +247,9 @@ metadata:
 - 2026-11-11 | Study AC311 | done
 - 2026-11-12 | Wake early | done
 - 2026-11-12 | Morning creative writing | done
-- 2026-11-12 | Moving | open
+- 2026-11-12 | Moving | done
 - 2026-11-12 | Daily journal | open
 - 2026-11-12 | Reading | open
 - 2026-11-12 | Bed by 23:30 | open
 - 2026-11-12 | AC311: get it together for tomorrow | open
-- 2026-11-12 | Recovery run + upper (afternoon) | open
+- 2026-11-12 | Recovery run + upper (afternoon) | done

@@ -180,3 +180,5 @@ metadata:
 - 2026-11-12 10:13 | goal | Bed by 23:30
 - 2026-11-12 12:02 | goal | Morning creative writing
 - 2026-11-12 12:07 | goal | Wake early
+- 2026-11-12 21:17 | goal | Moving
+- 2026-11-12 21:17 | goal | Recovery run + upper (afternoon)
