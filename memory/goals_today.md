@@ -245,7 +245,7 @@ metadata:
 - 2026-11-11 | Reading | missed
 - 2026-11-11 | Bed by 23:30 | done
 - 2026-11-11 | Study AC311 | done
-- 2026-11-12 | Wake early | open
+- 2026-11-12 | Wake early | done
 - 2026-11-12 | Morning creative writing | done
 - 2026-11-12 | Moving | open
 - 2026-11-12 | Daily journal | open
