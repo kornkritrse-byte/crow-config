@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-11-11 15:33. Window holds 11 Nov + 10 Nov; 9 Nov flushed 11 Nov. Next to flush: 10 Nov.*
+*Last updated: 2026-11-12 10:19. Window holds 11 Nov + 10 Nov; 9 Nov flushed 11 Nov. Next to flush: 10 Nov.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (Wed 11 Nov, ~20:41) — off to: home from One Bangkok, done working for the day. ASK ON RETURN: Mac plugged in + lid open overnight? → say 'conlaw' = check tape 1 quality + launch V2 agents · P2 redo (2021 final) Thu · bed by 23:30 tonight? · woke early today?** Closed today: identifiable card · Sun run (10 km ✓, AC ✗) · eyebrow (fine). Still open, low-stakes: bed time Sat 7 Nov · the clothes he cut up Sun (brand/Henley?) · the logo 'better grip' (what changed?) · TT date (Garmin cap: first 2 km no faster than 4:45) · 10K goal 48:00 vs 'sub-50' → decide · BA202 pre-chew offer. AC311 left before Fri: cards 94–98 + 9 Nov misses (Thu/Fri) · P1 (real 2021 mid2) cold redo on paper · intangibles (48–58). His term plan (3 Nov 18:05): BA202 only in the 3–7 Dec gap; FN201 = STQs (+LN7); AC313 = past paper.
+- **AWAY (Thu 12 Nov, ~10:19) — off to: breakfast, back after. ASK ON RETURN: goals today? · P2 redo (2021 final, 35 pts) — AC311 is TOMORROW.** Closed since last night: slept 23:00–09:00 (bed ✓, wake ✗) · Gemini key in (`~/.config/gemini/key`), conlaw running on gemini-3.5-transcribe.
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
