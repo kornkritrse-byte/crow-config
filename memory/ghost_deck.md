@@ -25,3 +25,4 @@ metadata:
 - **11 Nov 2026 16:33, his call: "scrap all the ghost cards and focus on the questions from the past paper"** (AC311 Mid2 Fri 13 Nov mirrors past papers). All 79 AC311 Mid2 cards PARKED to [[ghost-parked]] (not deleted). Revive for the AC311 final (28 Nov) only if he wants them.
 
 ## Cards
+- 2026-11-15 | box 1 | AC311 | Q: Basket purchase (3 assets, 1 total price, FV-ratio allocation) bought mid-year (1 Apr) — total 20X1 depreciation expense, SL method | A: Allocate price by FV ratio, get depreciable amount per asset (alloc cost - residual), sum full-year dep, THEN prorate by months owned in 20X1 (9/12 from 1 Apr). Full-year total was 1,825,000 (the distractor); correct prorated answer is 1,368,750. Korn skipped the part-year step and also made an arithmetic slip (got 1,859,374, which matches neither).
