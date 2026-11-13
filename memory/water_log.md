@@ -184,3 +184,4 @@ metadata:
 - 2026-11-12 21:17 | goal | Recovery run + upper (afternoon)
 - 2026-11-13 11:11 | goal | Wake early
 - 2026-11-13 11:11 | goal | Morning creative writing
+- 2026-11-13 11:42 | goal | Tie up loose ends before AC311 M2 (1pm)

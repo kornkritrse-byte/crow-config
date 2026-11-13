@@ -259,4 +259,4 @@ metadata:
 - 2026-11-13 | Daily journal | open
 - 2026-11-13 | Reading | open
 - 2026-11-13 | Bed by 23:30 | open
-- 2026-11-13 | Tie up loose ends before AC311 M2 (1pm) | open
+- 2026-11-13 | Tie up loose ends before AC311 M2 (1pm) | done
