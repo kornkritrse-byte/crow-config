@@ -6,11 +6,11 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-12T15:19:35.384Z
+  modified: 2026-11-13T05:18:32.297Z
 ---
 
 # Situation Report
-*Last updated: 2026-11-12 22:18. Window holds 12 Nov + 11 Nov; 10 Nov flushed 12 Nov. Next to flush: 11 Nov.*
+*Last updated: 2026-11-13 12:17. Window holds 13 Nov + 12 Nov; 11 Nov flushed 13 Nov. Next to flush: 12 Nov.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,9 +27,18 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here.** AC311 Midterm 2 is TOMORROW (Fri 13 Nov). P2 redo closed — done cold with Codex this morning ("fresh P2 variant" with help). **Goals-today ask was missed this session** — don't let it slide again tomorrow.
+- **AWAY (13 Nov, ~12:17) — off to: grab food, read back over the Notion Study Page, then AC311 Midterm 2 at 13:00.**
+  - **ASK ON RETURN:** how'd AC311 M2 go — especially the revaluation-vs-cost switch, the reversal-cap rule, and the reversal-vs-further-loss trap, all drilled hard this morning.
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
+
+## Session — 2026-11-13 (Fri, from 09:07)
+- 🌸 Goals asked this time (fixing 12 Nov's miss): "Tie up loose ends before AC311 M2 (1pm)" → done 11:42, watered.
+- Cost-vs-revaluation-model summary + 2 worked examples added to the Notion Study Page §6 (his ask, to read on the way).
+- Final 2021.pdf Part 4 Q2 (reval→impairment→reversal, 8.5M machine) drilled cold: nailed (a)/(b)/(c), needed two corrections on the (d) reversal cap (tried a straight ceiling-split, then a proportional-decay guess) before landing it — cap reversal at the ORIGINAL P&L-charged amount (750k), not the shrunk ceiling (800k) or a decayed fraction.
+- Final 2021.pdf Part 4 Q1 (impairment only, 11.4M) + 5 impairment MCQs from the same paper: all correct, including catching the reversal-vs-further-loss trap (CA>RA at yr 3 → further loss, not reversal) unprompted.
+- ARO/dismantling practice (fresh numbers) clean; 2 capitalization scenarios — real past-paper store-construction (29.67M, caught a bled-over basket-ratio habit) + fresh machine-purchase (6.29M, caught a launch-event slip) — both landed right.
+- Heading to uni ~12:17 for the 13:00 exam.
 
 ## Session — 2026-11-12 (Thu, from 20:36)
 - ⚖️ Conlaw job: V2 consistency pass across all 12 chapters (no hallucination/dupes, terms normalized), V1+V2 uploaded to Drive folder (private, link given). V1's single 4.7MB file wouldn't preview in-browser → split into 12 per-tape files, uploaded too. Verified each tape's transcript end-time against real mp3 duration — all close except **con06, ~4 min short, worth a spot-check**.
@@ -39,22 +48,7 @@ metadata:
 - MCQ score from this morning's Codex session is **unconfirmed** (it couldn't see his tapped answers) — flagged, left open, his call whether to spot-check tomorrow AM.
 - Ghost deck untouched (his 11 Nov call stands — past papers only); one card added in error mid-session then removed since AC311's parked and the review date would've landed after the exam anyway.
 
-## Session — 2026-11-11 (Wed, from 15:09)
-- 👻 Ghost 59 (donated equipment) ✓ typed after pushback ("for fuck sake"): Dr Equip 212k / Cr Donated cap 200k / Cr Cash 12k → box 2, Wed 18 Nov.
-- 👻 15:44–16:32 deck run: 29 · 32 · 37 · 38 · 60 (misread Q) · 61 · 62 · 64 ✓; 63 (RA = higher, took FVLCTS) + 65 ("cost to sell" for FVLCTS) ✗. Variant RA typed 800k (=CA), paper 700k ✓. 16:33 HIS CALL: all 79 AC311 cards PARKED → [[ghost-parked]]; past papers only from here.
-- 📘 17:15–18:00 2021 FINAL P4: P1 (impairment → further loss 140k) "perfect" on paper, not typed. P2 (35 pts, reval → impairment → reversal) asked for the key, then "kinda got cooked" (fell in (c) AND (d)) → REDO P2 cold later today when locked in (at One Bangkok with friends). Crow error: P2(d) entry first given without the elimination wipe; corrected same turn → [[crow-error-log]].
-- ⚖️ 20:19–20:33 NEW JOB for his friend (Chula law): transcribe Drive folder "รวมเทป con" = กฎหมายรัฐธรรมนูญ (อ.ดร.ทศพร), 12 mp3s (tape 1 = 2h22, ~28–30 h total) → V1 verbatim per tape on one continuous timeline + V2 book-style rewrite, both Thai, "very accurate". 3 slide decks (ภาค 1–3) pasted. Working dir `~/Desktop/conlaw/`. Downloading; 10-min bake-off turbo vs Thonburian (Thai-tuned, ggml q5_0) vs large-v3 q5_0 with a slide-vocab prompt. ⚠️ Mac on battery (93%), asked him to plug in before the full run. Promised: V1 ~tomorrow afternoon, V2 2–3 days.
-- 🏃 Unplanned half this morning with a friend: 2:10, ~150 bpm, legs way better than 17 Sep (2:23). Replaced 5 × 1 km @ I → [[project-training-plan]]. 🌸 Training ✓ 15:33.
-
-## Session — 2026-11-10 (Tue, from 11:40)
-- 👻 Ghost 57 (basket premium) ✗: asked for the answer → box 1, due Fri 13 Nov. Discount variant (building 96k) he says ✓ on paper, not typed. Identifiable card ✓ with hint (card 92, Thu).
-- 🌸 12:13 goals: Study AC311 · Dinner with the boys · Affinity: Samneang coming-soon ad mockup. Logo: 'we got a better grip on it' (him + Patrick; details not given yet).
-- 📘 13:03 tough Q (reval → excess-dep transfer → impairment): needed the excess-dep entry taught (ghost 40 ✗; 'bucket + scoop' landed, 20k ✓). Asked for the reveal before typing; says paper numbers all ✓ (100k to P&L), entries ✗: yearly dep written as acc dep/machine, Cr Machine on impairment. Cards 94 + 95, due 12/13 Nov.
-- 📘 13:16 borrowing costs (WAAE 5M, rate 9.5%, general base 3M → 285k + specific 200k = 485k): ALL ✓, stepwise with nudges. The repeat miss (multiplying by the loans, not WAAE − specific) didn't recur.
-- 13:24 ceiling variant ✗ (190k; card 96) → lunch 13:27–14:29 → rebuilt FROM ZERO in pieces: specific ✓ · general base typed 240k ✗ (says paper had 260k ✓; 4th paper≠typed in a week → card 73 fail) · 'why subtract' right pick wrong reason (card 97) · WAAE ✓ · weighted rate 7% ✓ · ceiling 350k ✓. Full 5-step solo: general 160k ✓ (cap caught himself), handed in 160k for TOTAL (250k) ✗ → card 98. Pocket Procedures +6 toggles. 🌸 Study AC311 ✓ 15:03.
-- 🏷️ 15:06 logo = ํ (nikhahit) alone → [[project-clothing-brand]]. 15:38–17:30 Affinity: dashed ํ on blue ✓ (his: 'looks cool'), textures + pen-tool cutouts tried ('kinda goofed around'); mockup goal 9 left open. 17:30 intangibles block: research/dev 800k ✓ · no reinstating ✓ (skipped the 500k number) · indefinite brand: no amortise ✓, 'revaluate' ✗ → impairment yearly (card 99). Shelf: M&M + C&P now reading (Room updated). 18:00 'what needs most work': deck says intangibles (weakest) but 2021 paper puts the POINTS in borrowing costs + reval/impairment chains → told him so. Three features COLD ✓ (card 50 → box 2) · control ✓ · built brand right pick wrong reason (card 100) · patent part-year 300k ✗ → 225k (card 101), licence 30k ✓ · reval→sale: gain 1M P&L ✓, surplus → RE ✓, BOTH entries clean ✓. 18:15 mid-year sale chain on paper: 'got it right' (as journal entries; not typed). 18:46 REAL 2021 mid2 P1 cold on paper → key 510,390; he said 'perfect' (own number not typed, so cards 71/73/78–82/90/91 are the real check Thu–Fri). 🩺 Eyebrow: 'cool now' (15:03). Closed. 🪞 Ledger 61 [-]: Sun 10 km ✓ (watered), AC session after it ✗.
-
-## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. **AC311 Midterm 2 (sessions 8–11, PPE + intangibles, 30%) is next: **Fri 13 Nov** (Korn, 20 Oct; time TBC). Session 11 (31 Oct, impairment TAS 36) falls before it, so assume impairment is IN scope. Final 28 Nov.**
+## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. **AC311 Midterm 2 (sessions 8–11, PPE + intangibles + impairment, 30%) is TODAY, Fri 13 Nov, 13:00.** Final 28 Nov.
 
 ## 🧰 New system pieces (built 27 Sep, his pick from 8 ideas) — all fire from the session-start hook, silent unless due
 - 🕐 `hooks/prompt-time.sh` stamps `[clock]` on every prompt → **use it for any time reference.**

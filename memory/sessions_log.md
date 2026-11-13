@@ -6,10 +6,16 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: c38e29c0-da2f-4906-8e70-a7a356ec2563
-  modified: 2026-11-12T15:19:17.189Z
+  modified: 2026-11-13T05:17:47.536Z
 ---
 
 # Sessions Log (archive)
+## 2026-11-11 (Wed)  *(flushed from SITREP 13 Nov)*
+- Ghost 59 ✓ after pushback; 15:44–16:32 deck run mixed (29,32,37,38,60(misread),61,62,64 ✓; 63,65 ✗) → 16:33 HIS CALL: all 79 AC311 cards PARKED, past papers only from here.
+- 2021 FINAL P4: P1 (impairment, further loss 140k) clean on paper. P2 (reval→impair→reversal) asked for the key, fell in (c)+(d) → redo planned.
+- NEW JOB: friend's Con Law transcription (12 tapes, V1+V2 Thai), working dir `~/Desktop/conlaw/`.
+- Unplanned half marathon 2:10, legs much better than 17 Sep.
+
 ## 2026-11-07 (Sat)  *(flushed from SITREP 10 Nov)*
 - 🌸 writing ✓ · bed ✓ (22:00–07:30) · ghost 25 TAS 40 ✓ · AC311 ✓ · dinner with the boys ✓ · training ✗.
 - 📘 P1 borrowing costs redo ~8–10/20 (guess): general part 434,775 again (the 4 Nov miss). 20 cards 10 ✓ / 10 ✗; intangibles weakest.
