@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-13T05:18:32.297Z
+  modified: 2026-11-13T08:11:51.717Z
 ---
 
 # Situation Report
@@ -27,8 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (13 Nov, ~12:17) — off to: grab food, read back over the Notion Study Page, then AC311 Midterm 2 at 13:00.**
-  - **ASK ON RETURN:** how'd AC311 M2 go — especially the revaluation-vs-cost switch, the reversal-cap rule, and the reversal-vs-further-loss trap, all drilled hard this morning.
+- **Here.** AC311 Midterm 2: DONE, 13 Nov, "easy shit" — no impairment on the actual paper despite that morning's heavy drilling (carries straight into the 28 Nov final instead). Only real uncertainty was the revaluation-surplus annual transfer (optional under IAS 16, not mandatory) — he worked it both ways on paper and arrowed to the with-transfer version as his final answer. Next: final 28 Nov.
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
