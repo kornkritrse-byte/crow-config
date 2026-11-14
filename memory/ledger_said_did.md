@@ -8,7 +8,7 @@ metadata:
     - ledger-said-did
   type: project
   originSessionId: fdcec1e9-d0f0-421a-aa68-2f9c7d4377d2
-  modified: 2026-09-26T17:27:33.916Z
+  modified: 2026-11-14T14:06:51.240Z
 ---
 
 # 🪞 Said / Did
@@ -60,3 +60,4 @@ metadata:
 - [~] 2026-11-04 → 2026-11-05 | "time trial did not happen, lets have it tmr morning": 5K time trial (milestone sub-24:00) moved from Wed 4 Nov to Thu 5 Nov MORNING. Note: Fri 6 Nov 12 km with a friend follows the next day. Said 13:54 Wed → SKIPPED, his call 5 Nov 15:32: couldn't sleep, "a well rested run would be better than a shitty run"; easy Z2 today instead. CORRECTION 6 Nov 21:50: he DID attempt it Thu 5 Nov: held 4:09/km for 2.5 km, stopped ("no way we finishing this without sacrificing something that could hurt" the Fri long run). Sub-24:00 needs 4:48/km, so he went out ~39 s/km fast (= 20:45 pace). TT not re-dated yet.
 - [~] 2026-11-07 → 2026-11-07 | "realistically when I would have the most free time would be in the afternoon like 1pm": Sat 7 Nov ~13:00 AC311 block (next = real 2021 mid2 P1 borrowing costs, blank page on paper; then due ghost cards). Morning = reading + household. Said 10:35 Sat → [~] started 15:20 (not 13:00), but did MORE than the minimum: P1 + 20 cards by 17:00, then 21:18–23:06 2021 final (5 MCQ + P1 + P2 + equipment chain a–c)
 - [-] 2026-11-08 → 2026-11-08 | "after I go run lets get in a ac session": AC311 session tonight after the run (said 17:17 Sun) → 10 Nov: the 10 km happened, the AC session did not (his words: "if it did happen you would've known")
+- [ ] 2026-11-14 → 2026-11-15 | "tmr we can work through and try to [nail] working examples of reciprocal and the step down method honestly all three of those things": AC313 support-department methods (direct, step-down, reciprocal) as real worked calculations, Sun 15 Nov, fresh head. His call to defer tonight (step-down/reciprocal only got light cold-MCQ exposure 14 Nov, no full worked rep on reciprocal, direct method untouched). Said 21:06 Sat
