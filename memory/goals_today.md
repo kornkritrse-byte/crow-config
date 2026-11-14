@@ -260,3 +260,9 @@ metadata:
 - 2026-11-13 | Reading | open
 - 2026-11-13 | Bed by 23:30 | open
 - 2026-11-13 | Tie up loose ends before AC311 M2 (1pm) | done
+- 2026-11-14 | Wake early | open
+- 2026-11-14 | Morning creative writing | open
+- 2026-11-14 | Training: Lift + easy 40′ | open
+- 2026-11-14 | Daily journal | open
+- 2026-11-14 | Reading | open
+- 2026-11-14 | Bed by 23:30 | open
