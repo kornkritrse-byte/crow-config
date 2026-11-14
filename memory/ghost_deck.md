@@ -25,3 +25,4 @@ metadata:
 - **11 Nov 2026 16:33, his call: "scrap all the ghost cards and focus on the questions from the past paper"** (AC311 Mid2 Fri 13 Nov mirrors past papers). All 79 AC311 Mid2 cards PARKED to [[ghost-parked]] (not deleted). Revive for the AC311 final (28 Nov) only if he wants them.
 
 ## Cards
+- 2026-11-17 | box 1 | AC313 variances | Q: Shoe sole normally 70% cheap rubber / 30% expensive rubber. Same TOTAL amount of rubber used, but mix shifts to 60% cheap / 40% expensive. At standard prices, does cost go up or down? | A: Costs MORE — direction is determinable from the mix shift alone (more of the pricier input at the same total quantity = unfavorable mix variance), no absolute quantities needed.
