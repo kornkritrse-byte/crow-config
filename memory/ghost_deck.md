@@ -26,3 +26,4 @@ metadata:
 
 ## Cards
 - 2026-11-17 | box 1 | AC313 variances | Q: Shoe sole normally 70% cheap rubber / 30% expensive rubber. Same TOTAL amount of rubber used, but mix shifts to 60% cheap / 40% expensive. At standard prices, does cost go up or down? | A: Costs MORE — direction is determinable from the mix shift alone (more of the pricier input at the same total quantity = unfavorable mix variance), no absolute quantities needed.
+- 2026-11-17 | box 1 | AC313 variances | Q: If yield variance is unfavorable, is mix variance automatically unfavorable too? | A: No — mix and yield are independent checks. Mix compares the ACTUAL proportion used to the STANDARD proportion at the same total input; yield compares the ACTUAL total input to the STANDARD total input needed for actual output. One can be favorable while the other is unfavorable (e.g. Product X: mix $500 F, yield $1,211 U).

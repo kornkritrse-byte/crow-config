@@ -114,11 +114,12 @@
   {
    "id": "scs1",
    "type": "text",
-   "text": "**Materials**\nprice · quantity (efficiency) · **mix & yield**\nPast: 2021 final Q3 (standard costing)",
+   "text": "**Materials**\nprice · quantity (efficiency) · **mix & yield**\nPast: 2021 final Q3 (standard costing)\nValidated 14 Nov: mix (70/30->60/40 rubber, direction) + combined real past-paper Q (Product X, mix $500F / yield $1,211U) — self-corrected live, caught own 'mix and yield move together' assumption.",
    "x": 900,
    "y": 1960,
    "width": 460,
-   "height": 170
+   "height": 170,
+   "color": "4"
   },
   {
    "id": "scs2",
@@ -143,12 +144,12 @@
   {
    "id": "sc",
    "type": "text",
-   "text": "## Standard costing & variances\nsessions 12–15 (26 Oct → 16 Nov) · BEING TAUGHT\nH Ch 7–8 · M Ch 7\n4 of the 8 sessions → probably the biggest share (guess)",
+   "text": "## Standard costing & variances\nsessions 12–15 (26 Oct → 16 Nov) · BEING TAUGHT\nH Ch 7–8 · M Ch 7\n4 of the 8 sessions → probably the biggest share (guess)\n14 Nov: all 3 sub-blocks (materials incl. mix/yield, labour, overhead) validated against real 2021 past-paper Qs in one session.",
    "x": 400,
    "y": 2165,
    "width": 380,
-   "height": 160,
-   "color": "3"
+   "height": 170,
+   "color": "4"
   },
   {
    "id": "mt",
