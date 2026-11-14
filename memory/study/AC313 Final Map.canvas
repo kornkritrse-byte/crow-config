@@ -133,12 +133,12 @@
   {
    "id": "scs3",
    "type": "text",
-   "text": "**Manufacturing overhead**\nvariable: spending · efficiency\nfixed: spending (budget) · production-volume\nPracticed 14 Nov: spending + efficiency + fixed spending + fixed volume all landed, but only on clean worked-example numbers (handoff from elsewhere), after self-correcting direction/rate mixups. NOT yet tested against the 2021 final's real OH-variance Qs — hold at shaky until a past-paper rep confirms it holds under messier numbers + speed.",
+   "text": "**Manufacturing overhead**\nvariable: spending · efficiency\nfixed: spending (budget) · production-volume\nPracticed 14 Nov: spending + efficiency + fixed spending + fixed volume all landed, but only on clean worked-example numbers (handoff from elsewhere), after self-correcting direction/rate mixups. NOT yet tested against the 2021 final's real OH-variance Qs — hold at shaky until a past-paper rep confirms it holds under messier numbers + speed.\nUpgraded 14 Nov: Zelma Inc. real past-paper Q (fewer actual DLH than std allowed → favorable VOH efficiency variance), correct via the 3-column map (flexes-vs-flat), after the paper's own recording had it wrong.",
    "x": 900,
    "y": 2360,
    "width": 460,
    "height": 170,
-   "color": "2"
+   "color": "4"
   },
   {
    "id": "sc",
