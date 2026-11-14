@@ -6,11 +6,11 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-13T08:11:51.717Z
+  modified: 2026-11-14T07:59:24.199Z
 ---
 
 # Situation Report
-*Last updated: 2026-11-13 12:17. Window holds 13 Nov + 12 Nov; 11 Nov flushed 13 Nov. Next to flush: 12 Nov.*
+*Last updated: 2026-11-14 14:57. Window holds 14 Nov + 13 Nov; 12 Nov flushed 14 Nov. Next to flush: 13 Nov.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -30,6 +30,11 @@ metadata:
 - **Here.** AC311 Midterm 2: DONE, 13 Nov, "easy shit" — no impairment on the actual paper despite that morning's heavy drilling (carries straight into the 28 Nov final instead). Only real uncertainty was the revaluation-surplus annual transfer (optional under IAS 16, not mandatory) — he worked it both ways on paper and arrowed to the with-transfer version as his final answer. Next: final 28 Nov.
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
+
+## Session — 2026-11-14 (Sat, from 14:24)
+- 📗 AC313 FINAL prep resumed (exam Mon 23 Nov 09:00, 40%, ~47 MCQ closed book) — his own progress handoff pasted in (written elsewhere, brought to Crow). Variable OH spending + efficiency and fixed OH spending + production-volume all practiced there and landed, with two self-corrected direction/rate mixups → canvas `scs3` marked 🟩 done.
+- Resume point: **direct materials mix variance** (shoe-sole rubber 70/30→60/40 example) — posed, not yet answered. Then yield, then 2021 past-paper MCQs.
+- 🌸 Goals/wake/bed-by-23:30 (for 13 Nov) asked, **not yet answered** — still open, ask again next turn.
 
 ## Session — 2026-11-13 (Fri, from 09:07)
 - 🌸 Goals asked this time (fixing 12 Nov's miss): "Tie up loose ends before AC311 M2 (1pm)" → done 11:42, watered.

@@ -6,10 +6,15 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: c38e29c0-da2f-4906-8e70-a7a356ec2563
-  modified: 2026-11-13T05:17:47.536Z
+  modified: 2026-11-14T07:59:13.847Z
 ---
 
 # Sessions Log (archive)
+## 2026-11-12 (Thu, from 20:36)  *(flushed from SITREP 14 Nov)*
+- ⚖️ Conlaw job: V2 consistency pass across all 12 chapters, V1+V2 uploaded to Drive (private link given); V1 split into 12 per-tape files after the 4.7MB single file wouldn't preview. Durations verified vs real mp3 length — all close except **con06, ~4 min short, worth a spot-check**.
+- 📘 AC311 Mid2 (next day) prep: basket/lump-sum allocation and specific-vs-general borrowings-split gaps caught and corrected clean. Revaluation-vs-impairment trigger drilled fresh and passed cold. ARO (PV→capitalize→depreciate→accrete) drilled twice, first run had digit-transposition typos, second clean.
+- MCQ score from that morning's Codex session stayed **unconfirmed** (couldn't see his tapped answers) — left open, his call. Ghost deck untouched (past-papers-only call stands).
+
 ## 2026-11-11 (Wed)  *(flushed from SITREP 13 Nov)*
 - Ghost 59 ✓ after pushback; 15:44–16:32 deck run mixed (29,32,37,38,60(misread),61,62,64 ✓; 63,65 ✗) → 16:33 HIS CALL: all 79 AC311 cards PARKED, past papers only from here.
 - 2021 FINAL P4: P1 (impairment, further loss 140k) clean on paper. P2 (reval→impair→reversal) asked for the key, fell in (c)+(d) → redo planned.
