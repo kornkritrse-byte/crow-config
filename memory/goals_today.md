@@ -258,7 +258,7 @@ metadata:
 - 2026-11-13 | Moving | open
 - 2026-11-13 | Daily journal | open
 - 2026-11-13 | Reading | open
-- 2026-11-13 | Bed by 23:30 | open
+- 2026-11-13 | Bed by 23:30 | missed
 - 2026-11-13 | Tie up loose ends before AC311 M2 (1pm) | done
 - 2026-11-14 | Wake early | done
 - 2026-11-14 | Morning creative writing | open

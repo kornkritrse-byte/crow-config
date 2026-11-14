@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-14T12:27:48.534Z
+  modified: 2026-11-14T14:48:10.672Z
 ---
 
 # Situation Report
@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here** (back 19:26 from a good 10k — training goal marked done/watered, swapped for the prescribed lift+easy 40′). ASK ON RETURN, still open: goals today beyond the auto-seeded list? bed by 23:30 on 13 Nov?
+- **Here** (back 19:26 from a good 10k — training goal marked done/watered, swapped for the prescribed lift+easy 40′). Goals/bed closed 21:47: no extra goals today beyond standing list (study is the day's work); bed-by-23:30 on 13 Nov — missed, logged.
 - AC311 Midterm 2: DONE, 13 Nov, "easy shit" — no impairment on the actual paper despite that morning's heavy drilling (carries straight into the 28 Nov final instead). Only real uncertainty was the revaluation-surplus annual transfer (optional under IAS 16, not mandatory) — he worked it both ways on paper and arrowed to the with-transfer version as his final answer. Next: final 28 Nov.
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
@@ -37,8 +37,8 @@ metadata:
 - 🧭 **Pivoted the whole session to real 2021 past-paper MCQs** (his call: test whether ChatGPT-conceptual topics survive contact with the real exam) — pulled `~/Desktop/pastpapers/AC313/AC313 Final2021.pdf` (45pp, image-only, no OCR, read page-by-page). **Caught that the file's own pre-marked selections aren't a trustworthy key** (at least one, Q8, looks wrong) — graded every question from first principles instead.
 - **4 real calc questions landed correct**: ABC vs plantwide (Mary Inc., $4.00→$6.55/unit, undercosting made concrete) · absorption gross margin + operating income (Andrea, $24,750 / $16,500, after a real miss conflating period costs with "the fixed amount") · labor rate variance (TU Corp, self-built the 3-pillar AQ×AP/AQ×SP/SQ×SP framework, Cr $7,014) · step-down support-dept allocation (Betty's Book/Music, full 2-step chain incl. the closed-Warehouse trap, $126,649) — all 4 marked 🟩 on the canvas.
 - Pocket Procedures (Notion) got 2 new AC313 toggles: the product-vs-period-cost litmus question, and the mix-variance direction rule.
-- 🟧 Still shaky (teaching-example numbers only, no real past-paper rep yet): OH variances (spending/efficiency/fixed). Next: test that against a real question, then materials mix/yield calc.
-- 🌸 Goals today (beyond the auto-seeded list) / wake early / bed-by-23:30 (13 Nov) — **asked repeatedly, never answered.** Off for a run at 17:09.
+- 🌆 Back from the run, resumed ~21:24. Fixed OH spending vs volume drilled fresh (not past-paper, constructed): **missed both first pass** (pulled actual hours into spending; flipped the F/U sign on volume), corrected, then **2 clean reps in a row** — the applied-vs-budgeted logic (more capacity used = F, less = U) landed. Materials mix+yield walked step-by-step after he asked to slow down: mix missed once (forgot to rescale the standard ratio to actual total input), corrected, then yield landed clean first try once broken into 3 small steps. 3 ghost cards added (2 OH, 1 mix). 🟢 Still untested against a real past-paper question (all of today's OH/mix/yield was constructed, not from a paper) — do that next session.
+- 🌸 Goals/bed closed 21:47: no extra goals beyond standing list; bed-by-23:30 (13 Nov) — missed, logged. Off for a run at 17:09, back 19:26.
 
 ## Session — 2026-11-13 (Fri, from 09:07)
 - 🌸 Goals asked this time (fixing 12 Nov's miss): "Tie up loose ends before AC311 M2 (1pm)" → done 11:42, watered.
