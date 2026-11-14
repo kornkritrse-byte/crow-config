@@ -30,11 +30,12 @@
   {
    "id": "ohs3",
    "type": "text",
-   "text": "**Activity-based costing (ABC)**\ncost pools → drivers → products · who's under- or over-costed\nPast: 2021 final Q2 (undercosting)",
+   "text": "**Activity-based costing (ABC)**\ncost pools → drivers → products · who's under- or over-costed\nPast: 2021 final Q2 (undercosting)\nValidated 14 Nov: Mary Inc. plantwide-vs-ABC batch calc, correct (undercosted under plantwide: $4.00 vs $6.55/unit).",
    "x": 900,
    "y": 400,
    "width": 460,
-   "height": 170
+   "height": 170,
+   "color": "4"
   },
   {
    "id": "oh",
@@ -57,11 +58,12 @@
   {
    "id": "sds2",
    "type": "text",
-   "text": "**Step-down method**\nthe order you allocate in changes the answer",
+   "text": "**Step-down method**\nthe order you allocate in changes the answer\nValidated 14 Nov: Betty's Book/Music full 2-step calc (Warehouse first by %-to-other-support-dept rule, then DC pool incl. closed-Warehouse trap), landed $126,649 correct after guided build.",
    "x": 900,
    "y": 920,
    "width": 460,
-   "height": 170
+   "height": 170,
+   "color": "4"
   },
   {
    "id": "sds3",
@@ -93,11 +95,12 @@
   {
    "id": "vas2",
    "type": "text",
-   "text": "**Why the profits differ**\nchange in inventory × fixed MOH per unit · reconcile the two",
+   "text": "**Why the profits differ**\nchange in inventory × fixed MOH per unit · reconcile the two\nValidated 14 Nov: Andrea Q11/Q12 (gross margin $24,750, operating income $16,500), correct after fixing the period-vs-product-cost mixup.",
    "x": 900,
    "y": 1640,
    "width": 460,
-   "height": 170
+   "height": 170,
+   "color": "4"
   },
   {
    "id": "va",
@@ -120,11 +123,12 @@
   {
    "id": "scs2",
    "type": "text",
-   "text": "**Labour**\nrate · efficiency",
+   "text": "**Labour**\nrate · efficiency\nValidated 14 Nov: TU Corp labor rate variance via 3-pillar method (AQ×AP vs AQ×SP vs SQ×SP), Cr $7,014 correct, self-built the pillars.",
    "x": 900,
    "y": 2160,
    "width": 460,
-   "height": 170
+   "height": 170,
+   "color": "4"
   },
   {
    "id": "scs3",
