@@ -265,4 +265,4 @@ metadata:
 - 2026-11-14 | Training: Lift + easy 40′ | done
 - 2026-11-14 | Daily journal | open
 - 2026-11-14 | Reading | open
-- 2026-11-14 | Bed by 23:30 | open
+- 2026-11-14 | Bed by 23:30 | unknown

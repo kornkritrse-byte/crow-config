@@ -6,11 +6,11 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-14T14:48:10.672Z
+  modified: 2026-11-15T04:38:16.565Z
 ---
 
 # Situation Report
-*Last updated: 2026-11-14 14:57. Window holds 14 Nov + 13 Nov; 12 Nov flushed 14 Nov. Next to flush: 13 Nov.*
+*Last updated: 2026-11-15 11:36. Window holds 14 Nov + 13 Nov; 12 Nov flushed 15 Nov. Next to flush: 13 Nov.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here** (back 19:26 from a good 10k — training goal marked done/watered, swapped for the prescribed lift+easy 40′). Goals/bed closed 21:47: no extra goals today beyond standing list (study is the day's work); bed-by-23:30 on 13 Nov — missed, logged.
+- **Restarting the session** (15 Nov 11:36) — 14 Nov day rolled over past 05:00 without a sign-off exchange in-chat, so bed-by-23:30 for the 14th logged **unknown** (no report either way), day closed clean otherwise. Nothing open carried over; new day, new Room session.
 - AC311 Midterm 2: DONE, 13 Nov, "easy shit" — no impairment on the actual paper despite that morning's heavy drilling (carries straight into the 28 Nov final instead). Only real uncertainty was the revaluation-surplus annual transfer (optional under IAS 16, not mandatory) — he worked it both ways on paper and arrowed to the with-transfer version as his final answer. Next: final 28 Nov.
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
@@ -47,14 +47,6 @@ metadata:
 - Final 2021.pdf Part 4 Q1 (impairment only, 11.4M) + 5 impairment MCQs from the same paper: all correct, including catching the reversal-vs-further-loss trap (CA>RA at yr 3 → further loss, not reversal) unprompted.
 - ARO/dismantling practice (fresh numbers) clean; 2 capitalization scenarios — real past-paper store-construction (29.67M, caught a bled-over basket-ratio habit) + fresh machine-purchase (6.29M, caught a launch-event slip) — both landed right.
 - Heading to uni ~12:17 for the 13:00 exam.
-
-## Session — 2026-11-12 (Thu, from 20:36)
-- ⚖️ Conlaw job: V2 consistency pass across all 12 chapters (no hallucination/dupes, terms normalized), V1+V2 uploaded to Drive folder (private, link given). V1's single 4.7MB file wouldn't preview in-browser → split into 12 per-tape files, uploaded too. Verified each tape's transcript end-time against real mp3 duration — all close except **con06, ~4 min short, worth a spot-check**.
-- 📘 AC311 Mid2 (tomorrow) study session, real gaps caught and fixed: basket/lump-sum purchase (was depreciating raw fair values instead of allocating the 12M price by FV ratio, 2021 Mid2 Q2) · specific-vs-general borrowings split (was pooling the "to finance construction" note into one blended rate instead of isolating it, real P1). Both corrected and redone clean.
-- Revaluation-decrease vs impairment-loss distinction drilled fresh (trigger = fair-value check vs recoverable-amount test) — he passed a cold test question on it, entry + reasoning both right.
-- Decommissioning/ARO (PV → capitalized cost → depreciation → accretion) drilled twice with fresh numbers — first run had digit-transposition typos (not math errors), second run clean.
-- MCQ score from this morning's Codex session is **unconfirmed** (it couldn't see his tapped answers) — flagged, left open, his call whether to spot-check tomorrow AM.
-- Ghost deck untouched (his 11 Nov call stands — past papers only); one card added in error mid-session then removed since AC311's parked and the review date would've landed after the exam anyway.
 
 ## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. **AC311 Midterm 2 (sessions 8–11, PPE + intangibles + impairment, 30%) is TODAY, Fri 13 Nov, 13:00.** Final 28 Nov.
 

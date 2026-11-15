@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: c38e29c0-da2f-4906-8e70-a7a356ec2563
-  modified: 2026-11-14T07:59:13.847Z
+  modified: 2026-11-15T04:37:58.133Z
 ---
 
 # Sessions Log (archive)
@@ -549,4 +549,9 @@ metadata:
 
 ## 2026-11-09 (Mon) — flushed 11 Nov
 - Ghost 56 (gov-grant licence) ✗ with hint → 2 new cards. Left eyebrow-bone ache (resolved "cool now" 10 Nov). Impairment → reversal chain clean on paper (160k loss, reversal 120k). Ledger 61 asked 4×, unanswered that day.
+
+## 2026-11-12 (Thu, from 20:36) — flushed 15 Nov
+- ⚖️ Conlaw: V2 consistency pass all 12 chapters done, V1+V2 uploaded to Drive (V1 split into 12 per-tape files to fix preview); con06 transcript ~4 min short vs mp3, worth a spot-check.
+- 📘 AC311 Mid2 prep: basket/lump-sum allocation and specific-vs-general borrowings split both caught wrong then corrected clean. Revaluation-decrease vs impairment-loss distinction passed cold. ARO (PV→capitalize→depreciate→accrete) clean on 2nd rep after digit-transposition typos on the 1st.
+- Morning Codex MCQ score unconfirmed (couldn't see his tapped answers) — never spot-checked, closed as moot once M2 landed fine on 13 Nov.
 
