@@ -1,9 +1,13 @@
 ---
 name: water-log
-aliases: ["water-log"]
 description: "The water log: one line per finished task (ghost card passed, training done, said/did kept). Feeds the plum blossom on the Crow Room board; written by bin/water.py"
 metadata:
+  node_type: memory
+  aliases:
+    - water-log
   type: project
+  originSessionId: c8636750-b86c-4828-8478-299a12e5b295
+  modified: 2026-11-15T06:03:10.047Z
 ---
 
 # 💧 Water log
@@ -189,4 +193,3 @@ metadata:
 - 2026-11-14 19:27 | goal | Training: Lift + easy 40′
 - 2026-11-15 11:40 | goal | Wake early
 - 2026-11-15 11:40 | goal | Reading
-- 2026-11-15 13:02 | goal | AC313: finish the 3 parts from yesterday

@@ -1,9 +1,13 @@
 ---
 name: goals-today
-aliases: ["goals-today"]
 description: "Korn's goals per day: one blossom each on the Crow Room's plum blossom; the petals fall when he logs off. Written by bin/goals.py"
 metadata:
+  node_type: memory
+  aliases:
+    - goals-today
   type: project
+  originSessionId: c8636750-b86c-4828-8478-299a12e5b295
+  modified: 2026-11-15T06:03:07.328Z
 ---
 
 # 🌸 Goals today
@@ -272,6 +276,6 @@ metadata:
 - 2026-11-15 | Daily journal | open
 - 2026-11-15 | Reading | done
 - 2026-11-15 | Bed by 23:30 | open
-- 2026-11-15 | AC313: finish the 3 parts from yesterday | done
+- 2026-11-15 | AC313: finish the 3 parts from yesterday | open
 - 2026-11-15 | Massage | open
 - 2026-11-15 | Easy run — bring week's total to 40k | open
