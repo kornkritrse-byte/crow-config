@@ -195,3 +195,8 @@ metadata:
 - 2026-11-15 11:40 | goal | Reading
 - 2026-11-15 20:18 | goal | Easy run — bring week's total to 40k
 - 2026-11-15 20:18 | goal | Massage
+- 2026-11-15 22:16 | goal | Daily journal
+- 2026-11-15 22:16 | goal | Morning creative writing
+- 2026-11-15 22:16 | goal | Morning creative writing
+- 2026-11-15 22:16 | goal | Daily journal
+- 2026-11-15 22:16 | goal | AC313: finish the 3 parts from yesterday

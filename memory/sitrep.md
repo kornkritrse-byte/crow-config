@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-15T14:39:23.599Z
+  modified: 2026-11-15T15:17:01.414Z
 ---
 
 # Situation Report
@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (15 Nov, ~21:39) — off to: morning creative writing (prompt: "Letter to 25," Marcus Aurelius style — direct self-address, no audience, plain instructions not narrative) + daily journal.** Will ping when both are done — no specific ask-on-return, just mark both goals done when he confirms.
+- **Here** (15 Nov, back 22:16). Morning creative writing (Letter to 25) + daily journal both done, watered. Plan for tomorrow, his words: "refining all the parts" — more AC313 review pass, likely the F/U-direction weak spot and whatever Course Package 2/Exercise 2 still hasn't been touched.
 - **AC313, 15 Nov — huge session, final map essentially fully covered** (final is Mon 23 Nov, 09:00): all 3 allocation methods (direct/step-down/reciprocal) validated on TWO datasets each (Betty's Book/Music + Jake's Battery Co.), every standard-costing variance (materials price/qty/mix/yield, labor rate/efficiency, OH spending/efficiency/volume for both variable and fixed) validated on real past-paper + real course Exercise 2 data, full journal-entry chain (purchase→usage→labor→closing to COGS) validated for the first time, departmental rates (constructed, no real-paper version existed) validated. See [[study/AC313 Final Map.canvas]] for the full detail.
   - **Recurring pattern this whole session: F/U direction flipped 5+ times** (yield, OH spending, OH efficiency, materials quantity, volume variance) — all ghosted individually plus one general meta-rule card. 3-question MCQ recognition check afterward: 3/4 correct, the one miss was the volume-variance exception (more capacity used = FAVORABLE, opposite of every other variance) — his own words after correction: "oh I thought it was bad cus you overused but ok got it, was able to make more with less." That's now the single highest-value thing to re-check before the exam.
   - **Still genuinely open:** is midterm-era material (job order/process costing/joint-byproducts) cumulative on this final? Unconfirmed — **he needs to actually ask her**, don't let this quietly become "assumed fine." Course Package 2 (78pp) + remaining Exercise 2 questions (Q1,2,4-7,11-13) unreviewed, lower priority (diminishing returns on already-solid skills).
