@@ -146,7 +146,7 @@
 		{
 			"id": "sc",
 			"type": "text",
-			"text": "## Standard costing & variances\nsessions 12\u201315 (26 Oct \u2192 16 Nov) \u00b7 BEING TAUGHT\nH Ch 7\u20138 \u00b7 M Ch 7\n4 of the 8 sessions \u2192 probably the biggest share (guess)\n14 Nov: all 3 sub-blocks (materials incl. mix/yield, labour, overhead) validated against real 2021 past-paper Qs in one session.",
+			"text": "## Standard costing & variances\nsessions 12\u201315 (26 Oct \u2192 16 Nov) \u00b7 BEING TAUGHT\nH Ch 7\u20138 \u00b7 M Ch 7\n4 of the 8 sessions \u2192 probably the biggest share (guess)\n14 Nov: all 3 sub-blocks (materials incl. mix/yield, labour, overhead) validated against real 2021 past-paper Qs in one session.\n15 Nov: full journal-entry chain validated (Chemical Inc., Exercise 2 Q10) \u2014 purchase, usage, labor, and closing all 4 variances to COGS ($14,719 net debit). New rule caught and ghosted: unfavorable=debit, favorable=credit, always, regardless of variance type. Also: direct/step-down/reciprocal all re-tested on a second fresh dataset (Jake's Battery Co.) after Betty's \u2014 direct method confirmed clean both times.",
 			"x": 400,
 			"y": 2165,
 			"width": 380,
