@@ -270,7 +270,7 @@ metadata:
 - 2026-11-15 | Morning creative writing | open
 - 2026-11-15 | Training: Long 14 km | open
 - 2026-11-15 | Daily journal | open
-- 2026-11-15 | Reading | open
+- 2026-11-15 | Reading | done
 - 2026-11-15 | Bed by 23:30 | open
 - 2026-11-15 | AC313: finish the 3 parts from yesterday | open
 - 2026-11-15 | Massage | open

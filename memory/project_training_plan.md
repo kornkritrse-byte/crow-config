@@ -6,8 +6,11 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 6b179f8b-0d5d-4b21-b9e8-8a36a0feb75f
-  modified: 2026-09-13T01:30:25.289Z
+  modified: 2026-11-15T04:41:26.059Z
 ---
+
+## 🔁 2026-11-15 — LONG RUN DAY MOVED Sun → WEDNESDAY (his correction, 11:40)
+**`road-plan.json` is now stale on this point — it still schedules long runs on Sunday.** Real pattern, his words: Wednesdays he runs with a friend and they do long runs — last 3 Wednesdays: ~10K, 13K, then 21K (11 Nov, logged below as the "unplanned half," but it's actually the new normal, not an anomaly). Sunday is now easy-run territory. Don't trust the Room's auto-pulled "Training: Long Xkm" goal on a Sunday until `road-plan.json` gets re-dayed — ask him which it actually is, like today (15 Nov): he called it "easy run," not long.
 
 ## 🏃 2026-11-11 (Wed) — UNPLANNED HALF #2 with a friend (reported 15:33)
 - **Half marathon in 2:10 (~6:10/km), ~150 bpm avg (his number), legs "way better than the last time".** Last half = 21.5 km @ 6:39 on 17 Sep (~2:23), so ~13 min faster at what reads as an easy HR (guess: max HR not confirmed on the Garmin).
