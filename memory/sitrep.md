@@ -6,11 +6,11 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-15T15:17:01.414Z
+  modified: 2026-11-15T15:19:49.350Z
 ---
 
 # Situation Report
-*Last updated: 2026-11-15 11:36. Window holds 14 Nov + 13 Nov; 12 Nov flushed 15 Nov. Next to flush: 13 Nov.*
+*Last updated: 2026-11-15 22:20. Window holds 15 Nov + 14 Nov; 13 Nov flushed 15 Nov. Next to flush: 14 Nov.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,33 +27,28 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here** (15 Nov, back 22:16). Morning creative writing (Letter to 25) + daily journal both done, watered. Plan for tomorrow, his words: "refining all the parts" — more AC313 review pass, likely the F/U-direction weak spot and whatever Course Package 2/Exercise 2 still hasn't been touched.
-- **AC313, 15 Nov — huge session, final map essentially fully covered** (final is Mon 23 Nov, 09:00): all 3 allocation methods (direct/step-down/reciprocal) validated on TWO datasets each (Betty's Book/Music + Jake's Battery Co.), every standard-costing variance (materials price/qty/mix/yield, labor rate/efficiency, OH spending/efficiency/volume for both variable and fixed) validated on real past-paper + real course Exercise 2 data, full journal-entry chain (purchase→usage→labor→closing to COGS) validated for the first time, departmental rates (constructed, no real-paper version existed) validated. See [[study/AC313 Final Map.canvas]] for the full detail.
-  - **Recurring pattern this whole session: F/U direction flipped 5+ times** (yield, OH spending, OH efficiency, materials quantity, volume variance) — all ghosted individually plus one general meta-rule card. 3-question MCQ recognition check afterward: 3/4 correct, the one miss was the volume-variance exception (more capacity used = FAVORABLE, opposite of every other variance) — his own words after correction: "oh I thought it was bad cus you overused but ok got it, was able to make more with less." That's now the single highest-value thing to re-check before the exam.
-  - **Still genuinely open:** is midterm-era material (job order/process costing/joint-byproducts) cumulative on this final? Unconfirmed — **he needs to actually ask her**, don't let this quietly become "assumed fine." Course Package 2 (78pp) + remaining Exercise 2 questions (Q1,2,4-7,11-13) unreviewed, lower priority (diminishing returns on already-solid skills).
-- [[feedback-push-not-coddle]] applied live today: Crow caught itself offering an easy stopping point mid-reciprocal-method and Korn called it out ("why are we not finishing something we started") — corrected, finished the method properly. Also used directly to decide AC313 was "genuinely done for today" only when he asked for that read, not volunteered.
-- 14 Nov day rolled over past 05:00 without a sign-off exchange in-chat, so bed-by-23:30 for the 14th logged **unknown** (no report either way), day closed clean otherwise.
-- AC311 Midterm 2: DONE, 13 Nov, "easy shit" — no impairment on the actual paper despite that morning's heavy drilling (carries straight into the 28 Nov final instead). Only real uncertainty was the revaluation-surplus annual transfer (optional under IAS 16, not mandatory) — he worked it both ways on paper and arrowed to the with-transfer version as his final answer. Next: final 28 Nov.
+- **Day closed, 15 Nov ~22:20.** Quote given (Marcus Aurelius, Meditations Bk 10 — see [[artis-quotes-log]]). Bed-by-23:30 for tonight: ask next session.
+- AC311 Midterm 2: DONE, 13 Nov, "easy shit." Only real uncertainty was the revaluation-surplus annual transfer (optional under IAS 16) — worked both ways, went with the with-transfer version. **Next: AC311 final 28 Nov.**
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
+## Session — 2026-11-15 (Sun, from 11:38)
+- **Big structural day.** His own ask: dropped the fixed weekly training calendar for targets (5 runs/wk, 40 km/wk, 1 long run, intervals worked in) → [[project-training-plan]]. Rewrote `~/CLAUDE.md`: no more rest/stop nudges in training OR work unless he self-reports struggling, reflection-prompts over verdicts, no toxic motivation, standards split (uni = good not perfect, his passions = elite bar) → [[feedback-push-not-coddle]], trial calibration, check back ~18–20 Nov.
+- Morning body scare (head/traps/quads buzzing ache, dazy mid-drill) — his own diagnosis: under-hydrating despite normally drinking a lot. Resolved clean by afternoon (massage + water); confirmed "a lot better" / run afterward "great chill easy run very light."
+- **AC313 marathon session — final map (sessions 8–15) now FULLY covered**, 8 days before the 23 Nov final: all 3 allocation methods tested on 2 datasets each, every standard-costing variance incl. a full journal-entry chain (first time), departmental rates. First live test of the new push-rule: Crow offered an easy stopping mid-reciprocal-method, Korn called it ("why are we not finishing something we started"), corrected. Full detail → [[study/AC313 Final Map.canvas]].
+- **Recurring weak spot, flagged hard: F/U direction flipped 5+ times** across the session (yield, OH spending, OH efficiency, materials quantity, volume variance) — each ghosted, plus one general meta-rule card. Closing MCQ check: 3/4, the one miss was the volume-variance exception (more capacity used = FAVORABLE, the one case where "more" is good). Single highest-value pre-exam review item.
+- **Open, pushed to [[project-midterms]]:** is the AC313 final cumulative on midterm-scope material (sessions 1–7)? Unconfirmed — he needs to actually ask her, don't let it default to "assumed fine."
+- Evening: morning creative writing (Letter to 25, Marcus Aurelius voice — direct self-address, no audience) + daily journal both done. Full flower today except the now-stale Sunday-long-run standing line (training days aren't fixed anymore) and bedtime.
+
 ## Session — 2026-11-14 (Sat, from 14:24)
-- 📗 AC313 FINAL prep resumed (exam Mon 23 Nov 09:00, 40%, ~47 MCQ closed book) via a handoff pasted in from elsewhere. Materials mix variance direction taught (70/30→60/40 rubber) — missed first (picked "can't tell," needed quantities), ghosted.
-- 🧭 **Pivoted the whole session to real 2021 past-paper MCQs** (his call: test whether ChatGPT-conceptual topics survive contact with the real exam) — pulled `~/Desktop/pastpapers/AC313/AC313 Final2021.pdf` (45pp, image-only, no OCR, read page-by-page). **Caught that the file's own pre-marked selections aren't a trustworthy key** (at least one, Q8, looks wrong) — graded every question from first principles instead.
-- **4 real calc questions landed correct**: ABC vs plantwide (Mary Inc., $4.00→$6.55/unit, undercosting made concrete) · absorption gross margin + operating income (Andrea, $24,750 / $16,500, after a real miss conflating period costs with "the fixed amount") · labor rate variance (TU Corp, self-built the 3-pillar AQ×AP/AQ×SP/SQ×SP framework, Cr $7,014) · step-down support-dept allocation (Betty's Book/Music, full 2-step chain incl. the closed-Warehouse trap, $126,649) — all 4 marked 🟩 on the canvas.
-- Pocket Procedures (Notion) got 2 new AC313 toggles: the product-vs-period-cost litmus question, and the mix-variance direction rule.
-- 🌆 Back from the run, resumed ~21:24. Fixed OH spending vs volume drilled fresh (not past-paper, constructed): **missed both first pass** (pulled actual hours into spending; flipped the F/U sign on volume), corrected, then **2 clean reps in a row** — the applied-vs-budgeted logic (more capacity used = F, less = U) landed. Materials mix+yield walked step-by-step after he asked to slow down: mix missed once (forgot to rescale the standard ratio to actual total input), corrected, then yield landed clean first try once broken into 3 small steps. 3 ghost cards added (2 OH, 1 mix). 🟢 Still untested against a real past-paper question (all of today's OH/mix/yield was constructed, not from a paper) — do that next session.
-- 🌸 Goals/bed closed 21:47: no extra goals beyond standing list; bed-by-23:30 (13 Nov) — missed, logged. Off for a run at 17:09, back 19:26.
+- 📗 AC313 FINAL prep resumed via a handoff pasted in from elsewhere. Materials mix variance direction taught (70/30→60/40 rubber) — missed first (picked "can't tell," needed quantities), ghosted.
+- 🧭 **Pivoted to real 2021 past-paper MCQs** (his call: test whether ChatGPT-conceptual topics survive contact with the real exam) — pulled `~/Desktop/pastpapers/AC313/AC313 Final2021.pdf` (45pp, image-only, read page-by-page). **Caught that the file's own pre-marked selections aren't a trustworthy key** (Q8 looks wrong) — graded from first principles instead.
+- **4 real calc questions landed correct**: ABC vs plantwide (Mary Inc., $4.00→$6.55/unit) · absorption gross margin + operating income (Andrea, $24,750 / $16,500, after a miss conflating period costs) · labor rate variance (TU Corp, self-built 3-pillar framework, Cr $7,014) · step-down allocation (Betty's Book/Music, $126,649).
+- Pocket Procedures (Notion) got 2 new AC313 toggles: product-vs-period-cost litmus question, mix-variance direction rule.
+- 🌆 Fixed OH spending vs volume drilled fresh (constructed, not past-paper): missed both first pass, corrected, 2 clean reps landed. Materials mix+yield walked step-by-step: mix missed once, yield landed clean. 3 ghost cards added. (Both fully re-validated against real past-paper + Exercise 2 data on 15 Nov — see above.)
+- 🌸 Goals/bed closed 21:47: bed-by-23:30 (13 Nov) missed, logged. Off for a run 17:09, back 19:26.
 
-## Session — 2026-11-13 (Fri, from 09:07)
-- 🌸 Goals asked this time (fixing 12 Nov's miss): "Tie up loose ends before AC311 M2 (1pm)" → done 11:42, watered.
-- Cost-vs-revaluation-model summary + 2 worked examples added to the Notion Study Page §6 (his ask, to read on the way).
-- Final 2021.pdf Part 4 Q2 (reval→impairment→reversal, 8.5M machine) drilled cold: nailed (a)/(b)/(c), needed two corrections on the (d) reversal cap (tried a straight ceiling-split, then a proportional-decay guess) before landing it — cap reversal at the ORIGINAL P&L-charged amount (750k), not the shrunk ceiling (800k) or a decayed fraction.
-- Final 2021.pdf Part 4 Q1 (impairment only, 11.4M) + 5 impairment MCQs from the same paper: all correct, including catching the reversal-vs-further-loss trap (CA>RA at yr 3 → further loss, not reversal) unprompted.
-- ARO/dismantling practice (fresh numbers) clean; 2 capitalization scenarios — real past-paper store-construction (29.67M, caught a bled-over basket-ratio habit) + fresh machine-purchase (6.29M, caught a launch-event slip) — both landed right.
-- Heading to uni ~12:17 for the 13:00 exam.
-
-## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. **AC311 Midterm 2 (sessions 8–11, PPE + intangibles + impairment, 30%) is TODAY, Fri 13 Nov, 13:00.** Final 28 Nov.
+## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. AC311 final 28 Nov. AC313 final Mon 23 Nov 09:00 (next up, 8 days out).
 
 ## 🧰 New system pieces (built 27 Sep, his pick from 8 ideas) — all fire from the session-start hook, silent unless due
 - 🕐 `hooks/prompt-time.sh` stamps `[clock]` on every prompt → **use it for any time reference.**
@@ -67,7 +62,7 @@ metadata:
 ## 🔕 Standing — raise only if it comes up
 - 🌸 **Daily goals: BUILT 29 Sep 21:32–22:00** (he pulled it forward from Sun 4 Oct, with a hard stop at 23:00). The Room's flower = today's goals; the petals fall at log-off → [[reference-crow-room]] · rule [[feedback-goals-today]]. **Tomorrow's first session: ask "goals today?".**
 - **Morning person:** #1 landed 14 Sep; #2 not seen yet → [[project-morning-person]].
-- **Race 13 Dec:** venue unknown · bib pickup race-morning or in advance? (his dad likely knows) → [[project-training-plan]]. Training resumes after exams, and the flood may affect it.
+- **Race 13 Dec:** venue unknown · bib pickup race-morning or in advance? (his dad likely knows) → [[project-training-plan]].
 - 📖 **Siddhartha: he's at Kamala. ⛔ No spoilers past Kamala.** Karamazov: ✅ **FINISHED 24 Oct**, all fair game.
 - Unanswered and low-stakes: BA202 cold-question numbers (2 Sep) · AC311 slide 9 cranes vs software · FCF drill ↔ hub link.
 - BBA camp (New Year, mountains): interviewed 25 Aug, he'll report if he makes the cut. Basketball: 2 more games, dates unknown.

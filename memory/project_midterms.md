@@ -6,10 +6,13 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 5b6c4e05-b760-4ef4-9ca7-afdb3856b8e3
-  modified: 2026-09-13T11:10:13.655Z
+  modified: 2026-11-15T15:18:29.504Z
 ---
 
 Opened 2026-08-23. **TOP PRIORITY.** Korn's stated order: midterms first, fitness second (fitness explicitly planned *around* studies).
+
+## ⚠️ 2026-11-15 — OPEN: is the AC313 final (23 Nov) cumulative on midterm-scope material?
+Never confirmed with the professor. Grading structure (40% midterm + 40% final + 20% quiz/assignment, each on non-overlapping chapters per row below) and the line "**AC313 scope is SMALLER than feared — overhead allocation, ABC, variable/absorption costing and standard costing/variance analysis are all AFTER the midterm**" both suggest a sequential, non-cumulative design — but that's inference, not confirmation. If the final IS cumulative, sessions 1–7 (fundamentals/cost classification, job order costing incl. spoilage/rework/scrap, process costing weighted-avg+FIFO, joint products & byproducts) are completely untouched since the Sep midterm and would need a real review pass. **Korn needs to actually ask her** — don't let this quietly resolve itself by default. See [[study/AC313 Final Map.canvas]] for the sessions 8–15 coverage (fully drilled as of 15 Nov).
 
 ## 🏁 MIDTERM 1 RESULTS — told by Korn 26 Oct 2026, 13:25
 - **ALL subjects came back ABOVE THE MEAN**, including the ones he thought went badly (FN201, which he called bad 'cohort-wide'; BA202 + AC311 were the shaky ones going in).

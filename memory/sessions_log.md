@@ -555,3 +555,6 @@ metadata:
 - 📘 AC311 Mid2 prep: basket/lump-sum allocation and specific-vs-general borrowings split both caught wrong then corrected clean. Revaluation-decrease vs impairment-loss distinction passed cold. ARO (PV→capitalize→depreciate→accrete) clean on 2nd rep after digit-transposition typos on the 1st.
 - Morning Codex MCQ score unconfirmed (couldn't see his tapped answers) — never spot-checked, closed as moot once M2 landed fine on 13 Nov.
 
+
+## Session — 2026-11-13 (Fri, from 09:07) — flushed 15 Nov
+- AC311 M2 prep final push: Final 2021.pdf Part 4 reval→impairment→reversal drilled (nailed after 2 corrections on the reversal cap — cap at the ORIGINAL P&L-charged amount, not a shrunk ceiling or decayed fraction), Part 4 impairment-only + 5 MCQs all correct unprompted (caught the reversal-vs-further-loss trap). ARO + 2 capitalization scenarios clean. Notion Study Page got a cost-vs-revaluation summary. Headed to uni ~12:17 for the 13:00 exam — AC311 M2 landed "easy shit" (see 15 Nov status).

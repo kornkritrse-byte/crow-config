@@ -1,13 +1,12 @@
 ---
 name: project-conlaw-transcription
+aliases: ["project-conlaw-transcription"]
 description: "Transcription job for Korn's friend (Chula law): 12 Constitutional Law lecture tapes → V1 verbatim + V2 book-style, both Thai. Started 11 Nov 2026."
 metadata:
   node_type: memory
-  aliases:
-    - project-conlaw-transcription
   type: project
   originSessionId: a99c06fb-9a0f-4043-adf9-7e4f34e7202b
-  modified: 2026-11-11T13:37:06.554Z
+  modified: 2026-11-15T15:20:18.311Z
 ---
 
 **What:** Korn's friend (Chula law, unnamed) asked via Korn on 11 Nov 2026 at 20:28 for ALL 12 tapes of กฎหมายรัฐธรรมนูญ (อ.ดร.ทศพร แสนสวัสดิ์, ภาคต้น 2569) transcribed in Thai, "very accurate", in two versions:

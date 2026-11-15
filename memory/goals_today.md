@@ -279,3 +279,4 @@ metadata:
 - 2026-11-15 | AC313: finish the 3 parts from yesterday | done
 - 2026-11-15 | Massage | done
 - 2026-11-15 | Easy run — bring week's total to 40k | done
+- 2026-11-15 | — | closed

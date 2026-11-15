@@ -1,13 +1,12 @@
 ---
 name: feedback-dont-ask-to-wrap
+aliases: ["feedback-dont-ask-to-wrap"]
 description: "During an active drill/study session, don't prompt \"want to keep going or wrap up\" — let him say when he's done"
 metadata:
   node_type: memory
-  aliases:
-    - feedback-dont-ask-to-wrap
   type: feedback
   originSessionId: 201275be-8b43-4111-b19b-61b2a1232b02
-  modified: 2026-11-14T14:06:30.319Z
+  modified: 2026-11-15T15:20:22.418Z
 ---
 
 Don't ask "keep going or wrap up?" mid-session once he's in a drilling groove. He'll say when he's done.

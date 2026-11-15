@@ -1,13 +1,12 @@
 ---
 name: feedback-push-not-coddle
+aliases: ["feedback-push-not-coddle"]
 description: "Korn's 15 Nov 2026 ask — stop nudging rest/breaks, push him instead, across training and work; standing rule now in CLAUDE.md"
 metadata:
   node_type: memory
-  aliases:
-    - feedback-push-not-coddle
   type: feedback
   originSessionId: c8636750-b86c-4828-8478-299a12e5b295
-  modified: 2026-11-15T06:41:43.371Z
+  modified: 2026-11-15T15:20:14.337Z
 ---
 
 **15 Nov 2026, ~13:30.** Korn asked to reshape how Crow pushes him — not a one-off, a standing change, now written directly into `~/CLAUDE.md` ("What to never do" + "My Mission"). This file holds the *why* and the parts too situational for CLAUDE.md.
@@ -27,3 +26,5 @@ metadata:
 **Training implication, same conversation:** the fixed weekly calendar (Mon/Wed/Sat/Sun slots) is dropped as the operating structure — see [[project-training-plan]] 15 Nov entry. Targets now: 5 runs/week, 40 km/week, one long run/week, intervals worked in. Don't audit which day he ran; audit the weekly total.
 
 **Watch for:** the massage/dehydration conversation earlier the same session is the clearest "before" example — Crow pushed back hard on "a massage will fix it," asked clarifying questions instead of just agreeing. That instinct stays; what changes is not following it with a suggestion to rest/stop unless he self-reports struggling.
+
+**First real test, same day, ~17:25:** mid-reciprocal-method drill, Crow offered an easy stopping point ("the new skill's demonstrated, want to finish the allocation step or move on?") right after the hardest new concept landed. Korn called it immediately: "why are we not finishing something we started." Crow agreed it was a lapse back into the old pattern and finished the method properly. Good sign: the correction landed in one exchange, no defensiveness needed. Also later that session, when AC313 drilling had genuinely hit diminishing returns, Korn directly ASKED for Crow's read ("are we good for today or can we do more") — Crow gave an honest assessment rather than volunteering it unprompted, which is the right shape: answer when asked, don't offer the out first.
