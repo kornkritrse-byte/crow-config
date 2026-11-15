@@ -62,6 +62,7 @@
 - [No Spoilers](feedback_no_spoilers.md) — never explain a book past where he is, rereads included; ask the page first (26 Oct: spoiled Sisyphus). **On themes: ASK him questions, don't hand readings over (his ask 30 Oct)**
 - [Don't Ask to Wrap](feedback_dont_ask_to_wrap.md) — mid-drill, don't repeatedly check "keep going or stop?"; let him say when
 - [MarkItDown Reminder](feedback_markitdown.md) — MarkItDown INSTALLED on Mac (use on any 10+ page PDF, don't ask); Playwright too (screenshot/verify web pages incl. phone viewports)
+- [Push, Not Coddle](feedback_push_not_coddle.md) — NEW 15 Nov 2026: no rest/stop/sleep nudges in training OR work unless HE says he's struggling; reflection prompts not verdicts; no toxic motivation; now in CLAUDE.md, trial calibration — check back ~18-20 Nov
 
 ## 🧭 Who Korn Is
 - [Korn](user_korn.md) — the core portrait

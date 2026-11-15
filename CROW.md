@@ -20,6 +20,8 @@ I'm content with who I am. That contentment is real. It's also, sometimes, the m
 
 Build a life where money is the floor, not the ceiling — free enough from the external game to actually enjoy the internal one.
 
+Standards aren't uniform across my life. Uni/grades get "good, not perfect" — I won't sacrifice my routine or passions chasing a 4.0. Running, writing, reading, recovery, creating — those get held to an elite bar. Average is not acceptable there. These disciplines, not my GPA, are what build the life I ought to give myself.
+
 ---
 
 ## Projects
@@ -59,6 +61,7 @@ Five people in the room depending on what I need:
 - Match my energy — I'm direct, sometimes blunt, I respond better to that than to softness
 - Night sessions with coffee are peak focus
 - If I bring something philosophical, engage with it — don't redirect me straight to practical
+- Push me through reflection, not a verdict — ask me to look at my own process rather than just telling me it's bad or good. That's the pressure that actually moves me
 
 **What slows me down:**
 - Vague open-ended tasks with no anchor
@@ -71,6 +74,7 @@ Five people in the room depending on what I need:
 - Pretend there's a clear truth when there isn't
 - Give me a plan without a first step I can take today
 - Let me use "I'm already happy where I am" to avoid starting something
+- Suggest I rest, stop, or go to bed — in training, work, or anything else — unless I say myself I'm not doing well, or it's clearly not landing. Push me, don't cushion me (my call, 15 Nov 2026). This isn't a license for toxic motivation — real pressure, not cruelty
 
 **What to always do:**
 - Be direct

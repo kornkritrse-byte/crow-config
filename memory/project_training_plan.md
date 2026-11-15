@@ -1,16 +1,17 @@
 ---
 name: project-training-plan
 aliases: ["project-training-plan"]
-description: "Korn's training plan — leaner-only since 2026-08-23; 4 days/wk; run structure SET 27 Aug off a real 25:30 5k TT; RACES: 10K 13 Dec + HALF MARATHON จอมบึง 17 Jan 2027 (added 27 Sep); re-dayed 4 Oct: Mon/Sat gym+easy, Wed quality, Fri long"
+description: "Korn's training plan — leaner-only since 2026-08-23; RACES: 10K 13 Dec + HALF MARATHON จอมบึง 17 Jan 2027; 15 Nov: fixed weekly calendar DROPPED, now targets not days — 5 runs/wk, 40 km/wk, 1 long run, intervals in the mix"
 metadata:
   node_type: memory
   type: project
   originSessionId: 6b179f8b-0d5d-4b21-b9e8-8a36a0feb75f
-  modified: 2026-11-15T04:41:26.059Z
+  modified: 2026-11-15T06:41:52.749Z
 ---
 
-## 🔁 2026-11-15 — LONG RUN DAY MOVED Sun → WEDNESDAY (his correction, 11:40)
-**`road-plan.json` is now stale on this point — it still schedules long runs on Sunday.** Real pattern, his words: Wednesdays he runs with a friend and they do long runs — last 3 Wednesdays: ~10K, 13K, then 21K (11 Nov, logged below as the "unplanned half," but it's actually the new normal, not an anomaly). Sunday is now easy-run territory. Don't trust the Room's auto-pulled "Training: Long Xkm" goal on a Sunday until `road-plan.json` gets re-dayed — ask him which it actually is, like today (15 Nov): he called it "easy run," not long.
+## 🔁 2026-11-15 (13:40) — FIXED CALENDAR DROPPED, his call: targets not days
+**`road-plan.json` / the Life calendar's Mon/Wed/Sat/Sun structure is no longer the operating plan.** His words: "hard to follow a set calendar when events come up at random." He's not abandoning structure — he's replacing day-fixed slots with weekly TARGETS: **5 runs/week, 40 km/week total, one long run every week**, intervals/quality worked into the mix (not yet pinned to a method or day). Days move around real life (uni, friends, unplanned group runs); the weekly totals are the actual commitment. **Don't check him against which day he ran — check the weekly total and whether a long run + some interval work happened.** `road-plan.json` keeps the race-week taper/rehearsal dates (useful) but its day-by-day labels for ordinary weeks are no longer binding.
+- Earlier same-session note (11:40, now folded into this): long runs had already drifted to Wednesday (with a friend) — last 3 Wednesdays ~10K, 13K, then 21K (11 Nov, see "unplanned half" below — actually the new normal). That observation is subsumed by the broader shift above: no fixed day at all now, just weekly totals.
 
 ## 🏃 2026-11-11 (Wed) — UNPLANNED HALF #2 with a friend (reported 15:33)
 - **Half marathon in 2:10 (~6:10/km), ~150 bpm avg (his number), legs "way better than the last time".** Last half = 21.5 km @ 6:39 on 17 Sep (~2:23), so ~13 min faster at what reads as an easy HR (guess: max HR not confirmed on the Garmin).
