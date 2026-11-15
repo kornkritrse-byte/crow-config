@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-15T06:03:23.543Z
+  modified: 2026-11-15T09:35:18.613Z
 ---
 
 # Situation Report
@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (15 Nov, ~13:02) — off to: lunch, then a massage (dad booked it), back after.** Body-wide ache this morning: head/traps/quads, "buzzing ticklish pain," plus dazy mid-drill. His own read: he's been under-drinking water lately despite normally drinking a lot; said he'd hydrate hard today. **ASK ON RETURN: how's the body feeling — did water help, is the buzzing gone?** Training-plan correction logged this session: long runs are now WEDNESDAY (with a friend), not Sunday — [[project-training-plan]] updated, `road-plan.json` still stale on this.
+- **Here** (15 Nov, back 16:34 from lunch + massage). Body check: **a lot better** — hydration + massage resolved the morning's body-wide ache/buzzing. Closed, don't re-ask.
 - 14 Nov day rolled over past 05:00 without a sign-off exchange in-chat, so bed-by-23:30 for the 14th logged **unknown** (no report either way), day closed clean otherwise.
 - AC311 Midterm 2: DONE, 13 Nov, "easy shit" — no impairment on the actual paper despite that morning's heavy drilling (carries straight into the 28 Nov final instead). Only real uncertainty was the revaluation-surplus annual transfer (optional under IAS 16, not mandatory) — he worked it both ways on paper and arrowed to the with-transfer version as his final answer. Next: final 28 Nov.
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
