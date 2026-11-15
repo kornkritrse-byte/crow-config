@@ -266,3 +266,9 @@ metadata:
 - 2026-11-14 | Daily journal | open
 - 2026-11-14 | Reading | open
 - 2026-11-14 | Bed by 23:30 | unknown
+- 2026-11-15 | Wake early | open
+- 2026-11-15 | Morning creative writing | open
+- 2026-11-15 | Training: Long 14 km | open
+- 2026-11-15 | Daily journal | open
+- 2026-11-15 | Reading | open
+- 2026-11-15 | Bed by 23:30 | open
