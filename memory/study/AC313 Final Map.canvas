@@ -1,6 +1,5 @@
 {
 	"nodes":[
-		{"id":"a04d74a9b4afcb28","x":561,"y":-10,"width":400,"height":400,"type":"link","url":"https://open.spotify.com/track/0WAEGVylZjbe2mQ6Or6HxY"},
 		{"id":"legend","type":"text","text":"**Legend**\n🟩 done · 🟨 now · ⬜ taught, not studied · 🟥 not taught yet · 🟪 midterm scope (in only if cumulative) · 🟧 shaky\nBuilt from the COURSE OUTLINE (27 Oct). Updated as material lands.\nH = Horngren 17e · M = Monvika 10e (Thai)","x":0,"y":-280,"width":460,"height":210},
 		{"id":"ohs1","type":"text","text":"**Plantwide rate**\none rate for the whole factory","x":900,"y":0,"width":460,"height":170},
 		{"id":"ohs2","type":"text","text":"**Departmental rates**\none rate per department, each on its own driver","x":900,"y":200,"width":460,"height":170},
