@@ -21,11 +21,12 @@
 		{
 			"id": "ohs2",
 			"type": "text",
-			"text": "**Departmental rates**\none rate per department, each on its own driver",
+			"text": "**Departmental rates**\none rate per department, each on its own driver\nValidated 15 Nov (constructed, no real-paper version found in the 2021 final): Cutting $20/machine-hr, Finishing $30/labor-hr, Job #101 applied OH = $1,600 ($1,000 + $600). Clean, first try, no misses.",
 			"x": 900,
 			"y": 200,
 			"width": 460,
-			"height": 170
+			"height": 170,
+			"color": "4"
 		},
 		{
 			"id": "ohs3",
