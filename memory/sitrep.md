@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-15T09:35:18.613Z
+  modified: 2026-11-15T10:41:57.451Z
 ---
 
 # Situation Report
@@ -27,7 +27,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here** (15 Nov, back 16:34 from lunch + massage). Body check: **a lot better** — hydration + massage resolved the morning's body-wide ache/buzzing. Closed, don't re-ask.
+- **AWAY (15 Nov, ~17:41) — off to: easy run (~5.5K, part of the 40k weekly target), post-massage.** Body was "a lot better" after lunch + massage (hydration fixed the morning's ache/buzzing) — closed, don't re-ask. **ASK ON RETURN: how'd the run feel, body holding up OK post-massage?**
+- AC313 session before the run covered a lot: direct/step-down/reciprocal allocation methods all now validated on real past-paper data (Betty's Book/Music) — reciprocal + direct done 15 Nov, see [[study/AC313 Final Map.canvas]]. Mid-session: materials price/quantity, labor efficiency, fixed-OH flexible-budget/volume-variance, mix/yield all also freshly validated on real 2021-final questions. **Open thread to resume: variable OH spending variance** — question was mid-ask (standard $8/machine-hr, 4,200 std hrs allowed, 4,350 actual hrs, $35,500 actual VOH) when he left for the run. Still untested all session: fixed OH spending variance, and the open scope question (is midterm material cumulative on this final?).
 - 14 Nov day rolled over past 05:00 without a sign-off exchange in-chat, so bed-by-23:30 for the 14th logged **unknown** (no report either way), day closed clean otherwise.
 - AC311 Midterm 2: DONE, 13 Nov, "easy shit" — no impairment on the actual paper despite that morning's heavy drilling (carries straight into the 28 Nov final instead). Only real uncertainty was the revaluation-surplus annual transfer (optional under IAS 16, not mandatory) — he worked it both ways on paper and arrowed to the with-transfer version as his final answer. Next: final 28 Nov.
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
