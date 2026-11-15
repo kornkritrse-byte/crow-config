@@ -187,3 +187,4 @@ metadata:
 - 2026-11-13 11:42 | goal | Tie up loose ends before AC311 M2 (1pm)
 - 2026-11-14 15:21 | goal | Wake early
 - 2026-11-14 19:27 | goal | Training: Lift + easy 40′
+- 2026-11-15 11:40 | goal | Wake early
