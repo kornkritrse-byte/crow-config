@@ -277,5 +277,5 @@ metadata:
 - 2026-11-15 | Reading | done
 - 2026-11-15 | Bed by 23:30 | open
 - 2026-11-15 | AC313: finish the 3 parts from yesterday | open
-- 2026-11-15 | Massage | open
-- 2026-11-15 | Easy run — bring week's total to 40k | open
+- 2026-11-15 | Massage | done
+- 2026-11-15 | Easy run — bring week's total to 40k | done

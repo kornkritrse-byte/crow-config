@@ -193,3 +193,5 @@ metadata:
 - 2026-11-14 19:27 | goal | Training: Lift + easy 40′
 - 2026-11-15 11:40 | goal | Wake early
 - 2026-11-15 11:40 | goal | Reading
+- 2026-11-15 20:18 | goal | Easy run — bring week's total to 40k
+- 2026-11-15 20:18 | goal | Massage
