@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-15T15:19:49.350Z
+  modified: 2026-11-16T06:10:59.008Z
 ---
 
 # Situation Report
@@ -27,10 +27,19 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Day closed, 15 Nov ~22:20.** Quote given (Marcus Aurelius, Meditations Bk 10 — see [[artis-quotes-log]]). Bed-by-23:30 for tonight: ask next session.
+- **AWAY (16 Nov ~13:10) — off to: eat, finish Blade Runner.** ASK ON RETURN: nothing open — he'll ping when ready to resume (queued: live journal-entry drill, writing debits/credits himself through a full variance problem, his own ask after naming entries as his real gap).
 - AC311 Midterm 2: DONE, 13 Nov, "easy shit." Only real uncertainty was the revaluation-surplus annual transfer (optional under IAS 16) — worked both ways, went with the with-transfer version. **Next: AC311 final 28 Nov.**
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
+
+## Session — 2026-11-16 (Mon, from 11:01, ongoing)
+- Bed-by-23:30 (15 Nov): done. Goal today: Study AC313 (no extras).
+- Said/did line 63 (14→15 Nov reciprocal/step-down): his own read, partial — "drifted from that as our structure to just finishing all topics." Closed the gap today: both methods run fully unaided on fresh constructed problems, only bookkeeping slips left (own-vs-true cost, distributing coefficients, isolating variables) — all ghosted.
+- AC313 Final Map canvas fully caught up: step-down/reciprocal/product-vs-period (vas1) nodes updated with today's reps; Pocket Procedures (Notion) got 4 new toggles (quantity-variance benchmark trap, fixed-OH-spending-doesn't-flex, COGS debit/credit rule, total-conservation-across-methods check).
+- Added **MK201 Final, Thu 26 Nov 09:00–12:00** to Life calendar (assumed final, slots between AC313's 23rd and AC311's 28th — unconfirmed, flag if wrong).
+- Two MCQ rounds (20 Qs total, his request for format): F/U-direction round (8/10) + mixed round across all 4 branches (7/10). 5 real misses, all different shapes — ghosted. Standout: Q9 mixed round — he used the total-conservation check correctly himself earlier the same session, then missed it stated as a cold concept. **Doing ≠ naming is now the single highest-value thing to watch, above F/U direction itself.**
+- His own read on remaining gaps (voice msg, 13:08): journal entries/debit-credit (only tested once, 15 Nov) and ABC (he feels shaky; record says tested clean twice — told him so, pushed back gently, redirected time to entries instead). Queued: live full-variance problem, he writes every entry himself start to closing-to-COGS.
+- Scope question (cumulative on sessions 1–7 or not) still unconfirmed — he's asking her, will report back.
 
 ## Session — 2026-11-15 (Sun, from 11:38)
 - **Big structural day.** His own ask: dropped the fixed weekly training calendar for targets (5 runs/wk, 40 km/wk, 1 long run, intervals worked in) → [[project-training-plan]]. Rewrote `~/CLAUDE.md`: no more rest/stop nudges in training OR work unless he self-reports struggling, reflection-prompts over verdicts, no toxic motivation, standards split (uni = good not perfect, his passions = elite bar) → [[feedback-push-not-coddle]], trial calibration, check back ~18–20 Nov.
