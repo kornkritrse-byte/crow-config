@@ -6,6 +6,7 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: c38e29c0-da2f-4906-8e70-a7a356ec2563
+  modified: 2026-11-16T04:58:28.279Z
 ---
 
 # Upcoming Events (feeds the session-start banner)
@@ -28,6 +29,7 @@ metadata:
 2026-10-10 | 🏖️ Pattaya trip Sat 10 – Tue 13 Oct ("most likely", said 7 Oct). 5K TT moved Wed 14 → Tue 13 Oct AM, his straight there
 2026-11-13 | 📘 AC311 MIDTERM 2 (Fri): sessions 8–11, PPE + intangibles (+ impairment TAS 36 likely, since 31 Oct is before it), 30%. Time TBC. Korn 20 Oct 10:35
 2026-11-23 | 📗 AC313 FINAL (Mon) 09:00–12:00, 40% (scope unstated, assume sessions 8–15) → [[study/AC313 Final Map.canvas]]
+2026-11-26 | 📒 MK201 FINAL (Thu) 09:00–12:00, % and scope unstated
 2026-11-28 | 📘 AC311 FINAL (Sat) 09:00, 25%, sessions 12–15
 2026-12-02 | 📙 FN201 FINAL (Wed) 09:00–12:00, 45%, all MCQ, topics 6–10 → [[study/FN201 Final Map.canvas]]
 2026-12-08 | 📕 BA202 FINAL (Tue) 09:00–12:00, 55%, lectures 8–15 → [[study/BA202 Final Map.canvas]]
