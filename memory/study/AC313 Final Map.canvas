@@ -88,11 +88,12 @@
 		{
 			"id": "vas1",
 			"type": "text",
-			"text": "**What goes into product cost**\nthe whole difference = fixed MOH",
+			"text": "**What goes into product cost**\nthe whole difference = fixed MOH\nValidated 16 Nov: product-vs-period split tested (marketing $2/unit commission = period despite being variable; factory supervisor's fixed salary = product cost despite being fixed — he flipped the second one on reflex, self-corrected immediately once reminded it's location/function, not the fixed/variable label).",
 			"x": 900,
 			"y": 1440,
 			"width": 460,
-			"height": 170
+			"height": 170,
+			"color": "4"
 		},
 		{
 			"id": "vas2",
@@ -116,7 +117,7 @@
 		{
 			"id": "scs1",
 			"type": "text",
-			"text": "**Materials**\nprice · quantity (efficiency) · **mix & yield**\nPast: 2021 final Q3 (standard costing)\nValidated 14 Nov: mix (70/30->60/40 rubber, direction) + combined real past-paper Q (Product X, mix $500F / yield $1,211U) — self-corrected live, caught own 'mix and yield move together' assumption.",
+			"text": "**Materials**\nprice · quantity (efficiency) · **mix & yield**\nPast: 2021 final Q3 (standard costing)\nValidated 14 Nov: mix (70/30->60/40 rubber, direction) + combined real past-paper Q (Product X, mix $500F / yield $1,211U) — self-corrected live, caught own 'mix and yield move together' assumption.\n16 Nov: 10-question MCQ round targeting the F/U-direction risk flagged below. Materials quantity trap caught him once — he compared actual usage against the ORIGINAL budget instead of the standard allowed for ACTUAL output (flexed), and called a favorable result unfavorable. Ghosted + added to Pocket Procedures.",
 			"x": 900,
 			"y": 1960,
 			"width": 460,
@@ -136,7 +137,7 @@
 		{
 			"id": "scs3",
 			"type": "text",
-			"text": "**Manufacturing overhead**\nvariable: spending · efficiency\nfixed: spending (budget) · production-volume\nALL FOUR now validated on real/constructed numbers. 14 Nov: Zelma Inc. real past-paper Q (favorable VOH efficiency), correct via 3-column map. 15 Nov: Matthew's Corp real past-paper Q (flexible-budget fixed OH = $120,000 since fixed costs don't flex; production-volume variance $20,000 U), clean after a units mix-up on hrs/unit. 15 Nov: variable OH spending variance $700 U (caught using std hrs instead of actual hrs — real miss, ghosted) and fixed OH spending variance $6,500 U (clean, first try). Every OH sub-variance now tested at least once. 15 Nov cont'd: full 4-variance analysis on Exercise 2 Q12 (Singapore Division, real course practice material) — VOH spending $4,500F, VOH efficiency $12,000U, FOH spending $11,000U, FOH volume $21,000U, all correct after direction corrections. Pattern noticed: F/U direction flipped 4 times across this session (yield, spending, efficiency, volume) — each ghosted separately, plus one general meta-rule card. This is the single biggest live risk for the actual exam, bigger than any one calc method.",
+			"text": "**Manufacturing overhead**\nvariable: spending · efficiency\nfixed: spending (budget) · production-volume\nALL FOUR now validated on real/constructed numbers. 14 Nov: Zelma Inc. real past-paper Q (favorable VOH efficiency), correct via 3-column map. 15 Nov: Matthew's Corp real past-paper Q (flexible-budget fixed OH = $120,000 since fixed costs don't flex; production-volume variance $20,000 U), clean after a units mix-up on hrs/unit. 15 Nov: variable OH spending variance $700 U (caught using std hrs instead of actual hrs — real miss, ghosted) and fixed OH spending variance $6,500 U (clean, first try). Every OH sub-variance now tested at least once. 15 Nov cont'd: full 4-variance analysis on Exercise 2 Q12 (Singapore Division, real course practice material) — VOH spending $4,500F, VOH efficiency $12,000U, FOH spending $11,000U, FOH volume $21,000U, all correct after direction corrections. Pattern noticed: F/U direction flipped 4 times across this session (yield, spending, efficiency, volume) — each ghosted separately, plus one general meta-rule card. This is the single biggest live risk for the actual exam, bigger than any one calc method.\n16 Nov: same MCQ round — fixed OH SPENDING variance: he correctly said unfavorable but via the WRONG logic (applied the materials 'flex to actual output' rule, which doesn't apply here — fixed OH spending compares straight to the static original budget, no flexing). Right answer, wrong reasoning — more dangerous than a flat miss since it'll misfire elsewhere. Ghosted + added to Pocket Procedures. Everything else in the round (rate-only isolation, spending-only isolation, mix, yield, production-volume) was clean — F/U direction itself is no longer the main risk; knowing WHICH benchmark each variance flexes against is.",
 			"x": 900,
 			"y": 2360,
 			"width": 460,
@@ -146,7 +147,7 @@
 		{
 			"id": "sc",
 			"type": "text",
-			"text": "## Standard costing & variances\nsessions 12–15 (26 Oct → 16 Nov) · BEING TAUGHT\nH Ch 7–8 · M Ch 7\n4 of the 8 sessions → probably the biggest share (guess)\n14 Nov: all 3 sub-blocks (materials incl. mix/yield, labour, overhead) validated against real 2021 past-paper Qs in one session.\n15 Nov: full journal-entry chain validated (Chemical Inc., Exercise 2 Q10) — purchase, usage, labor, and closing all 4 variances to COGS ($14,719 net debit). New rule caught and ghosted: unfavorable=debit, favorable=credit, always, regardless of variance type. Also: direct/step-down/reciprocal all re-tested on a second fresh dataset (Jake's Battery Co.) after Betty's — direct method confirmed clean both times.",
+			"text": "## Standard costing & variances\nsessions 12–15 (26 Oct → 16 Nov) · BEING TAUGHT\nH Ch 7–8 · M Ch 7\n4 of the 8 sessions → probably the biggest share (guess)\n14 Nov: all 3 sub-blocks (materials incl. mix/yield, labour, overhead) validated against real 2021 past-paper Qs in one session.\n15 Nov: full journal-entry chain validated (Chemical Inc., Exercise 2 Q10) — purchase, usage, labor, and closing all 4 variances to COGS ($14,719 net debit). New rule caught and ghosted: unfavorable=debit, favorable=credit, always, regardless of variance type. Also: direct/step-down/reciprocal all re-tested on a second fresh dataset (Jake's Battery Co.) after Betty's — direct method confirmed clean both times.\n16 Nov: ran the F/U-direction MCQ round this section flagged as the biggest risk. Verdict: direction itself is mostly solid now (8/10 clean); the real remaining risk is benchmark selection (flexed-to-actual-output vs static original budget vs output-level-only) — see scs1/scs3 for the two specific traps caught.",
 			"x": 400,
 			"y": 2165,
 			"width": 380,
