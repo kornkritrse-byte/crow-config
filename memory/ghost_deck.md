@@ -50,3 +50,4 @@ metadata:
 - 2026-11-19 | box 1 | AC313 | Q: Step-down: which support dept allocates first? | A: The one that SERVES other support depts goes first (not the one with the bigger balance) — here S1, since S2 doesn't serve S1 at all.
 - 2026-11-19 | box 1 | AC313 | Q: Reciprocal method: what do you multiply the % by in the simultaneous equation? | A: The OTHER department's TRUE total cost (S2*), not its own/nominal cost — that's the whole point of solving simultaneously.
 - 2026-11-19 | box 1 | AC313 | Q: Reciprocal: distributing 0.2 x (10,000 + 0.1 x S1*) | A: Distribute the 0.2 to BOTH terms inside the bracket: 2,000 + 0.02xS1* — not just the constant.
+- 2026-11-19 | box 1 | AC313 | Q: Reciprocal: solving S1* = 22,000 + 0.02xS1* | A: Move 0.02xS1* to the left: S1*(1-0.02) = 22,000, so S1* = 22,000/0.98 = 22,448.98. (Don't round the coefficient to 0.8.)
