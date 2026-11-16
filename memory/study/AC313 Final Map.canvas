@@ -31,7 +31,7 @@
 		{
 			"id": "ohs3",
 			"type": "text",
-			"text": "**Activity-based costing (ABC)**\ncost pools → drivers → products · who's under- or over-costed\nPast: 2021 final Q2 (undercosting)\nValidated 14 Nov: Mary Inc. plantwide-vs-ABC batch calc, correct (undercosted under plantwide: $4.00 vs $6.55/unit).",
+			"text": "**Activity-based costing (ABC)**\ncost pools → drivers → products · who's under- or over-costed\nPast: 2021 final Q2 (undercosting)\nValidated 14 Nov: Mary Inc. plantwide-vs-ABC batch calc, correct (undercosted under plantwide: $4.00 vs $6.55/unit).\n16 Nov: his own call to retest ABC despite the record showing it clean — right call, found a real mechanical gap (swapping units-made for the actual driver quantity, 3x in one block) that hadn't shown up in the simpler earlier reps. Ghosted each instance; 2nd rep (Deluxe/Basic, inspections+orders) ran clean, no swap. Also drilled: same two products under a single plantwide driver (orders) landed correctly ($20/$18), showing single-driver distortion can go either direction depending on which driver is picked — not just a one-way undercosting story.",
 			"x": 900,
 			"y": 400,
 			"width": 460,
