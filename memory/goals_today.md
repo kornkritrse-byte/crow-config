@@ -275,14 +275,15 @@ metadata:
 - 2026-11-15 | Training: Long 14 km | open
 - 2026-11-15 | Daily journal | done
 - 2026-11-15 | Reading | done
-- 2026-11-15 | Bed by 23:30 | open
+- 2026-11-15 | Bed by 23:30 | done
 - 2026-11-15 | AC313: finish the 3 parts from yesterday | done
 - 2026-11-15 | Massage | done
 - 2026-11-15 | Easy run — bring week's total to 40k | done
 - 2026-11-15 | — | closed
-- 2026-11-16 | Wake early | open
-- 2026-11-16 | Morning creative writing | open
+- 2026-11-16 | Wake early | done
+- 2026-11-16 | Morning creative writing | done
 - 2026-11-16 | Training: Lift + easy 40′ | open
 - 2026-11-16 | Daily journal | open
 - 2026-11-16 | Reading | open
 - 2026-11-16 | Bed by 23:30 | open
+- 2026-11-16 | Study AC313 | open

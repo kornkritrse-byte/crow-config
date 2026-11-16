@@ -200,3 +200,6 @@ metadata:
 - 2026-11-15 22:16 | goal | Morning creative writing
 - 2026-11-15 22:16 | goal | Daily journal
 - 2026-11-15 22:16 | goal | AC313: finish the 3 parts from yesterday
+- 2026-11-16 11:02 | goal | Wake early
+- 2026-11-16 11:02 | goal | Morning creative writing
+- 2026-11-16 11:02 | goal | Bed by 23:30
