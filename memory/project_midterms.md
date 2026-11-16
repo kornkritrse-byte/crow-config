@@ -6,13 +6,17 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 5b6c4e05-b760-4ef4-9ca7-afdb3856b8e3
-  modified: 2026-11-15T15:18:29.504Z
+  modified: 2026-11-16T14:29:38.136Z
 ---
 
 Opened 2026-08-23. **TOP PRIORITY.** Korn's stated order: midterms first, fitness second (fitness explicitly planned *around* studies).
 
 ## ⚠️ 2026-11-15 — OPEN: is the AC313 final (23 Nov) cumulative on midterm-scope material?
 Never confirmed with the professor. Grading structure (40% midterm + 40% final + 20% quiz/assignment, each on non-overlapping chapters per row below) and the line "**AC313 scope is SMALLER than feared — overhead allocation, ABC, variable/absorption costing and standard costing/variance analysis are all AFTER the midterm**" both suggest a sequential, non-cumulative design — but that's inference, not confirmation. If the final IS cumulative, sessions 1–7 (fundamentals/cost classification, job order costing incl. spoilage/rework/scrap, process costing weighted-avg+FIFO, joint products & byproducts) are completely untouched since the Sep midterm and would need a real review pass. **Korn needs to actually ask her** — don't let this quietly resolve itself by default. See [[study/AC313 Final Map.canvas]] for the sessions 8–15 coverage (fully drilled as of 15 Nov).
+
+**16 Nov — re-read the actual course outline (`~/Desktop/AC313/AC313 Course Outline-1-2026.pdf`), found two things:**
+1. **Structural support for non-cumulative, still not a direct confirmation:** midterm exam period sits right after session 7 (Sep 20–27), final sits right after session 15 (last day of classes Nov 21, final Nov 23) — standard sequential exam design. Stronger signal than before, but the outline never states "final is non-cumulative" in words — still tell him to actually ask her, don't let this become the de facto answer.
+2. **"Journal entries" is its own explicit topic line ONLY under sessions 3–4 (job order costing) and 5–6 (process costing) — both midterm scope.** Sessions 12–15's listed topics are just "Standard costing / Variance analyses — Materials (incl. Mix & Yield), Labor, Manufacturing overhead" — no entries called out. Doesn't mean they're off the final (variance entries are a common natural extension even when unlisted), but it's real signal the exam's stated priority is the variance CALCULATIONS, not the bookkeeping mechanics. Korn drilled a full 8-entry journal chain on 16 Nov treating it as equally critical as the calcs — worth rebalancing time if anything else comes up short.
 
 ## 🏁 MIDTERM 1 RESULTS — told by Korn 26 Oct 2026, 13:25
 - **ALL subjects came back ABOVE THE MEAN**, including the ones he thought went badly (FN201, which he called bad 'cohort-wide'; BA202 + AC311 were the shaky ones going in).
