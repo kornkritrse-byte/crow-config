@@ -280,3 +280,9 @@ metadata:
 - 2026-11-15 | Massage | done
 - 2026-11-15 | Easy run — bring week's total to 40k | done
 - 2026-11-15 | — | closed
+- 2026-11-16 | Wake early | open
+- 2026-11-16 | Morning creative writing | open
+- 2026-11-16 | Training: Lift + easy 40′ | open
+- 2026-11-16 | Daily journal | open
+- 2026-11-16 | Reading | open
+- 2026-11-16 | Bed by 23:30 | open
