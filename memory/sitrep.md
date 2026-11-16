@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-16T08:10:48.139Z
+  modified: 2026-11-16T09:06:16.107Z
 ---
 
 # Situation Report
@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here.** Back 16 Nov ~15:10 from eating/finishing Blade Runner. Resuming: live journal-entry drill (his ask) — full variance problem, he writes every entry himself through to closing-to-COGS.
+- **AWAY (16 Nov ~16:05) — off to: unspecified, "some time."** ASK ON RETURN: nothing open — he'll ping. Queued if he wants more: nothing specific, last block closed clean.
 - AC311 Midterm 2: DONE, 13 Nov, "easy shit." Only real uncertainty was the revaluation-surplus annual transfer (optional under IAS 16) — worked both ways, went with the with-transfer version. **Next: AC311 final 28 Nov.**
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
@@ -40,6 +40,7 @@ metadata:
 - Two MCQ rounds (20 Qs total, his request for format): F/U-direction round (8/10) + mixed round across all 4 branches (7/10). 5 real misses, all different shapes — ghosted. Standout: Q9 mixed round — he used the total-conservation check correctly himself earlier the same session, then missed it stated as a cold concept. **Doing ≠ naming is now the single highest-value thing to watch, above F/U direction itself.**
 - His own read on remaining gaps (voice msg, 13:08): journal entries/debit-credit (only tested once, 15 Nov) and ABC (he feels shaky; record says tested clean twice — told him so, pushed back gently, redirected time to entries instead). Queued: live full-variance problem, he writes every entry himself start to closing-to-COGS.
 - Scope question (cumulative on sessions 1–7 or not) still unconfirmed — he's asking her, will report back.
+- **Live 8-entry journal chain run (his named gap)**: materials purchase → usage → labor → VOH → FOH → close-to-COGS, constructed problem, fresh numbers. Misses along the way: usage (merged WIP+variance into one number, pulled purchased qty instead of used qty into the Materials credit) and VOH applied (used actual hours instead of standard hours allowed) — same root cause both times (WIP/applied lines must use the STANDARD amount, never actual). Both ghosted. **The actual closing-to-COGS entry — what he named as his real gap this morning — he ran completely clean, unaided**, including correctly netting 1 favorable + 5 unfavorable variances to a $4,035 net debit to COGS. Also re-tested cold, hours later, with fresh wrappers: reciprocal Y*-not-Y (held) and the original-budget-vs-flexed-standard trap (held, transferred to a labor context too) — both genuinely retained, not just pattern-matched.
 
 ## Session — 2026-11-15 (Sun, from 11:38)
 - **Big structural day.** His own ask: dropped the fixed weekly training calendar for targets (5 runs/wk, 40 km/wk, 1 long run, intervals worked in) → [[project-training-plan]]. Rewrote `~/CLAUDE.md`: no more rest/stop nudges in training OR work unless he self-reports struggling, reflection-prompts over verdicts, no toxic motivation, standards split (uni = good not perfect, his passions = elite bar) → [[feedback-push-not-coddle]], trial calibration, check back ~18–20 Nov.
