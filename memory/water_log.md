@@ -204,3 +204,4 @@ metadata:
 - 2026-11-16 11:02 | goal | Morning creative writing
 - 2026-11-16 11:02 | goal | Bed by 23:30
 - 2026-11-16 21:03 | task | AC313 full 8-entry journal chain, redone solo unaided, self-corrected a VOH efficiency/rate terminology mixup
+- 2026-11-16 21:16 | goal | Training: Lift + easy 40′

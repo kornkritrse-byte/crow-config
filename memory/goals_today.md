@@ -282,7 +282,7 @@ metadata:
 - 2026-11-15 | — | closed
 - 2026-11-16 | Wake early | done
 - 2026-11-16 | Morning creative writing | done
-- 2026-11-16 | Training: Lift + easy 40′ | open
+- 2026-11-16 | Training: Lift + easy 40′ | done
 - 2026-11-16 | Daily journal | open
 - 2026-11-16 | Reading | open
 - 2026-11-16 | Bed by 23:30 | open
