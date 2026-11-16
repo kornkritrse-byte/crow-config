@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: ddffc076-7e1a-414c-b9ec-b3882a9b3d9c
-  modified: 2026-09-07T13:46:43.039Z
+  modified: 2026-11-16T04:06:09.399Z
 ---
 
 ## 🚨 CROW BREAKS THIS RULE REPEATEDLY — HIS WORDS, 21 Sep 2026
@@ -53,3 +53,5 @@ Asked for explicitly on 2026-09-07 during AC311 provisions revision, immediately
 **2026-09-23 — 4th correction on this, now the hard default:** *"yo keep it short, simple to read.."* after a long two-source answer on the child allowance. **Short is not a mode, it is the baseline.** Answer in the fewest lines that are still true; no tables, no split-by-source blocks, no worked variants unless he asks. If a caveat matters, one line. He will ask for more if he wants more — he always does.
 
 **8 Nov 2026, his ask (AC311):** whenever he answers "retained earnings" wrongly, say the check line again: *"Is it equity to equity? If not, it's not RE."* His words: "repeat the e to e line again, that helped a lot." Short anchor lines that he can run in his own head work better than a re-explanation.
+
+**16 Nov 2026 (AC313, step-down vs direct), yet another repeat:** his words: *"from now on can you keep the answers like easy to digest like a simple sentence which can help me understand it and if a don't ill ask more."* Crow had corrected a vague answer with a 2-sentence comparison (direct vs step-down vs reciprocal, all three named). Still too much — he wants ONE simple sentence per correction, and he'll pull for more himself if it doesn't land. **Default assumption should be: he did NOT ask for more, don't pre-supply it.**
