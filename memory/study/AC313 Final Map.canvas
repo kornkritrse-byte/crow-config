@@ -3,7 +3,7 @@
 		{
 			"id": "legend",
 			"type": "text",
-			"text": "**Legend**\n\ud83d\udfe9 done \u00b7 \ud83d\udfe8 now \u00b7 \u2b1c taught, not studied \u00b7 \ud83d\udfe5 not taught yet \u00b7 \ud83d\udfea midterm scope (in only if cumulative) \u00b7 \ud83d\udfe7 shaky\nBuilt from the COURSE OUTLINE (27 Oct). Updated as material lands.\nH = Horngren 17e \u00b7 M = Monvika 10e (Thai)",
+			"text": "**Legend**\n🟩 done · 🟨 now · ⬜ taught, not studied · 🟥 not taught yet · 🟪 midterm scope (in only if cumulative) · 🟧 shaky\nBuilt from the COURSE OUTLINE (27 Oct). Updated as material lands.\nH = Horngren 17e · M = Monvika 10e (Thai)",
 			"x": 0,
 			"y": -280,
 			"width": 460,
@@ -31,7 +31,7 @@
 		{
 			"id": "ohs3",
 			"type": "text",
-			"text": "**Activity-based costing (ABC)**\ncost pools \u2192 drivers \u2192 products \u00b7 who's under- or over-costed\nPast: 2021 final Q2 (undercosting)\nValidated 14 Nov: Mary Inc. plantwide-vs-ABC batch calc, correct (undercosted under plantwide: $4.00 vs $6.55/unit).",
+			"text": "**Activity-based costing (ABC)**\ncost pools → drivers → products · who's under- or over-costed\nPast: 2021 final Q2 (undercosting)\nValidated 14 Nov: Mary Inc. plantwide-vs-ABC batch calc, correct (undercosted under plantwide: $4.00 vs $6.55/unit).",
 			"x": 900,
 			"y": 400,
 			"width": 460,
@@ -41,7 +41,7 @@
 		{
 			"id": "oh",
 			"type": "text",
-			"text": "## Overhead allocation\nsessions 8\u20139 (28 Sep, 5 Oct) \u00b7 H Ch 5 \u00b7 M Ch 4",
+			"text": "## Overhead allocation\nsessions 8–9 (28 Sep, 5 Oct) · H Ch 5 · M Ch 4",
 			"x": 400,
 			"y": 205,
 			"width": 380,
@@ -59,7 +59,7 @@
 		{
 			"id": "sds2",
 			"type": "text",
-			"text": "**Step-down method**\nthe order you allocate in changes the answer\nValidated 14 Nov: Betty's Book/Music full 2-step calc (Warehouse first by %-to-other-support-dept rule, then DC pool incl. closed-Warehouse trap), landed $126,649 correct after guided build.",
+			"text": "**Step-down method**\nthe order you allocate in changes the answer\nValidated 14 Nov: Betty's Book/Music full 2-step calc (Warehouse first by %-to-other-support-dept rule, then DC pool incl. closed-Warehouse trap), landed $126,649 correct after guided build.\n16 Nov: ranking rule missed once cold (picked the smaller-balance dept instead of the one that SERVES the other), ghosted. After that, 2 full constructed reps run UNAIDED start to finish — ranking, allocation, final P1/P2 split all correct both times (incl. a 'does the production % need the support-dept share subtracted first' check he caught and answered himself). Method's solid; only miss was the ranking rule, now fixed.",
 			"x": 900,
 			"y": 920,
 			"width": 460,
@@ -69,7 +69,7 @@
 		{
 			"id": "sds3",
 			"type": "text",
-			"text": "**Reciprocal method**\nsimultaneous equations: full support-to-support\nValidated 15 Nov: Betty's Book/Music real past-paper data, full reciprocal solve (equation setup + both totals + allocation to Music $449,134 / Books $325,866, checksum exact to $775,000). Misses: grabbed wrong usage row first (matched dept to wrong metric), misread 'X% x DC' as a % increase on W's own number rather than a share of DC's unknown total \u2014 both ghosted.",
+			"text": "**Reciprocal method**\nsimultaneous equations: full support-to-support\nValidated 15 Nov: Betty's Book/Music real past-paper data, full reciprocal solve (equation setup + both totals + allocation to Music $449,134 / Books $325,866, checksum exact to $775,000). Misses: grabbed wrong usage row first (matched dept to wrong metric), misread 'X% x DC' as a % increase on W's own number rather than a share of DC's unknown total — both ghosted.\n16 Nov: 2 full constructed reciprocal reps run UNAIDED start to finish — simultaneous equations, substitution, solve, allocate to production all correct both times. Misses were bookkeeping only (own-cost vs true-cost in the equation, distributing a coefficient across both bracket terms, isolating the variable (0.98 vs 0.8), swapping which dept's production % belongs to which true total) — all ghosted. Logic itself never wrong across 2 reps.",
 			"x": 900,
 			"y": 1120,
 			"width": 460,
@@ -79,7 +79,7 @@
 		{
 			"id": "sd",
 			"type": "text",
-			"text": "## Support-department costs\nsession 10 (12 Oct) \u00b7 H Ch 16 \u00b7 M Ch 5",
+			"text": "## Support-department costs\nsession 10 (12 Oct) · H Ch 16 · M Ch 5",
 			"x": 400,
 			"y": 925,
 			"width": 380,
@@ -97,7 +97,7 @@
 		{
 			"id": "vas2",
 			"type": "text",
-			"text": "**Why the profits differ**\nchange in inventory \u00d7 fixed MOH per unit \u00b7 reconcile the two\nValidated 14 Nov: Andrea Q11/Q12 (gross margin $24,750, operating income $16,500), correct after fixing the period-vs-product-cost mixup.",
+			"text": "**Why the profits differ**\nchange in inventory × fixed MOH per unit · reconcile the two\nValidated 14 Nov: Andrea Q11/Q12 (gross margin $24,750, operating income $16,500), correct after fixing the period-vs-product-cost mixup.",
 			"x": 900,
 			"y": 1640,
 			"width": 460,
@@ -107,7 +107,7 @@
 		{
 			"id": "va",
 			"type": "text",
-			"text": "## Variable vs absorption costing\nsession 11 (19 Oct) \u00b7 H Ch 9 \u00b7 M Ch 8",
+			"text": "## Variable vs absorption costing\nsession 11 (19 Oct) · H Ch 9 · M Ch 8",
 			"x": 400,
 			"y": 1545,
 			"width": 380,
@@ -116,7 +116,7 @@
 		{
 			"id": "scs1",
 			"type": "text",
-			"text": "**Materials**\nprice \u00b7 quantity (efficiency) \u00b7 **mix & yield**\nPast: 2021 final Q3 (standard costing)\nValidated 14 Nov: mix (70/30->60/40 rubber, direction) + combined real past-paper Q (Product X, mix $500F / yield $1,211U) \u2014 self-corrected live, caught own 'mix and yield move together' assumption.",
+			"text": "**Materials**\nprice · quantity (efficiency) · **mix & yield**\nPast: 2021 final Q3 (standard costing)\nValidated 14 Nov: mix (70/30->60/40 rubber, direction) + combined real past-paper Q (Product X, mix $500F / yield $1,211U) — self-corrected live, caught own 'mix and yield move together' assumption.",
 			"x": 900,
 			"y": 1960,
 			"width": 460,
@@ -126,7 +126,7 @@
 		{
 			"id": "scs2",
 			"type": "text",
-			"text": "**Labour**\nrate \u00b7 efficiency\nValidated 14 Nov: TU Corp labor rate variance via 3-pillar method (AQ\u00d7AP vs AQ\u00d7SP vs SQ\u00d7SP), Cr $7,014 correct, self-built the pillars.",
+			"text": "**Labour**\nrate · efficiency\nValidated 14 Nov: TU Corp labor rate variance via 3-pillar method (AQ×AP vs AQ×SP vs SQ×SP), Cr $7,014 correct, self-built the pillars.",
 			"x": 900,
 			"y": 2160,
 			"width": 460,
@@ -136,7 +136,7 @@
 		{
 			"id": "scs3",
 			"type": "text",
-			"text": "**Manufacturing overhead**\nvariable: spending \u00b7 efficiency\nfixed: spending (budget) \u00b7 production-volume\nALL FOUR now validated on real/constructed numbers. 14 Nov: Zelma Inc. real past-paper Q (favorable VOH efficiency), correct via 3-column map. 15 Nov: Matthew's Corp real past-paper Q (flexible-budget fixed OH = $120,000 since fixed costs don't flex; production-volume variance $20,000 U), clean after a units mix-up on hrs/unit. 15 Nov: variable OH spending variance $700 U (caught using std hrs instead of actual hrs \u2014 real miss, ghosted) and fixed OH spending variance $6,500 U (clean, first try). Every OH sub-variance now tested at least once. 15 Nov cont'd: full 4-variance analysis on Exercise 2 Q12 (Singapore Division, real course practice material) \u2014 VOH spending $4,500F, VOH efficiency $12,000U, FOH spending $11,000U, FOH volume $21,000U, all correct after direction corrections. Pattern noticed: F/U direction flipped 4 times across this session (yield, spending, efficiency, volume) \u2014 each ghosted separately, plus one general meta-rule card. This is the single biggest live risk for the actual exam, bigger than any one calc method.",
+			"text": "**Manufacturing overhead**\nvariable: spending · efficiency\nfixed: spending (budget) · production-volume\nALL FOUR now validated on real/constructed numbers. 14 Nov: Zelma Inc. real past-paper Q (favorable VOH efficiency), correct via 3-column map. 15 Nov: Matthew's Corp real past-paper Q (flexible-budget fixed OH = $120,000 since fixed costs don't flex; production-volume variance $20,000 U), clean after a units mix-up on hrs/unit. 15 Nov: variable OH spending variance $700 U (caught using std hrs instead of actual hrs — real miss, ghosted) and fixed OH spending variance $6,500 U (clean, first try). Every OH sub-variance now tested at least once. 15 Nov cont'd: full 4-variance analysis on Exercise 2 Q12 (Singapore Division, real course practice material) — VOH spending $4,500F, VOH efficiency $12,000U, FOH spending $11,000U, FOH volume $21,000U, all correct after direction corrections. Pattern noticed: F/U direction flipped 4 times across this session (yield, spending, efficiency, volume) — each ghosted separately, plus one general meta-rule card. This is the single biggest live risk for the actual exam, bigger than any one calc method.",
 			"x": 900,
 			"y": 2360,
 			"width": 460,
@@ -146,7 +146,7 @@
 		{
 			"id": "sc",
 			"type": "text",
-			"text": "## Standard costing & variances\nsessions 12\u201315 (26 Oct \u2192 16 Nov) \u00b7 BEING TAUGHT\nH Ch 7\u20138 \u00b7 M Ch 7\n4 of the 8 sessions \u2192 probably the biggest share (guess)\n14 Nov: all 3 sub-blocks (materials incl. mix/yield, labour, overhead) validated against real 2021 past-paper Qs in one session.\n15 Nov: full journal-entry chain validated (Chemical Inc., Exercise 2 Q10) \u2014 purchase, usage, labor, and closing all 4 variances to COGS ($14,719 net debit). New rule caught and ghosted: unfavorable=debit, favorable=credit, always, regardless of variance type. Also: direct/step-down/reciprocal all re-tested on a second fresh dataset (Jake's Battery Co.) after Betty's \u2014 direct method confirmed clean both times.",
+			"text": "## Standard costing & variances\nsessions 12–15 (26 Oct → 16 Nov) · BEING TAUGHT\nH Ch 7–8 · M Ch 7\n4 of the 8 sessions → probably the biggest share (guess)\n14 Nov: all 3 sub-blocks (materials incl. mix/yield, labour, overhead) validated against real 2021 past-paper Qs in one session.\n15 Nov: full journal-entry chain validated (Chemical Inc., Exercise 2 Q10) — purchase, usage, labor, and closing all 4 variances to COGS ($14,719 net debit). New rule caught and ghosted: unfavorable=debit, favorable=credit, always, regardless of variance type. Also: direct/step-down/reciprocal all re-tested on a second fresh dataset (Jake's Battery Co.) after Betty's — direct method confirmed clean both times.",
 			"x": 400,
 			"y": 2165,
 			"width": 380,
@@ -156,7 +156,7 @@
 		{
 			"id": "mt",
 			"type": "text",
-			"text": "## Midterm scope (sessions 1\u20137)\nfundamentals \u00b7 job order \u00b7 process costing \u00b7 joint & byproducts\nin the final ONLY if it's cumulative \u2192 ask",
+			"text": "## Midterm scope (sessions 1–7)\nfundamentals · job order · process costing · joint & byproducts\nin the final ONLY if it's cumulative → ask",
 			"x": 400,
 			"y": 2585,
 			"width": 380,
@@ -166,7 +166,7 @@
 		{
 			"id": "root",
 			"type": "text",
-			"text": "# AC313 Final\n40% \u00b7 **Mon 23 Nov, 09:00\u201312:00**\nTHE FIRST FINAL of the window (27 days)\nScope isn't stated in the outline: assume sessions 8\u201315 (guess, ask her)\nQuizzes & assignments = 20%",
+			"text": "# AC313 Final\n40% · **Mon 23 Nov, 09:00–12:00**\nTHE FIRST FINAL of the window (27 days)\nScope isn't stated in the outline: assume sessions 8–15 (guess, ask her)\nQuizzes & assignments = 20%",
 			"x": -80,
 			"y": 1250,
 			"width": 400,
@@ -175,7 +175,7 @@
 		{
 			"id": "res",
 			"type": "text",
-			"text": "**Resources**\nDrive (a senior's, in `~/Desktop/pastpapers/AC313/`):\n\u00b7 `AC313 Final2021.pdf` = 45 pages of screenshots of the 2021 ONLINE final (MCQ, 2 points each) + a worked copy\n  \u26a0 no OCR on the Mac \u2192 Crow reads it page by page when we study\n\u00b7 old AC203 midterm (AC203 = AC313's old code)\nOn disk: Course Package 1 (midterm half) + **Package 2 + Exercise 2 (added 3 Nov)** in `~/Desktop/AC313/`",
+			"text": "**Resources**\nDrive (a senior's, in `~/Desktop/pastpapers/AC313/`):\n· `AC313 Final2021.pdf` = 45 pages of screenshots of the 2021 ONLINE final (MCQ, 2 points each) + a worked copy\n  ⚠ no OCR on the Mac → Crow reads it page by page when we study\n· old AC203 midterm (AC203 = AC313's old code)\nOn disk: Course Package 1 (midterm half) + **Package 2 + Exercise 2 (added 3 Nov)** in `~/Desktop/AC313/`",
 			"x": -80,
 			"y": 1570,
 			"width": 400,
