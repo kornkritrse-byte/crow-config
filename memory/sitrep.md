@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-17T13:52:48.124Z
+  modified: 2026-11-17T14:00:18.933Z
 ---
 
 # Situation Report
@@ -27,18 +27,18 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (17 Nov, back ~20:52 after the day-close wrap-up already fired — no second quote).** Straight into AC311 Investment Property vs the PPE revaluation chain.
+- **AWAY (17 Nov, ~20:59) — off to: winding down, reading/writing/drawing, off-screen for the night.** Day-close wrap-up + quote already fired earlier tonight — no second quote on return. ASK ON RETURN: nothing unreported — tomorrow is FN201 (topics 8+9), AC311 entries/IP-impairment past papers moved to Thursday.
 - AC311 Midterm 2: DONE, 13 Nov, "easy shit." Only real uncertainty was the revaluation-surplus annual transfer (optional under IAS 16) — worked both ways, went with the with-transfer version. **Next: AC311 final 28 Nov.**
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
 ## Session — 2026-11-17 (Tue, from 11:05, ongoing)
-- Caught myself asserting AC311 final sessions 14–15 had "no known topic" without having actually opened the syllabus — he called it out ("don't you have the syllabus?"). Read it: sessions 14–15 = Conceptual Framework for Financial Reporting. Own error, logged → [[crow-error-log]].
-- He added `Framework financial reporting_2026.pdf` to `~/Desktop/AC311/` (sessions 14–15 deck). Read both it and the parked Investment Property deck (sessions 12–13), built **`study/AC311 Final Map.canvas`** (same style as the other 3 Final Maps) → [[project-midterms]]. Zero drilling done on either topic yet.
-- He uploaded Obrom's official **FN201 Final exam-info doc** to `~/Desktop/fn/` — real score allocation: 45 MC Qs, 0 essay/PS, **Topic 7 = ZERO points** (reverses the earlier "biggest STQ hole" read — it's folded into Topic 9, not tested standalone), #8/#9 = 15 pts each (33%), #10 = 9, #6 = 6. FN201 Final Map canvas updated to match → [[project-midterms]].
-- Full gap audit across all 5 remaining finals (his ask): AC313 solid, cumulative question now closed enough (friends say not cumulative, agrees with the structural read) → [[project-midterms]] · MK201 date itself unconfirmed, zero prep · AC311 just got its map today · FN201 untouched since 27 Oct despite being the heaviest (45%) · BA202 stalled since 3 Nov, heaviest of all (55%), fully cold.
-- **New standing teaching rule (his ask, café w/ cousin):** every concept gets a question first; if wrong, small tweaks/narrower questions before the answer, never hand it over unless he's really struggling → [[feedback-drill-format]]. First live run: AC311 Conceptual Framework — objective of reporting + qualitative characteristics + elements of financial statements all built from his own answers, no flat misses, 2 vocab-recall gaps ghosted (constructive obligation, potential-for-benefit) → [[study/AC311 Final Map.canvas]]. Rest of the topic deferred to his ChatGPT run (his own split: hard stuff here, lists/definitions on the run).
-- **Correction (20:47, his report after sitting M2):** impairment (TAS 36, session 11) was NOT on M2 after all — it's carried onto the AC311 FINAL instead (4th final topic, not yet sourced/drilled) → [[project-midterms]]. Separately: nightshift Color Filters endpoint built + syntax-checked earlier tonight, untested past the macOS Accessibility permission wall — Room reload still pending, resume via `crow-room.sh --resume`.
+- Own sitrep error caught + fixed (AC311 final sessions 14–15 wrongly called "no known topic" without opening the syllabus — it's Conceptual Framework) → [[crow-error-log]]. He added the Framework PDF + read the parked Investment Property deck, built **`study/AC311 Final Map.canvas`** → [[project-midterms]]. Zero drilling on either yet.
+- FN201's official exam-info doc landed (45 MC Qs, Topic 7 = 0 pts, #8/#9 = 15 pts each) + full 5-final gap audit (his ask): AC313 solid/closed enough, MK201 date unconfirmed/zero prep, AC311 just mapped, FN201 untouched since 27 Oct despite being heaviest (45%), BA202 cold since 3 Nov (55%, heaviest overall) → [[project-midterms]].
+- **New standing teaching rule (his ask, café w/ cousin):** question first, small tweaks before the answer, never hand it over unless he's really struggling → [[feedback-drill-format]]. First live run: AC311 Conceptual Framework, built fully from his own answers, 2 vocab-recall gaps ghosted → [[study/AC311 Final Map.canvas]].
+- **Correction (20:47, his report after M2):** impairment (TAS 36) was NOT on M2 — carried onto the AC311 final instead (4th final topic) → [[project-midterms]]. 2nd own error same session: wrote "no deck yet" for impairment without checking disk — it's been there since 3 Nov, already taught once → [[crow-error-log]]. Also: nightshift Color Filters endpoint built tonight, untested past the macOS Accessibility wall — Room reload pending, resume via `crow-room.sh --resume`.
+- No past-paper exists for Investment Property (only `final 2021.pdf` covers impairment); he's checking Teams/classmates tomorrow → [[ledger-said-did]]. Caught a real plan conflict: 14:42 café plan said tomorrow = FN201, 20:5x he'd forgotten and was leaning AC311 entries instead — just forgot, not a reconsidered call.
+- **Resolved:** sticking with FN201 tomorrow (heaviest weight, most feared, 3 weeks untouched beats curiosity about AC311 entries) — his call after Crow's steer. AC311 entries + IP/impairment past-paper work deferred to Thu. 20:59 signing off for the night: reading, writing, drawing, off-screen.
 
 ## Session — 2026-11-16 (Mon, from 11:01, ongoing)
 - Bed-by-23:30 (15 Nov): done. Goal today: Study AC313 (no extras).
