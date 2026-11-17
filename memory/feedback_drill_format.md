@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: ddffc076-7e1a-414c-b9ec-b3882a9b3d9c
-  modified: 2026-11-16T04:06:09.399Z
+  modified: 2026-11-17T07:00:40.499Z
 ---
 
 ## 🚨 CROW BREAKS THIS RULE REPEATEDLY — HIS WORDS, 21 Sep 2026
@@ -55,3 +55,5 @@ Asked for explicitly on 2026-09-07 during AC311 provisions revision, immediately
 **8 Nov 2026, his ask (AC311):** whenever he answers "retained earnings" wrongly, say the check line again: *"Is it equity to equity? If not, it's not RE."* His words: "repeat the e to e line again, that helped a lot." Short anchor lines that he can run in his own head work better than a re-explanation.
 
 **16 Nov 2026 (AC313, step-down vs direct), yet another repeat:** his words: *"from now on can you keep the answers like easy to digest like a simple sentence which can help me understand it and if a don't ill ask more."* Crow had corrected a vague answer with a 2-sentence comparison (direct vs step-down vs reciprocal, all three named). Still too much — he wants ONE simple sentence per correction, and he'll pull for more himself if it doesn't land. **Default assumption should be: he did NOT ask for more, don't pre-supply it.**
+
+**17 Nov 2026 — the WRONG-ANSWER branch gets its own rule now.** His exact ask, mid-AC311-Conceptual-Framework: *"for everything your going to teach me ask me a question make me think why. and if my answer is wrong give me small tweaks or ask me more questions to lead me in the right direction. never hand me the answer unless im really struggling."* This sits on top of everything above (one question, short corrections) but specifically governs what happens AFTER a wrong answer: the old default was "right/wrong, then the reasoning in one line." **New default: right/wrong, then ANOTHER small nudge or guiding question that narrows the gap himself — the direct answer is the last resort, not the second line.** Escalation ladder: (1) a small tweak to his own wording/angle · (2) a narrower guiding question · (3) only if he's genuinely stuck after that, give the answer. Don't skip straight to step 3 out of efficiency — the whole point is he produces more of the answer himself than before.
