@@ -101,7 +101,7 @@
     return {
       b, glass: win, win: { x: 131, y: win.y, w: 40, h: win.h }, crowAt: [181, DESK - 46],
       hotspots: [
-        { id: "lamp", x: 214, y: 58, w: 30, h: 66, label: "Lamp", note: "Crow's thinking light. Click to dim the room." },
+        { id: "lamp", x: 214, y: 58, w: 30, h: 66, label: "Lamp", note: "Crow's thinking light. Click for night shift." },
         { id: "flower", x: 192, y: 68, w: 22, h: 56, label: "Plum blossom", note: "One blossom per goal you finish today. The petals fall when you log off." },
         { id: "monitor", x: 127, y: 70, w: 62, h: 46, label: "Monitor", note: "Click for a fresh session." },
         { id: "bass", x: 278, y: FLOOR - 106, w: 42, h: 106, label: "Bass", note: "Jazz bass, sunburst, the yak on the guard." },

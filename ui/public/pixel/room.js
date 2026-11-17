@@ -453,7 +453,7 @@
 
   function setEmpty(empty) { document.body.classList.toggle("room-empty", empty); if (!empty) stopIdle(); }
   function newSession() { store.set("sessions", (+store.get("sessions") || 0) + 1); paintPile(); }
-  function toggleDim() { const on = document.body.classList.toggle("dim"); store.set("dim", on ? "1" : ""); }
+  function toggleNightshift() { const on = document.body.classList.toggle("nightshift"); store.set("nightshift", on ? "1" : ""); }
 
   // real weather: WMO drizzle/rain/showers/thunder codes, or any precipitation this quarter-hour
   async function checkRain() {
@@ -467,12 +467,12 @@
   }
 
   function init() {
-    if (store.get("dim")) document.body.classList.add("dim");
+    if (store.get("nightshift")) document.body.classList.add("nightshift");
     paintMini(); paintPile(); paintGuitars(); layout();
     const nest = document.getElementById("nest"); if (nest && root.Nest) root.Nest.mount(nest);
     addEventListener("resize", layout);
     // the window follows the Bangkok hour
     setInterval(() => { const h = bkkHour(); if (h !== hour) { hour = h; paintMini(); rebuildIdle(); } }, 10 * 60000);
   }
-  root.Room = { init, emptyScene, setMode, setWater, setEmpty, newSession, toggleDim, layout, animateWater };
+  root.Room = { init, emptyScene, setMode, setWater, setEmpty, newSession, toggleNightshift, layout, animateWater };
 })(window);

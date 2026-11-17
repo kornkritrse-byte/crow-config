@@ -586,11 +586,12 @@ body.gutters:not(.room-empty) .gutter { display: block; }
 .pile-cap { font-size: 10.5px; color: var(--mist); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
 .pile-cap span { display: block; color: var(--faint); font-weight: 400; letter-spacing: 0; text-transform: none; font-size: 11px; margin-top: 2px; }
 
-/* the lamp switch: focus mode dims everything but the conversation */
-.crew, .board, .gutter { transition: opacity .4s; }
-body.dim .crew, body.dim .board, body.dim .gutter { opacity: .38; }
-body.dim .crew:hover, body.dim .board:hover { opacity: 1; }
-body.dim .room-idle .scene canvas { filter: brightness(.72); }
+/* the lamp switch: night shift — a red colour filter over the WHOLE room, not just a dim */
+.nightshift-overlay {
+  position: fixed; inset: 0; z-index: 9999; pointer-events: none;
+  background: #ff2d1a; mix-blend-mode: color; opacity: 0; transition: opacity .4s;
+}
+body.nightshift .nightshift-overlay { opacity: .55; }
 
 /* clock row: time + date, the crow's nest, the home button */
 .clock-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; align-items: start; }
