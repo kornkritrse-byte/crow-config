@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 5b6c4e05-b760-4ef4-9ca7-afdb3856b8e3
-  modified: 2026-11-17T04:18:42.891Z
+  modified: 2026-11-17T04:37:42.606Z
 ---
 
 Opened 2026-08-23. **TOP PRIORITY.** Korn's stated order: midterms first, fitness second (fitness explicitly planned *around* studies).
@@ -536,6 +536,22 @@ Syllabus hours per topic (Lecture / Practical / Active-learning):
 - ➡️ **Memorising formulas is worth nothing.** All the marks are in *choosing* the formula and *fixing the inputs* — which is exactly his diagnosed TVM failure mode.
 - ➡️ **Breadth across topics 1,2,3,5 beats more TVM reps.** Topics 1–3 and 5 are largely definitional and he was at zero on all four until 30 Aug.
 - Final 45% (2 Dec, non-cumulative, topics 6–10) = **45% selected-response, 0% constructed.**
+
+### 🚨 FN201 FINAL — OFFICIAL SCORE ALLOCATION LANDED (17 Nov 2026, Korn uploaded `FN201-26F-BBA-E2-Exam Info-V1-261109.pdf` + the matching E2 formula/interest-table sheet)
+Obrom's own doc, dated 11 Nov 2026 ("first draft"). **45 MC questions, 1 point each, 3 hours, zero essay/problem-solving.** Per-topic breakdown:
+| Topic | Points | % of the final |
+|---|---|---|
+| #6 Financing Policies | 6 | 13% |
+| #7 Sources of ST/LT Funds | **0** | — |
+| #8 Capital Structure & Cost of Capital | 15 | 33% |
+| #9 Capital Budgeting | 15 | 33% |
+| #10 Distributions to Shareholders | 9 | 20% |
+
+➡️ **The single biggest finding: Topic 7 gets ZERO direct points.** Its own line reads *"Key issues are covered in LN #9"* — meaning anything from it that matters shows up folded into Topic 9's capital-budgeting questions (e.g. a financing source feeding a WACC input), never as its own standalone question. This **completely reverses the earlier read** (logged 26 Oct / in the FN201 Final Map) that Topic 7 was "the biggest hole in the STQs" and a real risk — it isn't a risk at all, because it isn't tested directly. **De-prioritize it as a standalone study block.**
+➡️ **Topics 8 + 9 are 2/3 of the paper between them** — matches the Final Map's own guess ("topics 8+9 are most of the paper") now CONFIRMED, not a guess.
+➡️ **Closed book, but the formula-and-interest-factor tables ARE supplied in the exam set — no cheat sheet allowed.** Same as the midterm: marks are in choosing the right formula and fixing inputs, not memorizing formulas.
+➡️ **Rounding convention stated explicitly** (matters for picking the closest MC option): 4 decimal places for proportions, 2 for rates (%), 2 for THB values.
+🗺️ **FN201 Final Map needs a recolor pass** to reflect this — Topic 7 branch should lose its "biggest hole" framing, Topics 8/9/10 get the confirmed point weights.
 
 ### ✅ CLOSED — the 15% group assignment is NOT a risk
 **30 Aug, his words: he already has a group — the same friends he's worked with since last year, "we are good."** Outline requires 4–5 members and **strictly forbids working solo**; scored *mainly on attempt, completeness and punctuality*, adjusted by self-and-peer evaluation. **Stop raising it.** Due Wed 16 Sep.

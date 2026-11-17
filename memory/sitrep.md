@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-17T04:20:08.099Z
+  modified: 2026-11-17T04:38:22.981Z
 ---
 
 # Situation Report
@@ -35,6 +35,7 @@ metadata:
 ## Session — 2026-11-17 (Tue, from 11:05, ongoing)
 - Caught myself asserting AC311 final sessions 14–15 had "no known topic" without having actually opened the syllabus — he called it out ("don't you have the syllabus?"). Read it: sessions 14–15 = Conceptual Framework for Financial Reporting. Own error, logged → [[crow-error-log]].
 - He added `Framework financial reporting_2026.pdf` to `~/Desktop/AC311/` (sessions 14–15 deck). Read both it and the parked Investment Property deck (sessions 12–13), built **`study/AC311 Final Map.canvas`** (same style as the other 3 Final Maps) → [[project-midterms]]. Zero drilling done on either topic yet.
+- He uploaded Obrom's official **FN201 Final exam-info doc** to `~/Desktop/fn/` — real score allocation: 45 MC Qs, 0 essay/PS, **Topic 7 = ZERO points** (reverses the earlier "biggest STQ hole" read — it's folded into Topic 9, not tested standalone), #8/#9 = 15 pts each (33%), #10 = 9, #6 = 6. FN201 Final Map canvas updated to match → [[project-midterms]].
 
 ## Session — 2026-11-16 (Mon, from 11:01, ongoing)
 - Bed-by-23:30 (15 Nov): done. Goal today: Study AC313 (no extras).
