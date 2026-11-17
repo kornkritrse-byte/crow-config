@@ -1,334 +1,45 @@
 {
-	"nodes": [
-		{
-			"id": "legend",
-			"type": "text",
-			"text": "**Legend**\n🟩 done · 🟨 now · ⬜ taught, not studied · 🟥 not taught yet · 🟪 midterm scope (in only if cumulative) · 🟧 shaky\nBuilt from the COURSE OUTLINE (27 Oct). Updated as material lands.\nH = Horngren 17e · M = Monvika 10e (Thai)",
-			"x": 0,
-			"y": -280,
-			"width": 460,
-			"height": 210
-		},
-		{
-			"id": "ohs1",
-			"type": "text",
-			"text": "**Plantwide rate**\none rate for the whole factory",
-			"x": 900,
-			"y": 0,
-			"width": 460,
-			"height": 170
-		},
-		{
-			"id": "ohs2",
-			"type": "text",
-			"text": "**Departmental rates**\none rate per department, each on its own driver\nValidated 15 Nov (constructed, no real-paper version found in the 2021 final): Cutting $20/machine-hr, Finishing $30/labor-hr, Job #101 applied OH = $1,600 ($1,000 + $600). Clean, first try, no misses.",
-			"x": 900,
-			"y": 200,
-			"width": 460,
-			"height": 170,
-			"color": "4"
-		},
-		{
-			"id": "ohs3",
-			"type": "text",
-			"text": "**Activity-based costing (ABC)**\ncost pools → drivers → products · who's under- or over-costed\nPast: 2021 final Q2 (undercosting)\nValidated 14 Nov: Mary Inc. plantwide-vs-ABC batch calc, correct (undercosted under plantwide: $4.00 vs $6.55/unit).\n16 Nov: his own call to retest ABC despite the record showing it clean — right call, found a real mechanical gap (swapping units-made for the actual driver quantity, 3x in one block) that hadn't shown up in the simpler earlier reps. Ghosted each instance; 2nd rep (Deluxe/Basic, inspections+orders) ran clean, no swap. Also drilled: same two products under a single plantwide driver (orders) landed correctly ($20/$18), showing single-driver distortion can go either direction depending on which driver is picked — not just a one-way undercosting story.",
-			"x": 900,
-			"y": 400,
-			"width": 460,
-			"height": 170,
-			"color": "4"
-		},
-		{
-			"id": "oh",
-			"type": "text",
-			"text": "## Overhead allocation\nsessions 8–9 (28 Sep, 5 Oct) · H Ch 5 · M Ch 4",
-			"x": 400,
-			"y": 205,
-			"width": 380,
-			"height": 160
-		},
-		{
-			"id": "sds1",
-			"type": "text",
-			"text": "**Direct method**\nignore support-to-support services",
-			"x": 900,
-			"y": 720,
-			"width": 460,
-			"height": 170
-		},
-		{
-			"id": "sds2",
-			"type": "text",
-			"text": "**Step-down method**\nthe order you allocate in changes the answer\nValidated 14 Nov: Betty's Book/Music full 2-step calc (Warehouse first by %-to-other-support-dept rule, then DC pool incl. closed-Warehouse trap), landed $126,649 correct after guided build.\n16 Nov: ranking rule missed once cold (picked the smaller-balance dept instead of the one that SERVES the other), ghosted. After that, 2 full constructed reps run UNAIDED start to finish — ranking, allocation, final P1/P2 split all correct both times (incl. a 'does the production % need the support-dept share subtracted first' check he caught and answered himself). Method's solid; only miss was the ranking rule, now fixed.",
-			"x": 900,
-			"y": 920,
-			"width": 460,
-			"height": 170,
-			"color": "4"
-		},
-		{
-			"id": "sds3",
-			"type": "text",
-			"text": "**Reciprocal method**\nsimultaneous equations: full support-to-support\nValidated 15 Nov: Betty's Book/Music real past-paper data, full reciprocal solve (equation setup + both totals + allocation to Music $449,134 / Books $325,866, checksum exact to $775,000). Misses: grabbed wrong usage row first (matched dept to wrong metric), misread 'X% x DC' as a % increase on W's own number rather than a share of DC's unknown total — both ghosted.\n16 Nov: 2 full constructed reciprocal reps run UNAIDED start to finish — simultaneous equations, substitution, solve, allocate to production all correct both times. Misses were bookkeeping only (own-cost vs true-cost in the equation, distributing a coefficient across both bracket terms, isolating the variable (0.98 vs 0.8), swapping which dept's production % belongs to which true total) — all ghosted. Logic itself never wrong across 2 reps.",
-			"x": 900,
-			"y": 1120,
-			"width": 460,
-			"height": 170,
-			"color": "4"
-		},
-		{
-			"id": "sd",
-			"type": "text",
-			"text": "## Support-department costs\nsession 10 (12 Oct) · H Ch 16 · M Ch 5",
-			"x": 400,
-			"y": 925,
-			"width": 380,
-			"height": 160
-		},
-		{
-			"id": "vas1",
-			"type": "text",
-			"text": "**What goes into product cost**\nthe whole difference = fixed MOH\nValidated 16 Nov: product-vs-period split tested (marketing $2/unit commission = period despite being variable; factory supervisor's fixed salary = product cost despite being fixed — he flipped the second one on reflex, self-corrected immediately once reminded it's location/function, not the fixed/variable label).",
-			"x": 900,
-			"y": 1440,
-			"width": 460,
-			"height": 170,
-			"color": "4"
-		},
-		{
-			"id": "vas2",
-			"type": "text",
-			"text": "**Why the profits differ**\nchange in inventory × fixed MOH per unit · reconcile the two\nValidated 14 Nov: Andrea Q11/Q12 (gross margin $24,750, operating income $16,500), correct after fixing the period-vs-product-cost mixup.",
-			"x": 900,
-			"y": 1640,
-			"width": 460,
-			"height": 170,
-			"color": "4"
-		},
-		{
-			"id": "va",
-			"type": "text",
-			"text": "## Variable vs absorption costing\nsession 11 (19 Oct) · H Ch 9 · M Ch 8",
-			"x": 400,
-			"y": 1545,
-			"width": 380,
-			"height": 160
-		},
-		{
-			"id": "scs1",
-			"type": "text",
-			"text": "**Materials**\nprice · quantity (efficiency) · **mix & yield**\nPast: 2021 final Q3 (standard costing)\nValidated 14 Nov: mix (70/30->60/40 rubber, direction) + combined real past-paper Q (Product X, mix $500F / yield $1,211U) — self-corrected live, caught own 'mix and yield move together' assumption.\n16 Nov: 10-question MCQ round targeting the F/U-direction risk flagged below. Materials quantity trap caught him once — he compared actual usage against the ORIGINAL budget instead of the standard allowed for ACTUAL output (flexed), and called a favorable result unfavorable. Ghosted + added to Pocket Procedures.",
-			"x": 900,
-			"y": 1960,
-			"width": 460,
-			"height": 170,
-			"color": "4"
-		},
-		{
-			"id": "scs2",
-			"type": "text",
-			"text": "**Labour**\nrate · efficiency\nValidated 14 Nov: TU Corp labor rate variance via 3-pillar method (AQ×AP vs AQ×SP vs SQ×SP), Cr $7,014 correct, self-built the pillars.",
-			"x": 900,
-			"y": 2160,
-			"width": 460,
-			"height": 170,
-			"color": "4"
-		},
-		{
-			"id": "scs3",
-			"type": "text",
-			"text": "**Manufacturing overhead**\nvariable: spending · efficiency\nfixed: spending (budget) · production-volume\nALL FOUR now validated on real/constructed numbers. 14 Nov: Zelma Inc. real past-paper Q (favorable VOH efficiency), correct via 3-column map. 15 Nov: Matthew's Corp real past-paper Q (flexible-budget fixed OH = $120,000 since fixed costs don't flex; production-volume variance $20,000 U), clean after a units mix-up on hrs/unit. 15 Nov: variable OH spending variance $700 U (caught using std hrs instead of actual hrs — real miss, ghosted) and fixed OH spending variance $6,500 U (clean, first try). Every OH sub-variance now tested at least once. 15 Nov cont'd: full 4-variance analysis on Exercise 2 Q12 (Singapore Division, real course practice material) — VOH spending $4,500F, VOH efficiency $12,000U, FOH spending $11,000U, FOH volume $21,000U, all correct after direction corrections. Pattern noticed: F/U direction flipped 4 times across this session (yield, spending, efficiency, volume) — each ghosted separately, plus one general meta-rule card. This is the single biggest live risk for the actual exam, bigger than any one calc method.\n16 Nov: same MCQ round — fixed OH SPENDING variance: he correctly said unfavorable but via the WRONG logic (applied the materials 'flex to actual output' rule, which doesn't apply here — fixed OH spending compares straight to the static original budget, no flexing). Right answer, wrong reasoning — more dangerous than a flat miss since it'll misfire elsewhere. Ghosted + added to Pocket Procedures. Everything else in the round (rate-only isolation, spending-only isolation, mix, yield, production-volume) was clean — F/U direction itself is no longer the main risk; knowing WHICH benchmark each variance flexes against is.",
-			"x": 900,
-			"y": 2360,
-			"width": 460,
-			"height": 170,
-			"color": "4"
-		},
-		{
-			"id": "sc",
-			"type": "text",
-			"text": "## Standard costing & variances\nsessions 12–15 (26 Oct → 16 Nov) · BEING TAUGHT\nH Ch 7–8 · M Ch 7\n4 of the 8 sessions → probably the biggest share (guess)\n14 Nov: all 3 sub-blocks (materials incl. mix/yield, labour, overhead) validated against real 2021 past-paper Qs in one session.\n15 Nov: full journal-entry chain validated (Chemical Inc., Exercise 2 Q10) — purchase, usage, labor, and closing all 4 variances to COGS ($14,719 net debit). New rule caught and ghosted: unfavorable=debit, favorable=credit, always, regardless of variance type. Also: direct/step-down/reciprocal all re-tested on a second fresh dataset (Jake's Battery Co.) after Betty's — direct method confirmed clean both times.\n16 Nov: ran the F/U-direction MCQ round this section flagged as the biggest risk. Verdict: direction itself is mostly solid now (8/10 clean); the real remaining risk is benchmark selection (flexed-to-actual-output vs static original budget vs output-level-only) — see scs1/scs3 for the two specific traps caught.\n16 Nov cont'd: full 8-entry journal chain run on a fresh constructed problem (purchase → usage → labor → VOH → FOH → close-to-COGS) — the closing entry itself (his named real gap) ran clean, unaided, correctly netting to a $4,035 debit. Misses were upstream: WIP/applied lines pulled actual instead of standard amounts (usage materials credit, VOH applied) — same root cause as the benchmark-selection risk already flagged above, now showing up inside journal entries too, not just variance calcs.\n16 Nov — outline check: \"Journal entries\" is explicitly listed as its own topic line ONLY under sessions 3–4 (job order) and 5–6 (process costing) — both MIDTERM scope. Sessions 12–15's own topic bullets are just \"Standard costing / Variance analyses — Materials (incl Mix & Yield), Labor, Manufacturing overhead,\" no entries called out. Doesn't mean entries are off the final, but it's real signal that variance CALCULATION is the outline's stated priority, not the bookkeeping mechanics — recalibrate time accordingly if more comes up, don't treat the 8-entry chain as equally weighted to the calcs themselves.",
-			"x": 400,
-			"y": 2165,
-			"width": 380,
-			"height": 170,
-			"color": "4"
-		},
-		{
-			"id": "mt",
-			"type": "text",
-			"text": "## Midterm scope (sessions 1–7)\nfundamentals · job order · process costing · joint & byproducts\nin the final ONLY if it's cumulative → ask",
-			"x": 400,
-			"y": 2585,
-			"width": 380,
-			"height": 160,
-			"color": "6"
-		},
-		{
-			"id": "root",
-			"type": "text",
-			"text": "# AC313 Final\n40% · **Mon 23 Nov, 09:00–12:00**\nTHE FIRST FINAL of the window (27 days)\nScope: outline (found 16 Nov) shows midterm right after session 7 (Sep 20–27), final right after session 15, last class Nov 21 — standard non-cumulative split, STRONG inference for sessions 8–15 only, but not a literal statement — still confirm with her.\nQuizzes & assignments = 20%",
-			"x": -80,
-			"y": 1250,
-			"width": 400,
-			"height": 280
-		},
-		{
-			"id": "res",
-			"type": "text",
-			"text": "**Resources**\nDrive (a senior's, in `~/Desktop/pastpapers/AC313/`):\n· `AC313 Final2021.pdf` = 45 pages of screenshots of the 2021 ONLINE final (MCQ, 2 points each) + a worked copy\n  ⚠ no OCR on the Mac → Crow reads it page by page when we study\n· old AC203 midterm (AC203 = AC313's old code)\nOn disk: Course Package 1 (midterm half) + **Package 2 + Exercise 2 (added 3 Nov)** in `~/Desktop/AC313/`",
-			"x": -80,
-			"y": 1570,
-			"width": 400,
-			"height": 260,
-			"color": "5"
-		},
-		{
-			"id": "outline",
-			"type": "file",
-			"file": "study/outlines/AC313 Course Outline.pdf",
-			"x": -700,
-			"y": 1050,
-			"width": 520,
-			"height": 680
-		},
-		{
-			"id": "outlinecap",
-			"type": "text",
-			"text": "**Main course outline**\nwhat this map was built against",
-			"x": -700,
-			"y": 940,
-			"width": 520,
-			"height": 90
-		}
+	"nodes":[
+		{"id":"legend","type":"text","text":"**Legend**\n🟩 done · 🟨 now · ⬜ taught, not studied · 🟥 not taught yet · 🟪 midterm scope (in only if cumulative) · 🟧 shaky\nBuilt from the COURSE OUTLINE (27 Oct). Updated as material lands.\nH = Horngren 17e · M = Monvika 10e (Thai)","x":0,"y":-280,"width":460,"height":210},
+		{"id":"ohs1","type":"text","text":"**Plantwide rate**\none rate for the whole factory","x":900,"y":0,"width":460,"height":170},
+		{"id":"ohs2","type":"text","text":"**Departmental rates**\none rate per department, each on its own driver\nValidated 15 Nov (constructed, no real-paper version found in the 2021 final): Cutting $20/machine-hr, Finishing $30/labor-hr, Job #101 applied OH = $1,600 ($1,000 + $600). Clean, first try, no misses.","x":900,"y":200,"width":460,"height":170,"color":"4"},
+		{"id":"ohs3","type":"text","text":"**Activity-based costing (ABC)**\ncost pools → drivers → products · who's under- or over-costed\nPast: 2021 final Q2 (undercosting)\nValidated 14 Nov: Mary Inc. plantwide-vs-ABC batch calc, correct (undercosted under plantwide: $4.00 vs $6.55/unit).\n16 Nov: his own call to retest ABC despite the record showing it clean — right call, found a real mechanical gap (swapping units-made for the actual driver quantity, 3x in one block) that hadn't shown up in the simpler earlier reps. Ghosted each instance; 2nd rep (Deluxe/Basic, inspections+orders) ran clean, no swap. Also drilled: same two products under a single plantwide driver (orders) landed correctly ($20/$18), showing single-driver distortion can go either direction depending on which driver is picked — not just a one-way undercosting story.","x":900,"y":400,"width":460,"height":170,"color":"4"},
+		{"id":"oh","type":"text","text":"## Overhead allocation\nsessions 8–9 (28 Sep, 5 Oct) · H Ch 5 · M Ch 4","x":400,"y":205,"width":380,"height":160},
+		{"id":"sds1","type":"text","text":"**Direct method**\nignore support-to-support services","x":900,"y":720,"width":460,"height":170},
+		{"id":"sds2","type":"text","text":"**Step-down method**\nthe order you allocate in changes the answer\nValidated 14 Nov: Betty's Book/Music full 2-step calc (Warehouse first by %-to-other-support-dept rule, then DC pool incl. closed-Warehouse trap), landed $126,649 correct after guided build.\n16 Nov: ranking rule missed once cold (picked the smaller-balance dept instead of the one that SERVES the other), ghosted. After that, 2 full constructed reps run UNAIDED start to finish — ranking, allocation, final P1/P2 split all correct both times (incl. a 'does the production % need the support-dept share subtracted first' check he caught and answered himself). Method's solid; only miss was the ranking rule, now fixed.","x":900,"y":920,"width":460,"height":170,"color":"4"},
+		{"id":"sds3","type":"text","text":"**Reciprocal method**\nsimultaneous equations: full support-to-support\nValidated 15 Nov: Betty's Book/Music real past-paper data, full reciprocal solve (equation setup + both totals + allocation to Music $449,134 / Books $325,866, checksum exact to $775,000). Misses: grabbed wrong usage row first (matched dept to wrong metric), misread 'X% x DC' as a % increase on W's own number rather than a share of DC's unknown total — both ghosted.\n16 Nov: 2 full constructed reciprocal reps run UNAIDED start to finish — simultaneous equations, substitution, solve, allocate to production all correct both times. Misses were bookkeeping only (own-cost vs true-cost in the equation, distributing a coefficient across both bracket terms, isolating the variable (0.98 vs 0.8), swapping which dept's production % belongs to which true total) — all ghosted. Logic itself never wrong across 2 reps.","x":900,"y":1120,"width":460,"height":170,"color":"4"},
+		{"id":"sd","type":"text","text":"## Support-department costs\nsession 10 (12 Oct) · H Ch 16 · M Ch 5","x":400,"y":925,"width":380,"height":160},
+		{"id":"vas1","type":"text","text":"**What goes into product cost**\nthe whole difference = fixed MOH\nValidated 16 Nov: product-vs-period split tested (marketing $2/unit commission = period despite being variable; factory supervisor's fixed salary = product cost despite being fixed — he flipped the second one on reflex, self-corrected immediately once reminded it's location/function, not the fixed/variable label).","x":900,"y":1440,"width":460,"height":170,"color":"4"},
+		{"id":"vas2","type":"text","text":"**Why the profits differ**\nchange in inventory × fixed MOH per unit · reconcile the two\nValidated 14 Nov: Andrea Q11/Q12 (gross margin $24,750, operating income $16,500), correct after fixing the period-vs-product-cost mixup.","x":900,"y":1640,"width":460,"height":170,"color":"4"},
+		{"id":"va","type":"text","text":"## Variable vs absorption costing\nsession 11 (19 Oct) · H Ch 9 · M Ch 8","x":400,"y":1545,"width":380,"height":160},
+		{"id":"scs1","type":"text","text":"**Materials**\nprice · quantity (efficiency) · **mix & yield**\nPast: 2021 final Q3 (standard costing)\nValidated 14 Nov: mix (70/30->60/40 rubber, direction) + combined real past-paper Q (Product X, mix $500F / yield $1,211U) — self-corrected live, caught own 'mix and yield move together' assumption.\n16 Nov: 10-question MCQ round targeting the F/U-direction risk flagged below. Materials quantity trap caught him once — he compared actual usage against the ORIGINAL budget instead of the standard allowed for ACTUAL output (flexed), and called a favorable result unfavorable. Ghosted + added to Pocket Procedures.","x":900,"y":1960,"width":460,"height":170,"color":"4"},
+		{"id":"scs2","type":"text","text":"**Labour**\nrate · efficiency\nValidated 14 Nov: TU Corp labor rate variance via 3-pillar method (AQ×AP vs AQ×SP vs SQ×SP), Cr $7,014 correct, self-built the pillars.","x":900,"y":2160,"width":460,"height":170,"color":"4"},
+		{"id":"scs3","type":"text","text":"**Manufacturing overhead**\nvariable: spending · efficiency\nfixed: spending (budget) · production-volume\nALL FOUR now validated on real/constructed numbers. 14 Nov: Zelma Inc. real past-paper Q (favorable VOH efficiency), correct via 3-column map. 15 Nov: Matthew's Corp real past-paper Q (flexible-budget fixed OH = $120,000 since fixed costs don't flex; production-volume variance $20,000 U), clean after a units mix-up on hrs/unit. 15 Nov: variable OH spending variance $700 U (caught using std hrs instead of actual hrs — real miss, ghosted) and fixed OH spending variance $6,500 U (clean, first try). Every OH sub-variance now tested at least once. 15 Nov cont'd: full 4-variance analysis on Exercise 2 Q12 (Singapore Division, real course practice material) — VOH spending $4,500F, VOH efficiency $12,000U, FOH spending $11,000U, FOH volume $21,000U, all correct after direction corrections. Pattern noticed: F/U direction flipped 4 times across this session (yield, spending, efficiency, volume) — each ghosted separately, plus one general meta-rule card. This is the single biggest live risk for the actual exam, bigger than any one calc method.\n16 Nov: same MCQ round — fixed OH SPENDING variance: he correctly said unfavorable but via the WRONG logic (applied the materials 'flex to actual output' rule, which doesn't apply here — fixed OH spending compares straight to the static original budget, no flexing). Right answer, wrong reasoning — more dangerous than a flat miss since it'll misfire elsewhere. Ghosted + added to Pocket Procedures. Everything else in the round (rate-only isolation, spending-only isolation, mix, yield, production-volume) was clean — F/U direction itself is no longer the main risk; knowing WHICH benchmark each variance flexes against is.","x":900,"y":2360,"width":460,"height":170,"color":"4"},
+		{"id":"sc","type":"text","text":"## Standard costing & variances\nsessions 12–15 (26 Oct → 16 Nov) · BEING TAUGHT\nH Ch 7–8 · M Ch 7\n4 of the 8 sessions → probably the biggest share (guess)\n14 Nov: all 3 sub-blocks (materials incl. mix/yield, labour, overhead) validated against real 2021 past-paper Qs in one session.\n15 Nov: full journal-entry chain validated (Chemical Inc., Exercise 2 Q10) — purchase, usage, labor, and closing all 4 variances to COGS ($14,719 net debit). New rule caught and ghosted: unfavorable=debit, favorable=credit, always, regardless of variance type. Also: direct/step-down/reciprocal all re-tested on a second fresh dataset (Jake's Battery Co.) after Betty's — direct method confirmed clean both times.\n16 Nov: ran the F/U-direction MCQ round this section flagged as the biggest risk. Verdict: direction itself is mostly solid now (8/10 clean); the real remaining risk is benchmark selection (flexed-to-actual-output vs static original budget vs output-level-only) — see scs1/scs3 for the two specific traps caught.\n16 Nov cont'd: full 8-entry journal chain run on a fresh constructed problem (purchase → usage → labor → VOH → FOH → close-to-COGS) — the closing entry itself (his named real gap) ran clean, unaided, correctly netting to a $4,035 debit. Misses were upstream: WIP/applied lines pulled actual instead of standard amounts (usage materials credit, VOH applied) — same root cause as the benchmark-selection risk already flagged above, now showing up inside journal entries too, not just variance calcs.\n16 Nov — outline check: \"Journal entries\" is explicitly listed as its own topic line ONLY under sessions 3–4 (job order) and 5–6 (process costing) — both MIDTERM scope. Sessions 12–15's own topic bullets are just \"Standard costing / Variance analyses — Materials (incl Mix & Yield), Labor, Manufacturing overhead,\" no entries called out. Doesn't mean entries are off the final, but it's real signal that variance CALCULATION is the outline's stated priority, not the bookkeeping mechanics — recalibrate time accordingly if more comes up, don't treat the 8-entry chain as equally weighted to the calcs themselves.","x":400,"y":2165,"width":380,"height":170,"color":"4"},
+		{"id":"mt","type":"text","text":"## Midterm scope (sessions 1–7)\nfundamentals · job order · process costing · joint & byproducts\nin the final ONLY if it's cumulative → ask","x":400,"y":2585,"width":380,"height":160,"color":"6"},
+		{"id":"root","type":"text","text":"# AC313 Final\n40% · **Mon 23 Nov, 09:00–12:00**\nTHE FIRST FINAL of the window (27 days)\nScope: outline (found 16 Nov) shows midterm right after session 7 (Sep 20–27), final right after session 15, last class Nov 21 — standard non-cumulative split, STRONG inference for sessions 8–15 only, but not a literal statement — still confirm with her.\nQuizzes & assignments = 20%","x":-80,"y":1250,"width":400,"height":280},
+		{"id":"res","type":"text","text":"**Resources**\nDrive (a senior's, in `~/Desktop/pastpapers/AC313/`):\n· `AC313 Final2021.pdf` = 45 pages of screenshots of the 2021 ONLINE final (MCQ, 2 points each) + a worked copy\n  ⚠ no OCR on the Mac → Crow reads it page by page when we study\n· old AC203 midterm (AC203 = AC313's old code)\nOn disk: Course Package 1 (midterm half) + **Package 2 + Exercise 2 (added 3 Nov)** in `~/Desktop/AC313/`","x":-80,"y":1570,"width":400,"height":260,"color":"5"},
+		{"id":"outline","type":"file","file":"study/outlines/AC313 Course Outline.pdf","x":-700,"y":1050,"width":520,"height":680},
+		{"id":"outlinecap","type":"text","text":"**Main course outline**\nwhat this map was built against","x":-700,"y":940,"width":520,"height":90}
 	],
-	"edges": [
-		{
-			"id": "eohohs1",
-			"fromNode": "oh",
-			"fromSide": "right",
-			"toNode": "ohs1",
-			"toSide": "left"
-		},
-		{
-			"id": "eohohs2",
-			"fromNode": "oh",
-			"fromSide": "right",
-			"toNode": "ohs2",
-			"toSide": "left"
-		},
-		{
-			"id": "eohohs3",
-			"fromNode": "oh",
-			"fromSide": "right",
-			"toNode": "ohs3",
-			"toSide": "left"
-		},
-		{
-			"id": "erootoh",
-			"fromNode": "root",
-			"fromSide": "right",
-			"toNode": "oh",
-			"toSide": "left"
-		},
-		{
-			"id": "esdsds1",
-			"fromNode": "sd",
-			"fromSide": "right",
-			"toNode": "sds1",
-			"toSide": "left"
-		},
-		{
-			"id": "esdsds2",
-			"fromNode": "sd",
-			"fromSide": "right",
-			"toNode": "sds2",
-			"toSide": "left"
-		},
-		{
-			"id": "esdsds3",
-			"fromNode": "sd",
-			"fromSide": "right",
-			"toNode": "sds3",
-			"toSide": "left"
-		},
-		{
-			"id": "erootsd",
-			"fromNode": "root",
-			"fromSide": "right",
-			"toNode": "sd",
-			"toSide": "left"
-		},
-		{
-			"id": "evavas1",
-			"fromNode": "va",
-			"fromSide": "right",
-			"toNode": "vas1",
-			"toSide": "left"
-		},
-		{
-			"id": "evavas2",
-			"fromNode": "va",
-			"fromSide": "right",
-			"toNode": "vas2",
-			"toSide": "left"
-		},
-		{
-			"id": "erootva",
-			"fromNode": "root",
-			"fromSide": "right",
-			"toNode": "va",
-			"toSide": "left"
-		},
-		{
-			"id": "escscs1",
-			"fromNode": "sc",
-			"fromSide": "right",
-			"toNode": "scs1",
-			"toSide": "left"
-		},
-		{
-			"id": "escscs2",
-			"fromNode": "sc",
-			"fromSide": "right",
-			"toNode": "scs2",
-			"toSide": "left"
-		},
-		{
-			"id": "escscs3",
-			"fromNode": "sc",
-			"fromSide": "right",
-			"toNode": "scs3",
-			"toSide": "left"
-		},
-		{
-			"id": "erootsc",
-			"fromNode": "root",
-			"fromSide": "right",
-			"toNode": "sc",
-			"toSide": "left"
-		},
-		{
-			"id": "erootmt",
-			"fromNode": "root",
-			"fromSide": "right",
-			"toNode": "mt",
-			"toSide": "left"
-		},
-		{
-			"id": "erootres",
-			"fromNode": "root",
-			"fromSide": "bottom",
-			"toNode": "res",
-			"toSide": "top"
-		},
-		{
-			"id": "eoutline",
-			"fromNode": "outline",
-			"fromSide": "right",
-			"toNode": "root",
-			"toSide": "left",
-			"label": "source"
-		}
+	"edges":[
+		{"id":"eohohs1","fromNode":"oh","fromSide":"right","toNode":"ohs1","toSide":"left"},
+		{"id":"eohohs2","fromNode":"oh","fromSide":"right","toNode":"ohs2","toSide":"left"},
+		{"id":"eohohs3","fromNode":"oh","fromSide":"right","toNode":"ohs3","toSide":"left"},
+		{"id":"erootoh","fromNode":"root","fromSide":"right","toNode":"oh","toSide":"left"},
+		{"id":"esdsds1","fromNode":"sd","fromSide":"right","toNode":"sds1","toSide":"left"},
+		{"id":"esdsds2","fromNode":"sd","fromSide":"right","toNode":"sds2","toSide":"left"},
+		{"id":"esdsds3","fromNode":"sd","fromSide":"right","toNode":"sds3","toSide":"left"},
+		{"id":"erootsd","fromNode":"root","fromSide":"right","toNode":"sd","toSide":"left"},
+		{"id":"evavas1","fromNode":"va","fromSide":"right","toNode":"vas1","toSide":"left"},
+		{"id":"evavas2","fromNode":"va","fromSide":"right","toNode":"vas2","toSide":"left"},
+		{"id":"erootva","fromNode":"root","fromSide":"right","toNode":"va","toSide":"left"},
+		{"id":"escscs1","fromNode":"sc","fromSide":"right","toNode":"scs1","toSide":"left"},
+		{"id":"escscs2","fromNode":"sc","fromSide":"right","toNode":"scs2","toSide":"left"},
+		{"id":"escscs3","fromNode":"sc","fromSide":"right","toNode":"scs3","toSide":"left"},
+		{"id":"erootsc","fromNode":"root","fromSide":"right","toNode":"sc","toSide":"left"},
+		{"id":"erootmt","fromNode":"root","fromSide":"right","toNode":"mt","toSide":"left"},
+		{"id":"erootres","fromNode":"root","fromSide":"bottom","toNode":"res","toSide":"top"},
+		{"id":"eoutline","fromNode":"outline","fromSide":"right","toNode":"root","toSide":"left","label":"source"}
 	]
 }
