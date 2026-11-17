@@ -518,6 +518,50 @@ async function speakProxy(req, res) {
     res.writeHead(503, { 'content-type': 'text/plain' }).end(`voice unavailable: ${err.message}`);
   }
 }
+// Toggles macOS's own Accessibility > Display > Color Filters, system-wide (not just this page).
+// Uses System Events UI scripting — the sanctioned Apple automation surface, gated behind a
+// one-time Accessibility permission grant to this node process (Terminal, if run via crow-room.sh).
+// That permission wall is a feature, not friction: it's why this is more trustworthy than a tool
+// like `nightlight`, which flips the same setting through an undocumented private framework with
+// no permission prompt at all.
+const NIGHTSHIFT_SCRIPT = `
+try
+  do shell script "open 'x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Display'"
+  delay 1.2
+  tell application "System Events"
+    tell process "System Settings"
+      set frontmost to true
+      delay 0.3
+      -- "Color Filters" lives in the Display pane as a checkbox or toggle; find it by name
+      -- wherever it sits in the current pane's UI tree, since the exact nesting shifts between
+      -- macOS versions.
+      set hits to (every checkbox of (entire contents of front window) whose name contains "Color Filters")
+      if (count of hits) is 0 then
+        set hits to (every UI element of (entire contents of front window) whose name contains "Color Filters" and role is "AXCheckBox")
+      end if
+      if (count of hits) > 0 then
+        click item 1 of hits
+        return "ok"
+      else
+        return "not_found"
+      end if
+    end tell
+  end tell
+on error errMsg
+  return "error: " & errMsg
+end try
+`;
+async function toggleSystemNightshift(res) {
+  try {
+    const out = await run('osascript', ['-e', NIGHTSHIFT_SCRIPT]);
+    const result = out.toString().trim();
+    const ok = result === 'ok';
+    res.writeHead(ok ? 200 : 502, { 'content-type': 'application/json' }).end(JSON.stringify({ ok, result }));
+  } catch (err) {
+    res.writeHead(502, { 'content-type': 'application/json' }).end(JSON.stringify({ ok: false, result: err.message }));
+  }
+}
+
 // They're separate processes; they must not outlive the Room.
 process.on('exit', () => { for (const s of services) s.proc?.kill(); });
 // (Not SIGHUP: crow-room.sh starts the Room under nohup, and a handler would undo that.)
@@ -749,6 +793,11 @@ const server = http.createServer((req, res) => {
     // Same rule as the socket: only the Room's own page may use it.
     if (!ALLOWED_ORIGINS.has(req.headers.origin)) { res.writeHead(403).end(); return; }
     speakProxy(req, res);
+    return;
+  }
+  if (req.method === 'POST' && url.pathname === '/nightshift') {
+    if (!ALLOWED_ORIGINS.has(req.headers.origin)) { res.writeHead(403).end(); return; }
+    toggleSystemNightshift(res);
     return;
   }
   const file = VENDOR[url.pathname] ? path.join(HERE, VENDOR[url.pathname])

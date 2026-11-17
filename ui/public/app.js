@@ -527,7 +527,7 @@ function roomScene(before) {
   return Room.emptyScene({
     starters: STARTERS,
     onStarter: s => { before?.(); sendMessage(s, []); },
-    onLamp: () => Room.toggleNightshift(),
+    onLamp: () => { Room.toggleNightshift(); fetch('/nightshift', { method: 'POST' }).catch(() => {}); },
     onFlower: () => {
       const sec = $('water-section');
       sec.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
