@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-17T07:47:00.621Z
+  modified: 2026-11-17T09:27:55.871Z
 ---
 
 # Situation Report
@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (17 Nov ~14:46) — off to:** heading home from the café (was there with his cousin). Nothing specific to ask on return — plan for tmr (18 Nov) is logged in [[ledger-said-did]] (FN201, scared-of-it-most priority).
+- **Here.** Back 17 Nov ~16:27, home from the café.
 - AC311 Midterm 2: DONE, 13 Nov, "easy shit." Only real uncertainty was the revaluation-surplus annual transfer (optional under IAS 16) — worked both ways, went with the with-transfer version. **Next: AC311 final 28 Nov.**
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
