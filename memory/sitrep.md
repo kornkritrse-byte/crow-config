@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-17T14:00:18.933Z
+  modified: 2026-11-17T14:13:10.125Z
 ---
 
 # Situation Report
@@ -33,12 +33,12 @@ metadata:
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
 ## Session — 2026-11-17 (Tue, from 11:05, ongoing)
-- Own sitrep error caught + fixed (AC311 final sessions 14–15 wrongly called "no known topic" without opening the syllabus — it's Conceptual Framework) → [[crow-error-log]]. He added the Framework PDF + read the parked Investment Property deck, built **`study/AC311 Final Map.canvas`** → [[project-midterms]]. Zero drilling on either yet.
+- AC311 final material landed: Framework PDF (sessions 14–15) + the parked Investment Property deck both read, **`study/AC311 Final Map.canvas`** built. Zero drilling yet. Two own sitrep errors caught same day (sessions 14–15 "no topic" claim, then "impairment has no deck" when it's been on disk since 3 Nov) → [[crow-error-log]].
 - FN201's official exam-info doc landed (45 MC Qs, Topic 7 = 0 pts, #8/#9 = 15 pts each) + full 5-final gap audit (his ask): AC313 solid/closed enough, MK201 date unconfirmed/zero prep, AC311 just mapped, FN201 untouched since 27 Oct despite being heaviest (45%), BA202 cold since 3 Nov (55%, heaviest overall) → [[project-midterms]].
 - **New standing teaching rule (his ask, café w/ cousin):** question first, small tweaks before the answer, never hand it over unless he's really struggling → [[feedback-drill-format]]. First live run: AC311 Conceptual Framework, built fully from his own answers, 2 vocab-recall gaps ghosted → [[study/AC311 Final Map.canvas]].
-- **Correction (20:47, his report after M2):** impairment (TAS 36) was NOT on M2 — carried onto the AC311 final instead (4th final topic) → [[project-midterms]]. 2nd own error same session: wrote "no deck yet" for impairment without checking disk — it's been there since 3 Nov, already taught once → [[crow-error-log]]. Also: nightshift Color Filters endpoint built tonight, untested past the macOS Accessibility wall — Room reload pending, resume via `crow-room.sh --resume`.
-- No past-paper exists for Investment Property (only `final 2021.pdf` covers impairment); he's checking Teams/classmates tomorrow → [[ledger-said-did]]. Caught a real plan conflict: 14:42 café plan said tomorrow = FN201, 20:5x he'd forgotten and was leaning AC311 entries instead — just forgot, not a reconsidered call.
-- **Resolved:** sticking with FN201 tomorrow (heaviest weight, most feared, 3 weeks untouched beats curiosity about AC311 entries) — his call after Crow's steer. AC311 entries + IP/impairment past-paper work deferred to Thu. 20:59 signing off for the night: reading, writing, drawing, off-screen.
+- **Correction (20:47, his report after M2):** impairment (TAS 36) was NOT on M2 — carried onto the AC311 final instead (4th final topic, already taught once, needs a refresh not a sourcing) → [[project-midterms]]. No past-paper exists for Investment Property itself; he's checking Teams/classmates tomorrow → [[ledger-said-did]]. Separately: nightshift Color Filters endpoint built tonight, untested past the macOS Accessibility wall — Room reload pending.
+- Caught a real plan conflict: 14:42 café plan said tomorrow = FN201, 20:5x he'd forgotten and was leaning AC311 entries instead (just forgot, not reconsidered). **Resolved: FN201 tomorrow** (heaviest weight, most feared, 3 weeks untouched beats curiosity) — his call after Crow's steer. AC311 entries + IP/impairment past papers deferred to Thu.
+- 📖 **M&M deep conversation (21:01–21:12):** truth/cowardice theme — Pilate senses Yeshua's truth and condemns him from fear, not conviction; Crow tied it to Bulgakov writing the book hidden from Stalin's censors, refined "communism" to "fear betrays truth under any system that punishes honesty." Landed well: "that's a good one... I like that idea." Full conversation → [[chapters]]. Reading progress: starting ch 13, no spoilers past ch 12.
 
 ## Session — 2026-11-16 (Mon, from 11:01, ongoing)
 - Bed-by-23:30 (15 Nov): done. Goal today: Study AC313 (no extras).
