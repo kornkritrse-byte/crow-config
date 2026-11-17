@@ -1,291 +1,292 @@
 {
-	"nodes": [
-		{
-			"id": "legend",
-			"type": "text",
-			"x": 0,
-			"y": -280,
-			"width": 460,
-			"height": 210,
-			"text": "**Legend**\n🟩 done · 🟨 now · ⬜ taught, not studied · 🟥 not taught yet · 🟪 parked\nCrow updates the colours as blocks close.\n🟧 shaky (see the ⚠ line)"
-		},
-		{
-			"id": "ips1",
-			"type": "text",
-			"text": "**Definition + classification**\nIP = land / building(s) held for rentals or capital appreciation, NOT owner-use or resale\n3-way split: TAS 40 (IP) vs TAS 16 (PPE, owner-occupied) vs TAS 2 (Inventory, held for sale)\nTraps: undetermined future use → still counts as IP · insignificant ancillary services (security guard) → still IP · significant services (owner-managed hotel) → NOT IP, it's PPE · mixed-use property splits into two only if the portions could be sold separately",
-			"x": 900,
-			"y": 0,
-			"width": 460,
-			"height": 230
-		},
-		{
-			"id": "ips2",
-			"type": "text",
-			"text": "**Recognition + initial measurement**\nSame 2-gate test as PPE: ① probable future benefit ② cost reliably measured\nCost = purchase price + directly attributable costs, same acquisition routes as PPE (purchase / deferred payment / lease / exchange / donation) — excludes start-up costs, pre-occupancy operating losses, abnormal waste",
-			"x": 900,
-			"y": 260,
-			"width": 460,
-			"height": 180
-		},
-		{
-			"id": "ips3",
-			"type": "text",
-			"text": "**Subsequent measurement — the real exam material**\nEntity picks ONE policy (cost or fair value) for ALL its IP — switching FV→cost is 'highly unlikely' to be allowed under TAS 8\nFair value model: gain/loss straight to P&L every period, no depreciation; don't double-count fixtures/furniture already folded into the FV\nCost model: follow TAS 16 rules + TAS 36 impairment; must still DISCLOSE fair value\nCan't measure FV reliably → rare exception, fall back to cost model, residual assumed zero (mainly matters for IP under construction)",
-			"x": 900,
-			"y": 470,
-			"width": 460,
-			"height": 270
-		},
-		{
-			"id": "ips4",
-			"type": "text",
-			"text": "**Transfers between IP / PPE / inventory — the trap section**\nCost model: transfer changes NOTHING in carrying amount\nFair value model: treated like a REVALUATION — increase → impairment-reversal first, then OCI surplus; decrease → P&L, or eat into an existing surplus first (same order as the PPE revaluation chain already drilled in M2)\nInventory → IP@FV, or construction-complete → IP@FV: the difference goes straight to P&L, no OCI step",
-			"x": 900,
-			"y": 770,
-			"width": 460,
-			"height": 230
-		},
-		{
-			"id": "ips5",
-			"type": "text",
-			"text": "**Derecognition + disclosure**\nGain/loss = proceeds − carrying amount, to P&L (never revenue)\nDisclosure: which model is used, FV reconciliation (fair-value entities), rental income + direct operating expenses split by whether the property earned rent that period — likely light/qualitative on the exam, not a calc block",
-			"x": 900,
-			"y": 1030,
-			"width": 460,
-			"height": 180
-		},
-		{
-			"id": "ip",
-			"type": "text",
-			"text": "## Investment Property (TAS 40)\nSessions 12–13 · 33-slide deck, in hand since 17 Oct, untouched\nReuses the OCI/P&L revaluation mechanics already drilled hard in M2 (see n15–n17 in the M2 map) — the FV-model transfer rules are the same surplus/reversal logic, new label",
-			"x": 400,
-			"y": 525,
-			"width": 380,
-			"height": 160
-		},
-		{
-			"id": "cfs1",
-			"type": "text",
-			"text": "**Objective of financial reporting**\nFor existing/potential investors, lenders, creditors — decisions about buying/selling/holding, lending, voting rights\nAccrual ≠ cash basis — the deck's own exam-shaped examples: revenue recognised on delivery not collection · interest accrues before the quarterly payment is due · bonus expensed when announced, not when paid next Chinese New Year",
-			"x": 900,
-			"y": 1360,
-			"width": 460,
-			"height": 190
-		},
-		{
-			"id": "cfs2",
-			"type": "text",
-			"text": "**Qualitative characteristics**\nFundamental (need BOTH): Relevance (predictive/confirmatory value + materiality) + Faithful representation (complete, neutral, free from error — substance over form)\nEnhancing (nice to have): Comparability (≠ Consistency — consistency is the SAME method over time/entities, comparability is the goal that serves) · Verifiability (direct = observe directly e.g. count cash; indirect = recheck the model's inputs and recompute) · Timeliness · Understandability",
-			"x": 900,
-			"y": 1580,
-			"width": 460,
-			"height": 210
-		},
-		{
-			"id": "cfs3",
-			"type": "text",
-			"text": "**Financial statements + reporting entity**\nReporting period + at least one prior comparative period + limited forward-looking info (only if it ties to existing assets/liabilities/income/expenses)\nGoing concern — TSA 570 indicators: net liability/current-liability position · capital deficit · debt maturing with no realistic refinance · key management loss · critical supply shortage · intent to liquidate · adverse law change · breach of statutory requirement\nConsolidated (parent + subsidiaries) vs unconsolidated/separate (parent alone) vs combined (no parent-subsidiary link at all)",
-			"x": 900,
-			"y": 1820,
-			"width": 460,
-			"height": 250
-		},
-		{
-			"id": "cfs4",
-			"type": "text",
-			"text": "**Elements of the financial statements**\nAssets = Liabilities + Equity · Income − Expenses\nAsset = present economic resource controlled from past events = right + potential benefit + control (3-part test)\nLiability = present obligation to transfer a resource from a past event — 3 criteria, includes CONSTRUCTIVE obligation (practice/policy, not just contract/law) — same concept as AC311's own Provisions chapter (M1), new label\nIncome = revenue + gains · Expense = expense + losses — 5 classic revenue-recognition trap scenarios (consignment billed-on-consumption · prepaid game-card hours · construction advance for next year's build · sale with 30-day right of return · unused hotel vouchers)",
-			"x": 900,
-			"y": 2100,
-			"width": 460,
-			"height": 300
-		},
-		{
-			"id": "cfs5",
-			"type": "text",
-			"text": "**Recognition + derecognition**\nRecognition = capturing an item that meets an element's definition — NOT every qualifying item actually gets recognised\nDerecognition = removal once it no longer meets the definition (asset: entity loses control · liability: entity no longer has the obligation)",
-			"x": 900,
-			"y": 2430,
-			"width": 460,
-			"height": 170
-		},
-		{
-			"id": "cfs6",
-			"type": "text",
-			"text": "**Measurement bases**\nHistorical cost (locked to the transaction-date price, doesn't update except for impairment or a liability becoming onerous) vs Current value: fair value (exit price, orderly market) · value in use / fulfilment value (PV of expected future cash flows) · current cost (entry price, updated to today)",
-			"x": 900,
-			"y": 2630,
-			"width": 460,
-			"height": 170
-		},
-		{
-			"id": "cfs7",
-			"type": "text",
-			"text": "**Presentation + disclosure**\nClassification (group by shared nature / function / measurement basis) · Offsetting (generally NOT allowed unless it reflects the real substance) · Profit-or-loss vs OCI split · Aggregation (enough detail to inform, not so much it's noise — the same judgement call disclosure always tests)",
-			"x": 900,
-			"y": 2830,
-			"width": 460,
-			"height": 170
-		},
-		{
-			"id": "cf",
-			"type": "text",
-			"text": "## Conceptual Framework\nSessions 14–15 · deck landed TODAY (17 Nov), zero drilling\nPure theory/definitions — no numbers, closer to a BA202-shaped paper than the rest of AC311\nExternally sourceable: this IS the IASB Conceptual Framework, identical worldwide — Kieso Ch.2 is a legitimate substitute here, unlike the rest of AC311",
-			"x": 400,
-			"y": 2100,
-			"width": 380,
-			"height": 160
-		},
-		{
-			"id": "root",
-			"type": "text",
-			"x": -80,
-			"y": 1425,
-			"width": 400,
-			"height": 280,
-			"text": "# AC311 Final\n25% · **Sat 28 Nov, 09:00**\nSessions 12–15 (last 2 blocks of the Sat/Ajarn Saifon run)\nBoth decks landed 17 Nov: Investment Property (parked since 17 Oct) + Conceptual Framework (added today)\nZero drilling done on either yet"
-		},
-		{
-			"id": "res",
-			"type": "text",
-			"x": -80,
-			"y": 1745,
-			"width": 400,
-			"height": 260,
-			"text": "**Resources**\n⚠ No past-paper match for THIS year's final scope — the Drive's `final 2021.pdf` covers impairment, which sits in THIS year's Midterm 2, not the final. Investment Property + Conceptual Framework have no past-paper proxy found yet — worth checking the Drive again or asking a senior directly.\nBoth decks now on disk: `Investment property_October 2026 (1).pptx` (33 slides) · `Framework financial reporting_2026.pdf` (added 17 Nov).",
-			"color": "5"
-		},
-		{
-			"id": "outline",
-			"type": "file",
-			"file": "study/outlines/AC311 Course Outline.pdf",
-			"x": -700,
-			"y": 1225,
-			"width": 520,
-			"height": 680
-		},
-		{
-			"id": "outlinecap",
-			"type": "text",
-			"text": "**Main course outline**\nwhat this map was built against",
-			"x": -700,
-			"y": 1115,
-			"width": 520,
-			"height": 90
-		}
-	],
-	"edges": [
-		{
-			"id": "eipips1",
-			"fromNode": "ip",
-			"fromSide": "right",
-			"toNode": "ips1",
-			"toSide": "left"
-		},
-		{
-			"id": "eipips2",
-			"fromNode": "ip",
-			"fromSide": "right",
-			"toNode": "ips2",
-			"toSide": "left"
-		},
-		{
-			"id": "eipips3",
-			"fromNode": "ip",
-			"fromSide": "right",
-			"toNode": "ips3",
-			"toSide": "left"
-		},
-		{
-			"id": "eipips4",
-			"fromNode": "ip",
-			"fromSide": "right",
-			"toNode": "ips4",
-			"toSide": "left"
-		},
-		{
-			"id": "eipips5",
-			"fromNode": "ip",
-			"fromSide": "right",
-			"toNode": "ips5",
-			"toSide": "left"
-		},
-		{
-			"id": "erootip",
-			"fromNode": "root",
-			"fromSide": "right",
-			"toNode": "ip",
-			"toSide": "left"
-		},
-		{
-			"id": "ecfcfs1",
-			"fromNode": "cf",
-			"fromSide": "right",
-			"toNode": "cfs1",
-			"toSide": "left"
-		},
-		{
-			"id": "ecfcfs2",
-			"fromNode": "cf",
-			"fromSide": "right",
-			"toNode": "cfs2",
-			"toSide": "left"
-		},
-		{
-			"id": "ecfcfs3",
-			"fromNode": "cf",
-			"fromSide": "right",
-			"toNode": "cfs3",
-			"toSide": "left"
-		},
-		{
-			"id": "ecfcfs4",
-			"fromNode": "cf",
-			"fromSide": "right",
-			"toNode": "cfs4",
-			"toSide": "left"
-		},
-		{
-			"id": "ecfcfs5",
-			"fromNode": "cf",
-			"fromSide": "right",
-			"toNode": "cfs5",
-			"toSide": "left"
-		},
-		{
-			"id": "ecfcfs6",
-			"fromNode": "cf",
-			"fromSide": "right",
-			"toNode": "cfs6",
-			"toSide": "left"
-		},
-		{
-			"id": "ecfcfs7",
-			"fromNode": "cf",
-			"fromSide": "right",
-			"toNode": "cfs7",
-			"toSide": "left"
-		},
-		{
-			"id": "erootcf",
-			"fromNode": "root",
-			"fromSide": "right",
-			"toNode": "cf",
-			"toSide": "left"
-		},
-		{
-			"id": "erootres",
-			"fromNode": "root",
-			"fromSide": "bottom",
-			"toNode": "res",
-			"toSide": "top"
-		},
-		{
-			"id": "eoutline",
-			"fromNode": "outline",
-			"fromSide": "right",
-			"toNode": "root",
-			"toSide": "left",
-			"label": "source"
-		}
-	]
+ "nodes": [
+  {
+   "id": "legend",
+   "type": "text",
+   "x": 0,
+   "y": -280,
+   "width": 460,
+   "height": 210,
+   "text": "**Legend**\n🟩 done · 🟨 now · ⬜ taught, not studied · 🟥 not taught yet · 🟪 parked\nCrow updates the colours as blocks close.\n🟧 shaky (see the ⚠ line)"
+  },
+  {
+   "id": "ips1",
+   "type": "text",
+   "text": "**Definition + classification**\nIP = land / building(s) held for rentals or capital appreciation, NOT owner-use or resale\n3-way split: TAS 40 (IP) vs TAS 16 (PPE, owner-occupied) vs TAS 2 (Inventory, held for sale)\nTraps: undetermined future use → still counts as IP · insignificant ancillary services (security guard) → still IP · significant services (owner-managed hotel) → NOT IP, it's PPE · mixed-use property splits into two only if the portions could be sold separately",
+   "x": 900,
+   "y": 0,
+   "width": 460,
+   "height": 230
+  },
+  {
+   "id": "ips2",
+   "type": "text",
+   "text": "**Recognition + initial measurement**\nSame 2-gate test as PPE: ① probable future benefit ② cost reliably measured\nCost = purchase price + directly attributable costs, same acquisition routes as PPE (purchase / deferred payment / lease / exchange / donation) — excludes start-up costs, pre-occupancy operating losses, abnormal waste",
+   "x": 900,
+   "y": 260,
+   "width": 460,
+   "height": 180
+  },
+  {
+   "id": "ips3",
+   "type": "text",
+   "text": "**Subsequent measurement — the real exam material**\nEntity picks ONE policy (cost or fair value) for ALL its IP — switching FV→cost is 'highly unlikely' to be allowed under TAS 8\nFair value model: gain/loss straight to P&L every period, no depreciation; don't double-count fixtures/furniture already folded into the FV\nCost model: follow TAS 16 rules + TAS 36 impairment; must still DISCLOSE fair value\nCan't measure FV reliably → rare exception, fall back to cost model, residual assumed zero (mainly matters for IP under construction)",
+   "x": 900,
+   "y": 470,
+   "width": 460,
+   "height": 270
+  },
+  {
+   "id": "ips4",
+   "type": "text",
+   "text": "**Transfers between IP / PPE / inventory — the trap section**\nCost model: transfer changes NOTHING in carrying amount\nFair value model: treated like a REVALUATION — increase → impairment-reversal first, then OCI surplus; decrease → P&L, or eat into an existing surplus first (same order as the PPE revaluation chain already drilled in M2)\nInventory → IP@FV, or construction-complete → IP@FV: the difference goes straight to P&L, no OCI step",
+   "x": 900,
+   "y": 770,
+   "width": 460,
+   "height": 230
+  },
+  {
+   "id": "ips5",
+   "type": "text",
+   "text": "**Derecognition + disclosure**\nGain/loss = proceeds − carrying amount, to P&L (never revenue)\nDisclosure: which model is used, FV reconciliation (fair-value entities), rental income + direct operating expenses split by whether the property earned rent that period — likely light/qualitative on the exam, not a calc block",
+   "x": 900,
+   "y": 1030,
+   "width": 460,
+   "height": 180
+  },
+  {
+   "id": "ip",
+   "type": "text",
+   "text": "## Investment Property (TAS 40)\nSessions 12–13 · 33-slide deck, in hand since 17 Oct, untouched\nReuses the OCI/P&L revaluation mechanics already drilled hard in M2 (see n15–n17 in the M2 map) — the FV-model transfer rules are the same surplus/reversal logic, new label",
+   "x": 400,
+   "y": 525,
+   "width": 380,
+   "height": 160
+  },
+  {
+   "id": "cfs1",
+   "type": "text",
+   "text": "**Objective of financial reporting**\nFor existing/potential investors, lenders, creditors — decisions about buying/selling/holding, lending, voting rights\nAccrual ≠ cash basis — the deck's own exam-shaped examples: revenue recognised on delivery not collection · interest accrues before the quarterly payment is due · bonus expensed when announced, not when paid next Chinese New Year",
+   "x": 900,
+   "y": 1360,
+   "width": 460,
+   "height": 190
+  },
+  {
+   "id": "cfs2",
+   "type": "text",
+   "text": "**Qualitative characteristics**\nFundamental (need BOTH): Relevance (predictive/confirmatory value + materiality) + Faithful representation (complete, neutral, free from error — substance over form)\nEnhancing (nice to have): Comparability (≠ Consistency — consistency is the SAME method over time/entities, comparability is the goal that serves) · Verifiability (direct = observe directly e.g. count cash; indirect = recheck the model's inputs and recompute) · Timeliness · Understandability",
+   "x": 900,
+   "y": 1580,
+   "width": 460,
+   "height": 210
+  },
+  {
+   "id": "cfs3",
+   "type": "text",
+   "text": "**Financial statements + reporting entity**\nReporting period + at least one prior comparative period + limited forward-looking info (only if it ties to existing assets/liabilities/income/expenses)\nGoing concern — TSA 570 indicators: net liability/current-liability position · capital deficit · debt maturing with no realistic refinance · key management loss · critical supply shortage · intent to liquidate · adverse law change · breach of statutory requirement\nConsolidated (parent + subsidiaries) vs unconsolidated/separate (parent alone) vs combined (no parent-subsidiary link at all)",
+   "x": 900,
+   "y": 1820,
+   "width": 460,
+   "height": 250
+  },
+  {
+   "id": "cfs4",
+   "type": "text",
+   "text": "**Elements of the financial statements**\nAssets = Liabilities + Equity · Income − Expenses\nAsset = present economic resource controlled from past events = right + potential benefit + control (3-part test)\nLiability = present obligation to transfer a resource from a past event — 3 criteria, includes CONSTRUCTIVE obligation (practice/policy, not just contract/law) — same concept as AC311's own Provisions chapter (M1), new label\nIncome = revenue + gains · Expense = expense + losses — 5 classic revenue-recognition trap scenarios (consignment billed-on-consumption · prepaid game-card hours · construction advance for next year's build · sale with 30-day right of return · unused hotel vouchers)",
+   "x": 900,
+   "y": 2100,
+   "width": 460,
+   "height": 300
+  },
+  {
+   "id": "cfs5",
+   "type": "text",
+   "text": "**Recognition + derecognition**\nRecognition = capturing an item that meets an element's definition — NOT every qualifying item actually gets recognised\nDerecognition = removal once it no longer meets the definition (asset: entity loses control · liability: entity no longer has the obligation)",
+   "x": 900,
+   "y": 2430,
+   "width": 460,
+   "height": 170
+  },
+  {
+   "id": "cfs6",
+   "type": "text",
+   "text": "**Measurement bases**\nHistorical cost (locked to the transaction-date price, doesn't update except for impairment or a liability becoming onerous) vs Current value: fair value (exit price, orderly market) · value in use / fulfilment value (PV of expected future cash flows) · current cost (entry price, updated to today)",
+   "x": 900,
+   "y": 2630,
+   "width": 460,
+   "height": 170
+  },
+  {
+   "id": "cfs7",
+   "type": "text",
+   "text": "**Presentation + disclosure**\nClassification (group by shared nature / function / measurement basis) · Offsetting (generally NOT allowed unless it reflects the real substance) · Profit-or-loss vs OCI split · Aggregation (enough detail to inform, not so much it's noise — the same judgement call disclosure always tests)",
+   "x": 900,
+   "y": 2830,
+   "width": 460,
+   "height": 170
+  },
+  {
+   "id": "cf",
+   "type": "text",
+   "text": "## Conceptual Framework\nSessions 14–15 · deck landed TODAY (17 Nov), zero drilling\nPure theory/definitions — no numbers, closer to a BA202-shaped paper than the rest of AC311\nExternally sourceable: this IS the IASB Conceptual Framework, identical worldwide — Kieso Ch.2 is a legitimate substitute here, unlike the rest of AC311\n17 Nov, first live drill (café, question-first/Socratic-only per his new ask): Objective of reporting (all 3 decision types — buy/sell/hold, lend, vote — built from his own answers) + Qualitative characteristics (relevance's 2 faces + faithful rep's 3 parts, all self-derived with nudging) + Elements (asset's 3-part test + liability's constructive-obligation callback to AC311 Provisions) all landed solid with coaching, no flat misses — 2 vocab-recall gaps ghosted (constructive obligation, potential-for-benefit). Equity/income/expense + the 4 enhancing qualities + rest of the topic deferred to his ChatGPT run (his split).",
+   "x": 400,
+   "y": 2100,
+   "width": 380,
+   "height": 170,
+   "color": "3"
+  },
+  {
+   "id": "root",
+   "type": "text",
+   "x": -80,
+   "y": 1425,
+   "width": 400,
+   "height": 280,
+   "text": "# AC311 Final\n25% · **Sat 28 Nov, 09:00**\nSessions 12–15 (last 2 blocks of the Sat/Ajarn Saifon run)\nBoth decks landed 17 Nov: Investment Property (parked since 17 Oct) + Conceptual Framework (added today)\nZero drilling done on either yet"
+  },
+  {
+   "id": "res",
+   "type": "text",
+   "x": -80,
+   "y": 1745,
+   "width": 400,
+   "height": 260,
+   "text": "**Resources**\n⚠ No past-paper match for THIS year's final scope — the Drive's `final 2021.pdf` covers impairment, which sits in THIS year's Midterm 2, not the final. Investment Property + Conceptual Framework have no past-paper proxy found yet — worth checking the Drive again or asking a senior directly.\nBoth decks now on disk: `Investment property_October 2026 (1).pptx` (33 slides) · `Framework financial reporting_2026.pdf` (added 17 Nov).",
+   "color": "5"
+  },
+  {
+   "id": "outline",
+   "type": "file",
+   "file": "study/outlines/AC311 Course Outline.pdf",
+   "x": -700,
+   "y": 1225,
+   "width": 520,
+   "height": 680
+  },
+  {
+   "id": "outlinecap",
+   "type": "text",
+   "text": "**Main course outline**\nwhat this map was built against",
+   "x": -700,
+   "y": 1115,
+   "width": 520,
+   "height": 90
+  }
+ ],
+ "edges": [
+  {
+   "id": "eipips1",
+   "fromNode": "ip",
+   "fromSide": "right",
+   "toNode": "ips1",
+   "toSide": "left"
+  },
+  {
+   "id": "eipips2",
+   "fromNode": "ip",
+   "fromSide": "right",
+   "toNode": "ips2",
+   "toSide": "left"
+  },
+  {
+   "id": "eipips3",
+   "fromNode": "ip",
+   "fromSide": "right",
+   "toNode": "ips3",
+   "toSide": "left"
+  },
+  {
+   "id": "eipips4",
+   "fromNode": "ip",
+   "fromSide": "right",
+   "toNode": "ips4",
+   "toSide": "left"
+  },
+  {
+   "id": "eipips5",
+   "fromNode": "ip",
+   "fromSide": "right",
+   "toNode": "ips5",
+   "toSide": "left"
+  },
+  {
+   "id": "erootip",
+   "fromNode": "root",
+   "fromSide": "right",
+   "toNode": "ip",
+   "toSide": "left"
+  },
+  {
+   "id": "ecfcfs1",
+   "fromNode": "cf",
+   "fromSide": "right",
+   "toNode": "cfs1",
+   "toSide": "left"
+  },
+  {
+   "id": "ecfcfs2",
+   "fromNode": "cf",
+   "fromSide": "right",
+   "toNode": "cfs2",
+   "toSide": "left"
+  },
+  {
+   "id": "ecfcfs3",
+   "fromNode": "cf",
+   "fromSide": "right",
+   "toNode": "cfs3",
+   "toSide": "left"
+  },
+  {
+   "id": "ecfcfs4",
+   "fromNode": "cf",
+   "fromSide": "right",
+   "toNode": "cfs4",
+   "toSide": "left"
+  },
+  {
+   "id": "ecfcfs5",
+   "fromNode": "cf",
+   "fromSide": "right",
+   "toNode": "cfs5",
+   "toSide": "left"
+  },
+  {
+   "id": "ecfcfs6",
+   "fromNode": "cf",
+   "fromSide": "right",
+   "toNode": "cfs6",
+   "toSide": "left"
+  },
+  {
+   "id": "ecfcfs7",
+   "fromNode": "cf",
+   "fromSide": "right",
+   "toNode": "cfs7",
+   "toSide": "left"
+  },
+  {
+   "id": "erootcf",
+   "fromNode": "root",
+   "fromSide": "right",
+   "toNode": "cf",
+   "toSide": "left"
+  },
+  {
+   "id": "erootres",
+   "fromNode": "root",
+   "fromSide": "bottom",
+   "toNode": "res",
+   "toSide": "top"
+  },
+  {
+   "id": "eoutline",
+   "fromNode": "outline",
+   "fromSide": "right",
+   "toNode": "root",
+   "toSide": "left",
+   "label": "source"
+  }
+ ]
 }

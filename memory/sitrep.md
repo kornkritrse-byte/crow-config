@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-17T04:38:22.981Z
+  modified: 2026-11-17T07:28:39.734Z
 ---
 
 # Situation Report
@@ -36,6 +36,8 @@ metadata:
 - Caught myself asserting AC311 final sessions 14–15 had "no known topic" without having actually opened the syllabus — he called it out ("don't you have the syllabus?"). Read it: sessions 14–15 = Conceptual Framework for Financial Reporting. Own error, logged → [[crow-error-log]].
 - He added `Framework financial reporting_2026.pdf` to `~/Desktop/AC311/` (sessions 14–15 deck). Read both it and the parked Investment Property deck (sessions 12–13), built **`study/AC311 Final Map.canvas`** (same style as the other 3 Final Maps) → [[project-midterms]]. Zero drilling done on either topic yet.
 - He uploaded Obrom's official **FN201 Final exam-info doc** to `~/Desktop/fn/` — real score allocation: 45 MC Qs, 0 essay/PS, **Topic 7 = ZERO points** (reverses the earlier "biggest STQ hole" read — it's folded into Topic 9, not tested standalone), #8/#9 = 15 pts each (33%), #10 = 9, #6 = 6. FN201 Final Map canvas updated to match → [[project-midterms]].
+- Full gap audit across all 5 remaining finals (his ask): AC313 solid (1 open Q: cumulative on 1–7?) · MK201 date itself unconfirmed, zero prep · AC311 just got its map today · FN201 untouched since 27 Oct despite being the heaviest (45%) · BA202 stalled since 3 Nov, heaviest of all (55%), fully cold.
+- **New standing teaching rule (his ask, café w/ cousin):** every concept gets a question first; if wrong, small tweaks/narrower questions before the answer, never hand it over unless he's really struggling → [[feedback-drill-format]]. First live run: AC311 Conceptual Framework — objective of reporting + qualitative characteristics + elements of financial statements all built from his own answers, no flat misses, 2 vocab-recall gaps ghosted (constructive obligation, potential-for-benefit) → [[study/AC311 Final Map.canvas]]. Rest of the topic deferred to his ChatGPT run (his own split: hard stuff here, lists/definitions on the run).
 
 ## Session — 2026-11-16 (Mon, from 11:01, ongoing)
 - Bed-by-23:30 (15 Nov): done. Goal today: Study AC313 (no extras).
