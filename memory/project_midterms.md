@@ -6,13 +6,13 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 5b6c4e05-b760-4ef4-9ca7-afdb3856b8e3
-  modified: 2026-11-17T04:37:42.606Z
+  modified: 2026-11-17T07:40:41.069Z
 ---
 
 Opened 2026-08-23. **TOP PRIORITY.** Korn's stated order: midterms first, fitness second (fitness explicitly planned *around* studies).
 
-## ⚠️ 2026-11-15 — OPEN: is the AC313 final (23 Nov) cumulative on midterm-scope material?
-Never confirmed with the professor. Grading structure (40% midterm + 40% final + 20% quiz/assignment, each on non-overlapping chapters per row below) and the line "**AC313 scope is SMALLER than feared — overhead allocation, ABC, variable/absorption costing and standard costing/variance analysis are all AFTER the midterm**" both suggest a sequential, non-cumulative design — but that's inference, not confirmation. If the final IS cumulative, sessions 1–7 (fundamentals/cost classification, job order costing incl. spoilage/rework/scrap, process costing weighted-avg+FIFO, joint products & byproducts) are completely untouched since the Sep midterm and would need a real review pass. **Korn needs to actually ask her** — don't let this quietly resolve itself by default. See [[study/AC313 Final Map.canvas]] for the sessions 8–15 coverage (fully drilled as of 15 Nov).
+## ✅ 2026-11-17 — AC313 final cumulative question: CLOSED ENOUGH, not officially confirmed
+17 Nov: Korn asked friends — told it's NOT cumulative (sessions 8–15 only). **Friend-sourced, not the professor's own words**, but it now agrees with the structural inference (grading components on non-overlapping chapters, sequential exam periods) from two directions instead of one. Treat the risk as closed unless something contradicts it later — no need to keep chasing official confirmation this close to the exam (23 Nov). See [[study/AC313 Final Map.canvas]] for the sessions 8–15 coverage (fully drilled as of 15 Nov).
 
 **16 Nov — re-read the actual course outline (`~/Desktop/AC313/AC313 Course Outline-1-2026.pdf`), found two things:**
 1. **Structural support for non-cumulative, still not a direct confirmation:** midterm exam period sits right after session 7 (Sep 20–27), final sits right after session 15 (last day of classes Nov 21, final Nov 23) — standard sequential exam design. Stronger signal than before, but the outline never states "final is non-cumulative" in words — still tell him to actually ask her, don't let this become the de facto answer.
