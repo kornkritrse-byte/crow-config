@@ -293,3 +293,4 @@ metadata:
 - 2026-11-17 | Daily journal | open
 - 2026-11-17 | Reading | open
 - 2026-11-17 | Bed by 23:30 | open
+- 2026-11-17 | — | closed

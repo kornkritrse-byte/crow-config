@@ -6,11 +6,11 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-17T13:45:21.607Z
+  modified: 2026-11-17T13:50:56.023Z
 ---
 
 # Situation Report
-*Last updated: 2026-11-17 11:20. Window holds 17 Nov + 16 Nov; 14 Nov flushed 17 Nov. Next to flush: 15 Nov.*
+*Last updated: 2026-11-17 20:52 (verified + closed for the day). Window holds 17 Nov + 16 Nov; 14 + 15 Nov already flushed to sessions_log. Next to flush: 16 Nov (when 18 Nov opens).*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **About to reload the Room (17 Nov ~20:45)** — restarting `server.mjs` to load the new `/nightshift` system-wide Color Filters endpoint (built this turn, syntax-checked, UNTESTED past the macOS permission wall — needs an Accessibility grant first). Resume via `crow-room.sh --resume`. Back 19:15 from a good run (weather got him, forgot the ChatGPT study plan — not a miss). **After reload: finish the AC311 night session before his 21:00 hard stop** (morning run tomorrow).
+- **AWAY (17 Nov, ~20:49) — off to: logging off for the night.** ASK ON RETURN: nothing unreported — resume AC311 final prep (IP + Framework still undrilled, impairment deck not yet sourced, see session note below).
 - AC311 Midterm 2: DONE, 13 Nov, "easy shit." Only real uncertainty was the revaluation-surplus annual transfer (optional under IAS 16) — worked both ways, went with the with-transfer version. **Next: AC311 final 28 Nov.**
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
@@ -38,6 +38,7 @@ metadata:
 - He uploaded Obrom's official **FN201 Final exam-info doc** to `~/Desktop/fn/` — real score allocation: 45 MC Qs, 0 essay/PS, **Topic 7 = ZERO points** (reverses the earlier "biggest STQ hole" read — it's folded into Topic 9, not tested standalone), #8/#9 = 15 pts each (33%), #10 = 9, #6 = 6. FN201 Final Map canvas updated to match → [[project-midterms]].
 - Full gap audit across all 5 remaining finals (his ask): AC313 solid, cumulative question now closed enough (friends say not cumulative, agrees with the structural read) → [[project-midterms]] · MK201 date itself unconfirmed, zero prep · AC311 just got its map today · FN201 untouched since 27 Oct despite being the heaviest (45%) · BA202 stalled since 3 Nov, heaviest of all (55%), fully cold.
 - **New standing teaching rule (his ask, café w/ cousin):** every concept gets a question first; if wrong, small tweaks/narrower questions before the answer, never hand it over unless he's really struggling → [[feedback-drill-format]]. First live run: AC311 Conceptual Framework — objective of reporting + qualitative characteristics + elements of financial statements all built from his own answers, no flat misses, 2 vocab-recall gaps ghosted (constructive obligation, potential-for-benefit) → [[study/AC311 Final Map.canvas]]. Rest of the topic deferred to his ChatGPT run (his own split: hard stuff here, lists/definitions on the run).
+- **Correction (20:47, his report after sitting M2):** impairment (TAS 36, session 11) was NOT on M2 after all — it's carried onto the AC311 FINAL instead (4th final topic, not yet sourced/drilled) → [[project-midterms]]. Separately: nightshift Color Filters endpoint built + syntax-checked earlier tonight, untested past the macOS Accessibility permission wall — Room reload still pending, resume via `crow-room.sh --resume`.
 
 ## Session — 2026-11-16 (Mon, from 11:01, ongoing)
 - Bed-by-23:30 (15 Nov): done. Goal today: Study AC313 (no extras).
