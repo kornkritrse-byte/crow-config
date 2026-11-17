@@ -287,3 +287,9 @@ metadata:
 - 2026-11-16 | Reading | open
 - 2026-11-16 | Bed by 23:30 | open
 - 2026-11-16 | Study AC313 | open
+- 2026-11-17 | Wake early | open
+- 2026-11-17 | Morning creative writing | open
+- 2026-11-17 | Moving | open
+- 2026-11-17 | Daily journal | open
+- 2026-11-17 | Reading | open
+- 2026-11-17 | Bed by 23:30 | open
