@@ -57,11 +57,12 @@
   {
    "id": "ip",
    "type": "text",
-   "text": "## Investment Property (TAS 40)\nSessions 12–13 · 33-slide deck, in hand since 17 Oct, untouched\nReuses the OCI/P&L revaluation mechanics already drilled hard in M2 (see n15–n17 in the M2 map) — the FV-model transfer rules are the same surplus/reversal logic, new label",
+   "text": "## Investment Property (TAS 40)\nSessions 12–13 · 33-slide deck, in hand since 17 Oct, untouched\nReuses the OCI/P&L revaluation mechanics already drilled hard in M2 (see n15–n17 in the M2 map) — the FV-model transfer rules are the same surplus/reversal logic, new label\n17 Nov, home session: classification (service-significance test) + recognition (2 gates) + acquisition routes + full transfer mechanics (worked entries, both directions, PPE↔IP and inventory↔IP) + derecognition all drilled solid. Disclosure skipped on his call (low-stakes, revisit only if it shows up). Recurring miss pattern: reached for equity/OCI in 3 wrong places before it held — 3 ghost cards + a Pocket Procedures table built to kill it.",
    "x": 400,
    "y": 525,
    "width": 380,
-   "height": 160
+   "height": 160,
+   "color": "4"
   },
   {
    "id": "cfs1",
