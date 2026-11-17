@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: c38e29c0-da2f-4906-8e70-a7a356ec2563
-  modified: 2026-11-15T04:37:58.133Z
+  modified: 2026-11-17T04:19:37.726Z
 ---
 
 # Sessions Log (archive)
@@ -517,6 +517,20 @@ metadata:
 - MCQ/recall pp. 1–2 + residence 11/13 (✗ petroleum co → CIT · ✗ Toyota Thailand "foreign"; both habit #2). Sheet printed at uni ✓.
 - Cases Ms B + Mr C: M2 > M1 trap ✓; ✗ step-3 drop-outs, allowances, elected actual, life cap, s.63 refund → all ghosted. Habit #1 fired 4×.
 - 16:37 BA202 done ("finished getting fucked"), no post-mortem at his ask. AC311 classification 17:00: 4 ✗ (petty cash, travel advance, compensating balance, foreign deposit) → 7 cards.
+
+## Session — 2026-11-15 (Sun, from 11:38) — flushed 17 Nov
+- **Big structural day.** His own ask: dropped the fixed weekly training calendar for targets (5 runs/wk, 40 km/wk, 1 long run, intervals worked in) → [[project-training-plan]]. Rewrote `~/CLAUDE.md`: no rest/stop nudges in training OR work unless he self-reports struggling → [[feedback-push-not-coddle]], trial calibration, check back ~18–20 Nov.
+- Morning body scare (under-hydration ache) resolved clean by afternoon.
+- **AC313 final map (sessions 8–15) FULLY covered**, 8 days before the 23 Nov final — all 3 allocation methods, every variance incl. a full journal chain, departmental rates. First live test of the push-rule: Crow offered an easy stop mid-method, Korn called it out, corrected.
+- **F/U direction flipped 5+ times** (yield, OH spending, OH efficiency, materials quantity, volume) — each ghosted + one meta-rule card. The volume-variance exception (more capacity used = FAVORABLE) was the one closing-MCQ miss.
+- Open, pushed to [[project-midterms]]: is the AC313 final cumulative on sessions 1–7? Still unconfirmed — he needs to ask her.
+- Evening: morning creative writing + daily journal both done; full flower bar the stale Sunday-long-run line and bedtime.
+
+## Session — 2026-11-14 (Sat, from 14:24) — flushed 17 Nov
+- 📗 AC313 FINAL prep resumed via a pasted handoff. Materials mix variance direction taught (70/30→60/40 rubber) — missed first, ghosted.
+- 🧭 Pivoted to real 2021 past-paper MCQs (his call): found the file's own pre-marked selections aren't a trustworthy key — graded from first principles. 4 real calc Qs landed correct (ABC vs plantwide, absorption gross margin, labor rate variance, step-down allocation).
+- Pocket Procedures +2 toggles. Fixed OH spending vs volume + materials mix/yield both drilled fresh, missed-then-corrected (fully re-validated 15 Nov).
+- Goals/bed closed 21:47: bed-by-23:30 missed. Off for a run 17:09, back 19:26.
 
 ## Session — 2026-10-23 (Fri)
 - 14:26 back; first ask: update the sitrep (done: 21 Oct flushed, 22 Oct condensed).
