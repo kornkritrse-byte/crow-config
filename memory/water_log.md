@@ -207,3 +207,7 @@ metadata:
 - 2026-11-16 21:16 | goal | Training: Lift + easy 40′
 - 2026-11-17 20:50 | task | AC311 study session (17 Nov)
 - 2026-11-18 14:38 | ghost | AC313 variances: Shoe sole normally 70% cheap rubber / 30% expensive rubber.
+- 2026-11-18 14:39 | goal | Wake early
+- 2026-11-18 14:39 | goal | Morning creative writing
+- 2026-11-18 14:39 | goal | Reading
+- 2026-11-18 14:39 | goal | Training: 2 × 15′ @ T

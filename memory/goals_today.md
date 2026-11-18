@@ -294,9 +294,9 @@ metadata:
 - 2026-11-17 | Reading | open
 - 2026-11-17 | Bed by 23:30 | open
 - 2026-11-17 | — | closed
-- 2026-11-18 | Wake early | open
-- 2026-11-18 | Morning creative writing | open
-- 2026-11-18 | Training: 2 × 15′ @ T | open
+- 2026-11-18 | Wake early | done
+- 2026-11-18 | Morning creative writing | done
+- 2026-11-18 | Training: 2 × 15′ @ T | done
 - 2026-11-18 | Daily journal | open
-- 2026-11-18 | Reading | open
+- 2026-11-18 | Reading | done
 - 2026-11-18 | Bed by 23:30 | open
