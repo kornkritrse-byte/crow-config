@@ -125,7 +125,8 @@
    "x": 900,
    "y": 2240,
    "width": 440,
-   "height": 170
+   "height": 170,
+   "color": "4"
   },
   {
    "id": "t8s2",
@@ -134,7 +135,8 @@
    "x": 900,
    "y": 2440,
    "width": 440,
-   "height": 170
+   "height": 170,
+   "color": "4"
   },
   {
    "id": "t8s3",
@@ -143,7 +145,8 @@
    "x": 900,
    "y": 2640,
    "width": 440,
-   "height": 170
+   "height": 170,
+   "color": "4"
   },
   {
    "id": "t8s4",
@@ -152,7 +155,8 @@
    "x": 900,
    "y": 2840,
    "width": 440,
-   "height": 170
+   "height": 170,
+   "color": "4"
   },
   {
    "id": "t8s5",
@@ -161,7 +165,8 @@
    "x": 900,
    "y": 3040,
    "width": 440,
-   "height": 170
+   "height": 170,
+   "color": "4"
   },
   {
    "id": "t8s6",
@@ -179,16 +184,18 @@
    "x": 900,
    "y": 3440,
    "width": 440,
-   "height": 170
+   "height": 170,
+   "color": "4"
   },
   {
    "id": "t8s8",
    "type": "text",
-   "text": "**MCC schedule & break points** ← the core\nBP = ΔRE ÷ w(equity), or cheap-tranche limit ÷ its weight · one step per BP · run it backwards: weights from an MCC\nS8: Q11, 12, 17, 20, 22, 23, 28, 29–32, 37, 39–40, 47–51",
+   "text": "**MCC schedule & break points** ← the core\nBP = ΔRE ÷ w(equity), or cheap-tranche limit ÷ its weight · one step per BP · run it backwards: weights from an MCC\nS8: Q11, 12, 17, 20, 22, 23, 28, 29–32, 37, 39–40, 47–51\n18 Nov: single AND multi break-point (Q11, Q17, Q20) all nailed clean. Still ahead: 3+ BP w/ actual-vs-optimal weights (Q22 style).",
    "x": 900,
    "y": 3640,
    "width": 440,
-   "height": 170
+   "height": 170,
+   "color": "3"
   },
   {
    "id": "t8s9",

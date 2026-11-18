@@ -211,3 +211,4 @@ metadata:
 - 2026-11-18 14:39 | goal | Morning creative writing
 - 2026-11-18 14:39 | goal | Reading
 - 2026-11-18 14:39 | goal | Training: 2 × 15′ @ T
+- 2026-11-18 18:45 | task | FN201 WACC/MCC computation session: full TTA WACC calc + single and multi break-point MCC schedules
