@@ -206,3 +206,4 @@ metadata:
 - 2026-11-16 21:03 | task | AC313 full 8-entry journal chain, redone solo unaided, self-corrected a VOH efficiency/rate terminology mixup
 - 2026-11-16 21:16 | goal | Training: Lift + easy 40′
 - 2026-11-17 20:50 | task | AC311 study session (17 Nov)
+- 2026-11-18 14:38 | ghost | AC313 variances: Shoe sole normally 70% cheap rubber / 30% expensive rubber.
