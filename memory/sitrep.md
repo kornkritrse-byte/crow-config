@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-19T08:54:59.504Z
+  modified: 2026-11-19T13:46:36.660Z
 ---
 
 # Situation Report
@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (19 Nov, from ~12:38, at a library, leaving ~16:30).** FN201 session paused mid-afternoon, resuming this evening (his call, said 15:53) — topic 8 remainder (risk-adjusted WACC, trade-off model) or topic 9 (capital budgeting, untouched, equal weight), his pick when he's back.
+- **Here (19 Nov, evening resume 20:28–20:45, about to wind down).** FN201 topic 8 now fully closed except t8s6 (ST debt in WACC, calc-heavy, saved for fresh). Topic 9 (capital budgeting) untouched, same weight as topic 8. 3 drill Qs + WACC↔MCC re-teach queued in the canvas for next session.
 - AC311 Midterm 2: DONE, 13 Nov, "easy shit." Only real uncertainty was the revaluation-surplus annual transfer (optional under IAS 16) — worked both ways, went with the with-transfer version. **Next: AC311 final 28 Nov.**
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
@@ -46,7 +46,7 @@ metadata:
 - FN201 topic 8 deep block: Q22 (actual-vs-optimal weighted MCC, the stated 18 Nov gap) run clean start to finish. Q23 (full version — bond YTM via BA II Plus, kp, DDM+flotation ks/ke, market-value weights, break point, THB70M fund split) walked through guided, zero errors once structured, then re-run solo clean. Q29-32 (same family, kd given directly) run solo with light Q&A — one real slip (dropped g from ks, i.e. used dividend yield alone) self-corrected after a pointer.
 - **Ghosted:** retention ratio "b" in g = b×ROE — blanked on it twice today (once mid-walkthrough, once in the "solo" pass) → [[ghost-deck]].
 - Canvas updated (`study/FN201 Final Map.canvas`, MCC/break-point node): this sub-block now solid. Scope check given (his ask): today covered ~topic 8's hardest piece only, ~15% of the paper — risk-adjusted WACC, the trade-off model, and all of topic 9 (capital budgeting, equal weight to topic 8) still untouched.
-- Plan: FN201 resumes this evening, his call on risk-adjusted WACC/trade-off model vs. starting topic 9 → [[ledger-said-did]].
+- **Evening resume (20:28–20:45):** t8s9 (risk-adjusted WACC) + t8s10 (trade-off model) both closed, concept-only, ~17 min. Risk-adjusted WACC took 2 hints — he had PV-vs-discount-rate backwards (said lower rate → lower PV; it's the reverse) and first guessed "rejected" instead of "accepted" for the risky-project case → ghosted. Trade-off model landed clean (bankruptcy/distress risk pulls WACC back up past the optimal point). Canvas colors updated (t8s8 → green/solid). He then asked for the WACC↔MCC link cleared up — explained (WACC = one weighted-avg %, MCC = that % plotted against total new capital raised, stepping up at each break point) + queued 3 drill Qs for next session, saved directly in the canvas (`study/FN201 Final Map.canvas`, top of the t8s8 node). Topic 8 fully closed except t8s6 (ST debt in WACC, calc-heavy — saved for when fresh). Topic 9 still fully untouched.
 
 ## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. AC311 final 28 Nov. AC313 final Mon 23 Nov 09:00 (next up, 8 days out).
 
