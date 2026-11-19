@@ -214,3 +214,5 @@ metadata:
 - 2026-11-18 18:45 | task | FN201 WACC/MCC computation session: full TTA WACC calc + single and multi break-point MCC schedules
 - 2026-11-19 12:38 | ghost | AC313 variances: If yield variance is unfavorable, is mix variance automatica
 - 2026-11-19 15:46 | task | FN201 topic 8: full Q22/Q23/Q29-32 drill block — actual-vs-optimal weighted MCC, break points, bond YTM, DDM with flotation. Gap from 18 Nov closed.
+- 2026-11-19 15:54 | goal | Wake early
+- 2026-11-19 15:54 | goal | Morning creative writing

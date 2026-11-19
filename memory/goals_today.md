@@ -300,8 +300,8 @@ metadata:
 - 2026-11-18 | Daily journal | open
 - 2026-11-18 | Reading | done
 - 2026-11-18 | Bed by 23:30 | open
-- 2026-11-19 | Wake early | open
-- 2026-11-19 | Morning creative writing | open
+- 2026-11-19 | Wake early | done
+- 2026-11-19 | Morning creative writing | done
 - 2026-11-19 | Moving | open
 - 2026-11-19 | Daily journal | open
 - 2026-11-19 | Reading | open

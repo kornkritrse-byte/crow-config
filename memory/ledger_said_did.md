@@ -8,7 +8,7 @@ metadata:
     - ledger-said-did
   type: project
   originSessionId: fdcec1e9-d0f0-421a-aa68-2f9c7d4377d2
-  modified: 2026-11-17T07:42:45.238Z
+  modified: 2026-11-19T08:54:08.707Z
 ---
 
 # 🪞 Said / Did
@@ -61,5 +61,6 @@ metadata:
 - [~] 2026-11-07 → 2026-11-07 | "realistically when I would have the most free time would be in the afternoon like 1pm": Sat 7 Nov ~13:00 AC311 block (next = real 2021 mid2 P1 borrowing costs, blank page on paper; then due ghost cards). Morning = reading + household. Said 10:35 Sat → [~] started 15:20 (not 13:00), but did MORE than the minimum: P1 + 20 cards by 17:00, then 21:18–23:06 2021 final (5 MCQ + P1 + P2 + equipment chain a–c)
 - [-] 2026-11-08 → 2026-11-08 | "after I go run lets get in a ac session": AC311 session tonight after the run (said 17:17 Sun) → 10 Nov: the 10 km happened, the AC session did not (his words: "if it did happen you would've known")
 - [~] 2026-11-14 → 2026-11-15 | "tmr we can work through and try to [nail] working examples of reciprocal and the step down method honestly all three of those things": AC313 support-department methods (direct, step-down, reciprocal) as real worked calculations, Sun 15 Nov, fresh head. His call to defer tonight (step-down/reciprocal only got light cold-MCQ exposure 14 Nov, no full worked rep on reciprocal, direct method untouched). Said 21:06 Sat → [~] partial 15 Nov: did them but not entirely — his own read 16 Nov: "drifted from that as our structure to just finishing all topics." Still open going into today's AC313 study.
-- [ ] 2026-11-17 → 2026-11-18 | "tmr im thinking of running through finance because thats the one im most scared of right now": FN201 study block, Wed 18 Nov (scope: topics 8+9, now confirmed as 2/3 of the final). Plan beyond tomorrow is conditional on how it goes — a 2nd FN201 day, then AC311 until 1–2 days before AC313 (23 Nov), which gets only a light review pass right before. Said 14:42 Tue, café with his cousin.
+- [x] 2026-11-17 → 2026-11-18 | "tmr im thinking of running through finance because thats the one im most scared of right now": FN201 study block, Wed 18 Nov (scope: topics 8+9, now confirmed as 2/3 of the final). Said 14:42 Tue, café with his cousin. → confirmed done via git (ghost_deck.md + FN201 canvas touched 18 Nov, WACC/MCC single+multi break-point nailed) though not logged in sitrep that day (Crow's maintenance miss). 19 Nov: 2nd FN201 day ran — Q22/Q23/Q29-32 (actual-vs-optimal weighted MCC family) closed, one ghost card (retention ratio "b").
+- [ ] 2026-11-19 → 2026-11-19 evening | "lets save the fn for this evening then": continue FN201 topic 8 (risk-adjusted WACC, capital-structure trade-off model) or move into topic 9 (capital budgeting, untouched, equal weight) — his call which. Said 15:53 Thu, from the library.
 - [ ] 2026-11-17 → next check | "ill take a look if there are some other resources I can look through... ill check the teams and see what they got if not ill call up some friends": check Teams + classmates for an Investment Property past-paper or practice resource (none found in the senior Drive). Said 20:56 Tue.
