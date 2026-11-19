@@ -1,9 +1,13 @@
 ---
 name: crow-error-log
-aliases: ["crow-error-log"]
-description: Crow's own mistakes with Korn, newest on top. Same failure shape keeps recurring: asserting before checking the record. Read before claiming a defect, a date, or a time.
+description: "Crow's own mistakes with Korn, newest on top. Same failure shape keeps recurring: asserting before checking the record. Read before claiming a defect, a date, or a time."
 metadata:
+  node_type: memory
+  aliases:
+    - crow-error-log
   type: feedback
+  originSessionId: 83152072-0586-43cf-bd9f-8e4b3fc54c1f
+  modified: 2026-11-19T08:55:23.260Z
 ---
 
 # ⚠️ Crow's Error Log
@@ -46,3 +50,4 @@ metadata:
 - **2026-11-11 17:58 — AC311 2021 final P2(d) key.** Gave the 20X5 reversal as Dr Acc impairment 1,000,000 + Dr Machine 800,000, which leaves the accumulated depreciation sitting there. The question says ELIMINATION method, so at the 20X5 revaluation the acc dep (2,700,000 + 700,000) must be wiped against the Machine too. Numbers (600k P&L / 1.2M surplus) were right; the entry form wasn't. Caught it myself when he asked for one combined entry, and corrected it to him in the same turn. Shape: wrote the entry without re-checking it against the method the question names.
 - **2026-11-11 20:31–21:46 — ConLaw transcription: promised timings I never measured.** Quoted "8–10 h, V1 tomorrow afternoon" from an old note (2h42 in 18 min), then agreed to skip the 10-min test when he said "just do the whole thing". Measured at 21:50 on THIS Mac (A18 Pro, 8 GB, on battery): turbo 1.7× real-time with poor Thai; Thonburian 0.5× real-time and it fell into a hallucination loop ("สอนสดๆทุกวันอังคาร … @ysocial") from 12:30 into tape 1. 75 min of run time lost. **Fix: time a 10-min sample on the actual machine BEFORE quoting a duration, and say so if he wants to skip it — skipping the test is his call, the estimate is mine.**
 - **2026-11-17 20:5x — AC311 Final Map: called impairment "no deck yet, needs sourcing" without checking disk.** `Impairment of Assets_OctNov_2026.pdf` + a converted `.md` were already sitting in `~/Desktop/AC311/` since 3 Nov, and it had already been taught/drilled once ahead of M2. Wrote the correction straight from the old syllabus note ("save for later class," PPE slide 97) instead of checking what had actually landed on disk since. Caught and fixed same session when he asked about past papers for it. **Shape repeats 2026-10-20/27 etc.: before writing any "material missing/not sourced" line, check the actual folder first.**
+- **2026-11-18 (no exact time) — sitrep session note never written for the FN201 study block that actually happened.** The maintenance rule says maintain live during the session; that day's note was skipped entirely, so 2026-11-19 opened with no record of it. When Korn said "we did do that yesterday no?", Crow checked the sitrep (empty) and answered "there's no session logged" — technically true of the sitrep, but read by him as a flat denial, and it wasn't the full picture: git showed `ghost_deck.md` + the FN201 canvas both touched 18 Nov, confirming the session did happen. Korn pushed back ("tf") before Crow dug further. **Two fixes: (1) actually write the live session note during the session, not just at close — a day can't get skipped. (2) when the sitrep is silent on a specific day and he's confident it happened, check git (`bin/recall.sh` or `git log --since/--until`) before saying "unverified" — sitrep silence means the note wasn't written, not that the day was empty.**

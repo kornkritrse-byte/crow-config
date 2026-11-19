@@ -6,10 +6,18 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: c38e29c0-da2f-4906-8e70-a7a356ec2563
-  modified: 2026-11-17T04:19:37.726Z
+  modified: 2026-11-19T08:54:34.750Z
 ---
 
 # Sessions Log (archive)
+## 2026-11-16 (Mon, from 11:01)  *(flushed from SITREP 19 Nov)*
+- Bed-by-23:30 (15 Nov): done. Goal today: Study AC313 (no extras).
+- Said/did line 63 (14→15 Nov reciprocal/step-down) closed: both methods run fully unaided on fresh constructed problems, only bookkeeping slips left — all ghosted.
+- AC313 Final Map canvas caught up (step-down/reciprocal/vas1 nodes); Pocket Procedures +4 toggles.
+- Added **MK201 Final, Thu 26 Nov 09:00–12:00** to Life calendar (assumed, unconfirmed — flag if wrong).
+- Two MCQ rounds (20 Qs): F/U-direction (8/10) + mixed (7/10), 5 misses ghosted. **Doing ≠ naming** flagged as the highest-value gap.
+- Live 8-entry journal chain: closing-to-COGS entry ran clean unaided ($4,035 debit). Upstream misses (usage, VOH applied) both traced to WIP/applied lines needing STANDARD not actual — both ghosted.
+
 ## 2026-11-12 (Thu, from 20:36)  *(flushed from SITREP 14 Nov)*
 - ⚖️ Conlaw job: V2 consistency pass across all 12 chapters, V1+V2 uploaded to Drive (private link given); V1 split into 12 per-tape files after the 4.7MB single file wouldn't preview. Durations verified vs real mp3 length — all close except **con06, ~4 min short, worth a spot-check**.
 - 📘 AC311 Mid2 (next day) prep: basket/lump-sum allocation and specific-vs-general borrowings-split gaps caught and corrected clean. Revaluation-vs-impairment trigger drilled fresh and passed cold. ARO (PV→capitalize→depreciate→accrete) drilled twice, first run had digit-transposition typos, second clean.
