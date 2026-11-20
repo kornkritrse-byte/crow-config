@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-20T11:45:29.329Z
+  modified: 2026-11-20T11:53:10.419Z
 ---
 
 # Situation Report
@@ -32,7 +32,8 @@ metadata:
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
-## Session — 2026-11-20 (Fri, from 11:24, restarted ~16:20 + ~18:44 — ongoing)
+## Session — 2026-11-20 (Fri, from 11:24, restarted ~16:20 + ~18:44 + ~18:49 — ongoing)
+- **Notion connector finally live this restart.** Built "FN201 Final — Conceptual Guide" as a sub-page under Pocket Procedures → [[reference-pocket-procedures]] — topics 6–10, conceptual layer only, pulled from the Final Map canvas; calc-heavy stuff stays in the ghost deck.
 - Ghost 30 (AC313 product-sustaining activity) passed cold, box 2.
 - **AC313 full re-test** (his call: the canvas's "green" wasn't earning it) — overhead/ABC, all 3 support-dept methods, standard-costing variances, mix/yield, all re-run with real exam numbers. Real gaps: benchmark-selection confusion (which hours/rate a variance uses) and a rounding-precision habit, NOT raw calc ability like the map implied. 8 ghost cards.
 - **AC311 Investment Property fully mapped** — all 5 branches tested. Transfers + journal entries mostly solid (1 miss). **Subsequent measurement went 0/3** — the real weak branch, not transfers like the history implied. 5 more ghost cards.
