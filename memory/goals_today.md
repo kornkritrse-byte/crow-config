@@ -306,9 +306,9 @@ metadata:
 - 2026-11-19 | Daily journal | open
 - 2026-11-19 | Reading | done
 - 2026-11-19 | Bed by 23:30 | open
-- 2026-11-20 | Wake early | open
-- 2026-11-20 | Morning creative writing | open
-- 2026-11-20 | Moving | open
+- 2026-11-20 | Wake early | done
+- 2026-11-20 | Morning creative writing | done
+- 2026-11-20 | Moving | done
 - 2026-11-20 | Daily journal | open
-- 2026-11-20 | Reading | open
+- 2026-11-20 | Reading | done
 - 2026-11-20 | Bed by 23:30 | open
