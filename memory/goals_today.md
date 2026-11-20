@@ -1,6 +1,7 @@
 ---
 name: goals-today
 description: "Korn's goals per day: one blossom each on the Crow Room's plum blossom; the petals fall when he logs off. Written by bin/goals.py"
+aliases: ["goals-today"]
 metadata:
   node_type: memory
   aliases:

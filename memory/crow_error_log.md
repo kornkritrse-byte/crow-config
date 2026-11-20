@@ -1,6 +1,7 @@
 ---
 name: crow-error-log
 description: "Crow's own mistakes with Korn, newest on top. Same failure shape keeps recurring: asserting before checking the record. Read before claiming a defect, a date, or a time."
+aliases: ["crow-error-log"]
 metadata:
   node_type: memory
   aliases:

@@ -1,6 +1,7 @@
 ---
 name: water-log
 description: "The water log: one line per finished task (ghost card passed, training done, said/did kept). Feeds the plum blossom on the Crow Room board; written by bin/water.py"
+aliases: ["water-log"]
 metadata:
   node_type: memory
   aliases:

@@ -6,11 +6,11 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-19T13:46:36.660Z
+  modified: 2026-11-20T09:21:48.667Z
 ---
 
 # Situation Report
-*Last updated: 2026-11-19 15:54 (mid-session save, not day-close). Window holds 19 Nov + 17 Nov; 16 Nov flushed to sessions_log. 18 Nov had no session note (Crow's maintenance miss — the session happened, confirmed via git; folded into the 19 Nov note below). Next to flush: 17 Nov (when 20 Nov opens).*
+*Last updated: 2026-11-20 16:20 (mid-session save, not day-close). Window holds 20 Nov + 19 Nov; 17 Nov flushed to sessions_log. Next to flush: 19 Nov (when 21 Nov opens).*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,18 +27,18 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (19 Nov, evening resume 20:28–20:45, about to wind down).** FN201 topic 8 now fully closed except t8s6 (ST debt in WACC, calc-heavy, saved for fresh). Topic 9 (capital budgeting) untouched, same weight as topic 8. 3 drill Qs + WACC↔MCC re-teach queued in the canvas for next session.
-- AC311 Midterm 2: DONE, 13 Nov, "easy shit." Only real uncertainty was the revaluation-surplus annual transfer (optional under IAS 16) — worked both ways, went with the with-transfer version. **Next: AC311 final 28 Nov.**
+- **Here (20 Nov, from 11:24 — restarting the Room ~16:20 for a server fix, expects to come straight back).** AC313 full re-test done (8 ghost cards) + AC311 Investment Property fully mapped, subsequent measurement now flagged as the real weak branch (5 ghost cards). FN201 topic 9 (capital budgeting) and topic 8's t8s6 still untouched from 19 Nov — same weight as topic 8, still open.
+- AC311 Midterm 2: DONE, 13 Nov, "easy shit." Only real uncertainty was the revaluation-surplus annual transfer (optional under IAS 16) — worked both ways, went with the with-transfer version. **Next: AC311 final 28 Nov** (Conceptual Framework drilling still to come — summary doc built, his read-through pending).
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
-## Session — 2026-11-17 (Tue, from 11:05, ongoing)
-- AC311 final material landed: Framework PDF (sessions 14–15) + the parked Investment Property deck both read, **`study/AC311 Final Map.canvas`** built. Zero drilling yet. Two own sitrep errors caught same day (sessions 14–15 "no topic" claim, then "impairment has no deck" when it's been on disk since 3 Nov) → [[crow-error-log]].
-- FN201's official exam-info doc landed (45 MC Qs, Topic 7 = 0 pts, #8/#9 = 15 pts each) + full 5-final gap audit (his ask): AC313 solid/closed enough, MK201 date unconfirmed/zero prep, AC311 just mapped, FN201 untouched since 27 Oct despite being heaviest (45%), BA202 cold since 3 Nov (55%, heaviest overall) → [[project-midterms]].
-- **New standing teaching rule (his ask, café w/ cousin):** question first, small tweaks before the answer, never hand it over unless he's really struggling → [[feedback-drill-format]]. First live run: AC311 Conceptual Framework, built fully from his own answers, 2 vocab-recall gaps ghosted → [[study/AC311 Final Map.canvas]].
-- **Correction (20:47, his report after M2):** impairment (TAS 36) was NOT on M2 — carried onto the AC311 final instead (4th final topic, already taught once, needs a refresh not a sourcing) → [[project-midterms]]. No past-paper exists for Investment Property itself; he's checking Teams/classmates tomorrow → [[ledger-said-did]]. Separately: nightshift Color Filters endpoint built tonight, untested past the macOS Accessibility wall — Room reload pending.
-- Caught a real plan conflict: 14:42 café plan said tomorrow = FN201, 20:5x he'd forgotten and was leaning AC311 entries instead (just forgot, not reconsidered). **Resolved: FN201 tomorrow** (heaviest weight, most feared, 3 weeks untouched beats curiosity) — his call after Crow's steer. AC311 entries + IP/impairment past papers deferred to Thu.
-- 📖 **M&M deep conversation (21:01–21:12):** truth/cowardice theme — Pilate senses Yeshua's truth and condemns him from fear, not conviction; Crow tied it to Bulgakov writing the book hidden from Stalin's censors, refined "communism" to "fear betrays truth under any system that punishes honesty." Landed well: "that's a good one... I like that idea." Full conversation → [[chapters]]. Reading progress: starting ch 13, no spoilers past ch 12.
+## Session — 2026-11-20 (Fri, from 11:24, ongoing — restarting the Room ~16:20 for a server fix)
+- Ghost 30 (AC313 product-sustaining activity) passed cold, box 2.
+- **AC313 full re-test** (his call: the canvas's "green" wasn't earning it) — overhead/ABC, all 3 support-dept methods (direct/step-down/reciprocal, real 2021 Betty's + Jake's data), standard-costing variances, mix/yield, all re-run with real exam-format numbers. Real gaps surfaced: benchmark-selection confusion (which hours/rate a variance uses) and a rounding-precision habit, NOT raw calc ability like the map implied. 8 ghost cards.
+- **AC311 Investment Property fully mapped** — all 5 branches now tested. Transfer mechanics (5 scenarios) + journal entries mostly solid, one real miss (IP→PPE/inventory = "nothing", same equity-reaching habit as 17 Nov). **Subsequent measurement went 0/3** (FV-disclosure-under-cost-model, FV→cost switching restriction, FV-unreliable fallback) — turns out this, not transfers, is IP's actual weak branch. 5 more ghost cards.
+- Built `study/AC311 Conceptual Framework - remaining topics.md` (enhancing qualities, equity/income/expense, measurement bases, FS/reporting entity, presentation/disclosure) for him to read solo before next question-first drill. Wired into the Room drawer (`AC311 · Sun 4 Oct` group) — first non-claude.ai artifact; needed a small `server.mjs` MIME fix (`.md` → text/plain) to open inline, pending a server restart.
+- Found/saved a new resource: `AC313 Quiz 3 (graded, 2024+2025).pdf` (his own graded ABC + variable/absorption quiz, "basically like finals" per him) → `~/Desktop/pastpapers/AC313/`. Deferred drilling from it to a future session, his call.
+- No Notion connector available this session (OAuth connector setup is terminal/VS Code territory, not the Room) — couldn't push the CF summary to Pocket Procedures; he'd need to paste it himself or wait for a Notion-capable session.
 
 ## Session — 2026-11-19 (Thu, from 12:38, paused ~15:54 — resumes this evening)
 - **18 Nov gap caught + closed:** no sitrep note existed for Wed 18 Nov (Crow's maintenance miss, not a missed study day) — git confirmed the session happened: FN201 topic 8, single + multi break-point MCC (Q11, Q17, Q20) nailed clean. Korn pushed back ("I did them with you no? tf") when Crow first said unverified — correctly, Crow was wrong to doubt him and should've checked git before asserting → [[crow-error-log]].

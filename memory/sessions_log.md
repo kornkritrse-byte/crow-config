@@ -6,10 +6,16 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: c38e29c0-da2f-4906-8e70-a7a356ec2563
-  modified: 2026-11-19T08:54:34.750Z
+  modified: 2026-11-20T09:20:53.472Z
 ---
 
 # Sessions Log (archive)
+## 2026-11-17 (Tue, from 11:05)  *(flushed from SITREP 20 Nov)*
+- AC311 final material landed: Framework PDF + parked Investment Property deck both read, `study/AC311 Final Map.canvas` built. New standing teaching rule set (his ask, café w/ cousin): question-first, small tweaks before the answer → [[feedback-drill-format]]. First live run: AC311 Conceptual Framework, 2 vocab-recall gaps ghosted.
+- Correction (20:47, post-M2): impairment (TAS 36) was NOT on M2 — carries onto the AC311 final instead. No past-paper exists for Investment Property.
+- Caught a real plan conflict (14:42 café plan vs 20:5x drift) — resolved FN201 next day (heaviest weight, most feared) over AC311.
+- 📖 M&M deep conversation: truth/cowardice theme, Pilate/Yeshua tied to Bulgakov writing under Stalin's censors — landed well ("that's a good one"). Full conversation → [[chapters]]. Reading at ch 13, no spoilers past ch 12.
+
 ## 2026-11-16 (Mon, from 11:01)  *(flushed from SITREP 19 Nov)*
 - Bed-by-23:30 (15 Nov): done. Goal today: Study AC313 (no extras).
 - Said/did line 63 (14→15 Nov reciprocal/step-down) closed: both methods run fully unaided on fresh constructed problems, only bookkeeping slips left — all ghosted.
