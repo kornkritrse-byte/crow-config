@@ -781,7 +781,7 @@ async function refreshBoard() {
 
 // ---------------------------------------------------------------- http + ws
 
-const MIME = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascript', '.svg': 'image/svg+xml' };
+const MIME = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascript', '.svg': 'image/svg+xml', '.md': 'text/plain; charset=utf-8' };
 // Served from node_modules so the page works offline and skips two CDN round trips.
 const VENDOR = {
   '/vendor/marked.js': 'node_modules/marked/lib/marked.umd.js',
