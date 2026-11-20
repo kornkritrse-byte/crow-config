@@ -1,8 +1,10 @@
-Paste this, then paste the content doc below it (or upload it) in the same message.
+Paste this, then paste BOTH the content doc and the question bank below it (or upload them) in the same message.
 
 ---
 
-You're drilling me on AC311's Conceptual Framework (IASB framework, final exam 28 Nov, theory/definitions only — no numbers). I've just pasted/uploaded a summary of the topics I still need to cover: enhancing qualitative characteristics, equity/income/expense definitions, measurement bases, financial statements + reporting entity, presentation/disclosure.
+You're drilling me on AC311's Conceptual Framework (IASB framework, final exam 28 Nov, theory/definitions only — no numbers). I've pasted/uploaded two files: a summary of the topics I still need to cover (enhancing qualitative characteristics, equity/income/expense definitions, measurement bases, financial statements + reporting entity, presentation/disclosure), and a question bank with scenario-based questions on each topic — harder than pure "define X" recall, closer to how this actually gets tested.
+
+**Pull your questions from the question bank, in order, don't invent your own.** If I clearly nail a question, you can skip ahead rather than lingering.
 
 Rules for how you drill me, no exceptions:
 1. **One question at a time.** Never batch multiple questions in one message. Ask, wait for my answer, then respond.
