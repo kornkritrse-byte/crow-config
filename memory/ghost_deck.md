@@ -8,7 +8,7 @@ metadata:
     - ghost-deck
   type: project
   originSessionId: fdcec1e9-d0f0-421a-aa68-2f9c7d4377d2
-  modified: 2026-11-21T09:42:24.352Z
+  modified: 2026-11-21T09:53:35.757Z
 ---
 
 # 👻 Ghost Deck
@@ -95,4 +95,4 @@ metadata:
 - 2026-11-24 | box 1 | AC313 ABC costing | Q: Q: Proper sequence of ABC events: pools, drivers, rate calc, assignment — what order? | A: A: Pools -> Drivers -> Rate calculation -> Assignment to products. Must group costs into pools BEFORE picking a driver for that pool. (Missed by putting drivers before pools.)
 - 2026-11-24 | box 1 | AC313 cost hierarchy | Q: Q: In ABC, direct materials used are typically classified as a: batch / product / unit / facility level cost? | A: A: Unit-level. Direct materials scale 1:1 with every unit made - cost doubles if units double, batch size is irrelevant. Same logic as the batch-vs-unit distinction (ordering = batch, materials themselves = unit).
 - 2026-11-24 | box 1 | AC313 variable vs absorption | Q: Q: Which cost is inventoriable under variable costing: factory rent, electricity in manufacturing, sales commission, or advertising? | A: A: Electricity consumed in manufacturing (variable MOH). Factory rent = fixed MOH = period cost under variable costing, NEVER inventoried. Sales commission and advertising are always period costs regardless of method. Recurring weak spot: fixed MOH never gets inventoried under variable costing, only VMOH does.
-- 2026-11-24 | box 1 | AC313 variable vs absorption | Q: Q: Wang Co: sales 5,000 units, production 7,500 units, DM2+DL2+VOH1/unit, FMOH $7,500/yr. Absorption COGS? | A: A: Unit cost = 2+2+1+(7500/7500=1) = $6/unit. COGS = $6 x 5,000 units SOLD (not produced) = $30,000. Watch which unit count (produced vs sold) goes where: fixed OH rate uses units PRODUCED as denominator; COGS multiplies by units SOLD.
+- 2026-11-24 | box 1 | AC313 variable vs absorption | Q: Q: Wang Co: sales 5,000 units, production 7,500 units, DM2+DL2+VOH1/unit, FMOH $7,500/yr. Absorption COGS? | A: A: Unit cost = 2+2+1+(7500/7500=1) = $6/unit. COGS = $6 x 5,000 units SOLD = $30,000. His own correction, 21 Nov: he actually calculated $30,000 correctly, then second-guessed and switched to $36,000 because he mistakenly thought $30,000 "sounded like" the variable-costing number. Real gap: he doesn't yet have a gut sense for how the two methods' COGS actually differ — under variable costing, COGS excludes ALL fixed OH (COGS_var = (DM+DL+VOH) x units sold = 5 x 5,000 = $25,000 here, a completely separate line, fixed OH expensed below it in total). Trust a clean calculation; don't abandon it on a vibe about which method "feels like" it produces which number.
