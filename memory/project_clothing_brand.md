@@ -1,9 +1,13 @@
 ---
 name: project-clothing-brand
-aliases: ["project-clothing-brand"]
-description: Clothing brand with his friend Patrick (started 18 Oct 2026) — quality garments + their own style; first product idea a Henley; core (target, image) still undefined
+description: "Clothing brand with his friend Patrick (started 18 Oct 2026) — quality garments + their own style; first product idea a Henley; core (target, image) still undefined"
 metadata:
+  node_type: memory
+  aliases:
+    - project-clothing-brand
   type: project
+  originSessionId: dc8beb06-b767-4934-8466-234b4ea626af
+  modified: 2026-11-21T10:11:48.463Z
 ---
 
 Started **Sun 18 Oct 2026, 17:07**, his words: "a new important project, a longterm one." Co-founder: **Patrick**, a good friend. They've been talking about it before telling Crow.
@@ -79,3 +83,4 @@ Started **Sun 18 Oct 2026, 17:07**, his words: "a new important project, a longt
 - **31 Oct 10:22 (his call): Henley Design Sheet V1 = THE CURRENT HENLEY**; old Henley spec renamed "(outdated, see Design Sheet V1)", kept only for raw proxy measurements. Where they disagree (thin jersey, straight body, flared sleeves vs weighted + taper), V1 wins. Patrick ✅ on V1 still open in Pending. Design Concepts DB-vs-folders duplication: LEAVE (his call). IG password on front page: LEAVE (his call), don't re-flag.
 - **31 Oct 11:00 Timeline CLEARED (his ask):** Due removed from all Tasks cards (cards kept; old dates in the HQ Update Log 11:00). He + Patrick add tasks BY NAME on the calendar → then Crow links each new calendar card to its existing card/page, merges duplicates, logs it.
 - **10 Nov 15:06 LOGO 'better grip' (his, with Patrick):** the mark = the Thai character **ํ (nikhahit)**, the small circle in สำ of สำเนียง, on its own. Crow: fits 'quiet/hint' (fixes the 'ribbon = loud' flag) and ties to the name (a mark that changes a sound ≈ 'accent', loose reading); strongest objection = a plain circle is generic and hard to own, so it needs something in how it's drawn or placed (Margiela's four stitches = a generic shape owned by placement). Goal today: Affinity mockup of the coming-soon ad.
+- **21 Nov (his, in passing, mid-finals): Henley design + pants are "close to final"** — no further detail given yet (not a formal update, dropped during an unrelated conversation). Ask next session what "close to final" actually means (swatches picked? sample quote in hand? just the design sheet locked?) before assuming progress on the manufacturer-kit checklist. Still inside the INSPIRATION-GATHERING phase (agreed paused until finals end — 23 Nov AC313, more after).
