@@ -8,7 +8,7 @@ metadata:
     - ghost-deck
   type: project
   originSessionId: fdcec1e9-d0f0-421a-aa68-2f9c7d4377d2
-  modified: 2026-11-12T14:37:27.253Z
+  modified: 2026-11-21T09:42:24.352Z
 ---
 
 # 👻 Ghost Deck
@@ -91,4 +91,4 @@ metadata:
 - 2026-11-24 | box 1 | AC313 variable vs absorption | Q: Q: Production > sales — by how much and which direction does absorption operating income differ from variable? | A: A: (produced − sold) × fixed MOH per unit. NOT units sold, NOT units produced alone — the CHANGE in inventory. Production > sales → inventory builds → fixed MOH gets deferred in that unsold inventory as an asset → absorption income HIGHER by that amount. (Missed by using units sold instead of the change in inventory.)
 - 2026-11-24 | box 1 | AC313 variable vs absorption | Q: Q: Under absorption costing, fixed MOH shows up in WIP, COGS, and finished goods inventory — which of these does it NOT show up in? | A: A: Period costs. Under absorption, fixed MOH is a PRODUCT cost (travels WIP -> Finished Goods -> COGS), never expensed directly as a period cost. That's the variable-costing treatment instead.
 - 2026-11-24 | box 1 | AC313 variable vs absorption | Q: Q: Under variable costing, all are expensed immediately EXCEPT: variable S&A, fixed S&A, fixed MOH, variable MOH — which one? | A: A: Variable MOH. It's inventoried as part of unit product cost, hits the income statement only via COGS when sold. FMOH, var S&A, and fixed S&A are ALL expensed in full immediately under variable costing, no matter what. (He flipped fixed/variable on which one is instantly expensed — same root confusion as the Q18 FMOH-location miss.)
-- 2026-11-24 | box 1 | AC313 ABC costing | Q: Q: Lunar Co, 3 products, setups 200/400/620, total pool cost $183,000 — overhead assigned to each? | A: A: Rate = 183,000 / 1,220 setups = $150/setup. A = 150x200 = $30,000. B = 150x400 = $60,000. C = 150x620 = $93,000. (Missed on B/C arithmetic — picked $63,000/$90,000 instead, a multiplication slip, not a method error.)
+- 2026-11-24 | box 1 | AC313 ABC costing | Q: Q: Lunar Co, 3 products, setups 200/400/620, total pool cost $183,000 — overhead assigned to each? | A: A: Rate = 183,000 / 1,220 setups = $150/setup. A = 150x200 = $30,000. B = 150x400 = $60,000. C = 150x620 = $93,000. (His own correction, 21 Nov: not an arithmetic error — he saw the correct "$30,000 for A" match the first option and picked it without checking B/C were wrong. MCQ discipline gap: verify every value in an option before locking it in, not just the first match.)
