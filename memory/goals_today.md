@@ -313,3 +313,9 @@ metadata:
 - 2026-11-20 | Daily journal | open
 - 2026-11-20 | Reading | done
 - 2026-11-20 | Bed by 23:30 | open
+- 2026-11-21 | Wake early | open
+- 2026-11-21 | Morning creative writing | open
+- 2026-11-21 | Training: Lift + easy 40′ | open
+- 2026-11-21 | Daily journal | open
+- 2026-11-21 | Reading | open
+- 2026-11-21 | Bed by 23:30 | open
