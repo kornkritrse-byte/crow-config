@@ -1,5 +1,6 @@
 ---
 name: project-clothing-brand
+aliases: ["project-clothing-brand"]
 description: "Clothing brand with his friend Patrick (started 18 Oct 2026) — quality garments + their own style; first product idea a Henley; core (target, image) still undefined"
 metadata:
   node_type: memory
@@ -7,7 +8,7 @@ metadata:
     - project-clothing-brand
   type: project
   originSessionId: dc8beb06-b767-4934-8466-234b4ea626af
-  modified: 2026-11-21T10:11:48.463Z
+  modified: 2026-11-22T04:11:32.613Z
 ---
 
 Started **Sun 18 Oct 2026, 17:07**, his words: "a new important project, a longterm one." Co-founder: **Patrick**, a good friend. They've been talking about it before telling Crow.

@@ -1,5 +1,6 @@
 ---
 name: feedback-mcq-format
+aliases: ["feedback-mcq-format"]
 description: "Any multiple-choice question to Korn — drill, BA202 practice, or a quick check — goes in the ```mcq fenced-JSON card format, never plain-text lettered options. Always, no exceptions."
 metadata:
   node_type: memory
@@ -7,7 +8,7 @@ metadata:
     - feedback-mcq-format
   type: feedback
   originSessionId: aedbda08-156b-4dc8-8884-ea333cc92af1
-  modified: 2026-11-22T03:58:20.508Z
+  modified: 2026-11-22T04:11:30.642Z
 ---
 
 **His ask, 22 Nov 2026 (Room session): "can you make all the mcq questions in mcq format please always do that write it in memory!"** Standing rule, not a one-off.

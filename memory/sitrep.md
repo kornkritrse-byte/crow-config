@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-22T04:07:36.040Z
+  modified: 2026-11-22T04:11:57.482Z
 ---
 
 # Situation Report
@@ -43,8 +43,7 @@ metadata:
 - Ghost 30 (AC313 product-sustaining activity) passed cold, box 2.
 - **AC313 full re-test** (his call: the canvas's "green" wasn't earning it) — overhead/ABC, all 3 support-dept methods, standard-costing variances, mix/yield, all re-run with real exam numbers. Real gaps: benchmark-selection confusion (which hours/rate a variance uses) and a rounding-precision habit, NOT raw calc ability like the map implied. 8 ghost cards.
 - **AC311 Investment Property fully mapped** — all 5 branches tested. Transfers + journal entries mostly solid (1 miss). **Subsequent measurement went 0/3** — the real weak branch, not transfers like the history implied. 5 more ghost cards.
-- Built `study/AC311 Conceptual Framework - remaining topics.md` + a ChatGPT drill kit (`chatgpt/ac311-cf-drill-instructions.md` + an 18-question hard scenario bank) + wired the summary into the Room drawer (first non-claude.ai artifact, needed a small `server.mjs` MIME fix). ChatGPT drilling went badly ("being a fuckwit," his words) — switched to MCQ-in-Room instead, one question in.
-- **He now wants the CF material in his Pocket Procedures Notion page instead** ("struggle with the conceptual part rn") — no Notion connector available either restart so far; offered a Google Doc as the live alternative, not yet built. He's hoping a 3rd restart picks up Notion access.
+- Built `study/AC311 Conceptual Framework - remaining topics.md` + a ChatGPT drill kit (`chatgpt/ac311-cf-drill-instructions.md` + an 18-question hard scenario bank) + wired the summary into the Room drawer (first non-claude.ai artifact, needed a small `server.mjs` MIME fix); ChatGPT drilling went badly ("being a fuckwit," his words) — switched to MCQ-in-Room instead, one question in. He now wants the CF material in his Pocket Procedures Notion page instead ("struggle with the conceptual part rn") — no Notion connector available either restart so far; offered a Google Doc as the live alternative, not yet built, hoping a 3rd restart picks up Notion access.
 - Found/saved `AC313 Quiz 3 (graded, 2024+2025).pdf` (his own graded quiz, "basically like finals") → `~/Desktop/pastpapers/AC313/`. Deferred drilling from it, his call.
 
 ## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. AC313 final Mon 23 Nov 09:00 — **tomorrow.** AC311 final Sat 28 Nov.

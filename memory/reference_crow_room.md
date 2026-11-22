@@ -1,5 +1,6 @@
 ---
 name: reference-crow-room
+aliases: ["reference-crow-room"]
 description: "Crow Room — Korn's custom browser interface for Crow (ui/ in crow-config, Claude Agent SDK); how to launch it and what's untested"
 metadata:
   node_type: memory
@@ -7,7 +8,7 @@ metadata:
     - reference-crow-room
   type: reference
   originSessionId: aedbda08-156b-4dc8-8884-ea333cc92af1
-  modified: 2026-11-22T03:58:56.547Z
+  modified: 2026-11-22T04:11:34.405Z
 ---
 
 **Crow Room** (built 27 Sep 2026, ~01:00–01:15, at his ask: "change the whole interface… construct the whole thing").
