@@ -62,3 +62,4 @@ metadata:
 - 2026-11-22 14:55 | correct | AC313 direct method - second rep, support-to-support usage ignored
 - 2026-11-22 14:59 | correct | AC313 step-down - second rep, Maintenance first then IT's new pool to production only
 - 2026-11-22 15:01 | correct | AC313 reciprocal method - second rep, correct % matched to correct dept equation
+- 2026-11-22 15:07 | correct | AC313 direct method - third rep, Crestline
