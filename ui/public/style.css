@@ -702,25 +702,18 @@ body.gutters:not(.room-empty) .court { display: block; }
 .gutter.left .pile { margin-top: 14px; }   /* headroom for the parked ball peeking over the top book */
 .gutter.left .spine { pointer-events: auto; }
 
-/* the MCQ tube: green fluid = rolling % correct, sits between the hoop and the
-   book pile. Hidden until the first MCQ card of the session (body.mcq-active). */
-.mcqbar { display: none; position: absolute; left: 8px; z-index: 2; pointer-events: none; text-align: center; }
-body.gutters.mcq-active:not(.room-empty) .mcqbar { display: block; }
-.mcqbar canvas { image-rendering: pixelated; display: block; }
-.mcqbar-score { margin-top: 4px; font-size: 10.5px; color: var(--mist); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
-.mcqbar-score b { display: block; color: var(--paper); font-size: 15px; letter-spacing: 0; }
-.mcqbar-score span { display: block; color: var(--faint); font-weight: 400; letter-spacing: 0; text-transform: none; font-size: 10.5px; margin-top: 1px; }
-
-/* the FG board: a basketball-practice scoreboard for EVERY graded MCQ ever (no
-   rolling window, unlike the tube above it). Parked 22 Nov, built alongside the
-   tube, not replacing it. Stacks in the same corner, under the tube. */
-.fgboard { display: none; position: absolute; left: 8px; z-index: 2; pointer-events: none; text-align: center; }
+/* the FG board: a basketball-practice scoreboard for EVERY graded MCQ ever.
+   22 Nov: court on top, the % tube (was the standalone mcqbar) under the
+   court with its number inside the glass, made/att under the tube. Sits in
+   the top-right corner, the open side of the room (hoop/ball live top-left). */
+.fgboard { display: none; position: absolute; right: 8px; z-index: 2; pointer-events: none; text-align: center; }
 body.gutters.fg-active:not(.room-empty) .fgboard { display: block; }
-.fgboard-stats { font-size: 20px; font-weight: 700; color: var(--paper); line-height: 1; display: flex; align-items: baseline; justify-content: center; gap: 4px; }
-.fgboard-stats span { color: var(--faint); font-size: 13px; font-weight: 400; }
-.fgboard-cap { font-size: 9.5px; color: var(--mist); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; margin-top: 1px; }
-.fgboard-court { position: relative; margin-top: 6px; }
+.fgboard-court { position: relative; }
 .fgboard-court canvas { image-rendering: pixelated; display: block; }
 .fgboard .fgball { position: absolute; top: 0; left: 0; opacity: 0; }
-.fgboard .fgbar { image-rendering: pixelated; display: block; margin: 5px auto 0; }
-.fgboard-pct { font-size: 10.5px; color: var(--mist); font-weight: 700; letter-spacing: .1em; text-transform: uppercase; margin-top: 3px; }
+.fgboard-tubewrap { position: relative; width: fit-content; margin: 6px auto 0; }
+.fgboard-tubewrap canvas { image-rendering: pixelated; display: block; }
+.fgboard-tubepct { position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%); font-size: 11px; font-weight: 700; color: var(--paper); text-shadow: 0 1px 2px rgba(0, 0, 0, .7); }
+.fgboard-stats { margin-top: 6px; font-size: 20px; font-weight: 700; color: var(--paper); line-height: 1; display: flex; align-items: baseline; justify-content: center; gap: 4px; }
+.fgboard-stats span { color: var(--faint); font-size: 13px; font-weight: 400; }
+.fgboard-cap { font-size: 9.5px; color: var(--mist); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; margin-top: 1px; }
