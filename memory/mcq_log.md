@@ -21,3 +21,4 @@ metadata:
 - 2026-11-22 11:31 | correct | AC313 absorption costing - S&A always period cost regardless of method
 - 2026-11-22 11:32 | correct | AC313 absorption vs variable - income reconciliation formula
 - 2026-11-22 11:39 | wrong | AC313 step-down - which support dept allocates first (3rd miss)
+- 2026-11-22 11:41 | correct | AC313 step-down - why the serving dept goes first (retest)
