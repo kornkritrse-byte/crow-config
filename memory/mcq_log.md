@@ -54,3 +54,4 @@ metadata:
 - 2026-11-22 13:09 | correct | AC313 departmental rates - correctly matched each dept's hours to its own rate (retest)
 - 2026-11-22 13:24 | correct | AC313 journal entries - U=debit F=credit anchor rule
 - 2026-11-22 13:26 | correct | AC313 materials usage journal entry - full 3-line entry, balances
+- 2026-11-22 13:27 | correct | AC313 VOH journal entry - WIP uses standard hours allowed, not actual
