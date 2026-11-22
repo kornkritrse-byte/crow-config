@@ -47,3 +47,4 @@ metadata:
 - 2026-11-22 12:58 | correct | AC313 mixed variance problems - materials price vs labor rate, never swap
 - 2026-11-22 13:00 | correct | AC313 mix vs yield variance - core conceptual distinction
 - 2026-11-22 13:00 | correct | AC313 mix vs yield - independence, no automatic direction link
+- 2026-11-22 13:03 | correct | AC313 mix variance - rescale standard % to actual total input first
