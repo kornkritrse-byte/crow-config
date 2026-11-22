@@ -23,3 +23,4 @@ metadata:
 - 2026-11-22 11:39 | wrong | AC313 step-down - which support dept allocates first (3rd miss)
 - 2026-11-22 11:41 | correct | AC313 step-down - why the serving dept goes first (retest)
 - 2026-11-22 11:41 | correct | AC313 step-down - 3-dept order (right pick, reasoning tightened)
+- 2026-11-22 11:43 | correct | AC313 direct method - ignores support-to-support service
