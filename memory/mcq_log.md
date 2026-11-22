@@ -46,3 +46,4 @@ metadata:
 - 2026-11-22 12:56 | correct | AC313 labor rate + efficiency variance - clean first try
 - 2026-11-22 12:58 | correct | AC313 mixed variance problems - materials price vs labor rate, never swap
 - 2026-11-22 13:00 | correct | AC313 mix vs yield variance - core conceptual distinction
+- 2026-11-22 13:00 | correct | AC313 mix vs yield - independence, no automatic direction link
