@@ -25,3 +25,4 @@ metadata:
 - 2026-11-22 11:41 | correct | AC313 step-down - 3-dept order (right pick, reasoning tightened)
 - 2026-11-22 11:43 | correct | AC313 direct method - ignores support-to-support service
 - 2026-11-22 11:44 | correct | AC313 direct method - exclude support dept hours from base (numeric)
+- 2026-11-22 11:45 | wrong | AC313 step-down - closed dept never receives allocation back (4th related miss)
