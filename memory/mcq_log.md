@@ -74,3 +74,4 @@ metadata:
 - 2026-11-22 17:15 | correct | AC313 Quiz3 Q5 - ABC setup pool allocation, rate 150/setup
 - 2026-11-22 17:16 | wrong | AC313 Quiz3 Q6 - material ordering is batch-level, picked unit-level
 - 2026-11-22 17:17 | correct | AC313 Quiz3 Q7 - plant security is facility-level
+- 2026-11-22 17:17 | correct | AC313 Quiz3 Q8 - ABC sequence pools-drivers-rates-assign
