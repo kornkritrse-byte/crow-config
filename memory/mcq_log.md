@@ -60,3 +60,4 @@ metadata:
 - 2026-11-22 14:45 | correct | AC313 step-down method - Warehouse first, DC's new pool to production only
 - 2026-11-22 14:52 | wrong | AC313 reciprocal method - matched wrong % to wrong dept's equation
 - 2026-11-22 14:55 | correct | AC313 direct method - second rep, support-to-support usage ignored
+- 2026-11-22 14:59 | correct | AC313 step-down - second rep, Maintenance first then IT's new pool to production only
