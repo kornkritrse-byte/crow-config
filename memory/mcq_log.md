@@ -75,3 +75,4 @@ metadata:
 - 2026-11-22 17:16 | wrong | AC313 Quiz3 Q6 - material ordering is batch-level, picked unit-level
 - 2026-11-22 17:17 | correct | AC313 Quiz3 Q7 - plant security is facility-level
 - 2026-11-22 17:17 | correct | AC313 Quiz3 Q8 - ABC sequence pools-drivers-rates-assign
+- 2026-11-22 17:19 | correct | AC313 Quiz3 Q16 - absorption COGS, FOH/unit over production 7,500
