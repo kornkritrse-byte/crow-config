@@ -693,6 +693,7 @@ body.gutters:not(.room-empty) .court { display: block; }
 .court .ball { position: absolute; left: 0; top: 0; z-index: 3; cursor: grab; touch-action: none; filter: drop-shadow(0 4px 6px rgba(0, 0, 0, .45)); }
 .court .ball.held { cursor: grabbing; }
 .court .ball.parked { z-index: 1; filter: none; }
+body.court-off .court .hoop.front, body.court-off .court .ball, body.court-off .court .hoop-score { display: none; }
 .hoop-score { position: absolute; left: 10px; z-index: 2; pointer-events: none; font-size: 10.5px; color: var(--mist); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
 .hoop-score b { color: var(--paper); font-size: 13px; letter-spacing: 0; }
 .hoop-score span { display: block; color: var(--faint); font-weight: 400; letter-spacing: 0; text-transform: none; font-size: 11px; margin-top: 2px; }
