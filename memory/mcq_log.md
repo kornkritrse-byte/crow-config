@@ -64,3 +64,4 @@ metadata:
 - 2026-11-22 15:01 | correct | AC313 reciprocal method - second rep, correct % matched to correct dept equation
 - 2026-11-22 15:07 | correct | AC313 direct method - third rep, Crestline
 - 2026-11-22 15:10 | correct | AC313 step-down - third rep, Admin first then Facilities' new pool to production only
+- 2026-11-22 15:20 | correct | AC313 reciprocal equation-matching - asymmetric %, correctly paired dept/cost/rate
