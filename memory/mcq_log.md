@@ -37,3 +37,4 @@ metadata:
 - 2026-11-22 12:09 | correct | AC313 VOH spending variance - actual hrs x standard rate benchmark
 - 2026-11-22 12:10 | wrong | AC313 VOH efficiency variance - F/U direction flipped again (recurring anchor rule)
 - 2026-11-22 12:11 | correct | AC313 variances - anchor rule, more input than standard = unfavorable (stripped of context)
+- 2026-11-22 12:12 | wrong | AC313 fixed OH spending vs volume - benchmark confusion (3rd miss)
