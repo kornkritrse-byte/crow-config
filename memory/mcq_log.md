@@ -40,3 +40,4 @@ metadata:
 - 2026-11-22 12:12 | wrong | AC313 fixed OH spending vs volume - benchmark confusion (3rd miss)
 - 2026-11-22 12:30 | correct | AC313 FOH spending + volume variance - both parts, direction reasoning confirmed
 - 2026-11-22 12:32 | correct | AC313 FOH spending + volume - favorable direction, didn't default to always-U
+- 2026-11-22 12:46 | wrong | AC313 materials quantity variance - reached for purchased qty again (repeat miss)
