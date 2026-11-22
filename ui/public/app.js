@@ -1409,6 +1409,12 @@ function connect() {
   };
   ws.onclose = () => setTimeout(connect, 1500);
 }
+// one-off escape hatch: visiting ?clearmcq=1 wipes stale/leftover MCQ picks from
+// localStorage (e.g. dev/test data bleeding into a real card) without needing DevTools
+if (new URLSearchParams(location.search).get('clearmcq')) {
+  Object.keys(localStorage).filter(k => k.startsWith('mcq:')).forEach(k => localStorage.removeItem(k));
+  history.replaceState(null, '', location.pathname);
+}
 Room.init();
 connect();
 setInterval(() => ws?.readyState === 1 && ws.send(JSON.stringify({ type: 'board' })), 5 * 60000);
