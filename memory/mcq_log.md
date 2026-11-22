@@ -19,3 +19,4 @@ metadata:
 - 2026-11-22 11:28 | correct | AC313 absorption costing - unit cost incl fixed MOH/unit produced
 - 2026-11-22 11:29 | correct | AC313 absorption costing - COGS uses units sold not produced
 - 2026-11-22 11:31 | correct | AC313 absorption costing - S&A always period cost regardless of method
+- 2026-11-22 11:32 | correct | AC313 absorption vs variable - income reconciliation formula
