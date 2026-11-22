@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-22T12:00:49.562Z
+  modified: 2026-11-22T12:38:04.676Z
 ---
 
 # Situation Report
@@ -29,8 +29,8 @@ metadata:
 ## 🚪 Current status
 - **AWAY (22 Nov, ~17:22) — off to: a run.** Before it: AC313 Quiz 3 (1/2024) MCQs (`~/Desktop/pastpapers/AC313/AC313 Quiz 3 (graded, 2024+2025).pdf`), Q2–8 + hard ones Q14/16/17/19, 10/11. Only miss: Q6 material ordering → picked unit-level, it's batch (ghost card added; same gap as the setup-costs card). Skipped as easy: Q9–13, Q15, Q18. Room note: re-served Q2–3 cards stayed locked (localStorage keys on question text); tagging q with "[Quiz 3 · Qn]" fixed it.
   Back 18:57: ran intervals 4 × 800 m @ ~4:00/km (watered + goal 3 done). Long runs are Wednesdays now — don't read road-plan.json day labels.
-- **AWAY (22 Nov, ~19:00) — off to: dinner.** Plan after: timed cold block of UNSEEN AC313 Final 2021 Qs until ~21:00, then last 30 min on today's misses (batch-level, materials quantity variance @ SP, reciprocal setup). Hard cut-off 21:30, his call.
-  ASK ON RETURN: nothing — just start the 2021 block.
+- **AWAY (22 Nov, ~19:37) — off to: rest of the evening's AC313 study in ChatGPT (his call, "why not").** Plan he took with him: timed cold block of UNSEEN AC313 Final 2021 Qs until ~21:00, then last 30 min on today's misses (batch-level, materials quantity variance @ SP, reciprocal setup). Hard cut-off 21:30. AC313 FINAL TOMORROW Mon 23 Nov 09:00.
+  ASK ON RETURN: paste ChatGPT's "For Crow:" summary — what he got wrong there becomes ghost cards + MCQ log here.
 - Last here (22 Nov, from ~10:34) — full AC313 variance map covered today, 80% MCQ for the session (39/49), every miss retested clean same-day. Open scope question: is sessions 1–7 cumulative on tomorrow's AC313 final (Mon 23 Nov 09:00)? AC313 final is TOMORROW (Mon 23 Nov, 09:00, 40%) — Korn opened wanting a full AC311 day (not due till 28 Nov, 25%); Crow objected on exam proximity, he flipped to a full AC313 day instead. Built + deployed this session: the MCQ-always-format rule ([[feedback-mcq-format]]) and the MCQ percentage tube (pixel tube between the hoop and book pile, rolling % correct, [[reference-crow-room]]) — Room restarted mid-session to load it. Plan for today: MCQ block through the AC313 ghost-deck topics first, then a harder numeric block (raw numbers, he works it on paper, then reveals). AC311 Conceptual Framework drilling still stalled from 20 Nov (wanted on Notion, no connector yet); FN201 topic 9 + t8s6 still untouched.
 - AC311 Midterm 2: DONE, 13 Nov, "easy shit." Only real uncertainty was the revaluation-surplus annual transfer (optional under IAS 16) — worked both ways, went with the with-transfer version. **Next: AC311 final 28 Nov** (Conceptual Framework drilling still to come — summary doc built, his read-through pending).
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
