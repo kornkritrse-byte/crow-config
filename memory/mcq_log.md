@@ -9,3 +9,4 @@ metadata:
 # 🎯 MCQ log
 - 2026-11-22 11:14 | wrong | AC313 variable costing - VMOH vs period costs
 - 2026-11-22 11:16 | wrong | AC313 ABC - materials unit vs batch level
+- 2026-11-22 11:18 | wrong | AC313 variable costing - what's inventoriable
