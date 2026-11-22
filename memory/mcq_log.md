@@ -14,3 +14,4 @@ metadata:
 - 2026-11-22 11:23 | wrong | AC313 absorption costing - fixed MOH never in period costs
 - 2026-11-22 11:24 | correct | AC313 absorption vs variable - production>sales income direction
 - 2026-11-22 11:25 | correct | AC313 variable costing - fixed MOH excluded from unit cost
+- 2026-11-22 11:26 | correct | AC313 variable costing - COGS calc excludes var S&A
