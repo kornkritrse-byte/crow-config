@@ -52,3 +52,4 @@ metadata:
 - 2026-11-22 13:08 | correct | AC313 plantwide vs departmental OH rates - core distinction
 - 2026-11-22 13:08 | wrong | AC313 departmental rates - applied wrong dept's rate to the hours
 - 2026-11-22 13:09 | correct | AC313 departmental rates - correctly matched each dept's hours to its own rate (retest)
+- 2026-11-22 13:24 | correct | AC313 journal entries - U=debit F=credit anchor rule
