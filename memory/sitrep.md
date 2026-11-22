@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-22T06:36:25.241Z
+  modified: 2026-11-22T10:22:32.831Z
 ---
 
 # Situation Report
@@ -27,8 +27,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (22 Nov, ~13:29) — off to: lunch break.** FG scoreboard built + Playwright-tested while he's away: `ui/public/pixel/fgboard.js` (new, alongside mcqbar.js — tube NOT touched), `server.mjs` mcqAllStats() (all-time, no rolling window), wired into app.js + index.html + style.css. Visually confirmed: stat line (made/att), bird's-eye court, horizontal FG% bar, make/miss shot animation all render correctly.
-  ASK ON RETURN: nothing to ask — but flag that **this needs a Room restart** (server.mjs changed) to go live, and that restart has to come from HIM via terminal (`crow-room.sh --stop` then relaunch) — Crow can't trigger it from inside this same session without cutting the connection it's running on.
+- **AWAY (22 Nov, ~17:22) — off to: a run.** Before it: AC313 Quiz 3 (1/2024) MCQs (`~/Desktop/pastpapers/AC313/AC313 Quiz 3 (graded, 2024+2025).pdf`), Q2–8 + hard ones Q14/16/17/19, 10/11. Only miss: Q6 material ordering → picked unit-level, it's batch (ghost card added; same gap as the setup-costs card). Skipped as easy: Q9–13, Q15, Q18. Room note: re-served Q2–3 cards stayed locked (localStorage keys on question text); tagging q with "[Quiz 3 · Qn]" fixed it.
+  ASK ON RETURN: how the run went (water it if done).
 - Last here (22 Nov, from ~10:34) — full AC313 variance map covered today, 80% MCQ for the session (39/49), every miss retested clean same-day. Open scope question: is sessions 1–7 cumulative on tomorrow's AC313 final (Mon 23 Nov 09:00)? AC313 final is TOMORROW (Mon 23 Nov, 09:00, 40%) — Korn opened wanting a full AC311 day (not due till 28 Nov, 25%); Crow objected on exam proximity, he flipped to a full AC313 day instead. Built + deployed this session: the MCQ-always-format rule ([[feedback-mcq-format]]) and the MCQ percentage tube (pixel tube between the hoop and book pile, rolling % correct, [[reference-crow-room]]) — Room restarted mid-session to load it. Plan for today: MCQ block through the AC313 ghost-deck topics first, then a harder numeric block (raw numbers, he works it on paper, then reveals). AC311 Conceptual Framework drilling still stalled from 20 Nov (wanted on Notion, no connector yet); FN201 topic 9 + t8s6 still untouched.
 - AC311 Midterm 2: DONE, 13 Nov, "easy shit." Only real uncertainty was the revaluation-surplus annual transfer (optional under IAS 16) — worked both ways, went with the with-transfer version. **Next: AC311 final 28 Nov** (Conceptual Framework drilling still to come — summary doc built, his read-through pending).
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.

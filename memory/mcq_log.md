@@ -78,3 +78,4 @@ metadata:
 - 2026-11-22 17:19 | correct | AC313 Quiz3 Q16 - absorption COGS, FOH/unit over production 7,500
 - 2026-11-22 17:20 | correct | AC313 Quiz3 Q17 - variable costing op income, all FOH expensed
 - 2026-11-22 17:21 | correct | AC313 Quiz3 Q14 - P>S means VC income < AC income
+- 2026-11-22 17:22 | correct | AC313 Quiz3 Q19 2025 - VMOH is product cost, not expensed under VC
