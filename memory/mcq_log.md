@@ -57,3 +57,4 @@ metadata:
 - 2026-11-22 13:27 | correct | AC313 VOH journal entry - WIP uses standard hours allowed, not actual
 - 2026-11-22 13:28 | correct | AC313 VOH journal entry - full entry, both variances unfavorable, balances
 - 2026-11-22 14:42 | correct | AC313 direct method - support dept allocation, ignore cross-service
+- 2026-11-22 14:45 | correct | AC313 step-down method - Warehouse first, DC's new pool to production only
