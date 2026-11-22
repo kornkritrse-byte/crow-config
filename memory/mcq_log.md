@@ -68,3 +68,4 @@ metadata:
 - 2026-11-22 15:46 | wrong | AC313 materials quantity variance - used actual price instead of standard price
 - 2026-11-22 15:56 | correct | AC313 labor rate+efficiency variance - SQ=4x3,350, ugly actual rate 11.88/hr
 - 2026-11-22 17:01 | correct | AC313 mix/yield variance - real past paper (Final2021 Q28), full numeric calc
+- 2026-11-22 17:04 | correct | AC313 Quiz3 Q2 - ABC uses multiple activity rates
