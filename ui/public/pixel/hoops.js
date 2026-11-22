@@ -60,14 +60,13 @@
   const ball = { x: 0, y: 0, vx: 0, vy: 0, spin: 0, parked: store.get("parked") !== "0", drag: null, asleep: false, still: 0, grounded: false, scored: false };
   let talk, back, front, cv, score, raf = 0, last = 0, swish = 0, made = 0, allTime = +store.get("made") || 0;
 
-  // the whole court (net, ball, score) toggles off/on; press the backboard to flip it,
-  // the board itself stays put as the switch (his ask, 22 Nov)
-  function setCourt(on) {
-    document.body.classList.toggle("court-off", !on);
-    store.set("court-on", on ? "1" : "0");
+  // pressing the hoop toggles the MCQ scoreboard (FgBoard, top-right), not the hoop itself (his ask, 22 Nov)
+  function setBoard(on) {
+    document.body.classList.toggle("fgboard-off", !on);
+    store.set("fgboard-on", on ? "1" : "0");
   }
 
-  const visible = () => document.body.classList.contains("gutters") && !document.body.classList.contains("room-empty") && !document.body.classList.contains("court-off");
+  const visible = () => document.body.classList.contains("gutters") && !document.body.classList.contains("room-empty");
   const rel = (el) => { if (!el) return null; const t = talk.getBoundingClientRect(), r = el.getBoundingClientRect(); return { l: r.left - t.left, t: r.top - t.top, r: r.right - t.left, b: r.bottom - t.top }; };
   function pileBox() { const r = rel(document.getElementById("pile")); return r && r.r > r.l ? r : null; }
   // parked: in the nest on top of the pile (room.js says where), only the top of the ball showing
@@ -235,9 +234,9 @@
     score.style.top = TOP + HH * S + 4 + "px";
     Object.assign(cv.style, { width: BD * S + "px", height: BD * S + "px" });
     hoopBack().toCanvas(back); paintNet(); paintScore();
-    setCourt(store.get("court-on") !== "0");
-    back.style.pointerEvents = "auto"; back.style.cursor = "pointer"; back.title = "Toggle the court";
-    back.addEventListener("click", () => setCourt(document.body.classList.contains("court-off")));
+    setBoard(store.get("fgboard-on") !== "0");
+    back.style.pointerEvents = "auto"; back.style.cursor = "pointer"; back.title = "Toggle the MCQ scoreboard";
+    back.addEventListener("click", () => setBoard(document.body.classList.contains("fgboard-off")));
     // first time out (or not parked last time): it drops in under the hoop
     ball.x = 16 * S; ball.y = TOP + HH * S + R * 2;
     cv.addEventListener("pointerdown", onDown);
