@@ -17,3 +17,4 @@ metadata:
 - 2026-11-22 11:26 | correct | AC313 variable costing - COGS calc excludes var S&A
 - 2026-11-22 11:27 | correct | AC313 variable costing - CM is not operating income
 - 2026-11-22 11:28 | correct | AC313 absorption costing - unit cost incl fixed MOH/unit produced
+- 2026-11-22 11:29 | correct | AC313 absorption costing - COGS uses units sold not produced
