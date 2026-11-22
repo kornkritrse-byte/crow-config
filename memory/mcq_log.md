@@ -65,3 +65,4 @@ metadata:
 - 2026-11-22 15:07 | correct | AC313 direct method - third rep, Crestline
 - 2026-11-22 15:10 | correct | AC313 step-down - third rep, Admin first then Facilities' new pool to production only
 - 2026-11-22 15:20 | correct | AC313 reciprocal equation-matching - asymmetric %, correctly paired dept/cost/rate
+- 2026-11-22 15:46 | wrong | AC313 materials quantity variance - used actual price instead of standard price
