@@ -702,6 +702,17 @@ function mcqStats() {
   return { pct: Math.round((100 * correct) / last.length), correct, total: last.length };
 }
 
+// Same log, but EVERY row ever graded (no rolling window) — Korn's ask 22 Nov:
+// a basketball-practice-style scoreboard (made/attempted + a horizontal FG% bar)
+// that doesn't "forget" early misses the way the rolling tube does. Parked v1,
+// built alongside the existing tube (not replacing it) — see pixel/fgboard.js.
+function mcqAllStats() {
+  const rows = readSafe(MCQ_LOG).split('\n').map(l => l.match(/^- \d{4}-\d{2}-\d{2} \d{2}:\d{2} \| (correct|wrong) \| (.+)$/)).filter(Boolean);
+  if (!rows.length) return { pct: null, correct: 0, total: 0 };
+  const correct = rows.filter(([, r]) => r === 'correct').length;
+  return { pct: Math.round((100 * correct) / rows.length), correct, total: rows.length };
+}
+
 // ---------------------------------------------------------------- the water log (the plum blossom)
 // Every finished task waters the flower: a ghost card passed, a training session
 // done, a said/did item kept. One blossom per watering this week (Mon–Sun, Bangkok).
@@ -790,7 +801,7 @@ async function markDone(m) {
 let board = null;
 async function refreshBoard() {
   const ghost = await ghostCards();
-  board = { events: upcomingEvents(), status: sitrepStatus(), ghost, water: water(ghost), mcq: mcqStats(), at: Date.now() };
+  board = { events: upcomingEvents(), status: sitrepStatus(), ghost, water: water(ghost), mcq: mcqStats(), mcqAll: mcqAllStats(), at: Date.now() };
   emit({ type: 'board', board });
 }
 
