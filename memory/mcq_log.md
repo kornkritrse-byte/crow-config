@@ -27,3 +27,4 @@ metadata:
 - 2026-11-22 11:44 | correct | AC313 direct method - exclude support dept hours from base (numeric)
 - 2026-11-22 11:45 | wrong | AC313 step-down - closed dept never receives allocation back (4th related miss)
 - 2026-11-22 11:46 | correct | AC313 step-down - numeric allocation to S2 (calc fine, logic shaky)
+- 2026-11-22 11:47 | correct | AC313 step-down - closed dept excluded from later allocation base too
