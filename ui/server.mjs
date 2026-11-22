@@ -49,11 +49,12 @@ What the Room cannot do, and belongs in VS Code (or the terminal):
 - debugging with the IDE: its diagnostics, breakpoints, a terminal he's watching
 - signing in to connectors (/mcp, OAuth for Canva, Microsoft 365 and the like) and interactive settings (/config, /login, /output-style, /fast)
 
-Multiple-choice cards: AskUserQuestion is off in the Room. When you want Korn to pick from choices (an MCQ drill question, BA202-style exam practice, or any question you'd otherwise have put to AskUserQuestion), write a fenced block with the language "mcq" holding strict JSON:
+Multiple-choice cards: AskUserQuestion is off in the Room. ALWAYS put a multiple-choice question — any time you're giving Korn options to pick from, not just structured drills: an MCQ drill question, BA202-style exam practice, or a quick check — in the mcq card format below. Never write lettered options as plain text/markdown; that's a format violation, his standing ask. Write a fenced block with the language "mcq" holding strict JSON:
 \`\`\`mcq
 {"q": "The question (markdown allowed)", "options": ["first", "second", "third", "fourth"], "multi": false}
 \`\`\`
 The Room turns it into a card: lettered options A, B, C… (do not put letters in the option text), tick boxes, a note box for his reasoning, and a "Lock it in" button. Set "multi": true only when more than one option can be right. Rules: one card per message, never batch; put the card last and never reveal or hint at the answer in that message. His answer arrives as a message starting "[MCQ]" with "My pick:" and maybe "My reasoning:". Grade it in the first line (right or wrong, then the right answer), then say why, and read his reasoning: a right pick with wrong reasoning is a miss worth naming. A miss becomes a ghost card that turn, as usual. MCQ trains recognition, and his gap is recall ([[feedback-drill-format]]), so use cards where the exam itself is MCQ (BA202) or for quick checks, and keep open questions for everything else.
+Right after grading any MCQ card, log it that turn: \`python3 bin/mcq.py add correct|wrong "<short topic>"\`. This fills the pixel tube beside the basketball hoop (green fluid = rolling % correct over the last 20 graded MCQs); it only shows once an MCQ card has been posted this session.
 
 Today's goals (the plum blossom): the flower on the board has one blossom per goal he lists for the day. When the session-start hook prints 🌸 GOALS, ask "goals today?" (max 7 of his own) and record them with python3 bin/goals.py set "<goal>" … (the standing ones are added on their own: Wake early, Morning creative writing, Moving (or the day's training session instead), Daily journal, Reading, Bed by 23:30). When he says a goal is done, run goals.py done <n> that turn (it waters the flower). He can also press Done on the board. Ask "Bed by 23:30" about the previous night at the next session. When he logs off for the day the stop hook runs goals.py close and the petals fall.
 
@@ -687,6 +688,20 @@ function ghostCards() {
   });
 }
 
+// ---------------------------------------------------------------- the MCQ log (the pixel tube)
+// Every MCQ Crow grades in chat gets logged (bin/mcq.py add correct|wrong <topic>).
+// The tube between the hoop and the book pile fills to the rolling % correct
+// over the last MCQ_WINDOW answers (or however many exist, if fewer).
+const MCQ_LOG = path.join(MEMORY, 'mcq_log.md');
+const MCQ_WINDOW = 20;
+function mcqStats() {
+  const rows = readSafe(MCQ_LOG).split('\n').map(l => l.match(/^- \d{4}-\d{2}-\d{2} \d{2}:\d{2} \| (correct|wrong) \| (.+)$/)).filter(Boolean);
+  const last = rows.slice(-MCQ_WINDOW);
+  if (!last.length) return { pct: null, correct: 0, total: 0 };
+  const correct = last.filter(([, r]) => r === 'correct').length;
+  return { pct: Math.round((100 * correct) / last.length), correct, total: last.length };
+}
+
 // ---------------------------------------------------------------- the water log (the plum blossom)
 // Every finished task waters the flower: a ghost card passed, a training session
 // done, a said/did item kept. One blossom per watering this week (Mon–Sun, Bangkok).
@@ -775,7 +790,7 @@ async function markDone(m) {
 let board = null;
 async function refreshBoard() {
   const ghost = await ghostCards();
-  board = { events: upcomingEvents(), status: sitrepStatus(), ghost, water: water(ghost), at: Date.now() };
+  board = { events: upcomingEvents(), status: sitrepStatus(), ghost, water: water(ghost), mcq: mcqStats(), at: Date.now() };
   emit({ type: 'board', board });
 }
 

@@ -701,3 +701,12 @@ body.gutters:not(.room-empty) .court { display: block; }
 .gutter.left { z-index: 2; pointer-events: none; }
 .gutter.left .pile { margin-top: 14px; }   /* headroom for the parked ball peeking over the top book */
 .gutter.left .spine { pointer-events: auto; }
+
+/* the MCQ tube: green fluid = rolling % correct, sits between the hoop and the
+   book pile. Hidden until the first MCQ card of the session (body.mcq-active). */
+.mcqbar { display: none; position: absolute; left: 8px; z-index: 2; pointer-events: none; text-align: center; }
+body.gutters.mcq-active:not(.room-empty) .mcqbar { display: block; }
+.mcqbar canvas { image-rendering: pixelated; display: block; }
+.mcqbar-score { margin-top: 4px; font-size: 10.5px; color: var(--mist); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.mcqbar-score b { display: block; color: var(--paper); font-size: 15px; letter-spacing: 0; }
+.mcqbar-score span { display: block; color: var(--faint); font-weight: 400; letter-spacing: 0; text-transform: none; font-size: 10.5px; margin-top: 1px; }

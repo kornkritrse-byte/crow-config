@@ -183,6 +183,7 @@ function mountMcq(root, streaming) {
       if (streaming) pre.replaceWith(div('mcq pending', 'question coming…'));
       continue;
     }
+    if (!streaming) window.McqBar?.reveal();
     pre.replaceWith(streaming ? div('mcq pending', 'question coming…') : mcqCard(data));
   }
 }
@@ -642,6 +643,7 @@ function paintBoard(board) {
   });
 
   paintWater(board);
+  window.McqBar?.setPct(board.mcq);
 }
 
 // Water the flower: today's tasks. A ghost card passed, a training session done, a

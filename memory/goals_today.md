@@ -319,8 +319,8 @@ metadata:
 - 2026-11-21 | Daily journal | open
 - 2026-11-21 | Reading | open
 - 2026-11-21 | Bed by 23:30 | open
-- 2026-11-22 | Wake early | open
-- 2026-11-22 | Morning creative writing | open
+- 2026-11-22 | Wake early | done
+- 2026-11-22 | Morning creative writing | done
 - 2026-11-22 | Training: Long 15 km | open
 - 2026-11-22 | Daily journal | open
 - 2026-11-22 | Reading | open

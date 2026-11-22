@@ -223,3 +223,5 @@ metadata:
 - 2026-11-20 11:39 | goal | Morning creative writing
 - 2026-11-20 11:39 | goal | Moving
 - 2026-11-20 11:39 | goal | Reading
+- 2026-11-22 10:52 | goal | Wake early
+- 2026-11-22 10:52 | goal | Morning creative writing
