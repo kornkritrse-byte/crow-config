@@ -227,3 +227,5 @@ metadata:
 - 2026-11-22 10:52 | goal | Morning creative writing
 - 2026-11-22 11:10 | ghost | AC313 variances: Which is the best example of a UNIT-level cost: paying suppl
 - 2026-11-22 11:11 | goal | Bed by 23:30
+- 2026-11-22 18:59 | training | Intervals 4 x 800 m @ ~4:00/km, Sun 22 Nov evening
+- 2026-11-22 18:59 | goal | Training: Long 15 km
