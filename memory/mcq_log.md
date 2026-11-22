@@ -31,3 +31,4 @@ metadata:
 - 2026-11-22 11:48 | correct | AC313 step-down - conservation of total cost (worked example)
 - 2026-11-22 11:49 | correct | AC313 reciprocal method - captures mutual service via simultaneous equations
 - 2026-11-22 11:50 | correct | AC313 reciprocal method - other dept's % is on their TRUE total, separate unknown
+- 2026-11-22 11:55 | correct | AC313 reciprocal method - solving the simultaneous equation algebra
