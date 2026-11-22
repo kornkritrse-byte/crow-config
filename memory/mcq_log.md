@@ -42,3 +42,4 @@ metadata:
 - 2026-11-22 12:32 | correct | AC313 FOH spending + volume - favorable direction, didn't default to always-U
 - 2026-11-22 12:46 | wrong | AC313 materials quantity variance - reached for purchased qty again (repeat miss)
 - 2026-11-22 12:46 | correct | AC313 materials price vs quantity variance - purchased vs used anchor rule
+- 2026-11-22 12:49 | correct | AC313 materials price + quantity variance - purchased/used split held with numbers
