@@ -49,3 +49,4 @@ metadata:
 - 2026-11-22 13:00 | correct | AC313 mix vs yield - independence, no automatic direction link
 - 2026-11-22 13:03 | correct | AC313 mix variance - rescale standard % to actual total input first
 - 2026-11-22 13:06 | correct | AC313 yield - SQA conversion formula, understood not guessed (retest)
+- 2026-11-22 13:08 | correct | AC313 plantwide vs departmental OH rates - core distinction
