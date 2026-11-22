@@ -704,8 +704,10 @@ body.gutters:not(.room-empty) .court { display: block; }
 
 /* the FG board: a basketball-practice scoreboard for EVERY graded MCQ ever.
    22 Nov: court on top, the % tube (was the standalone mcqbar) under the
-   court with its number inside the glass, made/att under the tube. Sits in
-   the top-right corner, the open side of the room (hoop/ball live top-left). */
+   court with its number inside the glass, made/att under the tube. Tube
+   re-laid horizontal (same evening, his ask) — lying on its side under the
+   court instead of standing tall. Sits in the top-right corner, the open
+   side of the room (hoop/ball live top-left). */
 .fgboard { display: none; position: absolute; right: 8px; z-index: 2; pointer-events: none; text-align: center; }
 body.gutters.fg-active:not(.room-empty) .fgboard { display: block; }
 .fgboard-court { position: relative; }

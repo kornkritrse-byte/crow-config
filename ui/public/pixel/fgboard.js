@@ -13,7 +13,7 @@
   const { PX, C } = root.PXL;
   const S = 3;
   const CW = 54, CH = 46;                          // court sprite size
-  const TW = 14, TH = 44;                           // tube sprite size, same as the old mcqbar
+  const TW = 44, TH = 14;                           // tube sprite size — laid on its side now, under the court
   const TOP = 60;                                   // top-right corner, level with the hoop on the other side
   const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
@@ -60,41 +60,41 @@
     return b;
   })();
 
-  // ---------------------------------------------------------------- the % tube (vertical, the old mcqbar sprite)
+  // ---------------------------------------------------------------- the % tube (horizontal, lying under the court)
   const TP = {
     glass: C("#4a5a6a"), glassHi: C("#9fb2c2"), glassLo: C("#2a3744"),
     cap: C("#8c9baa"), capHi: C("#c7d6e2"), capLo: C("#5f6f80"),
     empty: C("#1a2430"),
     fluid: C("#2f9d58"), fluidHi: C("#6fe08a"), fluidLo: C("#176b38"), fluidEdge: C("#bdf5c9"),
   };
-  const TWALL = { x0: 2, x1: 11, yTop: 3, yBot: 40 };
+  const TWALL = { xLeft: 3, xRight: 40, y0: 2, y1: 11 };
   const rngTube = root.PXL.rng(11);
   function tubeShell() {
     const b = new PX(TW, TH);
-    b.rect(TWALL.x0 - 1, 0, TWALL.x1 - TWALL.x0 + 3, 3, TP.cap);
-    b.hline(TWALL.x0 - 1, TWALL.x1 + 1, 0, TP.capHi);
-    b.hline(TWALL.x0 - 1, TWALL.x1 + 1, 2, TP.capLo);
-    b.vline(TWALL.x0, TWALL.yTop, TWALL.yBot, TP.glass);
-    b.vline(TWALL.x1, TWALL.yTop, TWALL.yBot, TP.glass);
-    b.vline(TWALL.x0 - 1, TWALL.yTop + 1, TWALL.yBot - 2, TP.glassLo);
-    b.set(TWALL.x0, TWALL.yTop + 1, TP.glassHi); b.set(TWALL.x0, TWALL.yTop + 2, TP.glassHi);
-    b.hline(TWALL.x0, TWALL.x1, TWALL.yBot + 1, TP.glass);
-    b.set(TWALL.x0 + 1, TWALL.yBot + 2, TP.glass); b.set(TWALL.x1 - 1, TWALL.yBot + 2, TP.glass);
-    b.hline(TWALL.x0 + 1, TWALL.x1 - 1, TWALL.yBot + 3, TP.glassLo);
+    b.rect(0, TWALL.y0 - 1, 3, TWALL.y1 - TWALL.y0 + 3, TP.cap);
+    b.vline(0, TWALL.y0 - 1, TWALL.y1 + 1, TP.capHi);
+    b.vline(2, TWALL.y0 - 1, TWALL.y1 + 1, TP.capLo);
+    b.hline(TWALL.xLeft, TWALL.xRight, TWALL.y0, TP.glass);
+    b.hline(TWALL.xLeft, TWALL.xRight, TWALL.y1, TP.glass);
+    b.hline(TWALL.xLeft + 1, TWALL.xRight - 2, TWALL.y0 - 1, TP.glassLo);
+    b.set(TWALL.xLeft + 1, TWALL.y0, TP.glassHi); b.set(TWALL.xLeft + 2, TWALL.y0, TP.glassHi);
+    b.vline(TWALL.xRight + 1, TWALL.y0, TWALL.y1, TP.glass);
+    b.set(TWALL.xRight + 2, TWALL.y0 + 1, TP.glass); b.set(TWALL.xRight + 2, TWALL.y1 - 1, TP.glass);
+    b.vline(TWALL.xRight + 3, TWALL.y0 + 1, TWALL.y1 - 1, TP.glassLo);
     return b;
   }
   const TUBESHELL = tubeShell();
-  const tubeInnerH = TWALL.yBot - TWALL.yTop - 1;
+  const tubeInnerW = TWALL.xRight - TWALL.xLeft - 1;
   function tubeFrame(level) {
     const b = new PX(TW, TH);
     b.copy(TUBESHELL);
-    const fillRows = Math.round(level * tubeInnerH);
-    const topY = TWALL.yBot - fillRows;
-    for (let y = TWALL.yTop + 1; y < TWALL.yBot; y++) {
-      for (let x = TWALL.x0 + 1; x < TWALL.x1; x++) {
-        if (y < topY) { b.set(x, y, TP.empty); continue; }
-        const edge = x === TWALL.x0 + 1 || x === TWALL.x1 - 1;
-        const meniscus = y === topY;
+    const fillCols = Math.round(level * tubeInnerW);
+    const rightX = TWALL.xLeft + fillCols;
+    for (let x = TWALL.xLeft + 1; x < TWALL.xRight; x++) {
+      for (let y = TWALL.y0 + 1; y < TWALL.y1; y++) {
+        if (x > rightX) { b.set(x, y, TP.empty); continue; }
+        const edge = y === TWALL.y0 + 1 || y === TWALL.y1 - 1;
+        const meniscus = x === rightX;
         b.set(x, y, meniscus ? TP.fluidEdge : edge ? TP.fluidLo : rngTube() < 0.08 ? TP.fluidHi : TP.fluid);
       }
     }
