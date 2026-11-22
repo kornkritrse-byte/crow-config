@@ -6,11 +6,11 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-20T11:53:10.419Z
+  modified: 2026-11-22T04:07:36.040Z
 ---
 
 # Situation Report
-*Last updated: 2026-11-20 18:45 (mid-session save, not day-close). Window holds 20 Nov + 19 Nov; 17 Nov flushed to sessions_log. Next to flush: 19 Nov (when 21 Nov opens).*
+*Last updated: 2026-11-22 11:05 (mid-session save, not day-close). Window holds 22 Nov + 20 Nov; 19 Nov flushed to sessions_log. Note: no 21 Nov session note was written despite git syncs that day — gap not yet investigated.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,12 +27,18 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (20 Nov, from 11:24 — restarting the Room again ~18:44, hoping it picks up Notion access; none so far).** AC313 full re-test done (8 ghost cards) + AC311 Investment Property fully mapped, subsequent measurement flagged as the real weak branch (5 ghost cards). AC311 Conceptual Framework drilling stalled: ChatGPT run went badly, MCQ-in-Room just started (1 Q in), he now wants it on Notion instead — no connector yet, Google Doc offered as fallback. FN201 topic 9 and topic 8's t8s6 still untouched from 19 Nov, still open.
+- **Here (22 Nov, from ~10:34).** AC313 final is TOMORROW (Mon 23 Nov, 09:00, 40%) — Korn opened wanting a full AC311 day (not due till 28 Nov, 25%); Crow objected on exam proximity, he flipped to a full AC313 day instead. Built + deployed this session: the MCQ-always-format rule ([[feedback-mcq-format]]) and the MCQ percentage tube (pixel tube between the hoop and book pile, rolling % correct, [[reference-crow-room]]) — Room restarted mid-session to load it. Plan for today: MCQ block through the AC313 ghost-deck topics first, then a harder numeric block (raw numbers, he works it on paper, then reveals). AC311 Conceptual Framework drilling still stalled from 20 Nov (wanted on Notion, no connector yet); FN201 topic 9 + t8s6 still untouched.
 - AC311 Midterm 2: DONE, 13 Nov, "easy shit." Only real uncertainty was the revaluation-surplus annual transfer (optional under IAS 16) — worked both ways, went with the with-transfer version. **Next: AC311 final 28 Nov** (Conceptual Framework drilling still to come — summary doc built, his read-through pending).
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
-## Session — 2026-11-20 (Fri, from 11:24, restarted ~16:20 + ~18:44 + ~18:49 — ongoing)
+## Session — 2026-11-22 (Sun, from 10:34 — ongoing)
+- Opened wanting a full AC311 day, every topic, no passing without a full answer. Crow objected: AC313 final is tomorrow (40%), AC311 isn't due till 28 Nov (25%), and the graded Quiz 3 found 20 Nov was still undrilled. He flipped to a full AC313 day.
+- Built the MCQ percentage tube (his spec: pixel tube, green fluid, between the hoop and the books, rises/falls with % correct) + `bin/mcq.py` log + reinforced the mcq-card format as an always-rule, no exceptions → [[feedback-mcq-format]], [[reference-crow-room]]. Tested clean on a throwaway server; real Room restarted mid-session to deploy it.
+- First live mcq card went out as plain text by mistake (caught by him immediately, fixed same turn).
+- Plan going forward today: AC313 ghost-deck topics in MCQ form first (the tube tracks it live, stays up for the rest of the block including the numeric phase), then harder numeric problems — raw numbers only, he works them on paper, then reveals for grading.
+
+## Session — 2026-11-20 (Fri, from 11:24, restarted ~16:20 + ~18:44 + ~18:49)
 - **Notion connector finally live this restart.** Built "FN201 Final — Conceptual Guide" as a sub-page under Pocket Procedures → [[reference-pocket-procedures]] — topics 6–10, conceptual layer only, pulled from the Final Map canvas; calc-heavy stuff stays in the ghost deck.
 - Ghost 30 (AC313 product-sustaining activity) passed cold, box 2.
 - **AC313 full re-test** (his call: the canvas's "green" wasn't earning it) — overhead/ABC, all 3 support-dept methods, standard-costing variances, mix/yield, all re-run with real exam numbers. Real gaps: benchmark-selection confusion (which hours/rate a variance uses) and a rounding-precision habit, NOT raw calc ability like the map implied. 8 ghost cards.
@@ -41,15 +47,7 @@ metadata:
 - **He now wants the CF material in his Pocket Procedures Notion page instead** ("struggle with the conceptual part rn") — no Notion connector available either restart so far; offered a Google Doc as the live alternative, not yet built. He's hoping a 3rd restart picks up Notion access.
 - Found/saved `AC313 Quiz 3 (graded, 2024+2025).pdf` (his own graded quiz, "basically like finals") → `~/Desktop/pastpapers/AC313/`. Deferred drilling from it, his call.
 
-## Session — 2026-11-19 (Thu, from 12:38, paused ~15:54 — resumes this evening)
-- **18 Nov gap caught + closed:** no sitrep note existed for Wed 18 Nov (Crow's maintenance miss, not a missed study day) — git confirmed the session happened: FN201 topic 8, single + multi break-point MCC (Q11, Q17, Q20) nailed clean. Korn pushed back ("I did them with you no? tf") when Crow first said unverified — correctly, Crow was wrong to doubt him and should've checked git before asserting → [[crow-error-log]].
-- Ghost card 29 (AC313 mix/yield independence) passed cold, box 2.
-- FN201 topic 8 deep block: Q22 (actual-vs-optimal weighted MCC, the stated 18 Nov gap) run clean start to finish. Q23 (full version — bond YTM via BA II Plus, kp, DDM+flotation ks/ke, market-value weights, break point, THB70M fund split) walked through guided, zero errors once structured, then re-run solo clean. Q29-32 (same family, kd given directly) run solo with light Q&A — one real slip (dropped g from ks, i.e. used dividend yield alone) self-corrected after a pointer.
-- **Ghosted:** retention ratio "b" in g = b×ROE — blanked on it twice today (once mid-walkthrough, once in the "solo" pass) → [[ghost-deck]].
-- Canvas updated (`study/FN201 Final Map.canvas`, MCC/break-point node): this sub-block now solid. Scope check given (his ask): today covered ~topic 8's hardest piece only, ~15% of the paper — risk-adjusted WACC, the trade-off model, and all of topic 9 (capital budgeting, equal weight to topic 8) still untouched.
-- **Evening resume (20:28–20:45):** t8s9 (risk-adjusted WACC) + t8s10 (trade-off model) both closed, concept-only, ~17 min. Risk-adjusted WACC took 2 hints — he had PV-vs-discount-rate backwards (said lower rate → lower PV; it's the reverse) and first guessed "rejected" instead of "accepted" for the risky-project case → ghosted. Trade-off model landed clean (bankruptcy/distress risk pulls WACC back up past the optimal point). Canvas colors updated (t8s8 → green/solid). He then asked for the WACC↔MCC link cleared up — explained (WACC = one weighted-avg %, MCC = that % plotted against total new capital raised, stepping up at each break point) + queued 3 drill Qs for next session, saved directly in the canvas (`study/FN201 Final Map.canvas`, top of the t8s8 node). Topic 8 fully closed except t8s6 (ST debt in WACC, calc-heavy — saved for when fresh). Topic 9 still fully untouched.
-
-## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. AC311 final 28 Nov. AC313 final Mon 23 Nov 09:00 (next up, 8 days out).
+## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. AC313 final Mon 23 Nov 09:00 — **tomorrow.** AC311 final Sat 28 Nov.
 
 ## 🧰 New system pieces (built 27 Sep, his pick from 8 ideas) — all fire from the session-start hook, silent unless due
 - 🕐 `hooks/prompt-time.sh` stamps `[clock]` on every prompt → **use it for any time reference.**

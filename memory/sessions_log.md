@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: c38e29c0-da2f-4906-8e70-a7a356ec2563
-  modified: 2026-11-20T09:20:53.472Z
+  modified: 2026-11-22T04:06:48.644Z
 ---
 
 # Sessions Log (archive)
@@ -586,3 +586,8 @@ metadata:
 
 ## Session — 2026-11-13 (Fri, from 09:07) — flushed 15 Nov
 - AC311 M2 prep final push: Final 2021.pdf Part 4 reval→impairment→reversal drilled (nailed after 2 corrections on the reversal cap — cap at the ORIGINAL P&L-charged amount, not a shrunk ceiling or decayed fraction), Part 4 impairment-only + 5 MCQs all correct unprompted (caught the reversal-vs-further-loss trap). ARO + 2 capitalization scenarios clean. Notion Study Page got a cost-vs-revaluation summary. Headed to uni ~12:17 for the 13:00 exam — AC311 M2 landed "easy shit" (see 15 Nov status).
+
+## Session — 2026-11-19 (Thu, from 12:38, paused ~15:54) — flushed 22 Nov
+- 18 Nov gap caught + closed: no sitrep note had existed for Wed 18 Nov (maintenance miss, not a missed study day) — git confirmed FN201 topic 8 MCC work happened. Korn pushed back correctly when Crow doubted him unverified → [[crow-error-log]].
+- FN201 topic 8 deep block: bond YTM + kp + DDM/flotation + market-value WACC walked through guided then clean solo; retention ratio "b" in g=b×ROE ghosted (blanked twice).
+- Evening resume: risk-adjusted WACC (2 hints, had PV-vs-rate backwards) + trade-off model (clean) closed topic 8 except t8s6 (ST debt, calc-heavy, saved for fresh). Topic 9 (capital budgeting) still fully untouched.
