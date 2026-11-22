@@ -29,3 +29,4 @@ metadata:
 - 2026-11-22 11:46 | correct | AC313 step-down - numeric allocation to S2 (calc fine, logic shaky)
 - 2026-11-22 11:47 | correct | AC313 step-down - closed dept excluded from later allocation base too
 - 2026-11-22 11:48 | correct | AC313 step-down - conservation of total cost (worked example)
+- 2026-11-22 11:49 | correct | AC313 reciprocal method - captures mutual service via simultaneous equations
