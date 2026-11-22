@@ -24,3 +24,4 @@ metadata:
 - 2026-11-22 11:41 | correct | AC313 step-down - why the serving dept goes first (retest)
 - 2026-11-22 11:41 | correct | AC313 step-down - 3-dept order (right pick, reasoning tightened)
 - 2026-11-22 11:43 | correct | AC313 direct method - ignores support-to-support service
+- 2026-11-22 11:44 | correct | AC313 direct method - exclude support dept hours from base (numeric)
