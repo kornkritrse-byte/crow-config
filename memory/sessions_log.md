@@ -591,3 +591,10 @@ metadata:
 - 18 Nov gap caught + closed: no sitrep note had existed for Wed 18 Nov (maintenance miss, not a missed study day) — git confirmed FN201 topic 8 MCC work happened. Korn pushed back correctly when Crow doubted him unverified → [[crow-error-log]].
 - FN201 topic 8 deep block: bond YTM + kp + DDM/flotation + market-value WACC walked through guided then clean solo; retention ratio "b" in g=b×ROE ghosted (blanked twice).
 - Evening resume: risk-adjusted WACC (2 hints, had PV-vs-rate backwards) + trade-off model (clean) closed topic 8 except t8s6 (ST debt, calc-heavy, saved for fresh). Topic 9 (capital budgeting) still fully untouched.
+
+## Session — 2026-11-20 (Fri, from 11:24, restarts ~16:20/18:44/18:49) — flushed 23 Nov
+- Notion connector live → built "FN201 Final — Conceptual Guide" under Pocket Procedures (topics 6–10, conceptual only).
+- AC313 full re-test (his call, the canvas's green wasn't earning it): real gaps = benchmark selection (which hours/rate a variance uses) + rounding precision, not raw calc. 8 ghost cards. Ghost 30 passed.
+- AC311 Investment Property mapped: transfers/entries solid, subsequent measurement 0/3 = the weak branch. 5 ghost cards.
+- Built AC311 CF remaining-topics doc + ChatGPT drill kit; ChatGPT drilling went badly ("being a fuckwit") → MCQ in the Room instead. He wants CF in Pocket Procedures Notion.
+- Found `AC313 Quiz 3 (graded, 2024+2025).pdf` → pastpapers; drilled 22 Nov.
