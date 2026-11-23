@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (23 Nov, ~12:20) — off to: post-exam break. He'll ping when the AC311 session starts (today, ledgered).** AC313 final went "chill, literally like the past paper."
+- **AWAY (23 Nov, ~13:17) — off to: a Room restart, then straight into the AC311 session (today, ledgered).** AC313 final went "chill, literally like the past paper."
   ASK ON RETURN: nothing. Go straight into AC311 in HIS order: **impairment → Investment Property → Conceptual Framework.** Use the AC311 `final 2021.pdf` (Part 1 Q1–5 = TAS 36, Part 4 P1/P2 = impairment + reval; Parts 2–3 = CF T/F + matching; see [[reference-past-papers]]). The ChatGPT "For Crow:" summary is moot now, so don't ask.
 - **Next up: AC311 FINAL Sat 28 Nov** (25%). Weak branches on record: Investment Property subsequent measurement (0/3 on 20 Nov) + Conceptual Framework (drilling stalled since 20 Nov; he wants it in Pocket Procedures on Notion). FN201 topic 9 + t8s6 still untouched.
 - Ghost deck: all 58 AC313 cards parked to [[ghost-parked]] 23 Nov 12:20 (he didn't object). Deck = AC311 + FN201 now, 17 due.
