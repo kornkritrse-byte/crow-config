@@ -28,7 +28,7 @@ metadata:
 
 ## 🚪 Current status
 - **Here (23 Nov, 12:17) — back right after the AC313 FINAL (09:00–12:00). He asked to save the session first.**
-  ASK ON RETURN: how did AC313 go? · ChatGPT's "For Crow:" summary from last night was never pasted back. Ask once; if he skips it, drop it (AC313 is done, those misses don't matter for a test anymore).
+  AC313 went "chill" (asked + answered 12:19). Still open: ChatGPT's "For Crow:" summary from last night was never pasted back. Ask once; if he skips it, drop it (AC313 is done, those misses don't matter for a test anymore).
 - **Next up: AC311 FINAL Sat 28 Nov** (25%). Weak branches on record: Investment Property subsequent measurement (0/3 on 20 Nov) + Conceptual Framework (drilling stalled since 20 Nov; he wants it in Pocket Procedures on Notion). FN201 topic 9 + t8s6 still untouched.
 - Ghost deck: AC313 cards are now past their test → his 24 Oct rule ("only topics still ahead on a test") says park them in [[ghost-parked]]. Confirm with him before moving them.
 - Room: FG scoreboard (`ui/public/pixel/fgboard.js`, `server.mjs` mcqAllStats()) built 22 Nov lunch; needs a Room restart from HIM if not done yet. MCQ cards lock when a question's text matches one he already answered (localStorage key) → tag repeats, e.g. "[Quiz 3 · Q4]".
@@ -36,7 +36,7 @@ metadata:
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
 ## Session — 2026-11-23 (Mon, from 12:17)
-- AC313 final sat 09:00–12:00. "Save session" was his first ask afterwards.
+- AC313 final sat 09:00–12:00. His read: "chill, it was literally like the past paper" → the past-paper drilling (Final2021 + Quiz 3) was the right prep. Apply the same to AC311.
 
 ## Session — 2026-11-22 (Sun, 10:34 → ~19:50, then he moved to ChatGPT)
 - Opened wanting a full AC311 day; Crow objected (AC313 final next morning, 40%) → full AC313 day instead.
