@@ -27,8 +27,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (23 Nov, ~15:31) — paused mid-AC311 ("pause for now"), off to: unstated.**
-  ASK ON RETURN: finish F21 P2(d): the 800,000 reversal split (P&L 600,000 = 750,000 × 4/5, surplus 200,000; Crow's working, ~75%) + the 1,000,000 above the 3,600,000 cap → surplus. Then IP straight off `311 Sarup.pdf` p15–16 (transfers table).
+- **Here (23 Nov, 16:20) — back from IELTS-testing a friend, resuming AC311.** Open:
+  finish F21 P2(d): the 800,000 reversal split (P&L 600,000 = 750,000 × 4/5, surplus 200,000; Crow's working, ~75%) + the 1,000,000 above the 3,600,000 cap → surplus. Then IP straight off `311 Sarup.pdf` p15–16 (transfers table).
 - **Next up: AC311 FINAL Sat 28 Nov** (25%). Weak branches on record: Investment Property subsequent measurement (0/3 on 20 Nov, still undrilled) + Conceptual Framework (drilled 23 Nov, 17/25, now in Pocket Procedures; 9 cards due 26 Nov). FN201 topic 9 + t8s6 still untouched.
 - Ghost deck: all 58 AC313 cards parked to [[ghost-parked]] 23 Nov 12:20 (he didn't object). Deck = AC311 + FN201 now, 17 due.
 - Room: FG scoreboard (`ui/public/pixel/fgboard.js`, `server.mjs` mcqAllStats()) built 22 Nov lunch; needs a Room restart from HIM if not done yet. MCQ cards lock when a question's text matches one he already answered (localStorage key) → tag repeats, e.g. "[Quiz 3 · Q4]".
