@@ -36,6 +36,7 @@ metadata:
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
 ## Session — 2026-11-23 (Mon, from 12:17)
+- AC311 from 13:18, CF first (his reorder). F21 Part 2 T/F 8/10 + Part 3 matching 9/15 = 17/25; then a definition→term recall flip. Root cause, his own words: he reads terms literally ("just a hunch") → fails on terms of art (going concern, historical cost, materiality, cost constraint, FR) + exam English (pertinent, purports). Default wrong guess = "comparability". 9 CF ghost cards added (due 26 Nov). MCQ log reset at his ask (`mcq.py reset`, old rows → mcq_log_archive.md). Notion: new Pocket Procedures sub-page 'AC311 Final — Conceptual Framework' ([[reference-pocket-procedures]]). Next: impairment → IP.
 - AC313 final sat 09:00–12:00. His read: "chill, it was literally like the past paper" → the past-paper drilling (Final2021 + Quiz 3) was the right prep. AC313 ghost cards parked. AC311 session later today: impairment → IP → CF.
 
 ## Session — 2026-11-22 (Sun, 10:34 → ~19:50, then he moved to ChatGPT)
