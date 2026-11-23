@@ -28,7 +28,7 @@ metadata:
 
 ## 🚪 Current status
 - **Here (23 Nov, 16:20) — back from IELTS-testing a friend, resuming AC311.** Open:
-  finish F21 P2(d): the 800,000 reversal split (P&L 600,000 = 750,000 × 4/5, surplus 200,000; Crow's working, ~75%) + the 1,000,000 above the 3,600,000 cap → surplus. Then IP straight off `311 Sarup.pdf` p15–16 (transfers table).
+  F21 P2(d) DONE 16:41 (all of Part 4 done). IP from 16:42 (FV changes ✅; transfers 1/3, equity reflex ×3 → one-line transfer test added to the IP Notion page). Goodwill side-track 17:14–17:25 (tested yearly at CGU, goodwill absorbs first, never reversed). Also: fixed + extended his friend's TBS ambassador essay (Google Doc 1HqIV_9r…, ending para; essay host-uni action still unswapped — he's choosing). Next: definitions (IP def first).
 - **Next up: AC311 FINAL Sat 28 Nov** (25%). Weak branches on record: Investment Property subsequent measurement (0/3 on 20 Nov, still undrilled) + Conceptual Framework (drilled 23 Nov, 17/25, now in Pocket Procedures; 9 cards due 26 Nov). FN201 topic 9 + t8s6 still untouched.
 - Ghost deck: all 58 AC313 cards parked to [[ghost-parked]] 23 Nov 12:20 (he didn't object). Deck = AC311 + FN201 now, 17 due.
 - Room: FG scoreboard (`ui/public/pixel/fgboard.js`, `server.mjs` mcqAllStats()) built 22 Nov lunch; needs a Room restart from HIM if not done yet. MCQ cards lock when a question's text matches one he already answered (localStorage key) → tag repeats, e.g. "[Quiz 3 · Q4]".
