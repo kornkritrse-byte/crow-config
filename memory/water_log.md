@@ -230,3 +230,4 @@ metadata:
 - 2026-11-22 18:59 | training | Intervals 4 x 800 m @ ~4:00/km, Sun 22 Nov evening
 - 2026-11-22 18:59 | goal | Training: Long 15 km
 - 2026-11-23 13:22 | ghost | AC311 Conceptual Framework: What's the obligation called when it comes from a company's
+- 2026-11-23 16:02 | goal | Wake early
