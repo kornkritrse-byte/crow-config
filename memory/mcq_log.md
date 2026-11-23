@@ -24,3 +24,4 @@ metadata:
 - 2026-11-23 13:41 | correct | AC311 F21 P3 5 - confirmatory value
 - 2026-11-23 13:41 | correct | AC311 F21 P3 6 - understandability
 - 2026-11-23 13:42 | wrong | AC311 F21 P3 7 - going concern (picked recognition)
+- 2026-11-23 13:46 | wrong | AC311 F21 P3 8 - faithful repr. (picked neutrality)
