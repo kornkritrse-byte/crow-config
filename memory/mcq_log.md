@@ -11,3 +11,4 @@ metadata:
 - 2026-11-23 13:25 | correct | AC311 F21 P2 Q2 - no offsetting unless TFRS
 - 2026-11-23 13:26 | correct | AC311 F21 P2 Q3 - change in accounting policy allowed
 - 2026-11-23 13:27 | correct | AC311 F21 P2 Q4 - all income/expense in P&L unless TFRS
+- 2026-11-23 13:27 | wrong | AC311 F21 P2 Q5 - capital increase not in SCI
