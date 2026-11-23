@@ -27,16 +27,16 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (23 Nov, 12:17) — back right after the AC313 FINAL (09:00–12:00). He asked to save the session first.**
-  AC313 went "chill" (asked + answered 12:19). Still open: ChatGPT's "For Crow:" summary from last night was never pasted back. Ask once; if he skips it, drop it (AC313 is done, those misses don't matter for a test anymore).
+- **AWAY (23 Nov, ~12:20) — off to: post-exam break. He'll ping when the AC311 session starts (today, ledgered).** AC313 final went "chill, literally like the past paper."
+  ASK ON RETURN: nothing. Go straight into AC311 in HIS order: **impairment → Investment Property → Conceptual Framework.** Use the AC311 `final 2021.pdf` (Part 1 Q1–5 = TAS 36, Part 4 P1/P2 = impairment + reval; Parts 2–3 = CF T/F + matching; see [[reference-past-papers]]). The ChatGPT "For Crow:" summary is moot now, so don't ask.
 - **Next up: AC311 FINAL Sat 28 Nov** (25%). Weak branches on record: Investment Property subsequent measurement (0/3 on 20 Nov) + Conceptual Framework (drilling stalled since 20 Nov; he wants it in Pocket Procedures on Notion). FN201 topic 9 + t8s6 still untouched.
-- Ghost deck: AC313 cards are now past their test → his 24 Oct rule ("only topics still ahead on a test") says park them in [[ghost-parked]]. Confirm with him before moving them.
+- Ghost deck: all 58 AC313 cards parked to [[ghost-parked]] 23 Nov 12:20 (he didn't object). Deck = AC311 + FN201 now, 17 due.
 - Room: FG scoreboard (`ui/public/pixel/fgboard.js`, `server.mjs` mcqAllStats()) built 22 Nov lunch; needs a Room restart from HIM if not done yet. MCQ cards lock when a question's text matches one he already answered (localStorage key) → tag repeats, e.g. "[Quiz 3 · Q4]".
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
 ## Session — 2026-11-23 (Mon, from 12:17)
-- AC313 final sat 09:00–12:00. His read: "chill, it was literally like the past paper" → the past-paper drilling (Final2021 + Quiz 3) was the right prep. Apply the same to AC311.
+- AC313 final sat 09:00–12:00. His read: "chill, it was literally like the past paper" → the past-paper drilling (Final2021 + Quiz 3) was the right prep. AC313 ghost cards parked. AC311 session later today: impairment → IP → CF.
 
 ## Session — 2026-11-22 (Sun, 10:34 → ~19:50, then he moved to ChatGPT)
 - Opened wanting a full AC311 day; Crow objected (AC313 final next morning, 40%) → full AC313 day instead.
