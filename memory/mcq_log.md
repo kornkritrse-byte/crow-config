@@ -20,3 +20,4 @@ metadata:
 - 2026-11-23 13:32 | correct | AC311 F21 P3 1 - full disclosure
 - 2026-11-23 13:38 | wrong | AC311 F21 P3 2 - relevance = pertinent to decision (picked comparability)
 - 2026-11-23 13:38 | correct | AC311 F21 P3 3 - timeliness
+- 2026-11-23 13:40 | correct | AC311 F21 P3 4 - distribution to owners
