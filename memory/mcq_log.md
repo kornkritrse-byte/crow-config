@@ -17,3 +17,4 @@ metadata:
 - 2026-11-23 13:30 | wrong | AC311 F21 P2 Q8 - OCI flow in SCI vs accumulated OCI in equity (no key, Crow's read)
 - 2026-11-23 13:31 | correct | AC311 F21 P2 Q9 - expenses by nature or function
 - 2026-11-23 13:31 | correct | AC311 F21 P2 Q10 - users have reasonable knowledge, diligent
+- 2026-11-23 13:32 | correct | AC311 F21 P3 1 - full disclosure
