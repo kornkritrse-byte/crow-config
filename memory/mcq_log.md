@@ -31,3 +31,4 @@ metadata:
 - 2026-11-23 13:56 | wrong | AC311 F21 P3 12 - cost effectiveness (picked matching)
 - 2026-11-23 13:58 | correct | AC311 F21 P3 13 - recognition
 - 2026-11-23 13:58 | correct | AC311 F21 P3 14 - consistency
+- 2026-11-23 13:59 | wrong | AC311 F21 P3 15 - verifiability (picked 'pertinent' = relevance)
