@@ -13,6 +13,8 @@ Usage:
   mcq.py add <correct|wrong> <topic>    log a graded MCQ (that turn, right after grading)
   mcq.py pct [n]                        rolling % correct over the last n (default 20)
   mcq.py list [n]                       the last n entries (default 10)
+  mcq.py reset                          empty the log (tube + FG board start at 0);
+                                        old rows move to memory/mcq_log_archive.md
 """
 import datetime as dt
 import pathlib
@@ -69,5 +71,16 @@ elif cmd == "list":
     n = int(sys.argv[2]) if len(sys.argv) > 2 else 10
     for r in rows()[-n:]:
         print(f"{r[1]} {r[2]}  {r[3]:<8} {r[4]}")
+elif cmd == "reset":
+    # Archive, don't delete: the server reads mcq_log.md live, so emptying it
+    # resets the tube and the FG board with no Room restart.
+    old = [l for l in (LOG.read_text().splitlines() if LOG.exists() else []) if ROW.match(l)]
+    archive = MEM / "mcq_log_archive.md"
+    with archive.open("a") as f:
+        if archive.stat().st_size == 0:
+            f.write("# \U0001f3af MCQ log archive (rows moved out by mcq.py reset)\n")
+        f.write(f"\n## reset {now:%Y-%m-%d %H:%M} ({len(old)} rows)\n" + "".join(l + "\n" for l in old))
+    LOG.write_text(HEADER)
+    print(f"reset: {len(old)} rows archived to {archive.name}, log empty")
 else:
     sys.exit(__doc__)
