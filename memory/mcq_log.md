@@ -27,3 +27,4 @@ metadata:
 - 2026-11-23 13:46 | wrong | AC311 F21 P3 8 - faithful repr. (picked neutrality)
 - 2026-11-23 13:49 | wrong | AC311 F21 P3 9 - historical cost (picked matching)
 - 2026-11-23 13:51 | correct | AC311 F21 P3 10 - materiality (by elimination)
+- 2026-11-23 13:53 | correct | AC311 F21 P3 11 - comparability
