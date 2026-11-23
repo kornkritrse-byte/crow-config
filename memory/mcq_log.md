@@ -9,3 +9,4 @@ metadata:
 # 🎯 MCQ log
 - 2026-11-23 13:25 | correct | AC311 F21 P2 Q1 - current asset 12 months
 - 2026-11-23 13:25 | correct | AC311 F21 P2 Q2 - no offsetting unless TFRS
+- 2026-11-23 13:26 | correct | AC311 F21 P2 Q3 - change in accounting policy allowed
