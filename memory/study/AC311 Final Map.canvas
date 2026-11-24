@@ -12,38 +12,42 @@
   {
    "id": "ips1",
    "type": "text",
-   "text": "**Definition + classification**\nIP = land / building(s) held for rentals or capital appreciation, NOT owner-use or resale\n3-way split: TAS 40 (IP) vs TAS 16 (PPE, owner-occupied) vs TAS 2 (Inventory, held for sale)\nTraps: undetermined future use → still counts as IP · insignificant ancillary services (security guard) → still IP · significant services (owner-managed hotel) → NOT IP, it's PPE · mixed-use property splits into two only if the portions could be sold separately",
+   "text": "**Definition + classification**\nIP = land / building(s) held for rentals or capital appreciation, NOT owner-use or resale\n3-way split: TAS 40 (IP) vs TAS 16 (PPE, owner-occupied) vs TAS 2 (Inventory, held for sale)\nTraps: undetermined future use → still counts as IP · insignificant ancillary services (security guard) → still IP · significant services (owner-managed hotel) → NOT IP, it's PPE · mixed-use property splits into two only if the portions could be sold separately\n⚠ 24 Nov: purpose test (rentals / capital appreciation), dual-use unsplittable (own-use INSIGNIFICANT?), undecided land = IP, employee housing = PPE: 4 misses, all in the TAS 40 list",
    "x": 900,
    "y": 0,
    "width": 460,
-   "height": 230
+   "height": 230,
+   "color": "2"
   },
   {
    "id": "ips2",
    "type": "text",
-   "text": "**Recognition + initial measurement**\nSame 2-gate test as PPE: ① probable future benefit ② cost reliably measured\nCost = purchase price + directly attributable costs, same acquisition routes as PPE (purchase / deferred payment / lease / exchange / donation) — excludes start-up costs, pre-occupancy operating losses, abnormal waste",
+   "text": "**Recognition + initial measurement**\nSame 2-gate test as PPE: ① probable future benefit ② cost reliably measured\nCost = purchase price + directly attributable costs, same acquisition routes as PPE (purchase / deferred payment / lease / exchange / donation) — excludes start-up costs, pre-occupancy operating losses, abnormal waste\n⚠ 24 Nov: transaction costs go INTO cost, not a separate account",
    "x": 900,
    "y": 260,
    "width": 460,
-   "height": 180
+   "height": 180,
+   "color": "2"
   },
   {
    "id": "ips3",
    "type": "text",
-   "text": "**Subsequent measurement — the real exam material**\nEntity picks ONE policy (cost or fair value) for ALL its IP — switching FV→cost is 'highly unlikely' to be allowed under TAS 8\nFair value model: gain/loss straight to P&L every period, no depreciation; don't double-count fixtures/furniture already folded into the FV\nCost model: follow TAS 16 rules + TAS 36 impairment; must still DISCLOSE fair value\nCan't measure FV reliably → rare exception, fall back to cost model, residual assumed zero (mainly matters for IP under construction)",
+   "text": "**Subsequent measurement — the real exam material**\nEntity picks ONE policy (cost or fair value) for ALL its IP — switching FV→cost is 'highly unlikely' to be allowed under TAS 8\nFair value model: gain/loss straight to P&L every period, no depreciation; don't double-count fixtures/furniture already folded into the FV\nCost model: follow TAS 16 rules + TAS 36 impairment; must still DISCLOSE fair value\nCan't measure FV reliably → rare exception, fall back to cost model, residual assumed zero (mainly matters for IP under construction)\n⚠ 24 Nov: ran the PPE revaluation model on FV-model IP (depreciated + surplus); fixed 2 Qs later (2-yr FV run clean). Cost model: FV disclosed only; counted 3 yrs instead of 2",
    "x": 900,
    "y": 470,
    "width": 460,
-   "height": 270
+   "height": 270,
+   "color": "2"
   },
   {
    "id": "ips4",
    "type": "text",
-   "text": "**Transfers between IP / PPE / inventory — the trap section**\nCost model: transfer changes NOTHING in carrying amount\nFair value model: treated like a REVALUATION — increase → impairment-reversal first, then OCI surplus; decrease → P&L, or eat into an existing surplus first (same order as the PPE revaluation chain already drilled in M2)\nInventory → IP@FV, or construction-complete → IP@FV: the difference goes straight to P&L, no OCI step",
+   "text": "**Transfers between IP / PPE / inventory — the trap section**\nCost model: transfer changes NOTHING in carrying amount\nFair value model: treated like a REVALUATION — increase → impairment-reversal first, then OCI surplus; decrease → P&L, or eat into an existing surplus first (same order as the PPE revaluation chain already drilled in M2)\nInventory → IP@FV, or construction-complete → IP@FV: the difference goes straight to P&L, no OCI step\n⚠ 24 Nov: check MODEL first (cost = carry CA, no gain); then direction, old standard decides; 'gain on transfer' used as the event name → name it by destination",
    "x": 900,
    "y": 770,
    "width": 460,
-   "height": 230
+   "height": 230,
+   "color": "2"
   },
   {
    "id": "ips5",
