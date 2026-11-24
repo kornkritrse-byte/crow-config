@@ -296,7 +296,9 @@ function entryCard(data) {
     n.className = 'amt'; n.placeholder = 'amount'; n.inputMode = 'decimal'; n.value = amt;
     n.onblur = () => { const v = jeAmount(n.value); if (v != null) n.value = jeFmt(v); totals(); };
     n.oninput = totals;
-    r.append(div('side', side === 'dr' ? 'Dr' : 'Cr'), a, n);
+    const x = button('×', 'del', () => { r.remove(); totals(); });
+    x.title = 'remove this line';
+    r.append(div('side', side === 'dr' ? 'Dr' : 'Cr'), a, n, x);
     return r;
   }
   function addEntry(s = null) {
