@@ -30,3 +30,4 @@ metadata:
 - 2026-11-24 19:24 | correct | MK201 Ch9: marketing strategy development
 - 2026-11-24 21:29 | correct | MK201 Ch12: contractual VMS (franchise)
 - 2026-11-24 21:30 | correct | MK201 Ch12: disintermediation NOT
+- 2026-11-24 21:31 | wrong | MK201 Ch13: manufacturers' agent (picked industrial distributor)
