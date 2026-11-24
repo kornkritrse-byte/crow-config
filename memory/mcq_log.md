@@ -31,3 +31,4 @@ metadata:
 - 2026-11-24 21:29 | correct | MK201 Ch12: contractual VMS (franchise)
 - 2026-11-24 21:30 | correct | MK201 Ch12: disintermediation NOT
 - 2026-11-24 21:31 | wrong | MK201 Ch13: manufacturers' agent (picked industrial distributor)
+- 2026-11-24 21:33 | wrong | MK201 Ch11: freight-absorption (picked location pricing)
