@@ -231,3 +231,7 @@ metadata:
 - 2026-11-22 18:59 | goal | Training: Long 15 km
 - 2026-11-23 13:22 | ghost | AC311 Conceptual Framework: What's the obligation called when it comes from a company's
 - 2026-11-23 16:02 | goal | Wake early
+- 2026-11-24 10:20 | goal | Wake early
+- 2026-11-24 10:20 | goal | Morning creative writing
+- 2026-11-24 10:20 | goal | Moving
+- 2026-11-24 10:20 | training | 10 km Zone 2 run, morning
