@@ -21,3 +21,4 @@ metadata:
 - 2026-11-24 12:12 | correct | CF: derecognition def
 - 2026-11-24 12:13 | correct | CF: recognition scenario
 - 2026-11-24 12:13 | wrong | CF: liability def (picked contingent liability)
+- 2026-11-24 12:14 | wrong | CF: 5 elements (picked expense, not provision)
