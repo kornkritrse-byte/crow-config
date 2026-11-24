@@ -16,3 +16,4 @@ metadata:
 - 2026-11-24 12:07 | correct | CF: neutrality def
 - 2026-11-24 12:09 | wrong | CF: consistency def (picked comparability)
 - 2026-11-24 12:10 | correct | CF: comparability def
+- 2026-11-24 12:11 | correct | CF: confirmatory value def
