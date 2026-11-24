@@ -29,3 +29,4 @@ metadata:
 - 2026-11-24 13:07 | wrong | CF: FR components (picked free from error, not verifiability)
 - 2026-11-24 19:24 | correct | MK201 Ch9: marketing strategy development
 - 2026-11-24 21:29 | correct | MK201 Ch12: contractual VMS (franchise)
+- 2026-11-24 21:30 | correct | MK201 Ch12: disintermediation NOT
