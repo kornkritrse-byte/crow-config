@@ -333,3 +333,9 @@ metadata:
 - 2026-11-23 | Reading | open
 - 2026-11-23 | Bed by 23:30 | open
 - 2026-11-23 | AC311 study | open
+- 2026-11-24 | Wake early | open
+- 2026-11-24 | Morning creative writing | open
+- 2026-11-24 | Moving | open
+- 2026-11-24 | Daily journal | open
+- 2026-11-24 | Reading | open
+- 2026-11-24 | Bed by 23:30 | open
