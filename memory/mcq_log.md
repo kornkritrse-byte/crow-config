@@ -10,3 +10,4 @@ metadata:
 - 2026-11-24 12:03 | correct | CF: faithful representation def
 - 2026-11-24 12:03 | correct | CF: materiality def
 - 2026-11-24 12:04 | correct | CF: going concern def (unsure)
+- 2026-11-24 12:05 | correct | CF: historical cost def
