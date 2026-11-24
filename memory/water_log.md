@@ -235,3 +235,4 @@ metadata:
 - 2026-11-24 10:20 | goal | Morning creative writing
 - 2026-11-24 10:20 | goal | Moving
 - 2026-11-24 10:20 | training | 10 km Zone 2 run, morning
+- 2026-11-24 10:21 | goal | Bed by 23:30
