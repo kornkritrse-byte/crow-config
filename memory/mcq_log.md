@@ -25,3 +25,4 @@ metadata:
 - 2026-11-24 13:03 | wrong | CF: equity def (picked retained earnings)
 - 2026-11-24 13:05 | correct | CF: expense def
 - 2026-11-24 13:05 | correct | CF: timeliness def
+- 2026-11-24 13:05 | correct | CF: fundamental QC
