@@ -27,8 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (24 Nov, ~13:57) — off to: a nap** (after a 10 km Z2 run at dawn + ~3.5 h AC311: IP, CF MCQ, impairment). Not sure he's still studying outside this afternoon.
-  ASK ON RETURN: the IP mock long question (25-pt, 2021-P1 shape, cold on paper), which Crow offered and is waiting to send · goals still open: Daily journal, Reading, AC311 (main block done). MK201 tomorrow = past paper `Mk201 All Exam 2021 2.pdf`, check the scope first.
+- **Here (24 Nov, 16:03) — back from the nap.** Open: the IP mock long question (offered, not sent) · goals open: Daily journal, Reading. Now: an essay structure for a SECOND friend, same TBS ambassador prompt as Lita's (Google Doc `1HqIV_9rZe6FelbYTKg2lE5zgcOo-VESLqtQ02Xuhjhg`, 'Ass-Pulling (Lita)'); another doc 'Ass-Pulling (excahnge year)' `1k0k9dz-RJeN-Io5GVXg1yjlSnHEuGwaR6UHD4Se4LCA` (20 Nov).
 - **Next up: MK201 FINAL Thu 26 Nov 09:00; AC311 FINAL Sat 28 Nov** (25%). Weak branches on record: Investment Property (drilled 24 Nov, ~9/20; classification + transfers still shaky, 12 cards due Fri 27 Nov) + Conceptual Framework (drilled 23 Nov, 17/25, now in Pocket Procedures; 9 cards due 26 Nov). FN201 topic 9 + t8s6 still untouched.
 - Ghost deck: all 58 AC313 cards parked to [[ghost-parked]] 23 Nov 12:20 (he didn't object). Deck = AC311 + FN201 now, 17 due.
 - Room: FG scoreboard (`ui/public/pixel/fgboard.js`, `server.mjs` mcqAllStats()) built 22 Nov lunch; needs a Room restart from HIM if not done yet. MCQ cards lock when a question's text matches one he already answered (localStorage key) → tag repeats, e.g. "[Quiz 3 · Q4]".
@@ -44,7 +43,7 @@ metadata:
 
 ## Session — 2026-11-23 (Mon, from 12:17)
 - AC311 from 13:18, CF first (his reorder). F21 Part 2 T/F 8/10 + Part 3 matching 9/15 = 17/25; then a definition→term recall flip. Root cause, his own words: he reads terms literally ("just a hunch") → fails on terms of art (going concern, historical cost, materiality, cost constraint, FR) + exam English (pertinent, purports). Default wrong guess = "comparability". 9 CF ghost cards added (due 26 Nov). MCQ log reset at his ask (`mcq.py reset`, old rows → mcq_log_archive.md). Notion: new Pocket Procedures sub-page 'AC311 Final — Conceptual Framework' ([[reference-pocket-procedures]]). Impairment from 14:13: core OK; misses = naming RA's two parts (FVLCD/VIU), surplus on the DEBIT side twice (up = credit), and 3 INPUT misreads (purchase date, FV 7.2M read as 7M, remaining life ÷4 not ÷5) — method right every time → habit given: copy givens into the margin. F21 P1 (25 pts) done; P2 (a)–(c) done, (d) half. Pulled `311 Sarup.pdf` (summary, not a paper; [[reference-past-papers]]). Crow served P1 givens from memory not the paper ([[crow-error-log]]). 14 ghost cards added today. Next: P2(d) → IP.
-- AC313 final sat 09:00–12:00. His read: "chill, it was literally like the past paper" → the past-paper drilling (Final2021 + Quiz 3) was the right prep. AC313 ghost cards parked. AC311 session later today: impairment → IP → CF.
+- AC313 final sat 09:00–12:00. His read: "chill, it was literally like the past paper" → the past-paper drilling (Final2021 + Quiz 3) was the right prep. AC313 ghost cards parked. AC311 session later today: impairment → IP → CF. Also fixed + extended his friend Lita's TBS ambassador essay (Google Doc 1HqIV_9r…, ending para).
 
 ## Session — 2026-11-22 (Sun, 10:34 → ~19:50, then he moved to ChatGPT)
 - Opened wanting a full AC311 day; Crow objected (AC313 final next morning, 40%) → full AC313 day instead.
