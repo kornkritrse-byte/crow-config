@@ -17,3 +17,4 @@ metadata:
 - 2026-11-24 12:09 | wrong | CF: consistency def (picked comparability)
 - 2026-11-24 12:10 | correct | CF: comparability def
 - 2026-11-24 12:11 | correct | CF: confirmatory value def
+- 2026-11-24 12:12 | wrong | CF: recognition def (picked classification)
