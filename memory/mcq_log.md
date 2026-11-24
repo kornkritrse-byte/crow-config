@@ -26,3 +26,4 @@ metadata:
 - 2026-11-24 13:05 | correct | CF: expense def
 - 2026-11-24 13:05 | correct | CF: timeliness def
 - 2026-11-24 13:05 | correct | CF: fundamental QC
+- 2026-11-24 13:07 | wrong | CF: FR components (picked free from error, not verifiability)
