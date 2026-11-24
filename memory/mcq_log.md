@@ -20,3 +20,4 @@ metadata:
 - 2026-11-24 12:12 | wrong | CF: recognition def (picked classification)
 - 2026-11-24 12:12 | correct | CF: derecognition def
 - 2026-11-24 12:13 | correct | CF: recognition scenario
+- 2026-11-24 12:13 | wrong | CF: liability def (picked contingent liability)
