@@ -14,3 +14,4 @@ metadata:
 - 2026-11-24 12:06 | correct | CF: cost constraint def
 - 2026-11-24 12:07 | wrong | CF: verifiability def (picked neutrality)
 - 2026-11-24 12:07 | correct | CF: neutrality def
+- 2026-11-24 12:09 | wrong | CF: consistency def (picked comparability)
