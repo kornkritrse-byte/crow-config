@@ -74,3 +74,31 @@
 - 2026-11-22 17:21 | correct | AC313 Quiz3 Q14 - P>S means VC income < AC income
 - 2026-11-22 17:22 | correct | AC313 Quiz3 Q19 2025 - VMOH is product cost, not expensed under VC
 - 2026-11-23 13:22 | correct | AC311 CF constructive obligation
+
+## reset 2026-11-24 12:03 (26 rows)
+- 2026-11-23 13:25 | correct | AC311 F21 P2 Q1 - current asset 12 months
+- 2026-11-23 13:25 | correct | AC311 F21 P2 Q2 - no offsetting unless TFRS
+- 2026-11-23 13:26 | correct | AC311 F21 P2 Q3 - change in accounting policy allowed
+- 2026-11-23 13:27 | correct | AC311 F21 P2 Q4 - all income/expense in P&L unless TFRS
+- 2026-11-23 13:27 | wrong | AC311 F21 P2 Q5 - capital increase not in SCI
+- 2026-11-23 13:28 | correct | AC311 F21 P2 Q6 - FV to cost unlikely more relevant (TAS 40)
+- 2026-11-23 13:29 | correct | AC311 F21 P2 Q7 - accrual basis (except cash flow)
+- 2026-11-23 13:30 | wrong | AC311 F21 P2 Q8 - OCI flow in SCI vs accumulated OCI in equity (no key, Crow's read)
+- 2026-11-23 13:31 | correct | AC311 F21 P2 Q9 - expenses by nature or function
+- 2026-11-23 13:31 | correct | AC311 F21 P2 Q10 - users have reasonable knowledge, diligent
+- 2026-11-23 13:32 | correct | AC311 F21 P3 1 - full disclosure
+- 2026-11-23 13:38 | wrong | AC311 F21 P3 2 - relevance = pertinent to decision (picked comparability)
+- 2026-11-23 13:38 | correct | AC311 F21 P3 3 - timeliness
+- 2026-11-23 13:40 | correct | AC311 F21 P3 4 - distribution to owners
+- 2026-11-23 13:41 | correct | AC311 F21 P3 5 - confirmatory value
+- 2026-11-23 13:41 | correct | AC311 F21 P3 6 - understandability
+- 2026-11-23 13:42 | wrong | AC311 F21 P3 7 - going concern (picked recognition)
+- 2026-11-23 13:46 | wrong | AC311 F21 P3 8 - faithful repr. (picked neutrality)
+- 2026-11-23 13:49 | wrong | AC311 F21 P3 9 - historical cost (picked matching)
+- 2026-11-23 13:51 | correct | AC311 F21 P3 10 - materiality (by elimination)
+- 2026-11-23 13:53 | correct | AC311 F21 P3 11 - comparability
+- 2026-11-23 13:56 | wrong | AC311 F21 P3 12 - cost effectiveness (picked matching)
+- 2026-11-23 13:58 | correct | AC311 F21 P3 13 - recognition
+- 2026-11-23 13:58 | correct | AC311 F21 P3 14 - consistency
+- 2026-11-23 13:59 | wrong | AC311 F21 P3 15 - verifiability (picked 'pertinent' = relevance)
+- 2026-11-24 12:03 | correct | CF: faithful representation def
