@@ -24,3 +24,4 @@ metadata:
 - 2026-11-24 12:14 | wrong | CF: 5 elements (picked expense, not provision)
 - 2026-11-24 13:03 | wrong | CF: equity def (picked retained earnings)
 - 2026-11-24 13:05 | correct | CF: expense def
+- 2026-11-24 13:05 | correct | CF: timeliness def
