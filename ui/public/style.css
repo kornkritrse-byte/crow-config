@@ -169,6 +169,35 @@ button { font: inherit; cursor: pointer; }
 .mcq.locked .submit { background: none; border-color: var(--line); color: var(--mist); opacity: 1; }
 .mcq.locked .note { color: var(--mist); resize: none; }
 
+/* Journal-entry card: Crow's ```entry fence, debits then credits indented under them */
+.je .books { display: flex; flex-direction: column; gap: 10px; }
+.je-entry { background: var(--raised); border: 1px solid var(--line); border-radius: 7px; padding: 10px 12px; }
+.je input {
+  font: inherit; font-size: 14px; background: var(--night); color: var(--paper);
+  border: 1px solid var(--line); border-radius: 6px; padding: 6px 9px; min-width: 0;
+}
+.je input::placeholder { color: var(--faint); }
+.je input:focus { outline: none; border-color: var(--maroon-ink); }
+.je .label { width: 100%; font-size: 13px; margin-bottom: 8px; background: none; border-style: dashed; }
+.je .lines { display: flex; flex-direction: column; gap: 5px; }
+.je .lines + .lines { margin-top: 5px; }
+.je-row { display: flex; align-items: center; gap: 8px; }
+.je-row.cr { padding-left: 34px; }
+.je-row .side { flex: none; width: 22px; font-weight: 600; color: var(--mist); font-size: 13px; }
+.je-row .acct { flex: 1; }
+.je-row .amt { flex: none; width: 140px; text-align: right; font-variant-numeric: tabular-nums; }
+.je .tools { display: flex; gap: 6px; margin-top: 8px; }
+.je .add {
+  background: none; color: var(--mist); border: 1px dashed var(--line); border-radius: 6px;
+  padding: 3px 10px; font-size: 12px;
+}
+.je .add:hover:not(:disabled) { border-color: var(--faint); color: var(--paper); }
+.je > .add { margin-top: 8px; }
+.je .sum { font-size: 12px; color: var(--faint); margin-top: 6px; text-align: right; font-variant-numeric: tabular-nums; }
+.je .sum.off { color: var(--maroon-ink); }
+.je.locked .add { display: none; }
+.je.locked input { color: var(--mist); }
+
 /* A voice: any paragraph that opens with "Name:". The name becomes a tag in
    that crew member's colour and the paragraph hangs off a thin rule of it. */
 .voice { --c: var(--maroon-ink); border-left: 2px solid var(--c); padding-left: 14px; margin-left: -16px; }

@@ -153,6 +153,7 @@ function paintReply(live) {
   reply.el.innerHTML = renderMarkdown(reply.md);
   markVoices(reply.el, live);
   mountMcq(reply.el, live && busy);
+  mountEntries(reply.el, live && busy);
   reply.el.classList.toggle('cursor', live && busy);
 }
 
@@ -243,6 +244,127 @@ function mcqCard(data) {
     if (!note.value.trim()) note.hidden = true;
   }
   paint();
+  if (saved) lock();
+  return el;
+}
+
+// ---------------------------------------------------------------- journal-entry cards
+
+// Crow writes a ```entry fence holding {"q", "entries"?}; it becomes a blank entry form
+// laid out the way it's written on paper: debits first, credits indented under them
+// (Korn's ask, 24 Nov). Amounts take 4.6m / 600k / 1,500,000. It goes back as an
+// ordinary "[ENTRY]" message; locked entries are kept in localStorage like MCQ picks.
+function jeKey(data) {
+  let h = 0;
+  for (const ch of 'je|' + data.q) h = (h * 31 + ch.charCodeAt(0)) | 0;
+  return 'je:' + (h >>> 0).toString(36);
+}
+function jeAmount(s) {
+  const m = String(s).replace(/[,\s฿]/g, '').toLowerCase().match(/^(\d*\.?\d+)(k|m|mil|million)?$/);
+  if (!m) return null;
+  return Math.round(parseFloat(m[1]) * ({ k: 1e3, m: 1e6, mil: 1e6, million: 1e6 }[m[2]] || 1));
+}
+const jeFmt = n => n.toLocaleString('en-US');
+
+function mountEntries(root, streaming) {
+  for (const code of root.querySelectorAll('pre > code.language-entry')) {
+    const pre = code.parentElement;
+    let data = null;
+    try { data = JSON.parse(code.textContent); } catch {}
+    if (data && typeof data.q !== 'string') data = null;
+    if (!data) {
+      if (streaming) pre.replaceWith(div('mcq pending', 'entry form coming…'));
+      continue;
+    }
+    pre.replaceWith(streaming ? div('mcq pending', 'entry form coming…') : entryCard(data));
+  }
+}
+
+function entryCard(data) {
+  const key = jeKey(data), saved = mcqSaved(key);
+  const el = div('mcq je');
+  const q = div('q'); q.innerHTML = renderMarkdown(data.q); el.append(q);
+  const books = div('books');
+  el.append(books);
+  const entries = [];
+
+  function row(side, acct = '', amt = '') {
+    const r = div(`je-row ${side}`);
+    const a = document.createElement('input');
+    a.className = 'acct'; a.placeholder = side === 'dr' ? 'account debited' : 'account credited'; a.value = acct;
+    const n = document.createElement('input');
+    n.className = 'amt'; n.placeholder = 'amount'; n.inputMode = 'decimal'; n.value = amt;
+    n.onblur = () => { const v = jeAmount(n.value); if (v != null) n.value = jeFmt(v); totals(); };
+    n.oninput = totals;
+    r.append(div('side', side === 'dr' ? 'Dr' : 'Cr'), a, n);
+    return r;
+  }
+  function addEntry(s = null) {
+    const box = div('je-entry');
+    const label = document.createElement('input');
+    label.className = 'label'; label.placeholder = 'date / note (optional)'; label.value = s?.label || '';
+    const dr = div('lines'), cr = div('lines');
+    (s?.dr?.length ? s.dr : [{}, {}]).forEach(l => dr.append(row('dr', l.acct, l.amt)));
+    (s?.cr?.length ? s.cr : [{}, {}]).forEach(l => cr.append(row('cr', l.acct, l.amt)));
+    const tools = div('tools');
+    tools.append(button('+ Dr line', 'add', () => { dr.append(row('dr')); dr.lastChild.querySelector('.acct').focus(); }),
+                 button('+ Cr line', 'add', () => { cr.append(row('cr')); cr.lastChild.querySelector('.acct').focus(); }));
+    const sum = div('sum');
+    box.append(label, dr, cr, tools, sum);
+    books.append(box);
+    entries.push({ label, dr, cr, sum });
+  }
+  const read = lines => [...lines.children].map(r => ({ acct: r.querySelector('.acct').value.trim(), amt: r.querySelector('.amt').value.trim() }))
+    .filter(l => l.acct || l.amt);
+  function totals() {
+    for (const e of entries) {
+      const t = lines => read(lines).reduce((s, l) => s + (jeAmount(l.amt) || 0), 0);
+      const d = t(e.dr), c = t(e.cr);
+      e.sum.textContent = d || c ? `Dr ${jeFmt(d)} · Cr ${jeFmt(c)}${d === c ? ' · balances' : ` · off by ${jeFmt(Math.abs(d - c))}`}` : '';
+      e.sum.classList.toggle('off', d !== c);
+    }
+  }
+
+  (saved?.entries?.length ? saved.entries : Array.from({ length: Math.max(1, Math.min(6, data.entries | 0)) }, () => null)).forEach(addEntry);
+  const more = button('+ another entry', 'add', () => { addEntry(); totals(); });
+  const note = document.createElement('textarea');
+  note.className = 'note'; note.rows = 2;
+  note.placeholder = 'Why these accounts? (optional)';
+  note.value = saved?.note || '';
+  const submit = button('Post it', 'submit', () => {
+    const state = entries.map(e => ({ label: e.label.value.trim(), dr: read(e.dr), cr: read(e.cr) })).filter(e => e.dr.length || e.cr.length);
+    if (!state.length || ws?.readyState !== 1) return;
+    const amt = s => { const v = jeAmount(s); return v != null ? jeFmt(v) : s; };
+    let text = `[ENTRY] ${data.q.replace(/\s+/g, ' ').slice(0, 90)}${data.q.length > 90 ? '…' : ''}`;
+    for (const e of state) {
+      if (e.label) text += `\n${e.label}`;
+      for (const l of e.dr) text += `\nDr ${l.acct} ${amt(l.amt)}`;
+      for (const l of e.cr) text += `\n      Cr ${l.acct} ${amt(l.amt)}`;
+    }
+    if (note.value.trim()) text += `\nMy reasoning: ${note.value.trim()}`;
+    if (!sendMessage(text, [])) return;
+    mcqSave(key, { entries: state, note: note.value.trim() });
+    lock();
+  });
+  const foot = div('foot');
+  foot.append(note, submit);
+  el.append(more, foot);
+
+  function lock() {
+    el.classList.add('locked');
+    el.querySelectorAll('input, textarea').forEach(i => { i.readOnly = true; });
+    el.querySelectorAll('button').forEach(b => { b.disabled = true; });
+    submit.textContent = 'Posted';
+    if (!note.value.trim()) note.hidden = true;
+  }
+  // Enter jumps to the next box instead of doing nothing
+  el.addEventListener('keydown', e => {
+    if (e.key !== 'Enter' || e.target.tagName !== 'INPUT') return;
+    e.preventDefault();
+    const all = [...el.querySelectorAll('input')];
+    all[all.indexOf(e.target) + 1]?.focus();
+  });
+  totals();
   if (saved) lock();
   return el;
 }
