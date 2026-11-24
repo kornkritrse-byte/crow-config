@@ -19,3 +19,4 @@ metadata:
 - 2026-11-24 12:11 | correct | CF: confirmatory value def
 - 2026-11-24 12:12 | wrong | CF: recognition def (picked classification)
 - 2026-11-24 12:12 | correct | CF: derecognition def
+- 2026-11-24 12:13 | correct | CF: recognition scenario
