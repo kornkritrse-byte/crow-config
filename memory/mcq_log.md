@@ -34,3 +34,4 @@ metadata:
 - 2026-11-25 21:04 | correct | MK201 trap special-event pricing
 - 2026-11-25 21:05 | wrong | MK201 trap product idea/concept/image
 - 2026-11-25 21:06 | correct | MK201 trap new to firm vs world
+- 2026-11-25 21:08 | wrong | MK201 trap product line vs product-form
