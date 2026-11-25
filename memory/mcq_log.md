@@ -34,3 +34,4 @@ metadata:
 - 2026-11-25 14:36 | correct | MK201 disintermediation
 - 2026-11-25 14:37 | correct | MK201 factory outlet
 - 2026-11-25 14:39 | wrong | MK201 category killer vs specialty
+- 2026-11-25 14:40 | correct | MK201 manufacturers agent

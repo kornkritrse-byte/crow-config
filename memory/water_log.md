@@ -237,3 +237,4 @@ metadata:
 - 2026-11-24 10:20 | training | 10 km Zone 2 run, morning
 - 2026-11-24 10:21 | goal | Bed by 23:30
 - 2026-11-25 13:17 | ghost | AC311 Investment Property: Under the fair value model, does a gain/loss on investment p
+- 2026-11-25 14:41 | ghost | MK201 Ch13 Wholesalers: Represents several manufacturers of NON-competing lines, for
