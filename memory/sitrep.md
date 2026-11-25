@@ -27,7 +27,7 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (25 Nov, ~15:19) — off to: errands.** ASK ON RETURN: resume the MK ghost round at **G10** (horizontal MS, card was posted, unanswered) → 9 MK cards still due today + the **cash-discount retest with new numbers** (failed G9: reads 'net 30' as 30% off, twice) · did the LIFT happen / 5K tonight? · source of 'the whole test is MCQ' (asked once 15:02, unanswered; outline says Ch 7–15 written; DON'T re-argue, just ask the source) · 24 Nov bed/journal/reading unreported. Essay docs (if they come up): Lita `1HqIV_9rZe6FelbYTKg2lE5zgcOo-VESLqtQ02Xuhjhg` · 'Ass-Pulling (excahnge year)' `1k0k9dz-RJeN-Io5GVXg1yjlSnHEuGwaR6UHD4Se4LCA`.
+- **Here (25 Nov, 19:54).** Back from errands; says he cleared all 10 remaining MK cards in ChatGPT "flawlessly" (no For-Crow summary pasted → Crow verifies via variants in round 2 before passing). Now: MK round 2 to close the night. Still to ask: lift / 5K · source of 'all MCQ' · 24 Nov bed/journal/reading. Essay docs (if they come up): Lita `1HqIV_9rZe6FelbYTKg2lE5zgcOo-VESLqtQ02Xuhjhg` · 'Ass-Pulling (excahnge year)' `1k0k9dz-RJeN-Io5GVXg1yjlSnHEuGwaR6UHD4Se4LCA`.
 - **Next up: MK201 FINAL Thu 26 Nov 09:00; AC311 FINAL Sat 28 Nov** (25%). Weak branches on record: Investment Property (drilled 24 Nov, ~9/20; classification + transfers still shaky, 12 cards due Fri 27 Nov) + Conceptual Framework (MCQ 13/20 on 24 Nov; ~13 cards due 26–27 Nov). FN201 topic 9 + t8s6 still untouched.
 - Ghost deck: all 58 AC313 cards parked to [[ghost-parked]] 23 Nov 12:20 (he didn't object). Deck = AC311 + FN201 now, 17 due.
 - Room: FG scoreboard (`ui/public/pixel/fgboard.js`, `server.mjs` mcqAllStats()) built 22 Nov lunch; needs a Room restart from HIM if not done yet. MCQ cards lock when a question's text matches one he already answered (localStorage key) → tag repeats, e.g. "[Quiz 3 · Q4]".
@@ -38,7 +38,7 @@ metadata:
 - Ghost #30 ✅ (IP FV gain → P&L; said only "gain"). Woke 09:00 → wake-early ❌. Goals: MK201 prep + 5K chill run (maybe); Wed T session swapped for a LIFT, his call (ledger). MCQ board reset at his ask.
 - MK201: Crow read all Ch 9–15 slides + outline (**MCQ = Ch 9–15, written = Ch 7–15**). 40-card MCQ run 14:02–14:55 = **25/40** (Ch9 2/6 weakest, Ch12 5/6 best). He's never read the slides ("pure intuition"); every miss was a term of art, reasoning-able ones (break-even, loss leader, elasticity) all right. 16 cards added, re-dated due today.
 - Ghost round (MCQ at his ask, "the whole test will be in that format"): 7/17 cleared by 15:18. Fails: freight-absorption (right pick, "idk") + cash discount 2/10 net 30 (reads net 30 as 30% off, twice). Says the whole final is MCQ, which contradicts the outline; source asked once.
-- 15:19 off to errands mid-round.
+- 15:19 off to errands; drilled the 10 remaining cards in ChatGPT (Crow's paste-pack), back 19:54 → round 2.
 
 ## Session — 2026-11-24 (Tue, 10:17 → ~21:35)
 - Morning: woke early, 10 km Z2, two poem drafts (abstract ego/courage one + a willow image one; Artis: too abstract, "solemn" twice, try merging; inspired by Don McLean's "Vincent"). Bed 23:30 ✅ (23 Nov). Ghost #29 ❌. Built the Room's **journal-entry card** (```entry, + × delete) on his ask → [[reference-crow-room]].
