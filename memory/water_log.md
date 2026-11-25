@@ -255,3 +255,5 @@ metadata:
 - 2026-11-25 20:45 | ghost | MK201 Ch15 PR functions: Name the 6 PR functions. A nonprofit runs donor dinners + vo
 - 2026-11-25 20:49 | ghost | MK201 Ch15 Omni-channel vs multichannel: What is omni-channel retailing, and how is it different from
 - 2026-11-25 20:50 | ghost | MK201 Ch15 Ad message steps: Brand decides 'our gear helps everyday people push their lim
+- 2026-11-25 21:01 | ghost | MK201 Ch14 Buzz marketing / opinion leaders: Brand gives free product to respected community figures (run
+- 2026-11-25 21:01 | goal | MK201 final prep

@@ -346,5 +346,5 @@ metadata:
 - 2026-11-25 | Daily journal | open
 - 2026-11-25 | Reading | open
 - 2026-11-25 | Bed by 23:30 | open
-- 2026-11-25 | MK201 final prep | open
+- 2026-11-25 | MK201 final prep | done
 - 2026-11-25 | 5K chill run (evening) | missed
