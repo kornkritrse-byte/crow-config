@@ -37,3 +37,4 @@ metadata:
 - 2026-11-25 14:40 | correct | MK201 manufacturers agent
 - 2026-11-25 14:42 | wrong | MK201 drop shipper
 - 2026-11-25 14:43 | wrong | MK201 communication process encoding
+- 2026-11-25 14:45 | wrong | MK201 buyer-readiness stages
