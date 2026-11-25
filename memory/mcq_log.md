@@ -20,3 +20,4 @@ metadata:
 - 2026-11-25 20:43 | correct | MK201 R2 buyer-readiness liking
 - 2026-11-25 20:44 | correct | MK201 R2 investor relations
 - 2026-11-25 20:45 | correct | MK201 R2 PR development
+- 2026-11-25 20:48 | wrong | MK201 R2 execution vs creative concept
