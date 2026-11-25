@@ -23,3 +23,4 @@ metadata:
 - 2026-11-25 20:48 | wrong | MK201 R2 execution vs creative concept
 - 2026-11-25 20:49 | correct | MK201 R2 omni-channel
 - 2026-11-25 20:50 | correct | MK201 R2 message execution
+- 2026-11-25 20:50 | correct | MK201 R2 bulk breaking
