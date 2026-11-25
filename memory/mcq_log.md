@@ -32,3 +32,4 @@ metadata:
 - 2026-11-25 20:59 | correct | MK201 R2 AIDA action
 - 2026-11-25 21:01 | correct | MK201 R2 buzz marketing retest
 - 2026-11-25 21:04 | correct | MK201 trap special-event pricing
+- 2026-11-25 21:05 | wrong | MK201 trap product idea/concept/image
