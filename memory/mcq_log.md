@@ -42,3 +42,4 @@ metadata:
 - 2026-11-25 14:47 | correct | MK201 atmospheres
 - 2026-11-25 14:48 | correct | MK201 informative advertising
 - 2026-11-25 14:49 | correct | MK201 media impact
+- 2026-11-25 14:50 | wrong | MK201 PR functions development
