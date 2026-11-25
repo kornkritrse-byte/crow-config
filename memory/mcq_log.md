@@ -20,3 +20,4 @@ metadata:
 - 2026-11-25 14:19 | correct | MK201 price elasticity
 - 2026-11-25 14:20 | wrong | MK201 skimming conditions
 - 2026-11-25 14:21 | correct | MK201 optional-product pricing
+- 2026-11-25 14:22 | correct | MK201 functional trade discount
