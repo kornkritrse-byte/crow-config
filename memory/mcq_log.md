@@ -40,3 +40,4 @@ metadata:
 - 2026-11-25 14:45 | wrong | MK201 buyer-readiness stages
 - 2026-11-25 14:46 | correct | MK201 message appeals emotional
 - 2026-11-25 14:47 | correct | MK201 atmospheres
+- 2026-11-25 14:48 | correct | MK201 informative advertising
