@@ -38,6 +38,7 @@ metadata:
 - Ghost #30 ✅ (IP FV gain → P&L; said only "gain"). Woke 09:00 → wake-early ❌. Goals: MK201 prep + 5K chill run (maybe); Wed T session swapped for a LIFT, his call (ledger). MCQ board reset at his ask.
 - MK201: Crow read all Ch 9–15 slides + outline (**MCQ = Ch 9–15, written = Ch 7–15**). 40-card MCQ run 14:02–14:55 = **25/40** (Ch9 2/6 weakest, Ch12 5/6 best). He's never read the slides ("pure intuition"); every miss was a term of art, reasoning-able ones (break-even, loss leader, elasticity) all right. 16 cards added, re-dated due today.
 - Ghost round (MCQ at his ask, "the whole test will be in that format"): 7/17 cleared by 15:18. Fails: freight-absorption (right pick, "idk") + cash discount 2/10 net 30 (reads net 30 as 30% off, twice). Says the whole final is MCQ, which contradicts the outline; source asked once.
+- 20:38 FN201 Final Map was INVALID JSON since 19 Nov 20:46 (raw newlines in t8s8, Obsidian couldn't parse it) → repaired. FN201 by points ≈ 10/45 covered: T8 core done; T8s6/s9/s10, ALL of T9 (15 pts), T10 (9 pts, map still says 'not taught', likely stale), T6 (6 pts) untouched; 8 FN cards overdue since 21–22 Nov. AC311 read unchanged 60–70% (guess).
 - 15:19 off to errands; drilled the 10 remaining cards in ChatGPT (Crow's paste-pack), back 19:54 → round 2.
 
 ## Session — 2026-11-24 (Tue, 10:17 → ~21:35)
