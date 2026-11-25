@@ -7,3 +7,4 @@ metadata:
 ---
 
 # 🎯 MCQ log
+- 2026-11-25 20:32 | correct | MK201 R2 acquisition
