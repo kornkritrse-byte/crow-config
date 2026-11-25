@@ -13,3 +13,4 @@ metadata:
 - 2026-11-25 14:12 | correct | MK201 decline harvest
 - 2026-11-25 14:13 | wrong | MK201 style fashion fad
 - 2026-11-25 14:14 | correct | MK201 test marketing conditions
+- 2026-11-25 14:15 | correct | MK201 good-value pricing
