@@ -17,3 +17,4 @@ metadata:
 - 2026-11-25 14:16 | correct | MK201 high-low pricing
 - 2026-11-25 14:17 | correct | MK201 break-even volume
 - 2026-11-25 14:18 | wrong | MK201 market types monopolistic vs oligopoly
+- 2026-11-25 14:19 | correct | MK201 price elasticity
