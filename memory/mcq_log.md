@@ -28,3 +28,4 @@ metadata:
 - 2026-11-25 14:28 | correct | MK201 psychological pricing
 - 2026-11-25 14:29 | correct | MK201 administered VMS
 - 2026-11-25 14:30 | wrong | MK201 horizontal vs multichannel
+- 2026-11-25 14:31 | correct | MK201 selective distribution
