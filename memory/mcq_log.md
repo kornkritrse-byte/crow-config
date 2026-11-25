@@ -26,3 +26,4 @@ metadata:
 - 2026-11-25 20:50 | correct | MK201 R2 bulk breaking
 - 2026-11-25 20:52 | correct | MK201 R2 channel levels
 - 2026-11-25 20:53 | correct | MK201 R2 inbound telemarketing
+- 2026-11-25 20:55 | correct | MK201 R2 segmented pricing conditions (guessed)
