@@ -10,3 +10,4 @@ metadata:
 - 2026-11-25 20:32 | correct | MK201 R2 acquisition
 - 2026-11-25 20:33 | correct | MK201 R2 idea screening RWW (unsure)
 - 2026-11-25 20:34 | correct | MK201 R2 business analysis
+- 2026-11-25 20:34 | wrong | MK201 R2 cash discount 2/10 net 45
