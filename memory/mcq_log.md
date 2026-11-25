@@ -32,3 +32,4 @@ metadata:
 - 2026-11-25 14:33 | correct | MK201 channel function matching
 - 2026-11-25 14:35 | correct | MK201 horizontal channel conflict
 - 2026-11-25 14:36 | correct | MK201 disintermediation
+- 2026-11-25 14:37 | correct | MK201 factory outlet
