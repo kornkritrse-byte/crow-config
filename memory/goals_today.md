@@ -340,7 +340,7 @@ metadata:
 - 2026-11-24 | Reading | open
 - 2026-11-24 | Bed by 23:30 | open
 - 2026-11-24 | AC311 | open
-- 2026-11-25 | Wake early | open
+- 2026-11-25 | Wake early | missed
 - 2026-11-25 | Morning creative writing | open
 - 2026-11-25 | Training: lift (gym) — swapped for the T session, his call | open
 - 2026-11-25 | Daily journal | open
