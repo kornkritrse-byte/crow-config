@@ -246,3 +246,4 @@ metadata:
 - 2026-11-25 15:16 | ghost | MK201 Ch11 Skimming vs penetration: Which conditions belong to market-SKIMMING (high launch pric
 - 2026-11-25 15:17 | ghost | MK201 Ch11 Location vs zone pricing: Concert hall: front row 6,000 baht, balcony 1,500 baht, same
 - 2026-11-25 20:36 | ghost | MK201 Ch11 Cash discount terms: Invoice 10,000 baht dated 1 Oct, terms '2/10, net 30', paid
+- 2026-11-25 20:36 | ghost | MK201 Ch11 Geographic pricing: Seller normally charges factory price + customer's own shipp
