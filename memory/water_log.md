@@ -241,3 +241,4 @@ metadata:
 - 2026-11-25 15:06 | ghost | MK201 NPD stages: Consumers are shown a written description/sketch of a produc
 - 2026-11-25 15:07 | ghost | MK201 PLC stages: Sales climbing fast + new competitors entering + profits ris
 - 2026-11-25 15:12 | ghost | MK201 PLC maturity strategies: Mature brand, product UNCHANGED, pitches new uses + a brand-
+- 2026-11-25 15:14 | ghost | MK201 Style/Fashion/Fad: Something that lasts for decades and keeps passing in and ou
