@@ -8,3 +8,4 @@ metadata:
 
 # 🎯 MCQ log
 - 2026-11-25 14:04 | wrong | MK201 NPD concept testing vs product development
+- 2026-11-25 14:09 | wrong | MK201 PLC stage growth vs introduction
