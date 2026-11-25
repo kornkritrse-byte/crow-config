@@ -21,3 +21,4 @@ metadata:
 - 2026-11-25 14:20 | wrong | MK201 skimming conditions
 - 2026-11-25 14:21 | correct | MK201 optional-product pricing
 - 2026-11-25 14:22 | correct | MK201 functional trade discount
+- 2026-11-25 14:23 | wrong | MK201 location vs zone pricing
