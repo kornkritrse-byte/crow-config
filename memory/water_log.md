@@ -248,3 +248,4 @@ metadata:
 - 2026-11-25 20:36 | ghost | MK201 Ch11 Cash discount terms: Invoice 10,000 baht dated 1 Oct, terms '2/10, net 30', paid
 - 2026-11-25 20:36 | ghost | MK201 Ch11 Geographic pricing: Seller normally charges factory price + customer's own shipp
 - 2026-11-25 20:37 | ghost | MK201 Ch12 Horizontal vs multichannel: Two companies at the SAME channel level join forces (e.g. co
+- 2026-11-25 20:38 | ghost | MK201 Ch13 Retailer product-line types: A GIANT store selling only one category (e.g. sporting goods

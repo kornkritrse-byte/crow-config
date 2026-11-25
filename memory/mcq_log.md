@@ -14,3 +14,4 @@ metadata:
 - 2026-11-25 20:36 | correct | MK201 R2 cash discount 1/15 net 60
 - 2026-11-25 20:36 | correct | MK201 R2 freight absorption
 - 2026-11-25 20:37 | correct | MK201 R2 horizontal MS
+- 2026-11-25 20:38 | correct | MK201 R2 category killer
