@@ -251,3 +251,4 @@ metadata:
 - 2026-11-25 20:38 | ghost | MK201 Ch13 Retailer product-line types: A GIANT store selling only one category (e.g. sporting goods
 - 2026-11-25 20:39 | ghost | MK201 Ch13 Merchant wholesaler types: A wholesaler takes the order AND takes title, but never stor
 - 2026-11-25 20:41 | ghost | MK201 Ch14 Communication process: Ad agency turns the idea 'this car = freedom' into images of
+- 2026-11-25 20:43 | ghost | MK201 Ch14 Buyer-readiness stages: Name the 6 buyer-readiness stages in order. Consumers know +

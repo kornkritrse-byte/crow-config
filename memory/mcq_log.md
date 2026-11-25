@@ -17,3 +17,4 @@ metadata:
 - 2026-11-25 20:38 | correct | MK201 R2 category killer
 - 2026-11-25 20:39 | correct | MK201 R2 drop shipper
 - 2026-11-25 20:41 | correct | MK201 R2 encoding
+- 2026-11-25 20:43 | correct | MK201 R2 buyer-readiness liking
