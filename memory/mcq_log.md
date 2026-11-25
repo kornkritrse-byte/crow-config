@@ -55,3 +55,4 @@ metadata:
 - 2026-11-25 15:14 | correct | MK201 ghost fashion
 - 2026-11-25 15:14 | correct | MK201 ghost oligopoly
 - 2026-11-25 15:15 | correct | MK201 ghost monopolistic
+- 2026-11-25 15:16 | correct | MK201 ghost penetration conditions
