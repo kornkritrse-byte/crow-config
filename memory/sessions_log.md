@@ -598,3 +598,11 @@ metadata:
 - AC311 Investment Property mapped: transfers/entries solid, subsequent measurement 0/3 = the weak branch. 5 ghost cards.
 - Built AC311 CF remaining-topics doc + ChatGPT drill kit; ChatGPT drilling went badly ("being a fuckwit") → MCQ in the Room instead. He wants CF in Pocket Procedures Notion.
 - Found `AC313 Quiz 3 (graded, 2024+2025).pdf` → pastpapers; drilled 22 Nov.
+
+## Session — 2026-11-22 (Sun, 10:34 → ~19:50, then he moved to ChatGPT)
+- Opened wanting a full AC311 day; Crow objected (AC313 final next morning, 40%) → full AC313 day instead.
+- Built the MCQ percentage tube + `bin/mcq.py` + the mcq-card always-rule ([[feedback-mcq-format]]); at lunch also the FG scoreboard ([[reference-crow-room]]).
+- AC313 morning/afternoon: variances + support-dept methods + mix/yield on real numbers, ~85–90% MCQ. Misses: reciprocal %-matching (retested clean), materials quantity variance @ actual price instead of standard price.
+- AC313 Quiz 3 (1/2024): 10/11; only miss Q6 material ordering → it's batch-level (ghosted; same gap as the setup-costs card). Crow blamed the Room for locked cards before checking mcq_log ([[crow-error-log]]).
+- Ran intervals 4 × 800 m @ ~4:00/km. Crow wrongly called Sunday "long run" off stale `road-plan.json`; long runs are Wednesdays now ([[project-training-plan]], [[crow-error-log]]).
+- Evening: he studied in ChatGPT; Crow transcribed the whole AC313 Final2021 (50 MCQs + checked key) → `~/Desktop/pastpapers/AC313/AC313 Final2021 - text for ChatGPT.md`. The senior's worked copy is wrong on 10 Qs → [[reference-past-papers]].
