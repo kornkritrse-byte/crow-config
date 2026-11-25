@@ -23,3 +23,4 @@ metadata:
 - 2026-11-25 14:22 | correct | MK201 functional trade discount
 - 2026-11-25 14:23 | wrong | MK201 location vs zone pricing
 - 2026-11-25 14:24 | correct | MK201 uniform-delivered pricing
+- 2026-11-25 14:25 | correct | MK201 loss leader
