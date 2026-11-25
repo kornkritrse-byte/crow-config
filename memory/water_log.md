@@ -253,3 +253,4 @@ metadata:
 - 2026-11-25 20:41 | ghost | MK201 Ch14 Communication process: Ad agency turns the idea 'this car = freedom' into images of
 - 2026-11-25 20:43 | ghost | MK201 Ch14 Buyer-readiness stages: Name the 6 buyer-readiness stages in order. Consumers know +
 - 2026-11-25 20:45 | ghost | MK201 Ch15 PR functions: Name the 6 PR functions. A nonprofit runs donor dinners + vo
+- 2026-11-25 20:49 | ghost | MK201 Ch15 Omni-channel vs multichannel: What is omni-channel retailing, and how is it different from
