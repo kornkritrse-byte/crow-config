@@ -1243,7 +1243,8 @@ Both decks for sessions 12–15 now on disk in `~/Desktop/AC311/`: `Investment p
 
 - ✅ **AC313 FINAL SAT, Mon 23 Nov 2026 09:00–12:00.** His read at 12:19: "chill, it was literally like the past paper". So the past-paper method (Final2021 transcribed + checked key, the 2024 Quiz 3) was the right prep; reuse it for AC311 (28 Nov), FN201 (2 Dec), BA202 (8 Dec).
 
-## 📒 MK201 FINAL — Thu 26 Nov 2026, 09:00–12:00 (3 h), 40% (checked 24 Nov from the Tuesday-section outline, sec 026401)
+## 📒 MK201 FINAL — Thu 26 Nov 2026 — ⚠ 25 Nov 20:46 Korn, flat: "there is no writing part for the test" (outline says Ch 7–15 written; his source not given). Closed, his call.
+## (orig) MK201 FINAL — Thu 26 Nov 2026, 09:00–12:00 (3 h), 40% (checked 24 Nov from the Tuesday-section outline, sec 026401)
 - 🚨 **FORMAT per the outline: "Chapter 9-15 for multiple choices, Chapter 7-15 for WRITTEN exam."** Unlike the midterm (all MCQ), the final HAS a written part, and Ch 7 (STP) is in the written part only. Written format not stated anywhere on Drive; his ChatGPT prep (24 Nov, 56/66 first attempts at "basic level") was MCQ-only.
 - ⚠️ 24 Nov 21:28 he said "thats how teh test is just only mcq" and turned down the written STP practice. Source unknown (Ajarn, or assumed from the midterm?), and it conflicts with the outline. Crow flagged it once and switched to MCQ on his call.
 - Ch 7 deck ends with a worked **STP Analysis of McDonald's** (segmentation criteria + profile of each segment → targeting strategy → positioning statement + perceptual map), the same shape as Assignment 2. Crow's guess (unconfirmed): the written part looks like that.
