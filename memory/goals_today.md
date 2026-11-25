@@ -348,3 +348,4 @@ metadata:
 - 2026-11-25 | Bed by 23:30 | open
 - 2026-11-25 | MK201 final prep | done
 - 2026-11-25 | 5K chill run (evening) | missed
+- 2026-11-25 | — | closed

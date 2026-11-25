@@ -362,3 +362,8 @@ He set his own stop time at 16:4x when the night was still theoretical, pushed b
 > "Ever tried. Ever failed. No matter. Try again. Fail again. Fail better."
 > — **Samuel Beckett**, *Worstward Ho*
 **Why:** On P1 he got 434,775 again, the exact miss from 4 Nov to the baht, and the 20 cards split 10 right and 10 wrong. He failed the 2021 final's revaluation chain at 22:05, then by 23:06 had parts a, b and c of a fresh one right. His "we'll see" meant he might do more, not less. The misses didn't disappear, but each one was smaller than the last.
+
+## 2026-11-25 — Confucius, *Analects* 2.17 (Legge)
+> "When you know a thing, to hold that you know it; and when you do not know a thing, to allow that you do not know it — this is knowledge."
+> — **Confucius**, *Analects*, II.17
+**Why:** MK201 eve. He'd never read the slides, so he ran on "pure intuition": 25/40 cold, and every miss was a term of art. The day turned when he started writing "idk" / "no clue" in the note box, and later pushed back that one wasn't a guess but an educated elimination. Knowing which of those it is is the skill he takes into 09:00. Round 2 finished at 21/24.
