@@ -15,3 +15,4 @@ metadata:
 - 2026-11-25 14:14 | correct | MK201 test marketing conditions
 - 2026-11-25 14:15 | correct | MK201 good-value pricing
 - 2026-11-25 14:16 | correct | MK201 high-low pricing
+- 2026-11-25 14:17 | correct | MK201 break-even volume
