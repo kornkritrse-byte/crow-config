@@ -27,3 +27,4 @@ metadata:
 - 2026-11-25 14:27 | wrong | MK201 cash discount 2/10 net 30
 - 2026-11-25 14:28 | correct | MK201 psychological pricing
 - 2026-11-25 14:29 | correct | MK201 administered VMS
+- 2026-11-25 14:30 | wrong | MK201 horizontal vs multichannel
