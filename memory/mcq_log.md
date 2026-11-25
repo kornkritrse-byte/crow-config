@@ -10,3 +10,4 @@ metadata:
 - 2026-11-25 14:04 | wrong | MK201 NPD concept testing vs product development
 - 2026-11-25 14:09 | wrong | MK201 PLC stage growth vs introduction
 - 2026-11-25 14:11 | wrong | MK201 maturity modify market vs mix
+- 2026-11-25 14:12 | correct | MK201 decline harvest
