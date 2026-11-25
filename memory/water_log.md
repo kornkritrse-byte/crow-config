@@ -252,3 +252,4 @@ metadata:
 - 2026-11-25 20:39 | ghost | MK201 Ch13 Merchant wholesaler types: A wholesaler takes the order AND takes title, but never stor
 - 2026-11-25 20:41 | ghost | MK201 Ch14 Communication process: Ad agency turns the idea 'this car = freedom' into images of
 - 2026-11-25 20:43 | ghost | MK201 Ch14 Buyer-readiness stages: Name the 6 buyer-readiness stages in order. Consumers know +
+- 2026-11-25 20:45 | ghost | MK201 Ch15 PR functions: Name the 6 PR functions. A nonprofit runs donor dinners + vo
