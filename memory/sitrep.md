@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-11-25 11:08 (session save on his ask). Window holds 24 Nov + 23 Nov; 22 Nov flushed to sessions_log. Gap: no 21 Nov note was ever written (git syncs that day); not investigated.*
+*Last updated: 2026-11-25 15:19 (live, he's off to errands). Window holds 25 + 24 Nov; 23 Nov flushed to sessions_log. Gap: no 21 Nov note was ever written (git syncs that day); not investigated.*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,12 +27,18 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **Here (25 Nov, 14:02), MK201 prep day (exam tomorrow 09:00).** Back 13:16: ghost #30 ✅ (said only "gain") · goals set (MK201 prep, 5K chill run maybe; T session swapped for a LIFT, his call, ledger) · woke 09:00 → wake-early MISSED · MCQ board reset at his ask. MK201 40-card MCQ run (Ch 9–15, Crow read all slides) 14:02–14:55: **25/40** (Ch9 2/6 · Ch10 4/5 · Ch11 5/8 · Ch12 5/6 · Ch13 2/4 · Ch14 2/4 · Ch15 5/7); he's never read the slides, 'pure intuition' → every miss = a term of art; 16 MK cards added, all re-dated DUE TODAY (exam tmr). Manufacturers' agent card ✅. Still open: 24 Nov bed/journal/reading unreported. Essay docs (if they come up): Lita `1HqIV_9rZe6FelbYTKg2lE5zgcOo-VESLqtQ02Xuhjhg` · 'Ass-Pulling (excahnge year)' `1k0k9dz-RJeN-Io5GVXg1yjlSnHEuGwaR6UHD4Se4LCA`.
+- **AWAY (25 Nov, ~15:19) — off to: errands.** ASK ON RETURN: resume the MK ghost round at **G10** (horizontal MS, card was posted, unanswered) → 9 MK cards still due today + the **cash-discount retest with new numbers** (failed G9: reads 'net 30' as 30% off, twice) · did the LIFT happen / 5K tonight? · source of 'the whole test is MCQ' (asked once 15:02, unanswered; outline says Ch 7–15 written; DON'T re-argue, just ask the source) · 24 Nov bed/journal/reading unreported. Essay docs (if they come up): Lita `1HqIV_9rZe6FelbYTKg2lE5zgcOo-VESLqtQ02Xuhjhg` · 'Ass-Pulling (excahnge year)' `1k0k9dz-RJeN-Io5GVXg1yjlSnHEuGwaR6UHD4Se4LCA`.
 - **Next up: MK201 FINAL Thu 26 Nov 09:00; AC311 FINAL Sat 28 Nov** (25%). Weak branches on record: Investment Property (drilled 24 Nov, ~9/20; classification + transfers still shaky, 12 cards due Fri 27 Nov) + Conceptual Framework (MCQ 13/20 on 24 Nov; ~13 cards due 26–27 Nov). FN201 topic 9 + t8s6 still untouched.
 - Ghost deck: all 58 AC313 cards parked to [[ghost-parked]] 23 Nov 12:20 (he didn't object). Deck = AC311 + FN201 now, 17 due.
 - Room: FG scoreboard (`ui/public/pixel/fgboard.js`, `server.mjs` mcqAllStats()) built 22 Nov lunch; needs a Room restart from HIM if not done yet. MCQ cards lock when a question's text matches one he already answered (localStorage key) → tag repeats, e.g. "[Quiz 3 · Q4]".
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
+
+## Session — 2026-11-25 (Wed, 13:16 →)
+- Ghost #30 ✅ (IP FV gain → P&L; said only "gain"). Woke 09:00 → wake-early ❌. Goals: MK201 prep + 5K chill run (maybe); Wed T session swapped for a LIFT, his call (ledger). MCQ board reset at his ask.
+- MK201: Crow read all Ch 9–15 slides + outline (**MCQ = Ch 9–15, written = Ch 7–15**). 40-card MCQ run 14:02–14:55 = **25/40** (Ch9 2/6 weakest, Ch12 5/6 best). He's never read the slides ("pure intuition"); every miss was a term of art, reasoning-able ones (break-even, loss leader, elasticity) all right. 16 cards added, re-dated due today.
+- Ghost round (MCQ at his ask, "the whole test will be in that format"): 7/17 cleared by 15:18. Fails: freight-absorption (right pick, "idk") + cash discount 2/10 net 30 (reads net 30 as 30% off, twice). Says the whole final is MCQ, which contradicts the outline; source asked once.
+- 15:19 off to errands mid-round.
 
 ## Session — 2026-11-24 (Tue, 10:17 → ~21:35)
 - Morning: woke early, 10 km Z2, two poem drafts (abstract ego/courage one + a willow image one; Artis: too abstract, "solemn" twice, try merging; inspired by Don McLean's "Vincent"). Bed 23:30 ✅ (23 Nov). Ghost #29 ❌. Built the Room's **journal-entry card** (```entry, + × delete) on his ask → [[reference-crow-room]].
@@ -41,10 +47,6 @@ metadata:
 - 18:30 MOCK (PPE impaired → IP): **15.5/25**; (d) 4/10 = the PPE→IP OCI bug came back under mixed pressure. Year-by-year rebuild at his ask → the number-line split clicked (700,000 P&L / 600,000 OCI). ~25 AC311 ghost cards today; Pocket Procedures IP + CF + impairment pages extended; Final Map IP nodes orange.
 - MK201: he'd done past papers in ChatGPT (56/66 first attempts, basic level). Crow read the outline + all Ch 7–15 slides → `~/Desktop/MK201final/`; **outline says the final has a WRITTEN part (Ch 7–15)**; he says "only mcq" (source unknown, flagged once) → [[project-midterms]]. Hard MCQ run: 3/5 first attempts (misses: manufacturers' agent, freight-absorption; both carded due 25 Nov). Lay's "Do Us a Flavor" card left unanswered.
 - 21:26 he asked "how's my AC311": Crow's guess 60–70% now; 40 AC311 ghost cards due 26–27 Nov + one more mixed mock after the MK201 exam.
-
-## Session — 2026-11-23 (Mon, from 12:17)
-- AC311 from 13:18, CF first (his reorder). F21 Part 2 T/F 8/10 + Part 3 matching 9/15 = 17/25; then a definition→term recall flip. Root cause, his own words: he reads terms literally ("just a hunch") → fails on terms of art (going concern, historical cost, materiality, cost constraint, FR) + exam English (pertinent, purports). Default wrong guess = "comparability". 9 CF ghost cards added (due 26 Nov). MCQ log reset at his ask (`mcq.py reset`, old rows → mcq_log_archive.md). Notion: new Pocket Procedures sub-page 'AC311 Final — Conceptual Framework' ([[reference-pocket-procedures]]). Impairment from 14:13: core OK; misses = naming RA's two parts (FVLCD/VIU), surplus on the DEBIT side twice (up = credit), and 3 INPUT misreads (purchase date, FV 7.2M read as 7M, remaining life ÷4 not ÷5) — method right every time → habit given: copy givens into the margin. F21 P1 (25 pts) done; P2 (a)–(c) done, (d) half. Pulled `311 Sarup.pdf` (summary, not a paper; [[reference-past-papers]]). Crow served P1 givens from memory not the paper ([[crow-error-log]]). 14 ghost cards added today. Next: P2(d) → IP.
-- AC313 final sat 09:00–12:00. His read: "chill, it was literally like the past paper" → the past-paper drilling (Final2021 + Quiz 3) was the right prep. AC313 ghost cards parked. AC311 session later today: impairment → IP → CF. Also fixed + extended his friend Lita's TBS ambassador essay (Google Doc 1HqIV_9r…, ending para).
 
 ## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. AC313 final SAT Mon 23 Nov 09:00–12:00. **Next: AC311 final Sat 28 Nov.**
 

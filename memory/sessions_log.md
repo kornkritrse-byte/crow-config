@@ -606,3 +606,7 @@ metadata:
 - AC313 Quiz 3 (1/2024): 10/11; only miss Q6 material ordering → it's batch-level (ghosted; same gap as the setup-costs card). Crow blamed the Room for locked cards before checking mcq_log ([[crow-error-log]]).
 - Ran intervals 4 × 800 m @ ~4:00/km. Crow wrongly called Sunday "long run" off stale `road-plan.json`; long runs are Wednesdays now ([[project-training-plan]], [[crow-error-log]]).
 - Evening: he studied in ChatGPT; Crow transcribed the whole AC313 Final2021 (50 MCQs + checked key) → `~/Desktop/pastpapers/AC313/AC313 Final2021 - text for ChatGPT.md`. The senior's worked copy is wrong on 10 Qs → [[reference-past-papers]].
+
+## Session — 2026-11-23 (Mon, from 12:17)  *(flushed from SITREP 25 Nov)*
+- AC313 final sat 09:00–12:00, his read "chill, literally like the past paper" → past-paper drilling was the right prep; AC313 cards parked.
+- AC311 from 13:18: CF first (F21 P2 T/F 8/10 + P3 matching 9/15); root cause his words: reads terms literally → fails terms of art (going concern, historical cost, materiality…), default wrong guess 'comparability'. Impairment from 14:13: method right, misses = RA's two parts, surplus on the debit side, 3 input misreads → habit: copy givens into the margin. 14 ghost cards. Fixed Lita's TBS essay ending. Crow served P1 givens from memory not the paper ([[crow-error-log]]).
