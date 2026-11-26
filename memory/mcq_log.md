@@ -48,3 +48,4 @@ metadata:
 - 2026-11-26 13:55 | correct | AC311 impairment: CGU definition (F21 Q1)
 - 2026-11-26 13:56 | correct | AC311 impairment: F21 Q3 true statement
 - 2026-11-26 13:58 | correct | AC311 impairment: F21 Q4 no loss
+- 2026-11-26 14:01 | correct | AC311 impairment: F21 Q5 loss 1.5m
