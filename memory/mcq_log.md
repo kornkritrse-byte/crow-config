@@ -38,3 +38,4 @@ metadata:
 - 2026-11-26 13:06 | correct | AC311 CF F21 full: consistency
 - 2026-11-26 13:06 | wrong | AC311 CF F21 full: confirmatory value (took verifiability's)
 - 2026-11-26 13:06 | wrong | AC311 CF F21 full: verifiability (took confirmatory's)
+- 2026-11-26 13:47 | wrong | AC311 IP classification: land undetermined use
