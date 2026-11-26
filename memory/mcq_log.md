@@ -22,3 +22,4 @@ metadata:
 - 2026-11-26 12:51 | correct | AC311 CF: distribution to owners
 - 2026-11-26 12:52 | correct | AC311 CF: confirmatory value
 - 2026-11-26 12:52 | correct | AC311 CF: understandability
+- 2026-11-26 12:53 | correct | AC311 CF: comparability
