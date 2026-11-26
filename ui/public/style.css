@@ -777,3 +777,47 @@ body.gutters.fg-active:not(.room-empty):not(.fgboard-off) .fgboard { display: bl
 .fgboard-stats { margin-top: 6px; font-size: 20px; font-weight: 700; color: var(--paper); line-height: 1; display: flex; align-items: baseline; justify-content: center; gap: 4px; }
 .fgboard-stats span { color: var(--faint); font-size: 13px; font-weight: 400; }
 .fgboard-cap { font-size: 9.5px; color: var(--mist); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; margin-top: 1px; }
+
+/* the scratch page: a torn notebook page in the top-right corner, swapping with the FG board.
+   Press the book pile to bring it up (and again to put it away); the hoop swaps the board back.
+   (his ask, 26 Nov) */
+.gutter.left .pile.pressable { pointer-events: auto; cursor: pointer; }
+.scratch {
+  display: none; position: absolute; top: 56px; right: 14px; z-index: 3;
+  width: clamp(180px, calc((100% - var(--measure)) / 2 - 40px), 270px);
+  height: clamp(220px, calc(100% - 430px), 460px);
+  transform: rotate(1.2deg); filter: drop-shadow(0 10px 16px rgba(0, 0, 0, .5));
+}
+body.gutters:not(.room-empty).scratch-on .scratch { display: block; }
+body.scratch-on .fgboard { display: none !important; }
+.scratch-paper {
+  position: absolute; inset: 0; display: flex; flex-direction: column;
+  background-color: #ebe4d4;
+  background-image:
+    linear-gradient(90deg, transparent 30px, rgba(196, 92, 92, .55) 30px, rgba(196, 92, 92, .55) 31.5px, transparent 31.5px),
+    repeating-linear-gradient(180deg, transparent 0 21px, rgba(110, 140, 170, .38) 21px 22px);
+  background-position: 0 0, 0 8px;
+  padding: 14px 10px 12px 0;
+}
+.scratch-head {
+  display: flex; align-items: baseline; justify-content: space-between;
+  padding-left: 38px; height: 22px; font-size: 10px; font-weight: 700; letter-spacing: .14em;
+  text-transform: uppercase; color: #8a4a4a;
+}
+.scratch-wipe {
+  background: none; border: 0; padding: 0; font: inherit; font-size: 10px; letter-spacing: .08em;
+  color: #9a8f80; cursor: pointer; text-transform: lowercase;
+}
+.scratch-wipe:hover { color: #8a4a4a; }
+.scratch-text {
+  flex: 1; width: 100%; resize: none; border: 0; outline: none; background: transparent;
+  padding: 0 4px 0 38px; color: #23262e; caret-color: #7a2436;
+  font-family: var(--sans); font-size: 13px; line-height: 22px;
+}
+.scratch-text::placeholder { color: #a39a8b; font-style: italic; }
+.scratch-tape {
+  position: absolute; top: -9px; left: 50%; width: 74px; height: 20px; z-index: 1;
+  transform: translateX(-50%) rotate(-3deg);
+  background: rgba(230, 222, 196, .55); border-left: 1px dashed rgba(255, 255, 255, .25); border-right: 1px dashed rgba(255, 255, 255, .25);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .25);
+}

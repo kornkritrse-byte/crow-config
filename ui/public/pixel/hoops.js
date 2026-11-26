@@ -236,7 +236,11 @@
     hoopBack().toCanvas(back); paintNet(); paintScore();
     setBoard(store.get("fgboard-on") !== "0");
     back.style.pointerEvents = "auto"; back.style.cursor = "pointer"; back.title = "Toggle the MCQ scoreboard";
-    back.addEventListener("click", () => setBoard(document.body.classList.contains("fgboard-off")));
+    // with the scratch page up, the hoop swaps the scoreboard back in instead (his ask, 26 Nov)
+    back.addEventListener("click", () => {
+      if (root.Scratch?.isOpen()) { root.Scratch.setOpen(false); setBoard(true); return; }
+      setBoard(document.body.classList.contains("fgboard-off"));
+    });
     // first time out (or not parked last time): it drops in under the hoop
     ball.x = 16 * S; ball.y = TOP + HH * S + R * 2;
     cv.addEventListener("pointerdown", onDown);
