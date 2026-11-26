@@ -44,3 +44,4 @@ metadata:
 - 2026-11-26 13:50 | correct | AC311 IP classification: dual-use building, insignificant own use
 - 2026-11-26 13:51 | correct | AC311 IP classification: owner-managed hotel = PPE
 - 2026-11-26 13:51 | wrong | AC311 IP classification: under construction for IP
+- 2026-11-26 13:54 | correct | AC311 IP classification: undetermined land retest
