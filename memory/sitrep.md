@@ -6,7 +6,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f8cd2815-137d-4ec5-a125-983006040b74
-  modified: 2026-11-22T12:38:04.676Z
+  modified: 2026-11-26T03:38:24.735Z
 ---
 
 # Situation Report
@@ -27,7 +27,8 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (25 Nov, ~21:11) — off to: sleep ("goodnight my guy"), says he's waking ~06:00 for the MK201 final 09:00.** ASK ON RETURN: did 06:00 happen (wake-early goal) · the 10-min MK trap set T6–T10 + 2 ghost cards (product idea/concept/image, product line vs product-form), only if before the exam · Bed by 23:30 on 25 Nov · 25 Nov journal + reading (+ 24 Nov's) unreported · then AC311 refinement Thu pm (his plan, ledger). Essay docs (if they come up): Lita `1HqIV_9rZe6FelbYTKg2lE5zgcOo-VESLqtQ02Xuhjhg` · 'Ass-Pulling (excahnge year)' `1k0k9dz-RJeN-Io5GVXg1yjlSnHEuGwaR6UHD4Se4LCA`.
+- **BACK 26 Nov 10:37: "done with mk test" (MK201 final SAT; how it went not asked yet).** First ask: exchange-essay doc `1VrElwGHTCt-T7_LKl96Q2m3-Cx91lehT8ya_X6vePRo` (Thammasat → Europe, culinary), make the last paragraph (football-field scene) fit. Ghost #31 + goals still to ask.
+- **WAS AWAY (25 Nov, ~21:11) — off to: sleep ("goodnight my guy"), says he's waking ~06:00 for the MK201 final 09:00.** ASK ON RETURN: did 06:00 happen (wake-early goal) · the 10-min MK trap set T6–T10 + 2 ghost cards (product idea/concept/image, product line vs product-form), only if before the exam · Bed by 23:30 on 25 Nov · 25 Nov journal + reading (+ 24 Nov's) unreported · then AC311 refinement Thu pm (his plan, ledger). Essay docs (if they come up): Lita `1HqIV_9rZe6FelbYTKg2lE5zgcOo-VESLqtQ02Xuhjhg` · 'Ass-Pulling (excahnge year)' `1k0k9dz-RJeN-Io5GVXg1yjlSnHEuGwaR6UHD4Se4LCA`.
 - **Next up: MK201 FINAL Thu 26 Nov 09:00; AC311 FINAL Sat 28 Nov** (25%); FN201 Wed 2 Dec (FN map repaired 25 Nov, ≈10/45 pts covered). Weak branches on record: Investment Property (drilled 24 Nov, ~9/20; classification + transfers still shaky, 12 cards due Fri 27 Nov) + Conceptual Framework (MCQ 13/20 on 24 Nov; ~13 cards due 26–27 Nov). FN201 topic 9 + t8s6 still untouched.
 - Ghost deck: all 58 AC313 cards parked to [[ghost-parked]] 23 Nov 12:20 (he didn't object). Deck = AC311 + FN201 now, 17 due.
 - Room: FG scoreboard (`ui/public/pixel/fgboard.js`, `server.mjs` mcqAllStats()) built 22 Nov lunch; needs a Room restart from HIM if not done yet. MCQ cards lock when a question's text matches one he already answered (localStorage key) → tag repeats, e.g. "[Quiz 3 · Q4]".

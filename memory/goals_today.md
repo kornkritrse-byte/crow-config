@@ -349,3 +349,9 @@ metadata:
 - 2026-11-25 | MK201 final prep | done
 - 2026-11-25 | 5K chill run (evening) | missed
 - 2026-11-25 | — | closed
+- 2026-11-26 | Wake early | open
+- 2026-11-26 | Morning creative writing | open
+- 2026-11-26 | Moving | open
+- 2026-11-26 | Daily journal | open
+- 2026-11-26 | Reading | open
+- 2026-11-26 | Bed by 23:30 | open
