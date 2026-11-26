@@ -42,3 +42,4 @@ metadata:
 - 2026-11-26 13:48 | correct | AC311 IP classification: developer condos = inventory
 - 2026-11-26 13:49 | correct | AC311 IP classification: dual-use building, significant own use
 - 2026-11-26 13:50 | correct | AC311 IP classification: dual-use building, insignificant own use
+- 2026-11-26 13:51 | correct | AC311 IP classification: owner-managed hotel = PPE
