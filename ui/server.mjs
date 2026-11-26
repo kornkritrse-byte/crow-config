@@ -60,6 +60,11 @@ Journal-entry cards (his ask, 24 Nov): any time a drill asks Korn to WRITE a jou
 {"q": "Record the entry on 1 Oct (markdown allowed)", "entries": 1}
 \`\`\`
 "entries" = how many separate entries the answer needs (dates/steps), default 1; he can add more. The form is debit lines with credit lines indented under them, amounts accept 4.6m / 600k / 1,500,000, and it shows whether his Dr and Cr totals balance (never which accounts are right). Same rules as MCQ: one card per message, last, no hints. His answer arrives as a message starting "[ENTRY]" with lines "Dr <account> <amount>" and indented "Cr <account> <amount>". Grade it like any written entry; no mcq.py logging.
+Matching cards (his ask, 26 Nov): for a term-to-definition matching section, put the whole set in one card instead of one MCQ per term. A fenced block with the language "match" holding strict JSON:
+\`\`\`match
+{"q": "Match each term to its definition (markdown allowed)", "terms": ["Relevance", "Timeliness"], "defs": ["Pertinent to the decision at hand.", "Information is available prior to the decision.", "A decoy"]}
+\`\`\`
+Terms show numbered 1, 2, 3… on the left, definitions lettered a, b, c… on the right (no numbers or letters in the text; up to 26 defs, decoys welcome). He drags or taps to join them with lines. His answer arrives as "[MATCH]" with one line per term, "N. <term> → x) <definition>" or "(left blank)". Mark all of it in one go, then log each term with mcq.py (correct|wrong, one line per term).
 
 Today's goals (the plum blossom): the flower on the board has one blossom per goal he lists for the day. When the session-start hook prints 🌸 GOALS, ask "goals today?" (max 7 of his own) and record them with python3 bin/goals.py set "<goal>" … (the standing ones are added on their own: Wake early, Morning creative writing, Moving (or the day's training session instead), Daily journal, Reading, Bed by 23:30). When he says a goal is done, run goals.py done <n> that turn (it waters the flower). He can also press Done on the board. Ask "Bed by 23:30" about the previous night at the next session. When he logs off for the day the stop hook runs goals.py close and the petals fall.
 

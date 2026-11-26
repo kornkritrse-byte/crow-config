@@ -169,6 +169,29 @@ button { font: inherit; cursor: pointer; }
 .mcq.locked .submit { background: none; border-color: var(--line); color: var(--mist); opacity: 1; }
 .mcq.locked .note { color: var(--mist); resize: none; }
 
+/* Matching card: Crow's ```match fence, terms left, definitions right, joined by lines */
+.match .mboard {
+  position: relative; display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+  column-gap: 56px; align-items: start;
+}
+.match .mcol { display: flex; flex-direction: column; gap: 5px; position: relative; z-index: 1; }
+.match .mnode {
+  display: flex; align-items: flex-start; gap: 8px; text-align: left; touch-action: none; user-select: none;
+  background: var(--raised); color: var(--paper); border: 1px solid var(--line);
+  border-radius: 7px; padding: 6px 10px; font-size: 13px; line-height: 1.4; cursor: grab;
+}
+.match .mnode .text { flex: 1; }
+.match .mnode:hover { border-color: var(--faint); }
+.match .mnode.on { border-color: var(--maroon-ink); background: #2a2530; }
+.match .mnode.sel { border-color: var(--sol); box-shadow: 0 0 0 1px var(--sol); }
+.match .tag { flex: none; min-width: 1.2em; font-weight: 600; color: var(--maroon-ink); text-align: center; }
+.match .tag:empty { min-width: 0; }
+.match .mlines { position: absolute; inset: 0; pointer-events: none; z-index: 2; overflow: visible; }
+.match .mlines .link { fill: none; stroke: var(--maroon-ink); stroke-width: 1.6; opacity: .85; }
+.match .mlines .link.live { stroke: var(--sol); stroke-dasharray: 4 3; }
+.match.locked .mnode { cursor: default; }
+.match.locked .mnode:not(.on) { opacity: .5; }
+
 /* Journal-entry card: Crow's ```entry fence, debits then credits indented under them */
 .je .books { display: flex; flex-direction: column; gap: 10px; }
 .je-entry { background: var(--raised); border: 1px solid var(--line); border-radius: 7px; padding: 10px 12px; }

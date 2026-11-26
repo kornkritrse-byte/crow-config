@@ -154,6 +154,7 @@ function paintReply(live) {
   markVoices(reply.el, live);
   mountMcq(reply.el, live && busy);
   mountEntries(reply.el, live && busy);
+  mountMatches(reply.el, live && busy);
   reply.el.classList.toggle('cursor', live && busy);
 }
 
@@ -163,7 +164,7 @@ function paintReply(live) {
 // he ticks, adds a note to, and locks in. The pick goes back as an ordinary message,
 // so Crow grades it in the conversation. Locked picks are kept per question in
 // localStorage so a reload shows them locked (Korn's ask, 29 Sep).
-const LETTERS = 'ABCDEFGHIJ';
+const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 function mcqKey(data) {
   let h = 0;
   for (const ch of data.q + '|' + data.options.join('|')) h = (h * 31 + ch.charCodeAt(0)) | 0;
@@ -245,6 +246,188 @@ function mcqCard(data) {
   }
   paint();
   if (saved) lock();
+  return el;
+}
+
+// ---------------------------------------------------------------- matching cards
+
+// Crow writes a ```match fence holding {"q", "terms", "defs"}; terms sit on the left,
+// definitions on the right, and he drags from one to the other (or taps one, then the
+// other) to join them with a line, like the matching section on the paper (Korn's ask,
+// 26 Nov). One definition per term and one term per definition: joining a taken
+// definition moves it. Tapping a joined node undoes its line. Goes back as "[MATCH]".
+const lowerLetter = i => String.fromCharCode(97 + i);
+function matchKey(data) {
+  let h = 0;
+  for (const ch of 'match|' + data.q + '|' + data.terms.join('|') + '|' + data.defs.join('|')) h = (h * 31 + ch.charCodeAt(0)) | 0;
+  return 'mcq:' + (h >>> 0).toString(36);
+}
+
+function mountMatches(root, streaming) {
+  for (const code of root.querySelectorAll('pre > code.language-match')) {
+    const pre = code.parentElement;
+    let data = null;
+    try { data = JSON.parse(code.textContent); } catch {}
+    if (data && (typeof data.q !== 'string' || !Array.isArray(data.terms) || !Array.isArray(data.defs)
+      || !data.terms.length || data.defs.length < 2 || data.defs.length > 26)) data = null;
+    if (!data) {
+      if (streaming) pre.replaceWith(div('mcq pending', 'matching set coming…'));
+      continue;
+    }
+    if (!streaming) { window.FgBoard?.reveal(); }
+    pre.replaceWith(streaming ? div('mcq pending', 'matching set coming…') : matchCard(data));
+  }
+}
+
+function matchCard(data) {
+  const key = matchKey(data), saved = mcqSaved(key);
+  const el = div('mcq match');
+  const q = div('q'); q.innerHTML = renderMarkdown(data.q); el.append(q);
+  el.append(div('hint', 'Drag a term onto its definition, or tap one then the other. Tap a joined one to undo.'));
+  const board = div('mboard');
+  const left = div('mcol terms'), right = div('mcol defs');
+  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  svg.classList.add('mlines');
+  board.append(left, right, svg);
+  el.append(board);
+
+  const pairs = new Map(saved?.pairs || []);   // term index → def index
+  let sel = null;                                // { side: 't' | 'd', i }
+  let drag = null;                               // { side, i, x, y, moved }
+
+  const node = (side, i, text) => {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = `mnode ${side}`;
+    b.dataset.side = side; b.dataset.i = i;
+    b.innerHTML = side === 't'
+      ? `<span class="letter">${i + 1}</span><span class="text">${inlineMd(text)}</span><span class="tag"></span>`
+      : `<span class="tag"></span><span class="letter">${lowerLetter(i)}</span><span class="text">${inlineMd(text)}</span>`;
+    b.addEventListener('pointerdown', down);
+    return b;
+  };
+  const terms = data.terms.map((t, i) => node('t', i, t));
+  const defs = data.defs.map((d, i) => node('d', i, d));
+  left.append(...terms); right.append(...defs);
+
+  function join(t, d) {
+    for (const [k, v] of pairs) if (v === d) pairs.delete(k);
+    pairs.set(t, d);
+  }
+  function unjoin(side, i) {
+    if (side === 't') return pairs.delete(i);
+    for (const [k, v] of pairs) if (v === i) { pairs.delete(k); return true; }
+    return false;
+  }
+  function tap(side, i) {
+    if (sel && sel.side !== side) {
+      side === 't' ? join(i, sel.i) : join(sel.i, i);
+      sel = null;
+    } else if (sel && sel.side === side && sel.i === i) {
+      sel = null;
+    } else if (!sel && unjoin(side, i)) {
+      sel = null;
+    } else {
+      sel = { side, i };
+    }
+    paint();
+  }
+
+  function down(e) {
+    if (el.classList.contains('locked') || e.button > 0) return;
+    e.preventDefault();
+    const n = e.currentTarget;
+    drag = { side: n.dataset.side, i: +n.dataset.i, x: e.clientX, y: e.clientY, moved: false };
+    window.addEventListener('pointermove', move);
+    window.addEventListener('pointerup', up, { once: true });
+  }
+  function move(e) {
+    if (!drag) return;
+    if (Math.hypot(e.clientX - drag.x, e.clientY - drag.y) > 5) drag.moved = true;
+    drag.cx = e.clientX; drag.cy = e.clientY;
+    if (drag.moved) draw();
+  }
+  function up(e) {
+    window.removeEventListener('pointermove', move);
+    const d = drag; drag = null;
+    if (!d) return;
+    if (!d.moved) { tap(d.side, d.i); return; }
+    const target = document.elementFromPoint(e.clientX, e.clientY)?.closest('.mnode');
+    if (target && board.contains(target) && target.dataset.side !== d.side) {
+      const j = +target.dataset.i;
+      d.side === 't' ? join(d.i, j) : join(j, d.i);
+      sel = null;
+    }
+    paint();
+  }
+
+  // Line ends: the right edge of a term, the left edge of a definition, in board coordinates.
+  function anchor(n, side) {
+    const r = n.getBoundingClientRect(), b = board.getBoundingClientRect();
+    return { x: (side === 't' ? r.right : r.left) - b.left, y: r.top + r.height / 2 - b.top };
+  }
+  function curve(a, z) {
+    const dx = Math.max(24, Math.abs(z.x - a.x) / 2);
+    return `M${a.x},${a.y} C${a.x + dx},${a.y} ${z.x - dx},${z.y} ${z.x},${z.y}`;
+  }
+  function draw() {
+    const b = board.getBoundingClientRect();
+    svg.setAttribute('width', b.width); svg.setAttribute('height', b.height);
+    let html = '';
+    for (const [t, d] of pairs) html += `<path class="link" d="${curve(anchor(terms[t], 't'), anchor(defs[d], 'd'))}"/>`;
+    if (drag?.moved) {
+      const from = anchor((drag.side === 't' ? terms : defs)[drag.i], drag.side);
+      const to = { x: drag.cx - b.left, y: drag.cy - b.top };
+      html += `<path class="link live" d="${drag.side === 't' ? curve(from, to) : curve(to, from)}"/>`;
+    }
+    svg.innerHTML = html;
+  }
+
+  function paint() {
+    const owner = new Map([...pairs].map(([t, d]) => [d, t]));
+    terms.forEach((n, i) => {
+      n.classList.toggle('on', pairs.has(i));
+      n.classList.toggle('sel', sel?.side === 't' && sel.i === i);
+      n.querySelector('.tag').textContent = pairs.has(i) ? lowerLetter(pairs.get(i)) : '';
+    });
+    defs.forEach((n, i) => {
+      n.classList.toggle('on', owner.has(i));
+      n.classList.toggle('sel', sel?.side === 'd' && sel.i === i);
+      n.querySelector('.tag').textContent = owner.has(i) ? owner.get(i) + 1 : '';
+    });
+    submit.textContent = el.classList.contains('locked') ? 'Locked in' : `Lock it in (${pairs.size}/${terms.length})`;
+    submit.disabled = el.classList.contains('locked') || !pairs.size;
+    draw();
+  }
+
+  const note = document.createElement('textarea');
+  note.className = 'note'; note.rows = 2;
+  note.placeholder = 'Any you guessed? (optional)';
+  note.value = saved?.note || '';
+  const submit = button('Lock it in', 'submit', () => {
+    if (!pairs.size || ws?.readyState !== 1) return;
+    let text = `[MATCH] ${data.q.replace(/\s+/g, ' ').slice(0, 90)}${data.q.length > 90 ? '…' : ''}`;
+    data.terms.forEach((t, i) => {
+      text += `\n${i + 1}. ${t} → ${pairs.has(i) ? `${lowerLetter(pairs.get(i))}) ${data.defs[pairs.get(i)]}` : '(left blank)'}`;
+    });
+    if (note.value.trim()) text += `\nMy reasoning: ${note.value.trim()}`;
+    if (!sendMessage(text, [])) return;
+    mcqSave(key, { pairs: [...pairs], note: note.value.trim() });
+    lock();
+  });
+  const foot = div('foot');
+  foot.append(note, submit);
+  el.append(foot);
+
+  function lock() {
+    el.classList.add('locked');
+    note.readOnly = true;
+    if (!note.value.trim()) note.hidden = true;
+    sel = null;
+    paint();
+  }
+  new ResizeObserver(draw).observe(board);
+  if (saved) lock(); else paint();
   return el;
 }
 
