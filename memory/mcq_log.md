@@ -17,3 +17,4 @@ metadata:
 - 2026-11-26 12:49 | correct | AC311 CF: going concern
 - 2026-11-26 12:49 | correct | AC311 CF: recognition
 - 2026-11-26 12:50 | correct | AC311 CF: cost effectiveness
+- 2026-11-26 12:51 | correct | AC311 CF: cost effectiveness applied
