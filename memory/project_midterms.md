@@ -1253,3 +1253,5 @@ Both decks for sessions 12–15 now on disk in `~/Desktop/AC311/`: `Investment p
 - Files: `~/Desktop/MK201final/` = ch07–ch15 slide PDFs + .txt, `outline.pdf`, `final_practice_key.docx` (14 MCQs) + `final_exercises_key.docx` (8 MCQs); the "key" files don't actually mark the answers. Drive course folder `1wX9I0fiL3I_F2A-x4FqOKk10_LZA22BF` (ppt slides `114U95dZqFfJffW0DgPtNLdq0obQPAHyc`, final test examples `1t7SPhumfYeBg31afglHrcPZEsG-c97Yt`).
 - NOT in the slides (so low priority even though ChatGPT's checklist had them): push/pull strategy, promotion budget methods, dynamic pricing, by-product pricing, target-return pricing, test-market types, the 4 service characteristics (only "intangible" appears once).
 
+
+- **26 Nov 2026 (Korn checked his AC311 material): the contra account is "Allowance for impairment loss", NOT "Accumulated impairment loss".** Use her name in every AC311 drill + model answer from now on (marking friction, same reason as the provision names).
