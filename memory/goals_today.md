@@ -355,3 +355,5 @@ metadata:
 - 2026-11-26 | Daily journal | open
 - 2026-11-26 | Reading | open
 - 2026-11-26 | Bed by 23:30 | open
+- 2026-11-26 | Study (AC311) | open
+- 2026-11-26 | Cut up the China shirt as the Samneang raglan fit proxy | open
