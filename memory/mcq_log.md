@@ -13,3 +13,4 @@ metadata:
 - 2026-11-26 12:45 | correct | AC311 CF: full disclosure
 - 2026-11-26 12:45 | correct | AC311 CF: consistency
 - 2026-11-26 12:47 | correct | AC311 CF: verifiability
+- 2026-11-26 12:48 | correct | AC311 CF: relevance
