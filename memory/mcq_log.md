@@ -23,3 +23,18 @@ metadata:
 - 2026-11-26 12:52 | correct | AC311 CF: confirmatory value
 - 2026-11-26 12:52 | correct | AC311 CF: understandability
 - 2026-11-26 12:53 | correct | AC311 CF: comparability
+- 2026-11-26 13:06 | correct | AC311 CF F21 full: full disclosure
+- 2026-11-26 13:06 | correct | AC311 CF F21 full: relevance
+- 2026-11-26 13:06 | correct | AC311 CF F21 full: timeliness
+- 2026-11-26 13:06 | correct | AC311 CF F21 full: distribution to owners
+- 2026-11-26 13:06 | correct | AC311 CF F21 full: understandability
+- 2026-11-26 13:06 | correct | AC311 CF F21 full: going concern
+- 2026-11-26 13:06 | correct | AC311 CF F21 full: faithful representation
+- 2026-11-26 13:06 | correct | AC311 CF F21 full: historical cost
+- 2026-11-26 13:06 | correct | AC311 CF F21 full: materiality
+- 2026-11-26 13:06 | correct | AC311 CF F21 full: comparability
+- 2026-11-26 13:06 | correct | AC311 CF F21 full: cost effectiveness
+- 2026-11-26 13:06 | correct | AC311 CF F21 full: recognition
+- 2026-11-26 13:06 | correct | AC311 CF F21 full: consistency
+- 2026-11-26 13:06 | wrong | AC311 CF F21 full: confirmatory value (took verifiability's)
+- 2026-11-26 13:06 | wrong | AC311 CF F21 full: verifiability (took confirmatory's)
