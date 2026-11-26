@@ -9,3 +9,4 @@ metadata:
 # 🎯 MCQ log
 - 2026-11-26 12:43 | correct | AC311 CF: faithful representation
 - 2026-11-26 12:44 | correct | AC311 CF: historical cost
+- 2026-11-26 12:44 | wrong | AC311 CF: materiality vs full disclosure
