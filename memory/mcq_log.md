@@ -46,3 +46,4 @@ metadata:
 - 2026-11-26 13:51 | wrong | AC311 IP classification: under construction for IP
 - 2026-11-26 13:54 | correct | AC311 IP classification: undetermined land retest
 - 2026-11-26 13:55 | correct | AC311 impairment: CGU definition (F21 Q1)
+- 2026-11-26 13:56 | correct | AC311 impairment: F21 Q3 true statement
