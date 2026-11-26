@@ -19,3 +19,4 @@ metadata:
 - 2026-11-26 12:50 | correct | AC311 CF: cost effectiveness
 - 2026-11-26 12:51 | correct | AC311 CF: cost effectiveness applied
 - 2026-11-26 12:51 | correct | AC311 CF: timeliness
+- 2026-11-26 12:51 | correct | AC311 CF: distribution to owners
