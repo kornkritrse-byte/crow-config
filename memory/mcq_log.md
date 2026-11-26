@@ -11,3 +11,4 @@ metadata:
 - 2026-11-26 12:44 | correct | AC311 CF: historical cost
 - 2026-11-26 12:44 | wrong | AC311 CF: materiality vs full disclosure
 - 2026-11-26 12:45 | correct | AC311 CF: full disclosure
+- 2026-11-26 12:45 | correct | AC311 CF: consistency
