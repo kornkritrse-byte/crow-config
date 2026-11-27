@@ -260,3 +260,4 @@ metadata:
 - 2026-11-26 12:42 | goal | Wake early
 - 2026-11-26 12:42 | goal | Morning creative writing
 - 2026-11-27 13:29 | ghost | AC311 Conceptual Framework: A company has a legal right to collect money from a customer
+- 2026-11-27 13:31 | ghost | AC311 Investment Property: You keep reaching for equity/OCI in the wrong places. Name t
