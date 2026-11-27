@@ -112,3 +112,4 @@ metadata:
 - 2026-11-27 13:50 | correct | AC311 ghost T/F: verifiability = consensus not complete agreement
 - 2026-11-27 13:50 | wrong | AC311 ghost T/F: VIU is discounted (PV)
 - 2026-11-27 13:52 | correct | AC311 ghost T/F: impairment eats surplus first
+- 2026-11-27 14:25 | wrong | AC311 ghost T/F: reversal 400 P&L / 100 OCI (was True)
