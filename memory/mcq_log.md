@@ -95,3 +95,4 @@ metadata:
 - 2026-11-27 13:27 | correct | AC311 CF F21 run2: relevance
 - 2026-11-27 13:27 | wrong | AC311 CF F21 run2: verifiability (took understandability's)
 - 2026-11-27 13:27 | wrong | AC311 CF F21 run2: understandability (took verifiability's)
+- 2026-11-27 13:31 | wrong | AC311 ghost T/F: PPE→IP increase 'always' OCI
