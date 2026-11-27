@@ -271,3 +271,4 @@ metadata:
 - 2026-11-27 13:50 | ghost | AC311 Conceptual Framework: VERIFIABILITY: one-line definition. And what does the word '
 - 2026-11-27 13:52 | ghost | AC311 Impairment (TAS 36): Revaluation model: asset has a revaluation surplus of 400,00
 - 2026-11-27 20:40 | ghost | FN201 WACC: Interest on debt: tax-deductible or not? (determines whether
+- 2026-11-27 21:51 | ghost | AC311 Investment Property: Land bought with its future use NOT yet decided (own factory
