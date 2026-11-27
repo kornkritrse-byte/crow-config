@@ -259,3 +259,4 @@ metadata:
 - 2026-11-25 21:01 | goal | MK201 final prep
 - 2026-11-26 12:42 | goal | Wake early
 - 2026-11-26 12:42 | goal | Morning creative writing
+- 2026-11-27 13:29 | ghost | AC311 Conceptual Framework: A company has a legal right to collect money from a customer
