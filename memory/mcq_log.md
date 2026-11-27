@@ -49,3 +49,4 @@ metadata:
 - 2026-11-26 13:56 | correct | AC311 impairment: F21 Q3 true statement
 - 2026-11-26 13:58 | correct | AC311 impairment: F21 Q4 no loss
 - 2026-11-26 14:01 | correct | AC311 impairment: F21 Q5 loss 1.5m
+- 2026-11-27 13:14 | correct | AC311 IP transfer: PPE→IP increase = OCI
