@@ -1255,3 +1255,5 @@ Both decks for sessions 12–15 now on disk in `~/Desktop/AC311/`: `Investment p
 
 
 - **26 Nov 2026 (Korn checked his AC311 material): the contra account is "Allowance for impairment loss", NOT "Accumulated impairment loss".** Use her name in every AC311 drill + model answer from now on (marking friction, same reason as the provision names).
+
+- **Revalued-asset reversal, the rule to teach (fixed 26 Nov after Crow taught a ratio shortcut):** reversal = min(RA, ceiling) − CA → P&L gets back its depreciation-adjusted share FIRST, overflow → revaluation surplus; anything above the ceiling = a new revaluation (move 2, all OCI). Two separate checks: ceiling → is there a move 2 · P&L share → is there a surplus line in the reversal entry. Depreciation-adjusted vs full-750k P&L cap: unknown which his prof uses (F21 has no key), he should check her worked example.
