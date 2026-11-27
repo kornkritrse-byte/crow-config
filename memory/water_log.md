@@ -274,3 +274,4 @@ metadata:
 - 2026-11-27 21:51 | ghost | AC311 Investment Property: Land bought with its future use NOT yet decided (own factory
 - 2026-11-27 21:52 | ghost | AC311 Investment Property: A building is HALF-BUILT and will be rented out to tenants o
 - 2026-11-27 21:54 | ghost | AC311 Investment Property: IP under the FV model (12,000,000) becomes owner-occupied on
+- 2026-11-27 21:55 | ghost | AC311 Investment Property: Owner-occupied PPE (cost model, CA 8,000,000) becomes IP und
