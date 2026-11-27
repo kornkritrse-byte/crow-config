@@ -364,3 +364,4 @@ metadata:
 - 2026-11-27 | Reading | open
 - 2026-11-27 | Bed by 23:30 | open
 - 2026-11-27 | Study AC311 | open
+- 2026-11-27 | — | closed

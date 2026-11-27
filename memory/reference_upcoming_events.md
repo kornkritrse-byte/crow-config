@@ -30,7 +30,7 @@ metadata:
 2026-11-13 | 📘 AC311 MIDTERM 2 (Fri): sessions 8–11, PPE + intangibles (+ impairment TAS 36 likely, since 31 Oct is before it), 30%. Time TBC. Korn 20 Oct 10:35
 2026-11-23 | 📗 AC313 FINAL (Mon) 09:00–12:00, 40% (scope unstated, assume sessions 8–15) → [[study/AC313 Final Map.canvas]]
 2026-11-26 | 📒 MK201 FINAL (Thu) 09:00–12:00, % and scope unstated
-2026-11-28 | 📘 AC311 FINAL (Sat) 09:00, 25%, sessions 12–15 → [[study/AC311 Final Map.canvas]]
+2026-11-28 | 📘 AC311 FINAL (Sat) 10:00 (delayed from 09:00, Korn 27 Nov), 25%, sessions 12–15 → [[study/AC311 Final Map.canvas]]
 2026-12-02 | 📙 FN201 FINAL (Wed) 09:00–12:00, 45%, all MCQ, topics 6–10 → [[study/FN201 Final Map.canvas]]
 2026-12-08 | 📕 BA202 FINAL (Tue) 09:00–12:00, 55%, lectures 8–15 → [[study/BA202 Final Map.canvas]]
 2026-12-13 | 🏁 10K RACE — Samitivej hospital event (register 04:00, GUN 05:00, venue TBC). Target 48:00.

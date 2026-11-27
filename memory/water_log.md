@@ -276,3 +276,4 @@ metadata:
 - 2026-11-27 21:54 | ghost | AC311 Investment Property: IP under the FV model (12,000,000) becomes owner-occupied on
 - 2026-11-27 21:55 | ghost | AC311 Investment Property: Owner-occupied PPE (cost model, CA 8,000,000) becomes IP und
 - 2026-11-27 21:57 | ghost | AC311 Investment Property: PPE (cost model, NO revaluation surplus) → IP at FV. CA 9,07
+- 2026-11-27 21:58 | ghost | AC311 Investment Property: A 10-floor building: 2 floors own office, 8 rented out, and

@@ -367,3 +367,8 @@ He set his own stop time at 16:4x when the night was still theoretical, pushed b
 > "When you know a thing, to hold that you know it; and when you do not know a thing, to allow that you do not know it — this is knowledge."
 > — **Confucius**, *Analects*, II.17
 **Why:** MK201 eve. He'd never read the slides, so he ran on "pure intuition": 25/40 cold, and every miss was a term of art. The day turned when he started writing "idk" / "no clue" in the note box, and later pushed back that one wasn't a guess but an educated elimination. Knowing which of those it is is the skill he takes into 09:00. Round 2 finished at 21/24.
+
+## 2026-11-27 (Fri) — AC311 eve
+> "We can be knowledgeable with other men's knowledge, but we cannot be wise with other men's wisdom."
+> — **Michel de Montaigne**, *Essays*, I.25 "Of Pedantry"
+**Why:** He asked to rerun Chain B because Crow "had to drag him through" it, then did B2 alone on paper and caught his own CA slip. All night he gave the label (P&L) and not the why: the reason has to be his own by 10:00.
