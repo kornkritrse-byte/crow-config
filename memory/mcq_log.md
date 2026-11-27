@@ -114,3 +114,4 @@ metadata:
 - 2026-11-27 13:52 | correct | AC311 ghost T/F: impairment eats surplus first
 - 2026-11-27 14:25 | wrong | AC311 ghost T/F: reversal 400 P&L / 100 OCI (was True)
 - 2026-11-27 14:27 | correct | AC311 T/F: reversal split flipped (300 P&L/200 OCI)
+- 2026-11-27 14:30 | wrong | AC311 T/F: reversal fits P&L bucket (used ratio again)
