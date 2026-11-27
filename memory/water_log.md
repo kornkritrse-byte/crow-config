@@ -269,3 +269,4 @@ metadata:
 - 2026-11-27 13:48 | ghost | AC311 Conceptual Framework: When is an item MATERIAL? One sentence + one example. (Not '
 - 2026-11-27 13:49 | ghost | AC311 Conceptual Framework: What is the COST constraint (cost effectiveness) in the Conc
 - 2026-11-27 13:50 | ghost | AC311 Conceptual Framework: VERIFIABILITY: one-line definition. And what does the word '
+- 2026-11-27 13:52 | ghost | AC311 Impairment (TAS 36): Revaluation model: asset has a revaluation surplus of 400,00
