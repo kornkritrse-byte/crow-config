@@ -357,7 +357,7 @@ metadata:
 - 2026-11-26 | Bed by 23:30 | open
 - 2026-11-26 | Study (AC311) | open
 - 2026-11-26 | Cut up the China shirt as the Samneang raglan fit proxy | open
-- 2026-11-27 | Wake early | open
+- 2026-11-27 | Wake early | done
 - 2026-11-27 | Morning creative writing | open
 - 2026-11-27 | Moving | open
 - 2026-11-27 | Daily journal | open
