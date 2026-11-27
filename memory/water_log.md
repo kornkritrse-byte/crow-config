@@ -263,3 +263,4 @@ metadata:
 - 2026-11-27 13:31 | ghost | AC311 Investment Property: You keep reaching for equity/OCI in the wrong places. Name t
 - 2026-11-27 13:36 | ghost | AC311 IP subsequent measurement: Under the COST model for Investment Property, do you still h
 - 2026-11-27 13:37 | ghost | AC311 IP subsequent measurement: If an entity genuinely can't measure an IP's fair value reli
+- 2026-11-27 13:47 | ghost | AC311 Conceptual Framework: What does the going concern assumption say, and what does it

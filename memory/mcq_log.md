@@ -105,3 +105,4 @@ metadata:
 - 2026-11-27 13:43 | correct | AC311 ghost T/F: relevance ingredients
 - 2026-11-27 13:45 | wrong | AC311 ghost T/F: FR ingredients (timely swapped in)
 - 2026-11-27 13:45 | correct | AC311 ghost T/F: enhancing list (materiality swapped in)
+- 2026-11-27 13:47 | correct | AC311 ghost T/F: going concern lets you use cost + depreciate
