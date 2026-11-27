@@ -275,3 +275,4 @@ metadata:
 - 2026-11-27 21:52 | ghost | AC311 Investment Property: A building is HALF-BUILT and will be rented out to tenants o
 - 2026-11-27 21:54 | ghost | AC311 Investment Property: IP under the FV model (12,000,000) becomes owner-occupied on
 - 2026-11-27 21:55 | ghost | AC311 Investment Property: Owner-occupied PPE (cost model, CA 8,000,000) becomes IP und
+- 2026-11-27 21:57 | ghost | AC311 Investment Property: PPE (cost model, NO revaluation surplus) → IP at FV. CA 9,07
