@@ -104,3 +104,4 @@ metadata:
 - 2026-11-27 13:40 | wrong | AC311 ghost T/F: OCI reported in equity section (F21 P2 Q8)
 - 2026-11-27 13:43 | correct | AC311 ghost T/F: relevance ingredients
 - 2026-11-27 13:45 | wrong | AC311 ghost T/F: FR ingredients (timely swapped in)
+- 2026-11-27 13:45 | correct | AC311 ghost T/F: enhancing list (materiality swapped in)
