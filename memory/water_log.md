@@ -266,3 +266,4 @@ metadata:
 - 2026-11-27 13:47 | ghost | AC311 Conceptual Framework: What does the going concern assumption say, and what does it
 - 2026-11-27 13:47 | ghost | AC311 Conceptual Framework: 'Record expenses in the period the related revenue is recogn
 - 2026-11-27 13:47 | goal | Wake early
+- 2026-11-27 13:48 | ghost | AC311 Conceptual Framework: When is an item MATERIAL? One sentence + one example. (Not '
