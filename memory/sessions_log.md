@@ -10,6 +10,11 @@ metadata:
 ---
 
 # Sessions Log (archive)
+## 2026-11-25 (Wed, 13:16 → 21:11)  *(flushed from SITREP 27 Nov)*
+- MK201 prep (MCQ = Ch 9–15, written = Ch 7–15): 40-card run 25/40 (never read the slides; misses = terms of art), round 2 21/24, all MK ghost cards passed. Trap set 3/5, T6–T10 deferred to Thu morning (ledger 71).
+- FN201 Final Map was invalid JSON since 19 Nov → repaired; FN201 ≈ 10/45 pts covered (T9, T10, T6, T8s6/s9/s10 untouched).
+- Woke 09:00 (wake-early ❌); Wed T session swapped for a lift → lift ❌, 5K ❌. Signed off 21:11, Artis quote Confucius Analects II.17.
+
 ## 2026-11-17 (Tue, from 11:05)  *(flushed from SITREP 20 Nov)*
 - AC311 final material landed: Framework PDF + parked Investment Property deck both read, `study/AC311 Final Map.canvas` built. New standing teaching rule set (his ask, café w/ cousin): question-first, small tweaks before the answer → [[feedback-drill-format]]. First live run: AC311 Conceptual Framework, 2 vocab-recall gaps ghosted.
 - Correction (20:47, post-M2): impairment (TAS 36) was NOT on M2 — carries onto the AC311 final instead. No past-paper exists for Investment Property.

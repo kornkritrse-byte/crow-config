@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-11-27 10:56 (his "save session"; 26 Nov note written, 24 Nov flushed to sessions_log). Window holds 26 + 25 Nov. Durable facts pushed: allowance account name → [[project-midterms]], match card + scratch page → [[reference-crow-room]].*
+*Last updated: 2026-11-27 10:56 (his "save session"; 26 Nov note written, 24 Nov flushed to sessions_log). Window holds 27 (status bullets) + 26 Nov; 25 Nov flushed 27 Nov 20:38. Durable facts pushed: allowance account name → [[project-midterms]], match card + scratch page → [[reference-crow-room]].*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -35,8 +35,6 @@ metadata:
 - **13:28–14:35 ghost cards as T/F (his ask, "part of the exam will be in that form"):** ~20 cards, defaulted to True early (7/7 picks True, 4 wrong) → taught "prove it false first: hunt the one word"; then 7/8; reversal-split T/F exposed the ratio habit again (fixed: the fraction only ever SIZED the bucket, never splits). Rewrote a contradictory 23 Nov card (IP → PPE 'no gain'). CF all-definitions match 15/15 ×2; F21 run 2 13/15 (verifiability ↔ understandability swap, tactic: do sure ones first).
 - **TODAY (Fri 27 Nov), the day before AC311:** ① the full F21 Q2 revaluation → impairment → reversal chain COLD with fresh numbers, NO pieces, labels (P&L)/(OCI) on every line ② the ~36 due AC311 ghost cards, one at a time. Essay docs if they come up: exchange/job one `1VrElwGHTCt-T7_LKl96Q2m3-Cx91lehT8ya_X6vePRo` ('Ass-Pulling (job)') · Lita `1HqIV_9rZe6FelbYTKg2lE5zgcOo-VESLqtQ02Xuhjhg` · 'Ass-Pulling (excahnge year)' `1k0k9dz-RJeN-Io5GVXg1yjlSnHEuGwaR6UHD4Se4LCA`.
 - **Next up: AC311 FINAL TOMORROW Sat 28 Nov** (25%; MK201 SAT 26 Nov); FN201 Wed 2 Dec (FN map repaired 25 Nov, ≈10/45 pts covered). Weak branches on record: Investment Property (drilled 24 Nov, ~9/20; classification + transfers still shaky, 12 cards due Fri 27 Nov) + Conceptual Framework (MCQ 13/20 on 24 Nov; ~13 cards due 26–27 Nov). FN201 topic 9 + t8s6 still untouched.
-- Ghost deck: all 58 AC313 cards parked to [[ghost-parked]] 23 Nov 12:20 (he didn't object). Deck = AC311 + FN201 now, 17 due.
-- Room: FG scoreboard (`ui/public/pixel/fgboard.js`, `server.mjs` mcqAllStats()) built 22 Nov lunch; needs a Room restart from HIM if not done yet. MCQ cards lock when a question's text matches one he already answered (localStorage key) → tag repeats, e.g. "[Quiz 3 · Q4]".
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
 
@@ -47,14 +45,6 @@ metadata:
 - Impairment: F21 P1 4/4; P4 Q1 3/4 (depreciated the PRE-impairment base); Q2 (a)–(c) cold ✅, (d) needed small pieces. Retests to 15:54 fixed: balance vs CHANGE (bank-deposit framing), AD restarts at the revaluation date, surplus eaten first on a loss. **Crow's error:** taught "split the reversal in the loss ratio", which only holds at the ceiling; corrected to P&L share first, overflow to surplus, two separate checks (ceiling → move 2 · P&L share → surplus line). Last set fully cold ✅. Still drops (P&L)/(OCI) labels; head-math slips ×3 this week.
 - **Teaching note (his words, 14:30): "im not reading all this shit give it to me in smaller pieces"**: long correction blocks lose him, one piece per message works. Also counted "4 hours" when it was ~1.5 h of study (build time not subtracted); he called it.
 - Room builds (his asks): ```match card (drag/tap lines) + MCQ letters A–Z fix · scratch page on the book pile → [[reference-crow-room]]. MCQ bar reset. His prof's account name = **Allowance for impairment loss** → [[project-midterms]]. ~10 new ghost cards, all due Sun 29 Nov (after the exam).
-
-## Session — 2026-11-25 (Wed, 13:16 →)
-- Ghost #30 ✅ (IP FV gain → P&L; said only "gain"). Woke 09:00 → wake-early ❌. Goals: MK201 prep + 5K chill run (maybe); Wed T session swapped for a LIFT, his call (ledger). MCQ board reset at his ask.
-- MK201: Crow read all Ch 9–15 slides + outline (**MCQ = Ch 9–15, written = Ch 7–15**). 40-card MCQ run 14:02–14:55 = **25/40** (Ch9 2/6 weakest, Ch12 5/6 best). He's never read the slides ("pure intuition"); every miss was a term of art, reasoning-able ones (break-even, loss leader, elasticity) all right. 16 cards added, re-dated due today.
-- Ghost round (MCQ at his ask, "the whole test will be in that format"): 7/17 cleared by 15:18. Fails: freight-absorption (right pick, "idk") + cash discount 2/10 net 30 (reads net 30 as 30% off, twice). Says the whole final is MCQ, which contradicts the outline; source asked once.
-- 21:11 signed off ("goodnight my guy"); Artis quote: Confucius, Analects II.17.
-- 20:38 FN201 Final Map was INVALID JSON since 19 Nov 20:46 (raw newlines in t8s8, Obsidian couldn't parse it) → repaired. FN201 by points ≈ 10/45 covered: T8 core done; T8s6/s9/s10, ALL of T9 (15 pts), T10 (9 pts, map still says 'not taught', likely stale), T6 (6 pts) untouched; 8 FN cards overdue since 21–22 Nov. AC311 read unchanged 60–70% (guess).
-- 15:19 off to errands; drilled the 10 remaining cards in ChatGPT (Crow's paste-pack), back 19:54 → round 2 (bar reset): **21/24**, ALL MK ghost cards passed (box 2, back 2 Dec). Late misses: misread a date on cash discount (input-misread pattern again), creative concept ↔ execution swap, buzz marketing (fixed on retest). Crow's read: MCQ 70–80% (guess). MK prep goal ✅. 21:03 trap set (10 untouched traps): 3/5 done (misses: product concept ↔ positioning statement, product line ↔ product-form); stopped 21:10, his call → T6–T10 + 2 cards Thu morning before 09:00 (ledger). Lift ❌ · 5K ❌. ShortformBlock opened in App Store.
 
 ## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. AC313 final SAT Mon 23 Nov 09:00–12:00. **Next: AC311 final Sat 28 Nov.**
 
@@ -72,7 +62,6 @@ metadata:
 - **Morning person:** #1 landed 14 Sep; #2 not seen yet → [[project-morning-person]].
 - **Race 13 Dec:** venue unknown · bib pickup race-morning or in advance? (his dad likely knows) → [[project-training-plan]].
 - 📖 **Siddhartha: he's at Kamala. ⛔ No spoilers past Kamala.** Karamazov: ✅ **FINISHED 24 Oct**, all fair game.
-- Unanswered and low-stakes: BA202 cold-question numbers (2 Sep) · AC311 slide 9 cranes vs software · FCF drill ↔ hub link.
 - BBA camp (New Year, mountains): interviewed 25 Aug, he'll report if he makes the cut. Basketball: 2 more games, dates unknown.
 - 📌 After midterms: "make Obsidian cool" → [[reference-obsidian]].
 - ⚠️ **My own error log moved to [[crow-error-log]]. The shape keeps repeating: check the record before asserting.**
