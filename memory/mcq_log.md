@@ -65,3 +65,18 @@ metadata:
 - 2026-11-27 13:20 | correct | AC311 CF def-match: comparability
 - 2026-11-27 13:20 | correct | AC311 CF def-match: full disclosure
 - 2026-11-27 13:20 | correct | AC311 CF def-match: confirmatory value
+- 2026-11-27 13:24 | correct | AC311 CF def-match decoys: faithful representation
+- 2026-11-27 13:24 | correct | AC311 CF def-match decoys: timeliness
+- 2026-11-27 13:24 | correct | AC311 CF def-match decoys: historical cost
+- 2026-11-27 13:24 | correct | AC311 CF def-match decoys: consistency
+- 2026-11-27 13:24 | correct | AC311 CF def-match decoys: relevance
+- 2026-11-27 13:24 | correct | AC311 CF def-match decoys: distribution to owners
+- 2026-11-27 13:24 | correct | AC311 CF def-match decoys: materiality
+- 2026-11-27 13:24 | correct | AC311 CF def-match decoys: verifiability
+- 2026-11-27 13:24 | correct | AC311 CF def-match decoys: understandability
+- 2026-11-27 13:24 | correct | AC311 CF def-match decoys: going concern
+- 2026-11-27 13:24 | correct | AC311 CF def-match decoys: recognition
+- 2026-11-27 13:24 | correct | AC311 CF def-match decoys: cost effectiveness
+- 2026-11-27 13:24 | correct | AC311 CF def-match decoys: comparability
+- 2026-11-27 13:24 | correct | AC311 CF def-match decoys: full disclosure
+- 2026-11-27 13:24 | correct | AC311 CF def-match decoys: confirmatory value
