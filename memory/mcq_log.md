@@ -99,3 +99,4 @@ metadata:
 - 2026-11-27 13:31 | correct | AC311 ghost T/F: only PPE→IP touches OCI
 - 2026-11-27 13:36 | correct | AC311 ghost T/F: IP cost model must disclose FV
 - 2026-11-27 13:36 | wrong | AC311 ghost T/F: switch FV→cost freely
+- 2026-11-27 13:37 | correct | AC311 ghost T/F: no reliable FV → cost, residual 0
