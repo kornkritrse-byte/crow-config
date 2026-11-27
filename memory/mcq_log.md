@@ -109,3 +109,4 @@ metadata:
 - 2026-11-27 13:47 | correct | AC311 ghost T/F: matching ≠ historical cost
 - 2026-11-27 13:48 | correct | AC311 ghost T/F: materiality entity-specific
 - 2026-11-27 13:49 | correct | AC311 ghost T/F: cost = constraint not enhancing
+- 2026-11-27 13:50 | correct | AC311 ghost T/F: verifiability = consensus not complete agreement
