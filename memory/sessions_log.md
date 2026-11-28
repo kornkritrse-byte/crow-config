@@ -10,6 +10,11 @@ metadata:
 ---
 
 # Sessions Log (archive)
+## 2026-11-26 (Thu, 10:37 → ~15:54)  *(flushed from SITREP 28 Nov)*
+- MK201 final SAT. Goals: Study AC311 + cut the China shirt as the Samneang RAGLAN fit proxy (photograph tag + flat-measure first). Essay `1VrE…` grammar fixed in-doc.
+- AC311: CF matching 13/15 on the full 20-option run; IP transfers 3/4 (no-surplus decrease → OCI ❌); classification 5/7 (undetermined land, under construction). Impairment F21 P1 4/4, P4 Q1 3/4 (pre-impairment base), Q2 (a)–(c) cold.
+- Crow's error: taught "split the reversal in the loss ratio" → corrected. Teaching note, his words: "give it to me in smaller pieces". Room builds: match card + scratch page.
+
 ## 2026-11-25 (Wed, 13:16 → 21:11)  *(flushed from SITREP 27 Nov)*
 - MK201 prep (MCQ = Ch 9–15, written = Ch 7–15): 40-card run 25/40 (never read the slides; misses = terms of art), round 2 21/24, all MK ghost cards passed. Trap set 3/5, T6–T10 deferred to Thu morning (ledger 71).
 - FN201 Final Map was invalid JSON since 19 Nov → repaired; FN201 ≈ 10/45 pts covered (T9, T10, T6, T8s6/s9/s10 untouched).

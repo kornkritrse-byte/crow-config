@@ -10,7 +10,7 @@ metadata:
 ---
 
 # Situation Report
-*Last updated: 2026-11-27 10:56 (his "save session"; 26 Nov note written, 24 Nov flushed to sessions_log). Day-end 27 Nov 21:58 (his "can I go to sleep"). Window holds 27 (status bullets) + 26 Nov; 25 Nov flushed 27 Nov 20:38. Durable facts pushed: allowance account name → [[project-midterms]], match card + scratch page → [[reference-crow-room]].*
+*Last updated: 2026-11-28 14:46 (save session; 26 Nov note flushed). Prev: 2026-11-27 10:56 (his "save session"; 26 Nov note written, 24 Nov flushed to sessions_log). Day-end 27 Nov 21:58 (his "can I go to sleep"). Window holds 27 (status bullets) + 26 Nov; 25 Nov flushed 27 Nov 20:38. Durable facts pushed: allowance account name → [[project-midterms]], match card + scratch page → [[reference-crow-room]].*
 
 ## 📏 MAINTENANCE RULE (Crow — maintain live, verify at close)
 1. **Maintain this file live during the session** — update the status line and session-note bullets as things happen. Day's end is a *verify + flush*, not a from-scratch rewrite: push durable facts out, move the note falling out of the window to [[sessions-log]] (condensed; full text survives in git), bump the date.
@@ -27,10 +27,14 @@ metadata:
    - ⚠️ **A month can pass between sessions** (21 Jul → 23 Aug). On a long gap: don't assume the last status line is live — ask what changed before acting on it.
 
 ## 🚪 Current status
-- **AWAY (27 Nov, ~21:58) — off to: sleep. Tomorrow: ~9 CF ghost cards over breakfast, then AC311 FINAL at 10:00 (delayed from 09:00, his word; Life calendar moved).** ASK ON RETURN (only these): AC311 final, how did it go · CF cards over breakfast done? (ledger) · Bed by 23:30 on 26 + 27 Nov · MK201 final, how did it go (never asked) · said/did 71–72 (MK trap set + 06:00 wake on 26 Nov) · shirt cut? + is the RAGLAN a 2nd Samneang product or replacing the Henley · journal + reading 25–27 Nov. Then FN201 only through Tue 1 Dec (final Wed 2 Dec).
-- **Next up: AC311 FINAL TOMORROW Sat 28 Nov, 10:00** (25%; MK201 SAT 26 Nov); FN201 Wed 2 Dec (FN map repaired 25 Nov, ≈10/45 pts covered). Weak branches on record: Investment Property (drilled 24 Nov, ~9/20; classification + transfers still shaky, 12 cards due Fri 27 Nov) + Conceptual Framework (MCQ 13/20 on 24 Nov; ~13 cards due 26–27 Nov). FN201 topic 9 + t8s6 still untouched.
+- **HERE 28 Nov 14:46** (his "save session", post-exam). ASK ON RETURN (only these): AC311 final, how did it go · CF cards over breakfast done? (ledger; he spent 09:41–09:56 on F21 Part 4 instead) · Bed by 23:30 on 26 + 27 Nov · MK201 final, how did it go (never asked) · said/did 71–72 · shirt cut? + RAGLAN 2nd product or replacing the Henley · journal + reading 25–28 Nov. Now FN201 only through Tue 1 Dec (final Wed 2 Dec 09:00).
+- **Next up: FN201 FINAL Wed 2 Dec** (AC311 SAT 28 Nov 10:00; MK201 SAT 26 Nov); FN201 Wed 2 Dec (FN map repaired 25 Nov, ≈10/45 pts covered). Weak branches on record: Investment Property (drilled 24 Nov, ~9/20; classification + transfers still shaky, 12 cards due Fri 27 Nov) + Conceptual Framework (MCQ 13/20 on 24 Nov; ~13 cards due 26–27 Nov). FN201 topic 9 + t8s6 still untouched.
   - ⏸️ **PAUSED thread (21 Oct 15:24, his ask: "don't forget… we are going to revisit this later").** People who SAW his deeper side and still chose his surface ("a bummer that's how it's going to be"). Crow's last move: the Katya parallel (knew Mitya best, handed over the letter: calculating or hurt?) + guess that some chose the surface because the surface hurt them + **open Q: has he tested "that's how it's going to be" with any of them, or is it the courage thing again?** Resume HERE when he's ready; don't force it.
   - Also still open (low-stakes): Klao practice recordings · the racing question for grandpa (unhurried) · race venue/bib pickup (dad) · commonplace book → he has a PHYSICAL one now (7 Oct); `~/Korn/` = book-conversation notes only.
+
+## Session — 2026-11-28 (Sat, 09:41 → 09:56 pre-exam, saved 14:46)
+- 09:41, 19 min before AC311: asked for the full F21 Part 4 entry list → sent (Q1 cost-model impairment + further loss; Q2 revaluation → impairment eats 250k surplus → reversal capped at ceiling 3,600,000, P&L gets its full 750k back + 50k OCI, then revalue +1,000,000 OCI). Ghost card on the old 4/5 split rewritten to match.
+- His questions: why the reversal is 800k not the 1,000,000 gap (a year of dep: 900k no-imp path vs 700k actual), and argued the contra-to-contra AD move keeps the reversal at full value → no, the AD part isn't reversal. Mixed up B2's 1,200,000 allowance with F21's 750k. AC311 final SAT 10:00.
 
 ## Session — 2026-11-27 (Fri, 10:56 → 21:58, AC311 eve)
 - Goal: Study AC311. Full revaluation → impairment → reversal chain COLD on paper = perfect (12:49). Ceiling limits only the REVERSAL; above it = TAS 16 revaluation (move 2), cost model stops at the cap.
@@ -39,14 +43,6 @@ metadata:
 - 20:37 Room restart. Chain B redone with pieces (misread years, reversal off RA not ceiling, Dr Building) → asked to rerun himself → B2 on paper ✅ (self-caught CA slip). Sent cost-vs-revaluation side-by-side. IP cards 7/7 cold. 3 new cards (due 30 Nov).
 - Pattern all night: gives the LABEL, never the WHY; drops (P&L) on entries. Final moved to 10:00 (his word, calendar updated). CF cards (~9) left for breakfast (ledger).
 - 21:58 signed off; Artis: Montaigne, "Of Pedantry".
-
-## Session — 2026-11-26 (Thu, 10:37 → ~15:54)
-- MK201 final SAT ("done with mk test"). Goals: Study (AC311) + cut the China shirt as the Samneang **RAGLAN** fit proxy (new; told him: photograph the tag + flat-measure BEFORE cutting, the UR Henley lost its tag). Ghost #31 dodged all morning, then failed on the no-surplus decrease.
-- Essay `1VrE…` (Thammasat → Europe, culinary): grammar fixed in-doc at his ask + 'has led' → 'draws'; closing idea = callback to the faculty speaker (not inserted). He defended the "clothes that wore the gardeners" inversion; Crow had called it broken too fast.
-- AC311 CF: F21 P3 matching 14/15 as 4-option cards → **13/15 on the full 20-option run** (confirmatory ↔ verifiability swap). IP transfers 3/4 (decrease with NO surplus → he put it in OCI). IP classification 5/7 (undetermined land AGAIN; under construction → picked the long technical-sounding option, "sounds right").
-- Impairment: F21 P1 4/4; P4 Q1 3/4 (depreciated the PRE-impairment base); Q2 (a)–(c) cold ✅, (d) needed small pieces. Retests to 15:54 fixed: balance vs CHANGE (bank-deposit framing), AD restarts at the revaluation date, surplus eaten first on a loss. **Crow's error:** taught "split the reversal in the loss ratio", which only holds at the ceiling; corrected to P&L share first, overflow to surplus, two separate checks (ceiling → move 2 · P&L share → surplus line). Last set fully cold ✅. Still drops (P&L)/(OCI) labels; head-math slips ×3 this week.
-- **Teaching note (his words, 14:30): "im not reading all this shit give it to me in smaller pieces"**: long correction blocks lose him, one piece per message works. Also counted "4 hours" when it was ~1.5 h of study (build time not subtracted); he called it.
-- Room builds (his asks): ```match card (drag/tap lines) + MCQ letters A–Z fix · scratch page on the book pile → [[reference-crow-room]]. MCQ bar reset. His prof's account name = **Allowance for impairment loss** → [[project-midterms]]. ~10 new ghost cards, all due Sun 29 Nov (after the exam).
 
 ## 🎓 Midterms 1: DONE (all 6 sat by 4 Oct) → [[project-midterms]]. Finals carry-over lives there. AC313 final SAT Mon 23 Nov 09:00–12:00. **Next: AC311 final Sat 28 Nov.**
 
