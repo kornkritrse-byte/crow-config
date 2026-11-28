@@ -365,3 +365,9 @@ metadata:
 - 2026-11-27 | Bed by 23:30 | open
 - 2026-11-27 | Study AC311 | open
 - 2026-11-27 | — | closed
+- 2026-11-28 | Wake early | open
+- 2026-11-28 | Morning creative writing | open
+- 2026-11-28 | Training: Lift + easy 30′ | open
+- 2026-11-28 | Daily journal | open
+- 2026-11-28 | Reading | open
+- 2026-11-28 | Bed by 23:30 | open
