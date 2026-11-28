@@ -54,6 +54,7 @@
 - [Confirm Before Sending](feedback_confirm_before_sending.md) — always confirm before sending calendar invites or emails to other people — no exceptions
 - [Drill Format](feedback_drill_format.md) — teach in SMALL BLOCKS, one open question at a time, correct as he goes — never a full structured explainer up front; question-first forces retrieval, which is where his recognition-not-recall gap actually gets fixed
 - [Numbers as Digits](feedback_numbers_as_digits.md) — in number drills write digits (10,000,000), never spelled out, even in voice replies; givens go in an on-screen block (his ask 29 Oct)
+- [STQ Only](feedback_stq_only.md) — NEW 28 Nov: FN201 drills use the real STQ questions + numbers only; changed numbers only when HE asks
 - [MCQ Format Always](feedback_mcq_format.md) — NEW 22 Nov: every multiple-choice question goes in the ```mcq fenced card, never plain-text lettered options, no exceptions; feeds the MCQ percentage tube
 - [Silent Misses](feedback_silent_misses.md) — Korn ignores suggestions that don't fit instead of saying so; silence ≠ agreement, a "nah, doesn't fit" is all it takes
 - [Session Cohesion](feedback_session_cohesion.md) — read memory at every session start to maintain continuity and consistent character
