@@ -136,3 +136,4 @@ metadata:
 - 2026-11-28 18:06 | correct | STQ09 Q4.1 PI indicates wealth
 - 2026-11-28 18:07 | wrong | STQ09 Q4.2 PI reinvests at WACC
 - 2026-11-28 18:08 | correct | STQ09 Q4.3 one PI value
+- 2026-11-28 18:09 | correct | STQ09 Q4.4 PI uses all CFs (NOT trap)
