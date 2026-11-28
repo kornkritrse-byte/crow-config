@@ -130,3 +130,4 @@ metadata:
 - 2026-11-28 17:56 | correct | STQ09 Q2.5 multiple IRRs
 - 2026-11-28 18:00 | wrong | STQ09 Q3.1 MIRR 'does NOT indicate wealth' negation
 - 2026-11-28 18:02 | correct | STQ09 Q3.2 MIRR reinvests at WACC
+- 2026-11-28 18:04 | correct | STQ09 Q3.3 MIRR considers TVM
