@@ -128,3 +128,4 @@ metadata:
 - 2026-11-28 17:55 | correct | STQ09 Q2.3 IRR considers TVM
 - 2026-11-28 17:55 | correct | STQ09 Q2.4 IRR uses all CFs
 - 2026-11-28 17:56 | correct | STQ09 Q2.5 multiple IRRs
+- 2026-11-28 18:00 | wrong | STQ09 Q3.1 MIRR 'does NOT indicate wealth' negation
