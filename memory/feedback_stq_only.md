@@ -1,5 +1,6 @@
 ---
 name: feedback-stq-only
+aliases: ["feedback-stq-only"]
 description: FN201 drills use the actual STQ questions (and their numbers) only; fresh/changed numbers ONLY when he asks
 metadata:
   node_type: memory
