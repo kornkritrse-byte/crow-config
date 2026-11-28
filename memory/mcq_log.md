@@ -124,3 +124,4 @@ metadata:
 - 2026-11-28 17:46 | correct | STQ09 Q1.4 NPV value-additive
 - 2026-11-28 17:47 | correct | STQ09 Q1.5 only one NPV
 - 2026-11-28 17:48 | correct | STQ09 Q2.1 IRR reflects risk
+- 2026-11-28 17:53 | wrong | STQ09 Q2.2 IRR reinvests at IRR not WACC
