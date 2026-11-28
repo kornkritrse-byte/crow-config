@@ -125,3 +125,4 @@ metadata:
 - 2026-11-28 17:47 | correct | STQ09 Q1.5 only one NPV
 - 2026-11-28 17:48 | correct | STQ09 Q2.1 IRR reflects risk
 - 2026-11-28 17:53 | wrong | STQ09 Q2.2 IRR reinvests at IRR not WACC
+- 2026-11-28 17:55 | correct | STQ09 Q2.3 IRR considers TVM
