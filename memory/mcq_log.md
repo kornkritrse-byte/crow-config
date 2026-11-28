@@ -133,3 +133,4 @@ metadata:
 - 2026-11-28 18:04 | correct | STQ09 Q3.3 MIRR considers TVM
 - 2026-11-28 18:05 | correct | STQ09 Q3.4 MIRR uses all CFs
 - 2026-11-28 18:05 | correct | STQ09 Q3.5 MIRR standard cut-off (WACC)
+- 2026-11-28 18:06 | correct | STQ09 Q4.1 PI indicates wealth
