@@ -134,3 +134,4 @@ metadata:
 - 2026-11-28 18:05 | correct | STQ09 Q3.4 MIRR uses all CFs
 - 2026-11-28 18:05 | correct | STQ09 Q3.5 MIRR standard cut-off (WACC)
 - 2026-11-28 18:06 | correct | STQ09 Q4.1 PI indicates wealth
+- 2026-11-28 18:07 | wrong | STQ09 Q4.2 PI reinvests at WACC
