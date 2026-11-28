@@ -126,3 +126,4 @@ metadata:
 - 2026-11-28 17:48 | correct | STQ09 Q2.1 IRR reflects risk
 - 2026-11-28 17:53 | wrong | STQ09 Q2.2 IRR reinvests at IRR not WACC
 - 2026-11-28 17:55 | correct | STQ09 Q2.3 IRR considers TVM
+- 2026-11-28 17:55 | correct | STQ09 Q2.4 IRR uses all CFs
