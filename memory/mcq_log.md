@@ -117,3 +117,4 @@ metadata:
 - 2026-11-27 14:30 | wrong | AC311 T/F: reversal fits P&L bucket (used ratio again)
 - 2026-11-27 14:32 | correct | AC311 T/F: reversal bucket overflow 300/200
 - 2026-11-27 14:34 | wrong | AC311 T/F: reversal with depreciation, bucket resize (method-dependent)
+- 2026-11-28 15:03 | correct | FN201 T9 NPV=0 -> PI=1, IRR=WACC
