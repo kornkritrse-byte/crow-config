@@ -121,3 +121,4 @@ metadata:
 - 2026-11-28 17:42 | correct | STQ09 Q1.1 NPV reflects risk
 - 2026-11-28 17:43 | correct | STQ09 Q1.2 NPV reinvests at WACC
 - 2026-11-28 17:45 | correct | STQ09 Q1.3 NPV = shareholder wealth
+- 2026-11-28 17:46 | correct | STQ09 Q1.4 NPV value-additive
